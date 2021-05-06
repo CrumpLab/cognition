@@ -1,0 +1,55 @@
+# see https://pkgdown.r-lib.org/articles/pkgdown.html for yml help
+url: https://crumplab.github.io/cognition
+
+template:
+  opengraph:
+    image:
+      src: logo.png
+    twitter:
+      creator: "@MattCrump_"
+      card: summary
+  params:
+    ganalytics: UA-79429674-12
+
+development:
+  mode: unreleased
+
+authors:
+  Matthew Crump:
+    href: "https://crumplab.github.io"
+
+toc:
+  depth: 2
+
+pkgdown:
+  as_is: true
+
+navbar:
+  structure:
+    left:
+    - home
+    - syllabus
+    - textbook
+    right:
+    - github
+    - news
+  components:
+    home:
+      icon: fa-home fa-lg
+      href: index.html
+    syllabus:
+      text: Syllabus
+      menu:
+      - text: Fall 2021
+        href: articles/course_docs/Fall_2021_syllabus.html
+    textbook:
+      text: Textbook
+      menu:
+      - text: Cognition the textbook
+        href: textbook/index.html
+    news:
+      text: news
+      href: news/index.html
+    github:
+      icon: fa-lg fa-github
+      href: https://github.com/CrumpLab/cognition

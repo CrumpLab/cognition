@@ -1,0 +1,96 @@
+---
+title: "Syllabus"
+output: pdf_document
+---
+
+### PSYC 7709G – Statistical Methods Practicum I
+
+Fall 2020
+
+Location: online (zoom links provided on blackboard)
+Time: Thursdays 12:30pm-2:00pm
+
+Instructor:  Matthew Crump, [mcrump@brooklyn.cuny.edu](mcrump@brooklyn.cuny.edu)
+
+## Course Description
+
+This course is designed as a parallel lab component to PSYC 7705G: Statistical Methods in Psychology – I, which provides in depth treatment of descriptive statistics, probability distributions, and inferential statistics. This lab course will introduce students to the open-source statistical software environment R and R-studio as a tool to reinforce statistical concepts through simulation techniques, and develop practical skills in data-analysis.
+
+Recommended Prerequisites: Undergraduate Statistics, College Algebra
+
+Recommended Co-requisite: PSYC 7705G: Statistical Methods in Psychology – I
+
+**Course objectives**: in this course you will learn:
+
+1.	Basic scripting in R: use of variables, logic, loops, functions, intrinsics, packages.
+2.	Data transformation: processing data-files into a desired form for a desired analysis.
+3.	Data visualization: plotting and graphing of data, creation of journal-quality figures in R.
+4.	Data Simulation: how to create statistical models of data sets for advanced sample-size planning, as well as evaluating existing findings in the literature.
+5.	Communicating reproducible research: how to use R Markdown scripts to create reproducible documents containing statistical analyses.
+
+## Course Materials
+
+All of the course materials will be available in a timely fashion on this course website and/or blackboard. This is a companion lab course for PSYC 7705G: Statistical Methods in Psychology – I, and the readings for each week are described in the syllabus for PSYC 7705G.
+
+## Course Structure
+
+We are scheduled to have synchronous online meetings on a weekly basis. We will decide as a class how to best use this time to accomplish the course goals. In general, the lab for each week will focus on using R to reinforce statistical concepts that are discussed in the lecture portion of the course. Lab instruction will focus on the rudimentary R knowledge needed to demonstrate statistical phenomena of interest, example coding exercises, and a generalization exercise for students to demonstrate their independent knowledge. By completing the assignments, students will create a coding portfolio demonstrating a variety of data-analysis and communication skills.
+
+## Course Assessments
+
+There will be two forms of assessment, including 12 weekly lab assignments (72%) and a four part semester long project (28%), serving as the final exam for the course. If this class was run in person, we would be in a computer lab, and much of the time would be reserved for completing the lab assignment (after a lab tutorial) during the lab time. So, the lab assignments will be designed with similar expectations in terms of time needed to complete (and we may decide to use our online meeting time in a similar way).
+
+The final project will involve an integrative data-analysis or statistical demonstration project. Multiple options will be given for the format of this exam, and students may request permission to have their own ideas approved for the final project. The main goal of the final project is to demonstrate mastery of the course concepts culminating in the production of a reproducible analysis. The schedule and assignment due dates are below:
+
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE, eval=TRUE}
+#library(data.table)
+library(readxl)
+Lectures <- read_excel("Schedule.xlsx", sheet = 1, col_names = TRUE, col_types = NULL, na = "", skip = 0)
+Lectures$Week <- as.character(Lectures$Week)
+Lectures[is.na(Lectures)] <- " "
+#Lectures <- fread("Lectures.csv")
+knitr::kable(Lectures)
+
+```
+
+### Assignments and Grading
+
+There are 12 weekly assignments, and a final project. The grading rubric is below:
+
+| Assignment |  Points| Total|
+|:----------|--------:|-------:|
+| Weekly assignments | 6 | 72|
+| Semester Project |  | 28|
+|||100|
+
+### University’s policy on Academic Integrity
+
+The faculty and administration of Brooklyn College support an environment free from cheating and plagiarism. Each student is responsible for being aware of what constitutes cheating and plagiarism and for avoiding both. The complete text of the CUNY Academic Integrity Policy and the Brooklyn College procedure for policy implementation can be found at <http://www.brooklyn.cuny.edu/bc/policies>. If a faculty member suspects a violation of academic integrity and, upon investigation, confirms that violation, or if the student admits the violation, the faculty member MUST report the violation. Students should be aware that faculty may use plagiarism detection software.
+
+---
+
+### Missing an Exam or class
+
+Students are expected to attend all classes. In the event of an emergency, contact me as soon as possible. If you are missing a class for religious reasons refer to the state law regarding non-attendance because of religious beliefs noted in the front matter of the Undergraduate Bulletin and Graduate Bulletin. These may be found on the Academic Calendars, Course Schedules, and Bulletins page of the Registrar’s website. See also the student bereavement policy at <http://www.brooklyn.cuny.edu/web/about/initiatives/policies/bereavement.php>.
+
+
+---
+
+### Accessibility
+
+It is important to me that the course be accessible to all students. The Center for Student Disability Services (CSDS) will be working remotely for the fall semester. In order to receive disability-related academic accommodations students must first be registered with CSDS. Students who have a documented disability or suspect they may have a disability are invited to schedule an interview by calling (718) 951-5538 or emailing <testingcsds@brooklyn.cuny.edu>. If you have already registered with CSDS, email <Josephine.Patterson@brooklyn.cuny.edu> or <testingcsds@brooklyn.cuny.edu> to ensure the accommodation email is sent to your professor.
+
+---
+
+### Email Correspondence
+
+I will regularly use e-mail to send out announcements, changes in the syllabus, reminders about tests or due dates etc. It is your responsibility to check e-mail regularly to keep up-to-date with these announcements. I will use the e-mail address you have listed with the College. Therefore, please make sure that this is indeed the correct address.
+
+#### General Help with Research and Writing
+
+The Library maintains a collection of links to sites that can assist you with proper citation format and paraphrasing and quoting other authors at [Research & Writing Help](https://library.brooklyn.cuny.edu/resources/?service=research-help).  The Learning Center has writing tutors available to help you with your writing [http://lc.brooklyn.cuny.edu/](http://lc.brooklyn.cuny.edu/).
+
+The best learning is done in conversation with others, whether they are people—classmates, teachers, friends—or texts—books, articles, essays, poems, films etc. It should not be a solitary process. However, the assignments that you hand in for this course must be done on your own, should represent your own thinking, and should be original work that you have done for this particular course. A good way to balance these two seemingly contradictory approaches (collaborative learning and original individually-produced work) without knowingly—or, even unwittingly—resorting to plagiarism or other forms of academic misconduct is to learn and meticulously observe the rules for citing the work of others (this could be the great point your roommate made that you used in your paper, it could be a well-turned phrase from an academic essay, or it could be anything in between). It is your responsibility to learn what constitutes plagiarism and the correct rules for citing sources—read the information on the following website carefully: [http://www.brooklyn.cuny.edu/bc/policies/](http://www.brooklyn.cuny.edu/bc/policies/). The bottom line is: passing off anyone’s words or ideas as your own for any reason whatsoever is plagiarism.
+
+

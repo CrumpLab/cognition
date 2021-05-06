@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>8 Z tests | Reproducible statistics for psychologists with R</title>
+<meta name="author" content="Matthew J. C. Crump">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.2"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.5.3/header-attrs.js"></script><script src="libs/jquery-3.5.1/jquery-3.5.1.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.5.3/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.5.3/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.2.3.9000/tabs.js"></script><script src="libs/bs3compat-0.2.3.9000/bs3compat.js"></script><link href="libs/bs_font_google_work%20sans-0.2.3.9000/font.css" rel="stylesheet">
+<link href="libs/bs_font_google_major%20mono%20display-0.2.3.9000/font.css" rel="stylesheet">
+<link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="libs/kePrint-0.0.1/kePrint.js"></script><link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-TJYWEN5QYP"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-TJYWEN5QYP');
+    </script><link rel="icon" href="https://crumplab.github.io/rstatsforpsych/favicon.ico">
+<meta property="og:card" content="website">
+<meta property="og:title" content="8 Z tests | Reproducible statistics for psychologists with R">
+<meta property="og:image" content="https://crumplab.github.io/rstatsforpsych/imgs/cover.png">
+<meta property="og:url" content="https://crumplab.github.io/rstatsforpsych/">
+<meta property="og:description" content="A lab curriculum for psych stats that introduces R and scripting for reproducible analyses.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@MattCrump_">
+<meta name="twitter:title" content="8 Z tests | Reproducible statistics for psychologists with R">
+<meta name="twitter:description" content="A lab curriculum for psych stats that introduces R and scripting for reproducible analyses.">
+<meta name="twitter:image" content="https://crumplab.github.io/rstatsforpsych/imgs/rstats_large.png">
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/mark.min.js"></script><!-- CSS --><link rel="stylesheet" href="custom.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="Lab Tutorials">Reproducible statistics for psychologists with R</a>:
+        <small class="text-muted">Lab Tutorials</small>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Welcome</a></li>
+<li><a class="" href="preface.html">Preface</a></li>
+<li class="book-part">Getting started</li>
+<li><a class="" href="r-rstudio-github.html">R, RStudio, &amp; Github</a></li>
+<li><a class="" href="basic-r-programming.html">Basic R programming</a></li>
+<li><a class="" href="practice-problems.html">Practice problems</a></li>
+<li><a class="" href="coding-reference.html">Coding Reference</a></li>
+<li><a class="" href="textbooks-and-other-resources.html">Textbooks and Other Resources</a></li>
+<li class="book-part">Labs</li>
+<li><a class="" href="r-basics.html"><span class="header-section-number">1</span> R Basics</a></li>
+<li><a class="" href="descriptives.html"><span class="header-section-number">2</span> Descriptives</a></li>
+<li><a class="" href="distributions-i.html"><span class="header-section-number">3</span> Distributions I</a></li>
+<li><a class="" href="distributions-ii.html"><span class="header-section-number">4</span> Distributions II</a></li>
+<li><a class="" href="sampling-distributions.html"><span class="header-section-number">5</span> Sampling Distributions</a></li>
+<li><a class="" href="statistical-inference.html"><span class="header-section-number">6</span> Statistical Inference</a></li>
+<li><a class="" href="binomial-test.html"><span class="header-section-number">7</span> Binomial Test</a></li>
+<li><a class="active" href="z-tests.html"><span class="header-section-number">8</span> Z tests</a></li>
+<li><a class="" href="chi-square.html"><span class="header-section-number">9</span> Chi Square</a></li>
+<li><a class="" href="t-tests.html"><span class="header-section-number">10</span> T-tests</a></li>
+<li><a class="" href="simulation-and-power-analysis.html">Simulation and Power Analysis</a></li>
+<li><a class="" href="correlation.html"><span class="header-section-number">11</span> Correlation</a></li>
+<li><a class="" href="regression.html"><span class="header-section-number">12</span> Regression</a></li>
+<li><a class="" href="semester-1-project.html">Semester 1 project</a></li>
+<li><a class="" href="references-1.html">References</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/CrumpLab/rstatsforpsych">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="z-tests" class="section level1" number="8">
+<h1>
+<span class="header-section-number">8</span> Z tests<a class="anchor" aria-label="anchor" href="#z-tests"><i class="fas fa-link"></i></a>
+</h1>
+<p>“10/8/2020 | Last Compiled: 2020-12-14”</p>
+<div id="reading-3" class="section level2" number="8.1">
+<h2>
+<span class="header-section-number">8.1</span> Reading<a class="anchor" aria-label="anchor" href="#reading-3"><i class="fas fa-link"></i></a>
+</h2>
+<p><span class="citation"><a href="references-1.html#ref-vokeyThinkingData7th2018" role="doc-biblioref">Vokey &amp; Allen</a>,<a class="footnote-ref" tabindex="0" data-toggle="popover" data-content='&lt;p&gt;&lt;a href="references-1.html#ref-vokeyThinkingData7th2018" role="doc-biblioref"&gt;2018&lt;/a&gt;.&lt;/p&gt;'><sup>27</sup></a></span> Chapter 12; <span class="citation"><a href="references-1.html#ref-abdiExperimentalDesignAnalysis2009" role="doc-biblioref">Abdi, Edelman, Dowling, &amp; Valentin</a><a class="footnote-ref" tabindex="0" data-toggle="popover" data-content='&lt;p&gt;&lt;a href="references-1.html#ref-abdiExperimentalDesignAnalysis2009" role="doc-biblioref"&gt;2009&lt;/a&gt;.&lt;/p&gt;'><sup>28</sup></a></span> Appendix D</p>
+</div>
+<div id="overview-7" class="section level2" number="8.2">
+<h2>
+<span class="header-section-number">8.2</span> Overview<a class="anchor" aria-label="anchor" href="#overview-7"><i class="fas fa-link"></i></a>
+</h2>
+<div class="videoWrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m6PedhaOWT4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<ol style="list-style-type: decimal">
+<li>Review</li>
+<li>Practical I: Z-scores</li>
+<li>Concept I: Central Limit Theorem</li>
+<li>Practical II: Z-tests</li>
+</ol>
+</div>
+<div id="review-and-reminder" class="section level2" number="8.3">
+<h2>
+<span class="header-section-number">8.3</span> Review and Reminder<a class="anchor" aria-label="anchor" href="#review-and-reminder"><i class="fas fa-link"></i></a>
+</h2>
+<p>In previous labs we introduced the concepts of 1) the normal distribution and 2) sampling distributions. We relate these concepts here. Specifically, the central limit theorem shows that sampling distributions of the mean generally have the shape of a normal distribution. As a result, the properties of normal distributions can be substituted for the properties of sampling distributions in the process of statistical inference.</p>
+<p>Normal distributions and their assumptions routinely appear across many of the remaining statistical tests (e.g., t-tests, ANOVAs, linear regression, etc.) discussed across this course. So, it is important to be comfortable with basic properties of the normal distribution.</p>
+<p>For example, as a reminder, the normal distribution has two parameters, the mean and standard deviation. For example, the formula for the normal distribution (probability density function) is:</p>
+<p><span class="math inline">\(f(x) = \frac{1}{\sigma \sqrt{2\pi}}e^{-\frac{1}{2}(\frac{x-u}{\sigma})^2}\)</span></p>
+<p>and, the only two free parameters are <span class="math inline">\(u\)</span> (mean), and <span class="math inline">\(sigma\)</span> (standard deviation). Below I calculating probability density for a particular score using this formula in R, and I show the answer is the same as <code><a href="https://rdrr.io/r/stats/Normal.html">dnorm()</a></code>.</p>
+<div class="sourceCode" id="cb295"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="va">x</span> <span class="op">&lt;-</span> <span class="fl">1</span>
+<span class="va">u</span> <span class="op">&lt;-</span> <span class="fl">0</span>
+<span class="va">sigma</span> <span class="op">&lt;-</span> <span class="fl">1</span>
+
+<span class="fl">1</span><span class="op">/</span><span class="op">(</span><span class="va">sigma</span><span class="op">*</span><span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="fl">2</span><span class="op">*</span><span class="va">pi</span><span class="op">)</span><span class="op">)</span> <span class="op">*</span> <span class="fu"><a href="https://rdrr.io/r/base/Log.html">exp</a></span><span class="op">(</span><span class="fl">1</span><span class="op">)</span><span class="op">^</span><span class="op">(</span><span class="op">-</span><span class="fl">.5</span><span class="op">*</span><span class="op">(</span><span class="op">(</span><span class="va">x</span><span class="op">-</span><span class="va">u</span><span class="op">)</span><span class="op">/</span><span class="va">sigma</span><span class="op">)</span><span class="op">^</span><span class="fl">2</span><span class="op">)</span>
+<span class="co">#&gt; [1] 0.2419707</span>
+
+<span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">dnorm</a></span><span class="op">(</span><span class="fl">1</span>,<span class="fl">0</span>,<span class="fl">1</span><span class="op">)</span>
+<span class="co">#&gt; [1] 0.2419707</span></code></pre></div>
+<p>The second reminder is that all normal distributions have the same shape. It is important to understand what “having the same shape” means. Let’s look at two different normal distributions. The first one has mean = 0, and sd = 1. The second has mean = 25, and sd = 5. The two graphs appear to show different shapes, the first is taller and narrower than the second.</p>
+<div class="sourceCode" id="cb296"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="va">first_one</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">dnorm</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="op">-</span><span class="fl">4</span>,<span class="fl">4</span>,length.out<span class="op">=</span><span class="fl">100</span><span class="op">)</span>,<span class="fl">0</span>,<span class="fl">1</span><span class="op">)</span>
+<span class="va">second_one</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">dnorm</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="fl">5</span>,<span class="fl">45</span>,length.out<span class="op">=</span><span class="fl">100</span><span class="op">)</span>,<span class="fl">25</span>,<span class="fl">5</span><span class="op">)</span> 
+
+<span class="va">plot_df</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span>score<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">first_one</span>,<span class="va">second_one</span><span class="op">)</span>,
+                      x <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="op">-</span><span class="fl">4</span>,<span class="fl">4</span>,length.out<span class="op">=</span><span class="fl">100</span><span class="op">)</span>,<span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="fl">5</span>,<span class="fl">45</span>,length.out<span class="op">=</span><span class="fl">100</span><span class="op">)</span><span class="op">)</span>,
+                      zscore <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="op">-</span><span class="fl">4</span>,<span class="fl">4</span>,length.out<span class="op">=</span><span class="fl">100</span><span class="op">)</span>,<span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="fl">5</span>,<span class="fl">45</span>,length.out<span class="op">=</span><span class="fl">100</span><span class="op">)</span><span class="op">-</span><span class="fl">25</span><span class="op">)</span><span class="op">/</span><span class="fl">5</span><span class="op">)</span>,
+                      dist <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/rep.html">rep</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"first"</span>,<span class="st">"second"</span><span class="op">)</span>,each<span class="op">=</span><span class="fl">100</span><span class="op">)</span><span class="op">)</span>
+  
+<span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="http://ggplot2.tidyverse.org">ggplot2</a></span><span class="op">)</span>
+
+<span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span><span class="va">plot_df</span>, <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>y<span class="op">=</span><span class="va">score</span>,x<span class="op">=</span><span class="va">x</span><span class="op">)</span><span class="op">)</span><span class="op">+</span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_path.html">geom_line</a></span><span class="op">(</span><span class="op">)</span><span class="op">+</span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/facet_wrap.html">facet_wrap</a></span><span class="op">(</span><span class="op">~</span><span class="va">dist</span><span class="op">)</span></code></pre></div>
+<div class="inline-figure"><img src="Lab8_Normal_files/figure-html/unnamed-chunk-3-1.png" width="100%"></div>
+<p>However, the x-axes are different for each of the graphs. If we allow the x-axes to vary freely, so that we can “zoom” into each distribution in the same way, we now see:</p>
+<div class="sourceCode" id="cb297"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span><span class="va">plot_df</span>, <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>y<span class="op">=</span><span class="va">score</span>,x<span class="op">=</span><span class="va">x</span><span class="op">)</span><span class="op">)</span><span class="op">+</span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_path.html">geom_line</a></span><span class="op">(</span><span class="op">)</span><span class="op">+</span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/facet_wrap.html">facet_wrap</a></span><span class="op">(</span><span class="op">~</span><span class="va">dist</span>, scales<span class="op">=</span><span class="st">"free_x"</span><span class="op">)</span></code></pre></div>
+<div class="inline-figure"><img src="Lab8_Normal_files/figure-html/unnamed-chunk-4-1.png" width="100%"></div>
+<p>Again, these distributions have a similar shape, but “seemingly” not exactly the same shape…the second one is shorter and more spread out. <strong>Nevertheless, the shape is still EXACTLY THE SAME, in one important way</strong>. Specifically, <strong>the probability of getting scores in between particular ranges, expressed as standard deviations, is the same</strong>.</p>
+<p>These are probability distribution functions, so the area under the curve represents all possible outcomes. And, the area under the curve between a range of values (relative to the total area), represents the probability of observing values between the range. The crucial point is that when we look at comparable ranges of standard deviations for <strong>ANY</strong> normal distribution, we always get the same probabilities.</p>
+<p>For example, consider the range between 1 and 2 in the first graph (mean = 0, sd = 1). This is comparable to the range 30 and 35 in the second graph (mean = 25, sd =5). Both represent the interval between 1 and 2 standard deviations. This interval is shaded in red below.</p>
+<div class="sourceCode" id="cb298"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org">dplyr</a></span><span class="op">)</span>
+<span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span><span class="va">plot_df</span>, <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>y<span class="op">=</span><span class="va">score</span>,x<span class="op">=</span><span class="va">x</span><span class="op">)</span><span class="op">)</span><span class="op">+</span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_path.html">geom_line</a></span><span class="op">(</span><span class="op">)</span><span class="op">+</span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/facet_wrap.html">facet_wrap</a></span><span class="op">(</span><span class="op">~</span><span class="va">dist</span>, scales<span class="op">=</span><span class="st">"free_x"</span><span class="op">)</span><span class="op">+</span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_ribbon.html">geom_ribbon</a></span><span class="op">(</span>data <span class="op">=</span> <span class="va">plot_df</span> <span class="op">%&gt;%</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">zscore</span> <span class="op">&gt;=</span> <span class="fl">1</span>,
+                                       <span class="va">zscore</span> <span class="op">&lt;=</span> <span class="fl">2</span><span class="op">)</span>,
+              fill <span class="op">=</span> <span class="st">"red"</span>,
+              <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>ymin<span class="op">=</span><span class="fl">0</span>,ymax<span class="op">=</span><span class="va">score</span><span class="op">)</span><span class="op">)</span></code></pre></div>
+<p><img src="Lab8_Normal_files/figure-html/unnamed-chunk-5-1.png" width="100%">
+To calculate the area of the shaded regions relative to the total area properly we should perform an integration. However, let’s skip that part, and do something quick in R. For example, we could sum up all of the numbers in our two vectors <code>first_one</code> and <code>second_one</code>, and this would approximate the “total area.” Then, for each vector, we could sum up the numbers (probability density values) in each range. Then we could divide the sums to approximate the probability, and then check to see if they are the same.</p>
+<div class="sourceCode" id="cb299"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org">dplyr</a></span><span class="op">)</span>
+
+<span class="va">plot_df</span> <span class="op">%&gt;%</span>
+  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">dist</span> <span class="op">==</span> <span class="st">"first"</span>,
+         <span class="va">x</span> <span class="op">&gt;</span> <span class="fl">1</span>,
+         <span class="va">x</span> <span class="op">&lt;=</span> <span class="fl">2</span><span class="op">)</span> <span class="op">%&gt;%</span>
+  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">score</span><span class="op">)</span> <span class="op">%&gt;%</span>
+  <span class="fu"><a href="https://rdrr.io/r/base/sum.html">sum</a></span><span class="op">(</span><span class="op">)</span><span class="op">/</span><span class="fu"><a href="https://rdrr.io/r/base/sum.html">sum</a></span><span class="op">(</span><span class="va">first_one</span><span class="op">)</span>
+<span class="co">#&gt; [1] 0.1443879</span>
+
+<span class="va">plot_df</span> <span class="op">%&gt;%</span>
+  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">dist</span> <span class="op">==</span> <span class="st">"second"</span>,
+         <span class="va">x</span> <span class="op">&gt;</span> <span class="fl">30</span>,
+         <span class="va">x</span> <span class="op">&lt;=</span> <span class="fl">35</span><span class="op">)</span> <span class="op">%&gt;%</span>
+  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">score</span><span class="op">)</span> <span class="op">%&gt;%</span>
+  <span class="fu"><a href="https://rdrr.io/r/base/sum.html">sum</a></span><span class="op">(</span><span class="op">)</span><span class="op">/</span><span class="fu"><a href="https://rdrr.io/r/base/sum.html">sum</a></span><span class="op">(</span><span class="va">second_one</span><span class="op">)</span>
+<span class="co">#&gt; [1] 0.1443879</span></code></pre></div>
+<p>The above values should approximate the values below from the <code><a href="https://rdrr.io/r/stats/Normal.html">pnorm()</a></code> function.</p>
+<div class="sourceCode" id="cb300"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="fl">2</span>,<span class="fl">0</span>,<span class="fl">1</span><span class="op">)</span> <span class="op">-</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="fl">1</span>,<span class="fl">0</span>,<span class="fl">1</span><span class="op">)</span>
+<span class="co">#&gt; [1] 0.1359051</span>
+
+<span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="fl">35</span>,<span class="fl">25</span>,<span class="fl">5</span><span class="op">)</span><span class="op">-</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="fl">30</span>,<span class="fl">25</span>,<span class="fl">5</span><span class="op">)</span>
+<span class="co">#&gt; [1] 0.1359051</span></code></pre></div>
+<div id="convenience" class="section level3" number="8.3.1">
+<h3>
+<span class="header-section-number">8.3.1</span> Convenience<a class="anchor" aria-label="anchor" href="#convenience"><i class="fas fa-link"></i></a>
+</h3>
+<p>Before heading into the main part of the lab I’ll suggest that <strong>convenience</strong> is often important in statistics. In real life, it is not uncommon for people to use tools because they are convenient to use. The normal distribution has a number of conveniences, and this is one reason why it is widely used. You can use the concept of convenience to gauge your own understanding of normal distributions. For example, if you understand normal distributions then you should be able to explain at least a few reasons why these distributions are convenient to use.</p>
+<p>Here is one convenience. We described above that all normal distributions have the same shape. We also looked at a “special” version of the normal, called the <strong>unit normal</strong>, also called the <strong>standard normal</strong>, or <strong>z-distribution</strong>. This is defined as a normal distribution with mean = 0 , and sd = 1. The unit normal can be very convenient for quick estimation. To see why, let’s turn to the first practical section of the lab, z-scores.</p>
+</div>
+</div>
+<div id="practical-i-z-scores" class="section level2" number="8.4">
+<h2>
+<span class="header-section-number">8.4</span> Practical I: z-scores<a class="anchor" aria-label="anchor" href="#practical-i-z-scores"><i class="fas fa-link"></i></a>
+</h2>
+<p>Let me admit that I am often confused by the metric system and the imperial system, this partly because I grew up in Canada and live in the USA, but also because those systems are used inconsistently in my personal experience. For example, even though I grew up with the metric system, I only know my weight in pounds, not in kilograms. Also, I know my height in feet and inches, but not in meters. Temperature is even more confusing. I’m very good with cold temperatures in celsius, but I use Fahrenheit for hot temperatures. I’m still better with kilometers than miles. Oh well.</p>
+<div id="linear-transformation" class="section level3" number="8.4.1">
+<h3>
+<span class="header-section-number">8.4.1</span> Linear Transformation<a class="anchor" aria-label="anchor" href="#linear-transformation"><i class="fas fa-link"></i></a>
+</h3>
+<p>I bring these issues up because differences between metric and imperial are essentially inconsequential. No matter whether I use Celsius or Fahrenheit, the temperature that is measured is the same. Similarly, the distance between between two cities is the same no matter whether you use miles or kilometers. The only difference is the measurement scale. In this case, the differences are linear transformations of each other, which means one scale is shifted by a constant amount relative to other scale.</p>
+<p>For example, the formula to translate celsius to fahrenheit is :</p>
+<p><span class="math inline">\(F = C * 9/5 + 32\)</span></p>
+<p>We can use the formula to draw a graph relating different values in Celsius, to different values in Fahrenheit. We “transform” the Celsius values by multiplying by a constant (9/5), and adding by a constant (32), therefore the relationship is linear.</p>
+<div class="sourceCode" id="cb301"><pre class="downlit sourceCode r">
+<code class="sourceCode R">
+<span class="va">celsius</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="op">-</span><span class="fl">50</span>,<span class="fl">50</span>,<span class="fl">1</span><span class="op">)</span>
+<span class="va">fahrenheit</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="op">-</span><span class="fl">50</span>,<span class="fl">50</span>,<span class="fl">1</span><span class="op">)</span> <span class="op">*</span> <span class="op">(</span><span class="fl">9</span><span class="op">/</span><span class="fl">5</span><span class="op">)</span> <span class="op">+</span> <span class="fl">32</span>
+
+<span class="va">plot_df</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span><span class="va">celsius</span>,
+                       <span class="va">fahrenheit</span><span class="op">)</span>
+
+<span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span><span class="va">plot_df</span>, <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>x<span class="op">=</span><span class="va">celsius</span>,y<span class="op">=</span><span class="va">fahrenheit</span><span class="op">)</span><span class="op">)</span><span class="op">+</span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_path.html">geom_line</a></span><span class="op">(</span><span class="op">)</span><span class="op">+</span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_continuous.html">scale_y_continuous</a></span><span class="op">(</span>breaks<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="op">-</span><span class="fl">60</span>,<span class="fl">140</span>,<span class="fl">10</span><span class="op">)</span><span class="op">)</span><span class="op">+</span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_continuous.html">scale_x_continuous</a></span><span class="op">(</span>breaks<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="op">-</span><span class="fl">50</span>,<span class="fl">50</span>,<span class="fl">10</span><span class="op">)</span><span class="op">)</span></code></pre></div>
+<div class="inline-figure">
+<img src="Lab8_Normal_files/figure-html/unnamed-chunk-8-1.png" width="100%">
+### z-scores</div>
+<p>Z-scores express raw scores from a normal distribution in terms of how far they are away from the mean in standard deviation units.</p>
+<p>Z-scores are linear transformations. They convert the raw values from a normal distribution into a “unit normal” distribution. The conversion is like the transformation between Celsius and Fahrenheit, nothing is lost in the conversion, and the values refer to the same underlying quantity.</p>
+<p>The z-score transformation is:</p>
+<p><span class="math inline">\(z_i = \frac{x_i - u}{\sigma}\)</span> or <span class="math inline">\(z_i = \frac{\text{score} - \text{mean}}{\text{standard deviation}}\)</span></p>
+<p>There are two important transformations in the formula. The subtraction centers the scores on the mean. The division expresses the scores in terms of a common unit (which is sometimes why z-scores are also called standard scores, they have been “standardized,” in this case by a “standard deviation”).</p>
+<p>To elaborate, the top part of the formula <strong>centers</strong> the scores around the mean. If the mean of a normal distribution was 25, and we sampled a score of 25, then the z-score would be 0 (25-25 = 0). This indicates that the score <strong>does not deviate from the mean</strong>, because the score in this case was the mean (so it deviates 0 from the mean).</p>
+<p>How about a score of 30? a score of 30 is 5 above the mean (30-25 = 5). A score of 10 is -15 from the mean. The <strong>centering transformation</strong> causes all values below the mean to receive a negative z-score, and all values above the mean to have a positive z-score.</p>
+<p>The next step in the formula is to <strong>divide</strong>. We have already centered the scores using the mean, so the division allows the centered value to be brought into a common frame of reference, or unit. This process is also commonly termed “standardizing” or “normalizing.” For example, in our example, if we had a score of 30, we know that is 5 above the mean of 25. However, I have said nothing about the standard deviation. Is 5 above the mean a large deviation? Is it a small deviation? This depends on the how much spread there is in the normal distribution, which is controlled by the standard deviation or <span class="math inline">\(\sigma\)</span> parameter of the normal distribution. If the standard deviation is 1, then how far away is a score of 30 from the mean (25)? It is five standard deviations, which is very far away from most of the values in the distribution. If the standard deviation is 10, then how far away is a score of 30 from the mean (25)? That would only be .5 of a standard deviation, which is fairly close to many of the numbers in the distribution.</p>
+<p>Let’s say we have a normal distribution with mean = 25, and standard deviation = 5. Any score from this distribution can be converted into a unit normal distribution by 1) subtracting the mean, and then dividing by the standard deviation. The graph below has an x-axis on the top representing scores from the raw distribution (centered on 25), and an x axis on the bottom representing <strong>the same scores as a unit normal</strong> or z-distribution.</p>
+<div class="sourceCode" id="cb302"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="va">pdf</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">dnorm</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="op">-</span><span class="fl">4</span>,<span class="fl">4</span>,length.out<span class="op">=</span><span class="fl">100</span><span class="op">)</span>,<span class="fl">0</span>,<span class="fl">1</span><span class="op">)</span>
+<span class="va">zscores</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="op">-</span><span class="fl">4</span>,<span class="fl">4</span>,length.out<span class="op">=</span><span class="fl">100</span><span class="op">)</span>
+<span class="va">raw</span> <span class="op">&lt;-</span> <span class="va">zscores</span><span class="op">*</span><span class="fl">10</span><span class="op">+</span><span class="fl">100</span>
+<span class="va">plot_df</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span><span class="va">pdf</span>,
+                      <span class="va">zscores</span>,
+                      <span class="va">raw</span><span class="op">)</span>
+
+<span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span><span class="va">plot_df</span>,<span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>x<span class="op">=</span><span class="va">zscores</span>,y<span class="op">=</span><span class="va">pdf</span><span class="op">)</span><span class="op">)</span><span class="op">+</span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_path.html">geom_line</a></span><span class="op">(</span><span class="op">)</span><span class="op">+</span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_continuous.html">scale_x_continuous</a></span><span class="op">(</span>breaks<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="op">-</span><span class="fl">4</span><span class="op">:</span><span class="fl">4</span><span class="op">)</span>, 
+                     sec.axis <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/sec_axis.html">sec_axis</a></span><span class="op">(</span><span class="op">~</span> <span class="va">.</span><span class="op">*</span><span class="fl">5</span><span class="op">+</span><span class="fl">25</span>, name<span class="op">=</span><span class="st">"Raw Scores"</span>,breaks<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="fl">5</span>,<span class="fl">50</span>,<span class="fl">5</span><span class="op">)</span><span class="op">)</span><span class="op">)</span></code></pre></div>
+<div class="inline-figure">
+<img src="Lab8_Normal_files/figure-html/unnamed-chunk-9-1.png" width="100%">
+## Why are z-scores convenient?</div>
+<p>Z-scores could be convenient for you if you know how to interpret them. For example, I find Fahrenheit convenient to use for hot temperatures. When I know that it is 109 degrees Fahrenheit outside, I know that is really hot. To be honest, I don’t have a good intuitive feeling about what really hot is in Celsius. So, I don’t find Celsius convenient for hot temperatures. It could become convenient for me if I got used to it with practice. But, I already have something that works, so I stick with that (convenience and inertia are strong forces…).</p>
+<p>Z-scores can become convenient if you get used to what they represent. For example, statistics textbooks commonly present a graph or table like the following:</p>
+<div class="sourceCode" id="cb303"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu">knitr</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/knitr/man/include_graphics.html">include_graphics</a></span><span class="op">(</span><span class="st">"imgs/norm_zscores.png"</span><span class="op">)</span></code></pre></div>
+<div class="inline-figure"><img src="imgs/norm_zscores.png" width="100%"></div>
+<p>If you spend time with the unit normal distribution, then you learn its basic properties, such as about 95% of scores fall between -2 and +2 standard deviations; or 99% of scores fall between -3 and 3 standard deviations, or about 34% of scores fall between the mean and one standard deviation. If you memorized all of these details, then whenever you have three things in the future…1) a score from a normal distribution, 2) the mean, and 3) the standard deviation…you can have some good intuitions about whether the score is common or rare…which can be convenient (if you happen to be interacting with normal distributions on a regular basis).</p>
+</div>
+</div>
+<div id="conceptual-i-central-limit-theorem" class="section level2" number="8.5">
+<h2>
+<span class="header-section-number">8.5</span> Conceptual I: Central Limit Theorem<a class="anchor" aria-label="anchor" href="#conceptual-i-central-limit-theorem"><i class="fas fa-link"></i></a>
+</h2>
+<p>It turns out that many common statistics rely upon normal distributions, so if you are doing common statistics, you will frequently use normal distributions. This is one good reason to become familiar with their basic properties.</p>
+<p>Why are normal distributions so commonly used in statistics? I think there are multiple reasons, including convenience (the math can be done by hand), and inertia (because normals can be convenient to work with, people use them, and then keep using them). However, there is also a more fundamental reason stemming from the <strong>central limit theorem</strong>.</p>
+<p>I will present the central limit theorem in terms of one thing we already learned about, and then I will make a grand claim about it.</p>
+<div id="we-already-learned-about-sampling-distributions" class="section level3" number="8.5.1">
+<h3>
+<span class="header-section-number">8.5.1</span> We already learned about sampling distributions<a class="anchor" aria-label="anchor" href="#we-already-learned-about-sampling-distributions"><i class="fas fa-link"></i></a>
+</h3>
+<p>Remember, a sampling distribution is when you 1) take multiple samples, 2) calculate a statistic like a mean for each sample, and 3) look at the distribution of the sample statistic, that is what all of the sample statistics look like. It is important to remember that the statistic you compute for each sample could be any descriptive statistic, like a mean, standard deviation, median, or whatever you want.</p>
+</div>
+<div id="claim-sampling-distributions-of-the-mean-are-normally-distributed" class="section level3" number="8.5.2">
+<h3>
+<span class="header-section-number">8.5.2</span> Claim: sampling distributions of the mean are normally distributed<a class="anchor" aria-label="anchor" href="#claim-sampling-distributions-of-the-mean-are-normally-distributed"><i class="fas fa-link"></i></a>
+</h3>
+<p>The central limit theorem roughly has two parts. The main part is that sampling distributions of the mean are normally distributed. The second part is “most of the time.” The central limit theorem therefore mostly let’s you treat sampling distributions of the mean as normal distributions. Because sampling distributions, especially sampling distributions of the mean, are extremely common and fundamental to statistical inference, and the math behind normal distributions is well understood, you can blame the central limit theorem for the frequency with which you will have to deal with normal distributions in statistics.</p>
+</div>
+<div id="implication" class="section level3" number="8.5.3">
+<h3>
+<span class="header-section-number">8.5.3</span> Implication<a class="anchor" aria-label="anchor" href="#implication"><i class="fas fa-link"></i></a>
+</h3>
+<p>A major implication of the central limit theorem is that 1) even if the scores come from a non-normal distribution, 2) the sampling distribution of the sample means will be approximately normally distributed.</p>
+<p>Let’s use R to illustrate this implication.</p>
+<p>First, imagine that some measurement involves taking scores from a uniform distribution (flat, definitely not normal).</p>
+<div class="sourceCode" id="cb304"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="co"># parent distribution is a uniform</span>
+<span class="va">raw_scores</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/Uniform.html">runif</a></span><span class="op">(</span><span class="fl">10000</span>,min <span class="op">=</span> <span class="fl">0</span>,<span class="fl">100</span><span class="op">)</span>
+<span class="fu"><a href="https://rdrr.io/r/graphics/hist.html">hist</a></span><span class="op">(</span><span class="va">raw_scores</span><span class="op">)</span></code></pre></div>
+<div class="inline-figure">
+<img src="Lab8_Normal_files/figure-html/unnamed-chunk-11-1.png" width="100%">
+Now, rather than plotting individual scores. We create a sampling distribution of the mean. We will take 10,000 samples (say of n = 5 for each) and compute the mean for each, and then plot the distribution of sample means.</div>
+<div class="sourceCode" id="cb305"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="va">sample_means</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/lapply.html">replicate</a></span><span class="op">(</span><span class="fl">10000</span>,<span class="fu"><a href="https://rdrr.io/r/base/mean.html">mean</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/stats/Uniform.html">runif</a></span><span class="op">(</span><span class="fl">5</span>,<span class="fl">0</span>,<span class="fl">100</span><span class="op">)</span><span class="op">)</span><span class="op">)</span>
+<span class="fu"><a href="https://rdrr.io/r/graphics/hist.html">hist</a></span><span class="op">(</span><span class="va">sample_means</span><span class="op">)</span></code></pre></div>
+<div class="inline-figure"><img src="Lab8_Normal_files/figure-html/unnamed-chunk-12-1.png" width="100%"></div>
+<p>The above histogram (sample means) is much more normal looking compared to the flat distribution where all of the individual scores came from. Of course, this is all done by simulation, so we have to wonder if our simulated distribution of sample means really does approximate a normal distribution? This raises a general question…if you have a distribution of numbers, and you suspect it is a normal distribution, how can you know if that distribution is normal?</p>
+<p>Instead of developing a test for normality, let’s try something pretty straightforward as a quick “gut check.” Based on what we learned about z-scores, we know that all normal distributions have the same shape. So, the probability of getting a score between 0 and 1 standard deviations is the same for all normal distributions.</p>
+<div class="sourceCode" id="cb306"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="fl">1</span>,<span class="fl">0</span>,<span class="fl">1</span><span class="op">)</span> <span class="op">-</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="fl">0</span>,<span class="fl">0</span>,<span class="fl">1</span><span class="op">)</span>
+<span class="co">#&gt; [1] 0.3413447</span></code></pre></div>
+<p>We could ask if we find the same proportion of numbers falling between 0 and 1 standard deviations in the sampling distribution that we created…and we see the value is pretty close.</p>
+<div class="sourceCode" id="cb307"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="va">to_z</span> <span class="op">&lt;-</span> <span class="op">(</span><span class="va">sample_means</span><span class="op">-</span><span class="fu"><a href="https://rdrr.io/r/base/mean.html">mean</a></span><span class="op">(</span><span class="va">sample_means</span><span class="op">)</span><span class="op">)</span><span class="op">/</span><span class="fu"><a href="https://rdrr.io/r/stats/sd.html">sd</a></span><span class="op">(</span><span class="va">sample_means</span><span class="op">)</span>
+<span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">to_z</span><span class="op">[</span><span class="va">to_z</span> <span class="op">&gt;</span> <span class="fl">0</span> <span class="op">&amp;</span> <span class="va">to_z</span> <span class="op">&lt;</span> <span class="fl">1</span><span class="op">]</span><span class="op">)</span><span class="op">/</span><span class="fl">10000</span>
+<span class="co">#&gt; [1] 0.3361</span></code></pre></div>
+<p>We’ve just done some rough checking and found that the sampling distribution of the mean seems to be approximately normal (based on the above very minimal comparison). Because this relationship often holds, it is common to use the math of normal distributions to work with sampling distributions of the mean.</p>
+<p>As we will see later, not all sampling distributions create normal distributions, this is a special property of sampling distributions of sample means. In later tests, we will look at sampling distributions of other statistics such as the t-statistic, and F-statistic. These are not distributed normally, and so different distributions (t and F distributions) are used in place of the normal.</p>
+</div>
+</div>
+<div id="conceptual-ii-z-tests" class="section level2" number="8.6">
+<h2>
+<span class="header-section-number">8.6</span> Conceptual II: z-tests<a class="anchor" aria-label="anchor" href="#conceptual-ii-z-tests"><i class="fas fa-link"></i></a>
+</h2>
+<p>Because of the central limit theorem, in the long run, and with a large enough sample-size, many statistical tests converge on the z-test. We will see this later when discussing the t-test.</p>
+<p>The z-test can be used for statistical inference when the population parameters for some set of sample means are 1) known to be normal, and 2) the mean and standard deviation are also known. <strong>WARNING: these assumptions are rarely met, and all of these facts are rarely known</strong>. So, z-tests are not very commonly used compared to other statistical tests, especially in psychological research where it is usually impossible to know the properties of the “true” distribution where measurements come from.</p>
+<div id="n1-example" class="section level3" number="8.6.1">
+<h3>
+<span class="header-section-number">8.6.1</span> N=1 example<a class="anchor" aria-label="anchor" href="#n1-example"><i class="fas fa-link"></i></a>
+</h3>
+<p>The “z-test” and “z-scores” are the same when you have an N of 1. For example, if you know that some measurement involves sampling a score from a normal distribution, AND you know the mean and standard deviation of the distribution. Then you can use your knowledge of normal distributions to determine the probability of obtaining specified ranges of scores.</p>
+<ol style="list-style-type: decimal">
+<li>What is the probability of obtaining a score larger than 5 from a normal distribution with mean = 1, and sd = 3?</li>
+</ol>
+<div class="sourceCode" id="cb308"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="co"># one-tailed</span>
+<span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="fl">5</span>,<span class="fl">1</span>,<span class="fl">3</span>, lower.tail<span class="op">=</span><span class="cn">FALSE</span><span class="op">)</span>
+<span class="co">#&gt; [1] 0.09121122</span>
+
+<span class="co"># using zscores</span>
+<span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="op">(</span><span class="fl">5</span><span class="op">-</span><span class="fl">1</span><span class="op">)</span><span class="op">/</span><span class="fl">3</span>,<span class="fl">0</span>,<span class="fl">1</span>, lower.tail<span class="op">=</span><span class="cn">FALSE</span><span class="op">)</span>
+<span class="co">#&gt; [1] 0.09121122</span>
+
+<span class="co"># two-tailed</span>
+<span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="fl">5</span>,<span class="fl">1</span>,<span class="fl">3</span>, lower.tail<span class="op">=</span><span class="cn">FALSE</span><span class="op">)</span><span class="op">*</span><span class="fl">2</span>
+<span class="co">#&gt; [1] 0.1824224</span></code></pre></div>
+</div>
+<div id="n-1-example" class="section level3" number="8.6.2">
+<h3>
+<span class="header-section-number">8.6.2</span> N &gt; 1 example<a class="anchor" aria-label="anchor" href="#n-1-example"><i class="fas fa-link"></i></a>
+</h3>
+<p>Z-tests become more complicated when the sample-size is greater than 1. For example, imagine you take 10 scores (n=10) from a normal distribution with mean = 55, and sd = 5. What kinds of things could happen here?</p>
+<p>Let’s focus on a question of the sample mean. Your sample has n=10, what could the sample mean be? Would a sample mean of 60 be strange? what can randomly sampling numbers do in this case?</p>
+<p>We first need to compute a sampling distribution of the mean, this will tell us the kinds of sample means (of n=10) that could be observed by randomly sampling from a normal with mean =55 and sd =5.</p>
+<div class="sourceCode" id="cb309"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="va">sample_means</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/lapply.html">replicate</a></span><span class="op">(</span><span class="fl">10000</span>,<span class="fu"><a href="https://rdrr.io/r/base/mean.html">mean</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">rnorm</a></span><span class="op">(</span><span class="fl">10</span>,<span class="fl">55</span>,<span class="fl">5</span><span class="op">)</span><span class="op">)</span><span class="op">)</span>
+<span class="fu"><a href="https://rdrr.io/r/graphics/hist.html">hist</a></span><span class="op">(</span><span class="va">sample_means</span><span class="op">)</span></code></pre></div>
+<div class="inline-figure">
+<img src="Lab8_Normal_files/figure-html/unnamed-chunk-16-1.png" width="100%">
+Now, we are one step removed from the original distribution. The original distribution has a mean of 55 and standard deviation of 5. The distribution in the histogram is the sampling distribution of sample means. From the central limit theorem we expect this distribution of sample means to be approximately normal. What are the parameters (mean and standard deviation) of this distribution?</div>
+<p>We can estimate them from the simulation:</p>
+<div class="sourceCode" id="cb310"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/mean.html">mean</a></span><span class="op">(</span><span class="va">sample_means</span><span class="op">)</span>
+<span class="co">#&gt; [1] 55.00716</span>
+<span class="fu"><a href="https://rdrr.io/r/stats/sd.html">sd</a></span><span class="op">(</span><span class="va">sample_means</span><span class="op">)</span>
+<span class="co">#&gt; [1] 1.591821</span></code></pre></div>
+<p>Or, we could use analytic formulas to “know” what they should be (at least in the long). For example, we expect that the most likely sample mean will the mean of the population (remember the sample mean is an unbiased estimator of the population mean). So, the mean of sampling distribution is expected to 55.</p>
+<p>Remember in the previous lab on sampling distributions I mentioned that “the standard deviation of the sampling distribution of the sample means is the standard error of the mean.” In this case, the <strong>standard error of the mean</strong> can be computed directly:</p>
+<p><span class="math inline">\(\text{SEM} = \frac{\sigma}{\sqrt{N}}\)</span></p>
+<p>where <span class="math inline">\(\sigma\)</span> is the standard deviation of the parent population (5), and N is the number of observations in a sample (10). If we calculate this directly, we should find a value similar to the one we found by simulation.</p>
+<div class="sourceCode" id="cb311"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fl">5</span><span class="op">/</span><span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>
+<span class="co">#&gt; [1] 1.581139</span></code></pre></div>
+<p>So, now we have found the parameters of the normal distribution we are actually interested in, which is <strong>the sampling distribution of the sample means</strong> for this particular situation. And, we can do z-tests if we want (using the mean and sd from the sampling distribution).</p>
+<ol style="list-style-type: decimal">
+<li>What is the probability of getting a sample mean higher than 60, if the sample has n=10, and if the individual scores came from a normal distribution with mean = 55 and sd = 5.</li>
+</ol>
+<div class="sourceCode" id="cb312"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="co"># use mean and sd in pnorm</span>
+<span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="fl">60</span>, <span class="fl">55</span>, <span class="fl">5</span><span class="op">/</span><span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, lower.tail<span class="op">=</span><span class="cn">FALSE</span> <span class="op">)</span>
+<span class="co">#&gt; [1] 0.0007827011</span>
+
+<span class="co"># OR, convert to a zscore first</span>
+<span class="va">zscore</span> <span class="op">&lt;-</span> <span class="op">(</span><span class="fl">60</span><span class="op">-</span><span class="fl">55</span><span class="op">)</span><span class="op">/</span><span class="op">(</span><span class="fl">5</span><span class="op">/</span><span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="fl">10</span><span class="op">)</span><span class="op">)</span>
+<span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="va">zscore</span>,<span class="fl">0</span>,<span class="fl">1</span>, lower.tail <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span>
+<span class="co">#&gt; [1] 0.0007827011</span>
+
+<span class="co"># this is similar to what the simulation showed:</span>
+<span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">sample_means</span><span class="op">[</span><span class="va">sample_means</span> <span class="op">&gt;</span> <span class="fl">60</span><span class="op">]</span><span class="op">)</span><span class="op">/</span><span class="fl">10000</span>
+<span class="co">#&gt; [1] 6e-04</span></code></pre></div>
+</div>
+<div id="example-3-differences-between-groups" class="section level3" number="8.6.3">
+<h3>
+<span class="header-section-number">8.6.3</span> Example 3: differences between groups<a class="anchor" aria-label="anchor" href="#example-3-differences-between-groups"><i class="fas fa-link"></i></a>
+</h3>
+<p>There is a standardized educational test with known distributional properties. Average test performance is distributed normally. The mean of the normal distribution is 55, and the standard deviation is 5.</p>
+<p>You are an experimenter and you want to determine if your “special training” can improve test performance. You create two groups and randomly assign 10 participants to each group. One group gets NO TRAINING (they are the control group), another group gets the TRAINING.</p>
+<ul>
+<li>If your training works you expect the TRAINING group to do better than the NO TRAINING group on average</li>
+<li>You recognize that people can get different means on the test just by chance alone.</li>
+<li>How can you set some standards to determine how you will evaluate your data? What kind of evidence would convince you that your training worked…and caused a difference ABOVE AND BEYOND WHAT CHANCE COULD HAVE PRODUCED?</li>
+</ul>
+<p>The answer, or at least some insight to the above question, can be answered with a z-test <strong>before you even conduct the experiment</strong>.</p>
+<p>We will first consider the question, “What could chance do?” What if there were two groups, A and B, and NEITHER of them received any training. There is no experiment, there is only random assignment to groups, and no manipulation that could plausibly change the test scores. If we randomly put 10 people into group A, and 10 people into group B, make them all take the test, and them measure the mean difference between group A and B, <strong>what can happen by chance alone</strong>?</p>
+<p>Let’s simulate the sampling distribution of mean differences for this situation</p>
+<div class="sourceCode" id="cb313"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="va">mean_differences</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/lapply.html">replicate</a></span><span class="op">(</span><span class="fl">10000</span>,<span class="fu"><a href="https://rdrr.io/r/base/mean.html">mean</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">rnorm</a></span><span class="op">(</span><span class="fl">10</span>,<span class="fl">55</span>,<span class="fl">5</span><span class="op">)</span><span class="op">)</span><span class="op">-</span><span class="fu"><a href="https://rdrr.io/r/base/mean.html">mean</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">rnorm</a></span><span class="op">(</span><span class="fl">10</span>,<span class="fl">55</span>,<span class="fl">5</span><span class="op">)</span><span class="op">)</span><span class="op">)</span>
+<span class="fu"><a href="https://rdrr.io/r/graphics/hist.html">hist</a></span><span class="op">(</span><span class="va">mean_differences</span><span class="op">)</span></code></pre></div>
+<div class="inline-figure"><img src="Lab8_Normal_files/figure-html/unnamed-chunk-20-1.png" width="100%"></div>
+<p>When we assume that sample means from group A and B come from the exact same distribution, and when we subtract the means from group A and B to create the above sampling distribution of mean differences, we create a null-distribution, or null-hypothesis, that shows the kinds of mean differences that could be observed due to random sampling. This is what chance could do in your experiment. Without getting more specific, if you thought your “special training” would improve the test scores in this scenario by 30%, that is way outside the window, there is no way that chance alone could do that (30% would be ABOVE AND BEYOND what chance can do). On other hand, if you ran your experiment and you found that your training improved test performance by 3%…well, how often do you get a difference of 3% or better by chance? The answer can be found by evaluating the above distribution:</p>
+<div class="sourceCode" id="cb314"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">mean_differences</span><span class="op">[</span><span class="va">mean_differences</span> <span class="op">&gt;</span> <span class="fl">3</span><span class="op">]</span><span class="op">)</span><span class="op">/</span><span class="fl">10000</span>
+<span class="co">#&gt; [1] 0.0899</span></code></pre></div>
+<p>According to a simulation, scores of 3% or greater occur with p &lt;= 0.0899. This would be a “one-tailed” test. If you wanted to know how often you get a score as large as 3% away from the mean in either direction, that would be a two-tailed test:</p>
+<div class="sourceCode" id="cb315"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">mean_differences</span><span class="op">[</span><span class="va">mean_differences</span> <span class="op">&gt;</span> <span class="fl">3</span> <span class="op">|</span> <span class="va">mean_differences</span> <span class="op">&lt;</span> <span class="op">-</span><span class="fl">3</span><span class="op">]</span><span class="op">)</span><span class="op">/</span><span class="fl">10000</span>
+<span class="co">#&gt; [1] 0.1754</span></code></pre></div>
+<p>These two p-values are close estimates of the p-values you would get from a z-test. They are off by a little bit because the simulation is slightly imperfect.</p>
+<p>To do a z-test for real, we need some observed mean difference between our two groups. Let’s say that is a 3% difference on the test. We also need the mean and standard deviation of the normal distribution where the 3% difference came from. Then we can calculate the probability of obtaining a 3% difference or larger by chance. IMPORTANTLY, the mean and standard deviation we need is for the null-distribution specific to a difference between two sample means, not the original parent distribution where the scores come from.</p>
+<ol style="list-style-type: decimal">
+<li>We know that individuals take a test, and their test means come from a normal distribution with mean = 55, and sd =5.</li>
+<li>When we put 10 people into group A and 10 into group B, AND assume no difference between groups, we expect that ALL test scores are random samples from the same parent distribution in 1.</li>
+<li>As a result, we expect that by chance alone, the difference between the mean of group A and the mean of group (when sample size is 10), will have variability.</li>
+<li>By the central limit theorem, the sampling distribution of mean differences will have the shape of the normal distribution</li>
+<li>The mean of the sampling distribution of mean differences will be 0, because on average the difference between two samples taken from the same population is 0.</li>
+<li>
+<strong>what is the standard deviation of the distribution of mean differences?</strong> If we knew this value, then we could perform a z-test.</li>
+</ol>
+<p>We could estimate this value from our simulation by calculating the standard deviation:</p>
+<div class="sourceCode" id="cb316"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/stats/sd.html">sd</a></span><span class="op">(</span><span class="va">mean_differences</span><span class="op">)</span>
+<span class="co">#&gt; [1] 2.213127</span></code></pre></div>
+<p>It turns out there is a slightly different analytic formula for the standard error of the mean in this situation:</p>
+<p><span class="math inline">\(\text{SEM} = \frac{\sqrt{2}\sigma}{\sqrt{N}}\)</span></p>
+<p>This formula is required because the distribution of mean differences is a subtraction of the mean for group A and B, each with n=10. And, the expected variation changes a little bit, which we account for with the added <span class="math inline">\(\sqrt{2}\)</span> in the formula.</p>
+<div class="sourceCode" id="cb317"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="fl">2</span><span class="op">)</span><span class="op">*</span><span class="fl">5</span><span class="op">)</span><span class="op">/</span><span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>
+<span class="co">#&gt; [1] 2.236068</span></code></pre></div>
+</div>
+<div id="doing-the-z-test" class="section level3" number="8.6.4">
+<h3>
+<span class="header-section-number">8.6.4</span> doing the z-test<a class="anchor" aria-label="anchor" href="#doing-the-z-test"><i class="fas fa-link"></i></a>
+</h3>
+<p>So, is doing better than 3%, or showing a group difference of at least 3% something that happens very often by chance?</p>
+<div class="sourceCode" id="cb318"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="co">#one-tailed test</span>
+<span class="va">zscore</span> <span class="op">&lt;-</span> <span class="op">(</span><span class="fl">58</span><span class="op">-</span><span class="fl">55</span><span class="op">)</span><span class="op">/</span><span class="op">(</span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="fl">2</span><span class="op">)</span><span class="op">*</span><span class="fl">5</span><span class="op">)</span><span class="op">/</span><span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="fl">10</span><span class="op">)</span><span class="op">)</span>
+<span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="va">zscore</span>,<span class="fl">0</span>,<span class="fl">1</span>, lower.tail <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span>
+<span class="co">#&gt; [1] 0.08985625</span></code></pre></div>
+<p>As you can see, the p-value we found by the z-test is basically the same as the one we found with the simulation approach.</p>
+</div>
+</div>
+<div id="lab-8-generalization-assignment" class="section level2" number="8.7">
+<h2>
+<span class="header-section-number">8.7</span> Lab 8 Generalization Assignment<a class="anchor" aria-label="anchor" href="#lab-8-generalization-assignment"><i class="fas fa-link"></i></a>
+</h2>
+<div class="videoWrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kymA90bZreo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div id="instructions-7" class="section level3" number="8.7.1">
+<h3>
+<span class="header-section-number">8.7.1</span> Instructions<a class="anchor" aria-label="anchor" href="#instructions-7"><i class="fas fa-link"></i></a>
+</h3>
+<p>In general, labs will present a discussion of problems and issues with example code like above, and then students will be tasked with completing generalization assignments, showing that they can work with the concepts and tools independently.</p>
+<p>Your assignment instructions are the following:</p>
+<ol style="list-style-type: decimal">
+<li>Work inside the R project “StatsLab1” you have been using</li>
+<li>Create a new R Markdown document called “Lab8.Rmd”</li>
+<li>Use Lab8.Rmd to show your work attempting to solve the following generalization problems. Commit your work regularly so that it appears on your Github repository.</li>
+<li>
+<strong>For each problem, make a note about how much of the problem you believe you can solve independently without help</strong>. For example, if you needed to watch the help video and are unable to solve the problem on your own without copying the answers, then your note would be 0. If you are confident you can complete the problem from scratch completely on your own, your note would be 100. It is OK to have all 0s or 100s anything in between.</li>
+<li>Submit your github repository link for Lab 8 on blackboard.</li>
+</ol>
+</div>
+<div id="problems-7" class="section level3" number="8.7.2">
+<h3>
+<span class="header-section-number">8.7.2</span> Problems<a class="anchor" aria-label="anchor" href="#problems-7"><i class="fas fa-link"></i></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li>Write a function to convert a vector of raw-scores into z-scores. The function should have inputs for the vector, the mean and sd of the normal distribution, and should return a vector of zscores. (1 point). Also, demonstrate that the function works correctly (1 point). How you make the demonstration is up to you.</li>
+</ol>
+<ul>
+<li>Advanced: Have an option so that the function will convert the raw scores to zscores in one of two ways:</li>
+<li>using user provided mean and standard deviation</li>
+<li>using the calculated mean and standard deviation from the raw scores</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Base R does not have a function for a z-test. Write a function to accomplish a one-sample z-test. Remember, a one-sample z test is used to compare the probability of obtaining the sample mean (or larger or smaller) if it came from a known normal distribution. (2 points).</li>
+</ol>
+<ul>
+<li>Use your z-test function to conduct a test of the following. A sample of 25 scores is taken. The mean of the sample is 50. The sample is assumed to have been taken from a normal distribution with mean 40 and standard deviation 7. Report a one-tailed z-test, examining the probability of obtaining a sample of greater than 50 in this situation. Report the results, and give a brief sentence explaining the result and the inference you make (2 points).</li>
+</ul>
+</div>
+</div>
+</div>
+
+  <div class="chapter-nav">
+<div class="prev"><a href="binomial-test.html"><span class="header-section-number">7</span> Binomial Test</a></div>
+<div class="next"><a href="chi-square.html"><span class="header-section-number">9</span> Chi Square</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#z-tests"><span class="header-section-number">8</span> Z tests</a></li>
+<li><a class="nav-link" href="#reading-3"><span class="header-section-number">8.1</span> Reading</a></li>
+<li><a class="nav-link" href="#overview-7"><span class="header-section-number">8.2</span> Overview</a></li>
+<li>
+<a class="nav-link" href="#review-and-reminder"><span class="header-section-number">8.3</span> Review and Reminder</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#convenience"><span class="header-section-number">8.3.1</span> Convenience</a></li></ul>
+</li>
+<li>
+<a class="nav-link" href="#practical-i-z-scores"><span class="header-section-number">8.4</span> Practical I: z-scores</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#linear-transformation"><span class="header-section-number">8.4.1</span> Linear Transformation</a></li></ul>
+</li>
+<li>
+<a class="nav-link" href="#conceptual-i-central-limit-theorem"><span class="header-section-number">8.5</span> Conceptual I: Central Limit Theorem</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#we-already-learned-about-sampling-distributions"><span class="header-section-number">8.5.1</span> We already learned about sampling distributions</a></li>
+<li><a class="nav-link" href="#claim-sampling-distributions-of-the-mean-are-normally-distributed"><span class="header-section-number">8.5.2</span> Claim: sampling distributions of the mean are normally distributed</a></li>
+<li><a class="nav-link" href="#implication"><span class="header-section-number">8.5.3</span> Implication</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#conceptual-ii-z-tests"><span class="header-section-number">8.6</span> Conceptual II: z-tests</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#n1-example"><span class="header-section-number">8.6.1</span> N=1 example</a></li>
+<li><a class="nav-link" href="#n-1-example"><span class="header-section-number">8.6.2</span> N &gt; 1 example</a></li>
+<li><a class="nav-link" href="#example-3-differences-between-groups"><span class="header-section-number">8.6.3</span> Example 3: differences between groups</a></li>
+<li><a class="nav-link" href="#doing-the-z-test"><span class="header-section-number">8.6.4</span> doing the z-test</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#lab-8-generalization-assignment"><span class="header-section-number">8.7</span> Lab 8 Generalization Assignment</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#instructions-7"><span class="header-section-number">8.7.1</span> Instructions</a></li>
+<li><a class="nav-link" href="#problems-7"><span class="header-section-number">8.7.2</span> Problems</a></li>
+</ul>
+</li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/CrumpLab/rstatsforpsych/blob/master/Lab8_Normal.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/CrumpLab/rstatsforpsych/edit/master/Lab8_Normal.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>Reproducible statistics for psychologists with R</strong>: Lab Tutorials" was written by Matthew J. C. Crump. </p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+</html>

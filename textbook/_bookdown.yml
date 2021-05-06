@@ -1,0 +1,19 @@
+delete_merged_file: true
+new_session: true
+
+output_dir: "../docs/textbook"
+
+rmd_files:
+- "index.Rmd"
+- "Preface.Rmd"
+
+- "Getting_Started.Rmd"
+- "GS_R_intro.Rmd"
+- "GS_R_Problems.Rmd"
+- "GS_R_Reference.Rmd"
+- "GS_R_Resources.Rmd"
+
+- "Lab1_Basics.Rmd"
+
+
+- "References.Rmd"

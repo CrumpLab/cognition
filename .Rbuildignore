@@ -1,0 +1,9 @@
+^cognition\.Rproj$
+^\.Rproj\.user$
+^_pkgdown\.yml$
+^data-raw$
+^manuscript$
+^slides$
+^posters$
+^experiments$
+^vignettes/som\.Rmd$

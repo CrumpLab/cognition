@@ -1,0 +1,19 @@
+Package: psyc7709Lab
+Title: Course website for Psych 7709G Statistical Methods Practicum I Fall 2020
+Version: 0.0.0.9004
+Authors@R: 
+    person(given = "Matthew",
+           family = "Crump",
+           role = c("aut", "cre"),
+           email = "mcrump@brooklyn.cuny.edu",
+           comment = c(ORCID = "0000-0002-5612-0090"))
+Description: Course website for Psych 7709G Statistical Methods Practicum I Fall 2020
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

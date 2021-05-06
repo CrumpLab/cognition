@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Preface | Reproducible statistics for psychologists with R</title>
+<meta name="author" content="Matthew J. C. Crump">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.2"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.6/header-attrs.js"></script><script src="libs/jquery-3.5.1/jquery-3.5.1.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.5.3/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.5.3/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.2.3.9000/tabs.js"></script><script src="libs/bs3compat-0.2.3.9000/bs3compat.js"></script><link href="libs/bs_font_google_work%20sans-0.2.3.9000/font.css" rel="stylesheet">
+<link href="libs/bs_font_google_major%20mono%20display-0.2.3.9000/font.css" rel="stylesheet">
+<link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="libs/kePrint-0.0.1/kePrint.js"></script><link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-TJYWEN5QYP"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-TJYWEN5QYP');
+    </script><link rel="icon" href="https://crumplab.github.io/rstatsforpsych/favicon.ico">
+<meta property="og:card" content="website">
+<meta property="og:title" content="Preface | Reproducible statistics for psychologists with R">
+<meta property="og:image" content="https://crumplab.github.io/rstatsforpsych/imgs/cover.png">
+<meta property="og:url" content="https://crumplab.github.io/rstatsforpsych/">
+<meta property="og:description" content="A lab curriculum for psych stats that introduces R and scripting for reproducible analyses.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@MattCrump_">
+<meta name="twitter:title" content="Preface | Reproducible statistics for psychologists with R">
+<meta name="twitter:description" content="A lab curriculum for psych stats that introduces R and scripting for reproducible analyses.">
+<meta name="twitter:image" content="https://crumplab.github.io/rstatsforpsych/imgs/rstats_large.png">
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/mark.min.js"></script><!-- CSS --><link rel="stylesheet" href="custom.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="Lab Tutorials">Reproducible statistics for psychologists with R</a>:
+        <small class="text-muted">Lab Tutorials</small>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Welcome</a></li>
+<li><a class="active" href="preface.html">Preface</a></li>
+<li class="book-part">Getting started</li>
+<li><a class="" href="r-rstudio-github.html">R, RStudio, &amp; Github</a></li>
+<li><a class="" href="basic-r-programming.html">Basic R programming</a></li>
+<li><a class="" href="practice-problems.html">Practice problems</a></li>
+<li><a class="" href="coding-reference.html">Coding Reference</a></li>
+<li><a class="" href="textbooks-and-other-resources.html">Textbooks and Other Resources</a></li>
+<li class="book-part">Labs</li>
+<li><a class="" href="r-basics.html"><span class="header-section-number">1</span> R Basics</a></li>
+<li><a class="" href="references.html">References</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/CrumpLab/rstatsforpsych">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="preface" class="section level1 unnumbered">
+<h1>Preface<a class="anchor" aria-label="anchor" href="#preface"><i class="fas fa-link"></i></a>
+</h1>
+<p>Right now it’s Dec 4th, 2020; and Anjali Krishnan &amp; I have been co-teaching a stats course for graduate students in our Master’s of Experimental Psychology program. The semester is almost over, and next semester we are moving on to stats II. This is the first time we have tried to coordinate efforts at the graduate level, it’s been fun.</p>
+<p>A few years ago, we put our heads together to create a free undergraduate textbook (<a href="https://crumplab.github.io/statistics/">Answering questions with data</a>) and <a href="https://crumplab.github.io/statisticsLab/">lab manual</a>, which covered the same exercises across four software environments, R, Excel, SPSS, and Jamovi (<a href="https://anjkrishnan.github.io/StatLab_jamovi">Anjali’s verion here</a>). All of those resources exist on Github repos, and are licensed as CC BY 4.0, so they can all be copied, remixed, and re-used on that license.</p>
+<p>Anjali has been teaching our stats sequence at the graduate level for several years, and our program decided to expand the statistics offering to include additional lab hours. So, this year, I’m joining the club and writing lab curriculum for every week of the course. As of now, I decided to gather all of the labs written so far and put them into this “fancy” new <code>bs4_book()</code> bookdown format.</p>
+<p>Anjali has been using two statistics textbooks for the lecture portion of the course. The first semester mostly follows “Thinking with Data,”<span class="citation"><a class="footnote-ref" tabindex="0" data-toggle="popover" data-content='&lt;p&gt;&lt;a href="references.html#ref-vokeyThinkingData7th2018" role="doc-biblioref"&gt;Vokey &amp;amp; Allen, 2018&lt;/a&gt;.&lt;/p&gt;'><sup>5</sup></a></span> and the second semester mostly follows “Experimental Design and Analysis for Psychology.”<span class="citation"><a class="footnote-ref" tabindex="0" data-toggle="popover" data-content='&lt;p&gt;&lt;a href="references.html#ref-abdiExperimentalDesignAnalysis2009" role="doc-biblioref"&gt;Abdi, Edelman, Dowling, &amp;amp; Valentin, 2009&lt;/a&gt;.&lt;/p&gt;'><sup>6</sup></a></span> Coincidentally, I was trained by John Vokey &amp; Scott Allen at the University of Lethbridge (and worked through their textbook as an undergrad), and Anjali was trained by Hérve Abdi at UT Austin. So, it seems we have both academically inherited the impulse to create statistics curriculum.</p>
+<div id="for-students" class="section level2" number="0.1">
+<h2>
+<span class="header-section-number">0.1</span> For Students<a class="anchor" aria-label="anchor" href="#for-students"><i class="fas fa-link"></i></a>
+</h2>
+<p>If you are a student in my class and have questions about what’s going on in class, then please ask me or email me.</p>
+<p>If you are a student interested in using these materials, and you are not in my class, and you don’t know where to begin, then I hope this little overview is helpful. I think there are enough breadcrumbs here to work your way through the course material on your own.</p>
+<p>I am creating new chapters almost each week during Fall 2020 and Spring 2021. Each chapter is a series of lab exercises corresponding closely to chapters in the textbooks we use for stats I and II.<span class="citation"><a class="footnote-ref" tabindex="0" data-toggle="popover" data-content='&lt;p&gt;&lt;a href="references.html#ref-abdiExperimentalDesignAnalysis2009" role="doc-biblioref"&gt;Abdi, Edelman, Dowling, &amp;amp; Valentin, 2009&lt;/a&gt;; &lt;a href="references.html#ref-vokeyThinkingData7th2018" role="doc-biblioref"&gt;Vokey &amp;amp; Allen, 2018&lt;/a&gt;.&lt;/p&gt;'><sup>7</sup></a></span> In the labs we use R, RStudio, and Github to complete assignments. See instructions in the next Getting Started section for tips on installing the necessary software.</p>
+<p>Each lab has a similar structure, with a written chapter and corresponding lecture video followed by a generalization assignment. Lab content is split into conceptual sections (reinforcing a statistical concept with R), and practical sections (showing how to do specific tasks and analyses in R). We start off with very basic R coding, and discuss new coding concepts as they are needed. The generalization problems at the end of each lab are designed to be solved with R code, and challenge students to independently apply coding concepts from the lab to solving similar but new assignment problems. At the same time, all of the assigned problems have walkthrough videos showing example solutions in case you get stuck.</p>
+<p>If you were to follow all of the materials, you would gain experience using R and Rstudio, as well as writing in the powerful and amazing R Markdown language (e.g., which allowed me to make this web-book), and also become familiar with using Github for sharing research assets like statistical analyses that you produce with R. Also, I hope you would find the materials useful for enriching your understanding of statistics. Best of luck!</p>
+</div>
+<div id="for-instructors" class="section level2" number="0.2">
+<h2>
+<span class="header-section-number">0.2</span> For Instructors<a class="anchor" aria-label="anchor" href="#for-instructors"><i class="fas fa-link"></i></a>
+</h2>
+<p>These materials are currently under development, but also released under a CC BY-SA 4.0 license. As a result, these materials will be free to remix and re-use under that license.</p>
+<p>Feel free to fork the repo and use these materials as you see fit. If you would like to contribute to the development of these materials, feel free to submit a pull-request with suggested changes (or leave a comment in github issues).</p>
+</div>
+<div id="cc-by-sa-4.0-license" class="section level2" number="0.3">
+<h2>
+<span class="header-section-number">0.3</span> CC BY-SA 4.0 license<a class="anchor" aria-label="anchor" href="#cc-by-sa-4.0-license"><i class="fas fa-link"></i></a>
+</h2>
+<p><a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg" alt="License: CC BY-SA 4.0"></a></p>
+<p>This license means that you are free to:</p>
+<ul>
+<li>Share: copy and redistribute the material in any medium or format</li>
+<li>Adapt: remix, transform, and build upon the material for any purpose, even commercially.</li>
+</ul>
+<p>The licensor cannot revoke these freedoms as long as you follow the license terms.</p>
+<p>Under the following terms:</p>
+<ul>
+<li>Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>
+<li>ShareAlike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</li>
+<li>No additional restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</li>
+</ul>
+</div>
+<div id="copying-the-textbook" class="section level2" number="0.4">
+<h2>
+<span class="header-section-number">0.4</span> Copying the textbook<a class="anchor" aria-label="anchor" href="#copying-the-textbook"><i class="fas fa-link"></i></a>
+</h2>
+<p>This textbook was written in R-Studio, using R Markdown, and compiled into a web-book format using the bookdown package. In general, I thank the larger R community for all of the amazing tools they made.</p>
+<p>All of the source code for compiling the book is available in the GitHub repository for this book:</p>
+<p><a href="https://github.com/CrumpLab/rstatsforpsych" class="uri">https://github.com/CrumpLab/rstatsforpsych</a></p>
+<p>In principle, anybody could fork or otherwise download this repository. Load the .Rproj file in R-studio compile the entire book. The individual .rmd files for each chapter could be edited for content and style to better suit your needs.</p>
+<p>If you want to contribute to this version of the textbook, you could make pull requests on GitHub, or discuss issues and make requests on the issues tab.</p>
+<p>Note to self to come back here with a quick video rundown of this process.</p>
+</div>
+<div id="citation" class="section level2" number="0.5">
+<h2>
+<span class="header-section-number">0.5</span> Citation<a class="anchor" aria-label="anchor" href="#citation"><i class="fas fa-link"></i></a>
+</h2>
+<p>Note, the date reflects the latest compilation of this book. The DOI was minted on 12/10/2020.</p>
+<p>Crump, M. J. C. (2021, May 06). Reproducible statistics for psychologists with R: Lab Tutorials. <a href="https://doi.org/10.17605/OSF.IO/KBHGA" class="uri">https://doi.org/10.17605/OSF.IO/KBHGA</a></p>
+
+</div>
+</div>
+
+
+
+
+  <div class="chapter-nav">
+<div class="prev"><a href="index.html">Welcome</a></div>
+<div class="next"><a href="r-rstudio-github.html">R, RStudio, &amp; Github</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#preface">Preface</a></li>
+<li><a class="nav-link" href="#for-students"><span class="header-section-number">0.1</span> For Students</a></li>
+<li><a class="nav-link" href="#for-instructors"><span class="header-section-number">0.2</span> For Instructors</a></li>
+<li><a class="nav-link" href="#cc-by-sa-4.0-license"><span class="header-section-number">0.3</span> CC BY-SA 4.0 license</a></li>
+<li><a class="nav-link" href="#copying-the-textbook"><span class="header-section-number">0.4</span> Copying the textbook</a></li>
+<li><a class="nav-link" href="#citation"><span class="header-section-number">0.5</span> Citation</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/CrumpLab/rstatsforpsych/blob/master/Preface.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/CrumpLab/rstatsforpsych/edit/master/Preface.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>Reproducible statistics for psychologists with R</strong>: Lab Tutorials" was written by Matthew J. C. Crump. </p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+</html>

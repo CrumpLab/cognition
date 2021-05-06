@@ -1,0 +1,14 @@
+pandoc: 2.11.2
+pkgdown: 1.5.1
+pkgdown_sha: ~
+articles:
+  Spring_syllabus: course_docs/Spring_syllabus.html
+  Syllabus: course_docs/Syllabus.html
+  contribute: course_docs/contribute.html
+  reference_code: course_docs/reference_code.html
+  resources: course_docs/resources.html
+last_built: 2021-05-06T11:38Z
+urls:
+  reference: https://crumplab.github.io/cognition/reference
+  article: https://crumplab.github.io/cognition/articles
+
