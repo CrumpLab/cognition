@@ -1,13 +1,13 @@
-Package: psyc7709Lab
-Title: Course website for Psych 7709G Statistical Methods Practicum I Fall 2020
-Version: 0.0.0.9004
+Package: cognition
+Title: An open educational resource for Introductory Undergraduate Cognition
+Version: 0.0.0.1
 Authors@R: 
     person(given = "Matthew",
            family = "Crump",
            role = c("aut", "cre"),
            email = "mcrump@brooklyn.cuny.edu",
            comment = c(ORCID = "0000-0002-5612-0090"))
-Description: Course website for Psych 7709G Statistical Methods Practicum I Fall 2020
+Description: A set of creatice commons licensed resources for teaching introductory cognition, including a textbook, course webpage, slide decks, example experiments, and instructor materials.
 License: CC BY 4.0
 Encoding: UTF-8
 LazyData: true
@@ -15,5 +15,6 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.0.2
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    bookdown
 VignetteBuilder: knitr

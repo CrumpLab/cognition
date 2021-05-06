@@ -1,0 +1,5 @@
+for-students
+for-instructors
+cc-by-sa-4.0-license
+copying-the-textbook
+citation

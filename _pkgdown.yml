@@ -29,7 +29,7 @@ navbar:
     left:
     - home
     - syllabus
-    - textbook
+    - articles
     right:
     - github
     - news
@@ -41,8 +41,8 @@ navbar:
       text: Syllabus
       menu:
       - text: Fall 2021
-        href: articles/course_docs/Fall_2021_syllabus.html
-    textbook:
+        href: articles/course_docs/Fall_2021_PSYC_2530_syllabus.html
+    articles:
       text: Textbook
       menu:
       - text: Cognition the textbook
