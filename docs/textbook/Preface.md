@@ -4,11 +4,26 @@ CURRENTLY UNDER DEVELOPMENT TO BE FINALIZED FOR FALL 2021
 
 This will be an open-educational textbook for teaching introductory cognition at the undergraduate level. 
 
+## Purpose and Motivation
+
+TO make an OER textbook for cognition that,
+
+- free textbook for students
+- copiable and refinable over time
+- "next gen" textbook?
+- responsive pedagogy?
+
+## About the Author(s)
+
+At the moment (summer 2021), Dr. Matthew Crump is about to write this textbook so that his students can use it for an introductory undergraduate course in Cognitive Psychology in Fall 2021. Given that this textbook will be released on a creative commons license (see below); I hope to, and have plans to, recruit additional contributors who will help improve this content over time.
+
+Crump became interested in cognition as an undergraduate at the University of Lethbridge, Alberta, Canada, while working as a research assistant in the labs of Dr. John Vokey, and & Dr. Scott Allen. He completed his Ph.D. in Cognitive Psychology in 2007 at McMaster University, Hamilton, Ontario, Canada, under the supervision of Dr. Bruce Milliken, and several other fantastic mentors (Dr. Lorraine Allan, Dr. Lee Brooks, Dr. Laurel Trainor, Dr. Shepard Seigal). He then worked as postdoctoral researcher with Dr. Gordon Logan at Vanderbilt University, Nashville, Tennessee, before beginning as Assistant Professor in the Department of Psychology at Brooklyn College of the City University of New York in 2011. Crump currently runs the the [computional cognition lab at Brooklyn College](https://www.crumplab.com). He has published research on several domains in cognition including learning, memory, attention, skilled-performance, contingency judgment, computational modeling, semantic memory, and other topics. He has also contributed to and authored a few other [open-educational resources for psychologists](https://www.crumplab.com/Books.html).
+
 ## For Students
 
 If you are a student in my class and have questions about what's going on in class, then please ask me or email me.
 
-If you are a student interested in using these materials, and you are not in my class, and you don't know where to begin, then I hope this little overview is helpful. I think there are enough breadcrumbs here to work your way through the course material on your own.
+If you are a student using these materials and you are not in my class, then I hope this introduction to cognitive psychology is helpful for your studies. 
 
 
 ## For Instructors
@@ -48,10 +63,14 @@ If you want to contribute to this version of the textbook, you could make pull r
 
 Note to self to come back here with a quick video rundown of this process.
 
+## Acknowledgments
+
+Thanks to Miriam Deutch (Associate Librarian for Access Services/Art Specialist) who has been spearheading Open-Educational Resource Development at Brooklyn College of the City University of New York, and to the CUNY OER Initiative for funding to develop this project.
+
 ## Citation
 
 Note, the date reflects the latest compilation of this book. CITATION IS TBD WHILE THE PROJECT IS UNDER DEVELOPMENT.
 
-Crump, M. J. C. (2021, May 06). TBD. 
+Crump, M. J. C. (2021, June 11). TBD. 
 
 
