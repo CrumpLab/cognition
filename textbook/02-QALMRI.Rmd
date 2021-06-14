@@ -1,0 +1,272 @@
+# QALMRI
+
+<script>
+$("#coverpic").hide();
+</script>
+
+<!--
+
+
+### The research cycle and QALMRI
+
+Like other sciences, a core feature of the cognitive sciences is the use of the scientific method and general research cycle to ask and answer questions about cognition. The research cycle is a continuous process of knowledge creation that can be used in any domain. We will use the acronym QALMRI [] to describe the research cycle (and also later as an aid for understanding primary research articles). 
+
+#### Question
+
+Q stands for Questions, which refers to the big and small questions researchers have about a particular domain in cognition (e.g., how does mental imagery work? Are their individual differences between people in mental imagery abilities?).
+
+#### Alternatives
+
+A stands for Alternatives, which refer to hypotheses about the questions. Hypotheses take many forms and range in complexity. They could be derived from well-developed theories and models about how a cognitive ability could work, or they could be fairly simple claims about an ability such as 1) there *are* individual differences in mental imagery; versus, 2) there *are not* individual differences in mental imagery. 
+
+#### Logic
+
+L stands for logic, which refers to logical implications inherent to the hypotheses. If the hypotheses are about simple claims, then the logical implications are usually simple too. For example, consider the following two logic statements:
+
+1) If there *are* individual difference in mental imagery; then, people *will* show differences in mental imagery abilities when they are given tests that adequately measure those abilities.
+
+1) If there *are not* individual difference in mental imagery; then, people *will not* show differences in mental imagery abilities when they are given tests that adequately measure those abilities.
+
+#### Methods
+
+Research methods are at the heart of the research cycle. These are a wide variety of measurement tools that researchers create to generate new observations, findings, and facts about a phenomena of interest. For example, a research method could be a questionnaire asking people different questions about their mental imagery abilities, such as on a scale from 1 to 7, how vivid is your visual imagery?.
+
+#### Results
+
+The results are the pattern of data that come from the research method. Depending on the measurement tool, the results could be quantitative or qualitative. For example, the results from a questionnaire on mental imagery given to 100 people could be that everyone has a similar experience of mental imagery, so everyone answers the questions in a similar way. Or, the results could be that people answer the questions in extremely different ways.
+
+#### Inferences
+
+Inferences are one of the most important pieces of the research cycle that glue everything together, and allow the research cycle to make progress in answering the questions that it asks. After results have been produced, a final question is to consider what inferences about the hypotheses under examination can be drawn from the results of the research? 
+
+-->
+
+The general goal of this course is to give you experience with the scientific process of asking and answering psychological questions. At the end of the course you should gain at least two kinds of skills. First, in the labs you will learn to ask and answer your own questions by conducting, analyzing, and reporting the results of experiments that you conduct. Second, you learn how understand the research literature, where other researchers have asked and answered questions, and communicated them publicly by publishing journal articles on their research.
+
+There are a lot of details involved in asking and answering questions in science, and you can easily see these details on display by reading any published peer-review journal article. You will become very familiar these details as you read more papers, and as you write your own APA style research reports.
+
+The details can be daunting, mainly because the format and structure of articles may be unfamiliar, and the language that scientists use is often very specific (or jargony). As a result, if you are not already an expert in a particular domain, it can be very difficult to read and understand research presented in journal articles. Furthermore, if you do not understand the concepts behind the questions, and the details behind the methods and results, then it is difficult to write your own research reports about experiments that you conduct. Have no fear, this lab manual is here to guide you through the process.
+
+Ultimately, by learning the skills we teach you throughout this semester, you will be able to critically evaluate your own research, as well as the research literature at large. This will allow you form your own opinions about the process of asking and answering questions. For example, when you learn how to critically evaluate research you will be able to:
+
+1.  Evaluate whether or not you should believe particular scientific claims, or claims made by the media about new “research findings”
+
+2.  Look at the evidence to see whether it actually provides an answer to the question that was being asked
+
+3.  Look at the questions to see if they are good ones, and learn how to ask better questions
+
+4.  Understand how theories and hypotheses work and make predictions about psychological phenomena
+
+5.  Learn how to find scientific research that has been conducted on topics of your own interest, and then evaluate the claims and evidence for yourself. For example, the skills you learn here about evaluating psychological research are the same skills that you would need to evaluate medical research. So, if you are wondering whether a particular medical procedure, or drug, or diet works or doesn’t work, then you can read the research for yourself to arrive at your own informed opinion.
+
+## The QALMRI Method
+
+The first step is learning how to read journal articles. We will use the QALMRI method throughout this course as a tool to help you identify the major ideas and findings presented in journal articles. The major aspects of the QALMRI method will also help you identify whether your own research reports contain the information necessary to communicate your own research. First, we will explain the QALMRI method, then we will explain how you will be asked to use it throughout the course.
+
+The QALMRI method provides a means for critically evaluating experiments, as well as for organizing your own experiment proposals. It helps you to find connections between theory and data by making explicit the question being asked, the approach used to answer it, and the implications of the answer. QALMRI is an acronym, and each letter identifies critical parts of research articles.
+
+### Q stands for Question
+
+All research begins with a question, and the point of the research is to answer it. For example, we can ask whether a placebo is better than no action in alleviating depression. For most journal articles, the General Introduction should tell the reader what question the article is addressing, and why it is important enough that anyone should care about the answer. Questions fall into two categories: broad and specific. In your QALMRI, state both the broad and the specific questions being asked. Broad questions are typically too general to answer in a single experiment, although one should view the experiment as one step on a journey to answer the broad question. An example of a broad question might be “Does language influence perception?” This sort of question provides the general topic of the paper, and can only be answered through compiling many experimental results. In contrast, the specific question can typically be addressed in a single experiment or set of experiments. A specific question might be “If one language has a specific term for one color, and another language does not have any term for that color, will speakers of the two languages perceive the color differently?”
+
+Again, be sure to identify the broad and specific question relevant to your data collection.
+
+### A stands for Alternatives
+
+Good experiments consider at least 2 possible alternative answers to a specific question, and explains why both answers are plausible. For example, the possibility that speakers of different languages will perceive colors differently is plausible based on evidence that top-down processes can affect perception. The alternative hypothesis, that language does not influence perception of color, is also plausible because color perception in particular might be impervious to top-down influences. That is, it might be based solely on properties of the visual system which are unaffected by language. When describing an existing article or when proposing an experiment, you should identify the alternatives the authors considered. There are always at least 2 alternatives: that factor X will show an effect, or that it won’t (that a null result will be obtained). If possible, identify other alternative patterns as well.
+
+### L stands for Logic
+
+The logic of the study identifies how the experiment’s design will allow the experimenter to distinguish among the alternatives. The logic is typically explained towards the end of the study’s introduction, and has the following structure: If alternative 1 (and not alternative 2) is correct, then when a particular variable is manipulated, the participants’ behavior should change in a certain way. For example, the logic of the color experiment would be: If a person’s native language influences their perception of color, then speakers who have a term for a given color should respond differently to that color than speakers whose language contains no term for that color. Alternatively, if language does not influence color perception, then speakers who have a color term should respond no differently than speakers who lack the term. Note that the logic of the experiment is integrally connected to the alternatives you stated in the last section. Indeed, this section should be comprised of a series of “If, then” statements in which you restate the alternatives you offered (“If X,”), and then state what pattern of data would support that alternative (“then Y”). You should therefore have equal numbers of alternatives and If…then statements.
+
+### M stands for Method
+
+This section identifies the procedures that will be used to implement the logical design. It should state the independent variable (the factor being experimentally manipulated) and the dependent variable (the behavior being measured) of the experiment. It should also describe the subjects, including whether subjects were divided into groups receiving different experimental manipulations. What materials were used to conduct the experiment, and what were the experimental stimuli like?
+
+### R stands for Results
+
+What was the outcome of the experiment? Describe the results of the primary measures of interest. For example, did different subject groups yield different group means? What were these means? Or did the entire subject population produce a distinctive pattern of responses? Describe that pattern. Did the results seem reliable, or do you feel they might have been an artifact of the way the experiment was conducted? For this section, it is often a good idea to use graphs or tables to illustrate the pattern of data you obtained.
+
+### I stands for Inferences
+
+What can the results of the experiment tell us about the alternatives? If the study was well designed, the results should allow you to eliminate at least one of the possible alternatives. For example, if a language lacks a color word but the speakers of that language respond to the color no differently than speakers of a language lacking a term for the color, then the experiment supports the view that language does not influence color perception. At this point, take a step back and think about any potential problems with the experiment that could have led to the pattern of results you obtained. Were there confounds that could have caused the results? For example, if you did find a difference between the subject groups, are there other ways in which the groups differ that are not language-related? Might this have caused the result? Were there problems during the data collection? In addition, this is the section in which to consider the hypothetical next step in answering the broad question. If you were to conduct a follow-up experiment, what would it be (hint: think of questions that remain unanswered by the present results, and sketch a study that could bear on one or more of those questions)? What questions do your results raise?
+
+## Writing a QALMRI
+
+Writing a QALMRI for any research paper (one that you are writing, or one that you are reading) is simply writing short answers to each of these questions using clear and concise language. It is a condensed, short-form, version of the research. To be even more specific, your task is to answer these questions:
+
+-   Question: What was the broad question? What was the specific question?
+
+-   Alternative hypotheses: What were the hypotheses?
+
+-   Logic: If hypothesis 1 was true, what was the predicted outcome? What was the predicted outcome if hypothesis 2 was true?
+
+-   Method: What was the experimental design?
+
+-   Results: What was the pattern of data?
+
+-   Inferences: What can be concluded about the hypotheses based on the data? What can be concluded about the specific and broad question? What are the next steps?
+
+In many of the weekly labs you will read a primary research article, and then write your own QALMRI summary. This will help you extract the big ideas and findings from the research. You will also discuss your QALMRIs as a group to make sure that everyone is on the same page about what the research was about, and what the research showed.
+
+## Example QALMRI
+
+Even if you haven’t read the article, reading a QALMRI should provide you with enough information to get a basic idea of what the article was about. The following QALMRI summarizes the article by Crump & Logan (2010). @crump_warning:_2010
+
+### What was the broad and specific question?
+
+The broad questions are about spatial cognition. How do people understand and represent the spatial relationships between objects in the environment? Do people have “spatial maps” in their head?
+
+The specific question is how do typists know where the keys are on the QWERTY keyboard?
+
+### What are the alternatives?
+
+1.  Typists have an internal cognitive spatial map of the keyboard that they use to guide their fingers during typing
+
+2.  Typists do not have a map-like representation, instead they rely on learned associations between cues such as the feel of the keyboard to guide their fingers during typing
+
+### What is the logic?
+
+1.  If typists have an internal map of the keyboard, then they should be able guide their fingers to correct locations based on the map alone, and no feedback from the environment. For example, if we could measure “air-typing” without a keyboard, then typists should still be able to put their fingers in the correct locations even when the keyboard is missing because they are relying on their internal map.
+
+2.  If typists do not use an internal map of the keyboard, then their finger movements should become slow and inaccurate when they try to type without a keyboard, or in other conditions that change the normal feel of the keyboard, and thereby remove the cues that typists use to direct their fingers.
+
+### What is the Method?
+
+Typists copied paragraphs in four conditions that manipulated tactile (touching) feedback from the keyboard. They typed on a normal keyboard, a keyboard with the keys removed exposing the rubber buttons underneath, a flat circuit board without, and on a flat table with a laser projection keyboard.
+
+### Results
+
+Typists were fast and accurate in the normal keyboard condition. Typists were slow and inaccurate in all of the other keyboard conditions, where normal tactile feedback was removed.
+
+### Inference
+
+The results are *not consistent* with the internal map hypothesis. If typists had an internal map, and did not rely on tactile cues, then they should have typed normally even when the cues were removed. The results are consistent with learned association hypothesis, that typists rely on cues, like the feel of the keyboard, that are associated with particular key locations.
+
+## Finding the QALMRI sections in a journal article
+
+Most psychology journal articles are in APA format. See the textbook, and the sections about APA style in this lab manual for more on that format. APA format makes it relatively easy to find the sections of the QALMRI. The basic parts of an APA manuscript are
+
+1.  Title - Offers clues about the big idea and finding
+
+2.  Abstract - Usually a useful summary of the whole research.
+
+3.  Introduction - Big questions are usually near the beginning, specific questions are usually in the middle. Alternatives (or Hypotheses) and Logic are usually just before the Experiment, and sometimes in the short introduction to the experiment.
+
+4.  Methods - a whole section devoted to the M part
+
+5.  Results - a whole section devoted to the R part
+
+6.  Discussion - Usually provides a summary of the main important finding right at the beginning
+
+7.  General Discussion - Should connect the main finding to the hypotheses and questions under investigation
+
+Most articles that are not in APA style also have very similar sections, and you should find the answers to the QALMRI in the same places. Some journals like Science and Nature have the method sections at the very end. Also, some journals have short article formats, where the research is presented in one or two pages. Oftentimes short reports do not have headers; nevertheless, the answers to the QAL parts are usually near the beginning and middle, and the answers to the RMI parts are usually near the end.
+
+To get some practice extracting QALMRI from a journal article, let’s look at short report published in Science. We’ll look at the Mehl et al. (2007) @mehl_are_2007 paper, discussed in chapter 1 of the textbook. It’s only one page long, so it’s an easy read.
+
+[Click this link to get the paper online](https://login.ez-proxy.brooklyn.cuny.edu/login?url=http://science.sciencemag.org/content/317/5834/82). Note, if you are on the Brooklyn College network, this should take you directly to the paper. If you are at home, you will need to first sign into the library.
+
+### Finding the Big Question
+
+You might say the big question is implied by first sentence, “Sex differences in conversational behavior have long been a topic of public and scientific interest”. The big question is not stated directly, but you could infer that the questions are something like, 1) Are there sex differences in talking, or other conversational behavior?, 2) Do women talk more than men?, 3) Why do women talk more than men?, and so on.
+
+You might also read this article and conclude that the authors did not really spell out the big questions. After all, they only had a single page to communicate their research. So, it is important to realize that there are big questions that may not actually be stated. You, the reader, need to connect the dots. For example, we could say some of the really big questions are: 1) What are the main sex differences in communication, language, and cognition in general, 2) How do people use language to communicate, 3) What cognitive, biological, genetic, and environmental mechanisms cause sex differences in these behaviors? You can see that the research relates to these bigger questions, even if they are not explicitly stated.
+
+### Finding the Specific question
+
+In this case, the specific question is hard to miss. It’s in the title, “Are women really more talkative than men?”. The authors motivate asking this question by pointing out that systematic research has not actually measured how many words men and women say on average per day.
+
+### Alternatives
+
+The hypotheses in this article are pretty straightforward because they are clearly related to an empirical question. One hypothesis is alluded to in the second sentence, where the authors claim that western society has a stereotype that women are more talkative than men. In this case, the hypotheses in question are not about psychological processes or mechanisms, they are simply about the data. The authors also do not formally state two hypotheses. We have to do that for them.
+
+-   Hypothesis 1: Women are more talkative than men
+
+-   Hypothesis 2: Women are not more talkative than men
+
+### Logic
+
+In this case, the logic of the hypotheses is nearly identical to the hypotheses themselves, but simply stated in terms of a logical if/then structure.
+
+-   If, women are more talkative than men, then women should on average produce more words per day than men
+
+-   If, women are not more talkative than men, then women should on average produce the same or less number of words per day than men.
+
+### Methods
+
+You can see the methods described in paragraphs three and four. Basically, they recorded subjects all day long in their natural environments, and then counted how many words they said.
+
+### Results
+
+The results are in paragraph six, and presented in the table. You already know the question: “Do women talk more than men?”, and that they measured the number of words spoken by groups of men and women, so you should expect to find some average data showing the actual counts. We see this in the weighted average in the table. Women said on average 16,215 words per day, and men said 15,669 words per day. The results section says that this result was not statistically different, and could have easily been produced by chance. You can even see that some of the sub-groups showed the opposite pattern of data, with men saying more words per day than women.
+
+### Inference
+
+The authors make inferences about their hypotheses in the last two paragraphs. Their major inference is that, contrary to popular belief, women are not more talkative than men. They also discuss some limitations of their work.
+
+### Reading between the lines
+
+We saw that some parts of the QALMRI weren’t explicitly stated the by authors in the manuscript. However, all of the major parts were implied by what they wrote. This will be a common theme in reading the research literature. You will have to extract the implications when they are not explicitly stated. That means you have to read between the lines to understand the ideas and connections between them.
+
+This research appeared to have no theory behind it. So, the results of the paper did not appear to test predictions of any theory. Instead, the results were testing the popular claim or stereotype that women talk more than men. The data show strong, reliable evidence that this claim simply isn’t true, at least for the subjects they measured. But, do the data have implications beyond testing the stereotype? Do these data have theoretical implications? Yes, they do, but you have to read between the lines to see the connection.
+
+The author’s allude to this connection in the final paragraph, where they say “Further, to the extent that sex differences in daily word use are assumed to be biologically based, evolved adaptations [3], they should be detectable among university students as much as in more diverse samples”. The clue is the reference to [3], which you can find in the article, and refers to a book called “The Female Brain”. I have not read this book, but let’s imagine that it contains a theory about evolved adaptations that are biologically based, which cause differences in how women and men talk. This theory would make a number of assumptions, and it would predict that women talk more than men. So, even though the authors do not describe this theory in detail to explain how it works, and why it might predict that women talk more than men, their data nevertheless has implications for that theory. Specifically, any data showing that women and men say about the same numbers of words per day, has implications for any theory that predicts otherwise. So, reading between the lines, we can see that findings suggest that theories suggesting differences between women and men must be making wrong assumptions. And, the results point us toward theories that suggest common psychological principles and processes driven male and female talking behavior. So, indeed there are many implications between the lines that we arrive at when we draw them out of the text by thinking about the ideas, and the connections between ideas and the data.
+
+## The Hardest Section of the QALRMI: Alternatives
+
+In my opinion, the alternatives section is the hardest, and sometimes the most confusing part to extract from a journal article. Sometimes the author’s make it really easy by writing very clearly and explicitly. For example, you may find that the authors explicitly define two hypotheses, which is very helpful. But, this is not always the case. So, when there is only one hypothesis, don’t spend time looking in the manuscript for a second one (however, just because the authors didn’t generate a second hypothesis, doesn’t mean that you can’t do that for yourself. There’s always an alternative way of explaining things.)
+
+The alternatives section appears to be simple when the claim that is being tested is an empirical claim. Empirical claims are questions about whether the observations or measurements (dependent variables) are different between the conditions of the experiment (independent variables). There are always two general possibilities.
+
+1.  There is a difference between conditions.
+
+2.  There is no difference between conditions (like in the above paper, there were no differences between women and men in the number of words spoken per day)
+
+So, you might come across articles where the paper is asking whether one thing influences another. For example, does the color of a room (red vs. blue) change how fast you can read; or does drinking coffee vs. tea change how quickly you can learn piano. There are many “does this do something to that” kind of questions. In these cases, the alternative section boils down to:
+
+-   Empirical Hypothesis 1: X does change something in Y (This does do something to that)
+
+-   Empirical Hypothesis 2: X does not change something in Y (This does nothing to that)
+
+### Empirical vs. Theoretical Hypotheses
+
+Notice the new label “Empirical hypothesis”. This label means that the hypothesis is directly concerned with whether the experiment will do something, that is whether the manipulation will actually change something that was measured, or will do nothing at all. In fact, we might make a new label that eliminates the word hypothesis, because these two statements aren’t really hypotheses in any interesting sense, instead they just the two possible outcomes that can always occur in any experiment. So, let’s use the labels “Empirical Outcome”
+
+-   Empirical Outcome 1: X does change something in Y (This does do something to that)
+
+-   Empirical Outcome 2: X does not change something in Y (This does nothing to that)
+
+You should be able to see by now that there are always two outcomes when running an experiment. It does something (produces some difference), or it does nothing (produces no differences). So, for every experiment, you could always write an “Alternative”section that simply says the alternatives were 1) the experiment will do something, or 2) the experiment will not do anything. But, because this is true of all experiments, it really does not tell us anything useful.
+
+Instead, what you should be looking for is the “THEORETICAL HYPOTHESIS” or “THEORETICAL HYPOTHESES”. The theoretical hypotheses are where the alternative sections get really interesting, but at the same time can be very challenging to understand. Theoretical hypotheses can be challenging to understand because you have to understand what the theory is, how it works, and why it makes particular hypotheses. Most important are the connections between the theoretical hypotheses and the research findings. In particular, when a theoretical hypothesis fails to predict the research findings, the hypothesis must be somehow wrong! So, we can use the findings from experiments to rule out bad theories or explanations, which opens the door to new and improved theories that can explain the findings.
+
+Returning the “read between the lines” theme, not all papers will be explicit about the difference between theoretical hypotheses and empirical hypotheses. For example, look back at our QALMRI summary for the Mehl et al. (2007) paper. What kind of Alternatives did we list? It should be clear that we listed two empirical hypotheses: Either women talk more than men, or they don’t. Also, reading the paper, the authors’ themselves were mainly concerned with the empirical question, and only alluded to the theoretical issues in passing at the end of the article.
+
+So, when you are writing QALMRI summaries be aware that some papers fail to state the theoretical issues. When this is the case it is totally appropriate to state the Alternatives in terms of the Empirical hypotheses, as perhaps the authors were not testing any theories, or have no theoretical explanations for their results. You could also attempt to figure out what the theoretical issues might be by reading between the lines. However, when the article discusses the theories that motivate the research, you must state the alternatives in terms of the Theoretical hypotheses, because in these cases they are the most important parts of the paper.
+
+Finally, let’s consider how we could change the Alternatives section that we wrote for the Mehl et al. (2007) paper, so that rather than listing empirical hypotheses, we instead imagine what the theoretical hypotheses might be.
+
+The original empirical hypotheses were:
+
+-   Empirical Hypothesis 1: Women are more talkative than men
+
+-   Empirical Hypothesis 2: Women are not more talkative than men
+
+Some possible theoretical hypotheses are:
+
+1.  Theoretical Hypothesis 1: Women and men have specific biological adaptations stemming from different evolutionary pressures that cause women to be more social than men. The implication is that women may exhibit more social behaviors, such as talking, than men.
+
+2.  Theoretical Hypothesis 2: The neuro-biological and cognitive processes involved in language production are virtually identical between the sexes. The implication is that talking behaviors are not fundamentally different between men and women.
+
+To make the distinction and relationship between theoretical and empirical hypotheses more clear, we can put the empirical hypotheses inside the theoretical ones.
+
+1.  Theoretical Hypothesis 1: Women and men have specific biological adaptations stemming from different evolutionary pressures that cause women to be more social than men. The implication is that women may exhibit more social behaviors, such as talking, than men.
+
+    1.  Empirical Hypothesis 1: Women are more talkative than men
+
+2.  Theoretical Hypothesis 2: The neuro-biological and cognitive processes involved in language production are virtually identical between the sexes. The implication is that talking behaviors are not fundamentally different between men and women.
+
+    1.  Empirical Hypothesis 2: Women are not more talkative than men
+
+Each theoretical hypothesis implies particular empirical outcomes. So, we collect the data about the empirical outcomes because they test the implications of the theoretical hypotheses.
