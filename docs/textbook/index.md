@@ -7,7 +7,7 @@ site: bookdown::bookdown_site
 documentclass: book
 
 bibliography: CogPsyTextbook.bib
-csl: apa-fullnote.csl
+csl: apa.csl
 link-citations: yes
 ---
 
