@@ -4,5 +4,6 @@ knitr::opts_chunk$set(
   message = FALSE,
   warning = FALSE,
   cache = TRUE,
-  out.width = '100%'
+  out.width = '100%',
+  echo = FALSE
 )

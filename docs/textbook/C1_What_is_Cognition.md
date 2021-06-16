@@ -239,22 +239,67 @@ The pictorial and propositional ideas about cognitive representation are two ver
 
 #### Mental Chronometry
 
-In 1978, Stephen Kosslyn [@kosslynVisualImagesPreserve1978] did some clever experiments on scanning of mental images. Here's the quick and dirty version. Imagine a map of the USA, now zoom in on New York City and imagine a little black dot hovering over the city. Whenever you are ready, zoom that little black dot all the way over to Los Angeles. How long it did it take you to mentally scan across your mental image of the map? Kosslyn created a similar task to measure the time it took people to do similar kinds of scans across a mental image. The interesting part of the study was that he asked people to scan between two locations that had different distances. For example, I could have asked you to mentally travel from New York City to Chicago,  Miami, Philadelphia or Boston. On a real map, each of those cities are different distances away from each other. The empirical question was whether or not the time it took to scan from one location to another would depend on how far apart the locations were, even if people were scanning mentally projected images in their own mind.
+In 1978, Stephen Kosslyn and colleagues [@kosslynVisualImagesPreserve1978] did some clever experiments on scanning of mental images. Here's the quick and dirty version. Imagine a map of the USA, now zoom in on New York City and imagine a little black dot hovering over the city. Whenever you are ready, zoom that little black dot all the way over to Los Angeles. How long it did it take you to mentally scan across your mental image of the map? Mental chronometry refers to measuring how long it takes to perform mental operations like scanning a mental image.
 
-The task
+Instead of a map of the USA, participants were shown the map below, and were given practice mentally imaging the map and drawing it from memory until they could reproduce it to a high degree of accuracy. The map shows an island with a hut, tree, rock, well, lake, sand, and grass, all spread about the island. 
 
-The results
+<img src="imgs/KosslynEtAl1978Fig2.png" width="50%" />
 
-Interpretation of the result
+The map was taken away and participants were asked to mentally image the map in their mind's eye. Then, the main task began. The task was split up into individual trials where the participant was asked to focus on one of the depicted locations on their mental image of the map (by imagining a black dot on top of it), and then mentally scan to a different location by moving their imagined black dot to the new location. For example, you might focus on the tree and the scan to the grass (a longer distance); or focus on the hut and scan to the lake (a shorter distance). Importantly, the researchers measured the time taken to make each scan.  The empirical question was whether or not the amount of time to mentally scan from one imagined location to another would depend on the distance between the imagined locations.
 
-consistent with pictorial reprsentation assumption
+Before we look at the actual data, let's consider three ways the experiment could have turned out. First, let's assume that people can scan between different locations immediately without taking any time at all, I will call this the "no-time" hypothesis. Second, let's assume that that people will take some random amount of time to scan between the locations, the "random-time" hypothesis. And third, let's assume that people's scanning times will increase with the distance between the imagined locations, the "distance-time" hypothesis. Each of the these hypotheses makes a different prediction about how the results might turn out. Consider the three graphs below which show predictions for each hypothesis. These are examples of how the results could have turned out according to each hypothesis
 
-What about the propositional assumption?
+<div class="figure">
+<img src="C1_What_is_Cognition_files/figure-html/predictScanning-1.png" alt="Hypothetical results of the mental scanning task for the no-time, random-time, and distance-time hypotheses" width="100%" />
+<p class="caption">(\#fig:predictScanning)Hypothetical results of the mental scanning task for the no-time, random-time, and distance-time hypotheses</p>
+</div>
 
+Each of the panels shows a scatterplot of possible results. The y-axis (vertical axis) represents amount of time in seconds and ranges from zero to two seconds. Dots that are near the bottom of the plot represent shorter scanning times, and dots closer to the top represent longer scanning times. The x-axis (horizontal axis) represents the distance between locations in centimetres on the real map that participants saw before they had to imagine it. Dots closer to the left of a plot represent scanning times between locations that were close together, and dots closer to the right side  represent scanning times between locations that were far apart.
 
+The "no-time" plot shows all of the dots in a line at the bottom, which represents 0 seconds. This is what would happen if people could instantaneously scan from any location to any other location. Even though some locations would be closer together or further apart (represented by the fact that there are dots that go all the way from 1 cm to 15 cm), all of the scanning times would be 0.
 
+The "random-time" plot shows dots spread about randomly. When I drew this graph, I had my computer pick random numbers. This is what would happen if people do take different amounts of time to scan between locations, but the amount of time would be unpredictable, and it would not depend on the distance between the imagined locations. People might be fast or slow to scan between locations that were close or far apart, and scanning speed could fluctuate based on other factors like how motivated or sleepy people were.
 
-that mental visual images have similar properties to real visual images. 
+Finally, the "distance-time" plot shows dots in a tilted line (going from the bottom left to the top right) showing a positive relationship or correlation between distance and time. This is what could happen if the distance between imagined locations influences scanning time in a systematic way. Specifically, this graph shows a linear relationship. As the distance between locations increases, so does scanning time. Shorter distances take less time, and longer distances take more time.
+
+What were the results of the study, and did they look like any of the hypothetical results that we just discussed? The original results are shown below:
+
+<img src="imgs/KosslynEtAl1978Fig3.png" width="100%" />
+
+The dots represent average scanning times between specific locations for all of the participants, and they mostly fall on the straight line. To me, the results look most like the hypothetical "distance-time" results. The data points are a little bit noisy, and they don't fall precisely on the line every time, so there is a bit of randomness or variability in mental scanning time too. But overall, people appear to take longer to scan between imagined locations on the map as the distance between the locations increases.
+
+Before considering what these results could mean for theories of mental representation, let's note that this study made an attempt at advancing how mental imagery could be investigated using more objective behavioral measures. In this case, the measurement of time to make a mental scan was directly observable. Although directly observable measures of behavior have many desirable properties, including the possibility that multiple observers can mutually confirm and reach consensus on what they are observing, there are also big limitations when it comes to cognition. The biggest limitation is that direct measures of behavior are not direct measures of cognitive processes. The assumption is that cognitive processes are involved in producing the behavior in question, and that measures of behavior therefore indirectly reflect the underlying mechanisms of the mind causing the behavior. So, when someone measures "mental scanning time", we are only measuring the time associated with whatever happened during "mental scanning". The measure of time does not directly show whether or not a mental image is like a picture or a proposition. Instead, a common strategy in cognitive research is to theorize about how cognitive processes might work, and attempt to explain how those cognitive processes would result in the observable measures of behavior.
+
+### Explaining mental scanning times
+
+Let's assume that Kosslyn et al's results can be trusted as a fact, and that when people scan a mental image it really does take longer to scan across longer than shorter distances in the mental image. What does this factoid tell us about the nature of mental representation? Perhaps a better question is, how are factoids like this one used in cognitive research to generate knowledge about cognitive processes? 
+
+One strategy involves inventing theories and hypotheses about cognition, and then evaluating whether or not they can predict, anticipate, and/or explain the patterns of measurements found by experiment. If a theory can explain a finding maybe it is correct. If a theory can not explain a finding, maybe it is wrong and should be discarded. Over time the process of theory building and testing would lead to a great many discarded theories that couldn't explain the findings, and what would be left could be plausible working theories that do a pretty good job explaining the findings. This characterization of how the scientific method incrementally hones in on better explanations is connects with issues in the philosophy of science [e.g., @popperLogicScientificDiscovery1959], which I will elaborate on over the book.  
+
+Let's finish this section by returning to the distinction between pictorial and propositional mental representations, and ask whether the pattern of data is consistent or inconsistent with either of those ideas.
+
+#### A pictorial explanation of scanning time
+
+Are the findings consistent with the assumption that people have picture-like mental representations of visual images? I don't think this question can be answered without first speculating more about how pictorial representations might work, and how they could lead to the results reported by Kosslyn et al. Here's a simple metaphorical elaboration. I could propose that mental imagery for visual images is like perception for visual scenes, and that because of this relationship, mental imagery should behave in similar ways to visual perception. For example, objects in visual scenes have spatial distances between them, and by analogy mental images of scenes should preserve the spatial distances between imaginary objects. When looking from one object to another in the real world, it can takes time to move your eyes, and the amount of time naturally depends on how far the eyes need to move. If the metaphor holds, it is possible that mentally scanning an image will behave in the same way. So, my answer is yes. The findings could be consistent with the pictorial mental representation assumption, but only if I created a story that established how this assumption would work.
+
+#### A propositional explanation of scanning time
+
+Let's ask whether the results are consistent with the propositional assumption about mental representations. Pylyshyn argued that Kosslyn's results could be explained without assuming any role for pictorial mental representations. Again, to consider the propositional assumption we need to embed it into a working hypothesis about how people use propositional knowledge. First, consider how propositions could be used to code relations between objects in the scene. I will use sentences as an example of combining abstract symbols (words) to represent relations between objects in the scene.
+
+1. The island contains objects
+2. The rock is on the north end of the island
+3. The grass is on the north-west side of the island. 
+4. The grass is south-west of the rock
+5. The tree is south of the grass, in the southwest of the island
+6. The well is due west of the tree
+7. The hut is just south of well
+8. The lake is close to the tree, just to the southeast
+
+The next step is to consider how people might rely on propositions during the mental scanning task. For example, maybe the time to mentally scan between one object and another actually reflects the time it takes to activate knowledge about different objects in the propositional network. Lake and tree are close in the image, but they are also coded together in the same proposition, which could make it easier to go from the lake concept to the tree concept. Similarly, the rock is far from the tree in the image, but the way I wrote the propositions, rock is not directly coded in relation to the tree, but that relation can be established by moving through multiple propositions: the tree is south of the grass, and the grass is south-west of the rock. It might take more time to scan longer distances in the mental image because of the requirement to process multiple propositions.
+
+As an aside, given that we have learned about aphantasia (people with no mental imagery), I wonder how aphantasics would perform in Kosslyn's task--if mental imagery is not required to perform the task, maybe they would be just fine and show the same results as everyone else...or maybe they would refuse to do the task because they would be unable to imagine the map. 
+
+### Evaluating the explanations
 
 
 
@@ -280,7 +325,7 @@ People could be inaccurate at describing their own subjective experience...might
 claims not independently verifiable by other objective means.
 
 
-
+<!--
 ## Creating Generalizable knowledge
 
 data points and shapes to explain them
@@ -294,6 +339,8 @@ data points and shapes to explain them
 ### popper and falsificationism
 
 ### transcendental realism
+
+-->
 
 ## Questions to keep in mind as you learn about cognition
 

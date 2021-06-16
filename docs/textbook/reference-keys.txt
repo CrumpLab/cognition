@@ -1,3 +1,4 @@
+fig:predictScanning
 purpose-and-motivation
 about-the-authors
 for-students
@@ -32,13 +33,11 @@ paivios-explanations
 the-research-cycle-and-theory-testing
 theories-of-mental-representation
 mental-chronometry
+explaining-mental-scanning-times
+a-pictorial-explanation-of-scanning-time
+a-propositional-explanation-of-scanning-time
+evaluating-the-explanations
 society-and-historical-context
 issues-with-interpretation
-creating-generalizable-knowledge
-scientific-method
-subjective-consensus
-philosophy-of-science
-popper-and-falsificationism
-transcendental-realism
 questions-to-keep-in-mind-as-you-learn-about-cognition
 learning
