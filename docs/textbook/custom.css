@@ -33,3 +33,9 @@ blockquote p {
   width: 100%;
   height: 100%;
 }
+
+.csl-entry {
+  padding-left: 20px!important;
+  text-indent: -20px!important;
+  padding-bottom: 10px;
+}

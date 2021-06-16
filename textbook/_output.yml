@@ -4,7 +4,7 @@ bookdown::bs4_book:
     primary: "#713a8a"
     base_font: !expr bslib::font_google("Work Sans")
     heading_font: !expr bslib::font_google("Major Mono Display")
-  repo: https://github.com/CrumpLab/rstatsforpsych
+  repo: https://github.com/CrumpLab/cognition
   includes:
     in_header: [ga_script.html,og_cards.html,twitter_cards.html]
   css: custom.css
