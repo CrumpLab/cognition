@@ -2,13 +2,18 @@
 
 # What is cognition and how does it work?
 
+
+| Word Count|Reading Time |
+|----------:|:------------|
+|      14411|72.1 minutes |
+
 ## Chapter Overview
 
 This chapter provides a broad view of some of the issues involved with describing, and tools and methods used to describe cognition and how it works. We begin to give some definition to cognition, although this definition expands across the rest of the textbook. Most of this chapter is concerned with background concepts that are important for understanding the processes by which we can create knowledge about how cognition works. This includes preliminary discussions about roles for theories and facts, philosophy of science, the scientific method and other methods for generating knowledge, and the kinds of explanations that provide more or less satisfying answers to questions about the mind.
 
 ## Taking a step back
 
-What is cognition and how does it work? These are questions I have been wondering about ever since I started doing research into human cognition. At the moment, I (Matt Crump) am a roughly early/mid-career researcher who has been conducting research on topics in cognition since about 2000-2001, where I started as an undergraduate working in cognitive psychology labs. At that time I discovered that there was a large scientific literature on human and animal cognition that went back over a hundred years. Today, that very same literature has continued to grow and grow. Perhaps I shouldn't admit this, but even though I've dedicated over 20 years of my life to studying and contributing to this literature, I think I can safely say that I have way more questions about cognition than answers. In some sense, the more I learn about research into cognition, the less I feel I know about how cognition works. It's quite possible that I am more confused about cognitive psychology now (after 20 years as a researcher), than I was before I started! 
+What is cognition and how does it work? These are questions I have been wondering about ever since I started doing research into human cognition. At the moment, I (Matt Crump) am a roughly early/mid-career researcher who has been conducting research on topics in cognition since about 2000-2001, where I started as an undergraduate working in cognitive psychology labs. At that time I discovered that there was a large scientific literature on human and animal cognition that went back over a hundred years. Today, that very same literature has continued to grow and grow. Perhaps I shouldn't admit this, but even though I've dedicated over 20 years of my life to studying and contributing to this literature, I think I can safely say that I have way more questions about cognition than answers. In some sense, the more I learn about research into cognition, the less I feel I know about how cognition works. It's quite possible that I am more confused about cognitive psychology now (after 20 years as a researcher), than I was before I started!
 
 Maybe I shouldn't be writing this textbook, and you should instead find an "authoritative" textbook where you can trust that the author knows everything about cognition, is not confused, and is also able to compress over a hundred years of science down into engaging and readable chapters for beginners to the field. Indeed, there are many introductory textbooks to the field of Cognitive Psychology available, each offering the authors view on the field, along with their way of introducing the field to new students. So, just like those other textbooks, in this one, you will be treated to my view of cognition, and my style for presenting it to new students. The reason I am drawing attention to these issues is that there is one thing about cognition that is very clear to me: there are many different perspectives and answers to the question "what is cognition and how does it work?".
 
@@ -16,31 +21,31 @@ I would go so far as to say that it is a fact, in the year 2021, that even thoug
 
 ### The truth, the whole truth, and nothing but the truth vs knowledge creation
 
-The cognitive sciences are interested in understanding how cognition works, and this could mean that the whole enterprise is trying to figure out what is true about cognition and what is false. Science is a slow moving incremental process, so over the history of the cognitive sciences there have been many false starts. Some findings have been published that are hard to replicate (so they might not be real), and there are many theories about cognitive phenomena that have been proven to be false. There are also many findings that seem pretty stable, and there are good reasons to treat them as facts; and, despite the limitations of cognitive theories, there are nevertheless some very powerful ones out there that do a commendable job at explaining aspects of cognition. 
+The cognitive sciences are interested in understanding how cognition works, and this could mean that the whole enterprise is trying to figure out what is true about cognition and what is false. Science is a slow moving incremental process, so over the history of the cognitive sciences there have been many false starts. Some findings have been published that are hard to replicate (so they might not be real), and there are many theories about cognitive phenomena that have been proven to be false. There are also many findings that seem pretty stable, and there are good reasons to treat them as facts; and, despite the limitations of cognitive theories, there are nevertheless some very powerful ones out there that do a commendable job at explaining aspects of cognition.
 
-So, as a final thought before we get started, I'm going to give you a heads up about how this textbook will generally tell you about the story of cognition. One option is for me to sort through all of the published research on cognition (there are hundreds of thousands of published scientific manuscripts), pick all of the ones that are true, and then tell you only about the true things about cognition that we know to be true. Actually, I don't think this is really an option at all. So, I'm not even going to attempt anything like that. 
+So, as a final thought before we get started, I'm going to give you a heads up about how this textbook will generally tell you about the story of cognition. One option is for me to sort through all of the published research on cognition (there are hundreds of thousands of published scientific manuscripts), pick all of the ones that are true, and then tell you only about the true things about cognition that we know to be true. Actually, I don't think this is really an option at all. So, I'm not even going to attempt anything like that.
 
 Instead, this textbook will tell a story about cognition that is not so obsessed with the truth, the whole truth, and nothing but the truth. I don't deny that there are so-called "truth's" about how cognition works. Most researchers, including me, accept facts like people and animals are physical beings, and that cognition somehow emerges from biological processes. From this perspective, there must be some truths about human and animal cognition because cognition must be determined by physical properties of our physiologies. Instead of telling a story about all the true things we think we know about cognition, I'm going to back up a little up and focus the story on the process by which cognitive science creates knowledge about cognition. Sometimes cognitive science produces knowledge about cognition that is not true about people or animals, but nevertheless very useful say for creating computer intelligence or other smart technology. Similarly, it will be important to recognize that much of what cognitive science has produced over its history resembles "working draft concepts" in the large scheme of things, and very rarely fundamental truths about cognition that everyone agrees on.
 
 ## What is Cognition?
 
-So, what is cognition anyway? An everyday definition involves pretty much anything to do with how your mind works. If you are reading this, then you have cognition, and as someone with cognition, I'm sure you can form your own opinions on what counts as cognition for you. This textbook is both about cognition in this everyday sense, as well as the field of cognitive psychology and the broader cognitive sciences. These domains of academic inquiry have the goal of studying cognition from many different angles to produce knowledge about how cognition works. 
+So, what is cognition anyway? An everyday definition involves pretty much anything to do with how your mind works. If you are reading this, then you have cognition, and as someone with cognition, I'm sure you can form your own opinions on what counts as cognition for you. This textbook is both about cognition in this everyday sense, as well as the field of cognitive psychology and the broader cognitive sciences. These domains of academic inquiry have the goal of studying cognition from many different angles to produce knowledge about how cognition works.
 
 I like to think of cognition as a big list of questions about how cognitive abilities work. For example, How do you remember what you ate for breakfast? How do you remember something that happened when you were a kid? How do you learn language? How do you know how to say a sentence? How do you think your next thought? What is your imagination like? How do you learn new skills, like walking, riding a bike, playing a musical instrument, playing a sport, or a game? How do you learn new information, and how can you study more efficiently? How do you recognize peoples faces? How do you know a tree is a tree and not some other object? How do you make plans for the future? Do you have an inner voice and if so how do you use it? How do you make decisions in your daily life? What makes you prefer some music and not others? How do you control all of your body movements from moving your fingers to facial expressions? How do you pay attention to some things while ignoring others? How did you forget that phone number so fast? How did you forget what you were doing while you were in the middle of doing something? How do you learn to read? How do you know the meaning of words? How can you train your brain to get better at something? Why do you think you know a word that is just on the tip of your tongue, but yet you can't say the word, until later it pops in your head? How many memories can a person have? What does it mean to be smart? Can anyone learn anything to a high degree of skill? How do all of these cognitive abilities develop over the lifespan? How do people understand their own cognition? How do people understand other people's cognition? What about non-human animals, what kind of cognitive abilities do they have? Does my cat dream about me?
 
-I hope you got the sense that I could have kept going with those questions, and that you could probably come with your similar kinds of questions. From my perspective, these kinds of questions are ones that cognition researchers are interested in asking and answering. 
+I hope you got the sense that I could have kept going with those questions, and that you could probably come with your similar kinds of questions. From my perspective, these kinds of questions are ones that cognition researchers are interested in asking and answering.
 
 Most of the above questions have two things in common that make them relevant to research in cognition (or they could be rephrased to have these two things). First, they are all about a kind of cognitive ability (such as being able to remember something, attend to something, read a book, hear a word, and so on). Second, they are "how" questions, and "how" questions are all about explaining how things work. Let's elaborate on both of these to begin answering "what is cognition?"
 
 ### Cognitive abilities
 
-What is a cognitive ability, and what makes an ability a cognitive one as opposed to a regular ability? In the first textbook to coin the phrase "Cognitive Psychology" [@neisserCognitivePsychology1967], Neisser defined cognition as "all processes by which the sensory input is transformed, reduced, elaborated, stored, recovered, and used". This is a pretty all-encompassing definition that still captures much of what cognitive scientists continue to study today. We could use Neisser's definition to give some definition to the concept of a cognitive ability. 
+What is a cognitive ability, and what makes an ability a cognitive one as opposed to a regular ability? In the first textbook to coin the phrase "Cognitive Psychology" [@neisserCognitivePsychology1967], Neisser defined cognition as "all processes by which the sensory input is transformed, reduced, elaborated, stored, recovered, and used". This is a pretty all-encompassing definition that still captures much of what cognitive scientists continue to study today. We could use Neisser's definition to give some definition to the concept of a cognitive ability.
 
 At the same time, I don't want to focus too much on narrowly defining cognition and what counts as cognitive abilities. We will get a better sense of what the field has studied under these terms across the chapters in the textbook. We will also see that cognitive psychologists sometimes get too hung up on making distinctions [@newellYouCanPlay1973] that can distract from the larger issues. For example, we could spend our time making a list features for what makes an ability a cognitive ability. These could include features like: involves mental effort, involves your brain, involves thinking, and so on. There will be inevitable disagreements about what features should or should not be included on the list. And, we could end up looking at lists of abilities and spend way too much time deciding how they should be categorized, rather than spending time trying to figure out how the abilities work.
 
 ### Answering How questions
 
-It is much easier to answer a "can" question about cognition, than a "how" question. For example, can people remember information like a phone number? If you have ever remembered a phone number, then you know the answer is yes. Can you forget a phone number? Yes. We don't need the science of cognition to answer many "can"-type questions about cognitive abilities. 
+It is much easier to answer a "can" question about cognition, than a "how" question. For example, can people remember information like a phone number? If you have ever remembered a phone number, then you know the answer is yes. Can you forget a phone number? Yes. We don't need the science of cognition to answer many "can"-type questions about cognitive abilities.
 
 "How" questions are much harder to answer. If I asked you, "how is it that you can remember a phone number?"; or, even more incredibly, "how can you remember a whole personal experience that happened to you ten years ago?", what kind of answer would be required to explain how those abilities work? What kind of answer would be satisfying to you? In my opinion, there are two big reasons why how-questions about cognition are hard to answer. First, the cognitive ability in question (remembering, learning, attending, talking etc.) is usually extremely complex involving the interaction of many parts, so it is daunting to imagine how detailed and complicated the explanation would have to be. Second, depending on who you talk to in the cognitive sciences, you will find that there are different levels and kinds of explanation; so, in addition to doing the hard work of explaining something about cognition, you will also have to do the hard work of understanding how different levels of explanations work, and make choices about the kinds of explanations that are appropriate and satisfying for the problem at hand.
 
@@ -50,9 +55,9 @@ The purpose of this textbook is to provide an introduction to the ways in which 
 
 Some of these topics are little bit abstract, and one of the principles of cognition that will be repeated across this textbook is that learning from examples is fundamental in cognition [], and also helpful for learning abstract material []. So, we will use the example of research into mental imagery as an aid for introducing some of the major ways that cognitive research works. It is also useful to have some major landmarks in mind when navigating new territory, even it is conceptual territory. So, I will organize the rest of the chapter into three big landmarks in the research landscape of cognition.
 
-1. The research cycle
-2. Fact and theory generation
-3. Society and historical context
+1.  The research cycle
+2.  Fact and theory generation
+3.  Society and historical context
 
 The research cycle involves a wide variety of methods (such as the scientific method) that researchers use to test claims about cognition. Fact and theory generation are a part of the research cycle, but I gave them their own big landmark. Fact and theory generation is the process of figuring out what facts about cognition are real and in need of explanation, and then coming up with theories that explain the facts. The research cycle can be used to test factual claims and theoretical claims, which can lead researchers to discover new facts and create new theories (i.e., a cyclical process). Last, cognition research is a human activity that is embedded within a socio-historical context. The discoveries of cognitive research can have applications in society (for better and worse), and the potential prospects of these applications can in turn influence the research process by guiding researchers to spend their time on some problems as opposed to others.
 
@@ -62,7 +67,7 @@ The very broad domain of all-of-cognition is very large, and probably too diffic
 
 What is mental imagery?
 
-Close your eyes, and think about what you can see or hear in your "mind's eye" or "mind's ear". Some people report being able to see life-like images that are extremely clear and vivid, almost as if there is no difference between what they can imagine seeing and what they can see when they are looking at something when their eyes are open. Some people report seeing less vivid mental imagery, that is more spatial in nature. For example, they could close their eyes and imagine their kitchen; but they wouldn't "see" their kitchen as it appears when they are looking at it for real; but, they would nevertheless have some spatial sense about the shape of the kitchen, and where things are stored in the kitchen. Other people report having very little to no mental imagery. 
+Close your eyes, and think about what you can see or hear in your "mind's eye" or "mind's ear". Some people report being able to see life-like images that are extremely clear and vivid, almost as if there is no difference between what they can imagine seeing and what they can see when they are looking at something when their eyes are open. Some people report seeing less vivid mental imagery, that is more spatial in nature. For example, they could close their eyes and imagine their kitchen; but they wouldn't "see" their kitchen as it appears when they are looking at it for real; but, they would nevertheless have some spatial sense about the shape of the kitchen, and where things are stored in the kitchen. Other people report having very little to no mental imagery.
 
 For fun, I'll tell you what I see when I close my eyes. My eyelids, and not much else... it's pretty dark when I close my eyes. At the same, I can imagine my kitchen pretty easily, although, I wouldn't say that I "see" it very clearly, I "see" it more spatially. However, sometimes I do "see" images that are more visual, that look like things I see when I have my eyes open. Also, I've had lots of dreams that seemed very visually vivid and real, just like visual experiences appear to me in waking life. So, according to me, my mental imagery is all of the above, and can include imagery about other kinds of senses, like sounds, taste, touch, and smells.
 
@@ -74,7 +79,7 @@ In general, before progress can be made on all of those questions, a first step 
 
 ### Methods of Introspection and Subjective report
 
-Mental imagery is all about the subjective experience of being in your own mind. So, by this definition, there is only one person who really knows what it is like to be you, and you are that person. So, if you want to get the facts about your own mental imagery, is it possible for you to do that? 
+Mental imagery is all about the subjective experience of being in your own mind. So, by this definition, there is only one person who really knows what it is like to be you, and you are that person. So, if you want to get the facts about your own mental imagery, is it possible for you to do that?
 
 One imperfect solution is called the method of introspection, which means to self-reflect on your experience of your own cognition. Introspection has been, and still is, employed as a tool by many psychologists. For example, early German psychologist Wilhem Wundt and American psychologist Edward Tichener advocated the use of introspection as a technique to generate knowledge about the mind. The related method of subjective report involves asking other people to introspect and then report on aspects of their own psychology. Subjective report methods are very common today in the form of questionnaires that ask people to make subjective judgments about their own psychology. Before considering the limitations of introspection and subjective report, let's see an example from mental imagery research.
 
@@ -86,31 +91,31 @@ One of the first attempts at studying mental imagery was by Sir Francis Galton [
 
 Galton came up with the "Breakfast table task", which is a series of structured questions about mental imagery, and then asked 100 people to answer his questions. The basic set of questions is reprinted below:
 
----
+------------------------------------------------------------------------
 
 "Before addressing yourself to any of the Questions on the opposite page, think of some definite object -- suppose it is your breakfast-table as you sat down to it this morning -- and consider carefully the picture that rises before your mind's eye. [p. 302]
 
-1. Illumination. -- Is the image dim or fairly clear? Is its brightness comparable to that of the actual scene ?
-2. Definition. -- Are all the objects pretty well defined at the same time, or is the place of sharpest definition at any one moment more contracted than it is in a real scene?
-3. Colouring. -- Are the colours of the china, of the toast, bread-crust, mustard, meat, parsley, or whatever may have been on the table, quite distinct and natural?"
+1.  Illumination. -- Is the image dim or fairly clear? Is its brightness comparable to that of the actual scene ?
+2.  Definition. -- Are all the objects pretty well defined at the same time, or is the place of sharpest definition at any one moment more contracted than it is in a real scene?
+3.  Colouring. -- Are the colours of the china, of the toast, bread-crust, mustard, meat, parsley, or whatever may have been on the table, quite distinct and natural?"
 
----
+------------------------------------------------------------------------
 
 #### Galton's results
 
 Then, Galton recorded the answers that people gave and tried to make sense of them. Here are some of the answers from "100 men, at least half of whom are distinguished in science or in other fields of intellectual work." (reprinted from his original manuscript):
 
----
+------------------------------------------------------------------------
 
 *Cases where the faculty is very high.*
 
-1. Brilliant, distinct, never blotchy.
+1.  Brilliant, distinct, never blotchy.
 
-2. Quite comparable to the real object. I feel as though I was dazzled, e.g., when recalling the sun to my mental vision.
+2.  Quite comparable to the real object. I feel as though I was dazzled, e.g., when recalling the sun to my mental vision.
 
-3. In some instances quite as bright as an actual scene.
+3.  In some instances quite as bright as an actual scene.
 
-*Cases where the faculty is mediocre.* 
+*Cases where the faculty is mediocre.*
 
 46. Fairly clear and not incomparable in illumination with that of the real scene, especially when I first catch it. Apt to become fainter when more particularly attended to.
 
@@ -122,11 +127,11 @@ Then, Galton recorded the answers that people gave and tried to make sense of th
 
 89. Dim and indistinct, yet I can give an account of this morning's breakfast table; -- split herrings, broiled chickens, bacon, rolls, rather light coloured marmalade, faint green plates with stiff pink flowers, the girls' dresses, &c., &c. I can also tell where all the dishes were, and where the people sat (I was on a visit). But my imagination is seldom pictorial except between sleeping and waking, when I sometimes see rather vivid forms.
 
-94. I am very rarely able to recall any object whatever with any sort of distinctness. Very occasionally an object or image will recall itself, but even then it is more like a generalised image than an individual image. I seem to be almost destitute of visualising power, as under control.
+90. I am very rarely able to recall any object whatever with any sort of distinctness. Very occasionally an object or image will recall itself, but even then it is more like a generalised image than an individual image. I seem to be almost destitute of visualising power, as under control.
 
-100. My powers are zero. To my consciousness there is almost no association of memory with objective visual impressions. I recollect the breakfast table, but do not see it.
+91. My powers are zero. To my consciousness there is almost no association of memory with objective visual impressions. I recollect the breakfast table, but do not see it.
 
----
+------------------------------------------------------------------------
 
 #### Galton's conclusion
 
@@ -136,7 +141,7 @@ If we are attempting to explain a cognitive ability like mental imagery, and Gal
 
 #### Limitations with Galton's method
 
-Galton argued that his methods were useful and appropriate to the task of measuring people's mental imagery abilities, but these introspection and subjective report also have many shortcomings that could easily invalidate all of the results. For example, what if everybody that Galton talked to lied about their mental imagery? In this case, none of Galton's results would be meaningful with respect to understanding mental imagery. Similarly, how accurate are people at describing their own mental imagery? If people are not very accurate, then their descriptions will not be very meaningful for describing their actual experiences. Or, what if people are having the same kinds of subjective mental imagery experiences, but they just use different words to describe the same kinds of experiences. And, of course, maybe everybody was telling the truth and there really are big differences in mental imagery across people. 
+Galton argued that his methods were useful and appropriate to the task of measuring people's mental imagery abilities, but these introspection and subjective report also have many shortcomings that could easily invalidate all of the results. For example, what if everybody that Galton talked to lied about their mental imagery? In this case, none of Galton's results would be meaningful with respect to understanding mental imagery. Similarly, how accurate are people at describing their own mental imagery? If people are not very accurate, then their descriptions will not be very meaningful for describing their actual experiences. Or, what if people are having the same kinds of subjective mental imagery experiences, but they just use different words to describe the same kinds of experiences. And, of course, maybe everybody was telling the truth and there really are big differences in mental imagery across people.
 
 One big issue here for establishing facts about mental imagery, is that the internal experience of mental imagery is not easy for other people to observe directly. In other domains of inquiry, direct observation can help people quickly establish a set of agreed upon facts. For example, a group of geologists can all look and point at a rock formation, and agree that the rock formation is there, and then proceed to further inspect and measure the rock formation to gather more directly observable facts about it. Galton's method of subjective report does have some directly observable measurements, such as the words that people said about their mental imagery; but, people's verbal statements are at best an indirect attempt to communicate an experience, and do not provide an objective lens for other observers to directly view the experience itself.
 
@@ -144,7 +149,7 @@ If it is not possible to establish objective facts about something subjective li
 
 ### Reproducing Galton's mental imagery work
 
-Galton conducted his work in the United Kingdom throughout the last half of the 1800s, and like some of his other ideas (that we will discuss shortly), they tended to spread among psychologists in other countries. At the turn of the century, American psychologists were busy using Galton's methods and publishing on the mental imagery abilities of college students. For example, in 1896, Armstrong [@armstrongjrImageryAmericanStudents1894] used the same "Breakfast Table" questions as Galton did, but gave them to students at Wesleyan University (a male college). The general pattern of results was similar to what Galton found. The students reported a wide range of mental imagery abilities, including a small proportion of students who were classified as having little to no visual imagery. 
+Galton conducted his work in the United Kingdom throughout the last half of the 1800s, and like some of his other ideas (that we will discuss in the next chapter), they tended to spread among psychologists in other countries. At the turn of the century, American psychologists were busy using Galton's methods and publishing on the mental imagery abilities of college students. For example, in 1896, Armstrong [@armstrongjrImageryAmericanStudents1894] used the same "Breakfast Table" questions as Galton did, but gave them to students at Wesleyan University (a male college). The general pattern of results was similar to what Galton found. The students reported a wide range of mental imagery abilities, including a small proportion of students who were classified as having little to no visual imagery.
 
 However, in 1902, French [@frenchMentalImageryStudents1902] asked students at Vassar college (a female college) about their mental imagery abilities with a longer mental imagery questionnaire (by Tichener [@titchenerExperimentalPsychologyManual1905]), that was intended to improve on Galton's original questions. The results were mostly consistent with prior results, and the Vassar students reported a wide range of different mental imagery abilities. But, one finding was not reproduced. All of the 118 students reported at least some mental imagery abilities, and none of them reported that they had zero mental imagery abilities. This could mean all of the students happened to have mental imagery abilities, or it could call into question the claims that some people do not have mental imagery. One possibility is that the results depend on the questionnaire. Galton had 10 questions about mental imagery, Tichener had almost 90 questions that covered imagery for more senses, and potentially gave students more opportunities to claim that they had at least some mental imagery. Perhaps, Galton and Armstrong would have found all of their participants reporting at least a little bit of mental imagery if they had used the newer questionnaire by Tichener.
 
@@ -152,7 +157,7 @@ However, in 1902, French [@frenchMentalImageryStudents1902] asked students at Va
 
 Let's skip over a century and ask what recent research on mental imagery looks like. In 2010, Zeman and colleagues reported a case of a patient with "imagery generation disorder" [@zemanLossImageryPhenomenology2010] that got picked up in the media. Several people who heard about the finding contacted the researchers to let them know that they also did not experience visual imagery. This led the research group to begin examining these claims in more detail and in 2015 [@zemanLivesImageryCongenital2015] they did something very similar to what Galton did; namely, ask people questions about the vividness of their mental imagery. They used a newer questionnaire developed to assess the vividness of visual imagery [@marksVisualImageryDifferences1973]; and gave it to the people who claimed they had no visual imagery. Perhaps not surprisingly, those same people gave answers to the questionnaire that were consistent with their claims that they had visual imagery. Zeman coined the term "aphantasia" to describe the condition of having little to no mental imagery.
 
-The media attention to Zeman's work on aphantasia caused a great of deal of interest across the world. One of the research participants 2015 study created the [Aphantasia Network](https://aphantasia.com) website, which has grown into a large online community for people with aphantasia. By 2020 [@zemanPhantasiaPsychologicalSignificance2020], Zeman's group had been contacted by 14,000 people who either claimed they had aphantasia, or the opposite -- extremely vivid and life-like mental imagery, termed "hyperphantasia". Some of the claims are really quite extraordinary. For example, in a 2021 New York Times article [@zimmerManyPeopleHave2021], cognitive neuroscientist Joel Pearson claimed that 'hyperphantasia could go far beyond just having an active imagination...and that “People [with hyperphantasia] watch a movie, and then they can watch it again in their mind, and it’s indistinguishable.”'.  
+The media attention to Zeman's work on aphantasia caused a great of deal of interest across the world. One of the research participants 2015 study created the [Aphantasia Network](https://aphantasia.com) website, which has grown into a large online community for people with aphantasia. By 2020 [@zemanPhantasiaPsychologicalSignificance2020], Zeman's group had been contacted by 14,000 people who either claimed they had aphantasia, or the opposite -- extremely vivid and life-like mental imagery, termed "hyperphantasia". Some of the claims are really quite extraordinary. For example, in a 2021 New York Times article [@zimmerManyPeopleHave2021], cognitive neuroscientist Joel Pearson claimed that 'hyperphantasia could go far beyond just having an active imagination...and that "People [with hyperphantasia] watch a movie, and then they can watch it again in their mind, and it's indistinguishable."'.
 
 I can't accurately replay a whole movie in my head. That is pretty incredible. To me, this claim is so incredible that I wonder if the person was exaggerating their ability a little bit. Although I am skeptical, there is no shortage of people accomplishing astounding, and objectively verifiable feats of cognition. Daniel Tammet [@DanielTammet2021] is famous for breaking the European record for correctly reciting from memory, the first 22,514 digits of the number pi. So, if Daniel Tammet can accurately "replay" the digits of pi for five hours, maybe someone else can replay a whole movie in their mind. Again, the role of direct observation comes into play for lending support to an extraordinary claim. The fact that Daniel could say the digits of pi out loud for other observers to hear, under controlled conditions (where those observers could verify he wasn't cheating somehow), makes it easier to believe that Daniel's ability is real. Similarly, if there were more direct methods to test claims about extreme differences in mental imagery abilities, this would lend more support to those extraordinary claims.
 
@@ -172,7 +177,7 @@ Some of the big takeaways for me from reviewing this slice of the literature are
 
 ## Theories, explanation and mental imagery
 
-The cognitive sciences is not only concerned with discovering the facts about cognitive abilities like mental imagery, it is also interested in explaining how the abilities work. Explanations can take different forms, and across the textbook we will encounter relatively simple claims about how something might work, to well-developed verbal theories, to highly specified computer simulations that propose working algorithms for specific cognitive abilities. And, throughout, I will encourage us to keep wondering about what kind of explanation would be satisfying to you, to explain how different cognitive abilities work. 
+The cognitive sciences is not only concerned with discovering the facts about cognitive abilities like mental imagery, it is also interested in explaining how the abilities work. Explanations can take different forms, and across the textbook we will encounter relatively simple claims about how something might work, to well-developed verbal theories, to highly specified computer simulations that propose working algorithms for specific cognitive abilities. And, throughout, I will encourage us to keep wondering about what kind of explanation would be satisfying to you, to explain how different cognitive abilities work.
 
 I think I can safely say that as of right now, there is no broadly accepted theory or explanation about how mental imagery works. As we already discussed, there isn't really great consensus on the features of mental imagery itself, so the absence of a theory isn't too surprising. However, there has been a great deal of theoretical debate about mental imagery, and this debate provides a really nice example to discuss how theories and explanations are used in cognitive research.
 
@@ -184,32 +189,32 @@ Curiously, when mental imagery began re-appearing in scientific journals in the 
 
 ### Paivio's concrete versus abstract memory task
 
-Paivio used a standard paired-associate learning task. He ran experiments on elementary school students, and on college students, and found similar results. Here's what happened if you were a subject in the experiment. 
+Paivio used a standard paired-associate learning task. He ran experiments on elementary school students, and on college students, and found similar results. Here's what happened if you were a subject in the experiment.
 
 Everyone was given pairs of words to remember for a later memory test. Each pair involved an adjective and a noun, like "Ingenious-Inventor". Importantly, there were two different kinds of word-pairs, and this was the critical manipulation in the experiment. The manipulation was whether the noun was more concrete or more abstract. Examples of the two kinds of word pairs are presented below:
 
-|Concrete pairs| Abstract Pairs|
-|-----|-----|
-|Ingenious-Inventor | Ingenious-Interpretation |
-|Technical-Advertisement| Technical-Discourse |
-|Massive-Granite | Massive-Rebellion |
-|Subtle-Magician | Subtle-Prejudice |
-|Profound-Philosopher, Profound-Analysis|
-|Rugged-Arctic| Rugged-Locality |
-|Shabby-Hermit |Shabby-Client |
-|Clumsy-Burglar| Clumsy-Imitation |
-|Unpleasant-Bruise | Unpleasant-Scandal | 
-|Sensitive-Lungs | Sensitive-Tissue | 
-|Colourful-Maple | Colourful-Scenery |
-|Reliable-Luggage | Reliable-Merchandize | 
-|Expressive-Actress | Expressive-Temperament | 
-|Amazing-Circus | Amazing-Crusade | 
-|Noisy-Trumpet | Noisy-Gossip| 
-|Fashionable-Overcoat | Fashionable-Apparel|
+| Concrete pairs                          | Abstract Pairs           |
+|-----------------------------------------|--------------------------|
+| Ingenious-Inventor                      | Ingenious-Interpretation |
+| Technical-Advertisement                 | Technical-Discourse      |
+| Massive-Granite                         | Massive-Rebellion        |
+| Subtle-Magician                         | Subtle-Prejudice         |
+| Profound-Philosopher, Profound-Analysis |                          |
+| Rugged-Arctic                           | Rugged-Locality          |
+| Shabby-Hermit                           | Shabby-Client            |
+| Clumsy-Burglar                          | Clumsy-Imitation         |
+| Unpleasant-Bruise                       | Unpleasant-Scandal       |
+| Sensitive-Lungs                         | Sensitive-Tissue         |
+| Colourful-Maple                         | Colourful-Scenery        |
+| Reliable-Luggage                        | Reliable-Merchandize     |
+| Expressive-Actress                      | Expressive-Temperament   |
+| Amazing-Circus                          | Amazing-Crusade          |
+| Noisy-Trumpet                           | Noisy-Gossip             |
+| Fashionable-Overcoat                    | Fashionable-Apparel      |
 
 What makes a noun more concrete or abstract? I think this remains a good question, and the distinction isn't always so clear to me. The general idea was that concrete words are potentially more evocative, meaningful, and easier to mentally image than abstract words. For example, hearing or reading the word "Magician" might cause you to think of a colorful magician's hat, whereas the word "Discourse" might not bring to mind specific mental images. Paivio chose the words that he considered more concrete and more abstract when constructing the lists for his experiment.
 
-During the encoding phase, the experimenter read lists of 16 word pairs out loud, with a two second pause in between. Half of the word pairs had a concrete noun, and the other half had an abstract noun. During the memory test, the experimenter read out only the first word from each pair (the adjective), and participants were asked to remember the word it was paired with and write it down. If you heard the word "Amazing", and you were given the concrete pair, the correct answer would be to write down "Circus". If you were given the abstract pair then the correct answer would be "Crusade". 
+During the encoding phase, the experimenter read lists of 16 word pairs out loud, with a two second pause in between. Half of the word pairs had a concrete noun, and the other half had an abstract noun. During the memory test, the experimenter read out only the first word from each pair (the adjective), and participants were asked to remember the word it was paired with and write it down. If you heard the word "Amazing", and you were given the concrete pair, the correct answer would be to write down "Circus". If you were given the abstract pair then the correct answer would be "Crusade".
 
 The empirical question was whether people would have better memory for the concrete nouns compared to the abstract nouns, and this is exactly what Paivio found. In the second experiment, he found that people remembered on average about 4.5 words correctly if they were concrete nouns, but only about 2 words correctly if they were abstract nouns. This is only a difference of 2.5 words, but the result seemed to be consistent across 120 university students, and it suggested that something about the concrete versus abstract quality of these words caused differences in memory performance for the words.
 
@@ -231,21 +236,21 @@ Paivio didn't have a magic wand to make mental imagery turn off, so he suggested
 
 Before evaluating the kinds of explanations of cognitive abilities we have seen so far, let's do one more example from the literature. Throughout the 60s and 70s, there were many other studys like Paivio's that invoked the concept of mental imagery as potentially necessary to explain how people were performing different kinds of tasks. In 1973, Zenon Pylyshyn [@pylyshynWhatMindEye1973] published a critique of the emerging mental imagery explanations, and initiated a lengthy debate with Stephen Kosslyn about the form of mental representations. This debate led to a number of experiments attempting to provide evidence in favor and/or against either position.
 
-I will use the terms pictorial versus propositional to distinguish between the two theoretical ideas about mental representations. The pictorial representation idea is that perceptual experiences and mental imagery experiences are represented in somewhat similar formats. This could imply that perception is involved somehow in mental imagery, and that mental imagery might behave similarly to perception in some circumstances. The term "pictorial representation" is meant to evoke the really simple idea that perceiving and imagining an image might rely on closely related mental representations. 
+I will use the terms pictorial versus propositional to distinguish between the two theoretical ideas about mental representations. The pictorial representation idea is that perceptual experiences and mental imagery experiences are represented in somewhat similar formats. This could imply that perception is involved somehow in mental imagery, and that mental imagery might behave similarly to perception in some circumstances. The term "pictorial representation" is meant to evoke the really simple idea that perceiving and imagining an image might rely on closely related mental representations.
 
 Alternatively, the propositional representation assumption is that mental representations are really fundamentally different from our perceptual experiences. A propositional system uses symbols and rules for their combination and recombination to describe mental representations. We'll see a more concrete example shortly, but propositional systems aren't too different from using words to describe an image. A paragraph of words to describe an image involves word symbols and rules for putting words together in order. A well-written paragraph can do an OK job of representing a visual scene. And, it is hopefully clear enough that using words to describe an image involves a totally different kind of representation, than say taking a picture of the image. On this view, people don't actually have pictures in their mind, instead cognitive abilities are controlled by propositional knowledge and representation systems.
 
-The pictorial and propositional ideas about cognitive representation are two very different takes on the fabric of cognition. Is our cognition running on picture-like or perception-like representations of our experiences with the world? Or, is our cognition running on totally abstract propositional codes that are qualitatively different from perception? Do these alternative ideas about mental representation make different predictions? If so, can the predictions be tested with experiments? To answer these questions, let's look at an experiment using the mental chronometry technique. 
+The pictorial and propositional ideas about cognitive representation are two very different takes on the fabric of cognition. Is our cognition running on picture-like or perception-like representations of our experiences with the world? Or, is our cognition running on totally abstract propositional codes that are qualitatively different from perception? Do these alternative ideas about mental representation make different predictions? If so, can the predictions be tested with experiments? To answer these questions, let's look at an experiment using the mental chronometry technique.
 
 #### Mental Chronometry
 
 In 1978, Stephen Kosslyn and colleagues [@kosslynVisualImagesPreserve1978] did some clever experiments on scanning of mental images. Here's the quick and dirty version. Imagine a map of the USA, now zoom in on New York City and imagine a little black dot hovering over the city. Whenever you are ready, zoom that little black dot all the way over to Los Angeles. How long it did it take you to mentally scan across your mental image of the map? Mental chronometry refers to measuring how long it takes to perform mental operations like scanning a mental image.
 
-Instead of a map of the USA, participants were shown the map below, and were given practice mentally imaging the map and drawing it from memory until they could reproduce it to a high degree of accuracy. The map shows an island with a hut, tree, rock, well, lake, sand, and grass, all spread about the island. 
+Instead of a map of the USA, participants were shown the map below, and were given practice mentally imaging the map and drawing it from memory until they could reproduce it to a high degree of accuracy. The map shows an island with a hut, tree, rock, well, lake, sand, and grass, all spread about the island.
 
 <img src="imgs/KosslynEtAl1978Fig2.png" width="50%" />
 
-The map was taken away and participants were asked to mentally image the map in their mind's eye. Then, the main task began. The task was split up into individual trials where the participant was asked to focus on one of the depicted locations on their mental image of the map (by imagining a black dot on top of it), and then mentally scan to a different location by moving their imagined black dot to the new location. For example, you might focus on the tree and the scan to the grass (a longer distance); or focus on the hut and scan to the lake (a shorter distance). Importantly, the researchers measured the time taken to make each scan.  The empirical question was whether or not the amount of time to mentally scan from one imagined location to another would depend on the distance between the imagined locations.
+The map was taken away and participants were asked to mentally image the map in their mind's eye. Then, the main task began. The task was split up into individual trials where the participant was asked to focus on one of the depicted locations on their mental image of the map (by imagining a black dot on top of it), and then mentally scan to a different location by moving their imagined black dot to the new location. For example, you might focus on the tree and the scan to the grass (a longer distance); or focus on the hut and scan to the lake (a shorter distance). Importantly, the researchers measured the time taken to make each scan. The empirical question was whether or not the amount of time to mentally scan from one imagined location to another would depend on the distance between the imagined locations.
 
 Before we look at the actual data, let's consider three ways the experiment could have turned out. First, let's assume that people can scan between different locations immediately without taking any time at all, I will call this the "no-time" hypothesis. Second, let's assume that that people will take some random amount of time to scan between the locations, the "random-time" hypothesis. And third, let's assume that people's scanning times will increase with the distance between the imagined locations, the "distance-time" hypothesis. Each of the these hypotheses makes a different prediction about how the results might turn out. Consider the three graphs below which show predictions for each hypothesis. These are examples of how the results could have turned out according to each hypothesis
 
@@ -254,7 +259,7 @@ Before we look at the actual data, let's consider three ways the experiment coul
 <p class="caption">(\#fig:predictScanning)Hypothetical results of the mental scanning task for the no-time, random-time, and distance-time hypotheses</p>
 </div>
 
-Each of the panels shows a scatterplot of possible results. The y-axis (vertical axis) represents amount of time in seconds and ranges from zero to two seconds. Dots that are near the bottom of the plot represent shorter scanning times, and dots closer to the top represent longer scanning times. The x-axis (horizontal axis) represents the distance between locations in centimetres on the real map that participants saw before they had to imagine it. Dots closer to the left of a plot represent scanning times between locations that were close together, and dots closer to the right side  represent scanning times between locations that were far apart.
+Each of the panels shows a scatterplot of possible results. The y-axis (vertical axis) represents amount of time in seconds and ranges from zero to two seconds. Dots that are near the bottom of the plot represent shorter scanning times, and dots closer to the top represent longer scanning times. The x-axis (horizontal axis) represents the distance between locations in centimetres on the real map that participants saw before they had to imagine it. Dots closer to the left of a plot represent scanning times between locations that were close together, and dots closer to the right side represent scanning times between locations that were far apart.
 
 The "no-time" plot shows all of the dots in a line at the bottom, which represents 0 seconds. This is what would happen if people could instantaneously scan from any location to any other location. Even though some locations would be closer together or further apart (represented by the fact that there are dots that go all the way from 1 cm to 15 cm), all of the scanning times would be 0.
 
@@ -272,9 +277,9 @@ Before considering what these results could mean for theories of mental represen
 
 ### Explaining mental scanning times
 
-Let's assume that Kosslyn et al's results can be trusted as a fact, and that when people scan a mental image it really does take longer to scan across longer than shorter distances in the mental image. What does this factoid tell us about the nature of mental representation? Perhaps a better question is, how are factoids like this one used in cognitive research to generate knowledge about cognitive processes? 
+Let's assume that Kosslyn et al's results can be trusted as a fact, and that when people scan a mental image it really does take longer to scan across longer than shorter distances in the mental image. What does this factoid tell us about the nature of mental representation? Perhaps a better question is, how are factoids like this one used in cognitive research to generate knowledge about cognitive processes?
 
-One strategy involves inventing theories and hypotheses about cognition, and then evaluating whether or not they can predict, anticipate, and/or explain the patterns of measurements found by experiment. If a theory can explain a finding maybe it is correct. If a theory can not explain a finding, maybe it is wrong and should be discarded. Over time the process of theory building and testing would lead to a great many discarded theories that couldn't explain the findings, and what would be left could be plausible working theories that do a pretty good job explaining the findings. This characterization of how the scientific method incrementally hones in on better explanations is connects with issues in the philosophy of science [e.g., @popperLogicScientificDiscovery1959], which I will elaborate on over the book.  
+One strategy involves inventing theories and hypotheses about cognition, and then evaluating whether or not they can predict, anticipate, and/or explain the patterns of measurements found by experiment. If a theory can explain a finding maybe it is correct. If a theory can not explain a finding, maybe it is wrong and should be discarded. Over time the process of theory building and testing would lead to a great many discarded theories that couldn't explain the findings, and what would be left could be plausible working theories that do a pretty good job explaining the findings. This characterization of how the scientific method incrementally hones in on better explanations is connects with issues in the philosophy of science [e.g., @popperLogicScientificDiscovery1959], which I will elaborate on over the book.
 
 Let's finish this section by returning to the distinction between pictorial and propositional mental representations, and ask whether the pattern of data is consistent or inconsistent with either of those ideas.
 
@@ -286,67 +291,120 @@ Are the findings consistent with the assumption that people have picture-like me
 
 Let's ask whether the results are consistent with the propositional assumption about mental representations. Pylyshyn argued that Kosslyn's results could be explained without assuming any role for pictorial mental representations. Again, to consider the propositional assumption we need to embed it into a working hypothesis about how people use propositional knowledge. First, consider how propositions could be used to code relations between objects in the scene. I will use sentences as an example of combining abstract symbols (words) to represent relations between objects in the scene.
 
-1. The island contains objects
-2. The rock is on the north end of the island
-3. The grass is on the north-west side of the island. 
-4. The grass is south-west of the rock
-5. The tree is south of the grass, in the southwest of the island
-6. The well is due west of the tree
-7. The hut is just south of well
-8. The lake is close to the tree, just to the southeast
+1.  The island contains objects
+2.  The rock is on the north end of the island
+3.  The grass is on the north-west side of the island.
+4.  The grass is south-west of the rock
+5.  The tree is south of the grass, in the southwest of the island
+6.  The well is due west of the tree
+7.  The hut is just south of well
+8.  The lake is close to the tree, just to the southeast
 
 The next step is to consider how people might rely on propositions during the mental scanning task. For example, maybe the time to mentally scan between one object and another actually reflects the time it takes to activate knowledge about different objects in the propositional network. Lake and tree are close in the image, but they are also coded together in the same proposition, which could make it easier to go from the lake concept to the tree concept. Similarly, the rock is far from the tree in the image, but the way I wrote the propositions, rock is not directly coded in relation to the tree, but that relation can be established by moving through multiple propositions: the tree is south of the grass, and the grass is south-west of the rock. It might take more time to scan longer distances in the mental image because of the requirement to process multiple propositions.
 
-As an aside, given that we have learned about aphantasia (people with no mental imagery), I wonder how aphantasics would perform in Kosslyn's task--if mental imagery is not required to perform the task, maybe they would be just fine and show the same results as everyone else...or maybe they would refuse to do the task because they would be unable to imagine the map. 
+As an aside, given that we have learned about aphantasia (people with no mental imagery), I wonder how aphantasics would perform in Kosslyn's task--if mental imagery is not required to perform the task, maybe they would be just fine and show the same results as everyone else...or maybe they would refuse to do the task because they would be unable to imagine the map.
 
-### Evaluating the explanations
+#### Evaluating the explanations
 
+Near the beginning of this chapter I suggested that the cognitive sciences are interested in explaining how cognition works. Throughout this book we will examine how the research process is used to construct explanations about how cognition works. There are different approaches to explanation, and some of the explanations will be more or less satisfying than others. I would like to briefly evaluate the kind of explanations that I just discussed to explain the mental scanning time results. For example, there are some ways in which I find the pictorial and propositional explanations satisfying and unsatisfying. And, talking about this a little bit should help us focus on useful features of the research process that push the cognitive sciences forward. However, I think a quick detour is necessary to prepare us with some basic concepts about theories and explanations, and how they can be tested.
 
+## The recipe metaphor
+
+The recipe metaphor is intended to orient you toward major features of theories, explanations, and how they are tested across the research cycle [^c1_what_is_cognition-1]. A recipe is a set of instructions for how to do something like cook a dish or put together furniture from IKEA. Recipes can take different formats (e.g., written recipes in a cookbook, cartoon's in an IKEA manual, or even do-it-yourself Youtube videos). Recipes can be more or less specific. Some cookbooks break down every single step in making a dish, others give general directions (e.g., cook it until done). Recipes have the goal of communicating instructions about how to do something. And, it is possible to evaluate recipes to see whether or not they accomplish the goal. For example, if a recipe works, and I know how to follow instructions, then I should be able to follow the recipe and make the thing that the recipe produces. Sometimes a recipe turns out (it does what it says it does), and sometimes it doesn't. When a recipe doesn't work it could be that the recipe instructions had mistakes, were confusing, or were not followed properly (problems with execution). It's also possible that a recipe is totally flawed and does not do what it claims to do.
+
+[^c1_what_is_cognition-1]: This section starts to get into larger issues in philosophy and the philosophy science, which are beyond the scope of this book. I will attempt to make connections to these domains as much as possible throughout
+
+Everyday recipes are explanations about how something works, and the properties of recipes are very much like the properties of theories in cognition. I would say that as a cognitive scientist, I am interested in the "recipes of cognition", and I find explanations about cognitive abilities very satisfying when they have all of the properties of a really good recipe. For me, a really good recipe 1) does what it says it does, and 2) strikes a delicate balance between describing all of the necessary steps in intricate detail, and elegantly describing the most important steps, connections between steps, and general principles that provide insight into the steps. In other words, a great recipe achieves a "productive level of vagueness" [^c1_what_is_cognition-2].
+
+[^c1_what_is_cognition-2]: I attribute this phrase to Lee Brooks, who often suggested that theories in cognition need to find a productive level of vagueness, that are specific enough to be meaningful, general enough to be interesting, and workable enough to create insights
+
+### Oven Fries: My favorite recipe
+
+Let's take a break from asking how a cognitive ability works, and ask how tasty, crispy, super-delicious oven-fries work. For a long time I didn't really like oven-fries, I much preferred french fries. But, my whole life changed when I found my favorite recipe of all-time, the "Oven Fries" recipe from America's Test kitchen [@illustratedNewBestRecipe2004].
+
+America's Test Kitchen writes very compelling recipes. I had tried making fries in the oven before. They always came out terrible. They always stuck to the pan, weren't crispy or delicious. But, I knew it must be possible to make yummy fries in the oven because I had them before with friends or at restaurants. I needed to know the magic behind good oven fries, and everything I needed to know was in the America's Test Kitchen recipe.
+
+America's test kitchen uses the same basic research cycle to improve their recipes as cognitive scientists use to study cognition. This involves experimentally manipulating parts of the recipe to see what matters in making a good dish [^c1_what_is_cognition-3]. For example, the cookbook I have has both a great recipe for oven fries, and a short research report on all of the experiments that went into figuring out the recipe. They baked potatoes at different temperatures, put the pans on different racks in the oven, boiled the potatoes first, left skin on or skin off, tested different kinds of oil, and so on. They manipulated each of these components, made different batches of fries, and then had people taste the results each time. As they tried different combinations, they kept instructions that seemed to work well, and slowly developed a recipe that produced really tasty fries that were given really high ratings by the tasters. One fantastic insight was to salt the pan before putting the potato wedges on them, which helps reduce sticking to the pan later on. Anyway, I love this recipe for two reasons. First, it works and delivers great tasting oven fries. Second, it is insightful about what the recipe is doing, and helped me appreciate principles of cooking that I have applied to other dishes.
+
+[^c1_what_is_cognition-3]: there is also a healthy dose of using general principles about cooking food to inform the choices they make about what parts of the recipe to manipulate
+
+### Cooking competitions and the best recipe
+
+The last piece of the recipe metaphor I'm building here comes from the TV show Top Chef, where chef contestants compete with each other to become the Top Chef. One of the challenges is about writing a good recipe. Each of the contestants makes up a dish and writes down a recipe for how to make the dish. The big twist is that they don't get to cook the recipe. Instead, other people have to try and follow the recipe to make the dish, and the chef's are judged on how well those dishes turn out. What really matters for this challenge is that the recipe provides a clear explanation of how the dish works. Let's use a similar kind of situation as a metaphor to examine properties and qualities of explanations in cognitive research.
+
+In the metaphor, a recipe is like a theory about how something works. A recipe contains elements, like individual steps to follow to produce an outcome. Similarly, a theory contains components, like individual assumptions and propositions that work together to produce an explanation. So, if we are comfortable with recipes and theories being very similar, how can they be evaluated for their explanatory value? Are some recipes/theories better or worse? Are some recipes/theories true or false? Answering these questions involves an iterative research cycle where recipes/theories are put to the test and refined over time. Let's examine this with an imaginary scenario.
+
+Imagine you are a chef-scientist and chief detective, and you have been asked to solve a food mystery. You arrive at a dinner table, and your host brings in a big silver plate with a big silver dome. The cover is removed to reveal your favorite dish. You eat it, and it is the best version of this dish you have ever tasted. The host challenges you to explain how the dish was made. Your task is to make a recipe and show that you can use it to recreate the dish.
+
+Fortunately, you do not have to start entirely from scratch. There is a well-stocked kitchen with all of the ingredients and equipment that you might need, and even many cookbooks that might contain the recipe you are looking for. You are allowed to run experiments in the kitchen to help you figure out how to make the recipe. What do you do? How do you figure out the recipe? I will offer some opinions on things that could happen in this scenario and relate them to parts of the research cycle in cognition.
+
+First of all, you would probably use some *background knowledge* to help guide you toward a solution. For example, if you knew some of the ingredients in your dish, you would probably use those in your experiments. If you knew the name of the dish, then you might search the cookbooks for different versions of recipes for the dish, and try each of those out to see if one of them made the dish. People have unique background knowledge, and in the context of research bring different initial working assumptions to the research cycle. If you didn't know oven fries used potatoes, you might have test out different vegetables until you found the right ingredients.
+
+The goal is to create a recipe that recreates the dish, and there are many available recipes in the cookbooks. Similarly, a goal in cognition is to explain cognitive abilities with theories, and there many available theories in the literature. One way to test the recipes is to try them out, and examine the final product to see if it is the same as the dish you are trying to recreate. Let's consider going through the motions of testing many different recipes.
+
+### Recipe Quality
+
+Some recipes will work pretty well, and if you try them out you might produce dishes that are close to the dish you are trying to recreate. For example, you could easily find three longer recipes for oven fries that all work well. Similarly, in cognition it is possible to find multiple working theories of a cognitive ability that all do an OK job of explanation.
+
+Some recipes might be extremely vague. For example, Oven Fries: Get some potatoes, and bake them on a pan in the oven until they are perfect. This is a like a "theory" that is really just a couple basic claims, and not much else.
+
+Some recipes will be broken or nonsense. Here is a nonsense recipe for oven fries: peel bananas, put them in a blender, pour them over coffee, stick the coffee in the microwave, and then eat a raw potato. This has the appearance of a recipe because it lists ingredients and steps, but upon closer inspection, it should be clear that following the steps will not lead to the creation of oven fries. In the domain of cooking, broken recipes fail to produce the dish they claim to make. In cognition, theories can fail to produce explanations they claim to make. Just like a nonsense recipe, a theory might not contain enough coherent assumptions and steps to produce a desired explanation.
+
+I described good, bad, and ugly recipes that range in quality for producing a dish. If we are still trying to recreate create the best dish, a next task is to refine and improve the recipe using a research cycle. This will involve testing assumptions in the recipes to learn which steps and ingredients are necessary, proposing and testing new steps in the recipe that weren't there before, and possibly even completely rewriting the recipe if you found a more compelling way to make the dish.
+
+### Testing Recipes
+
+I'll finish off this metaphor by discussing two kinds of tests that are relevant when we go back to examining theories in cognition. **Logical tests** are useful for examining the internal structure of a theory to determine whether it is logically possible that the theory can do what it claims to do. This is like evaluating whether or not a recipe can make the dish it claims to make. Logical tests can often be conducted just by reasoning through the theory (or reading through the recipe). For example, it is clear by reading the nonsense recipe from above that it will not do what it claims to do. When you are visited with theoretical claims about cognitive abilities, it should be possible to read through the theory like a recipe and clearly appreciate how the claims about cognition work.
+
+**Empirical Tests** are useful for examining components of a theory, and they typically involve experiments to measure phenomena that are associated with claims or assumptions from a theory. For example, in my favorite recipe for oven fries, one of the tips is to salt the pan that you put your potato slices on...this is supposed to help reduce the fries sticking to the pan. Let's think of "Salting the pan" as one critical part of the "theory of oven fries". How critical is this assumption? Is it necessary for making oven fries? Does salting the pan actually reduce stickiness? These questions can be answered with an experiment to address the question.
+
+The experiment will involve making different batches of oven fries, some where the pan is salted, and others where it is not, and then measuring how much the fries stick to the pan. More formally, this experiment will involve an **independent variable** that is manipulated by me, the experimenter--the experimental manipulation is salting the pan. The manipulation will have at least two levels or conditions, so that the outcomes can be compared between them. In the **control** condition I won't add salt to the pan. In the **experimental** conditions, I will add salt to the pan. I could even try different amounts of salt if I wanted. To run the experiment I would try to follow the oven fries recipe exactly the same way for every batch of fries of that I make, with the only difference being whether or not I salted the pan. I will even make sure that each pan has the same number of potato wedges on it. Then, for each batch I will need to measure the stickiness of the fries somehow. This measurement is called the **dependent variable**, because it is supposed to depend (or be influenced by the experimental manipulation). How about this, after baking, I will turn the pan upside down. All of the fries that fall off didn't stick. Then I will count all of the fries that did stick.
+
+I can use my observations in the form of counts to evaluate my **empirical question**, which is a kind of question that can be answered by observing what happens under controlled conditions. My question was whether salting a pan actually reduces the number of fries stuck on the pan. I can count how many fries stuck to pans that were salted, and how many fries stuck to pans that were not salted. And, then I can compare the numbers. If salting the pan doesn't really change fry stickiness, then I would expect roughly the same number of fries on salted and unsalted pans. If salting the pan reduces fry stickiness, then there should be fewer fries stuck on the salted pan than the unsalted pan. Maybe salting the pan actually does the opposite of what the theory claimed, and then there would be more fries stuck on the salted pan than the unsalted pan. If everyone in the world tried making oven fries using different kinds of potatoes, and different ovens, and different pans, and everyone found pretty much the same results, we could become fairly confident in decidedly answering this one question. Or, the results could be a little bit messy, maybe some salt works sometimes for some potatoes on some pans in some ovens, but not others...the empirical answer could be "maybe, it depends".
+
+Because I am having fun with this recipe metaphor for science, I'm going to keep going. Let's imagine our experiment shows consistent evidence that salting the pan does reduce the number of fries stuck to the pan. By consistent evidence I mean that I ran the whole experiment a bunch of times and kept getting the same results, so I stopped running the experiment because I felt confident that the result can be trusted. For example, if someone else came over to my kitchen and did my experiment under the same conditions, they would also find that salting the pan reduces how many fries are stuck the pan. Reproducibility of results is also important in cognition, and sometimes it is a concern because there are numerous examples of reported experiments whose results have not been consistently reproducible \^[we will discuss some examples throughout the textbook and elaborate on issues of reproducibility later on].
+
+### Making inferences about recipes
+
+But, for sake of argument, we will assume the salting the pan trick is reproducible. Great. Now what. Let's not forget some of the larger issues at hand. Sometimes we can sucked into a long and detailed story about a specific thing-- like salting a pan of oven fries--and lose track of how this little story fits into the bigger issues. I set up the salting-the-pan experiment because it was a way to put a component of the oven fry recipe to the test. What have we learned through the process of putting this one component of the recipe to an empirical test? How are results from empirical tests used in the process of improving our explanations of the things we are testing? In my opinion, there is a long and artful dance that occurs between explanations (in the form of theory) and empirical results (in the form of data), that eventually lead them to embrace one another.
+
+In our thought experiment, the original question of interest was "how do the best oven fries work?". What inferences about the overall recipe can we make based on the empirical test of one of its assumptions? In terms of making inferences about theoretical assumptions from data, the available inferences will be limited by how the assumptions fits in the theory, and what the pattern of data says about the assumption. Is salting-the-pan a necessary assumption for really great oven fries? That invites another empirical question that we didn't ask. Are the fries from the unsalted pans still really good? If so, then salting the pans might not be a necessary step in the recipe (even if it does reduce stickiness). What are the necessary steps from the recipe? We could spend time creating individual experiments to test whether each step and ingredient, or specific combinations of the steps and ingredients are all necessary or not necessary to make great fries. When you consider the number of steps, ingredients, and slightly different variations, and number of ways that all of these things can be combined, there are a never-ending number of experiments that could be run to empirically test assumptions of the recipe. I'm exhausted just thinking about it. If we forced ourselves to test all of the combinations we would never leave the kitchen, or do anything else.
+
+Asking empirical questions to settle one issue can easily open new questions about other issues that may or may not be of interest. For example, demonstrating empirically that salting the pan does reduce the number of fries stuck to it, raises new questions about how stickiness works. How does salt change the stickiness of pans? The evidence that salt does change stickiness becomes a phenomena in and of itself that requires explanation, and we would need to drop into the territory of chemistry and physics to examine those issues.
+
+### Dessert
+
+I should bring this metaphor to a close, but here are some parting thoughts. The things that you might want out of a cooking recipe are not too different from what you might want out a theory in cognition. And, you should feel empowered to evaluate what you learn about cognition from this point of view. It is OK to be unsatisfied with a recipe for many reasons, it might be unclear, it might be complicated, it might not work very well, it might have extra unnecessary stuff; it might look pretty good until it tells you use apply some magic sauce that was never explained. Same goes for explanations of cognition, where you might be unsatisfied for similar reasons.
+
+It is also OK to like different recipes for many reasons. Some recipes are inspiring to read and get you excited, some recipes give super-specific instructions for doing one thing really well, some recipes are surprising and make you wonder what the food would taste like, and some recipes are very insightful and show you techniques that can be used over and over again for other recipes. Same goes for explanations of cognition, where there can be different reasons to appreciate the value of a theory, even if it isn't perfect.
+
+Last, consider the concept of truth in the metaphor between recipes and theories. In the domain of cooking and recipes is there such a thing as true recipes? Is there one true oven fries recipe? I don't think so. There are lots of oven fries recipes. They all make oven fries. Some of them make oven fries that I like more than others. Also, there is an entire world of other recipes and it is very exciting to explore all of the tasty ways that different people and cultures prepare food. What about theories in cognition? Is there one true theory of cognition? If there is, I haven't heard about it. Instead, like recipes there are lots of different theories about cognition, and it is OK to appreciate that variety as we learn about how different researchers have prepared their explanations of different cognitive abilities.
 
 ## Society and Historical context
 
+The research cycle will continue to churn out new findings and explanations about cognitive abilities and how they work. Importantly, theory and data about cognition have implications for society. One kind of implication is that the knowledge gained by the research can be applied to solve problems in society. Throughout the textbook I will describe many useful applications of the research findings that we discuss.
 
-Notice, in terms of mental imagery, we are still talking about establishing facts about mental imagery, and we haven't even begun to consider how to explain these facts and come up with an account of how mental imagery works.
+One outgrowth of the mental imagery research we discussed was the creation of the website [aphantasia.com](aphantasia.com), where many people from across the world are creating an online community to discuss and learn more about their own extreme differences in mental imagery abilities. This is a great example of people being interested in how their own cognition works, and wanting learn to more about it. For me personally, I think it would be great if research into mental imagery could help me increase how much control I have over the vividness of my mental imagery. Maybe continued research on this topic will lead to discoveries on this issue. That could be a positive development for me and other people interested in controlling the vividness of their mental imagery.
 
-- what did galton do.
-- introspect to come up with general features
-- asked people about what mental imagery is like for them
-- put the answers into categories and counted how often certain types of reports happen
-- major conclusion there is some variation
+At the same time, research into cognitive abilities has not always had uniformly positive implications for society, and there are examples where research applications were severely destructive for some groups of people. I think issues of equality and justice are important when discussing cognitive research and its applications, so I will also touch on these topics. One way I will do this is by occasionally discussing historical context around the research and researchers that we discuss.
 
-Skip to to now...and modern aphantasia research...rediscovery of Galton...similar findings based on subjective report.
+For example, remember Sir Francis Galton? In 1880 he published the first study showing evidence for individual differences in mental imagery. Mental imagery is a fascinating topic about how people experience their own mental life. You might assume that Galton was interested in answering questions like, "how does mental imagery work?". Perhaps this was part of Galton's motivation for running the study. But, I have purposefully been silent so far about other reasons why Galton ran the study. He tells us the main reason at the beginning of his paper, which reads:
 
-### Issues with interpretation
+"The larger object of my inquiry is to elicit facts that shall define the natural varieties of mental disposition in the two sexes and in different races, and afford trustworthy data as to the relative frequency with which different faculties are inherited in different degrees."
 
-People could be lying
+Why do you think Galton was trying to measure if mental imagery is different between people? Was he trying to explain how mental imagery works?
 
-People could be inaccurate at describing their own subjective experience...might say things are different, but they actually arent' different
+What was going on at the time that led Galton to ask his questions about mental imagery? How did his results and larger research program influence society? Unfortunately, I should warn you that if you do not already know the answers to these questions, you may find the history deeply disturbing, I know I did.
 
-claims not independently verifiable by other objective means.
+I mentioned earlier that Galton was in the United Kingdom, and that some of his ideas tended to spread among psychologists in other countries. Galton is famous for many things because he happened to make contributions in many different fields. For example, he is involved with inventing the statistical concept of correlation [@galtonCorelationsTheirMeasurement1889;@stiglerFrancisGaltonAccount1989]. He was interested in correlation because he was interested in inheritance, especially the idea that children inherit mental abilities from their parents [@galtonKinshipCorrelation1890]. And, Galton was interested in the inheritance of mental abilities because he invented Eugenics [@galtonHereditaryTalentCharacter1865;@galtonHereditaryGenius1869], which became a very large social movement with terrifying consequences for the entire world. 
 
-
-<!--
-## Creating Generalizable knowledge
-
-data points and shapes to explain them
-
-### Scientific Method
-
-### Subjective consensus
-
-## Philosophy of Science
-
-### popper and falsificationism
-
-### transcendental realism
-
--->
+After spending a great deal of time learning about the lasting legacy of eugenics in society, along with the fact that the discipline of psychology played a very large role facilitating the eugenics movement; I have decided that it would be irresponsible of me to write a survey textbook on cognitive research without acknowledging the historical background of eugenics. I review this background in the next chapter and connect it with two domains in psychology about cognitive abilities: research into intelligence testing, and research into capacity limitations in information processing.
 
 ## Questions to keep in mind as you learn about cognition
 
-What are the goals of the cognitive sciences and research in cognitive psychology? Who has been involved in setting those goals, are the goals useful, and what goals are being missed? What kind of questions about cognition have already been asked  by researchers? What were the scientific as well as social-historical reasons for why those researchers asked those questions? What answers were found, and how were they informative or not informative about how cognition works? How do the measurements and tools that researchers use to ask questions influence the kind of picture they build about how cognition works. What kinds of questions about cognition are not being asked that should be asked? Why are they not being asked? Should society invest in cognitive research? Are there research questions that should not be asked because the return on investment would not be very high? How should society decide whether or not to proceed with different kinds of research? Should research be done only if it has an applied benefit to society?
+What are the goals of the cognitive sciences and research in cognitive psychology? Who has been involved in setting those goals? Are the goals useful? What kind of questions about cognition have already been asked by researchers? What were the scientific as well as social-historical reasons for why those researchers asked those questions? What answers were found, and how were they informative or not informative about how cognition works? How do the measurements and tools that researchers use to ask questions influence the kind of picture they build about how cognition works? What kinds of questions about cognition are not being asked that should be asked? Why are they not being asked? What benefits to society have been produced by the cognitive sciences? Have the benefits been spread equitably across different groups of people? What costs to society have been produced by the cognitive sciences? How are the costs shared by society? Are their injustices resulting from cognitive science research? Have they been adequately addressed? How should society decide whether or not to proceed with different kinds of research?
 
-
+```{=html}
 <!--
 
 
@@ -415,4 +473,4 @@ Cognitive processes are not real...They are all theorized.
 reality and cognition
 
 -->
-
+```
