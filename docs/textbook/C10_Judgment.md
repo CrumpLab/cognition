@@ -1,6 +1,6 @@
 
 
-# Judgment and Decision Making {.unnumbered}
+# Judgment and Decision Making
 
 
 

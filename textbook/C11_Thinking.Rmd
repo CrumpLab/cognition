@@ -2,7 +2,7 @@
 source("global_stuff.R")
 ```
 
-# Thinking {.unnumbered}
+# Thinking
 
 
 

@@ -1,6 +1,6 @@
 
 
-# Implicit Memory {.unnumbered}
+# Implicit Memory
 
 
 

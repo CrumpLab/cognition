@@ -2,7 +2,7 @@
 source("global_stuff.R")
 ```
 
-# Language and Semantic Cognition {.unnumbered}
+# Language and Semantic Cognition
 
 
 

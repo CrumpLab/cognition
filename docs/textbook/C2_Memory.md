@@ -1,6 +1,6 @@
 
 
-# Memory {.unnumbered}
+# Memory 
 
 
 comment on order, why do memory as the first chapter

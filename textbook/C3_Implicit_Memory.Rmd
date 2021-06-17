@@ -2,7 +2,7 @@
 source("global_stuff.R")
 ```
 
-# Implicit Memory {.unnumbered}
+# Implicit Memory
 
 
 

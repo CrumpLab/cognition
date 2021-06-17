@@ -1,6 +1,6 @@
 
 
-# Language and Semantic Cognition {.unnumbered}
+# Language and Semantic Cognition
 
 
 

@@ -1,6 +1,6 @@
 
 
-# Pattern Recognition {.unnumbered}
+# Pattern Recognition
 
 
 

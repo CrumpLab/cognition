@@ -1,6 +1,6 @@
 
 
-# Thinking {.unnumbered}
+# Thinking
 
 
 

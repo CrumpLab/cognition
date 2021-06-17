@@ -1,6 +1,6 @@
 
 
-# Memory Theory {.unnumbered}
+# Memory Theory
 
 
 

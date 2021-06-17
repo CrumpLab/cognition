@@ -1,6 +1,6 @@
 
 
-# Categorization {.unnumbered}
+# Categorization
 
 
 

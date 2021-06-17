@@ -2,7 +2,7 @@
 source("global_stuff.R")
 ```
 
-# Judgment and Decision Making {.unnumbered}
+# Judgment and Decision Making
 
 
 
