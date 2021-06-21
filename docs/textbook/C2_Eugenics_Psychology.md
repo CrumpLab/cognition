@@ -5,32 +5,155 @@
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|        382|1.9 minutes  |
+|       2237|11.2 minutes |
+
+
+<!--
+Chapter goals
+
+1. Motivate the history lesson, why is it worth learning this history?
+2. Brief history of eugenics to explain scale
+3. Connection to psychology and cognition
+
+-->
 
 ## Chapter Overview
 
-This chapter describes the eugenics movement and some of its connections with the discipline of psychology. These topics are too large to cover adequately in a single chapter, so the history is focused toward topics in cognition such as intelligence testing, and the concept of limitations in mental abilities to process information.
+This chapter describes the eugenics movement and some of its connections with the larger discipline of psychology and research into cognition. The separate histories of eugenics, psychology, and the cognitive sciences have all filled many volumes of books. Although these topics are too large to cover adequately in a single chapter, it is worth visiting them to appreciate the socio-historical context around cognitive research, how it is has influenced society, and how research questions have changed over time to address different kinds of questions. 
+
+## Eugenics, psychology and the cognitive sciences
+
+Including a chapter about eugenics is not very common in introductory psychology textbooks. I have introductory cognitive psychology textbooks that do not mention eugenics even once. When I learned about histories of psychology and cognitive psychology, the topic of eugenics came up very infrequently. One reason for the lack of coverage might be that cognitive psychology and the cognitive sciences became established academic disciplines well after the primary eugenics movements had come and gone; and, eugenics may be viewed as "ancient history" or irrelevant to discussions of modern day cognitive sciences. My view is that the rise and gradual fall of the eugenics movement is inextricably intertwined with psychology especially between the turn of the 20th century (1890s-ish) and 1950s (ish). Although the cognitive sciences were established between the 1950s and 1980s, research into cognitive abilities had been ongoing for decades prior to the so-called "cognitive revolution". The eugenics movement substantially influenced early branches of research into cognitive abilities, and shaped the kinds of questions, tools/methods, and applications that the research enterprise held for society, and the development of the cognitive sciences, then and now.
+
+Last chapter we learned that Sir Francis Galton was interested in mental abilities because of his research into individual differences in the vividness of mental imagery. However, I failed to mention that Galton was also interested in Eugenics, which is important to recognizing why Galton conducted the research in the first place. From our modern perspective, it is easy to assume that early psychologists conducted their work because they were interested in understanding how parts of human and animal psychology works. However, for many psychologists (like Galton) who were involved in the Eugenics movement, there was another reason for the research, to help forward the cause of Eugenics. What was the Eugenics movement? How did it get started, what did it do, when did it end? How was psychology involved? And what does this have to do with cognition? We will address these questions in the next sections.  
+
+## Eugenics: an overview
+
+My training in psychology sometimes referenced the eugenics movement, but only fleetingly. I learned that a few famous statisticians and psychologists were "Eugenicists", but not much else. Here is a brief overview of eugenics, followed by elaborations on how the movement connects to psychology and the cognitive sciences. 
+
+Galton published the first academic work on Eugenics (1865), and also coined the term. Eugenics transitioned from ideas in journal pages read by small groups of elites, into a large and complex social movement that was broadly accepted (from everyday citizens to national leaders) in numerous countries around the world. The ideology behind eugenics has some core features, but was also adaptable, potentially allowing it to more easily spread across different societies. The basic idea was that humans could be bred, like other animals, to become more intelligent as a species over generations. Proponents of eugenics aimed to control the quality of humankind over generations, and their methods of control were responsible for many human rights violations and atrocities. The legacy of eugenics campaigns has left lasting impacts on society that continues today.
+
+The early discipline of psychology was complicit in eugenics, and large numbers of psychologists were eugenicists. The general involvement of psychology reflects the widespread acceptance of eugenics in society (psychology wasn't special in this regard); but, it was the specific aspects of psychology's involvement that warrants the descriptor "complicit". Eugenics needed ways to "scientifically" measure the physical and mental qualities of individual people. Psychologists (many of whom were also eugenicists) helped create and deploy the tests of human ability (e.g., intelligence tests) that would be used to carry out eugenics campaigns on society. Research concerned with cognitive abilities was motivated and deeply entrenched in eugenics for well over half a century (1900s-1950s). The cognitive sciences did not emerge unscathed from this historical backdrop while advancing attempts to explain how cognitive abilities work.
+
+## Galton's Eugenics
+
+Eugenics was an potent mix of ideas that ranged from scientific claims to social policy, religion, and visions of Utopia. Although eugenics ideology morphed over time and geographical place [@bashfordOxfordHandbookHistory2010], the basic tenets of the movement are still captured well by Galton's early writings. In 1865, Galton wrote "Hereditary talent and character" [@galtonHereditaryTalentCharacter1865], a short paper that was expanded to a book a few years later, "Hereditary Genius" [@galtonHereditaryGenius1869]. These works describe Galton's ideas about human quality-- that some humans are much more superior in quality than others-- his research claiming that the most important human qualities are hereditary (biologically inherited from parents), his fears that society was degrading all around him, and his plan to save society by creating a new scientific religion capable of engineering a supreme human race over generations, simply by controlling human reproduction.
+
+Galton referenced the practice of dog breeding, which involves selectively mating dogs with particular physical and behavioral traits over generations of broods. Dog-breeding was a choice example, because it would have been obvious to anyone that breeding over generations can produce dramatic results: all of the many different dog breeds have been achieved through breeding. One of Galton's radical claims for the time, was that breeding should be used on humans, just like dogs, and that breeding programs would be a simple, straightforward, and already well-understood method to produce a superior race of humans over generations.
+
+Galton's eugenics ideas did not appear in a vaccuum, and were influenced by the scientific and social context he was working in. Galton's eugenics writings appeared just after 1859, when his cousin Charles Darwin published the theory of evolution in the "origin of the species" [@darwinOriginSpecies1859]. Darwin's theory, which continues to stand today as a powerful explanatory theory of life on earth, described how animal species evolved over time through a process of natural selection. This same time period included threats to British imperialism and efforts by many nations to establish dominance and social order across the globe. Galton was an esteemed upper-class British man of science (eventually knighted in 1909), who held sexist and racist views common among his peers. For example, long before genetics would show that there is no biological basis for race, academics like Galton assumed that people from "uncivilized" countries were of much lower quality than people from "civilized" countries, and that these differences in quality must have evolved, and must be heritable. Furthermore, in the tradition of Thomas Malthus [], who is famous for speculating on the imminent collapse of society as a result of population growth; Galton feared that society would deteriorate over the generations due to increased global interactions between people across the world. Specifically, Galton feared that "natural selection" left to chance would allow inferior, low-quality and uncivilized people to reproduce, pollute the gene pool, spread inferior genes across the world, and cause the slow decline and ultimate destruction of the human race. 
+
+Galton saw Eugenics as a way to arrest human destiny from natural selection, and use the new powers of science and technology to save humanity from itself. Eugenics was not only about improving society for one generation, it would be sold as a movement dedicated to improving humanity across the generations, for the rest of time. Although a society to improve humanity might not seem very frightening, when you consider questions like-- improvement for who? improve what exactly? who get's to decide what needs improving?-- the concept of "making things better" can easily turn into "making them a whole lot worse".
+
+## The Eugenics movement
+
+Galton's eugenics ideas could have stayed on the page like a science fiction novel, but unfortunately they took on a life of their own. In this section, we establish the scale of Eugenics by examining its dimensions as a social movement. Before we do that, let's consider some of the practical challenges that eugenics would have to deal with.
+
+The big idea of eugenics was that the human race can be improved over generations through breeding. Imagine for the moment that a eugenics movement took over the entire world and began improving the human race through breeding processes. What kinds of issues would the movement need to negotiate in order to effectively pursue the eugenics agenda?
+
+A major issue is what constitutes improvement? Who gets to decide what human qualities are desirable versus undesirable. Which qualities should be improved over generations of breeding, and which qualities should be removed? Galton and his adherents wrote volumes on this topic, and they claimed that human intelligence was one of the most important qualities of humans, and that human intelligence should and could be improved through breeding.
+
+Another major set of issues was how to accomplish the task of breeding humans. For example, eugenics wouldn't work if people were left to their own devices to reproduce randomly with each other. Instead, two kinds of general eugenics policies were required to exert control over people and their mating behavior. Positive eugenics were methods for increasing reproduction between high quality people, and negative eugenics were methods for decreasing reproduction between low quality people. 
+
+Testing was another issue. Eugenics needed to create reliable and scientifically accurate tests of human quality, such as intelligence tests. These would be needed to measure the quality of an individual person, and the results could then be used to encourage them (positive eugenics) or prevent them (negative eugenics) from reproducing in the future.
+
+Scientific validity was another issue. A core claim of eugenics was that important human qualities like intelligence were biologically determined and hereditary; which made it possible (according to eugenics) to use breeding programs to alter qualities like intelligence over the generations. The whole idea that the human race could be improved through eugenics would seem to fall apart if the desirable parts of humans were not inherited, but instead learned.
+
+<!--for eugenics, the nature/nurture debate was about how much society could be improved through breeding programs, and then the leftover part was how much could be improved through training.
+
+
+-->
+
+
+So, it would be necessary to provide evidence of the claim so that 
+
+Other major issues were testing people to figure out which humans were good or bad quality in the first place. And, wouldn't breeding only work on hereditary qualities...so, does science know if these human qualities are actually inherited in the first place?
+
+Let's assume for the moment that there were tests of different human qualities, like tests for intelligence
+
+what does improvement mean? Improved from what to what? Eugenics had to make value judgments on which human qualities were desirable and thus potargets of improv
+
+
+
+Here are basic tenets of eugenics. A major assumption is that individual differences in human quality are primarily determined by genetics. 
+
+
+
+Galton was afraid that his society was about to deteriorate over time
+
+that his society was in a very precarious position.
+
+
+that, as a result of increasing global interactions between people of different "races",
+
+contact between people across the globe
+
+
+This was well before the science of genetics clearly tossed out the biologic
+
+To imagine the perspective of Galton, an esteemed upper-class British man of science (eventually knighted in 1909), the process of random natural selection had created relatively superior human beings compared to other animals; but, had not created all humans of equal quality. In particular, it was clear to Galton that people from "uncivilized" countries were of much lower quality than people from "civilized" countries. 
+
+
+
+Superior superior parents have superior children. Inferior parents have inferior children. The human race could become supreme if it found a way to increase breeding between superior people, and decrease breeding between inferior people. Eugenics was the social engineering movement that would help society achieve the supreme human race over generations by controlling how people breed.
+
+ust like there are many different kinds of dogs, that were created by breeding dogs with particular physical traits together over generations; there could be 
+
+
+
+Perhaps a part of his work was to understand how psychological processes work, but it was also about service of the eugenics movement.
+
+Sir Francis Galton coined and proposed "Eugenics" in a journal article and book on the topics on mental abilities
+
+Early branches of research into cognitive abilities were influenced by the eugenics movement
+
+
+research into cognitive abilities had been ongoing 
+
+During this time research into cognitive abilities occurred for different reasons 
+
+
+
+which pre-dated cognitive sciences developed across the 1950s to 1970s. During the eugenics movement, research into cognitive abilities occurred 
+
+
+The eugenics movement
+
+
+Although many aspects of the modern cognitive sciences were developed in the 1950s, 60s, and 70s,
+
+These topics are too large to cover adequately in a single chapter, so the history is focused toward topics in cognition such as intelligence testing, and capacity limitations in mental abilities.
+
+<!--
 
 ## Summer 2020 (COVID-19 Pandemic Summer in Brooklyn)
 
-I'll do a bit of personal history before trying to cover eugenics and psychology. I spent the summer of 2020 mostly holed up in my Brooklyn apartment because of the COVID-19 pandemic. As a professor, I don't teach in the summer, so I was fortunate enough to be at home anyway. For a whole bunch of reasons I spent the whole summer learning about the eugenics movement and its connections with psychology. I was shocked at what I learned, and learning the history changed the way I think about psychology, and about cognitive psychology. Although some of the historical events are "shocking" because they are so terrible, I was also shocked and upset that my own education and time spent as a researcher had failed to make me aware of the history. I continue to think that psychology and its disciplines like cognitive psychology have many positive things to offer people and society. But, the legacy of eugenics shows that psychology and psychologists can produce research with dire consequences for humanity, that continue to this day, to reverberate throughout society.
+Here's a bit of personal history. I spent the summer of 2020 mostly holed up in my Brooklyn apartment because of the COVID-19 pandemic. I wasn't teaching in the summer, so I was fortunate enough to be at home anyway. For a whole bunch of reasons I spent the whole summer learning about the eugenics movement and its connections with psychology. I was shocked at what I learned, and learning the history changed the way I think about psychology, and about cognitive psychology. Although some of the historical events are "shocking" because they are so terrible, I was also shocked and upset that my own education and time spent as a researcher had failed to make me aware of the history. I continue to think that psychology and its disciplines like cognitive psychology have many positive things to offer people and society. But, the legacy of eugenics shows that psychology and psychologists can produce research with dire consequences for humanity, that continue to this day, to reverberate throughout society.
 
+## A brief history of psychology
 
-another side to research produced by psychology and psychologists, and I will provide examples where psychological research was used like a weapon against humanity. 
+How do people remember and understand history?
 
-It might sound like I am exaggerating by suggesting that some psychological research was used as a weapon against humanity, but I am not exaggerating, or being metaphorical. Nuclear bombs are an example of a real weapon that could be used to destroy entire cities within seconds. The weapons we will discu
+I used to have a rough sketch to summarize the history of psychology for myself. It went like this. Psychology was the general scientific discipline of the mind, and had grown out philosophy. There were a few early psychologists in the late 1800s who invented experimental methods for studying the mind. Academic interest in psychology spread quickly. Psychologists trained students, created psychology departments and research laboratories, and new journals to publish their findings. There were many different schools of thought about how psychology should proceed as a science. In the early 1900s some psychologists used introspection to examine their own minds. There were debates like the nature/nurture debate and the imageless thought debate. There was the dark ages of behaviorism in America, where only objective measures of stimuli and responses were allowed in psychology. Not everyone was a behaviorist the whole time, and eventually there was a "cognitive revolution" against behaviorism in the 1960s and 70s, and it became scientifically acceptable again to study how the mind works, even if cognitive processes are unobservable.
 
-Human society has produced formidable weapons, like nuclear bombs, that are capable of destroying entire cities in within seconds; and, there are many examples of 
+The above is not an accurate history of psychology. It is an example of how I loosely organized my understanding of the history. How people form and use beliefs about the world around them is an interesting aspect of cognition. Additionally, the process of changing beliefs given new information is
 
-
-Sometimes, Using nuclear bombs to destroy people is a serious example of using a weapon against humanity. There are many other serious examples in history where atrocities have been committed against specific groups of people. 
-
-
-
+-->
 
 
 
+then the associationists and behaviorists took over
 
 
+Galton proposes Eugenics
 
+The rise of eugenics as a global social movement
 
+Involvement of psychology
+
+Intelligence testing and its impacts
+  - the intelligence test race
+  - Stanford Binet
+  - Alpha-Beta
+  - Who is a moron?
+  - Standardized testing in schools, bias, california
