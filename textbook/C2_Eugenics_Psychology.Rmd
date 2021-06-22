@@ -49,13 +49,133 @@ Galton referenced the practice of dog breeding, which involves selectively matin
 
 Galton's eugenics ideas did not appear in a vaccuum, and were influenced by the scientific and social context he was working in. Galton's eugenics writings appeared just after 1859, when his cousin Charles Darwin published the theory of evolution in the "origin of the species" [@darwinOriginSpecies1859]. Darwin's theory, which continues to stand today as a powerful explanatory theory of life on earth, described how animal species evolved over time through a process of natural selection. This same time period included threats to British imperialism and efforts by many nations to establish dominance and social order across the globe. Galton was an esteemed upper-class British man of science (eventually knighted in 1909), who held sexist and racist views common among his peers. For example, long before genetics would show that there is no biological basis for race, academics like Galton assumed that people from "uncivilized" countries were of much lower quality than people from "civilized" countries, and that these differences in quality must have evolved, and must be heritable. Furthermore, in the tradition of Thomas Malthus [], who is famous for speculating on the imminent collapse of society as a result of population growth; Galton feared that society would deteriorate over the generations due to increased global interactions between people across the world. Specifically, Galton feared that "natural selection" left to chance would allow inferior, low-quality and uncivilized people to reproduce, pollute the gene pool, spread inferior genes across the world, and cause the slow decline and ultimate destruction of the human race. 
 
-Galton saw Eugenics as a way to arrest human destiny from natural selection, and use the new powers of science and technology to save humanity from itself. Eugenics was not only about improving society for one generation, it would be sold as a movement dedicated to improving humanity across the generations, for the rest of time. Although a society to improve humanity might not seem very frightening, when you consider questions like-- improvement for who? improve what exactly? who get's to decide what needs improving?-- the concept of "making things better" can easily turn into "making them a whole lot worse".
+Galton saw Eugenics as a way to arrest human destiny from natural selection, and use the new powers of science and technology to save humanity from itself. Eugenics was not only about improving society for one generation, it would be sold as a movement dedicated to improving humanity across the generations, for the rest of time. Although improving humanity might not seem like a frightening goal, it is worth considering  questions like: What is being improved? Who get's to decide what needs improving? What kinds of changes count as improvement? Who will benefit from the improvement? Will the costs of improvement be shared equally? In answering these questions, the eugenics movement argued that individual differences in people reflected levels of human quality, that low quality humans were a major problem for society, and that improving humanity meant identifying and eliminating low quality humans from the species. If you were not considered a high quality human by eugenics standards, then the eugenic concept of improving society could be very frightening.
 
 ## The Eugenics movement
 
-Galton's eugenics ideas could have stayed on the page like a science fiction novel, but unfortunately they took on a life of their own. In this section, we establish the scale of Eugenics by examining its dimensions as a social movement. Before we do that, let's consider some of the practical challenges that eugenics would have to deal with.
+Galton's eugenics ideas could have stayed on the page like other science fiction novels about Utopia, but unfortunately they took on a life of their own. In this section, we establish the scale of eugenics by examining its dimensions as a social movement. 
 
-The big idea of eugenics was that the human race can be improved over generations through breeding. Imagine for the moment that a eugenics movement took over the entire world and began improving the human race through breeding processes. What kinds of issues would the movement need to negotiate in order to effectively pursue the eugenics agenda?
+### A Timeline
+
+The eugenics movement spread from Britain around the world and impacted different countries in similar and unique ways. For a very informative timeline on major events in the eugenics movement take a look at the [interactive timeline](https://eugenicsarchive.ca/discover/timeline) created by the Canadian funded [eugenics archive](https://eugenicsarchive.ca/) project. Although the timeline includes many events relevant to Canada's eugenics legacy, it also provides comprehensive coverage of important historical events in eugenics movements worldwide.
+
+### From ideas to internationalization
+
+Galton continued to expand and popularize his ideas from 1865, and coined the phrase eugenics in 1883 []. In these few decades, eugenics proponents had succeeded in blaming social problems on undesirable and inferior sub-types of humans, and instilling fear that society would collapse if these inferior humans continued to spread throughout society. By 1882, fear of undesirables spread to American immigration policy, and immigrants who were found to be "undesirable" could be denied entry to the USA []. By 1897, fear that "degenerates" would reproduce and overwhelm society led lawmakers in Michigan to propose a compulsory sterilization law (where the state would forcibly sterilize any woman deemed to be a degenerate). By the early 1900s, the first formal eugenics societies were being established. In Britain, Galton sat as the first president of the Eugenics Education Society in 1907. One year earlier, Charles Davenport formed a Eugenics committee in the American breeders association-- a pre-cursor to the Eugenics Record Office, which was the national headquarters of eugenics in the USA (located at Cold Springs Harbor Laboratory in Huntington, Long Island, NY, which still exists today). Eugenics societies spread across the world. The Oxford handbook of the history of eugenics [], has individual chapters describing the aftermath of eugenics in Britain, South Asia, Australia and New Zealand, China and Hong Kong, South Africa, Colonial Kenya, Germany, France, the Netherlands and the Dutch East Indies, the Scandinavian States, Southern Europe, Eastern Europe, Russia and the Soviet Union, Japan, Iran, the Jewish Diaspora; Cuba Puerto, Rico, and Mexico; Brazil, the United Sates, and Canada.
+
+### Conferences and popularity
+
+There were many national and international conferences where elites in the eugenics movement gathered to popularize and discuss eugenical solutions to improve society. The first (1912), second (1921) and third (1932) International Eugenics Congresses were held in London, and New York (last two). The tree of eugenics created for the second conference depicts how the movement saw itself as, "the self-direction of human evolution", and harmoniously integrating many fields of study to better mankind. Just like each of the countries listed above, the academic fields listed in the roots of the tree of eugenics, also have their own eugenics legacies to contend with.
+
+```{r}
+knitr::include_graphics("imgs/Eugenics_tree.jpg")
+```
+In America, eugenics appealed to large segments of society and was embraced by celebrities, national leaders, and everyday people across country. Some famous americans who were strong proponents of eugenics include Alexander Graham Bell (inventor of the telephone), John Harvey Kellogg (Kellog's Corn Flakes), and Theodore Roosevelt (American President). During the height of its activity, the Eugenics Record Office trained scores of operators to disseminate information about eugenics across the states. For example, it would be common to attend a county fair and learn about eugenics at a eugenics information tent. Or, to participate in eugenics contests, like the "better babies" contests, where families had their baby's judged and won prize for having the highest quality baby (by eugenical standards). The take home message here is that the eugenics movement spread its ideology to the point were its proposals for improving society were very well known, accepted, and fanatically embraced by its strongest adherents.
+
+### Eugenics Journals
+
+As the tree of eugenics shows, the movement thought of itself as the culmination of many academic disciplines. Although eugenics did not succeed in perpetuating itself as a new academic department, it claimed to be a science for many years, and established many academic journals and related publications. A few English language eugenics journals include: The Eugenics Review, The Eugenical News, The Journal of Race Development, and the Annals of Eugenics. It is highly informative, eye-opening, and even terrifying to read through the papers in these journals. One notable feature of the journals was that the eugenics enterprise was not hidden, but visible and open to the reading public. This allows unusual access to the history of the movement because the development of eugenical ideology and its claims and methods for improving society are all written down in the journals, books, conference proceedings, and other propaganda (including textbooks, pamphlets, and movies). Some of the eugenics journals stopped publishing, and other renamed themselves (and continue to publish) after the eugenics movement became socially unacceptable.
+
+### Eugenics Fears
+
+Fear of people on the margins of society was a common feature of eugenics movements across countries. Fear was created in two ways. First, by sub-humanizing already marginalized groups of people by labeling them as mentally and physically inferior, and using adjectives like, degenerate, impure, and moral monsters, to convey how truly depraved, grotesque, disgusting, and unholy these "creatures" were. Many different groups of people were targeted by eugenics and deemed unfit, from people with physical and mental disabilities, to immigrants, and people with different colored skin from the dominant eugenics movement in a particular country. In majority white countries like Britain, Germany, Canada, Australia, and the United States, the eugenics movement forwarded an agenda of white supremacy. Non-white citizens were deemed inferior, and a common strategy was to fabricate scientific evidence showing that white people were superior in terms of eugenically desired traits (like intelligence) compared to non-whites.
+
+Second, eugenicists suggested that marginalized groups of people would cause the collapse of society. The following characterization of "eugenics logic" is similar to what you might read in eugenics propaganda: "Inferior people are inferior because they have inferior genes. Inferior people pass on their inferior genes to their offspring when they have children, and they create inferior children with inferior genes. Also, many disgusting and inferior moral degenerates reproduce at very high rates. Society is deteriorating as we speak because so many inferior people are breeding, and society as we know it will collapse unless we do something to stop this disgusting problem."
+
+### Positive and Negative Eugenics
+
+Eugenics promised scientific solutions to the problems it identified in society, and presented itself as a progressive social movement. Eugenicists distinguished between positive and negative eugenics as two general directions that would help improve the human race across generations through breeding. Positive eugenics were ostensibly methods that would increase or encourage reproduction between high quality people (as determined by eugenics values), and negative eugenics involved methods for decreasing reproduction between low quality people (as determined by eugenics values). In practice, eugenics methods increased inequalities in society-- Positive eugenic methods gave more privileges to already powerful and priviliged groups, and negative eugenic methods took away priviliges from already marginilized groups, and worse. Wide-ranging positive and negative eugenics policies were deliberately deployed in many countries for many decades, and remnants of these policies continue to influence modern society in many ways.
+
+The next section lists some of the eugenics policies that had lasting impacts on society, following this section we will turn to the discipline of psychology and it's role in the eugenics movement.
+
+### Influences on society
+
+Because eugenics was so widespread and common in many countries for a very long time, it had the opportunity to influence society in numerous and sometimes unexpected ways. Here is a short list. Eugenics ideology shaped the history of mental health treatment. People with mental illness were treated as genetically inferior, and negative eugenics was used to prevent people with mental illness from reproducing. One strategy was to institutionalize patients in mental hospitals that were in distant locations--which would prevent them from breeding with the general public. Another strategy was to forcibly sterilize patients against their will to ensure they could never reproduce. For example, the United States passed compulsory sterilization laws for "defectives" in X states. 
+
+Eugenics reinforced existing forms of racism in several ways. White eugenicists were concerned that the "white race" would degenerate if it mixed with "inferior" non-white races. In America, eugenicists supported increased segregation between whites and blacks, which would limit inter-marriage; and, they supported miscegenation laws to make inter-marriage illegal. 
+
+Eugenics was highly concerned with fertility control issues. As a result, eugenics overlapped with other progressive movements, such as the womens movement to legalize abortion. For example, Margaret Sanger, the founder of planned parenthood, was also a eugenicist. Abortion would be a welcome tool for eugenics because it could be used to terminate pregnancies that resulting in eugenically "defective" or inferior offspring. Margaret Sanger, like other eugenicists at the time in America, was also involved in the white supremacy movement, and promoted her views by giving talks to white supremacy groups. Many modern institutions and organizations have eugenic legacies in their past, and it is notable that planned parenthood has recently begun publicly acknowledging and reckoning with this history [@johnsonOpinionHeadPlanned2021;@plannedparenthoodStatementMargaretSanger2020].
+
+Eugenics was involved in education in numerous and sometimes unexpected ways. For example, the playground movement, which debated the role and form of children's play in their development, and advocated for schools to include playgrounds, was deeply mired in eugenics [@mobilyEugenicsPlaygroundMovement2018]. Gifted school programs were created by eugenicists []. Standardized testing was invented and widely promoted by eugenicists [].
+
+One of the most notorious outcomes of the eugenics movement occurred in Germany during world war II. While America had its eugenics societies, like the [Human Betterment Foundation](https://en.wikipedia.org/wiki/Human_Betterment_Foundation), Germany's eugenic movement had established itself beginning in 1905 as "Deutsche Gesellschaft für Rassenhygiene", or the "German Society for Racial Hygiene". Here, eugenic goals included creating a purified and superior white race, and these goals were acted upon by committing atrocities like the holocaust. The precursors of the Nazi eugenics program were already well-established by eugenicists in other countries. For example, the English statistician Karl Pearson (the inventor of Pearson's correlation co-efficient) was Galton's protege, and became the first "Galton Chair in National Eugenics" at the University College London, after Galton's death in 1911. Pearson used his statistics research for eugenics. To take one example, pearson established the journal "Annals of eugenics" in 1925, and published a series of four lengthy (approximately 400-500 pages in total) research papers that demonstrated how to "scientifically" measure Jewish children and their parents to identify eugenically inferior Jews, so that the "cold light of statistical inquiry" could be used ultimately to stop Jewish immigration to Britain. The Nazi regime would elaborate on these publicized methods and take them to their extreme conclusion, which included the genocide of an estimated six million Jews in the holocaust, and mass killing of other groups deemed to be eugenically inferior such as homosexuals, and mentally disabled people. 
+
+The numerous Nazi war atrocities which were clearly driven by and connected to the German eugenics movement are commonly cited as a reason for the world-wide decline of the eugenics movement after world war II. In America, the previously very public eugenics movement became unpopular. Eugenics journals changed their names. Eugenics societies stopped publishing their member lists. The damaging legacy and history of eugenics movements continues to the present day, and additional coverage is beyond the scope of this chapter. For further reading on this topic consider these books [@wilsonEugenicThinking2018;@kuhlBettermentRaceRise2013;@bashfordOxfordHandbookHistory2010].
+
+## Psychology and Eugenics
+
+In the preceding sections my aim was to convey ideologies of eugenics, the tremendous scale and widespread embrace of eugenics across the world for at least half a century, and some of the lasting damage eugenics has wrought on the world. In this section, we review the connections between psychology and eugenics. Unfortunately, although it is clear that psychology and psychologists were deeply involved in eugenics, it is not clear that modern institutions of psychology have widely acknowledged or reckoned with this history. How was early and modern psychology influenced by the eugenics movement? Let's a take look.
+
+### Emergence of Psychology
+
+The first experimental psychology lab by Wilhelm Wundy in Germany was established in 18XX. The first psychology department in the United States was in X in 18XX. Psychology spread quickly as a new academic discipline that would require new infrastructure: whole new departments in universities, new journals to publish in, new Ph.D. programs to train more psychologists and spread the science of psychology. The growth and spread of Psychology occurred at the very same time that the eugenics movements were spreading in popularity across the world. And, the temporal overlap is more than just a coincidence. Eugenicists required tests of human mental abilities and other human qualities to be able to identify eugenically inferior people from eugenically superior people. Psychologists created the tests, and established whole domains of psychology, like psychometrics, that attempt to improve the "scientific" measurement of human quality. Additionally, many early psychologists were themselves deeply committed proponents of eugenics, who both wrote about eugenics in eugenics journals, and wrote about psychological tools that would be used for purposes of eugenics in psychology journals. 
+
+It is interesting to look at some of the people involved at the inception of long-standing insititutions in american psychology, like the American Psychological Assocation (APA), and its original journal Psychological Review. The first two presidents of the APA, Granville Hall (1892) and George Ladd (1893) were eugenicists who founded (Hall) and co-edited (Ladd) the Journal of Race Development. The next president of the APA was James McKeen Cattell, also a prominent eugenicist. His psychological research at Columbia had failed to produce a useable intelligence test, and he transitioned into publishing. He founded Psychological Review for the APA, and he bought the journal Science, where he served as editor for 50 years. The first issue of psychological review features articles by the intellectual founder of eugenics (and other psychologist/eugencists), Sir Francis Galton, where he describes his uncanny ability to do arithmetic using smells [@galtonArithmeticSmell1894]. In overviewing the involvement of psychology in the eugenics movement, Yakushko [@yakushkoEugenicsItsEvolution2019] had determined that 31 APA presidents between 1892 and 1947 were affiliated with or bonified leaders in eugenics societies.
+
+Psychological Review (in print since 1895)
+
+### The intelligence test race
+
+
+
+Psychologists were involved in creating tests of human mental abilities that eugenicists would nee
+
+
+One reason for the coincidence was that eugenics movements relied upon and used psychology to advance eugenics agendas. Ad
+
+
+
+
+Are these influences
+
+modern psychology and the cognitive sciences at all influenced by eugenics? 
+
+the tremendous scale of the eugenics movements, components of ideology
+
+Using similar tactics to categorize their own citizens as eugenically inferior, the Nazis then systematically 
+
+
+
+
+. Before the Nazi regime committed the holocaust in world war II, the eugenics movement in Britain had
+
+The eugenics movement sometimes overlapped with other progressive movements, such as the women's movement to win abortion rights. For example, fertility control was a major concern for eugenics. High-quality women would be needed to bear the children of high-quality men. Also, methods to terminate pregnancies that could result in defective children, such as abortion, 
+
+
+One of the most notorious outcomes of the eugenics movement was the holocaust. 
+
+The methods used by eugenicists to 
+
+
+
+In practice, positive eugenic social policies were a way to give more priviledges to already highly priviledged groups of peopl.
+
+
+gave more privileges to already privileged groups of people, and negative eugenic social polices led to human rights violations and cul ulholocaust during world war II.
+
+This eugenics logic was applied to many different groups of people at the margins of society. The early 1900s had many social problems, and eugenics provided a kind of simple solution. The problem was probably genetic in nature, and could be bred out of existance using eugenics. 
+
+
+
+Second, by suggesting that the society-as-we-know-it will collapse because marginalized people are spreading 
+
+Eugenics gained steam by stoking fear about marginalized people in society. For example, 
+
+
+
+The eugenics movement had enormous challenges to face if it was to successfully control human breeding over generations. 
+
+The eugenics movement set up numerous academic journals (), and attempted to gain legitimacy as a scientific field in it's own right.
+
+
+
+coordinated itself in public through large conferences and academic journals, and many notable people were involved. By 1923, 
+
+
+
+Before we do that, let's consider some of the practical challenges that eugenics would have to deal with.
+
+A big idea of eugenics was that the human race can be improved over generations through breeding. Imagine for the moment that a eugenics movement took over the entire world and began improving the human race through breeding processes. What kinds of issues would the movement need to negotiate in order to effectively pursue the eugenics agenda?
 
 A major issue is what constitutes improvement? Who gets to decide what human qualities are desirable versus undesirable. Which qualities should be improved over generations of breeding, and which qualities should be removed? Galton and his adherents wrote volumes on this topic, and they claimed that human intelligence was one of the most important qualities of humans, and that human intelligence should and could be improved through breeding.
 
