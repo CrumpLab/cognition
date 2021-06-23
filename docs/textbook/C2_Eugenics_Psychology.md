@@ -5,7 +5,7 @@
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|       4995|25 minutes   |
+|       5673|28.4 minutes |
 
 
 <!--
@@ -96,18 +96,118 @@ The numerous Nazi war atrocities which were clearly driven by and connected to t
 
 ## Psychology and Eugenics
 
-In the preceding sections my aim was to convey ideologies of eugenics, the tremendous scale and widespread embrace of eugenics across the world for at least half a century, and some of the lasting damage eugenics has wrought on the world. In this section, we review the connections between psychology and eugenics. Unfortunately, although it is clear that psychology and psychologists were deeply involved in eugenics, it is not clear that modern institutions of psychology have widely acknowledged or reckoned with this history. How was early and modern psychology influenced by the eugenics movement? Let's a take look.
+In the preceding sections my aim was to convey ideologies of eugenics, the tremendous scale and acceptance of eugenics across the world for at least half a century, and some of the fallout from the movement. In this section, we review the connections between psychology and eugenics. Unfortunately, although it is clear that psychology and psychologists were deeply involved in eugenics, it is not as clear that modern institutions of psychology have widely acknowledged or reckoned with this history. How was early and modern psychology influenced by the eugenics movement? Let's a take look.
 
 ### Emergence of Psychology
 
-The first experimental psychology lab by Wilhelm Wundy in Germany was established in 18XX. The first psychology department in the United States was in X in 18XX. Psychology spread quickly as a new academic discipline that would require new infrastructure: whole new departments in universities, new journals to publish in, new Ph.D. programs to train more psychologists and spread the science of psychology. The growth and spread of Psychology occurred at the very same time that the eugenics movements were spreading in popularity across the world. And, the temporal overlap is more than just a coincidence. Eugenicists required tests of human mental abilities and other human qualities to be able to identify eugenically inferior people from eugenically superior people. Psychologists created the tests, and established whole domains of psychology, like psychometrics, that attempt to improve the "scientific" measurement of human quality. Additionally, many early psychologists were themselves deeply committed proponents of eugenics, who both wrote about eugenics in eugenics journals, and wrote about psychological tools that would be used for purposes of eugenics in psychology journals. 
+In 1879, the first experimental psychology was established by Wilhelm Wundt in Leipzig, Germany. The first psychology department in the United States was established by Geoffrey hall at Johns Hopkins University in 1883. Psychology spread quickly as a new academic discipline that would require new infrastructure: whole new departments in universities, new journals to publish in, new Ph.D. programs to train more psychologists and spread the science of psychology. The growth of psychology occurred in tandem with the popularization of eugenics movements across the world; and, the temporal overlap is more than just a coincidence. Eugenics required tests of human mental abilities to identify eugenically inferior people from eugenically superior people. Psychologists created the tests, and established whole domains of psychology, like psychometrics, to measure individual differences in qualities of humans of interest to eugenics. Many psychologists were also proponents of eugenics: they wrote about their eugenics views in eugenics journals, and about their psychological research (that would be useful for eugenics) in psychology journals. 
 
-It is interesting to look at some of the people involved at the inception of long-standing insititutions in american psychology, like the American Psychological Assocation (APA), and its original journal Psychological Review. The first two presidents of the APA, Granville Hall (1892) and George Ladd (1893) were eugenicists who founded (Hall) and co-edited (Ladd) the Journal of Race Development. The next president of the APA was James McKeen Cattell, also a prominent eugenicist. His psychological research at Columbia had failed to produce a useable intelligence test, and he transitioned into publishing. He founded Psychological Review for the APA, and he bought the journal Science, where he served as editor for 50 years. The first issue of psychological review features articles by the intellectual founder of eugenics (and other psychologist/eugencists), Sir Francis Galton, where he describes his uncanny ability to do arithmetic using smells [@galtonArithmeticSmell1894]. In overviewing the involvement of psychology in the eugenics movement, Yakushko [@yakushkoEugenicsItsEvolution2019] had determined that 31 APA presidents between 1892 and 1947 were affiliated with or bonified leaders in eugenics societies.
+I have not yet seen exhaustive historical research estimating how many psychologists were committed to the eugenics movements, in what capacity, and for how long ^[and I will update this section to the extent that this information becomes available]. Nevertheless, there are some clear clues in the historical record. In overviewing the involvement of psychology in the eugenics movement, Yakushko [@yakushkoEugenicsItsEvolution2019] determined that 31 American Psychological Association (APA) presidents between 1892 and 1947 were affiliated with or leaders in eugenics societies. Eugenics affiliations are known from published documentation like membership lists in eugenics organizations. My first thought when I read Yakushko's numbers was: I wonder what APA meetings (the foremost professional psychological organization in the United States) were like for over half a century, while over half of the presidents (elected by other psychologists) were publicly committed to the cause of eugenics. If similar proportions of academic psychologists at large were also proponents of eugenics like their leaders, what kinds of eugenic ideology was passed on to their students and general public as they taught about human psychology? Did eugenic beliefs among psychologists influence the kinds of students they choose to admit into graduate schools? Did eugenic beliefs influence the kinds of research questions that psychologists asked? I think a total picture on these kinds of questions remains to be adequately answered by future research into the history of psychology. Nevertheless, it is possible to focus on one branch of psychology that was clearly inspired and motivated by eugenics, mental testing.
+
+### Mental testing
+
+My training as a cognitive psychologist mostly skipped over the topic of mental testing, especially the history and development of intelligence tests. My perspective on intelligence testing is that it is extremely fraught, completely intertwined with the eugenics movement, and has been continuously used as a tool of racial discrimination to the present day. We are reviewing the origins of intelligence testing to show a case where psychological research about cognitive abilities was less interested in explaining how cognitive abilities work, and more interested in using psychology as a tool to advance a social movement like eugenics.
+
+### The intelligence test race
+
+The Stanford-Binet test was among the first intelligence tests. Alfred Binet was a French psychologist, and published the Binet-Simon test (with his student Theodore Simon) in 1905 []. Lewis Terman was an American psychologist at Stanford, who popularized Binet's test in America [], hence the modern combination of  Stanford-Binet. Although Binet is often credited with creating the first intelligence test, he was not the only one trying to make tests of intelligence; but, he could be said to have won the race. 
+
+Psychologists in the eugenics movement since Galton, had been trying to develop intelligence for years. Remember, the eugenics movement strongly desired scientifically credible tests that could identify whether a person had inferior or superior intelligence. Lewis Terman was also a prominent eugenicist (member of the Human Betterment Foundation) and thought testing the mental abilities of schoolchildren would help isolate "defective" children from society (so they couldn't reproduce), and to identify gifted children who would be groomed into national leaders. Terman wrote of schoolchildren that, "it is safe to predict that in the near future intelligence tests will bring tens of thousands of these high-grade defectives under the surveillance and protection of society. This will ultimately result in curtailing the reproduction of feeble-mindedness and in the elimination of an enormous amount of crime, pauperism, and industrial inefficiency...The number of children with very superior ability is approximately as great as the number of feeble-minded. The future welfare of the country hinges, in no small degree, upon the right education of these superior children. "[@termanMeasurementIntelligenceExplanation1916]. 
+
+Galton's research on individual differences in the vividness of mental imagery from 1880, is an example of early attempts (in this case by the inventor of eugenics) to measure mental abilities associated with intelligence. There were several attempts to develop mental tests throughout the 1890s by psychologists inspired by Galton. For example, James McKeen Cattell (1860-1944), published "Mental tests and Measurements" in 1890 []. Cattell made numerous contributions to American psychology, and continues to be honored by the Association for Psychological Sciences (APS) through their "James McKeen Cattell Fellow Award" for lifetime achievement. Cattell was also a strong proponent of eugenics. 
+
+Here is the first paragraph from Cattell's paper:
+
+---
+
+"Psychology cannot attain the certainty and exactness of the physical sciences, unless it rests on a foundation of experiment and measurement. A step in this direction could be made by applying a series of mental tests and measurements to a large number of individuals. The results would be of considerable scientific value in discovering the constancy of mental processes, their interdependence, and their variation under different circumstances. Individuals, besides, would find their tests interesting, and, perhaps, useful in regard to training, mode of life or indication of disease. The scientific and practical value of such tests would be much increased should a uniform system be adopted, so that determinations made at different times and places could be compared and combined. "With a view to obtaining agreement among those interested, I venture to suggest the following series of tests and measurements, together with methods of making them."
+
+---
+
+Cattell was corresponding with Galton to make the tests, "meet with his approval", but he only indirectly references the application of mental testing to the eugenics movement (e.g., "indication of disease"), and he mentions several other reasons to pursue the creation of mental tests. In a footnote, he mentions that, "the nationality (including that of the parents), and the age, sex, occupation and state of health" should all be recorded when participants take the test". The inclusion of these measurements is consistent with eugenical aims to show that different races had inherited different mental abilities.
+
+Cattell proposed to measure each person on ten tests:
+
+I. Dynamometer Pressure, (to measure squeezing hand strengh). 
+II. Rate of Movement (how fast you can move your hand).
+III. Sensation-areas (telling apart two pin-pricks)
+IV. Pressure causing Pain
+V. Least noticeable difference in Weight
+VI. Reaction-time for Sound
+VII. Time for naming Colours 
+VIII. Bi-section of a 50 cm line
+IX. Judgment of 10 seconds time
+X. Number of Letters remembered on once Hearing
+
+You might notice these individual tests range across physical and mental abilities, and none of them measure a complicated concept like human intelligence. At the end of the paper, Cattell lists 50 additional tests for sight (14 tests), Hearing (8 test), Taste and Smell (3 tests), Touch and Temperature (7 tests), Sense of Effort and Movement (4 tests), Mental Time (7 test), Mental intensity (2 tests), and Mental Extensity (5 tests), that he thought should be important for the incoming discipline of Experimental Psychology. Many of the tests became useful for theorizing about how individual psychological processes work. 
+
+By 1896, Cattell had moved from Pennsylvania to New York City, and where he published measurements of Columbia university students [@cattellPhysicalMentalMeasurements1896]. By today's standards, Cattell's test would likely raise privacy concerns about what he was planning to do with the data he collected. Cattell reported statistics on hair and eye color, height and weight, head-size, breathing capacity, color-blindness, vision, color preferences, hearing, pitch-perception, skin-sensation, hand-strength, reaction-time, perception of time and space, memory, and mental imagery. In addition, the examiner made separate judgments of each students quality (physical goodness, good student, level of intellectual ability, strong-will etc.), based on their professional opinion. Finally, students were given a lengthy questionnaire to report on their family history, medical history, and daily behaviors, and preferences (what's your favorite novel, what gives you pleasure, etc.). Cattell concludes that science should proceed to determine the interrelations between his measurements, and how much knowing one thing about a person can predict something else about them. He also concludes that "we must use our measurements to study the development of the individual and of the race, to disentangle the complex factors of heredity and environment.", and that the most important thing that science can do is guide the development of man.
+
+Several other psychologists inspired by Galton were also publishing results from their own mental tests around this time, including Hugo Munsterberg [@munsterbergZurIndividualPscyhologie1891], [J. Allen Gilbert](https://www.nps.gov/articles/expressions-as-diverse-as-the-landscape-selling-building.htm) [@gilbertMENTALPHYSICALDEVELOPMENT1895], and Emil Kraepelin [@kraepelinPsychologischeVersuchPsychiatre1895]. Alfred Binet was among the psychologists interested in mental testing, and well before he published his famous test, he critiqued the existing literature on mental testing in 1895 [@nicolasProgramIndividualPsychology2014]. Binet pointed out that tests were measuring physical ability (like grip strength) and basic sensory abilities; but, rarely measured higher mental abilities. Binet proposed that individual differences in higher mental abilities could be measured by simple tests, but only if the tests challenged people to use higher order mental abilities. He proposed tests for Memory--drawing a geometric shape from memory, reproducing a sentence from memory, memory for musical notes, memory for a color, memory for 12 objects--tests for Mental Imagery; Imagination; Attention-- duration of attention, size of attentional field, performing multiple tasks at once--tests for understanding--give a definition, criticize a sentence--tests for suggestibility; for Aesthetic feeling--what are a persons preferences, are they same as artists?--tests of Moral Feelings; muscular and will power; and motor skill and glance. 
+
+As Binet might have predicted, Cattell's mental testing program failed to measure differences in higher level mental abilities. Cattell used his measurements to predict outcomes, and was interested in whether his mental tests of students could predict their grades in college. Grades in college courses presumably measured something about a students general intelligence. However, Cattell was unable to reliably demonstrate that performance on his mental tests successfully predicted academic performance.
+
+- The procedures used by intelligence testers after Binet's test were popularized reflected elements of Cattell and Binet's ideas. Binet influenced how individual items on the test were created. They would be mentally challenging, tap different mental abilities, and be short enough to finish a whole test in 20 minutes. Cattell influenced how the tests would be validated, by examining whether performance on mental tests was correlated with outcomes in the real world.
+
+The individual items on the test were more like what Binet proposed
+
+Combinations of Cattell's and Binet's 
+
+
+
+
+
+
+
+
+and Alfred Binet [@].
+
+At almost the same time Alfred Binet
+
+
+How did Cattell use his tests to measure intelligence, even though none of the individual tests measured intelligence? 
+
+
+
+
+What is intelligence anyway, and who gets to define it? If someone calls a test an "intelligence test", does it mean that it is testing "intelligence"? If a scientist calls a test an intelligence test, does it automatically mean the test is scientific? 
+
+
+
+
+
+differences between 
+
+
+
+
+
+people on the basis of their race from the beginning to the
+
+
+racism from the very beginning to the present
+
+Fields in psychology divide themselves for many different reasons, and although the topic of intelligence testing could fit inside cognitive psychology, it also fits inside other branches like psychometrics (the development of psyhcological tests), or individual differences
+
+
+for over half a century, more than half of the presidents of the foremost professional psychological organization in the United States were in positions of power, and confirmed eugenicists.
+
+
+Unlike planned parenthood who has denounced their founder's views on eugenics, I am not aware of any formal 
+
+
+
+
+
+
+It is interesting to look at some of the people involved at the inception of long-standing institutions in american psychology, like the American Psychological Assocation (APA), and its original journal Psychological Review. The first two presidents of the APA, Granville Hall (1892) and George Ladd (1893) were eugenicists who founded (Hall) and co-edited (Ladd) the Journal of Race Development. The next president of the APA was James McKeen Cattell, also a prominent eugenicist. His psychological research at Columbia had failed to produce a useable intelligence test, and he transitioned into publishing. He founded Psychological Review for the APA, and he bought the journal Science, where he served as editor for 50 years. The first issue of psychological review features articles by the intellectual founder of eugenics (and other psychologist/eugencists), Sir Francis Galton, where he describes his uncanny ability to do arithmetic using smells [@galtonArithmeticSmell1894]. 
 
 Psychological Review (in print since 1895)
 
 ### The intelligence test race
 
+
+<!--
 
 
 Psychologists were involved in creating tests of human mental abilities that eugenicists would nee
@@ -177,11 +277,14 @@ Testing was another issue. Eugenics needed to create reliable and scientifically
 
 Scientific validity was another issue. A core claim of eugenics was that important human qualities like intelligence were biologically determined and hereditary; which made it possible (according to eugenics) to use breeding programs to alter qualities like intelligence over the generations. The whole idea that the human race could be improved through eugenics would seem to fall apart if the desirable parts of humans were not inherited, but instead learned.
 
+-->
+
 <!--for eugenics, the nature/nurture debate was about how much society could be improved through breeding programs, and then the leftover part was how much could be improved through training.
 
 
 -->
 
+<!--
 
 So, it would be necessary to provide evidence of the claim so that 
 
@@ -241,6 +344,8 @@ The eugenics movement
 Although many aspects of the modern cognitive sciences were developed in the 1950s, 60s, and 70s,
 
 These topics are too large to cover adequately in a single chapter, so the history is focused toward topics in cognition such as intelligence testing, and capacity limitations in mental abilities.
+
+-->
 
 <!--
 
