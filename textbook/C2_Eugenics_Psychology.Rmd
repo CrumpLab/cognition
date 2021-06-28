@@ -208,11 +208,9 @@ Basing the measurement of mental abilities on a relative comparison to empirical
 
 #### Computing intelligence scores
 
-In 1905, Binet had an unruly number of tests, well over 50; and, part of the testing process was to measure individual children on as many of the tests as possible. How did Binet take performance measurements (that looked the results in panel B in the figure above) from all of the tests to arrive at a single value in years, that would quantify mental ability? This involved some tinkering, and was adapted over time. 
+In 1905, Binet had an unruly number of tests, well over 50; and, part of the testing process was to measure individual children on as many of the tests as possible. How did Binet take performance measurements from all of the tests to arrive at a single value in years that would quantify mental ability? Another way to state this question is to ask, how did Binet calculate average performance for the children in each age group, and how were the results from new children compared to the results from the existing children in Binet's database?
 
-Another way to frame this question was, how did Binet calculate "normal" or average performance for the children in each age group, and how were the results from new children compared to the results from the existing children in Binet's database?
-
-The answers are that Binet imposed rules for classification, and these rules also change what the measurement means. In other Binet needed to make up some rules that would convert performance on each of the tests into an age in years. He came up with different systems involving cut-offs and partial points. 
+The answers are that Binet imposed rules for classification, and these rules determined how performance from individual tests was converted into an age in years. Binet experimented with different classification rules.
 
 A potential rule was, "A subject has the intellectual development of the highest age at which he passes all the tests, with the allowance of one failure in the tests for that age. Thus young Ernest has passed all the tests at nine years, except one; he has also passed all the tests at ten years except one; therefore we attribute to him the mental level of ten years."[@binetDevelopmentIntelligenceChild1908]
 
@@ -220,15 +218,61 @@ By 1911, Binet settled on a more nuanced point system:
 
 "Here is the rule to follow: take for point of departure, the age at which all the tests are passed; and beyond this age, count as many fifths of a year as there are tests passed. Example: a child of eight years passes all the tests of six years, 2 of seven years, 3 of eight years, 2 of nine years, 1 of ten years; he has therefore the level of six years plus the benefit of eight tests or eight-fifths years, or a year and three-fifths, equaling a level of seven years and three-fifths, or more simply 7.6. This calculation permits the appreciation of the intellectual level by means of a fraction. But it must be well understood that this fraction is so delicate an appreciation, that it does not merit absolute confidence, because it varies appreciably from one examination to another." [@binetNewInvestigationsMeasure1911].
 
-#### Meaning and Usage
+#### Binet's use cases
 
 Binet achieved a method that would be used throughout the world to measure mental abilities. There are some strikingly simple properties of the test that make the method very seductive. The big idea was to create a large database of how children of various ages perform mental tasks, and then compare new people, measured on the same tasks, to the database. This would yield a "mental age", a simple number that represented mental abilities relative to a large and growing database.
 
-One of Binet's use cases was to guard against bias when making decisions about child-welfare. Teachers might want to send children away to institutions just because they were unruly, and without an objective test of mental ability, the teacher could claim the unruly students were mentally unfit for school. Or, some "normal" children may have already been unjustly institutionalized, and without any objective way to show these children belong in a regular school, they would be forced to stay in the institution. Indeed, a major part of Binet's early demonstrations involved testing institutionalized children. On the one hand, he used these results to further validate his tests, because he was able to show that institutionalized children had lower "mental ages", when compared to non-institutionalized children. Thus, low scores on his tests could be used to justify institutionalizing children. On the other hand, Binet also found cases where institutionalized children were shown to be of "normal" intelligence relative to their non-institutionalized peers. Thus, scores on the tests could potentially be used to improve unjust treatment of children.
+One of Binet's use cases was to guard against bias when making decisions about child-welfare. Teachers might send children away to institutions just because they were unruly, and without an objective test of mental ability, the teacher could claim the unruly students were mentally unfit for school. Or, some children may have already been unjustly institutionalized, and without any objective way to show these children belong in a regular school, they would be forced to stay in the institution. Indeed, a major part of Binet's early demonstrations involved testing institutionalized children [@binetNecessityEstablishingScientific1905]. On the one hand, he used these results to further validate his tests, because he was able to show that institutionalized children had lower "mental ages", when compared to non-institutionalized children. Thus, low scores on his tests could be used to justify institutionalizing children. On the other hand, Binet also found cases where institutionalized children were shown to be of "normal" intelligence relative to their non-institutionalized peers. Thus, scores on the tests could potentially be used to improve unjust treatment of children.
+
+#### Meaning of the measure
+
+We have just reviewed one of the first so-called "intelligence" tests developed by psychologists. However, up to this point we have mostly avoided giving a definition to the word intelligence. So, what is a definition of the word intelligence? And, does the Binet-Simon test actually measure intelligence according to that definition? If not, what does it measure?
+
+**Operational definitions** are a research tool commonly used in psychology that will help us evaluate these issues. Operational definitions are used by individual researchers to specify the meaning of their own terms. For example, Binet could employ an operational definition of intelligence in terms of his own test. Here, the word intelligence would cease to have any common everyday meaning, and would only be used as a shorthand term to refer to patterns of performance on the test. And of course, just calling a test an "intelligence" test, doesn't mean that it measures the everyday meaning of intelligence. Clear operational definitions can benefit research because they allow researchers to communicate effectively, with clarity, and with terms that are limited to the context of the research. Operational definitions can also cause confusion, especially when researchers choose terms that already have well-established meaning in everyday usage. For example, using "intelligence" as a name for a test could easily confuse people who might assume the name was actually meaningful with respect to the everyday concept of intelligence.
+
+Considering how operational definitions work, I can not give a clear answer about whether or not Binet's test actually measures intelligence. There are two problems. First, not everyone agrees on what intelligence is in the first place. Second, without an agreed upon definition, it is difficult to justify why each component of Binet's test actually measures some component of intelligence in a meaningful way.
+
+Wikipedia gives the following definition of [intelligence](https://en.wikipedia.org/wiki/Intelligence):
+
+"Intelligence has been defined in many ways: the capacity for logic, understanding, self-awareness, learning, emotional knowledge, reasoning, planning, creativity, critical thinking, and problem-solving. More generally, it can be described as the ability to perceive or infer information, and to retain it as knowledge to be applied towards adaptive behaviors within an environment or context."
+
+From my perspective, the meaning of intelligence is large, varied, and has different meanings for different people, just like the word cognition. As a result, it is difficult for any test to claim that it measures something as diffuse as intelligence. An analogy might be to music. Imagine someone claiming they had a music test that measured whether a given recording had more or less music, like a person could be claimed to have more or less intelligence. Music is so highly diverse that it would be ridiculous (in my opinion) to try to measure all of music on a single scale with a "music test". Plus, who get's to define what music get's counted as music? The surrounding issues that you might imagine would emerge from debates about a fictional music test, also surround debates about what intelligence tests mean.
+
+Although I won't say I know what intelligence means, and I won't claim that the Binet-Simon test measures intelligence, I will claim that the Binet-Simon test can be inspected, and it is possible to assess the meaning of the measurement based on the procedures of testing that Binet described. For example, Binet used a process of trial-and-error to create mini-tests of different abilities that were age-appropriate. Specifically, Binet arranged the tests such that most children of a given age were able to complete the tests assigned to their own age group, and complete the tests assigned to younger age groups, but not complete tests assigned to older age groups. Also, Binet chose tests that produced variation within an age group--some children of the same age would do better or worse on the same test. Binet measured many children of all age groups on the tests. Then he proposed to compare new children, measured on the same tests, to his growing database.
+
+So what does the Binet-Simon test measure? It measures how a child's performance on Binet's chosen mini-tests, compares to performance on the same mini-tests by groups of children of different ages. This is not a straightforward measure like a ruler, where one inch on the ruler, is one inch in the world. Although the Binet-Simon test produces a number in years, that refers to "mental age"; the number is deceiving because it depends on many components. The components include the actual mini-tests that Binet chose, the children that Binet tested to form the empirical comparison group, and the classification rules that Binet used to assign years to children based on their test performance. Changes to any or all of these many components would change how a child would be scored, and what the score would actually mean.
 
 
 
 ### Mental testing and eugenics in America
+
+After the Binet-Simon test was translated to English, it was popularized in America as the Stanford-Binet test. Even though the test had numerous issues and was not actually a test of intelligence, it was nevertheless used in a widespread way throughout America. Many of the American psychologists who would use the new intelligence test were also advocates and members or leaders in eugenics societies. As a result, intelligence testing was used in America as a tool to further the cause of the eugenics movement.
+
+#### The Alpha-Beta test
+
+A prime example of how eugenics and psychology acted together to influence American society through intelligence testing is the case of the Alpha-Beta test[@yerkesEugenicBearingMeasurements1923]. Psychologist Robert Yerkes (APA president in 1917, and member of eugenics societies) led the largest attempt to deploy intelligence testing on American soldiers.
+
+It is worth briefly mentioning that world war I was a topic of considerable debate among eugenics societies. The ultimate question was whether or not war was a net positive or negative for the long-term goals of eugenics to "improve" the race over generations. It was clear that many men would perish during war. On the one hand, according to the logic of eugenics, if "low-quality" men tended to perish, then war could ultimately be positive for the human race, because those men would no longer be around to breed. On the other hand, "high-quality" men could be killed, and that would be a negative for the human race, because their genes would no longer be available either. Eugenicists were advocates of using intelligence tests on soldiers to help make personnel selection decisions, such as who gets to become an officer, and who gets to have a high probability of being killed by being sent to the front. 
+
+In 1917, the same year that America entered World War I, the APA appointed committees to study the situation and prepare for action, and the National Research Council created a Psychology Committee to examine similar issues. Many psychologist members of these committees were also members and proponents of eugenics.
+
+Overall, the grand vision of Yerkes was to take a "mental census" of the mental resources of Americans, and then use that information to improve American society, from a eugenics point of view of improvement. Instead of testing all Americans, he nevertheless carried out the largest mass testing of Americans at that time, administering the test to nearly 2 million adults (wikipedia lists 1,726,966). 
+There were two versions of the test (inspired along the lines of the Stanford-Binet test). The "alpha" test was created for soldiers who could read, and the "beta" test was created for soldiers who could not.
+
+In his 1923 report, "Eugenic Bearing of Measurements of Intelligence in the United States Army.", Yerke's describes his methods and results from the testing efforts, and lists the five main reasons to conduct such widespread testing:
+
+"
+(a). In the discovery of men whose superior ability recommends their advancement.
+(b) In the prompt segregation in the Development Battalions of intellectually inferior men whose inaptitude would retard the training of the unit.
+(c) In building organizations of equal or appropriate strength.
+(d) In selecting suitable men for various army occupations or for special
+training in the technical schools.
+(e) In eliminating the feeble-minded.
+"
+
+
+
+
 
 ## Cognition: Testing abilities vs. testing theories
 

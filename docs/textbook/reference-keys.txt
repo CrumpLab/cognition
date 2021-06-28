@@ -71,8 +71,10 @@ method
 quantifying-mental-ability-with-age
 comparison-to-norms
 computing-intelligence-scores
-meaning-and-usage
+binets-use-cases
+meaning-of-the-measure
 mental-testing-and-eugenics-in-america
+the-alpha-beta-test
 cognition-testing-abilities-vs.-testing-theories
 naturenurture
 translating-binet
