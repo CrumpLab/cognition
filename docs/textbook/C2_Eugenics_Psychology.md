@@ -5,7 +5,7 @@
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|      10319|51.6 minutes |
+|      10643|53.2 minutes |
 
 
 <!--
@@ -240,16 +240,13 @@ After the Binet-Simon test was translated to English, it was popularized in Amer
 
 #### The Alpha-Beta test
 
-A prime example of how eugenics and psychology acted together to influence American society through intelligence testing is the case of the Alpha-Beta test[@yerkesEugenicBearingMeasurements1923]. Psychologist Robert Yerkes (APA president in 1917, and member of eugenics societies) led the largest attempt to deploy intelligence testing on American soldiers.
+In 1917, the same year that America entered World War I, the APA appointed committees to study the situation and prepare for action [@yerkesPsychologyRelationWar1918], and the National Research Council created a Psychology Committee to examine similar issues [@yoakumArmyMentalTests1920]. Many psychologist members of these committees were also members and proponents of eugenics, including: Robert Yerkes, Madison Bentley, Edward Thorndike, John B. Watson, Walter D. Scott, Robert Woodworth, and Carl Seashore (all of whom would take a turn as APA president).
 
-It is worth briefly mentioning that world war I was a topic of considerable debate among eugenics societies. The ultimate question was whether or not war was a net positive or negative for the long-term goals of eugenics to "improve" the race over generations. It was clear that many men would perish during war. On the one hand, according to the logic of eugenics, if "low-quality" men tended to perish, then war could ultimately be positive for the human race, because those men would no longer be around to breed. On the other hand, "high-quality" men could be killed, and that would be a negative for the human race, because their genes would no longer be available either. Eugenicists were advocates of using intelligence tests on soldiers to help make personnel selection decisions, such as who gets to become an officer, and who gets to have a high probability of being killed by being sent to the front. 
+War was a topic of considerable debate among eugenics societies [@kuhlBettermentRaceRise2013], interesting in improving their race over generations. It was clear that many men would perish during war. On the one hand, according to the logic of eugenics, if "low-quality" men tended to perish, then war could be positive for eugenics, because those men would no longer be around to breed. On the other hand, "high-quality" men could be killed, and that would be a negative, because their genes would be lost as well. Additionally, a practical issue stood in the way, there was no process to measure the eugenic quality of soldiers, and then use that information to bias who is likely to live or die during war. Eugenicists were advocates of using intelligence tests on soldiers to help make personnel selection decisions, such as who gets to become an officer, and who gets to have a high probability of being killed by being sent to the front. 
 
-In 1917, the same year that America entered World War I, the APA appointed committees to study the situation and prepare for action, and the National Research Council created a Psychology Committee to examine similar issues. Many psychologist members of these committees were also members and proponents of eugenics.
+American Psychologist Robert Yerkes (APA president in 1917) overarching goal was establish a "mental census" of Americans, and then use that information to improve American society from a eugenics point of view. Although he urged testing of all Americans, Yerkes only carried out the largest mass testing on American men for the draft, administering the test to 1.75 million adults [@yerkesEugenicBearingMeasurements1923]. There were two versions of the test (inspired along the lines of the Stanford-Binet test). The "alpha" test was created for soldiers who could read, and the "beta" test was created for soldiers who could not.
 
-Overall, the grand vision of Yerkes was to take a "mental census" of the mental resources of Americans, and then use that information to improve American society, from a eugenics point of view of improvement. Instead of testing all Americans, he nevertheless carried out the largest mass testing of Americans at that time, administering the test to nearly 2 million adults (wikipedia lists 1,726,966). 
-There were two versions of the test (inspired along the lines of the Stanford-Binet test). The "alpha" test was created for soldiers who could read, and the "beta" test was created for soldiers who could not.
-
-In his 1923 report, "Eugenic Bearing of Measurements of Intelligence in the United States Army.", Yerke's describes his methods and results from the testing efforts, and lists the five main reasons to conduct such widespread testing:
+In his 1923 report, "Eugenic Bearing of Measurements of Intelligence in the United States Army.", Yerke's describes methods and results from the testing efforts, and lists the five main reasons to conduct such widespread testing:
 
 "
 (a). In the discovery of men whose superior ability recommends their advancement.
@@ -260,15 +257,50 @@ training in the technical schools.
 (e) In eliminating the feeble-minded.
 "
 
+#### Scientific Racism
 
+Eugenics ideology typically included racist beliefs about the superior or inferior eugenic qualities of different ethnic groups [@turdaRaceScienceEugenics2010]. The Alpha-beta tests of 1.75 million American men also yielded results that fit existing eugenic ideology about inherent differences in intelligence between ethnic groups. For example, psychologist Carl Brigham, wrote an entire book analyzing the results of the Alpha-Beta tests [@brighamStudyAmericanIntelligence1922]. He concluded that white Americans had superior intelligence to black Americans and immigrants. He also created dire warnings about the future of America, suggesting that American intelligence was rapidly declining. He warned that although American deterioration was imminent, it could be prevented through public action and laws. For example, eugenically inferior immigrants could be kept out of the country. And, increased segregation of whites and blacks, along with laws against intermarriage could prevent further mixing of the races.
 
+As we discussed earlier, it is not entirely clear what these so-called intelligence tests measure, or what intelligence itself actually refers to. Nevertheless, proponents of eugenics were quick to claim that results from the tests really did legitimately measure supposedly intrinsic and genetically inherited qualities of humans that made some superior and others inferior. Alternative interpretations, such as the tests measured culturally acquired aptitudes, took additional time to be seriously considered. Unfortunately, racist motivations would continue to daunt intelligence testing in America, and an extended history is beyond the current scope of this chapter. Before, we conclude this chapter and examine future developments in the cognitive sciences, I cover two more historical examples related to intelligence testing and American Society.
 
+#### Mental health
+
+The eugenics movement deeply impacted public policy and stigma around mental health. We already mentioned that American eugenics proponents successfully petitioned for laws to legalize forcible sterilization of people deemed to be "feeble-minded". The invention of intelligence tests was heralded as a new scientific tool that aid in the identification of "feeble-minded" people, so that they could be segregated and/or sterilized. Psychologist Henry Goddard provides a case example of connecting intelligence testing to the eugenics agenda for treating mental health issues. 
+
+Goddard was Director of Research at the Vineland Training School for Feeble-Minded Girls and Boys in Vineland, New Jersey; and had published an English translation of Binet's work in 1916 [@kiteDevelopmentIntelligenceChildren1916]. Robert Yerke's visited Goddard and used his facilities at Vineland, during the development of the Alpha-Beta test. Goddard was heavily involved in eugenics, and one illustrative example is from his 1927 article, "Who is a Moron?" [@goddardWhoMoron1927]. 
+
+Goddard describes new terms for categorizing levels of "feeble-mindedness" based on intelligence tests. For example, "idiots" had the mental age of two-year old children, "imbeciles" had the intelligence of three to seven year olds. Goddard invented the term "moron" to describe people with the same supposed intelligence as eight to twelve year olds. The rest of the article describes eugenic ideology in the form of panic about how society is in danger unless it acts to solve the moron problem. The moron's were a problem because they appeared normal, and might only be identified with an intelligence test. As a result, hidden morons passing as normal people were running amok in society, and they also had many children, so they were potentially deteriorating the gene-pool by breeding. He considered extreme eugenic solutions, and wrote, "perhaps our ideal should be to eventually eliminate all the lower grades of intelligence and have no one who is not above the twelve-year intelligence level", but he also cautioned that eliminating half of society would be impossible and even undesirable. Instead, Goddard proposed that moron's could be cured through education, and become very useful to society as workers who would very happily do the jobs they were trained to do.
+
+The overarching issues in mental health were very similar to what happened in the military. Intelligence tests were being forwarded as legitimate scientific measures of human quality that should be used to make decisions about the welfare of American citizens and their position in society.
+
+#### Education and The Black Psychologists
+
+As a final example, the methods involved in intelligence testing became widespread in education in the form of standardized testing. Similar to previous examples, proponents of eugenics were involved in these efforts. For example, the SAT was created by Carl Brigham, shortly after he published his book on "A study of American Intelligence" [@brighamStudyAmericanIntelligence1922]. The eugenical ideals were that tests could be used to sort children in terms of their quality, and then give more resources to the education of superior children, and fewer resources to the education of inferior children. 
+
+Testing of american children showed achievement gaps between different ethnic groups. And, to fast forward into the 1960s, there was growing concern among Black Psychologists (only 1% of a primarily white discipline at the time) that educational testing and decision-making policy was harming outcomes for Black children. In 1968, the [Association of Black Psychologists](https://abpsi.org) (ABPsi) was formed as a national organization during the San Francisco meeting of the American Psychological Association (APA) [for a more complete history see, @williamsHistoryAssociationBlack1974]. The ABPsi was formed both to address needs within the small community of Black Psychologists that were not being met by the APA, and to petition the APA to address many broader concerns. For example, the ABPsi adopted the following statement on testing:
+
+"The Association of Black Psychologists fully supports those parents who have chosen to defend their rights by refusing to allow their children and themselves to be subjected to achievement, intelligence, aptitude and performance tests, which have been and are being used to:
+
+1. Label black children as uneducable;
+2. Place black children in special classes;
+3. Potentiate inferior education; .
+4. Assign black children to lower educational tracks than whites:
+5. Deny black children higher educational opportunities; and
+6. Destroy positive intellectual growth and development ofblack children."
+
+The ABPsi's calls for a moratorium on testing [see also, @williamsWhatHappenedABPsi1978; @gravesMoratoriumAfricanAmerican2011] in 1969 were not supported by the APA , whose membership also had financial interests in the large educational testing industry. Although there were efforts to maintain a relationship with the APA, the ABPsi formally became a distinct professional organization and has been publishing it's own journal since 1974. They have also been on the forefront of modern research on the impact and legacy of eugenics and racism in Psychology. Finally, although testing is still widespread in America, a moratorium on intelligence testing of Black children was accomplished in 1979 through advocacy of Black Psychologists in California [@frisbySciencePoliticsBest2016], where the practice remains illegal today.
 
 ## Cognition: Testing abilities vs. testing theories
 
+This textbook is aimed at providing an overview of research into cognition. One piece of that history involves psychologists who were advocates of the  eugenics movement, who created tests of cognitive abilities with the purpose of applying those tests on society to further the aims of the eugenics movement. The role of eugenics in motivating the need to create tests of cognitive ability, and in spreading the use of those tests across society is not commonly discussed in introductory textbooks. However, the historical context raises important questions about how the enterprise of scientific research contributes to societies that fund it, and we should be mindful of these issues as we move onto other topics in cognition. For example, it is clear that psychologists researching human cognition can produce tools of questionable merit that become widely adopted in society, and that continue to have positive and negative outcomes for different groups of people in society. 
+
+The next chapter begins to transition back to more conventional areas in cognitive psychology, like the domains of learning and memory. We will continue to see many more examples of cognitive tasks that are very similar, if not essentially the same, as the mini-tests used as part of intelligence scales. However, rather than testing for the purpose of measuring and classifying a person, we will discuss examples where cognitive tasks are used to test theories and claims about how cognition works.
 
 
 
+
+
+<!--
 
 A last issue to 
 
@@ -378,6 +410,8 @@ Unlike planned parenthood who has denounced their founder's views on eugenics, I
 It is interesting to look at some of the people involved at the inception of long-standing institutions in american psychology, like the American Psychological Assocation (APA), and its original journal Psychological Review. The first two presidents of the APA, Granville Hall (1892) and George Ladd (1893) were eugenicists who founded (Hall) and co-edited (Ladd) the Journal of Race Development. The next president of the APA was James McKeen Cattell, also a prominent eugenicist. His psychological research at Columbia had failed to produce a useable intelligence test, and he transitioned into publishing. He founded Psychological Review for the APA, and he bought the journal Science, where he served as editor for 50 years. The first issue of psychological review features articles by the intellectual founder of eugenics (and other psychologist/eugencists), Sir Francis Galton, where he describes his uncanny ability to do arithmetic using smells [@galtonArithmeticSmell1894]. 
 
 Psychological Review (in print since 1895)
+
+-->
 
 <!--
 

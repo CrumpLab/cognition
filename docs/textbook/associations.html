@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>5 Associations | Cognition</title>
+<meta name="author" content="Matthew J. C. Crump">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.2"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.6/header-attrs.js"></script><script src="libs/jquery-3.5.1/jquery-3.5.1.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.5.3/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.5.3/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.2.3.9000/tabs.js"></script><script src="libs/bs3compat-0.2.3.9000/bs3compat.js"></script><link href="libs/bs_font_google_work%20sans-0.2.3.9000/font.css" rel="stylesheet">
+<link href="libs/bs_font_google_montserrat%20alternates-0.2.3.9000/font.css" rel="stylesheet">
+<link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-0PT8LKEC0K"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-0PT8LKEC0K');
+    </script><meta property="og:card" content="website">
+<meta property="og:title" content="Reproducible statistics for psychologists with R">
+<meta property="og:image" content="https://crumplab.github.io/rstatsforpsych/imgs/cover.png">
+<meta property="og:url" content="https://crumplab.github.io/rstatsforpsych/">
+<meta property="og:description" content="A lab curriculum for psych stats that introduces R and scripting for reproducible analyses.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@MattCrump_">
+<meta name="twitter:title" content="Reproducible statistics for psychologists with R">
+<meta name="twitter:description" content="A lab curriculum for psych stats that introduces R and scripting for reproducible analyses.">
+<meta name="twitter:image" content="https://crumplab.github.io/rstatsforpsych/imgs/rstats_large.png">
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/mark.min.js"></script><!-- CSS --><link rel="stylesheet" href="custom.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="title in progress">Cognition</a>:
+        <small class="text-muted">title in progress</small>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Welcome</a></li>
+<li><a class="" href="preface.html">Preface</a></li>
+<li><a class="" href="getting-started.html">Getting started</a></li>
+<li><a class="" href="what-is-cognition.html"><span class="header-section-number">1</span> What is cognition?</a></li>
+<li><a class="" href="mental-imagery.html"><span class="header-section-number">2</span> Mental Imagery</a></li>
+<li><a class="" href="eugenics-and-psychology.html"><span class="header-section-number">3</span> Eugenics and Psychology</a></li>
+<li><a class="" href="intelligence-testing.html"><span class="header-section-number">4</span> Intelligence Testing</a></li>
+<li><a class="active" href="associations.html"><span class="header-section-number">5</span> Associations</a></li>
+<li><a class="" href="information-processing.html"><span class="header-section-number">6</span> Information Processing</a></li>
+<li><a class="" href="memory.html"><span class="header-section-number">7</span> Memory</a></li>
+<li><a class="" href="implicit-memory.html"><span class="header-section-number">8</span> Implicit Memory</a></li>
+<li><a class="" href="computational-models.html"><span class="header-section-number">9</span> Computational models</a></li>
+<li><a class="" href="categorization.html"><span class="header-section-number">10</span> Categorization</a></li>
+<li><a class="" href="attention.html"><span class="header-section-number">11</span> Attention</a></li>
+<li><a class="" href="language-and-semantic-cognition.html"><span class="header-section-number">12</span> Language and Semantic Cognition</a></li>
+<li><a class="" href="judgment-and-decision-making.html"><span class="header-section-number">13</span> Judgment and Decision Making</a></li>
+<li><a class="" href="thinking.html"><span class="header-section-number">14</span> Thinking</a></li>
+<li><a class="" href="references.html">References</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/CrumpLab/cognition">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="associations" class="section level1" number="5">
+<h1>
+<span class="header-section-number">5</span> Associations<a class="anchor" aria-label="anchor" href="#associations"><i class="fas fa-link"></i></a>
+</h1>
+<div class="inline-table"><table class="table table-sm">
+<thead><tr class="header">
+<th align="right">Word Count</th>
+<th align="left">Reading Time</th>
+</tr></thead>
+<tbody><tr class="odd">
+<td align="right">2502</td>
+<td align="left">12.5 minutes</td>
+</tr></tbody>
+</table></div>
+<div id="chapter-overview-4" class="section level2" number="5.1">
+<h2>
+<span class="header-section-number">5.1</span> Chapter overview<a class="anchor" aria-label="anchor" href="#chapter-overview-4"><i class="fas fa-link"></i></a>
+</h2>
+<p>The previous chapter spanned research related to cognitive abilities that spanned roughly from the 1860s to the 1960s. In telling that history, I focused on a particular style of psychological research, termed Individual Differences Psychology. For example, in addition to developing mental tests, Alfred Binet wrote more broadly about his school of “Individual Psychology” <span class="citation">(<a href="references.html#ref-nicolasProgramIndividualPsychology2014" role="doc-biblioref">Nicolas et al., 2014</a>)</span>, that would measure a greater variety of human attributes, and use the measurements to make society more efficient. Individual differences was not the only approach to cognitive abilities. Instead, the methods of Experimental Psychology were also used to ask and answer questions about cognitive abilities. This chapter describes a brief history of formative theories and findings about cognition from Experimental Psychology, that led into the cognitive revolution of the 1960s and 70s. Specifically, we will look at early learning theories and associationism, followed by the introduction of information theory, both of which continue to animate debates about how cognition works.</p>
+<!--
+As a sidenote, this chapter will proceed with a greater focus on individual findings and theories, and less description of historical context (although some of that will be provided to). As an overview, we will cover a few important findings from the learning literature, including Pavlov's discovery of classical conditioning, and Tolman's work on the ability of rat's to learn how to navigate mazes. And, two important findings from the early information theory literature, including the Hick-Hyman Law, and George Miller's Magical Number Seven. For each set of findings, we will discuss explanations in terms of associations and information theory.
+-->
+</div>
+<div id="evolving-ideas-on-cognition" class="section level2" number="5.2">
+<h2>
+<span class="header-section-number">5.2</span> Evolving ideas on cognition<a class="anchor" aria-label="anchor" href="#evolving-ideas-on-cognition"><i class="fas fa-link"></i></a>
+</h2>
+<p>There is a long history of ideas about cognition that predate and feed into psychological approaches to cognition, and covering all of them is beyond the scope of this chapter. However, if we zoom in on early experimental research between the 1890s to 1920s, we can refer to some of the intellectual history and see how it informed and guided cognition research at the time. Some of the really big claims and themes about cognition that appear in the introductions of early research manuscripts remain relevant today.</p>
+<p>We are about to visit the laboratories of <a href="https://en.wikipedia.org/wiki/Edward_Thorndike">Edward Thorndike</a> (1874-1949) and <a href="https://en.wikipedia.org/wiki/Ivan_Pavlov">Ivan Pavlov</a> (1849-1936). Thorndike was in America and Pavlov was in Russia, and both were independently conducting novel experiments to test theories and claims about cognition in animals. Before we review their experiments and findings, let’s first consider the background claims and ideas they intended to put to the test.</p>
+<div id="humans-and-animals" class="section level4" number="5.2.0.1">
+<h4>
+<span class="header-section-number">5.2.0.1</span> Humans and animals<a class="anchor" aria-label="anchor" href="#humans-and-animals"><i class="fas fa-link"></i></a>
+</h4>
+<p>So far we have discussed cognition in terms of human animals. But, there are so many other animals of all shapes and sizes, what about them? Prior to Thorndike and Pavlov, there wasn’t too much experimental research on cognition in the animal kingdom, but since then whole fields of animal and comparative cognition have been developed. Although this textbook will focus more on human cognition, I will attempt to integrate animal cognition as much as possible. And, rather than using “human-animal,” and “non-human animal,” I will refer to human and/or animal cognition throughout the book as a shorter way to identify the subjects of the research. Last, discussions about which words to use to refer to humans and animals point to background ideas motivating Thorndike and Pavlov’s work.</p>
+<p>Just like there is a long human history of ideas about the mind, there is long history of ideas about animals, animal minds, and the human-animal relationship. <a href="https://en.wikipedia.org/wiki/Anthropocentrism">Anthropocentrism</a> is a variety of beliefs and traditions that center on humans as the most important species. For example, in early Judaic and Christian writings, a supreme supernatural being created humans in their image and set humans on a higher level than other animals. These ideas both distinguish humans from animals (as being different kinds of entities), and place humans in a hierarchy of quality above other animals. Judeo-Christian concepts predate psychology by thousands of years, and even though psychology as a natural science proceeded to construct different views on humans and animals, related hierarchical notions remain deeply engrained. For example, “higher-order” cognition is often reserved for cognitive abilities argued to be special to humans, like inferential reasoning. And, “lower-order” cognition is often reserved for basic cognitive abilities that are common among animals. It’s not clear to me that these hierarchies are very useful.</p>
+<p><a href="https://en.wikipedia.org/wiki/Animism">Animism</a> is another varied set of beliefs ascribing spiritual essences to things, including animals. Many fables, folklore, and religious texts have animal characters embued with cognitive abilities and other powers. Relatedly, the idea that animals can be understood as if they were humans is also criticized as an innaccurate form of anthropomorphism.</p>
+<p>Mystic ideas about humans and animals can be viewed as claims about cognition. One claim is about whether or not human cognition can be explained at all. The idea that people were created in the image of a fundamentally unexplainable supernatural being, suggests that the supernatural parts of people are inherently unexplainable. Another claim is about kinds of cognitive abilities. For example, the idea that animals possess vital spiritual essences like humans, could suggest that mental abilities of some animals are similar to people. Experimental Psychology arose out of the scientific tradition to put claims to the test by collecting evidence bearing on the claims.</p>
+</div>
+<div id="philosophy" class="section level3" number="5.2.1">
+<h3>
+<span class="header-section-number">5.2.1</span> Philosophy<a class="anchor" aria-label="anchor" href="#philosophy"><i class="fas fa-link"></i></a>
+</h3>
+<p>The experiments of Thorndike and Pavlov are also set in a background of philosophy, especially debates in <a href="https://en.wikipedia.org/wiki/Epistemology">epistimology</a> between <a href="https://plato.stanford.edu/entries/rationalism-empiricism/">rationalist and empiricist views of knowledge</a>.</p>
+<p><a href="https://en.wikipedia.org/wiki/Rationalism">Rationalism</a> involved views that some knowledge was innate and could exist separately from experience and information gained through sense organs. Furthermore, ultimate truths about reality were argued to depend on logic and reason. If the universe was a fundamentally logical place, then the process of accurate reasoning alone would be enough to deduce the ultimate truths.</p>
+<p><a href="https://en.wikipedia.org/wiki/Empiricism">Empiricism</a> additionally emphasized a role for observation and evidence collection in knowledge creation. For example, human’s were argued to acquire knowledge over the course of their experience of the world through their sense organs. Empiricism invited further questions about how people created knowledge from their sensory experience, which clearly connected to questions of interest for early experimental psychologists.</p>
+<p>The <a href="https://en.wikipedia.org/wiki/Associationism#Associationist_School">Associationist School</a> included empiricist philosophers who speculated further on the nature of mental processes that produced knowledge from experience. In 1689, John Locke wrote, “An essay concerning human understanding,” and argued against the rationalist/nativist idea that people were born only with innate knowledge about the world. Instead, Locke advocated that people acquired knowledge by learning about the world through their experiences. In 1739, David Hume elaborated on the nature of the learning process and suggested a role for associations in, “Treatise on Human Nature,” that “when the mind, therefore, passes from the idea or impression of one object to the idea or belief of another, it is not determined by reason, but by certain principles, which associate together the ideas of these objects, and unite them in the imagination.” Hume suggests broadly that acts of cognition involve a process of association that works according to “certain principles.” What the principles are, and how they work, is still a primary focus of the modern cognitive sciences.</p>
+</div>
+<div id="natural-science" class="section level3" number="5.2.2">
+<h3>
+<span class="header-section-number">5.2.2</span> Natural Science<a class="anchor" aria-label="anchor" href="#natural-science"><i class="fas fa-link"></i></a>
+</h3>
+<p>There is also lesser known work from Robert Hooke (1635-1703), a natural scientist, that went much further than Hume’s “certain principles.” Robert Hooke, coined the word cell, and was the first person to observe a micro-organism under a microscope. In 1705, Hooke’s posthumous works were published, and they contained his model of how human memory could operate as a physical system <span class="citation">(<a href="references.html#ref-hookePosthumousWorksRobert1705" role="doc-biblioref">Hooke, 1705</a>)</span>. The model was not entirely physical, because it allowed some role for “immaterial” forces; and, it was largely forgotten until fairly recently []. However, despite not having a major historical impact, Hooke’s model was a clear attempt to move toward well-specified mechanistic explanations of cognition.<a class="footnote-ref" tabindex="0" data-toggle="popover" data-content="&lt;p&gt;we will examine several models of human memory in greater detail in the upcoming chapters on memory&lt;/p&gt;"><sup>5</sup></a></p>
+</div>
+<div id="evolution" class="section level3" number="5.2.3">
+<h3>
+<span class="header-section-number">5.2.3</span> Evolution<a class="anchor" aria-label="anchor" href="#evolution"><i class="fas fa-link"></i></a>
+</h3>
+<p>A last backdrop to the upcoming works of Thorndike and Pavlov was Darwin’s theory of evolution. Darwin’s theory connected all life on earth and explained the origins of species in terms of natural selection processes. The critical ingredients for organisms to evolve over generations include 1) the ability to reproduce, 2) random mutations that produce heritable variations in the traits and behavior of the organism, and 3) environmental selection pressures. Organisms with advantages for survival in their particular environments would tend to pass on those traits to their offspring. Other organisms that were more likely to succumb to their environments, would be less likely to have offspring and pass on their heritable traits. In this way, organisms would slowly drift and change across generations based on whichever random mutations tended to facilitate those organisms reproducing and mutating over generations in their given environments.</p>
+<p>Different from anthropocentric views, the theory of evolution clearly sets humans and animals in the very same explanatory ballpark. People are a species of animals with an evolutionary family tree, where every person is descended from their parents. Other animals have their own evolutionary family trees and lineages of descendants. Furthermore, if one went far enough back in the family tree, all animals could be descended from common ancestors.</p>
+<p>Considering evolutionary theory, there is every good reason to consider cognition as a topic for humans and animals. First, humans are animals; so by definition human cognition is a specific case of animal cognition. Second, there are a wide variety of animals that range in their physical size and capabilities, and it seems implausible that an evolutionary process would only bestow cognitive processes onto humans and no other animals. Instead, evolutionary theory implies that cognitive processes among animals also evolved over time. This could imply that the field of cognition is as large and diverse as all the ways that cognitive processes might have evolved differently across species. At the same time, evolution is known to produce similar solutions across species (e.g., eyes), and it is plausible that animals share cognitive processes that work on the basis of similar principles.</p>
+<p>So, the backdrop to Thorndike and Pavlov was western european cultural beliefs about humans and animals, western philosophical debates centering around psychological constructs like human knowledge, a desire to apply the rigors of natural science methodology to problems in psychology, a convincing theory of evolution suggesting that animals could be used as subjects to gain knowledge about evolutionary basic cognitive processes, and a wide open playing field where there was very little existing empirical work.</p>
+</div>
+<div id="associative-claims" class="section level3" number="5.2.4">
+<h3>
+<span class="header-section-number">5.2.4</span> Associative Claims<a class="anchor" aria-label="anchor" href="#associative-claims"><i class="fas fa-link"></i></a>
+</h3>
+<p>If you took the position that cognition was a special ability that operated according to special rules that can never be known, it would not be possible to evaluate those claims with evidence. First, its not clear what ought to happen in any given situation if cognition is special and unexplained. Second, if any particular thing happened, it could be accounted for by saying that cognition is special like that.</p>
+<p>What is interesting about associationist claims, is that they are specific enough that they can be evaluated with evidence. As a result, it becomes possible to use the scientific method to assess claims about cognition. Let’s identify a few really basic claims that could be evaluated.</p>
+<ol style="list-style-type: decimal">
+<li>New associations can be learned</li>
+<li>Some associations are stronger than others</li>
+</ol>
+<p>First, could you think of examples from your experience that would provide evidence for these claims? Have you ever learned a new association between one thing and another? Are some ideas more strongly associated with others in your experience? I’ve learned many things that could involve associations. For example, I didn’t automatically know how to type on a computer keyboard when I was born, but I learned how to do it. As I type this sentence, I barely have to think about what my fingers are doing because each word that I type is strongly associated with the finger movements I need to make to type the sentence. It’s easy demonstrate for yourself that some associations are stronger than others. For example, think of a fruit that begins with the letter “A.” How long did that take? Think of any word that has a letter A in the 5th position of the word? Did that take longer? The letter A seems to be more strongly associated with some words than others.</p>
+<p>Although, you could come up with additional examples from your experience that would be consistent with the two claims, consider the problem of creating a laboratory-based demonstration. One goal of a laboratory-based demonstration isto describe a method and controlled set of circumstances that other people could use to reproduce your demonstration and verify your results. The following are two early laboratory demonstrations that could be used to evaluate the claims.</p>
+</div>
+</div>
+<div id="cattells-associative-reaction-time" class="section level2" number="5.3">
+<h2>
+<span class="header-section-number">5.3</span> Cattell’s Associative Reaction time<a class="anchor" aria-label="anchor" href="#cattells-associative-reaction-time"><i class="fas fa-link"></i></a>
+</h2>
+</div>
+<div id="pavlovs-classical-conditioning" class="section level2" number="5.4">
+<h2>
+<span class="header-section-number">5.4</span> Pavlov’s Classical Conditioning<a class="anchor" aria-label="anchor" href="#pavlovs-classical-conditioning"><i class="fas fa-link"></i></a>
+</h2>
+<div id="reflexes" class="section level3" number="5.4.1">
+<h3>
+<span class="header-section-number">5.4.1</span> Reflexes<a class="anchor" aria-label="anchor" href="#reflexes"><i class="fas fa-link"></i></a>
+</h3>
+</div>
+</div>
+<div id="thorndikes-puzzle-boxes" class="section level2" number="5.5">
+<h2>
+<span class="header-section-number">5.5</span> Thorndike’s puzzle boxes<a class="anchor" aria-label="anchor" href="#thorndikes-puzzle-boxes"><i class="fas fa-link"></i></a>
+</h2>
+<p>The first claim of associationism is that new associations can be learned. This is a very broad claim, and many kinds of examples of learning new associations could provide evidence in favor of the claim. Ivan Pavlov () is famous for his research showing that animals can acquire new associations simply by being exposed to pairs of stimuli and reward over time, a finding called classical conditioning. Let’s take a look at three important phenomena termed acquisition, extinction, and spontaneous recovery.</p>
+<p>In a simple acquisition procedure, an animal is housed in a controlled laboratory setting, and then they are given numerous “acquisition trials.” On each trial, the animal is presented with a perceptual stimulus, like a loud tone, followed by a reward, like a food pellet. The reward stimulus is termed the unconditioned stimulus (UCS), which are stimuli that evoke responses without any prior learning. For example, animals salivate upon smelling food pellets, and they do not rely on any learning during the experiment to acquire this ability. Salivating is termed the unconditioned response (UCR).</p>
+<p>Another example of an unconditioned stimulus is a small puff of air to an eyelid. If you have ever had a small puff of air blown onto your eye, what was your immediate reaction? Blinking is a common immediate reaction, and is another example of an unconditioned response.</p>
+<p>The perceptual stimulus is called the neutral or conditioned stimulus (CS). It is assumed to be a neutral stimulus that does not evoke the unconditioned response. For example, a loud tone would not normally evoke a salivation response in an animal. Pavlov was able to demonstrate that new associations or expectations can be established through the simple process of pairing a neutral conditioned stimulus (e.g., a tone) with an unconditioned stimulus (food reward). Specifically, after many acquisition trials, the animals would start salivating when they heard the tone, even if the food wasn’t presented.</p>
+<p>In this case, it seems that neutral tone stimulus had picked up a new association of some kind. Perhaps the tone made the animal expect to receive food, and the expectation for food evoked salivation. Perhaps the tone somehow activated the salivation response directly. These are hypotheses about the kinds associations that were learned. , it was clear that something new was being learne.</p>
+<p>, animals would being showing the unconditioned response (UCR)</p>
+<p>For example, after many acquisition trials, Pavlov used a “testing” phase, and presented animals only with the tone. The question was whether the animal would show the unconditioned response (UCR) to the</p>
+<p>the process of pairing a tone (CS) with a reward (UCS), appears to e</p>
+<p>The perceptual stimulus is termed the “conditioned stimulus,” and the food reward is called the</p>
+<p>Pavlov demonstrated acquistion</p>
+<p>Extinction</p>
+<p>Spontaneous recovery</p>
+</div>
+<div id="tolmans-rats" class="section level2" number="5.6">
+<h2>
+<span class="header-section-number">5.6</span> Tolman’s Rats<a class="anchor" aria-label="anchor" href="#tolmans-rats"><i class="fas fa-link"></i></a>
+</h2>
+<div id="a-note-on-behaviorism" class="section level3" number="5.6.1">
+<h3>
+<span class="header-section-number">5.6.1</span> A note on Behaviorism<a class="anchor" aria-label="anchor" href="#a-note-on-behaviorism"><i class="fas fa-link"></i></a>
+</h3>
+</div>
+</div>
+<div id="kamins-rats" class="section level2" number="5.7">
+<h2>
+<span class="header-section-number">5.7</span> Kamin’s Rats<a class="anchor" aria-label="anchor" href="#kamins-rats"><i class="fas fa-link"></i></a>
+</h2>
+</div>
+<div id="rescorla-wagner-model" class="section level2" number="5.8">
+<h2>
+<span class="header-section-number">5.8</span> Rescorla-Wagner Model<a class="anchor" aria-label="anchor" href="#rescorla-wagner-model"><i class="fas fa-link"></i></a>
+</h2>
+</div>
+<div id="context-effects" class="section level2" number="5.9">
+<h2>
+<span class="header-section-number">5.9</span> Context effects<a class="anchor" aria-label="anchor" href="#context-effects"><i class="fas fa-link"></i></a>
+</h2>
+<!--
+
+
+### Associationism
+
+
+Early experimental work in the 1890s by Edward Thorndike
+
+is beyond the scope of this chapter, and
+
+
+1890s...styles of explanation (emergent from simpler processes to claims of special psychic powers)...very new empirical territory...physiology of the brain...animal cognition.
+
+
+## Animal Cognition
+
+Instead of asking a question about whether a person is better or worse than someone else in relation to some task, consider questions like, how is cognition even possible? How do people form ideas, how do they come to know things, how do they understand and experience the world around them? More specifically, what are the psychological processes that enable all cognition, and how do they work?
+
+Philosophers were among the people interested in these kinds of questions well before psychologists started asking similar questions. Unfortunately, a history of philosophy is outside the scope for this chapter [if you are interested, see]. Nevertheless, I will point to two philosophical issues that preceded and inspired psychological theory, dualism and associationism.
+
+I will use dualism to refer to non-physicalist accounts of cognition. On these accounts, the mind somehow transcends the physical plane and can not be explained in terms of physical bodies and brains. A characteristic feature of dualism is the assignment of "special" qualities to aspects of cognition. For example, I could claim that the mind is special and can't be explained by the laws of physical reality. Note I did not provide any explanation of mind at all, I just made the claim that the mind requires "special sauce". It is worth keeping an eye out for "special sauce" claims, they pop up fairly often in cognition. The possibility that some aspect of cognition is special is not a problem; however, claiming that something is special without attempting to explain how the special thing works provides little explanatory value.
+
+Physicalist accounts of cognition are much more constrained because the primary assumption is that cognition is a physical phenomena. There is no special (non-physical) sauce that can be invoked to explain cognition. Instead, human and non-human animal cognition is assumed to emerge from physical bodies and brains that interact with a physical environment. With these constraints in place, physicalist theorists of cognition are often interested in describing the algorithms behind cognition, and how they may be physically instantiated.
+
+Associationist Philosophers are a good example of theorists who took a physicalist position, and attempted to explain aspects of cognition in terms of algorithmic processes, specifically, in terms of associations. In 1689, John Locke wrote, "An essay concerning human understanding", and argued against the nativist idea that people were born only with innate knowledge about the world. Instead, Locke advocated that people acquired knowledge by learning about the world through their experiences. David Hume elaborated on the nature of the learning process and suggested in, "Treatise on Human Nature", that "when the mind, therefore, passes from the idea or impression of one object to the idea or belief of another, it is not determined by reason, but by certain principles, which associate together the ideas of these objects, and unite them in the imagination."
+
+If we fast-forward into the 1900s, we find that Experimental Psychologists embraced associationism and developed its ideas theoretically and empirically. Today, there are many theories of associative learning that attempt answers to Hume's conjecture. Hume referred to, "certain principles" that cause ideas to be associated together. What are the certain principles? What causes ideas to be associated together? The domain of associative learning has developed theories of associative learning processes, and used a back-and-forth process to update and improve theory with new data. 
+
+In the next sections, we look at examples of basic claims made by an associationist theory of cognition, and methods used to gather evidence for testing the claims.
+-->
+
+</div>
+</div>
+
+  <div class="chapter-nav">
+<div class="prev"><a href="intelligence-testing.html"><span class="header-section-number">4</span> Intelligence Testing</a></div>
+<div class="next"><a href="information-processing.html"><span class="header-section-number">6</span> Information Processing</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#associations"><span class="header-section-number">5</span> Associations</a></li>
+<li><a class="nav-link" href="#chapter-overview-4"><span class="header-section-number">5.1</span> Chapter overview</a></li>
+<li>
+<a class="nav-link" href="#evolving-ideas-on-cognition"><span class="header-section-number">5.2</span> Evolving ideas on cognition</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#philosophy"><span class="header-section-number">5.2.1</span> Philosophy</a></li>
+<li><a class="nav-link" href="#natural-science"><span class="header-section-number">5.2.2</span> Natural Science</a></li>
+<li><a class="nav-link" href="#evolution"><span class="header-section-number">5.2.3</span> Evolution</a></li>
+<li><a class="nav-link" href="#associative-claims"><span class="header-section-number">5.2.4</span> Associative Claims</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#cattells-associative-reaction-time"><span class="header-section-number">5.3</span> Cattell’s Associative Reaction time</a></li>
+<li>
+<a class="nav-link" href="#pavlovs-classical-conditioning"><span class="header-section-number">5.4</span> Pavlov’s Classical Conditioning</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#reflexes"><span class="header-section-number">5.4.1</span> Reflexes</a></li></ul>
+</li>
+<li><a class="nav-link" href="#thorndikes-puzzle-boxes"><span class="header-section-number">5.5</span> Thorndike’s puzzle boxes</a></li>
+<li>
+<a class="nav-link" href="#tolmans-rats"><span class="header-section-number">5.6</span> Tolman’s Rats</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#a-note-on-behaviorism"><span class="header-section-number">5.6.1</span> A note on Behaviorism</a></li></ul>
+</li>
+<li><a class="nav-link" href="#kamins-rats"><span class="header-section-number">5.7</span> Kamin’s Rats</a></li>
+<li><a class="nav-link" href="#rescorla-wagner-model"><span class="header-section-number">5.8</span> Rescorla-Wagner Model</a></li>
+<li><a class="nav-link" href="#context-effects"><span class="header-section-number">5.9</span> Context effects</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/CrumpLab/cognition/blob/master/C5_Associations.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/CrumpLab/cognition/edit/master/C5_Associations.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>Cognition</strong>: title in progress" was written by Matthew J. C. Crump. </p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
+</body>
+</html>

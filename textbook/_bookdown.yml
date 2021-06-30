@@ -9,18 +9,21 @@ rmd_files:
 
 - "Getting_Started.Rmd"
 
+
 - "C1_What_is_Cognition.Rmd"
-- "C2_Eugenics_Psychology.Rmd"
-- "C2_Memory.Rmd"
-- "C3_Implicit_Memory.Rmd"
-- "C4_Memory_Theory.Rmd"
-- "C5_Learning.Rmd"
-- "C6_Patterns.Rmd"
-- "C7_Categorization.Rmd"
-- "C8_Attention.Rmd"
-- "C9_Language_Semantics.Rmd"
-- "C10_Judgment.Rmd"
-- "C11_Thinking.Rmd"
+- "C2_Mental_Imagery.Rmd"
+- "C3_Eugenics.Rmd"
+- "C4_Intelligence_testing.Rmd"
+- "C5_Associations.Rmd"
+- "C6_Information_Processing.Rmd"
+- "C7_Memory.Rmd"
+- "C8_Implicit_Memory.Rmd"
+- "C9_Memory_Theory.Rmd"
+- "C10_Categorization.Rmd"
+- "C11_Attention.Rmd"
+- "C12_Language_Semantics.Rmd"
+- "C13_Judgment.Rmd"
+- "C14_Thinking.Rmd"
 
 
 - "References.Rmd"

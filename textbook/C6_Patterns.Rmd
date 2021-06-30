@@ -1,8 +1,0 @@
-```{r, include = FALSE}
-source("global_stuff.R")
-```
-
-# Pattern Recognition
-
-
-
