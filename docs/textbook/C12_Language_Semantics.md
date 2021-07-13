@@ -1,6 +1,0 @@
-
-
-# Language and Semantic Cognition
-
-
-

@@ -1,6 +1,0 @@
-
-
-# Judgment and Decision Making
-
-
-
