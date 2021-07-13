@@ -4,7 +4,10 @@ bookdown::bs4_book:
     primary: "#713a8a"
     base_font: !expr bslib::font_google("Work Sans")
     heading_font: !expr bslib::font_google("Montserrat Alternates")
-  repo: https://github.com/CrumpLab/cognition/textbook
+  repo:
+    base: https://github.com/CrumpLab/cognition
+    branch: main
+    subdir: textbook
   includes:
     in_header: [ga_script.html,og_cards.html,twitter_cards.html]
   css: custom.css
