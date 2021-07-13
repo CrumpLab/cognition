@@ -65,24 +65,216 @@ So, the backdrop to Thorndike and Pavlov was western european cultural beliefs a
 
 If you took the position that cognition was a special ability that operated according to special rules that can never be known, it would not be possible to evaluate those claims with evidence. First, its not clear what ought to happen in any given situation if cognition is special and unexplained. Second, if any particular thing happened, it could be accounted for by saying that cognition is special like that.
 
-What is interesting about associationist claims, is that they are specific enough that they can be evaluated with evidence. As a result, it becomes possible to use the scientific method to assess claims about cognition. Let's identify a few really basic claims that could be evaluated.
+Associationist claims are specific enough that they can be evaluated with evidence. As a result, it becomes possible to use the scientific method to assess claims about cognition. Let's identify a few really basic claims that could be evaluated.
 
-1. New associations can be learned
-2. Some associations are stronger than others
+1. People have associations between concepts
+2. New associations can be learned
+3. Some associations are stronger than others
 
-First, could you think of examples from your experience that would provide evidence for these claims? Have you ever learned a new association between one thing and another? Are some ideas more strongly associated with others in your experience? I've learned many things that could involve associations. For example, I didn't automatically know how to type on a computer keyboard when I was born, but I learned how to do it. As I type this sentence, I barely have to think about what my fingers are doing because each word that I type is strongly associated with the finger movements I need to make to type the sentence. It's easy demonstrate for yourself that some associations are stronger than others. For example, think of a fruit that begins with the letter "A". How long did that take? Think of any word that has a letter A in the 5th position of the word? Did that take longer? The letter A seems to be more strongly associated with some words than others.
+First, could you think of examples from your experience that would provide evidence for these claims? Have you ever learned a new association between one thing and another? Are some ideas more strongly associated with others in your experience? I've learned many things that could involve associations. For example, I didn't know how to type on a computer keyboard when I was born, I learned how to do it. Now, I barely think about what my fingers are doing when I type because the words I'm thinking are strongly associated with the finger movements I need to make to type the sentence I want to write. It's easy to demonstrate for yourself that some associations are stronger than others. For example, think of a fruit that begins with the letter "A". How long did that take? Think of any word that has a letter A in the 5th position of the word? Did that take longer? The letter A seems to be more strongly associated with some words than others.
 
-Although, you could come up with additional examples from your experience that would be consistent with the two claims, consider the problem of creating a laboratory-based demonstration. One goal of a laboratory-based demonstration isto describe a method and controlled set of circumstances that other people could use to reproduce your demonstration and verify your results. The following are two early laboratory demonstrations that could be used to evaluate the claims.
+Although, you could come up with additional examples from your experience that would be consistent with the claims, consider the problem of creating a laboratory-based demonstration. One goal of a laboratory-based demonstration is to describe a method and controlled set of circumstances that other people could use to reproduce your demonstration and verify your results. The following are early laboratory demonstrations that were used to evaluate the associationist claims.
 
-## Cattell's Associative Reaction time
+## Cattell's Associative Reaction times
 
-## Pavlov's Classical Conditioning
+We met James McKeen Cattell in the last chapter, as he was an early proponent of mental ability testing before Binet. Cattell also used experimental psychology methods to ask gather evidence about associative processes in people. 
 
-### Reflexes
+### Naming times
+
+In one set of studies he measured how long it took people to see and name objects [@cattellTimeItTakes1886;@cattellTIMETAKENCEREBRAL1886]. The ability to identify an object by naming it out loud was presumed to involve an association between perceiving the object and the action needed to utter the object's name. One of Cattell's findings was that people take twice as long to read words that "have no connexion", compared to words that are in a sentence; and, twice as long to read letters that are not in order, compared to letters that are in words. 
+
+For example, Cattell's subjects were twice as fast to read a regular versus scrambled sentence ^[These are not original stimuli used by Cattell]
+
+---
+
+Regular Sentence: The candy at the store was red and very tasty
+Scrambled Sentence: very at red and The tasty the was store candy
+
+---
+
+Similarly, if the task was to read individual letters one a time, Cattell's subjects were twice as fast to read letters when they occurred in words compared to when they did not. This general finding was later re-discovered, and termed the word-superiority effect in 1969 [@reicherPerceptualRecognitionFunction1969].
+
+---
+
+Letters in words (faster to read letters): very at red and The tasty the was store candy
+Scrambled letters (slower to read letters): tyshenoactaereadtarrdthdesetyvTwnasy
+
+---
+
+Let's relate Cattell's general findings to the associative claims that people have associations between concepts, they can learn new associations, and that some associations are stronger than others. The first two claims are  consistent with reading ability in general, which involves learning connections between an arbitrary symbol system (e.g., alphabetic letters) and vocal outputs. Cattell's results are also consistent with the claim that some associations are stronger than others. For example, it appears that reading time does not just involve the time it takes to recognize and say a word or letter. If this was strictly the case, then people would take the same amount of time to read words and letter no matter if they occurred in sentences or words. Instead, people were faster to read words and letters when they appeared in familiar contexts, like sentences and words. This suggests that information from the surrounding context facilitates reading, possibly through some kind of association.
+
+### Association times
+
+In the following year, Cattell turned his reaction time methods more directly toward the problem of measuring associations, along with the amount of time taken by intervening cognitive processes involved in the associative process [@cattellExperimentsAssociationIdeas1887]. In the introduction to this paper he wrote:
+
+"[In previous work..] 0.4 seconds was needed to see and name a word. When the physiological factors and the time taken up in seeing the word were eliminated, it was found that about 0.1 seconds was spent in finding the name belonging to the printed symbol. The time was longer for letters, which we do not read as often as words, and still longer (about .25 sec) for colours and pictures. I called the time passing, while the motor expression was being found, a ' Will-time'."
+
+We will elaborate on reaction time methods in the next chapter. For now, it is worth pointing out two aspects of this measurement tool for understanding how cognitive processes might work. First, it is possible to measure reliable differences in reaction times when people complete particular tasks. For example, Cattell estimated that 400 milliseconds were needed to see and read a word, and that pictures took a little bit longer. Second, it is possible to speculate about the individual components of processing that account for the total reaction time. For example, Cattell divides up the reaction time for a word into physiological factors and time taken up be seeing the word, followed by the time taken to search and recall the name of the word, and finally the time taken to form the action to say the word.
+
+In the remainder of the paper, Cattell gave subjects an association task that involved 1) receiving a cue/prompt, and 2) responding with a known association to the cue. For example, participants were shown a picture and asked to name in their first or second language. Cattell found faster picture naming in a first than second language, and argued that people had more practice naming objects in their first than second language. Another study simply measured the times associated remembering different kinds of facts given a cue. For example, the cue was a city, and subjects had to remember the country it was in. Or, the cue was a month, and subjects recalled what season it was in, or the preceding, or following month. Cattell reported average reaction times and showed consistent differences depending on the cue and associative response. Cattell speculated that different reaction times reflected corresponding differences in the mental operations needed to carry out each task. 
 
 ##  Thorndike's puzzle boxes
 
-The first claim of associationism is that new associations can be learned. This is a very broad claim, and many kinds of examples of learning new associations could provide evidence in favor of the claim. Ivan Pavlov () is famous for his research showing that animals can acquire new associations simply by being exposed to pairs of stimuli and reward over time, a finding called classical conditioning. Let's take a look at three important phenomena termed acquisition, extinction, and spontaneous recovery.
+[Edward Thorndike](https://en.wikipedia.org/wiki/Edward_Thorndike) (1874-1949) was a student of Cattell who took some of the first experimental approaches to investigating associative processes in non-human animals ^[Thorndike also followed Cattell in becoming a strong proponent and public figure in the American eugenics movement]. Thorndike viewed previous claims about animal cognition as belonging to two wildly different camps, with almost no middle ground, or evidence to interrogate the claims. In one camp, animals might be near human, potentially being able to reason and form associations on par with people. In the other camp, animals might be simple reflex machines and nothing more. 
+
+Here are a few choice quotes from Thorndik's doctoral thesis [@thorndikeAnimalIntelligenceExperimental1898] that illustrate his thinking and approach to the study of animal intelligence.
+
+"We do not know how delicate or how complex or how permanent are the possible associations of any given group of animals."
+
+"We say that the kitten associates the sound "kitty kitty" with the experience of nice milk to drink, which does very well for a common-sense answer. It also suffices as a rebuke to those who would have the kitten ratiocinate about the matter, but it fails to tell what real mental content is present. Does the kitten feel "sound of call, memory-image of milk in a saucer in the kitchen, thought of running into the house, a feeling, finally, of 'I will run in'?" Does he perhaps feel only the sound of the bell and an impulse to run in, similar in quality to the impulses which make a tennis player run to and fro when playing? The word association may cover a multitude of essentially different processes, and when a writer attributes anything that an animal may do to association his statement has only the negative value of eliminating reasoning on the one hand and instinct on the other...To give to the word a positive value and several definite possibilities of meaning is one aim of this investigation."
+
+"Surely every one must agree that no man now has a right to advance theories about what is in animals' minds or to deny previous theories unless he supports his thesis by systematic and extended experiments. My own theories... will doubtless be opposed by many. I sincerely hope they will, provided the denial is accompanied by actual experimental work. In fact I shall be tempted again and again in the course of this book to defend some theory, dubious enough to my own mind, in the hope of thereby inducing some one to oppose me and in opposing me to make the experiments I have myself had no opportunity to make yet."
+
+To summarize these quotes, Thorndike was interested in settling debate and ideas about animal intelligence using laboratory techniques and the scientific method. This would involve creating reproducible situations in lab where animal behavior could be manipulated and observed under different experimental conditions. Thordike argued that his methods would be produce evidence about claims of animal intelligence, and that his methods could be used by other researchers both to verify his findings and to test his theories and claims even further. Thorndike's method of assessing associations in animals involved puzzle boxes, or the modern equivalent of [escape rooms](https://en.wikipedia.org/wiki/Escape_room) for animals.
+
+### Thornike's basic methodology
+
+Thorndike conducted multiple experiments on cats, dogs, and chicks. His experimental apparatus was in the form of a puzzle box, like the one depicted below:
+
+
+```{r}
+knitr::include_graphics("imgs/Thorndike_puzzle_box_1898.png")
+```
+
+Thorndike made several variations on his puzzle boxes, but they all had the same basic features in common. First, animals could be placed inside the box. Second, animals could escape from the box if they figure out the trick. For example, pulling a latch, or a hoop on a string would unlock a door allowing the animal to escape. Animals were typically deprived of food and made hungry before they were placed in the box. And, they were given a food reward after they escaped from the box. Animals were given many practice attempts to get out of the box, and Thorndike measured the amount of time to get out of the box for each attempt. 
+
+### Putative Mental Components of Association
+
+Thorndike's methods produced clear findings. His first main finding was that his animals could figure out the tricks, and they were able to escape from the box. His second main finding was that the animals got faster at escaping with practice. After making these demonstrations, Thorndike then considered possible explanations. How were the animals solving the problem? How were they getting faster? What kinds of associations were involved?
+
+Thorndike's aim was to gain clarity on the kinds of associations that might be involved, and he speculated on logical stages and types of associations that his animals might have been learned. For example, he wrote:
+
+---
+
+There might be in an association, such as is formed after experience with one of our boxes, the following elements:
+
+1 . Sense-impression of the interior of the box, etc. 
+2. (a) Discomfort and (b) desire to get out.
+3. Representation of oneself pulling the loop.
+4. Fiat comparable to the human "I'll do it."
+5. The impulse which actually does it.
+6. Sense-impression of oneself pulling the loop, seeing one's paw in a certain place, feeling one's body in a certain way, etc.
+7. Sense impression of going outside.
+8. Senseimpression of eating, and the included pleasure. Also between 1 and 4 we may have 
+9. Representations of one's experience in going out, 
+10. Of the taste of the food, etc.
+
+---
+
+This list details a number of experiences and impulses that presumably occur from the time when an animal enters the box, to the time after it has escaped and is eating the food reward. The general associativist explanation would be than each of these components are associated with one another, possibly in a chain, such that triggering one of the elements would cause a chain reaction, and succesively trigger the next associated elements, thereby allowing the animal to proceed through the puzzle box and get the food reward.
+
+### Experimental questions about associative processes
+
+Thorndike also went on to conduct experiments with his puzzle boxes to test ideas about animal learning. These experiments involved manipulations intended to modify some aspect of the learning process. 
+
+#### Imitation Learning
+
+Thorndike found that cats, dogs, and chicks did not benefit from watching other animals solve the puzzle box. This didn't definitely rule out imitation as a possible source of knowledge, and it suggested to Thorndike that some elements of the associations needed to be experienced directly to be learned. Thorndike had plans to test whether an ape could learn to escape a box through imitation learning, but was unable to conduct the experiment because the monkey was not tameable.
+
+#### Mental Representation
+
+As we will see throughout this textbook, theories of cognition often invoke the concept of mental representation. The previous chapter on mental imagery was an example of debates about the format of mental representations and whether they have analog-image like qualities (e.g., like sensory experiences), or are fundamentally very different, perhaps like abstract propositional knowledge. Thorndike was optimistic his methods could help settle questions of mental representation in animals. For example, do animals have internal images that are used in a network of associations? Thorndike proposed the following experiment:
+
+---
+
+"The only logical way to go at this question and settle it is, I think, to find some association the formation of which requires the presence of images, of ideas. You have to give an animal a chance to associate sense-impression A with sense-impression B and then to associate B with some act C so that the presence of B in the mind will lead to the performance of C. Presumably the representation of B, if present, will lead to C just as the sense-impression B did. Now, if the chance to associate B with A has been improved, you ought, when the animal is confronted with the sense-impression A, to get a revival of B and so the act C. Such a result would, if all chance to associate C with A had been eliminated, demonstrate the presence of representations and their associations." 
+
+---
+
+
+<!--
+Ran experiments (pg 75): Found evidence for  A>B>C, but considered a direct A-C association...which suggested some kind of memory for A which occurred at least 10 seconds before C. still a role for representation.
+-->
+
+#### General concept formation
+
+Another topic in cognition that we devote a whole chapter to is categorization and concept formation. Thorndike attempted experiments to determine the ability of his animals to form general concepts about the puzzle boxes. Consider a kitten who  has learned to escape from a puzzle box by pulling a loop on a string. Is the learning very specific or very general? It's possible that learning could be very, very specific (and we will see many examples in this textbook where learning very often is very specific). For example, the kitten may only escape from the specific puzzle box it had been trained on, and it would fail to easily learn other similar boxes, even those that contained loops in other locations about the box. Alternately, maybe the kitten learned general concept, something like, "to escape the box, go around and find the loopy thing, and then tug it". In this case, if the kitten learned a general concept, it might easily escape from similar boxes that involved pulling loops, even the loops were in novel locations in the box. 
+
+Thorndike tested these ideas in **transfer** experiments. Here, animals first learned to escape from a particular box, and then learned to escape from new boxes. The empirical questionwas whether learning to escape from the first box would help animals learn to escape from the next box. For example, if a kitten learned to pull a loop on the left side of the box to get out, would they quickly learn to escape out of a box with the loop on the right side? Thorndike found evidence of **positive transfer**, which means that the training experience conveyed a benefit on the transfer test. His animals learned to escape from a new puzzle box faster when it was similar to a puzzle box they had learned previously. Although the evidence of positive transfer could be consistent with a claim that his animals were learning a general concept about the puzzle box, Thorndike favored the view that animals were not learning general concepts, and instead were learning about specific details of the puzzle box that happened to transfer well to similar boxes. In other words, he attempted to example the phenomena of transfer without appealing to a complex explanation, like embuing kittens with human-like general reasoning abilities.
+
+<!--
+
+For example, if a kitten had learned how to escape out of a box that required pulling a loop, had
+
+- Association by similarity and formation of concepts
+- prior experience pulling one loop transfers to quickly learning to pull other loops in different locations
+  - did they use "association by similarity to reason?"
+    - entails having general concepts about loops and how to use them
+    - to use similarity must be able to discriminate between kinds of loops
+  - Thorndike counterargues...cat's can barely percieve the loop in the first place, "It reacts to a vague, ill-defined sense-impression, undiscriminated and even unperceived in the technical sense of the word. Morgan's phrase, " a bit of pure experience," is perhaps as good as any. The loop is to the cat what the ocean is to a man, when thrown into it when half- asleep."
+  - what is at stake here? 
+      - quality of perception, differentiation, and represention...humans have it...cat's don't according to Thorndike.
+      
+-->
+      
+### Further associative questions
+
+Thorndike created a laboratory method that produced reproducible patterns of evidence related to questions about animal cognition. There weren't many other researchers at that time applying methods of experimental psychology to animals, and Thorndike hoped his methods would be adopted by others for the purpose of challenging and extending his own work. In addition, Thorndike entertained questions about associations that ought to be studied in the future. Some of these questions included:
+
+1. Delicacy and permanence of associations: How fragile are some associations, how long do associations last after they have been formed?
+2. Complexity of associations (Thorndike intended to rank intelligence of animals as a function of the complexity of associations they could acquire)
+3. Number of associations: How many associations do different animals have?
+4. Inhibition of instinct by habit: Can an animal learn to override an instinctual behavior through associative learning?
+5. Role of attention: does the formation of an association depend on attending to sense-impressions?
+      
+      
+<!--      
+- Delicacy of associations
+- Complexity of associations (especially important to rank intelligence of animals), associative chains are not complex
+- Number of associations (total number, humans have more than dogs)
+- Permanence of associations (once formed, slow in being lost)...NOT MEMORY, talk of memory in animals is a gross mistake...Thorndike claims that real memory is all or none, and performance would be all or none, and not partial.
+- Inhibition of instinct by habit (if an animal learns to pull the string to get out, it will pull the string even it could get out through a hole...the habitual response)
+- Attention, sense impression needs to be attended
+- Social Consciousness
+- Interaction
+
+
+
+- connects animal learning abilities to human learning abilities, especially motor skills
+ - "When a man learns to swim, to play tennis or billiards, or to juggle, the process is something like what happens when the cat learns to pull the string to get out of the box, provided, of course, we remove, in the man's case, all th^e accompanying mentality which is not directly concerned in learning the feat.1 Like the latter, the former contains de- sire, sense-impression, impulse, act and possible representations. Like it, the former is learned gradually. Moreover, the asso- ciations concerned cannot be formed by imitation. One does not know how to dive just by seeing another man dive. You cannot form them from being put through them, though, of course, this helps indirectly, in a way that it does not with ani- mals."
+
+
+
+- a basis for comparative cognition
+
+quotes:  
+- We do not know how delicate or how complex or how permanent are the possible associations of any given group of animals.
+- We say that the kitten associates the sound "kitty kitty" with the experience of nice milk to drink, which does very well for a common- sense answer. It also suffices as a rebuke to those who would have the kitten ratiocinate about the matter, but it fails to tell what real mental content is present. Does the kitten feel "sound of call, memory-image of milk in a saucer in the kitchen, thought of running into the house, a feeling, finally, of 'I will run in'?" Does he perhaps feel only the sound of the bell and an impulse to run in, similar in quality to the impulses which make a tennis player run to and fro when playing ? The word association may cover a multitude of essentially different processes, and when a writer attributes anything that an animal may do to association his statement has only the negative value of eliminating reasoning on the one hand and instinct on the other.
+- In the first place, most of the books do not give us a psychology, but rather a eulogy, of animals. They have all been about animal intelligence, never about animal stupidity. Though a writer derides the notion that animals have reason, he hastens to add that they have marvel- lous capacity of forming associations, and is likely to refer to the fact that human beings only rarely reason anything out, that their trains of ideas are ruled mostly by association, as if, in this latter, animals were on a par with them.
+- Surely every one must agree that no man now has a right to advance theories about what is in animals' minds or to deny previous theories unless he supports his thesis by systematic and extended experiments. My own theories, soon to be pro- claimed, will doubtless be opposed by many. I sincerely hope they will, provided the denial is accompanied by actual experi- mental work. In fact I shall be tempted again and again in the course of this book to defend some theory, dubious enough to my own mind, in the hope of thereby inducing some one to oppose me and in opposing me to make the experiments I have myself had no opportunity to make yet. Probably there will be enough opposition if I confine myself to the theories I feel sure of.
+- on animal consciousness, "Sometimes one gets this animal con- sciousness while in swimming, for example. One feels the water, the sky, the birds above, but with no thoughts about them
+or memories of how they looked at other times, or aesthetic judgments about their beauty; one feels no ideas about what movements he will make, but feels himself make them, feels his body throughout. Self-consciousness dies away. Social consciousness dies away. The meanings, and values, and con- nections of things die away. One feels sense-impressions, has impulses, feels the movements he makes; that is all."
+
+-->
+
+## Pavlov's Classical Conditioning
+
+Around the same time as Thorndike was conducting experiments to better understand associative processes in animals, Ivan Pavlov was conducting his own experiments on associative learning in animals using his own novel methods. Pavlov was in Russia and was not aware of Thorndike's work until much later. Pavlov's experiments were translated to English as a series of lecture in 1927 [@pavlovConditionedReflexesInvestigation1927].
+
+Thorndike approached his questions about animal learning from the perspective of Experimental Psychology, whereas Pavlov was skeptical of psychology as a natural science, and approached questions about animal learning from the perspective of a physiologist (or, a modern neurosciencist). Whereas Thorndike considered "psychic" phenomena such as mental images in his explanations of animal learning; Pavlov was more interested in measuring observable phenomena such as behavior, as well as physical substances, such as secretions, apparently produced by brain processes. Here are a few quotes from Pavlov:
+
+"The cerebral hemispheres stand out as the crowning achievement in the nervouse development of the animal kingdom. These structures in the higher animals are of considerable dimensions and exceedingly complex, being made up in man of millions upon millions of cells--centres or foci of nercous activity-- varying in size, shape, and arrangement, and connected with each other by countless branchings from their individual processes. Such complexity of strucgture naturally suggests a like complexity of function, which in fact is obvious in the higher animal and in man. Consider the dof, which has been for so many countless ages the servant of man. Think how he may be trained to perform various duties, watching hunting, etc. We know that this complex behaviour of the animal, undoubtedly involving the highest nervous activity, is mainly associated with the cerebral hemispheres. If we remove the hemispheres in the dog [@goltzHundOhneGrosshirn1892], the animal becomes not only incapable of performing these duties but also incapable even of looking after itself."
+
+"In astounding contrast with the unbounded activity of the cerebral hemispheres stands the meagre content of present-day physiological knowledge concerning them. Up to the year 1870, in fact, there was no physiology of the hemispheres; they seemed to be out of reach of the physiologist".
+
+Pavlov wrestled with whether or not psychology should be involved with attempts to explain brain functions. He thought that the psychological perspective was less-exact and prone to non-physical interpretations, where the brain was implicated in some kind of "special psychical activity". And, he suggested that, "there is no need for the physiologist to have recourse to psychology", and that "investigations of the physiological activities of the hemispheres should lay a solid foundation for a future true science of psychology.".
+
+### Descartes' reflex
+
+Before proceeding to describe his new experiments, Pavlov connected his work to philosophical ideas about humans and animals popularized much earlier by [René Descartes](https://en.wikipedia.org/wiki/René_Descartes) (1596-1650). Descartes was a rationalist philosopher who argued in favor of a dualist perspective on the mind. Humans had both a physical body that operated like a physical machine, and obeyed the laws and principles of physical machines. But, humans also had a soul, which somehow transcends the body, doesn't necessarily operate according to physical laws, and allows people to experience emotion and pain. Animals were viewed as less than human. They had physical bodies, but no soul. Although Descartes advocated for dualism, his ideas about how human and animal bodies behaved like complicated machines were inspirational to physiologists [@fearingReneDescartesStudy1929]. 
+
+One of Descartes core ideas was the concept of a reflex, which is involves a clear-cut line of cause and effect between an impending stimulus or impulse, and a subsequent effect. For example, consider a kitchen sink, where twisting a handle opens a valve that let's water pour through the faucet ^[Descartes was apparently inspired by the complicated system of pipes in the royal gardens, hence the plumbing example]. This behavior of the sink machine is like a pre-determined reflex, the action of the impending stimulus (turning the handle) causes the response (water pouring out). A more familiar example is the [knee-jerk reflex](https://en.wikipedia.org/wiki/Patellar_reflex), where tapping a knee in the right spot can cause cause a leg to automatically kick up a little bit. Pavlov considered the possibility that the brain could be an extremely complicated system of reflexes, with many input pathways connected to output pathways. Of Descartes idea he wrote, 
+
+---
+
+"Our starting point has been Descartes' idea of the nervous reflex. This is a genuine scientific conception, since it implies necessity. It may be summed up as follows: An external or internal stimulus falls on some one or other nervous receptor and gives reise to a nervous impulse; this nervous impulse is transmitted along nerve fibres to the central nervous system, and here, on account of existing nervous connections, it gives rise to a fresh impulse which passes along outgoing nerve fibres to the active organ, where it excites a special activity of the cellular structures. Thus, a stimulus appears to be connected of necessity with a definite response, as cause with effect. It seems obvious that the whole activity of the organism should conform to definite laws." 
+
+---
+
+Innate versus learned
+
+
+### Simple acquisition
 
 In a simple acquisition procedure, an animal is housed in a controlled laboratory setting, and then they are given numerous "acquisition trials". On each trial, the animal is presented with a perceptual stimulus, like a loud tone, followed by a reward, like a food pellet. The reward stimulus is termed the unconditioned stimulus (UCS), which are stimuli that evoke responses without any prior learning. For example, animals salivate upon smelling food pellets, and they do not rely on any learning during the experiment to acquire this ability. Salivating is termed the unconditioned response (UCR).
 
@@ -91,6 +283,14 @@ Another example of an unconditioned stimulus is a small puff of air to an eyelid
 The perceptual stimulus is called the neutral or conditioned stimulus (CS). It is assumed to be a neutral stimulus that does not evoke the unconditioned response. For example, a loud tone would not normally evoke a salivation response in an animal. Pavlov was able to demonstrate that new associations or expectations can be established through the simple process of pairing a neutral conditioned stimulus (e.g., a tone) with an unconditioned stimulus (food reward). Specifically, after many acquisition trials, the animals would start salivating when they heard the tone, even if the food wasn't presented. 
 
 In this case, it seems that neutral tone stimulus had picked up a new association of some kind. Perhaps the tone made the animal expect to receive food, and the expectation for food evoked salivation. Perhaps the tone somehow activated the salivation response directly. These are hypotheses about the kinds associations that were learned. , it was clear that something new was being learne.
+
+### Extinction
+
+### Spontaneous Recovery
+
+The first claim of associationism is that new associations can be learned. This is a very broad claim, and many kinds of examples of learning new associations could provide evidence in favor of the claim. Ivan Pavlov () is famous for his research showing that animals can acquire new associations simply by being exposed to pairs of stimuli and reward over time, a finding called classical conditioning. Let's take a look at three important phenomena termed acquisition, extinction, and spontaneous recovery.
+
+
 
 
 
@@ -111,6 +311,8 @@ Pavlov demonstrated acquistion
 Extinction
 
 Spontaneous recovery
+
+
 
 ## Tolman's Rats
 

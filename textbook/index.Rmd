@@ -1,6 +1,6 @@
 --- 
-title: Cognition
-subtitle: title in progress
+title: Instances of Cognition
+subtitle: An introductory textbook
 author: "Matthew J. C. Crump"
 site: bookdown::bookdown_site
 
