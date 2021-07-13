@@ -1,6 +1,0 @@
-
-
-# Memory Theory
-
-
-

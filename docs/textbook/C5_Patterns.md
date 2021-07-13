@@ -1,6 +1,0 @@
-
-
-# Pattern Recognition {.unnumbered}
-
-
-
