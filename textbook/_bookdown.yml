@@ -1,7 +1,7 @@
 delete_merged_file: true
 new_session: true
 
-output_dir: "docs/textbook"
+output_dir: "../docs/textbook"
 
 rmd_files:
 - "index.Rmd"

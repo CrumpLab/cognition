@@ -1,0 +1,219 @@
+
+
+# What is cognition?
+
+
+| Word Count|Reading Time |
+|----------:|:------------|
+|       6569|32.8 minutes |
+
+## Chapter Overview
+
+This chapter provides a broad view of some of the issues involved with describing, and tools and methods used to describe cognition and how it works. We begin to give some definition to cognition, although this definition expands across the rest of the textbook. Most of this chapter is concerned with background concepts that are important for understanding the processes by which we can create knowledge about how cognition works. This includes preliminary discussions about roles for theories and facts, philosophy of science, the scientific method and other methods for generating knowledge, and the kinds of explanations that provide more or less satisfying answers to questions about the mind.
+
+## Taking a step back
+
+What is cognition and how does it work? These are questions I have been wondering about ever since I started doing research into human cognition. At the moment, I (Matt Crump) am a roughly early/mid-career researcher who has been conducting research on topics in cognition since about 2000-2001, where I started as an undergraduate working in cognitive psychology labs. At that time I discovered that there was a large scientific literature on human and animal cognition that went back over a hundred years. Today, that very same literature has continued to grow and grow. Perhaps I shouldn't admit this, but even though I've dedicated over 20 years of my life to studying and contributing to this literature, I think I can safely say that I have way more questions about cognition than answers. In some sense, the more I learn about research into cognition, the less I feel I know about how cognition works. It's quite possible that I am more confused about cognitive psychology now (after 20 years as a researcher), than I was before I started!
+
+Maybe I shouldn't be writing this textbook, and you should instead find an "authoritative" textbook where you can trust that the author knows everything about cognition, is not confused, and is also able to compress over a hundred years of science down into engaging and readable chapters for beginners to the field. Indeed, there are many introductory textbooks to the field of Cognitive Psychology available, each offering the authors view on the field, along with their way of introducing the field to new students. So, just like those other textbooks, in this one, you will be treated to my view of cognition, and my style for presenting it to new students. The reason I am drawing attention to these issues is that there is one thing about cognition that is very clear to me: there are many different perspectives and answers to the question "what is cognition and how does it work?".
+
+I would go so far as to say that it is a fact, in the year 2021, that even though cognitive psychology is a longstanding scientific discipline, that has been formally asking and answering questions about how the mind works for well over a hundred years; and even though there has been substantial progress in this field, there is nevertheless no emerging consensus view across researchers and labs about how cognition works. There are many labs and researchers and it is not uncommon for each lab or researcher to be researching their own unique phenomena, or forwarding their own preferred explanations and theories for the parts of cognition they are studying. I will develop the view across this textbook, that this kind of diversity is OK for the science of cognition; and, that a fully grown and well developed science of cognition will continue to have a great diversity of theories and perspectives about how cognition works. Although a common goal for many sciences is to arrive at a single unified theory that explains everything, even if this doesn't happen for cognition, I think that is OK too, because many of the possible explanations that will be generated along the way will make useful contributions to understanding cognition, even if parts of their explanations are not completely true.
+
+### The truth, the whole truth, and nothing but the truth vs knowledge creation
+
+The cognitive sciences are interested in understanding how cognition works, and this could mean that the whole enterprise is trying to figure out what is true about cognition and what is false. Science is a slow moving incremental process, so over the history of the cognitive sciences there have been many false starts. Some findings have been published that are hard to replicate (so they might not be real), and there are many theories about cognitive phenomena that have been proven to be false. There are also many findings that seem pretty stable, and there are good reasons to treat them as facts; and, despite the limitations of cognitive theories, there are nevertheless some very powerful ones out there that do a commendable job at explaining aspects of cognition.
+
+So, as a final thought before we get started, I'm going to give you a heads up about how this textbook will generally tell you about the story of cognition. One option is for me to sort through all of the published research on cognition (there are hundreds of thousands of published scientific manuscripts), pick all of the ones that are true, and then tell you only about the true things about cognition that we know to be true. Actually, I don't think this is really an option at all. So, I'm not even going to attempt anything like that.
+
+Instead, this textbook will tell a story about cognition that is not so obsessed with the truth, the whole truth, and nothing but the truth. I don't deny that there are so-called "truth's" about how cognition works. Most researchers, including me, accept facts like people and animals are physical beings, and that cognition somehow emerges from biological processes. From this perspective, there must be some truths about human and animal cognition because cognition must be determined by physical properties of our physiologies. Instead of telling a story about all the true things we think we know about cognition, I'm going to back up a little up and focus the story on the process by which cognitive science creates knowledge about cognition. Sometimes cognitive science produces knowledge about cognition that is not true about people or animals, but nevertheless very useful say for creating computer intelligence or other smart technology. Similarly, it will be important to recognize that much of what cognitive science has produced over its history resembles "working draft concepts" in the large scheme of things, and very rarely fundamental truths about cognition that everyone agrees on.
+
+## What is Cognition?
+
+So, what is cognition anyway? An everyday definition involves pretty much anything to do with how your mind works. If you are reading this, then you have cognition, and as someone with cognition, I'm sure you can form your own opinions on what counts as cognition for you. This textbook is both about cognition in this everyday sense, as well as the field of cognitive psychology and the broader cognitive sciences. These domains of academic inquiry have the goal of studying cognition from many different angles to produce knowledge about how cognition works.
+
+I like to think of cognition as a big list of questions about how cognitive abilities work. For example, How do you remember what you ate for breakfast? How do you remember something that happened when you were a kid? How do you learn language? How do you know how to say a sentence? How do you think your next thought? What is your imagination like? How do you learn new skills, like walking, riding a bike, playing a musical instrument, playing a sport, or a game? How do you learn new information, and how can you study more efficiently? How do you recognize peoples faces? How do you know a tree is a tree and not some other object? How do you make plans for the future? Do you have an inner voice and if so how do you use it? How do you make decisions in your daily life? What makes you prefer some music and not others? How do you control all of your body movements from moving your fingers to facial expressions? How do you pay attention to some things while ignoring others? How did you forget that phone number so fast? How did you forget what you were doing while you were in the middle of doing something? How do you learn to read? How do you know the meaning of words? How can you train your brain to get better at something? Why do you think you know a word that is just on the tip of your tongue, but yet you can't say the word, until later it pops in your head? How many memories can a person have? What does it mean to be smart? Can anyone learn anything to a high degree of skill? How do all of these cognitive abilities develop over the lifespan? How do people understand their own cognition? How do people understand other people's cognition? What about non-human animals, what kind of cognitive abilities do they have? Does my cat dream about me?
+
+I hope you got the sense that I could have kept going with those questions, and that you could probably come with your similar kinds of questions. From my perspective, these kinds of questions are ones that cognition researchers are interested in asking and answering.
+
+Most of the above questions have two things in common that make them relevant to research in cognition (or they could be rephrased to have these two things). First, they are all about a kind of cognitive ability (such as being able to remember something, attend to something, read a book, hear a word, and so on). Second, they are "how" questions, and "how" questions are all about explaining how things work. Let's elaborate on both of these to begin answering "what is cognition?"
+
+### Cognitive abilities
+
+What is a cognitive ability, and what makes an ability a cognitive one as opposed to a regular ability? In the first textbook to coin the phrase "Cognitive Psychology" [@neisserCognitivePsychology1967], Neisser defined cognition as "all processes by which the sensory input is transformed, reduced, elaborated, stored, recovered, and used". This is a pretty all-encompassing definition that still captures much of what cognitive scientists continue to study today. We could use Neisser's definition to give some definition to the concept of a cognitive ability.
+
+At the same time, I don't want to focus too much on narrowly defining cognition and what counts as cognitive abilities. We will get a better sense of what the field has studied under these terms across the chapters in the textbook. We will also see that cognitive psychologists sometimes get too hung up on making distinctions [@newellYouCanPlay1973] that can distract from the larger issues. For example, we could spend our time making a list features for what makes an ability a cognitive ability. These could include features like: involves mental effort, involves your brain, involves thinking, and so on. There will be inevitable disagreements about what features should or should not be included on the list. And, we could end up looking at lists of abilities and spend way too much time deciding how they should be categorized, rather than spending time trying to figure out how the abilities work.
+
+### Answering How questions
+
+It is much easier to answer a "can" question about cognition, than a "how" question. For example, can people remember information like a phone number? If you have ever remembered a phone number, then you know the answer is yes. Can you forget a phone number? Yes. We don't need the science of cognition to answer many "can"-type questions about cognitive abilities.
+
+"How" questions are much harder to answer. If I asked you, "how is it that you can remember a phone number?"; or, even more incredibly, "how can you remember a whole personal experience that happened to you ten years ago?", what kind of answer would be required to explain how those abilities work? What kind of answer would be satisfying to you? In my opinion, there are two big reasons why how-questions about cognition are hard to answer. First, the cognitive ability in question (remembering, learning, attending, talking etc.) is usually extremely complex involving the interaction of many parts, so it is daunting to imagine how detailed and complicated the explanation would have to be. Second, depending on who you talk to in the cognitive sciences, you will find that there are different levels and kinds of explanation; so, in addition to doing the hard work of explaining something about cognition, you will also have to do the hard work of understanding how different levels of explanations work, and make choices about the kinds of explanations that are appropriate and satisfying for the problem at hand.
+
+## How does research in cognition work?
+
+The purpose of this textbook is to provide an introduction to the ways in which the cognitive sciences have attempted to answer the question "how does cognition work?". However, before we go into the details about cognition, it is worth spending time considering some of the ways this domain of science works to generate knowledge about cognition. So, in the rest of this chapter we will consider slightly different "how" questions-- "how does research into cognition work? And, what kinds of things does it produce that are capable of telling us something about how cognition works?". This will include some discussion of the scientific method and other methods that are used to generate knowledge about cognition, as well as a discussion of philosophy of science that should help us better appreciate the kinds of explanations available and how well the explanations work.
+
+Some of these topics are little bit abstract, and one of the principles of cognition that will be repeated across this textbook is that learning from examples is fundamental in cognition [], and also helpful for learning abstract material []. So, we will use the example of research into mental imagery as an aid for introducing some of the major ways that cognitive research works. It is also useful to have some major landmarks in mind when navigating new territory, even it is conceptual territory. So, I will organize the rest of the chapter into three big landmarks in the research landscape of cognition.
+
+1.  The research cycle
+2.  Fact and theory generation
+3.  Society and historical context
+
+The research cycle involves a wide variety of methods (such as the scientific method) that researchers use to test claims about cognition. Fact and theory generation are a part of the research cycle, but I gave them their own big landmark. Fact and theory generation is the process of figuring out what facts about cognition are real and in need of explanation, and then coming up with theories that explain the facts. The research cycle can be used to test factual claims and theoretical claims, which can lead researchers to discover new facts and create new theories (i.e., a cyclical process). Last, cognition research is a human activity that is embedded within a socio-historical context. The discoveries of cognitive research can have applications in society (for better and worse), and the potential prospects of these applications can in turn influence the research process by guiding researchers to spend their time on some problems as opposed to others.
+
+The very broad domain of all-of-cognition is very large, and probably too difficult to ever study all at once. So, a common strategy in cognitive research is to focus inquiry onto smaller pieces of the puzzle. We will see this approach in action in this textbook, because each chapter is about different domains or parts of cognition (e.g., memory, learning, attention, etc). The rest of this chapter is set in the research domain of mental imagery. Despite the difficulties about obtaining truly objective facts about subjective experiences like mental imagery, the research cycle has been turning on this problem for well over a hundred years. There is way too much research to cover all of it in one short chapter. Instead, I will choose some research highlights to focus on three issues: getting facts about mental imagery, testing theories about mental imagery, and societal implications of the research.
+
+
+
+## The cooking of science: A recipe metaphor
+
+The recipe metaphor is intended to orient you toward major features of theories, explanations, and how they are tested across the research cycle [^c1_what_is_cognition-1]. A recipe is a set of instructions for how to do something like cook a dish or put together furniture from IKEA. Recipes can take different formats (e.g., written recipes in a cookbook, cartoon's in an IKEA manual, or even do-it-yourself Youtube videos). Recipes can be more or less specific. Some cookbooks break down every single step in making a dish, others give general directions (e.g., cook it until done). Recipes have the goal of communicating instructions about how to do something. And, it is possible to evaluate recipes to see whether or not they accomplish the goal. For example, if a recipe works, and I know how to follow instructions, then I should be able to follow the recipe and make the thing that the recipe produces. Sometimes a recipe turns out (it does what it says it does), and sometimes it doesn't. When a recipe doesn't work it could be that the recipe instructions had mistakes, were confusing, or were not followed properly (problems with execution). It's also possible that a recipe is totally flawed and does not do what it claims to do.
+
+[^c1_what_is_cognition-1]: This section starts to get into larger issues in philosophy and the philosophy science, which are beyond the scope of this book. I will attempt to make connections to these domains as much as possible throughout
+
+Everyday recipes are explanations about how something works, and the properties of recipes are very much like the properties of theories in cognition. I would say that as a cognitive scientist, I am interested in the "recipes of cognition", and I find explanations about cognitive abilities very satisfying when they have all of the properties of a really good recipe. For me, a really good recipe 1) does what it says it does, and 2) strikes a delicate balance between describing all of the necessary steps in intricate detail, and elegantly describing the most important steps, connections between steps, and general principles that provide insight into the steps. In other words, a great recipe achieves a "productive level of vagueness" [^c1_what_is_cognition-2].
+
+[^c1_what_is_cognition-2]: I attribute this phrase to Lee Brooks, who often suggested that theories in cognition need to find a productive level of vagueness, that are specific enough to be meaningful, general enough to be interesting, and workable enough to create insights
+
+### Oven Fries: My favorite recipe
+
+Let's take a break from asking how a cognitive ability works, and ask how tasty, crispy, super-delicious oven-fries work. For a long time I didn't really like oven-fries, I much preferred french fries. But, my whole life changed when I found my favorite recipe of all-time, the "Oven Fries" recipe from America's Test kitchen [@illustratedNewBestRecipe2004].
+
+America's Test Kitchen writes very compelling recipes. I had tried making fries in the oven before. They always came out terrible. They always stuck to the pan, weren't crispy or delicious. But, I knew it must be possible to make yummy fries in the oven because I had them before with friends or at restaurants. I needed to know the magic behind good oven fries, and everything I needed to know was in the America's Test Kitchen recipe.
+
+America's test kitchen uses the same basic research cycle to improve their recipes as cognitive scientists use to study cognition. This involves experimentally manipulating parts of the recipe to see what matters in making a good dish [^c1_what_is_cognition-3]. For example, the cookbook I have has both a great recipe for oven fries, and a short research report on all of the experiments that went into figuring out the recipe. They baked potatoes at different temperatures, put the pans on different racks in the oven, boiled the potatoes first, left skin on or skin off, tested different kinds of oil, and so on. They manipulated each of these components, made different batches of fries, and then had people taste the results each time. As they tried different combinations, they kept instructions that seemed to work well, and slowly developed a recipe that produced really tasty fries that were given really high ratings by the tasters. One fantastic insight was to salt the pan before putting the potato wedges on them, which helps reduce sticking to the pan later on. Anyway, I love this recipe for two reasons. First, it works and delivers great tasting oven fries. Second, it is insightful about what the recipe is doing, and helped me appreciate principles of cooking that I have applied to other dishes.
+
+[^c1_what_is_cognition-3]: there is also a healthy dose of using general principles about cooking food to inform the choices they make about what parts of the recipe to manipulate
+
+### Cooking competitions and the best recipe
+
+The last piece of the recipe metaphor I'm building here comes from the TV show Top Chef, where chef contestants compete with each other to become the Top Chef. One of the challenges is about writing a good recipe. Each of the contestants makes up a dish and writes down a recipe for how to make the dish. The big twist is that they don't get to cook the recipe. Instead, other people have to try and follow the recipe to make the dish, and the chef's are judged on how well those dishes turn out. What really matters for this challenge is that the recipe provides a clear explanation of how the dish works. Let's use a similar kind of situation as a metaphor to examine properties and qualities of explanations in cognitive research.
+
+In the metaphor, a recipe is like a theory about how something works. A recipe contains elements, like individual steps to follow to produce an outcome. Similarly, a theory contains components, like individual assumptions and propositions that work together to produce an explanation. So, if we are comfortable with recipes and theories being very similar, how can they be evaluated for their explanatory value? Are some recipes/theories better or worse? Are some recipes/theories true or false? Answering these questions involves an iterative research cycle where recipes/theories are put to the test and refined over time. Let's examine this with an imaginary scenario.
+
+Imagine you are a chef-scientist and chief detective, and you have been asked to solve a food mystery. You arrive at a dinner table, and your host brings in a big silver plate with a big silver dome. The cover is removed to reveal your favorite dish. You eat it, and it is the best version of this dish you have ever tasted. The host challenges you to explain how the dish was made. Your task is to make a recipe and show that you can use it to recreate the dish.
+
+Fortunately, you do not have to start entirely from scratch. There is a well-stocked kitchen with all of the ingredients and equipment that you might need, and even many cookbooks that might contain the recipe you are looking for. You are allowed to run experiments in the kitchen to help you figure out how to make the recipe. What do you do? How do you figure out the recipe? I will offer some opinions on things that could happen in this scenario and relate them to parts of the research cycle in cognition.
+
+First of all, you would probably use some *background knowledge* to help guide you toward a solution. For example, if you knew some of the ingredients in your dish, you would probably use those in your experiments. If you knew the name of the dish, then you might search the cookbooks for different versions of recipes for the dish, and try each of those out to see if one of them made the dish. People have unique background knowledge, and in the context of research bring different initial working assumptions to the research cycle. If you didn't know oven fries used potatoes, you might have test out different vegetables until you found the right ingredients.
+
+The goal is to create a recipe that recreates the dish, and there are many available recipes in the cookbooks. Similarly, a goal in cognition is to explain cognitive abilities with theories, and there many available theories in the literature. One way to test the recipes is to try them out, and examine the final product to see if it is the same as the dish you are trying to recreate. Let's consider going through the motions of testing many different recipes.
+
+### Recipe Quality
+
+Some recipes will work pretty well, and if you try them out you might produce dishes that are close to the dish you are trying to recreate. For example, you could easily find three longer recipes for oven fries that all work well. Similarly, in cognition it is possible to find multiple working theories of a cognitive ability that all do an OK job of explanation.
+
+Some recipes might be extremely vague. For example, Oven Fries: Get some potatoes, and bake them on a pan in the oven until they are perfect. This is a like a "theory" that is really just a couple basic claims, and not much else.
+
+Some recipes will be broken or nonsense. Here is a nonsense recipe for oven fries: peel bananas, put them in a blender, pour them over coffee, stick the coffee in the microwave, and then eat a raw potato. This has the appearance of a recipe because it lists ingredients and steps, but upon closer inspection, it should be clear that following the steps will not lead to the creation of oven fries. In the domain of cooking, broken recipes fail to produce the dish they claim to make. In cognition, theories can fail to produce explanations they claim to make. Just like a nonsense recipe, a theory might not contain enough coherent assumptions and steps to produce a desired explanation.
+
+I described good, bad, and ugly recipes that range in quality for producing a dish. If we are still trying to recreate create the best dish, a next task is to refine and improve the recipe using a research cycle. This will involve testing assumptions in the recipes to learn which steps and ingredients are necessary, proposing and testing new steps in the recipe that weren't there before, and possibly even completely rewriting the recipe if you found a more compelling way to make the dish.
+
+### Testing Recipes
+
+I'll finish off this metaphor by discussing two kinds of tests that are relevant when we go back to examining theories in cognition. **Logical tests** are useful for examining the internal structure of a theory to determine whether it is logically possible that the theory can do what it claims to do. This is like evaluating whether or not a recipe can make the dish it claims to make. Logical tests can often be conducted just by reasoning through the theory (or reading through the recipe). For example, it is clear by reading the nonsense recipe from above that it will not do what it claims to do. When you are visited with theoretical claims about cognitive abilities, it should be possible to read through the theory like a recipe and clearly appreciate how the claims about cognition work.
+
+**Empirical Tests** are useful for examining components of a theory, and they typically involve experiments to measure phenomena that are associated with claims or assumptions from a theory. For example, in my favorite recipe for oven fries, one of the tips is to salt the pan that you put your potato slices on...this is supposed to help reduce the fries sticking to the pan. Let's think of "Salting the pan" as one critical part of the "theory of oven fries". How critical is this assumption? Is it necessary for making oven fries? Does salting the pan actually reduce stickiness? These questions can be answered with an experiment to address the question.
+
+The experiment will involve making different batches of oven fries, some where the pan is salted, and others where it is not, and then measuring how much the fries stick to the pan. More formally, this experiment will involve an **independent variable** that is manipulated by me, the experimenter--the experimental manipulation is salting the pan. The manipulation will have at least two levels or conditions, so that the outcomes can be compared between them. In the **control** condition I won't add salt to the pan. In the **experimental** conditions, I will add salt to the pan. I could even try different amounts of salt if I wanted. To run the experiment I would try to follow the oven fries recipe exactly the same way for every batch of fries of that I make, with the only difference being whether or not I salted the pan. I will even make sure that each pan has the same number of potato wedges on it. Then, for each batch I will need to measure the stickiness of the fries somehow. This measurement is called the **dependent variable**, because it is supposed to depend (or be influenced by the experimental manipulation). How about this, after baking, I will turn the pan upside down. All of the fries that fall off didn't stick. Then I will count all of the fries that did stick.
+
+I can use my observations in the form of counts to evaluate my **empirical question**, which is a kind of question that can be answered by observing what happens under controlled conditions. My question was whether salting a pan actually reduces the number of fries stuck on the pan. I can count how many fries stuck to pans that were salted, and how many fries stuck to pans that were not salted. And, then I can compare the numbers. If salting the pan doesn't really change fry stickiness, then I would expect roughly the same number of fries on salted and unsalted pans. If salting the pan reduces fry stickiness, then there should be fewer fries stuck on the salted pan than the unsalted pan. Maybe salting the pan actually does the opposite of what the theory claimed, and then there would be more fries stuck on the salted pan than the unsalted pan. If everyone in the world tried making oven fries using different kinds of potatoes, and different ovens, and different pans, and everyone found pretty much the same results, we could become fairly confident in decidedly answering this one question. Or, the results could be a little bit messy, maybe some salt works sometimes for some potatoes on some pans in some ovens, but not others...the empirical answer could be "maybe, it depends".
+
+Because I am having fun with this recipe metaphor for science, I'm going to keep going. Let's imagine our experiment shows consistent evidence that salting the pan does reduce the number of fries stuck to the pan. By consistent evidence I mean that I ran the whole experiment a bunch of times and kept getting the same results, so I stopped running the experiment because I felt confident that the result can be trusted. For example, if someone else came over to my kitchen and did my experiment under the same conditions, they would also find that salting the pan reduces how many fries are stuck the pan. Reproducibility of results is also important in cognition, and sometimes it is a concern because there are numerous examples of reported experiments whose results have not been consistently reproducible \^[we will discuss some examples throughout the textbook and elaborate on issues of reproducibility later on].
+
+### Making inferences about recipes
+
+But, for sake of argument, we will assume the salting the pan trick is reproducible. Great. Now what. Let's not forget some of the larger issues at hand. Sometimes we can sucked into a long and detailed story about a specific thing-- like salting a pan of oven fries--and lose track of how this little story fits into the bigger issues. I set up the salting-the-pan experiment because it was a way to put a component of the oven fry recipe to the test. What have we learned through the process of putting this one component of the recipe to an empirical test? How are results from empirical tests used in the process of improving our explanations of the things we are testing? In my opinion, there is a long and artful dance that occurs between explanations (in the form of theory) and empirical results (in the form of data), that eventually lead them to embrace one another.
+
+In our thought experiment, the original question of interest was "how do the best oven fries work?". What inferences about the overall recipe can we make based on the empirical test of one of its assumptions? In terms of making inferences about theoretical assumptions from data, the available inferences will be limited by how the assumptions fits in the theory, and what the pattern of data says about the assumption. Is salting-the-pan a necessary assumption for really great oven fries? That invites another empirical question that we didn't ask. Are the fries from the unsalted pans still really good? If so, then salting the pans might not be a necessary step in the recipe (even if it does reduce stickiness). What are the necessary steps from the recipe? We could spend time creating individual experiments to test whether each step and ingredient, or specific combinations of the steps and ingredients are all necessary or not necessary to make great fries. When you consider the number of steps, ingredients, and slightly different variations, and number of ways that all of these things can be combined, there are a never-ending number of experiments that could be run to empirically test assumptions of the recipe. I'm exhausted just thinking about it. If we forced ourselves to test all of the combinations we would never leave the kitchen, or do anything else.
+
+Asking empirical questions to settle one issue can easily open new questions about other issues that may or may not be of interest. For example, demonstrating empirically that salting the pan does reduce the number of fries stuck to it, raises new questions about how stickiness works. How does salt change the stickiness of pans? The evidence that salt does change stickiness becomes a phenomena in and of itself that requires explanation, and we would need to drop into the territory of chemistry and physics to examine those issues.
+
+### Dessert
+
+I should bring this metaphor to a close, but here are some parting thoughts. The things that you might want out of a cooking recipe are not too different from what you might want out a theory in cognition. And, you should feel empowered to evaluate what you learn about cognition from this point of view. It is OK to be unsatisfied with a recipe for many reasons, it might be unclear, it might be complicated, it might not work very well, it might have extra unnecessary stuff; it might look pretty good until it tells you use apply some magic sauce that was never explained. Same goes for explanations of cognition, where you might be unsatisfied for similar reasons.
+
+It is also OK to like different recipes for many reasons. Some recipes are inspiring to read and get you excited, some recipes give super-specific instructions for doing one thing really well, some recipes are surprising and make you wonder what the food would taste like, and some recipes are very insightful and show you techniques that can be used over and over again for other recipes. Same goes for explanations of cognition, where there can be different reasons to appreciate the value of a theory, even if it isn't perfect.
+
+Last, consider the concept of truth in the metaphor between recipes and theories. In the domain of cooking and recipes is there such a thing as true recipes? Is there one true oven fries recipe? I don't think so. There are lots of oven fries recipes. They all make oven fries. Some of them make oven fries that I like more than others. Also, there is an entire world of other recipes and it is very exciting to explore all of the tasty ways that different people and cultures prepare food. What about theories in cognition? Is there one true theory of cognition? If there is, I haven't heard about it. Instead, like recipes there are lots of different theories about cognition, and it is OK to appreciate that variety as we learn about how different researchers have prepared their explanations of different cognitive abilities.
+
+## Society and Historical context
+
+The research cycle will continue to churn out new findings and explanations about cognitive abilities and how they work. Importantly, theory and data about cognition have implications for society. One kind of implication is that the knowledge gained by the research can be applied to solve problems in society. Throughout the textbook I will describe many useful applications of the research findings that we discuss.
+
+At the same time, research into cognitive abilities has not always had uniformly positive implications for society, and there are examples where research applications were severely destructive for some groups of people. I think issues of equality and justice are important when discussing cognitive research and its applications, so I will also touch on these topics. One way I will do this is by occasionally discussing historical context around the research and researchers that we discuss.
+
+### Questions to keep in mind as you learn about cognition
+
+What are the goals of the cognitive sciences and research in cognitive psychology? Who has been involved in setting those goals? Are the goals useful? What kind of questions about cognition have already been asked by researchers? What were the scientific as well as social-historical reasons for why those researchers asked those questions? What answers were found, and how were they informative or not informative about how cognition works? How do the measurements and tools that researchers use to ask questions influence the kind of picture they build about how cognition works? What kinds of questions about cognition are not being asked that should be asked? Why are they not being asked? What benefits to society have been produced by the cognitive sciences? Have the benefits been spread equitably across different groups of people? What costs to society have been produced by the cognitive sciences? How are the costs shared by society? Are their injustices resulting from cognitive science research? Have they been adequately addressed? How should society decide whether or not to proceed with different kinds of research?
+
+```{=html}
+<!--
+
+
+Let me consider some explanations for the fact that I can remember my own phone number. How can I do this? Let's try this explanation on for size: I have a memory system in my brain, and I put my phone number into my memory system, and that's why I can remember my phone number. 
+
+I personally don't find that explanation very satisfying. That story doesn't tell me what a memory system is, how it works, how my brain accomplishes the job of this memory system, or how I do something like put a phone number in there and get it out again. That explanation raised more questions that it answered.
+
+As we will see later in the chapters on memory research, sometimes we will encounter explanations that are not too different from the above. For example, one might explain the ability to hold on to a phone number in your head for a couple seconds (before forgetting it) in terms of putting the phone number into a short term memory system that is only capable of holding information for a limited amount of time. Alternatively, the ability to remember an event from ten years ago could be explained by a different kind of memory system, like a long term memory system that is capable of holding information for a long period of time. These explanations aren't too different from the one above because they sidestep most of the explanatory work. For example, how does the short term memory system work? How does the long-term memory system work?
+
+
+Even if you haven't learned much about cognitive psychology, you may have heard about the concepts of short term memory and long term memory. 
+
+I'm bringing these concepts up to raise a point about how explanations are forwarded in cognitive research. 
+
+If we have evidence that people can remember some things for a little bit of time, and other things for a long time; this kind of evidence could potentially by explained by two different kinds of systems that allow people to remember things. One system for a short amount of time, and another of a long amount of time. However, it is extremely important to recognize that there ar
+
+
+For the record, I wouldn't count the above as an explanation at all, instead rather than explaining how I remember a phone number, I brought a few other ideas into the mix and
+
+
+
+
+As a result, cognition as science has progressed somewhat differently from other sciences. 
+
+Before we really get started, there are several reasons why it is important to recognize that there are a diversity of views on cognition. 
+
+Claims vs reality
+
+Theory, phenomena
+
+
+
+
+
+
+
+Over the course of the textbook some of the reasons I am confused will hopefully become more clear. However, I'm admitting to
+
+
+that I come to understand how research in
+
+
+
+What is my "framework for presenting cognition?
+
+Claims about cognition: making them and evaluating
+
+Theories and explanation
+
+Abilities vs process-based explanations
+
+The tools you use shape the picture you draw...
+
+Cognition is a diverse body of research where people have applied to tools of measurment to answer questions about cognition. The present landscape and history of cognition partly depends on social historical context, individual motivations of researchers, funding agency missions, and tools used. In addition to what is normally included in "cognitive psychology", if we take a wider view, many other observations outside of lab and "scientific" domain of cognition, are and should be relevant to asking and answering questions about cognition.
+
+
+NOTES:
+
+There is a lot of research in cognition, and it doesn't all fit together in a logical, orderly fashion. The story of cognitive research is not one succesfully building cumulative knowledge with every published paper. It is much more confusing and complicated...full of interesting tidbits and even many failures.
+
+Truth and facts vs. Theoretical Explanation and Tentative results
+
+Cognition has no facts
+Cognitive processes are not real...They are all theorized.
+
+reality and cognition
+
+-->
+```
