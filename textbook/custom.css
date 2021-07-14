@@ -1,17 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700&family=Work+Sans:wght@300;400&display=swap');
 
+:root{
+  --primary: #079fe0;
+  --secondary: #67bce0;
+  --third: #c4fa46;
+  --fourth: #ba65a0;
+  --textbox: #f06cc8;
+}
+
 p {
   font-family: 'Work Sans' !important;
 }
 
-h1 {
+ h1 {
   font-size: 400;
   font-family: 'Montserrat Alternates' !important;
+  color: var(--primary);
 }
 
-h2 {
+.section h2 {
   font-size: 600;
   font-family: 'Montserrat Alternates' !important;
+  /*background-color: #fef5ff !important; */
+  /*background-color: var(--secondary) !important;*/
+  background-image: linear-gradient(to right, #fff, var(--primary));
+  border-radius: 5px;
+}
+
+.section h3 {
+  /*background-color: #fef5ff !important; */
+  /*background-color: var(--secondary) !important;*/
+  background-image: linear-gradient(to right, #fff, var(--secondary));
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+.section h4 {
+  font-weight: 300 !important;
+  /*background-color: #faece3 !important;*/
+  /*background-color: var(--third) !important;*/
+  background-image: linear-gradient(to right, #fff, var(--third));
+  border-radius: 5px;
+  padding-left: 15px;
 }
 
 .figure {
@@ -21,15 +51,10 @@ h2 {
 
 .inline-figure {
      border: 0px !important;
-   }
-
-h2, h3 {
-  background-color: #fef5ff !important;
 }
 
-h4 {
-font-weight: 300 !important;
-background-color: #faece3 !important;
+.section .header-section-number {
+ padding-left: 5px;
 }
 
 blockquote p {
@@ -66,18 +91,36 @@ blockquote p {
     float: none;
     width: 80%;
     padding: 10px;
+    border-radius: 15px;
+    border: 2px solid #713a8a;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
   }
 }
 
 .floatright50 {
   float: right;
   width: 50%;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 
 .floatrightbox {
   float: right;
   width: 50%;
   padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  border: 2px solid var(--textbox);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 
 
+.readingtime {
+  margin-left: 50%;
+  height: 100px;
+  width: 50%;
+  border-radius: 15px;
+  border: 2px solid var(--textbox);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}

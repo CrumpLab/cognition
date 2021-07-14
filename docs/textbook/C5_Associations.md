@@ -2,10 +2,12 @@
 
 # Associations
 
+::: readingtime
 
 | Word Count|Reading Time |
 |----------:|:------------|
 |       6123|30.6 minutes |
+:::
 
 ## Chapter overview
 
@@ -21,7 +23,7 @@ There is a long history of ideas about cognition that predate and feed into psyc
 
 We are about to visit the laboratories of [Edward Thorndike](https://en.wikipedia.org/wiki/Edward_Thorndike) (1874-1949) and [Ivan Pavlov](https://en.wikipedia.org/wiki/Ivan_Pavlov) (1849-1936). Thorndike was in America and Pavlov was in Russia, and both were independently conducting novel experiments to test theories and claims about cognition in animals. Before we review their experiments and findings, let's first consider the background claims and ideas they intended to put to the test.
 
-#### Humans and animals
+### Humans and animals
 
 So far we have discussed cognition in terms of human animals. But, there are so many other animals of all shapes and sizes, what about them? Prior to Thorndike and Pavlov, there wasn't too much experimental research on cognition in the animal kingdom, but since then whole fields of animal and comparative cognition have been developed. Although this textbook will focus more on human cognition, I will attempt to integrate animal cognition as much as possible. And, rather than using "human-animal", and "non-human animal", I will refer to human and/or animal cognition throughout the book as a shorter way to identify the subjects of the research. Last, discussions about which words to use to refer to humans and animals point to background ideas motivating Thorndike and Pavlov's work. 
 
@@ -115,7 +117,7 @@ In the remainder of the paper, Cattell gave subjects an association task that in
 
 ::: floatrightbox
 
-#### Edward thorndike {.unnumbered}
+**Edward Thorndike**
 
 Thorndike also followed Cattell in becoming a strong proponent and public figure in the American eugenics movement
 

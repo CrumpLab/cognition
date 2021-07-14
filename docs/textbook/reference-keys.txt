@@ -94,7 +94,7 @@ evolution
 associative-claims
 cattells-associative-reaction-times
 naming-times
-association-times
+association-reaction-times
 thorndikes-puzzle-boxes
 thornikes-basic-methodology
 putative-mental-components-of-association
@@ -134,7 +134,5 @@ naturenurture-1
 translating-binet-1
 summer-2020-covid-19-pandemic-summer-in-brooklyn-1
 a-brief-history-of-psychology-1
-association-reaction-times
 associationism
 animal-cognition
-edward-thorndike
