@@ -5,7 +5,7 @@
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|       7906|39.5 minutes |
+|       7907|39.5 minutes |
 
 ## Chapter Overview
 
@@ -194,7 +194,9 @@ In 1978, Stephen Kosslyn and colleagues [@kosslynVisualImagesPreserve1978] did s
 
 Instead of a map of the USA, participants were shown the map below, and were given practice mentally imaging the map and drawing it from memory until they could reproduce it to a high degree of accuracy. The map shows an island with a hut, tree, rock, well, lake, sand, and grass, all spread about the island.
 
-<img src="imgs/KosslynEtAl1978Fig2.png" width="50%" />
+::: floatright50
+<img src="imgs/KosslynEtAl1978Fig2.png" width="100%" />
+:::
 
 The map was taken away and participants were asked to mentally image the map in their mind's eye. Then, the main task began. The task was split up into individual trials where the participant was asked to focus on one of the depicted locations on their mental image of the map (by imagining a black dot on top of it), and then mentally scan to a different location by moving their imagined black dot to the new location. For example, you might focus on the tree and the scan to the grass (a longer distance); or focus on the hut and scan to the lake (a shorter distance). Importantly, the researchers measured the time taken to make each scan. The empirical question was whether or not the amount of time to mentally scan from one imagined location to another would depend on the distance between the imagined locations.
 

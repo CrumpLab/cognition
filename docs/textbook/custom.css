@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;1,400&family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700&family=Work+Sans:wght@300;400&display=swap');
 
 p {
   font-family: 'Work Sans' !important;
@@ -6,6 +6,11 @@ p {
 
 h1 {
   font-size: 400;
+  font-family: 'Montserrat Alternates' !important;
+}
+
+h2 {
+  font-size: 600;
   font-family: 'Montserrat Alternates' !important;
 }
 
@@ -51,3 +56,28 @@ blockquote p {
   text-indent: -20px!important;
   padding-bottom: 10px;
 }
+
+@media (max-width: 767.98px) {
+  .floatright50 {
+    width: 80%;
+  }
+
+  .floatrightbox {
+    float: none;
+    width: 80%;
+    padding: 10px;
+  }
+}
+
+.floatright50 {
+  float: right;
+  width: 50%;
+}
+
+.floatrightbox {
+  float: right;
+  width: 50%;
+  padding: 10px;
+}
+
+

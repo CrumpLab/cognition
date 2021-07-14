@@ -88,6 +88,7 @@ For example, Cattell's subjects were twice as fast to read a regular versus scra
 ---
 
 Regular Sentence: The candy at the store was red and very tasty
+
 Scrambled Sentence: very at red and The tasty the was store candy
 
 ---
@@ -97,13 +98,14 @@ Similarly, if the task was to read individual letters one a time, Cattell's subj
 ---
 
 Letters in words (faster to read letters): very at red and The tasty the was store candy
+
 Scrambled letters (slower to read letters): tyshenoactaereadtarrdthdesetyvTwnasy
 
 ---
 
 Let's relate Cattell's general findings to the associative claims that people have associations between concepts, they can learn new associations, and that some associations are stronger than others. The first two claims are  consistent with reading ability in general, which involves learning connections between an arbitrary symbol system (e.g., alphabetic letters) and vocal outputs. Cattell's results are also consistent with the claim that some associations are stronger than others. For example, it appears that reading time does not just involve the time it takes to recognize and say a word or letter. If this was strictly the case, then people would take the same amount of time to read words and letter no matter if they occurred in sentences or words. Instead, people were faster to read words and letters when they appeared in familiar contexts, like sentences and words. This suggests that information from the surrounding context facilitates reading, possibly through some kind of association.
 
-### Association times
+### Association reaction times
 
 In the following year, Cattell turned his reaction time methods more directly toward the problem of measuring associations, along with the amount of time taken by intervening cognitive processes involved in the associative process [@cattellExperimentsAssociationIdeas1887]. In the introduction to this paper he wrote:
 
@@ -115,7 +117,17 @@ In the remainder of the paper, Cattell gave subjects an association task that in
 
 ##  Thorndike's puzzle boxes
 
-[Edward Thorndike](https://en.wikipedia.org/wiki/Edward_Thorndike) (1874-1949) was a student of Cattell who took some of the first experimental approaches to investigating associative processes in non-human animals ^[Thorndike also followed Cattell in becoming a strong proponent and public figure in the American eugenics movement]. Thorndike viewed previous claims about animal cognition as belonging to two wildly different camps, with almost no middle ground, or evidence to interrogate the claims. In one camp, animals might be near human, potentially being able to reason and form associations on par with people. In the other camp, animals might be simple reflex machines and nothing more. 
+[Edward Thorndike](https://en.wikipedia.org/wiki/Edward_Thorndike) (1874-1949) was a student of Cattell who took some of the first experimental approaches to investigating associative processes in non-human animals ^[Thorndike also followed Cattell in becoming a strong proponent and public figure in the American eugenics movement].
+
+::: floatrightbox
+
+#### Edward thorndike {.unnumbered}
+
+Thorndike also followed Cattell in becoming a strong proponent and public figure in the American eugenics movement
+
+:::
+
+Thorndike viewed previous claims about animal cognition as belonging to two wildly different camps, with almost no middle ground, or evidence to interrogate the claims. In one camp, animals might be near human, potentially being able to reason and form associations on par with people. In the other camp, animals might be simple reflex machines and nothing more. 
 
 Here are a few choice quotes from Thorndik's doctoral thesis [@thorndikeAnimalIntelligenceExperimental1898] that illustrate his thinking and approach to the study of animal intelligence.
 
@@ -131,10 +143,12 @@ To summarize these quotes, Thorndike was interested in settling debate and ideas
 
 Thorndike conducted multiple experiments on cats, dogs, and chicks. His experimental apparatus was in the form of a puzzle box, like the one depicted below:
 
-
+::: floatright50
 ```{r}
 knitr::include_graphics("imgs/Thorndike_puzzle_box_1898.png")
 ```
+:::
+
 
 Thorndike made several variations on his puzzle boxes, but they all had the same basic features in common. First, animals could be placed inside the box. Second, animals could escape from the box if they figure out the trick. For example, pulling a latch, or a hoop on a string would unlock a door allowing the animal to escape. Animals were typically deprived of food and made hungry before they were placed in the box. And, they were given a food reward after they escaped from the box. Animals were given many practice attempts to get out of the box, and Thorndike measured the amount of time to get out of the box for each attempt. 
 
