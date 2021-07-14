@@ -2,8 +2,6 @@ bookdown::bs4_book:
   theme:
     #primary: "#be63e6"
     primary: "#713a8a"
-    base_font: !expr bslib::font_google("Work Sans")
-    heading_font: !expr bslib::font_google("Montserrat Alternates")
   repo:
     base: https://github.com/CrumpLab/cognition
     branch: main
