@@ -24,6 +24,7 @@ rmd_files:
 - "C12_Language_Semantics.Rmd"
 - "C13_Judgment.Rmd"
 - "C14_Thinking.Rmd"
+- "Style_guide.Rmd"
 
 
 - "References.Rmd"

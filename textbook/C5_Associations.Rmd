@@ -87,23 +87,35 @@ In one set of studies he measured how long it took people to see and name object
 
 For example, Cattell's subjects were twice as fast to read a regular versus scrambled sentence ^[These are not original stimuli used by Cattell]
 
----
+::: floatrightbox50
 
-Regular Sentence: The candy at the store was red and very tasty
+**Try it yourself**
 
-Scrambled Sentence: very at red and The tasty the was store candy
+*Read each of the words below as fast as you can.*
 
----
+1. *Regular Sentence*: The candy at the store was red and very tasty
+
+2. *Scrambled Sentence*: very at red and The tasty the was store candy
+
+*Were you slower to to read the words in the scrambled sentence?*
+
+:::
 
 Similarly, if the task was to read individual letters one a time, Cattell's subjects were twice as fast to read letters when they occurred in words compared to when they did not. This general finding was later re-discovered, and termed the word-superiority effect in 1969 [@reicherPerceptualRecognitionFunction1969].
 
----
+::: floatrightbox50
 
-Letters in words (faster to read letters): very at red and The tasty the was store candy
+**Try it yourself**
 
-Scrambled letters (slower to read letters): tyshenoactaereadtarrdthdesetyvTwnasy
+*Read each of the* **letters** *as fast as you can.*
 
----
+1. *Letters in words*: very at red and The tasty the was store candy
+
+2. *Scrambled letters*: tyshe noact aer ead ta rrdth des etyv Twnasy
+
+*Was it harder to read the scramble letters?*
+
+:::
 
 Let's relate Cattell's general findings to the associative claims that people have associations between concepts, they can learn new associations, and that some associations are stronger than others. The first two claims are  consistent with reading ability in general, which involves learning connections between an arbitrary symbol system (e.g., alphabetic letters) and vocal outputs. Cattell's results are also consistent with the claim that some associations are stronger than others. For example, it appears that reading time does not just involve the time it takes to recognize and say a word or letter. If this was strictly the case, then people would take the same amount of time to read words and letter no matter if they occurred in sentences or words. Instead, people were faster to read words and letters when they appeared in familiar contexts, like sentences and words. This suggests that information from the surrounding context facilitates reading, possibly through some kind of association.
 
@@ -111,7 +123,7 @@ Let's relate Cattell's general findings to the associative claims that people ha
 
 In the following year, Cattell turned his reaction time methods more directly toward the problem of measuring associations, along with the amount of time taken by intervening cognitive processes involved in the associative process [@cattellExperimentsAssociationIdeas1887]. In the introduction to this paper he wrote:
 
-"[In previous work..] 0.4 seconds was needed to see and name a word. When the physiological factors and the time taken up in seeing the word were eliminated, it was found that about 0.1 seconds was spent in finding the name belonging to the printed symbol. The time was longer for letters, which we do not read as often as words, and still longer (about .25 sec) for colours and pictures. I called the time passing, while the motor expression was being found, a ' Will-time'."
+> "[In previous work..] 0.4 seconds was needed to see and name a word. When the physiological factors and the time taken up in seeing the word were eliminated, it was found that about 0.1 seconds was spent in finding the name belonging to the printed symbol. The time was longer for letters, which we do not read as often as words, and still longer (about .25 sec) for colours and pictures. I called the time passing, while the motor expression was being found, a 'Will-time'."
 
 We will elaborate on reaction time methods in the next chapter. For now, it is worth pointing out two aspects of this measurement tool for understanding how cognitive processes might work. First, it is possible to measure reliable differences in reaction times when people complete particular tasks. For example, Cattell estimated that 400 milliseconds were needed to see and read a word, and that pictures took a little bit longer. Second, it is possible to speculate about the individual components of processing that account for the total reaction time. For example, Cattell divides up the reaction time for a word into physiological factors and time taken up be seeing the word, followed by the time taken to search and recall the name of the word, and finally the time taken to form the action to say the word.
 
@@ -121,11 +133,13 @@ In the remainder of the paper, Cattell gave subjects an association task that in
 
 [Edward Thorndike](https://en.wikipedia.org/wiki/Edward_Thorndike) (1874-1949) was a student of Cattell who took some of the first experimental approaches to investigating associative processes in non-human animals ^[Thorndike also followed Cattell in becoming a strong proponent and public figure in the American eugenics movement].
 
-::: floatrightbox
+::: floatrightbox25
 
 **Edward Thorndike**
 
-Thorndike also followed Cattell in becoming a strong proponent and public figure in the American eugenics movement
+```{r}
+knitr::include_graphics("imgs/Edward_thorndike.png")
+```
 
 :::
 
@@ -133,13 +147,13 @@ Thorndike viewed previous claims about animal cognition as belonging to two wild
 
 Here are a few choice quotes from Thorndik's doctoral thesis [@thorndikeAnimalIntelligenceExperimental1898] that illustrate his thinking and approach to the study of animal intelligence.
 
-"We do not know how delicate or how complex or how permanent are the possible associations of any given group of animals."
+> "We do not know how delicate or how complex or how permanent are the possible associations of any given group of animals."
 
-"We say that the kitten associates the sound "kitty kitty" with the experience of nice milk to drink, which does very well for a common-sense answer. It also suffices as a rebuke to those who would have the kitten ratiocinate about the matter, but it fails to tell what real mental content is present. Does the kitten feel "sound of call, memory-image of milk in a saucer in the kitchen, thought of running into the house, a feeling, finally, of 'I will run in'?" Does he perhaps feel only the sound of the bell and an impulse to run in, similar in quality to the impulses which make a tennis player run to and fro when playing? The word association may cover a multitude of essentially different processes, and when a writer attributes anything that an animal may do to association his statement has only the negative value of eliminating reasoning on the one hand and instinct on the other...To give to the word a positive value and several definite possibilities of meaning is one aim of this investigation."
+> "We say that the kitten associates the sound "kitty kitty" with the experience of nice milk to drink, which does very well for a common-sense answer. It also suffices as a rebuke to those who would have the kitten ratiocinate about the matter, but it fails to tell what real mental content is present. Does the kitten feel "sound of call, memory-image of milk in a saucer in the kitchen, thought of running into the house, a feeling, finally, of 'I will run in'?" Does he perhaps feel only the sound of the bell and an impulse to run in, similar in quality to the impulses which make a tennis player run to and fro when playing? The word association may cover a multitude of essentially different processes, and when a writer attributes anything that an animal may do to association his statement has only the negative value of eliminating reasoning on the one hand and instinct on the other...To give to the word a positive value and several definite possibilities of meaning is one aim of this investigation."
 
-"Surely every one must agree that no man now has a right to advance theories about what is in animals' minds or to deny previous theories unless he supports his thesis by systematic and extended experiments. My own theories... will doubtless be opposed by many. I sincerely hope they will, provided the denial is accompanied by actual experimental work. In fact I shall be tempted again and again in the course of this book to defend some theory, dubious enough to my own mind, in the hope of thereby inducing some one to oppose me and in opposing me to make the experiments I have myself had no opportunity to make yet."
+> "Surely every one must agree that no man now has a right to advance theories about what is in animals' minds or to deny previous theories unless he supports his thesis by systematic and extended experiments. My own theories... will doubtless be opposed by many. I sincerely hope they will, provided the denial is accompanied by actual experimental work. In fact I shall be tempted again and again in the course of this book to defend some theory, dubious enough to my own mind, in the hope of thereby inducing some one to oppose me and in opposing me to make the experiments I have myself had no opportunity to make yet."
 
-To summarize these quotes, Thorndike was interested in settling debate and ideas about animal intelligence using laboratory techniques and the scientific method. This would involve creating reproducible situations in lab where animal behavior could be manipulated and observed under different experimental conditions. Thordike argued that his methods would be produce evidence about claims of animal intelligence, and that his methods could be used by other researchers both to verify his findings and to test his theories and claims even further. Thorndike's method of assessing associations in animals involved puzzle boxes, or the modern equivalent of [escape rooms](https://en.wikipedia.org/wiki/Escape_room) for animals.
+To summarize these quotes, Thorndike was interested in settling debate and ideas about animal intelligence using laboratory techniques and the scientific method. This would involve creating reproducible situations in lab where animal behavior could be manipulated and observed under different experimental conditions. Thordike argued that his methods would be produce evidence about claims of animal intelligence, and that his methods could be used by other researchers both to verify his findings and to test his theories and claims even further. Thorndike's method of assessing associations in animals involved puzzle boxes, or the modern equivalent of an [escape rooms](https://en.wikipedia.org/wiki/Escape_room) for animals.
 
 ### Thornike's basic methodology
 
@@ -160,24 +174,25 @@ Thorndike's methods produced clear findings. His first main finding was that his
 
 Thorndike's aim was to gain clarity on the kinds of associations that might be involved, and he speculated on logical stages and types of associations that his animals might have been learned. For example, he wrote:
 
----
+>There might be in an association, such as is formed after experience with one of our boxes, the following elements:
 
-There might be in an association, such as is formed after experience with one of our boxes, the following elements:
+::: blockquote
 
-1 . Sense-impression of the interior of the box, etc. 
-2. (a) Discomfort and (b) desire to get out.
+1. Sense-impression of the interior of the box, etc. 
+2. Discomfort and desire to get out.
 3. Representation of oneself pulling the loop.
 4. Fiat comparable to the human "I'll do it."
 5. The impulse which actually does it.
 6. Sense-impression of oneself pulling the loop, seeing one's paw in a certain place, feeling one's body in a certain way, etc.
 7. Sense impression of going outside.
-8. Senseimpression of eating, and the included pleasure. Also between 1 and 4 we may have 
+8. Sense impression of eating, and the included pleasure. Also between 1 and 4 we may have 
 9. Representations of one's experience in going out, 
 10. Of the taste of the food, etc.
 
----
+:::
 
-This list details a number of experiences and impulses that presumably occur from the time when an animal enters the box, to the time after it has escaped and is eating the food reward. The general associativist explanation would be than each of these components are associated with one another, possibly in a chain, such that triggering one of the elements would cause a chain reaction, and succesively trigger the next associated elements, thereby allowing the animal to proceed through the puzzle box and get the food reward.
+
+This list details a number of experiences and impulses that presumably occur from the time when an animal enters the box, to the time after it has escaped and is eating the food reward. The general associativist explanation would be that each of these components are associated with one another, possibly in a chain, such that triggering one of the elements would cause a chain reaction, and successively trigger the next associated element, thereby allowing the animal to proceed through the puzzle box and get the food reward.
 
 ### Experimental questions about associative processes
 
@@ -191,11 +206,8 @@ Thorndike found that cats, dogs, and chicks did not benefit from watching other 
 
 As we will see throughout this textbook, theories of cognition often invoke the concept of mental representation. The previous chapter on mental imagery was an example of debates about the format of mental representations and whether they have analog-image like qualities (e.g., like sensory experiences), or are fundamentally very different, perhaps like abstract propositional knowledge. Thorndike was optimistic his methods could help settle questions of mental representation in animals. For example, do animals have internal images that are used in a network of associations? Thorndike proposed the following experiment:
 
----
 
-"The only logical way to go at this question and settle it is, I think, to find some association the formation of which requires the presence of images, of ideas. You have to give an animal a chance to associate sense-impression A with sense-impression B and then to associate B with some act C so that the presence of B in the mind will lead to the performance of C. Presumably the representation of B, if present, will lead to C just as the sense-impression B did. Now, if the chance to associate B with A has been improved, you ought, when the animal is confronted with the sense-impression A, to get a revival of B and so the act C. Such a result would, if all chance to associate C with A had been eliminated, demonstrate the presence of representations and their associations." 
-
----
+> "The only logical way to go at this question and settle it is, I think, to find some association the formation of which requires the presence of images, of ideas. You have to give an animal a chance to associate sense-impression A with sense-impression B and then to associate B with some act C so that the presence of B in the mind will lead to the performance of C. Presumably the representation of B, if present, will lead to C just as the sense-impression B did. Now, if the chance to associate B with A has been improved, you ought, when the animal is confronted with the sense-impression A, to get a revival of B and so the act C. Such a result would, if all chance to associate C with A had been eliminated, demonstrate the presence of representations and their associations." 
 
 
 <!--
@@ -269,38 +281,106 @@ Around the same time as Thorndike was conducting experiments to better understan
 
 Thorndike approached his questions about animal learning from the perspective of Experimental Psychology, whereas Pavlov was skeptical of psychology as a natural science, and approached questions about animal learning from the perspective of a physiologist (or, a modern neurosciencist). Whereas Thorndike considered "psychic" phenomena such as mental images in his explanations of animal learning; Pavlov was more interested in measuring observable phenomena such as behavior, as well as physical substances, such as secretions, apparently produced by brain processes. Here are a few quotes from Pavlov:
 
-"The cerebral hemispheres stand out as the crowning achievement in the nervouse development of the animal kingdom. These structures in the higher animals are of considerable dimensions and exceedingly complex, being made up in man of millions upon millions of cells--centres or foci of nercous activity-- varying in size, shape, and arrangement, and connected with each other by countless branchings from their individual processes. Such complexity of strucgture naturally suggests a like complexity of function, which in fact is obvious in the higher animal and in man. Consider the dof, which has been for so many countless ages the servant of man. Think how he may be trained to perform various duties, watching hunting, etc. We know that this complex behaviour of the animal, undoubtedly involving the highest nervous activity, is mainly associated with the cerebral hemispheres. If we remove the hemispheres in the dog [@goltzHundOhneGrosshirn1892], the animal becomes not only incapable of performing these duties but also incapable even of looking after itself."
+> "The cerebral hemispheres stand out as the crowning achievement in the nervouse development of the animal kingdom. These structures in the higher animals are of considerable dimensions and exceedingly complex, being made up in man of millions upon millions of cells--centres or foci of nercous activity-- varying in size, shape, and arrangement, and connected with each other by countless branchings from their individual processes. Such complexity of strucgture naturally suggests a like complexity of function, which in fact is obvious in the higher animal and in man. Consider the dof, which has been for so many countless ages the servant of man. Think how he may be trained to perform various duties, watching hunting, etc. We know that this complex behaviour of the animal, undoubtedly involving the highest nervous activity, is mainly associated with the cerebral hemispheres. If we remove the hemispheres in the dog [@goltzHundOhneGrosshirn1892], the animal becomes not only incapable of performing these duties but also incapable even of looking after itself."
 
-"In astounding contrast with the unbounded activity of the cerebral hemispheres stands the meagre content of present-day physiological knowledge concerning them. Up to the year 1870, in fact, there was no physiology of the hemispheres; they seemed to be out of reach of the physiologist".
+> "In astounding contrast with the unbounded activity of the cerebral hemispheres stands the meagre content of present-day physiological knowledge concerning them. Up to the year 1870, in fact, there was no physiology of the hemispheres; they seemed to be out of reach of the physiologist".
 
 Pavlov wrestled with whether or not psychology should be involved with attempts to explain brain functions. He thought that the psychological perspective was less-exact and prone to non-physical interpretations, where the brain was implicated in some kind of "special psychical activity". And, he suggested that, "there is no need for the physiologist to have recourse to psychology", and that "investigations of the physiological activities of the hemispheres should lay a solid foundation for a future true science of psychology.".
 
 ### Descartes' reflex
 
-Before proceeding to describe his new experiments, Pavlov connected his work to philosophical ideas about humans and animals popularized much earlier by [René Descartes](https://en.wikipedia.org/wiki/René_Descartes) (1596-1650). Descartes was a rationalist philosopher who argued in favor of a dualist perspective on the mind. Humans had both a physical body that operated like a physical machine, and obeyed the laws and principles of physical machines. But, humans also had a soul, which somehow transcends the body, doesn't necessarily operate according to physical laws, and allows people to experience emotion and pain. Animals were viewed as less than human. They had physical bodies, but no soul. Although Descartes advocated for dualism, his ideas about how human and animal bodies behaved like complicated machines were inspirational to physiologists [@fearingReneDescartesStudy1929]. 
+::: floatrightbox25
 
-One of Descartes core ideas was the concept of a reflex, which is involves a clear-cut line of cause and effect between an impending stimulus or impulse, and a subsequent effect. For example, consider a kitchen sink, where twisting a handle opens a valve that let's water pour through the faucet ^[Descartes was apparently inspired by the complicated system of pipes in the royal gardens, hence the plumbing example]. This behavior of the sink machine is like a pre-determined reflex, the action of the impending stimulus (turning the handle) causes the response (water pouring out). A more familiar example is the [knee-jerk reflex](https://en.wikipedia.org/wiki/Patellar_reflex), where tapping a knee in the right spot can cause cause a leg to automatically kick up a little bit. Pavlov considered the possibility that the brain could be an extremely complicated system of reflexes, with many input pathways connected to output pathways. Of Descartes idea he wrote, 
+**Réne Descartes**
 
----
+```{r}
+knitr::include_graphics("imgs/René_Descartes.jpg")
+```
 
-"Our starting point has been Descartes' idea of the nervous reflex. This is a genuine scientific conception, since it implies necessity. It may be summed up as follows: An external or internal stimulus falls on some one or other nervous receptor and gives reise to a nervous impulse; this nervous impulse is transmitted along nerve fibres to the central nervous system, and here, on account of existing nervous connections, it gives rise to a fresh impulse which passes along outgoing nerve fibres to the active organ, where it excites a special activity of the cellular structures. Thus, a stimulus appears to be connected of necessity with a definite response, as cause with effect. It seems obvious that the whole activity of the organism should conform to definite laws." 
+:::
 
----
+Before describing his experiments, Pavlov connected his work to philosophical ideas about humans and animals popularized much earlier by [René Descartes](https://en.wikipedia.org/wiki/René_Descartes) (1596-1650). Descartes was a rationalist philosopher who advanced a dualist perspective of the mind. According to Descartes, humans had a physical body that operated like a physical machine that obeyed the laws and principles of physical machines. But, humans also had a soul that did not operate according to physical laws. The human soul was the mysterious quality that set humans apart from animals which were viewed as less than human. Animals had physical bodies, but no soul. Although Descartes advocated for dualism, his ideas about how human and animal bodies behaved like complicated machines were inspirational to physiologists [@fearingReneDescartesStudy1929], who would become proponents of explaining cognition solely in terms of physical processes. 
 
-Innate versus learned
+::: floatright25
 
+```{r}
+knitr::include_graphics("imgs/Patellar-knee-reflex.png")
+```
 
-### Simple acquisition
+:::
 
-In a simple acquisition procedure, an animal is housed in a controlled laboratory setting, and then they are given numerous "acquisition trials". On each trial, the animal is presented with a perceptual stimulus, like a loud tone, followed by a reward, like a food pellet. The reward stimulus is termed the unconditioned stimulus (UCS), which are stimuli that evoke responses without any prior learning. For example, animals salivate upon smelling food pellets, and they do not rely on any learning during the experiment to acquire this ability. Salivating is termed the unconditioned response (UCR).
+One of Descartes core ideas was the concept of a reflex, which involves a clear-cut line of cause and effect between an impending stimulus or impulse, and a subsequent effect. A common example is the [knee-jerk reflex](https://en.wikipedia.org/wiki/Patellar_reflex), where tapping a knee in the right spot can cause cause a leg to automatically kick up a little bit. 
+
+::: floatleft25
+
+```{r}
+knitr::include_graphics("imgs/st_germain.png")
+```
+
+:::
+
+In describing humans and animals as physical machines, Descartes was inspired by [the gardens at Saint-Germain-en-Laye](https://en.wikipedia.org/wiki/Château_de_Saint-Germain-en-Laye#16th–18th_centuries) [@vaccariDissolvingNatureHow2012]. The gardens were a marvel of hydraulic engineering. They contained an extensive network of pipes connected to fountains, and even controlled statues that had moving parts.
+
+::: floatright50
+
+```{r}
+knitr::include_graphics("imgs/Descartes_brain_large.png")
+```
+
+:::
+
+Descartes made an analogy between the pipes in the garden and the physiology of the body and brain. For example, Descartes drew the brain as a complicated system of hydraulic pipes that were connected in a network of cause and effect reflexes. In the garden, water pushed through a pipe could cause a statue to move on the other end. In the body and brain, liquids pushed through the nervous system would cause movements too, in the form of behaviors and reflexes.
+
+### Pavlov's liquid
+
+Pavlov considered the possibility that the brain could be an extremely complicated system of reflexes, with many input pathways connected to output pathways. Of Descartes idea he wrote, 
+
+> "Our starting point has been Descartes' idea of the nervous reflex. This is a genuine scientific conception, since it implies necessity. It may be summed up as follows: An external or internal stimulus falls on some one or other nervous receptor and gives reise to a nervous impulse; this nervous impulse is transmitted along nerve fibres to the central nervous system, and here, on account of existing nervous connections, it gives rise to a fresh impulse which passes along outgoing nerve fibres to the active organ, where it excites a special activity of the cellular structures. Thus, a stimulus appears to be connected of necessity with a definite response, as cause with effect. It seems obvious that the whole activity of the organism should conform to definite laws." 
+
+Pavlov was interested in discovering the so-called laws of stimulus-response pathways in the brain that ultimately govern human and animal behavior. Whereas his contemporary Thorndike had used measurements of behavior (like how long it took to escape from a puzzle box) Pavlov took a more direct physiological measurement approach. He observed that organs near the brain were involved in secreting various liquids. For example, when a dog smells food, it may begin to salivate. The stimulus sensation of smelling food caused a cascade of events, like water moving through a complicated system of pipes, culminating in a salivation response. In his laboratory, Pavlov was studying saliva responses in dogs when he discovered these stimulus-response pathways were not as simple as hard-wired reflexes. Instead, Pavlov discovered what is now commonly termed "classical conditioning", a form of association learning linking together new stimulus-response pathways. For brevity, we will review a small subset of classical conditioning phenomena: simple acquisition, extinction, and spontaneous recovery. However, it is worth noting that Pavlov's results inspired a much larger discipline centered on associative learning phenomena that is beyond the scope of this book. 
+
+### Simple acquisition and conditioning terminology
+
+::: floatrightbox50
+
+**Simple acquisition procedure** 
+
+```{r}
+knitr::include_graphics("imgs/Conditioning_Acquisition.png")
+```
+
+:::
+
+In a simple acquisition procedure, an animal is housed in a controlled laboratory setting and given numerous "acquisition trials". On each trial, the animal is presented with a perceptual stimulus, like a loud tone, followed by a reward, like a food pellet. The food pellet is a stimulus that normally causes the animal to salivate. Pavlov discovered that over the course of acquisition trials, the animal will begin to salivate in response to the loud tone, which was consistently paired with the food reward.
+
+Simple acquisition is an example of a classical conditioning phenomena that results from systematic pairing of particular kinds of stimuli and their responses. Before we discuss a few other examples of conditioning phenomena, we will first define terms commonly used to describe stimuli and responses in these procedures. These terms include the unconditioned stimulus (UCS) and the unconditioned response (UCR), and the conditioned stimulus (CS) and the conditioned response (CR).
+
+The unconditioned stimulus (UCS) evokes a response without any prior learning. For example, food stimuli such as food pellets or meat powder can be effective unconditioned stimuli because when animals salivate upon smelling the food. Importantly, an animal like a dog does not rely on any learning during the experiment to acquire this ability. Dog's come into the experiment with the ability to salivate in response to smelling food. 
+
+The unconditioned response (UCR) is the "automatic" or default response to an unconditioned stimulus. For example, salivating in response to smelling food is an unconditioned response.
 
 Another example of an unconditioned stimulus is a small puff of air to an eyelid. If you have ever had a small puff of air blown onto your eye, what was your immediate reaction? Blinking is a common immediate reaction, and is another example of an unconditioned response. 
 
-The perceptual stimulus is called the neutral or conditioned stimulus (CS). It is assumed to be a neutral stimulus that does not evoke the unconditioned response. For example, a loud tone would not normally evoke a salivation response in an animal. Pavlov was able to demonstrate that new associations or expectations can be established through the simple process of pairing a neutral conditioned stimulus (e.g., a tone) with an unconditioned stimulus (food reward). Specifically, after many acquisition trials, the animals would start salivating when they heard the tone, even if the food wasn't presented. 
+The conditioned stimulus (CS) is often a neutral perceptual stimulus that does not evoke the unconditioned response. For example, a loud tone or a bright light could be conditioned stimulus. Importantly, in our example, a loud tone would not normally evoke a salivation response (the UCR) in an animal. 
 
-In this case, it seems that neutral tone stimulus had picked up a new association of some kind. Perhaps the tone made the animal expect to receive food, and the expectation for food evoked salivation. Perhaps the tone somehow activated the salivation response directly. These are hypotheses about the kinds associations that were learned. , it was clear that something new was being learne.
+The conditioned response (CR) is the newly learned response evoked by the conditioned stimulus. For example, after a dog has acquired the association between hearing a tone and getting a food reward, the dog will begin to salivate in response to the tone. In this case, the conditioned stimulus (the tone) now evokes a conditioned response (salivating).
+
+#### Explaining simple acquisition
+
+In a simple acquisition procedure the animal appears to learn a new association. However, even the most basic phenomena of simple acquisition is not so simple to explain. For example, what kind of association was learned? Perhaps the tone made the animal expect to receive food, and the expectation for food evoked salivation. This kind of explanation could suggest that the neutral stimulus evokes something like a vivid mental image of eating delicious food, and the mental act of simulating the experience of eating delicious food is enough to somehow cause the salivation response. Notice also that this explanation itself is complicated because it invokes a concept of mental simulation, which itself is not a well-understood process, as part of the explanation. As an alternative, it is possible the neutral stimulus becomes directly associated with the salivation response. In this case, the neutral stimulus does not cause any mental images of eating delicious food, but it somehow directly causes salivation.
+It's also possible that both kinds of associations were learned.
 
 ### Extinction
+
+Can associations be unlearned? Pavlov addressed this question using an extinction procedure. The extinction phase followed the acquisition phase. In the extinction phase, the CS is presented alone without any reward. For example, after learning that a neutral tone (CS) signaled food reward (UCS) in an acquisition phase involving many CS-UCS pairings, the tone (CS) would be presented by itself on many trials with no food reward. 
+
+```{r}
+knitr::include_graphics("imgs/Conditioning_extinction.png")
+```
+
+On every extinction trial the questions were whether the animal would show the salivation response and how much saliva would be produced. Pavlov showed that over many extinction trials, the amount of saliva produced in response to the neutral stimulus decreased.
+
+
 
 ### Spontaneous Recovery
 

@@ -71,6 +71,6 @@ Thanks to Miriam Deutch (Associate Librarian for Access Services/Art Specialist)
 
 Note, the date reflects the latest compilation of this book. CITATION IS TBD WHILE THE PROJECT IS UNDER DEVELOPMENT.
 
-Crump, M. J. C. (2021, July 14). TBD. 
+Crump, M. J. C. (2021, July 19). TBD. 
 
 

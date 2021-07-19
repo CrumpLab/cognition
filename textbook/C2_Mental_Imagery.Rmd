@@ -33,9 +33,19 @@ In general, before progress can be made on all of those questions, a first step 
 
 Mental imagery is all about the subjective experience of being in your own mind. So, by this definition, there is only one person who really knows what it is like to be you, and you are that person. So, if you want to get the facts about your own mental imagery, is it possible for you to do that?
 
-One imperfect solution is called the method of introspection, which means to self-reflect on your experience of your own cognition. Introspection has been, and still is, employed as a tool by many psychologists. For example, early German psychologist Wilhem Wundt and American psychologist Edward Tichener advocated the use of introspection as a technique to generate knowledge about the mind. The related method of subjective report involves asking other people to introspect and then report on aspects of their own psychology. Subjective report methods are very common today in the form of questionnaires that ask people to make subjective judgments about their own psychology. Before considering the limitations of introspection and subjective report, let's see an example from mental imagery research.
+One imperfect solution is called the method of introspection, which means to self-reflect on your experience of your own cognition. Introspection has been, and still is, employed as a tool by many psychologists. For example, early German psychologist [Wilhem Wundt](https://en.wikipedia.org/wiki/Wilhelm_Wundt) (1832-1920) and American psychologist [Edward Titchener](https://en.wikipedia.org/wiki/Edward_B._Titchener) (1867-1927) advocated the use of introspection as a technique to generate knowledge about the mind. The related method of subjective report involves asking other people to introspect and then report on aspects of their own psychology. Subjective report methods are very common today in the form of questionnaires that ask people to make subjective judgments about their own psychology. Before considering the limitations of introspection and subjective report, let's see an example from mental imagery research.
 
 ### Galton's Statistics of mental imagery
+
+::: floatrightbox25
+
+**Sir Francis Galton**
+
+```{r}
+knitr::include_graphics("imgs/Francis_Galton.jpg")
+```
+
+:::
 
 One of the first attempts at studying mental imagery was by Sir Francis Galton [@galtonStatisticsMentalImagery1880]. In his paper on "Statistics of mental Imagery", Galton set out to "to define the different degrees of vividness with which different persons have the faculty of recalling familiar scenes under the form of mental pictures, and the peculiarities of the mental visions of different persons." How did Galton go about doing this?
 
@@ -43,7 +53,7 @@ One of the first attempts at studying mental imagery was by Sir Francis Galton [
 
 Galton came up with the "Breakfast table task", which is a series of structured questions about mental imagery, and then asked 100 people to answer his questions. The basic set of questions is reprinted below:
 
-------------------------------------------------------------------------
+::: blockquote
 
 "Before addressing yourself to any of the Questions on the opposite page, think of some definite object -- suppose it is your breakfast-table as you sat down to it this morning -- and consider carefully the picture that rises before your mind's eye. [p. 302]
 
@@ -51,13 +61,13 @@ Galton came up with the "Breakfast table task", which is a series of structured 
 2.  Definition. -- Are all the objects pretty well defined at the same time, or is the place of sharpest definition at any one moment more contracted than it is in a real scene?
 3.  Colouring. -- Are the colours of the china, of the toast, bread-crust, mustard, meat, parsley, or whatever may have been on the table, quite distinct and natural?"
 
-------------------------------------------------------------------------
+:::
 
 #### Galton's results
 
 Then, Galton recorded the answers that people gave and tried to make sense of them. Here are some of the answers from "100 men, at least half of whom are distinguished in science or in other fields of intellectual work." (reprinted from his original manuscript):
 
-------------------------------------------------------------------------
+::: blockquote
 
 *Cases where the faculty is very high.*
 
@@ -83,11 +93,11 @@ Then, Galton recorded the answers that people gave and tried to make sense of th
 
 91. My powers are zero. To my consciousness there is almost no association of memory with objective visual impressions. I recollect the breakfast table, but do not see it.
 
-------------------------------------------------------------------------
+:::
 
 #### Galton's conclusion
 
-Before considering Galton's conclusion, consider what he could have found, and what he might have concluded instead. For example, if everyone has the same kind of vivid visual mental imagery, he could have found very different subjective reports. In this case, everybody might have said that they have very strong and vivid visualizing powers. But, it turns out, this is not what people said. Instead, Galton's major conclusion and potential discovery was evidence for a wide variety of individual differences in mental imagery. Some people reported having very strong powers of mental visualization, some people reported having medium abilities, and other people reported having essentially no abilities to visualize anything in their mind's eye at all.
+First consider what Galton could have found, and what he might have concluded instead. If you, the reader, have vivid mental imagery, then you might have expected that everyone else does too. In this case, Galton could have found his respondents giving similar descriptions of their imagery. Everybody might have said that they have very strong and vivid visualizing powers. But, it turns out, this is not what people said. Instead, Galton's major conclusion and potential discovery was evidence for a wide variety of individual differences in mental imagery. Some people reported having very strong powers of mental visualization, some people reported having medium abilities, and other people reported having no abilities to visualize anything in their mind's eye at all.
 
 If we are attempting to explain a cognitive ability like mental imagery, and Galton's results provide facts that we can trust, then the task of explaining mental imagery just got a little bit harder. For example, not only do we have to explain how people could visualize a picture in their minds eye, we also have to explain the facts that some people may do this differently, and some people may not be able to do it at all. This is a good example of the increasing complexity that comes along with the research process of gathering facts about a phenomena: asking questions uncovers more facts that raise more questions and require even more explanation.
 

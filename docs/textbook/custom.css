@@ -2,8 +2,9 @@
 
 :root{
   --primary: #079fe0;
-  --secondary: #67bce0;
-  --third: #c4fa46;
+  --first: #b3f2ff;
+  --secondary: #b3ffb3;
+  --third: #ffddab;
   --fourth: #ba65a0;
   --textbox: #f06cc8;
 }
@@ -23,7 +24,7 @@ p {
   font-family: 'Montserrat Alternates' !important;
   /*background-color: #fef5ff !important; */
   /*background-color: var(--secondary) !important;*/
-  background-image: linear-gradient(to right, #fff, var(--primary));
+  background-image: linear-gradient(to right, #fff, var(--first));
   border-radius: 5px;
 }
 
@@ -87,7 +88,7 @@ blockquote p {
     width: 80%;
   }
 
-  .floatrightbox {
+.floatrightbox {
     float: none;
     width: 80%;
     padding: 10px;
@@ -95,6 +96,22 @@ blockquote p {
     border: 2px solid #713a8a;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
   }
+}
+
+.floatright25 {
+  float: right;
+  width: 25%;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.floatleft25 {
+  float: left;
+  width: 25%;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 
 .floatright50 {
@@ -105,7 +122,7 @@ blockquote p {
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 
-.floatrightbox {
+.floatrightbox50 {
   float: right;
   width: 50%;
   padding: 10px;
@@ -113,6 +130,18 @@ blockquote p {
   border-radius: 15px;
   border: 2px solid var(--textbox);
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  background-color: white;
+}
+
+.floatrightbox25 {
+  float: right;
+  width: 25%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  border: 2px solid var(--textbox);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  background-color: white;
 }
 
 
@@ -123,4 +152,17 @@ blockquote p {
   border-radius: 15px;
   border: 2px solid var(--textbox);
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.blockquote {
+  font-weight: 200 !important;
+  font-family: 'Work Sans:ital', sans-serif !important;
+  font-style: italic !important;
+  border-left: 0.5rem solid #eee;
+  padding-left: 0.5rem;
+  margin-left: -0.5rem;
+}
+
+.blockquote ol {
+  padding-left: 45px;
 }

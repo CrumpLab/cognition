@@ -105,7 +105,9 @@ general-concept-formation
 further-associative-questions
 pavlovs-classical-conditioning
 descartes-reflex
-simple-acquisition
+pavlovs-liquid
+simple-acquisition-and-conditioning-terminology
+explaining-simple-acquisition
 extinction
 spontaneous-recovery
 tolmans-rats
@@ -126,3 +128,6 @@ attention
 language-and-semantic-cognition
 judgment-and-decision-making
 thinking
+header-level-1
+header-level-2
+header-level-3
