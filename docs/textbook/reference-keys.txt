@@ -109,6 +109,7 @@ pavlovs-liquid
 simple-acquisition-and-conditioning-terminology
 explaining-simple-acquisition
 extinction
+explaining-extinction
 spontaneous-recovery
 tolmans-rats
 a-note-on-behaviorism
@@ -131,3 +132,17 @@ thinking
 header-level-1
 header-level-2
 header-level-3
+naturenurture
+translating-binet
+summer-2020-covid-19-pandemic-summer-in-brooklyn
+a-brief-history-of-psychology
+naturenurture-1
+translating-binet-1
+summer-2020-covid-19-pandemic-summer-in-brooklyn-1
+a-brief-history-of-psychology-1
+associationism
+animal-cognition
+more-associative-context
+conceptual-implications-for-cognition
+associationism-and-behaviorism
+associative-learning
