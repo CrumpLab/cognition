@@ -17,7 +17,8 @@ knitr::kable(info)
 
 ## Chapter overview
 
-The previous chapter spanned research related to cognitive abilities that spanned roughly from the 1860s to the 1960s. In telling that history, I focused on a particular style of psychological research, termed Individual Differences Psychology. For example, in addition to developing mental tests, Alfred Binet wrote more broadly about his school of "Individual Psychology" [@nicolasProgramIndividualPsychology2014], that would measure a greater variety of human attributes, and use the measurements to make society more efficient. Individual differences was not the only approach to cognitive abilities. Instead, the methods of Experimental Psychology were also used to ask and answer questions about cognitive abilities. This chapter describes a brief history of formative theories and findings about cognition from Experimental Psychology, that led into the cognitive revolution of the 1960s and 70s. Specifically, we will look at early learning theories and associationism, followed by the introduction of information theory, both of which continue to animate debates about how cognition works.
+The previous chapter covered research on cognitive abilities spanning roughly from the 1860s to the 1960s from the perspective of individual differences psychology. For example, in addition to developing mental tests, Alfred Binet wrote more broadly about his school of "Individual Psychology" [@nicolasProgramIndividualPsychology2014], that was aimed at using measurements of variation in human attributes to make society more efficient. Individual differences was not the only approach to cognitive abilities. Instead, the methods of experimental psychology were also used to ask and answer questions about cognitive abilities. Experimental psychologists also developed tests, but they more often took the form of experimental manipulations. And, the results of the experiments were used to evaluate theories about how cognitive processes work. This chapter will focus on associationism and early empirical work on associative learning processes in humans and  non-human animals.
+
 
 ```{=html}
 <!--
@@ -392,35 +393,11 @@ Pavlov's discovery of spontaneous recovery was a clue that extinction learning i
 
 According to the string-like explanation of associative-bonds above, spontaneous recovery should not be possible because the connection between conditioned stimulus and response should have been broken. Instead, the phenomena of spontaneous recovery invites alternative explanations. One possibility is that extinction does deteriorate an existing associative bond, but never perfectly. As a result, it is possible for the connection to spontaneously recover sometimes. Another possibility is that extinction is more about learning to suppress an already learned association. In this case, it is possible that the suppressive response detiorates over time, allowing the original learned association to spontaneously recover. Another possibility is that learning is highly context-sensitive. As a result, extinction of a conditioned response may occur more strongly in the environment where the extinction training occurred, and the spontaneous recovery of the response may be more likely in other environments not associated with the extinction training.
 
-## More associative context
+## Conclusions
 
-This chapter introduced associationist ideas about cognition through early philosophy and early experimental psychology work on animals by Thorndike and Pavlov. In terms of a historical timeline, we have not moved much past the 1920s. In the next chapter on information processing we will make excursions into the 1950s. Before we move on, I have a few concluding remarks about associationism, including its role in cognition, and psychology at large.
+This chapter introduced associationist ideas about cognition through early philosophy and early experimental psychology work on animals by Thorndike and Pavlov. The associationist philosophers were developing early process theories of how cognition works. A process theory includes a recipe of how individual parts interact together to produce some output. For associationists, the big claim about cognition was that it involved associative learning processes. These learning processes were assumed to create knowledge about the world by the process of experiencing events and objects in the world through sensory channels. Early experimental psychologists like Thorndike and Pavlov gave additional credence to the concept of associations as an acceptable unit of scientific study. Their laboratory methods, especially Pavlov's, inspired whole branches and schools of psychology interested in measuring associative learning processes, some of which have continued to the modern day. Throughout this textbook we will occasionally return to the literature on associative learning, which has succeeded in identifying numerous empirical phenomena and creating detailed mathematical process models of the association formation process; all of which are relevant to cognition--especially, if, as the associationists claimed, cognition is fundamentally about learning associations.
 
-### Conceptual implications for cognition
-
-The associationist philosophers were developing early process theories of how cognition works. A process theory includes a recipe of how individual parts interact together to produce some output. For associationists, the big claim about cognition was that it involved associative learning processes. These learning processes were assumed to create knowledge about the world by the process of experiencing events and objects in the world through sensory channels. Early experimental psychologists like Thorndike and Pavlov gave additional credence to the concept of associations as an acceptable unit of scientific study. Their laboratory methods, especially Pavlov's, inspired whole branches and schools of psychology interested in measuring associative learning processes, some of which have continued to the modern day. Throughout this textbook we will occasionally return to the literature on associative learning, which has succeeded in identifying numerous empirical phenomena and creating detailed mathematical process models of the association formation process; all of which are relevant to cognition--especially, if, as the associationists claimed, cognition is fundamentally about learning associations.
-
-### Associationism and Behaviorism
-
-Associationism is sometimes tied together with the school of [Behaviorism](https://en.wikipedia.org/wiki/Behaviorism) in psychology. Behaviorism came to prominence in American psychology between the 1910s and 1950s, and cognitive psychology is also portrayed somewhat as a reaction to behaviorism. Two prominent behaviorists were [John B. Watson](https://en.wikipedia.org/wiki/John_B._Watson) and [B.F. Skinner](https://en.wikipedia.org/wiki/B._F._Skinner). A basic tenet of behaviorism was that psychology should only use objective and observable measurements, and not use subjective measures, like introspection. On this view, questions about subjective experiences like mental imagery were not valid because they would rely on subjective introspective report. Instead, psychology should focus on measuring observable properties of stimuli and behavior, and should attempt to discover laws relating patterns of stimulation to patterns of behavioral responses.
-
-Behaviorism has a complicated history beyond the scope of this book. However, it is worth making a few notes. First, behaviorism appeared alongside with the rise of experimental psychology as a new academic and scientific discipline in America. Early experimental psychologists were very concerned that psychology should be considered as a "hard natural science", and behaviorism partly reflects a desire among some psychologists to present themselves as hard scientists, and to make broad claims about what gets to count as science.
-
-Second, behaviorism became popular alongside the eugenics movement. At first glance, it might seem that behaviorism and eugenics would be unrelated. For example, J. B. Watson, who wrote the "Behaviorist Manifesto" in 19XX, is famous for the following quote:
-
-> 
-
-### Associative learning
-
-
-
-
-
-
-
-
-
-
+In the next two chapters we will visit two more major perspectives that lead into the emergence of modern cognitive psychology in the 1960s and 70s. Chapter 6 covers the school of behaviorism, and Chapter 7 covers the introduction of information theory to psychology.
 
 
 ```{=html}
