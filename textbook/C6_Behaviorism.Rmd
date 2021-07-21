@@ -1,0 +1,30 @@
+```{r, include = FALSE}
+source("global_stuff.R")
+```
+
+# Behaviorism
+
+```{r, cache=FALSE}
+word_count <- wordcountaddin::word_count("C6_Behaviorism.Rmd")
+wpm <- 200
+reading_time <- paste0(round(word_count/wpm, 1), " minutes")
+info <- data.frame(word_count,reading_time)
+colnames(info) <- c("Word Count","Reading Time")
+knitr::kable(info)
+```
+
+## Overview
+
+Why talk about behaviorism?
+
+## The Rabbit Hole
+
+## Watson's Behaviorism
+
+## Skinner's Radical Behaviorism
+
+## Associationism and Behaviorism
+
+## Tolman's Rats
+
+

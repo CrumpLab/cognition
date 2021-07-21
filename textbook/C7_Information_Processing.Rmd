@@ -5,7 +5,7 @@ source("global_stuff.R")
 # Information Processing
 
 ```{r, cache=FALSE}
-word_count <- wordcountaddin::word_count("C6_Information_Processing.Rmd")
+word_count <- wordcountaddin::word_count("C7_Information_Processing.Rmd")
 wpm <- 200
 reading_time <- paste0(round(word_count/wpm, 1), " minutes")
 info <- data.frame(word_count,reading_time)
