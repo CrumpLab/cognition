@@ -5,7 +5,7 @@
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|       1420|7.1 minutes  |
+|       2069|10.3 minutes |
 
 ## Overview
 
@@ -33,9 +33,34 @@ Although the cognitive sciences have been around for quite some time, there is n
 
 ## Watson's Behaviorism
 
-Associationism is sometimes tied together with the school of [Behaviorism](https://en.wikipedia.org/wiki/Behaviorism) in psychology. Behaviorism came to prominence in American psychology between the 1910s and 1950s, and cognitive psychology is also portrayed somewhat as a reaction to behaviorism. Two prominent behaviorists were [John B. Watson](https://en.wikipedia.org/wiki/John_B._Watson) and [B.F. Skinner](https://en.wikipedia.org/wiki/B._F._Skinner). A basic tenet of behaviorism was that psychology should only use objective and observable measurements, and not use subjective measures, like introspection. On this view, questions about subjective experiences like mental imagery were not valid because they would rely on subjective introspective report. Instead, psychology should focus on measuring observable properties of stimuli and behavior, and should attempt to discover laws relating patterns of stimulation to patterns of behavioral responses.
+In this chapter we will look at behaviorism from the point of view of [John B. Watson](https://en.wikipedia.org/wiki/John_B._Watson) (1878-1958), and we will focus on two major themes: socio-historical context for Watson's claims, and implications of Watson's claims for cognition.
 
-Behaviorism has a complicated history beyond the scope of this book. However, it is worth making a few notes. First, behaviorism appeared alongside with the rise of experimental psychology as a new academic and scientific discipline in America. Early experimental psychologists were very concerned that psychology should be considered as a "hard natural science", and behaviorism partly reflects a desire among some psychologists to present themselves as hard scientists, and to make broad claims about what gets to count as science.
+Watson completed his Ph.D. at the University of Chicago in 1903. By 1908, he became chair of the Psychology department at Johns Hopkins University. He published "Psychology as the Behaviorist Views it" in 1913, and became the APA president the following year in 1915. Like many of his contemporaries (including his Ph.D. advisor), he apparently held eugenical views because he was listed in the Eugenical News as a new active member of the american eugenics research association. Watson conducted fear-conditioning research on orphaned infants, and is infamous for the "[Little Albert](https://en.wikipedia.org/wiki/Little_Albert_experiment)" experiment, published in 1920. Also in 1920, Watson was fired from his position at John Hopkins as a part of a divorce scandal. He took an advertising job in New York and did not continue as an academic. However, he continued to publish popular science books, such as Behaviorism in 1924. 
+
+Watson's role in psychology can take on a positive light. In 1957, shortly before his death, he received the gold medal from the American Psychological Association for his contributions to the field. Proponents of the modern  field of [applied behavior analysis](https://en.wikipedia.org/wiki/Applied_behavior_analysis) have argued that historical descriptions of Watson's views that appear in textbooks have been inaccurate, and should be corrected so that Watson can be better appreciated  [@toddWhatPsychologyHas1994]. For example, in the 1970s many textbooks published claims that Watson was conducting early experiments in sex research by copulating with his graduate student. However, historical research into those allegations have been inconclusive [@benjaminJohnWatsonAlleged2007].
+
+Watson has also been presented in a very negative light. For example, in the book Scientific Pollyannism, Yakushko describes Watson as an advocate of eugenics, and that his research was "filled with what could be described as sadistic experiments on infants and young children, many of whom Watson acknowledges to be orphans or children who were institutionalized under his care at a children’s hospital." [@yakushkoScientificPollyannaismInquisition2019]. 
+
+Watson wrote widely on behaviorist techniques that parents could use to raise more superior children. These writings reiterated themes from eugenics on how superior parents can breed superior children, but allowed space for behaviorist interventions to play some role for gifted parents to nurture their children into even more gifted beings than would be possible by genetics alone. For example, the following quote appears in a book co-authored by Watson.
+
+> "Superior parents have no guarantee that their children will be superior. No one can predict the qualities that will arise from their combination, for millions of possibilities are equally open. Superior parents must watch and help their children with the same anxious care that others must use. Of course we know that gifted parents are much more likely to produce gifted children, inferior parents inferior children."  [@jenningsSuggestionsModernScience1918].
+
+Although Watson left academia when he was fired in 1920, he did not stop experimenting on children. Instead, he wrote about applying his behaviorist techniques on his own children, and described thought-experiments where he wished he could electrify his son Billy's toys, and then shock the other son Jimmy when ever he tried to touch them, as a way to teach him to avoid Billy's toys [@watsonPsychologicalCareInfant1928]. Paraphrasing from Yakushko [pg 107, @yakushkoScientificPollyannaismInquisition2019], she discusses the family survivors of Watson's experimentation and notes that his children claimed they were damaged by his behaviorist parenting. Polly Watson became an alcoholic and was regularly hospitalized for suicide attempts. John Watson died of a bleeding ulcer that he attributed to his father's feeding schedule. William Watson published scathing personal letters about his fathers abuse in Life Magazine. Billy Watson committed suicide in his 30s. James Watson, the youngest son, became a vocal critic of his father and gave public interviews about recovering from Watson's abuse. 
+
+
+and writes that Polly, John, William, and Billy Watson suffered 
+
+
+
+
+
+Watson is an intriguing figure in psychology for several reasons. He wasn't officially in the discipline very long (17 years), but he quickly rose in prominence, and almost as quickly left. He is widely mentioned as an important figure in psychology in textbooks. However, 
+
+
+
+A basic tenet of behaviorism was that psychology should only use objective and observable measurements, and not use subjective measures, like introspection. On this view, questions about subjective experiences like mental imagery were not valid because they would rely on subjective introspective report. Instead, psychology should focus on measuring observable properties of stimuli and behavior, and should attempt to discover laws relating patterns of stimulation to patterns of behavioral responses.
+
+First, behaviorism appeared alongside with the rise of experimental psychology as a new academic and scientific discipline in America. Early experimental psychologists were very concerned that psychology should be considered as a "hard natural science", and behaviorism partly reflects a desire among some psychologists to present themselves as hard scientists, and to make broad claims about what gets to count as science.
 
 Second, behaviorism became popular alongside the eugenics movement. At first glance, it might seem that behaviorism and eugenics would be unrelated. For example, J. B. Watson, who wrote the "Behaviorist Manifesto" in 19XX, is famous for the following quote:
 
