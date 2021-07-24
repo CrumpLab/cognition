@@ -106,6 +106,16 @@ blockquote p {
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 
+
+
+.centerfigureshadow {
+  text-align: center;
+  width: 80%;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
 .floatleft25 {
   float: left;
   width: 25%;
