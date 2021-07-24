@@ -1,9 +1,9 @@
 --- 
 title: Instances of Cognition
-subtitle: An introductory textbook
+subtitle: Findings, Explanations, Applications, and Implications
 author: "Matthew J. C. Crump"
 site: bookdown::bookdown_site
-
+description: An introduction to cognitive psychology and open educational resource
 documentclass: book
 
 bibliography: CogPsyTextbook.bib
