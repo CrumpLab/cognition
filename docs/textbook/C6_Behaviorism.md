@@ -5,7 +5,7 @@
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|       4156|20.8 minutes |
+|       5318|26.6 minutes |
 
 ## Overview
 
@@ -132,7 +132,46 @@ Finally, Watson promoted behaviorism as more than the correct scientific way to 
 
 <img src="imgs/Watson_sweep.png" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
 
-## Tolman's "cognitive" behaviorism
+## Tolman's "Purposive" behaviorism
+
+[Edward C. Tolman's](https://en.wikipedia.org/wiki/Edward_C._Tolman) (1886-1959) flavor of behaviorism incorporated elements that are common in modern cognitive psychology. In 1932, he wrote "Purposive Behavior in Animals and Men" [@tolmanPurposiveBehaviorAnimal1932], which summarizes his research and views on behaviorism. In presenting his view, Tolman points out that numerous authors, such as "Holt, Perry, Singer, de Laguna, Hunter, Weiss, Lashley" had been developing their own versions of behaviorism, and refers to Roback's "Behaviorism and Psychology", for "the best analysis and bibliography of the different varieties of behaviorims extant to 1923". I mention the diversity of views to emphasize the difficulty of treating the period of behaviorism as single monolithic entity. Instead, much like there are numerous views on cognition today, there were numerous views on behaviorism. Similarly, it is worth noting that there were many non-behaviorist views on psychology and non-behaviorist lines of research that were ongoing throughout the so-called period of behaviorism.
+
+After some training in Germany, Tolman received his Ph.D. at Harvard under [Edwin Holt](https://en.wikipedia.org/wiki/Edwin_Holt) in 1915, who had worked under [Hugo Munsterberg](https://en.wikipedia.org/wiki/Hugo_Münsterberg). He is well-known for his research on maze-learning in rats, which is the focus of this section. In addition to basic research on learning processes in rats, Tolman also had an applied side. For example, following world war II, he wrote "Assessment of Men" [], which describes how he coordinated psychological testingfor personnel assignment in the division, X.
+
+### Molar definition of behavior
+
+Tolman suggested that Watson had given a "molecular" definition of behaviorism, which supplied important units like stimulus and response, and reduced behavior to "strict physical and physiological muscle-twitches". Tolman ^[and others, Holt, de Laguna, Weiss] argued in favor of a "molar" definition of behaviorism, which is the idea that behaviors are things in and of themselves that could be studied, irrespective of their "molecular" units. To quote from Tolman:
+
+> "An act qua 'behavior' has distinctive properties all its own. These are to be identified and described irrespective of whatever muscular, glandular, or neural processes underlie them. These new properties, thus distinctive of molar behavior, are presumably strictly correlated with and, if you will, dependent upon, physiological motions. But descriptively and per se they are other than these motions."
+
+> "A rat running a maze, a cat getting out of a puzzle box, a man driving home to dinner, a child hifing from a stranger, a woman doing her washing or gossiping over the telephone, a pupil marking a mental test sheet, a psychologist reciting a list of nonsense syllables, my friend and I telling one another our thought and feelings-- these are behaviors (qua molar). And it must be noted that in mentioning no one of them have we referred to, or, we blush to confess it, for the most part even known, what were the exact muscles and glands, sensory nerves, and motor nerves involved. For these responses somehow had other sufficiently identifying properties of their own."
+
+### Purposive and cognitive determinants
+
+Watson's stimulus-response behaviorism identify S and R as the important objective units of analysis, and they neglect or deliberately ignore the the purpose of behavior, and potential cognitive processes intervening between perception of a stimulus and final production of a response. In suggesting that behavior should be studied as a wholisitic molar unit in and of itself, Tolman further argued that additional terms were necessary to describe the purposes and cognitive mechanisms of behavior. In some sense, Tolman's ideas appeared to revisit the intangible mental operations that inspired behaviorist critiques of "mentalist" psychology. However, Tolman also proceeded in the positivist tradition and was at pains to clarify that his new terms were intended only as descriptors. For example, just like it would be OK to describe a stimulus as being "green", without implying anything about an inner mental experience of seeing a green object; Tolman thought it would be useful and necessary for a science of behavior to describe behaviors as having purposes and cognitions--but only for descriptive purposes, and not to imply the inner mental processes.
+
+The following quotes show Tolman building his argument to use terms for purpose and cognition to more fully describe behavior.
+
+> "Behavior in our sense, always seems to have the character of getting to or getting-from a specific goal object, or goal situation. The complete identification of an single behavior act requires, that is, a reference first to some particular goal object or objects which that act is getting to, or, it may be, getting from, or both. Thus, for example, the rat's behavior of "running the maze" has as its first and perhaps most important identifying feature the fact that it is a getting to food".
+
+> "To sum up, the complete descriptive identification of any behavior act per se requires descriptive statements relative to (a) the goal-object or objects, being got to or from, (b) the specific pattern of commerces with means-objects involved in this getting to or from, and (c) the facts exhibited relative to the selective identification of routes and means-objects as involving short (easy) commerces with means-objects for thus getting to or from"
+
+> "But surely any "tough minded" reader will by now be up in arms. For it is clear that thus to identify behaviors in erms of goal-objects, and patterns of commerces with means-objects as selected short ways to get to or from the goal-objects, is to imply something perilously like purposes and cognitions. And, this surely will be offensive to any hard headed, well brought up psychology of the present day"
+
+> "And yet, there seems to be no other way out. Behavior as behavior, that is, as molar, is purposive and is cognitive. These purposes and cognitions are of its immediate descriptive warp and woof. It no doubt is strictly and completely dependent upon an underlying manifold of physics and chemistry, but initially and as a matter of first identification, behavior as behavior reeks of purpose and of cognition."
+
+> "Finally, however, it must nonetheless be emphasized that purposes and cognitions which are thus immediately, immanently, in behavior are wholly objective as to definition. They are defined by characters and relationships which we observe out there in the behavior. We, the observers, watch the behavior of the rat, the cat, or the man, and note its character as a getting to such and such by means of such and such a selected pattern of commerces-with. It is we, the independent neutral observers, who note these perfectly objective characters as immanent in the behavior and have happened to choose the terms purpose and cognition as generic names for such characters."
+
+### The rat in the maze
+
+Describe a maze experiment
+
+- role of purposes (rat wants to get food at the end)
+- role of cognition (rat has a choice point, chooses to go shortest way)
+
+Tolman wants to acknowledge the purposive and cognitive aspects of the behavior, without granting that purpose or cognition are entities in their own right. (what get's to count as a scientific entity?)
+
+
 
 ## Hull's mathematical behaviorism
 
