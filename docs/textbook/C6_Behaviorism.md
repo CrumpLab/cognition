@@ -5,7 +5,7 @@
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|       8370|41.9 minutes |
+|       8366|41.8 minutes |
 
 ## Overview
 
@@ -300,7 +300,4 @@ Hull's mathematical theory did not succeed in explaining and predicting behavior
 
 ## Skinner's "Radical" Behaviorism
 
-## Modern Behaviorism
-
-## Internet Behaviorism
 
