@@ -5,7 +5,7 @@
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|       8366|41.8 minutes |
+|       8454|42.3 minutes |
 
 ## Overview
 
@@ -44,6 +44,10 @@ One backdrop I term scientific credentialism, which involves making claims about
 
 ### Positivism
 
+::: floatright25
+<img src="imgs/Auguste_Comte.jpg" width="100%" />
+:::
+
 [Auguste Comte](https://plato.stanford.edu/entries/comte/) (1798–1857) created positivism as a part of founding [sociology](https://en.wikipedia.org/wiki/Sociology). He was a French philosopher writing during a period of social upheaval ^[e.g., the [1848 French revolution](https://en.wikipedia.org/wiki/Revolutions_of_1848) to remove the monarchy]. His work is an early example of a [philosophy of science](https://en.wikipedia.org/wiki/Philosophy_of_science) attempting to define attributes and processes of science, as well as hierarchical relations between scientific disciplines. He argued that science and society develops through theological, metaphysical, and positive stages to explain natural phenomena. In the theological phase, phenomena are explained by supernatural powers. For example, the mind is attributed to soul or spiritual forces. The metaphysical stage replaces the supernatural forces with abstractions. For example, the mind is psychic forces. In the positive stage a description system is achieved, whereby the scientific process will eventually describe the nouns and verbs of a phenomena. The nouns are the features of a phenomena, and the verbs are the mathematical laws that describe actions of the features. For example, the work of B.F. Skinner (at the end of this chapter), is an example of reducing cognition and behavior to a descriptive system in the positive tradition.
 
 ### Scientific Utopianism
@@ -67,6 +71,10 @@ Pavlov's methods and findings arrived in America at the same time that psycholog
 In the remaining sections, instances of behaviorism are explored further by examining prominent individuals and their individual flavors of behaviorism. There were/are many behaviorists, but this chapter limits discussion to J. B. Watson, [Edward Tolman](https://en.wikipedia.org/wiki/Edward_C._Tolman) (1886–1959), [Clark L. Hull](https://en.wikipedia.org/wiki/Clark_L._Hull) (1884-1952) and [Burrhus F. Skinner](https://en.wikipedia.org/wiki/B._F._Skinner) (1904–1990).
 
 ## Watson's "Salesman" Behaviorism
+
+::: floatright25
+<img src="imgs/John_Broadus_Watson.jpg" width="100%" />
+:::
 
 J. B. Watson is one of the controversial figures I alluded to earlier. He is credited with ushering in behaviorism, and although he did push it in, he also left psychology soon after.
 
@@ -133,6 +141,10 @@ Finally, Watson promoted behaviorism as more than the correct scientific way to 
 <img src="imgs/Watson_sweep.png" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
 
 ## Tolman's "Purposive" behaviorism
+
+::: floatright25
+<img src="imgs/Tolman_portrait.jpg" width="100%" />
+:::
 
 [Edward C. Tolman's](https://en.wikipedia.org/wiki/Edward_C._Tolman) (1886-1959) flavor of behaviorism incorporated elements that are common in modern cognitive psychology. In 1932, he wrote "Purposive Behavior in Animals and Men" [@tolmanPurposiveBehaviorAnimal1932], which summarizes his research and views on behaviorism. In presenting his view, Tolman points out that numerous authors, such as "Holt, Perry, Singer, de Laguna, Hunter, Weiss, Lashley" had been developing their own versions of behaviorism, and refers to Roback's "Behaviorism and Psychology", for "the best analysis and bibliography of the different varieties of behaviorims extant to 1923". I mention the diversity of views to emphasize the difficulty of treating the period of behaviorism as single monolithic entity. Instead, much like there are numerous views on cognition today, there were numerous views on behaviorism. Similarly, it is worth noting that there were many non-behaviorist views on psychology and non-behaviorist lines of research that were ongoing throughout the so-called period of behaviorism.
 
@@ -210,7 +222,7 @@ Tolman credits De Camp [@decampRelativeDistanceFactor1920] with connecting the r
 
 :::
 
-Tolman to another interesting experiment by Gengerelli [@gengerelliPrincipleMaximaMinima1930], showing that rats can learn to take the shortest or most efficient path through a maze. The figure shows Gengerelli's maze, which looks kind of like a [plinko board](). The maze included numerous choice points where a rat could decide to turn left or right and take an open pathway or not. For example, imagine how many ways you could solve the maze with by drawing a line from the start to the finish. There are many ways, and some are longer than others. Gengerelli showed that, given multiple attempts, rats will begin taking shorter paths to get the food reward at the end. 
+Tolman to another interesting experiment by Gengerelli [@gengerelliPrincipleMaximaMinima1930], showing that rats can learn to take the shortest or most efficient path through a maze. The figure shows Gengerelli's maze, which looks kind of like a [bean machine](https://en.wikipedia.org/wiki/Bean_machine). The maze included numerous choice points where a rat could decide to turn left or right and take an open pathway or not. For example, imagine how many ways you could solve the maze with by drawing a line from the start to the finish. There are many ways, and some are longer than others. Gengerelli showed that, given multiple attempts, rats will begin taking shorter paths to get the food reward at the end. 
 
 ::: floatrightbox50
 
@@ -220,19 +232,19 @@ Tolman to another interesting experiment by Gengerelli [@gengerelliPrincipleMaxi
 
 As a last example, Tolman [@samsTimeDiscriminationWhite1925] showed that rats are capable of temporal discrimination, and appear to make choices while navigating a maze that reduce the amount of time taken to get a food reward. Tolman's temporal discrimination maze is shown in the figure. Rats started at the entrance (E), and attempted to find the food in the room on the other side (F). However, when the rats took the A corridor to the left, or the B corridor to the right, they were detained for different amounts of time in the "detention" rooms (D) on both sides of the maze. For example, rats would be detained for one to two minutes on the left side, or three to four minutes on the right side. After the first phase were rats experienced the delays, they were allowed to navigate the maze without being detained. The rat's showed a preference to take the route associated with the shortest temporal delay.
 
-### Rat model of eugenics
+### Tolman's inheritance project: A rat model of eugenics
 
 Animals like rats have been used in research for many purposes. The animal may be an object of the research in its own right, or used as a model example to investigate something else, or both. For example, rats are commonly used as models for human disorders such as eating disorders and schizophrenia. One goal of research using animal models of disorders is to develop cures for the disorder in rats that could generalize to humans.
 
-Tolman conducted animal research using rats that had elements of both styles of research. He was interested in the behavior of rats as an object of study in its own right, but also as a model in at least two respects. First, Tolman was interested in using rats as model for building a descriptive science of behavior that could be generalized to other animals. In this first respect, Tolman used his maze-running experiments to argue in favor of expanding the terms in the descriptive science of behaviorism--specifically, behaviorism should include terms for describing the purposive and cognitive aspects of behaviors. Second, Tolman conducted another line of maze-running experiments that I will describe as Tolmans' rat model of eugenics.
+Tolman conducted animal research using rats that had elements of both styles of research. He was interested in the behavior of rats as an object of study in its own right, but also as a model in at least two respects. First, Tolman was interested in using rats as model for building a descriptive science of behavior that could be generalized to other animals. In this first respect, Tolman used his maze-running experiments to argue in favor of expanding the terms in the descriptive science of behaviorism--specifically, behaviorism should include terms for describing the purposive and cognitive aspects of behaviors. Second, Tolman initiated another line of maze-running experiments that I will describe as Tolmans' rat model of eugenics.
 
-Perhaps the term eugenics should not be used to describe rat research, however, I will use it here because it does an adequate job of placing Tolman's research within historical context. Unlike other psychologists of the time who often wrote about their eugenics ideologies, I have not found similar expressions by Tolman. Nevertheless, he conducted a series of studies that closely resemble attempts to test core elements of eugenics in a rat model. The connections between eugenics and early animal research existed before Tolman. For example, Edward Thorndike was a prominent eugenicist, and described his puzzle box research as a preliminary step toward measuring individual differences in animal intelligence.
+One aim of Galton's eugenics was to measure differences in eugenically desired traits (like intelligence), and then selectively breed humans to increase those traits (assuming they had a genetic basis) over time. Tolman and his student Robert Tryon attempted something similar in rats [for a review see, @innisTolmanTryonEarly1992], they selectively bred rats for maze-running ability over generations. On the one hand, these experiments could be described without the term eugenics, and instead described as experiments on the genetic bases of maze-running behavior in rats. On the other hand, the connection to eugenics is clear enough, and existed before Tolman. For example, early comparative psychologists Edward Thorndike and Robert Yerkes were prominent eugenicists; and Thorndike described his puzzle box research as a preliminary step toward measuring individual differences in animal intelligence.
 
-Like Thorndike, Tolman analogized his maze-running procedure as tool to measure individual differences in rat intelligence. Measures of time and efficiency in navigating the maze were used as proxies for rat intelligence, and not surprisingly, there were reliable individual differences in rat maze-running performance. In addition to publishing several papers on individual differences in maze-running performance among rats [], he also attempted a breeding program to increase rat intelligence over generations []. In this work, Tolman exposed new litters of rats to a maze and measured individual differences in maze-running efficiency. He then bred the best-of-the-best together, and exposed the new litters to the maze. Tolman bred several generations of rats this way. The empirical question was whether the breeding program would result in more intelligent rats down the line. According to the major tenets of eugenics, intelligence was inherited. If the rat served as model, then maze-running performance should get better and better for rats whose parents were the best maze runners, compared to rats whose parents were the worst maze runners. Tolmans research failed to show effects of the breeding program. The rats did not get better at running the maze over generations of breeding parents who were the best at running the maze. Tolmans rat-intelligence breeding program research does not appear to be very well-cited (only X times since X), and he apparently stopped investing in the line when it failed to provide positive results. 
+Like Thorndike, Tryon analogized the maze-running procedure as a tool to measure individual differences in rat intelligence. Measures of time and efficiency in navigating the maze were used as proxies for rat intelligence, and not surprisingly, there were reliable individual differences in rat maze-running performance [@tryonIndividualDifferences1942]. Tolman first attempted a breeding program to create "bright" versus "dull" strains of maze-running rats [@tolmanInheritanceMazelearningAbility1924]. In this work, Tolman exposed rats to a maze and measured individual differences in maze-running efficiency. He then bred "bright" rats together, and separately bred "dull" rats together. He did this over two generations, so there was a parent generation, an $F_1$ generation and an $F_2$ generation. Tolman reported that selective breeding did show differences in maze performance in the first generation, but not in the second generation. His student Tryon repeated a selective breeding experiment over 11 years and many more generations and found similar results [@tryonGeneticDifferencesMaze1940]. 
 
 ### Cognitive maps in rats and men
 
-To wrap up our discussion of Tolman, I will point quickly at his 1948 paper in Psychological Review called "Cognitive maps in rats and men" []. This paper reflects Tolman's thinking 16 years later. He reviews maze-running research up to 1948, and appears to have shifted away from his descriptive stance on cognitive aspects of behavior. In 1932, Tolman was careful to argue that his use of words like "cognitive" or "purpose" were meant only as descriptive terms of behavior, and they were not intended to imply the existence of internal mentalistic-type processing. In 1948, Tolman expresses a much more cognitive interpretation, where "cognitive" is not meant merely as a descriptive word about behavior, but is used to refer to a process, or intervening set of operations between the stimulus and response, that is fundamental to the behavior. In particular, Tolman argues that rats learn cognitive maps of the mazes they are running. This is the idea that the rat has some kind of internal map-like representation of the maze that they can consult and use to inform their choices while running the maze. 
+To wrap up our discussion of Tolman, I will point quickly at his 1948 paper in Psychological Review called "Cognitive maps in rats and men" [@tolmanCognitiveMapsRats1948. This paper reflects Tolman's thinking 16 years later. He reviews maze-running research up to 1948, and appears to have shifted away from his descriptive stance on cognitive aspects of behavior. In 1932, Tolman was careful to argue that his use of words like "cognitive" or "purpose" were meant only as descriptive terms of behavior, and they were not intended to imply the existence of internal mentalistic-type processing. In 1948, Tolman expresses a much more cognitive interpretation, where "cognitive" is used to refer to a process, or intervening set of operations between the stimulus and response, that is fundamental to the behavior. In particular, Tolman argues that rats learn cognitive maps of the mazes they are running. This is the idea that the rat has some kind of internal map-like representation of the maze that they use to inform their choices while running the maze. One line of evidence supporting Tolman's position came from experiments on latent-learning.
 
 #### Latent-learning as evidence for cognitive maps
 
@@ -242,7 +254,7 @@ To wrap up our discussion of Tolman, I will point quickly at his 1948 paper in P
 
 :::
 
-Tolman credits Bodgett [] with introducing the concept of latent learning to maze-running experiments. Latent learning refers to something an animal apparently learned without expressing the learning in performance. Bodgett demonstrated latent learning by giving three groups of rats different kinds of experience with running the maze. 
+Tolman credits Bodgett [@blodgettEffectIntroductionReward1929] with introducing the concept of latent learning to maze-running experiments. Latent learning refers to something an animal apparently learned without expressing the learning in performance. Bodgett demonstrated latent learning by giving three groups of rats different kinds of experience with running the maze. 
 
 ::: floatrightbox50
 
@@ -252,7 +264,7 @@ Tolman credits Bodgett [] with introducing the concept of latent learning to maz
 
 Group I (represented by the solid line) always received food reward in the chamber at the end of the maze. The results show that group made fewer and fewer errors across days. Group II (the dotted line) did not get food reward at the end maze until day three. Day three is marked with an X. Up to day three, group II did not show a great reduction in number of errors, but after day three they did show a  very large reduction in errors. Group III (the dashed line) did not get food reward at the end of the maze unitl day 7. That group did not show major decreases in errors until after day, when they showed a dramatic decrease in errors. Here is a quote from Tolman showing how he connected these findings with the notion of a cognitive map:
 
-> "It will be observed that the experimental groups as long as they were not finding food did not appear to learn much. (Their error curves did not drop.) But on the days immediately succeeding their first finding of the food their error curves did drop astoundingly. It appeared, in short, that during the non-rewarded trials these animals had been learning much more than they had exhibited. This learning, which did not manifest itself until after the food had been introduced, Blodgett called "latent learning." Interpreting these results anthopomorphically, we would say that as long as the animals were not getting any food at the end of the maze continued to take their time in going through it -- they contrinued to enter many blinds. Once, however, they knew they were to get food, they demonstrated that during these preceding non-rewarded trials they had learned where many of the blinds were. They had been building up a 'map,' and could utilize the latter as they were motivated to do so".
+> "It will be observed that the experimental groups as long as they were not finding food did not appear to learn much. (Their error curves did not drop.) But on the days immediately succeeding their first finding of the food their error curves did drop astoundingly. It appeared, in short, that during the non-rewarded trials these animals had been learning much more than they had exhibited. This learning, which did not manifest itself until after the food had been introduced, Blodgett called "latent learning." Interpreting these results anthopomorphically, we would say that as long as the animals were not getting any food at the end of the maze continued to take their time in going through it -- they continued to enter many blinds. Once, however, they knew they were to get food, they demonstrated that during these preceding non-rewarded trials they had learned where many of the blinds were. They had been building up a 'map,' and could utilize the latter as they were motivated to do so".
 
 #### Implications for society
 
@@ -267,6 +279,10 @@ Scientific utopianism is another tradition of positivism. For example, Watson's 
 <!--
 According to wikipedia, Hull was recruited to Yale by James Rowland Angell (president of Yale) and former psychologist who ran a nationally celebrated Eugenics laboratory (according to Yakushko)..working in the context of the Yale IHR institute
 -->
+
+::: floatright25
+<img src="imgs/clark-l-hull.jpg" width="100%" />
+:::
 
 [Clark L. Hull's](https://en.wikipedia.org/wiki/Clark_L._Hull) (1884-1952) flavor of behaviorism was again in the positivist tradition, but more focused on using math to specify functional relationships between units of behavior. In the positive tradition, a scientific theory is tentative and pragmatic. It is useful if it works for purposes of manipulation and control. Mathematical formulations are not strictly necessary, but they are often useful in describing functional relationships for purposes of prediction. 
 
@@ -296,8 +312,31 @@ Where:
 
 - $K$ is incentive (how appealing the result of the action is).
 
-Hull's mathematical theory did not succeed in explaining and predicting behavior in any general sense. But, it did succeed in inspiring other psychologists to adopt mathematical formulations to describe psychological processes. We will return to the topic of mathematical and computational models of cognition in later chapters.
+Hull's mathematical theory did not succeed in explaining and predicting behavior in any general sense. But, it did succeed in inspiring other psychologists to adopt mathematical formulations to describe psychological processes. We will return to the topic of mathematical and computational models in a later chapter, which are now a routine part of theorizing in cognitive psychology.
 
 ## Skinner's "Radical" Behaviorism
+
+::: floatright25
+<img src="imgs/bf_skinner.jpg" width="100%" />
+:::
+
+[Burrhus F. Skinner](https://en.wikipedia.org/wiki/B._F._Skinner) (1904–1990) received his Ph.D. at Harvard in 1931, where he spent the majority of his later academic career. Skinner had a profound impact on psychology and cognitive psychology both in terms of his ideas and the number of graduate students he mentored that would continue to shape the field. 
+
+Skinner's positivism ideals...
+ - aim for a completely descriptive science of behavior
+ - terms have no meaning beyond description
+ - identify the laws of behavior within the descriptive system
+ - do all of this in a very simple model...lever-pressing
+
+Skinner's operant conditioning
+
+Some elaboration on skinner's applicaiton of descriptive terms
+ - show a graph of cumulative bar-pressing
+ - discuss concepts of threshold, strength etc. in terms of the graph
+ 
+Skinner's utopianism
+ Walden two
+
+
 
 
