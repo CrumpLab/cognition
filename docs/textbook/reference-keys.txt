@@ -136,6 +136,16 @@ latent-learning-as-evidence-for-cognitive-maps
 implications-for-society
 hulls-mathematical-behaviorism
 skinners-radical-behaviorism
+operant-conditioning
+lever-pressing-in-the-skinner-box
+interpreting-a-cumulative-response-graph
+reflex-strength-a-descriptive-system
+everyday-description
+systematic-description-setting-terms-and-laws
+example-skinnerian-description
+applications-of-operant-conditioning
+implications-skinners-utopia
+exit-behaviorism
 information-processing
 information-theory
 hick-hyman-law

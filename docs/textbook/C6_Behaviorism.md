@@ -5,7 +5,7 @@
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|       8454|42.3 minutes |
+|      12058|60.3 minutes |
 
 ## Overview
 
@@ -141,6 +141,8 @@ Finally, Watson promoted behaviorism as more than the correct scientific way to 
 <img src="imgs/Watson_sweep.png" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
 
 ## Tolman's "Purposive" behaviorism
+
+> "All students agree as to the facts. They disagree, however, on theory and explanation." -- Tolman, 1948 [@tolmanCognitiveMapsRats1948]
 
 ::: floatright25
 <img src="imgs/Tolman_portrait.jpg" width="100%" />
@@ -320,7 +322,220 @@ Hull's mathematical theory did not succeed in explaining and predicting behavior
 <img src="imgs/bf_skinner.jpg" width="100%" />
 :::
 
-[Burrhus F. Skinner](https://en.wikipedia.org/wiki/B._F._Skinner) (1904–1990) received his Ph.D. at Harvard in 1931, where he spent the majority of his later academic career. Skinner had a profound impact on psychology and cognitive psychology both in terms of his ideas and the number of graduate students he mentored that would continue to shape the field. 
+[Burrhus F. Skinner](https://en.wikipedia.org/wiki/B._F._Skinner) (1904–1990) received his Ph.D. at Harvard in 1931, where he spent the majority of his later academic career. Skinner had a profound impact on psychology and cognitive psychology both in terms of his ideas and the number of graduate students he mentored that would continue to shape the field. Skinner is often associated with the term "radical behaviorism", and although he did refer to his work this way on occasion, the term was in use more broadly to describe behaviorist ideas as "radical" in relation to other ideas in psychology [for more see, @schneiderHistoryTermRadical1987].
+
+Skinner is well-known for introducing the method of operant conditioning, which he distinguishes from classical conditioning shown by Pavlov. Skinner uses the terms type R learning for operant conditioning, and type S learning for Pavlovian conditioning. In this section we will examine the method of operant conditioning, a few major findings from operant conditioning research, and Skinner's attempt to create a descriptive system  of behavior in the positivist tradition.
+
+### Operant Conditioning
+
+In type S Learning, an S-R relationship is already established before conditioning begins. For example, the unconditioned stimulus (e.g., food) elicits a response (e.g., salivating) before any acquisition phase. Through the process of pairing a neutral stimulus (e.g., a tone) with the unconditioned stimulus, the neutral stimulus can acquire the ability to trigger the response on its own.
+
+In type R learning, S-R relationships may not exist or may not be known prior to conditioning. Skinner pointed out that many responses in animal behavior occur with different frequencies, without being triggered by any obvious stimulus in the environment. He termed these behaviors operants. For example, a rat placed in a box will show many behaviors (e.g., walking, licking, scratching, sniffing, an so on). These individual behaviors will repeat over time, and some behaviors will occur more frequently than others. All of these behaviors could be considered operants, which are the repertoire of behaviors that an animal can perform. Before type R learning, the operant behavior could be said to have some probability of occurring on its own. The goal of type R learning was to gain control over the operant behavior, such that the occurrence and frequency of the behavior could be made predictable.
+
+Operant conditioning is commonly used to train behaviors in animals such that they perform a desired action in response to a stimulus, or perform the action in a predictable manner in a given situation. For example, I think I accidentally conditioned our two cats Coco-Max, and Mr. Ernie Cactus, using type R learning. Both cats show the "operant behavior" of sometimes running into the living room. They do this at least a few times every day, and they did this before their crinkly bag of cat snacks were kept in a drawer in the living room. When I give the cats snacks, I take the bag out, open it up, and hand out the snacks. The bag makes a distinct crinkly noise, just like the sound of the treats when the bag is shook. The cats have been given many snacks in the living room...and we can consider this something like an operant conditioning procedure. Now, the behavior of cats running into the living room is very much under stimulus control. It appears that my cats have a keen sense of hearing, whenever they hear the drawer move a little bit, or the bag crinkle, or shake, they come galloping into the living room from any corner of the apartment. 
+
+#### Lever pressing in the Skinner box
+
+Skinner demonstrated operant conditioning in rats using a "Skinner-box" and a lever-pressing device. Unlike Thorndike's puzzle boxes, where animals demonstrated learning by escaping the boxes as quickly as possible; Skinner's boxes were constructed to contain the animal and create an environment where a particular behavior could be efficiently observed and measures.
+
+::: floatright50
+<img src="imgs/Skinner_Box.png" width="100%" />
+:::
+
+The example skinner box to the right shows the box had space for a single rat to move about, and mechanisms for water and food delivery. The box also contained a lever the animal could press in order to receive food reward (subject to experimenter control). And, the box was set up to record any lever presses the animal made.
+
+Lever-pressing is a good example of an operant behavior that occurs without any prior conditioning. For example,Skinner noted that rat's placed into his box for the first time would press the lever sometimes, even though the box was not associated with any food reward, and even though pressing the lever did not cause any food to be delivered. In other words, rats spontaneously pressed the lever sometimes. As a result, lever-pressing was a convenient operant behavior for type R conditioning. 
+
+Skinner assumed that operant behavior, like pressing a lever, could become reinforced if it was paired with a reward. For example, if the lever-pressing behavior was paired with food reward, Skinner assumed that the food would reward the animal for the behavior. This would lead to the behavior being reinforced, such that the animal would increase the lever-pressing behavior. However, in order for reinforcement to occur, the behavior had to take place and be rewarded. For example, lever-pressing would be difficult to condition if the animal didn't press the lever sometimes.
+
+Skinner's procedure for conditioning lever-pressing was very simple. He put rats in the Skinner box ad measured how many times they pressed the lever over time without any reward. This established a baseline frequency for the spontaneous occurence of the operant behavior. Then, the lever was connected to food delivery. Whenever, the animal pressed the lever, it received a food pellet. Skinner then observed the animal and measured each of the lever-presses over time.
+
+::: floatright50
+<img src="imgs/Skinner_Results.png" width="100%" />
+:::
+
+The figure shows an example of Skinner's findings in a simple operant conditioning procedure. The Y axis shows the total number of lever presses, and the X axis shows time in minutes. The line represents lever-pressing behavior over time. The rat pressed lever for the first time after 5 minutes inside the box, and then received a food reward. Then it waited a long time (almost an hour) and pressed the lever a 2nd time, and then waited again and pressed a 3rd then 4th time. Look what happens after the 4th press. The line veers up, indicating the rat began pressing the lever at a much higher rate. 
+
+This is an example of operant conditioning. Prior to conditioning the lever-pressing behavior occurred spontaneously and not very often. However, in the setting of the Skinner Box, and when lever-pressing was paired with food reward, the animal began showing the lever-pressing behavior with a great deal of regularity. In this sense, as a result of the conditioning procedure, the lever-pressing behaviour is said to have come under experimental control. 
+
+#### Interpreting a cumulative response graph
+
+Skinner had several reasons for choosing lever-pressing as a behavior to investigate in the laboratory. One reason was convenience. Lever-pressing was easy to measure, rat's exhibited the behavior spontaneously, and the behavior could be conditioned through "type R" learning. The overarching reason was to construct a descriptive theory of behavior (again in the positivist tradition), starting with lever-pressing as a very simple model of other behaviors. To appreciate these larger aims, let's take a closer look at the graphs of lever-pressing behavior over time. 
+
+Skinner usually plotted responses over time in a cumulative graph. Cumulative means that the line represents the  "accumulation" of responses over time. In other words, at each point in time on the X axis, the vertical position of the line on the Y axis indicates the sum total number of responses occurring up to that point in time.
+
+::: floatright50
+<img src="imgs/Skinner_Slope.png" width="100%" />
+:::
+
+Importantly, the slope of the line in the graph has a special meaning, it represents the rate of responding. The rate of responding (or response rate) is a ratio of the number of responses divided by amount of time. For example, the first 4 responses occurred in about 120 minutes, so the response rate could be calculated as $4/120 = .033$ (responses per minute). Notice the line in the graph up to the 4th response has a very shallow slope, this indicates a low rate of responding (e.g., only .033 responses per minute). After the fourth response, the slope of the line becomes much steeper, indicating a much higher rate of responding. By rough visual inspection of the graph, it looks like close to 100 lever-presses were made in about 30 minutes, or a response rate of $100/30 = 3.33$ (responses per minute).
+
+### Reflex strength: A descriptive system
+
+Skinner used lever-pressing behavior in the white rat as a convenient simple behavior that he could exhaustively study as a model system, which he intended to generalize to other behaviors and animals. His book "The Behavior of Organisms" [@skinnerBehaviorOrganismsExperimental1938] describes many of his experiments and findings, but also motivates and describes his positivist approach to behavior. The goal of Skinner's system was not to explain behavior, but instead to create a system for describing features and laws of behavior. If Skinner could succeed in providing a comprehensive description of how to control a simple behavior, like lever-pressing, and if other behaviors were basically like lever-pressing, then the system could be generalized to describe and control other behaviors.
+
+We will spend a little bit more time on Skinner's system because it represents an approach to science that can lead to prediction and control of a natural phenomena (e.g., like cognition or behavior) without explaining the mechanisms of the phenomena. Skinner's descriptive approach remains very common in cognitive psychology.
+
+#### Everyday Description
+
+To give an example of the descriptive nature of Skinner's system, consider the figure below. The figure is a cartoon summary of how white rats typically behave in the Skinner box under different conditions. 
+
+<img src="imgs/Skinner_description.png" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
+
+Notice the graph is purely descriptive in two senses. First, the line describes lever-pressing over time. Second, I have added terms to describe conditions and phases of the experiment. I also added letters to individual line segments to highlight how Skinner's system involved using abstract terms to describe what he argued were generalizable components of behavior. To contrast some ways we could describe this graph, first let me describe it using "everyday language", then let's use Skinner's system to describe it. 
+
+In the acquisition phase, the animal is rewarded with food every time the lever is pressed. Initially the animal doesn't respond (A); then it responds at a low rate and learns it will receive a reward (B); after the "insight" that the responding gives a reward the animal starts pressing the button at a high rate (C); as the animal gets many rewards it becomes less hungry, the reward is less desirable, and the rate of responding starts to decrease again (D). During the extinction phase the lever-pressing behavior no longer triggers any food-reward. Initially, the animal continues to press the lever, perhaps because it expects to get the food reward (E), but over time the animal learns that pressing the lever does not bring food, so it slows or even completely stops responding (F). Finally, what happens if you keep the animal in the box after it stopped pressing the bar? Just like in Pavlovian conditioning, it is possible to observe spontaneous recover. For example, the animal may not press the lever for a while (G), but after some time it will often start pressing the lever again (H), as if it expects food, even though it is no longer getting any.
+
+#### Systematic Description: Setting terms and laws
+
+Skinner's system involved his own set of terms and law relationships. The terms were intended as abstractions, and the laws were supposed to be empirically verified regularities in behavior. The system could be modified over time if new experimental revealed new laws, or forced revisions of old laws. And, terms in the systemc could be added or substracted depending on whether they were useful to describing behavior. 
+
+Skinner used terms like **reflex** and **reflex strength**, but stripped them of their normal everyday meaning. For example, his reflex just refers to any operant behavior like lever-pressing, and is not to be mistaken with a "real reflex". Similarly, the strength of a reflex is an abstract quantity in the system, referring to changes in behavior over time. Reflex strength was not the magnitude of response. For example, an animal could very softly hit the lever (a weak response magnitude), but if it increased the number of times it hit the lever (while hitting it soft or hard), the reflex could be described as increasing in strength.
+
+Other terms involved concepts like **threshold**, **latency**, **after-discharge**, which were defined by postulated laws of behavior, such as:
+
+> **The Law of Threshold** The intensity of the stimulus must reach or exceed a certain critical value (called the threshold) in order to elicit a response. 
+
+> **The Law of Latency** An interval of time (called the latency) elapses between the beginning of the stimulus and the beginning of the response. 
+
+> **The Law of the Magnitude of the Response** The magnitude of the response is a function of the intensity of the stimulus. 
+ 
+> **The Law of After-Discharge** The response may persist for some time after the cessation of the stimulus
+
+Note that the whole enterprise of proposing [scientific laws](https://en.wikipedia.org/wiki/Scientific_law) for behavior was a hopeful one. Behaviorists were modeling themselves after other disciplines like physics, where many [physical laws](https://en.wikipedia.org/wiki/Scientific_law#Laws_of_physics) had been discovered. However, the behavior of animals can be highly complex and not easily captured by simple laws. To accomodate the complexity, Skinner postulates laws in a vague and provisional way. For example, in the law of after-discharge, the response *may* persist for some time, but it may not. He also postulated **dynamic laws** that allow parts of the system to change. Here is an example a Skinnerian dynamic law:
+
+> **The Law of Reflex Fatigue**. The strength of a reflex declines during repeated elicitation and returns to its former value during subsequent inactivity. 
+
+By invoking this law, Skinner allows other static properties of the system to change. He writes, "if a reflex is repeatedly elicited at a certain rate, its threshold is raised, its latency is increased, and the R/S ratio [ratio between the magnitude of the response and magnitude of the stimulus] and the after-discharge is decreased."
+
+Finally, Skinner sometimes proposed additional hypothetical constructs like a **reflex reserve**.
+
+> "I shall speak of the total available activity as the reflex reserve, a concept that will take an important place m the following chapters. In one sense the reserve is a hypothetical entity. It is a convenient way of representing the particular relation that obtains between the activity of a reflex and its subsequent strength. But I shall later show in detail that a reserve is clearly exhibited in all its relevant properties during the process that exhausts it and that the momentary strength is proportional to the reserve and therefore an avail- able direct measure The reserve is consequently very near to being directly treated experimentally, although no local or physiological properties are assigned to it."
+
+#### Example Skinnerian Description
+
+Let's bring back the cartoon figure showing general trends in rat lever-pressing behavior over time and different experimental conditions, and use Skinner's system to describe the behavior.
+
+<img src="imgs/Skinner_description.png" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
+
+The rat has an initial **reflex reserve** giving it some propensity to make the reflex. Prior to acquisition, some unknown impulse causes a **threshold** to be reached, and the **reflex** is spontaneously emitted. The impulse doesn't occur often, or the threshold is very high, so the **reflex strength** is low overall because it occurs infrequently.
+
+During the acquisition phase the animal is inserted into the box. During *A*, the reflex threshold is not exceeded, and no reflexes are emitted. During *B*, the some impulse spontaneously passed the reflex threshold, and the reflex was emitted at a low rate. Now, we must invoke another law:
+
+> "**The Law of Conditioning of Type R** If the occurrence of an operant is followed by presentation of a reinforcing stimulus the strength is increased."
+
+During *B*, the reflex strength increases because it is reinforced. This is observed in behavior as an increase in response rate. During **C**, the reflex strength, and perhaps even the reflex reserve, has grown substantially. This is shown in behavior by the increase in response rate. However, during *D*, the response rate begins to decline. This could indicate some part of the system is changing, like the threshold is raised requiring a greated impulse to trigger the reflex. Or, the hypothetical **reflex reserve** could be invoked. The reserve could be "running dry", and observed in behavior by a decreases in response rate. 
+
+During the extinction phase, reflex continues to occur even though it is not reinforced (E). The continuation of the reflex can be partly described by **after-discharge**. However, an additional law can be stated to describe the reduction of the rate of responding:
+
+> **The Law of Extinction of Type R.** If the occurrence of an operant already strengthened through conditioning is not followed by the reinforcing stimulus, the strength is decreased.
+
+During E and F, the extinction law describes how the reflex strength is decreased. This is observed in behavior as as a rate reduction. Finally, spontaneous recovery (H) can be described by incomplete extinction.
+
+### Applications of operant conditioning
+
+Skinner's operant conditioning research was application oriented from the very beginning. The purpose of exhaustively describing the properties and relations of a simple behavior like lever-pressing was to achieve a generalizable system useful for controlling manipulating other behaviors. Skinner used his methods succesfully for applications like training animals [@skinnerHowTeachAnimals1951]. 
+
+One interesting example is Skinner's [project pigeon](https://www.bfskinner.org/project-pigeon/), conducted during world war II. Guided missile technology had not been perfected, and missiles were missing their targets. Skinner had the idea to place pigeons inside of missiles, and train them to guide missiles toward their target. Pigeons are very good at pecking, and through operant conditioning, they could be trained to repeatedly peck on a visual target. In this way, a missile could be guided toward a target using the pecking from a pigeon as a steering wheel for the missile. More broadly, operant conditioning techniques are very commonly used in modern animal training [@pryorModernAnimalTraining2014].
+
+Techniques inspired by Skinner's operant conditioning research have also found applications for people. For example, the field of [applied behavior analysis](https://en.wikipedia.org/wiki/Applied_behavior_analysis). Here, positive and negative reinforcements are used to increase or decrease wanted or unwanted behaviors in humans.
+
+### Implications: Skinner's Utopia
+
+Skinner's system of behaviorism was constructed in the tradition of positivism that we have been discussing throughout this chapter. Just like Watson and Tolman, Skinner extended his ideas outside the realm of science to the realm of society. His views on the extension appeared to change over time. 
+
+In concluding his book in 1938, Skinner wrote, "The book represents nothing more than an experimental analysis of a representative sample of behavior. Let him extrapolate who will". He suggested that anyone who understood what he was saying could easily make the extrapolation themselves, but resisted spelling out any major speculations.
+
+However, just like Watson had envisioned a society guided by his behaviorism, by 1948, Skinner tried his hand at Utopian science fiction and wrote, [Walden Two](https://en.wikipedia.org/wiki/Walden_Two) [@skinnerWaldenTwo1948]. The story describes how behavioral engineering through elaborate operant conditioning could improve the lives of 1000 people in a commune, by ensuring they would live happy, productive, and conflict-free lives. The commune also planned to used genetic engineering to eliminate undesirable offspring in the future, and engaged in other eugenic practices like preventing marriage between people with low or incompatible IQs. In a 1976 preface to the book, Skinner reflects on his motivations for writing it, and develops an argument that society will collapse unless it finds ways to modify itself, and that *Walden two* could be a good example of a place to start.
+
+## Exit Behaviorism?
+
+This chapter is getting too long, so I will keep this summary short. As I said in the introduction, depending on who is telling the history, behaviorism could be the dark ages of psychology that stood in the way of modern cognitive psychology, or a fore-bearer paving the way. There were many behaviorisms, and many aspects of this collected "school" of psychology have been discarded, but many have also be retained.
+
+A commonality in the behaviorism we discussed was that they all followed positivism in rejecting theological and metaphysical "explanations" of natural phenomena. For example, they all criticized introspectionist and mentalist psychology as being unscientific, or still in the religious or metaphysical stage. The rejection of mentalism was a denial of cognition, but perhaps only a pragmatic one--that is, it was useful to deny a role for cognition until it was needed in the system, and then it wouldn't be denied anymore. Remember, the goal of the descriptive system was to predict and control behavior. If the system could be constructed without reference to "cognition", then "cognition" was not necessary for the system to achieve its goal of prediction and control. This was not necessarily a denial that people had cognition. 
+
+As we follow the slow transition from behaviorism to cognitivism the wholesale denial of cognitive operations is a position that is often discarded. However, other aspects of positivism are not as readily discarded in cognitivism, such as the format of theorizing, and the rejection of theological and metaphysical considerations. At the same time, cognitivism grows up in a period of post-positive thinking, which leads to a multiplicity of viewpoints. For example, it is possible to have multiple theories for the same phenomena, each with different strengths, limitations, internal working structure (or not), and general usefulness (e.g., for generating new research questions, or applications, or other insights). So, in the years "post-behaviorism", we find a diversity of approaches to cognition including some new and a continuance of old approaches. 
+
+In the next chapter, we examine the concept of information processing and the introduction of "information theory" to psychology. This is a story about how ideas from computer science and communication technology would shape the questions we ask and answer about cognition.
+
+
+<!--
+During the acqusition phase
+ 
+
+For example, the law of the magnitude of the response is easy to break, because it possible who
+ 
+
+Skinner also proposed "dynamic laws". The whole Ent of proposing laws 
+
+
+hypothetical entities
+
+
+increased its response rate over time, it was described as showing an increased strength in response
+
+
+n animal could hit the lever softly or swiftly
+
+
+, and not to the magnitude of a given response.
+
+Here are some example terms: 
+
+
+declaring supposed laws of behavio
+
+
+
+Rather than using very abstract terms like A, B, C, and D, Skinner's system included words that helped convey the purpose of each term in the system. Importantly, the terms were not intended to describe any real causal mechanisms, but just as a way to describe components of the behavior. For example, Skinner uses the terms **reflex** and **reflex strength**; but, he strips them of their normal everyday meaning.  Skinner's system can be viewed as a set of terminology and abstract relations to describe observable ways that reflex strength changes over time, especially in response to experimentally manipulated factors.
+
+To further explain the system and the intended meaning of the descriptive terminology, let's examine the acquisition, extinction and spontaneous recovery phases.
+
+Prior to the acquisition phase (not represented on the graph), the animal is known to sometimes exhibit lever-pressing with some frequency. Skinner's system would say that a reflex exists (lever-pressing) and it has some existing strength (amount of times it occurs). Different animals might have different reflex strengths (baselines for lever-pressing) at the beginning.
+
+
+
+
+Skinner use terms like "threshold" to describe to describe non-response behavior. 
+
+
+The observed behavior that the animal is known make the lever-pressing response spontaneously, even before being rewarded, is described with 
+
+
+Skinner assumes that the lever-pressing "reflex" begins
+
+reflex from any other meaning, and uses it only to refer to some behavior. Similarly, **reflex strength** refers to an abstraction in his system
+
+
+For example, Skinner 
+
+
+
+
+provides an encompassing account of his findings up until in 1938.
+
+
+and attempt to organize them within a descriptive system.
+
+
+A line with a shallow slope equals a low rate of responding. 
+
+
+
+
+
+
+The first lever press with food reward occurred at 5 minutes, then x elapsed and the second press at . 
+
+In this rat, the lever was pressed once at X time
+
+operant behavior like lever pressing could 
+
+
+, and the animal performs the behaviors sometimes without being triggered by any stimuli. 
+
+
+A goal of type R learning was to gain control over the operant behavior, such that the occurrence and frequency of the behavior could be make predictable
 
 Skinner's positivism ideals...
  - aim for a completely descriptive science of behavior
@@ -337,6 +552,6 @@ Some elaboration on skinner's applicaiton of descriptive terms
 Skinner's utopianism
  Walden two
 
-
+-->
 
 
