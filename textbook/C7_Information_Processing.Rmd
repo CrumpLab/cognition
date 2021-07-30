@@ -90,35 +90,110 @@ Donders conducted many human reaction time experiments using tactile, visual and
 
 A basic question was whether different sense organs had different physiological reaction times. But, Donders was more interested in the additional "mental" time it might take to perform increasingly complex tasks before making a response to the stimuli. The tasks that Donders used to increase complexity are still widely used. In the remaining description of Donders work, I will use the modern terms for the tasks, and present a generic summary of Donders findings and conclusions. 
 
+::: floatright25
+```{r}
+knitr::include_graphics("imgs/Donders_simple.png")
+```
+:::
+
 The most basic reaction time task is called a *simple reaction time task*. In this task, subjects are presented with a stimulus, and asked to respond to as quickly as possible, as soon as they detect it. Donders would consider the reaction times from this task as "physiological reaction times".
 
-Donders invented the idea of having subjects perform a slightly more complicated task that is now referred to as the *GO-NO GO* task. In this task, subjects are presented with a stimulus, but they only make a response if the stimulus is the target stimulus. For example, one might see a red or green stimulus, and the response would be required only if the stimulus was green (a GO response). No response would be required if the stimulus was red (a NO GO trial).
+::: floatright25
+```{r}
+knitr::include_graphics("imgs/Donders_GoNoGo.png")
+```
+:::
 
-An even more complicated version of the task is referred to as an *alternative forced-choice task*. For example, a subject could be asked to respond two a red stimulus by pressing a left button, and to respond to a green stimulus by pressing a right button. This would be called a 2-AFC (two-alternative forced choice) task.
+Donders invented the idea of having subjects perform a slightly more complicated task that is now referred to as the *GO-NO GO* task. In this task, subjects are presented with a stimulus, but they only make a response if the stimulus is the target stimulus. For example, one might see a blue or red stimulus, and the response would be required only if the stimulus was blue (a GO response). No response would be required if the stimulus was red (a NO GO trial).
+
+::: floatright25
+```{r}
+knitr::include_graphics("imgs/Donders_Choice.png")
+```
+:::
+
+An even more complicated version of the task is referred to as an *alternative forced-choice task*. For example, a subject could be asked to respond to a blue stimulus by pressing a left button, and to respond to a red stimulus by pressing a right button. This would be called a 2-AFC (two-alternative forced choice) task, or a choice reaction time task.
 
 ### Donders subtractive stage logic
 
-Donders used subtraction of reaction times between tasks to estimate the speed of mental operations. He assumed that mental operations occurred in successive stages like an assembly line, and that each stage took an average amount time. The fastest reaction time should be the physiological time given by the simple reaction time task. This one involved a minumum of mental processing. Reaction times should increase in length if mental processing had to occur before a response was made. For example, the GO-NO GO task should produce a longer reaction time than the simple reaction time task. This is because the task requires an additional mental operation of stimulus identification. In the GO-NO GO task, the stimulus must be identified as the target stimulus before a response is made. 
+Donders used subtraction of reaction times between tasks to estimate the speed of mental operations. He assumed that mental operations occurred in successive stages like an assembly line, and that each stage took an average amount time. 
+
+```{r,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+knitr::include_graphics("imgs/Donders_Assembly.png")
+```
+
+
+The fastest reaction time should be the physiological time given by the simple reaction time task. This one involved a minimum of mental processing. Reaction times should increase in length if mental processing had to occur before a response was made. 
+
+```{r,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+knitr::include_graphics("imgs/Donders_task_stages.jpg")
+```
+
+For example, the GO-NO GO task should produce a longer reaction time than the simple reaction time task. This is because the task requires an additional mental operation of stimulus identification. In the GO-NO GO task, the stimulus must be identified as the target stimulus before a response is made. 
+
+```{r,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+knitr::include_graphics("imgs/Donders_id_time.jpg")
+```
+
 
 If it took 170 milliseconds to make a response in the GO - NO GO task, and 150 milliseconds to make a response in the simple reaction time task, Donders took the difference of 20 milliseconds (by subtraction 170-150 = 20) to indicate the time taken by the mental operation. In this example, Donders might say the mental process of identification takes 20 milliseconds. 
 
-The subtraction logic could be applied to infer the times associated with subsequent stages of processing. For example, reaction times in a two alternative forced choice task (2AFC) are longer than in a GO-NO GO task. Following Donders logic, a 2AFC task involves yet another mental operation, response selection. For example, in this task the stimulus must be identified before a response is made, and then the correct response (e.g., right or left) must be selected before the final response is made. The stage of stimulus identification is assumed to occur before the subsequent stage of response selection. But, by subtracting the reaction time in the 2AFC task, from the reaction time in the GO-NO GO task, Donders argued that the amount of time for response selection could be separated from the amount of time for stimulus identification.
 
-### Donders circa 2021
+The subtraction logic could be applied to infer the times associated with subsequent stages of processing. For example, reaction times in a two alternative forced choice task (2AFC) are longer than in a GO-NO GO task. Following Donders logic, a 2AFC task involves yet another mental operation, *response selection*. For example, in this task the stimulus must be identified before a response is made, and then the correct response (e.g., right or left) must be selected before the final response is made. The stage of stimulus identification is assumed to occur before the subsequent stage of response selection.
 
-<!-- influence on psychology -->
+```{r,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+knitr::include_graphics("imgs/Donders_RT_time.png")
+```
 
-It has been $2021 - 1865 = 156$ years since Donders proposed subtraction logic to measure stages of mental processing time. In 1969, following an Attention and Performance conference celebrating the centenary of Donders work, Saul Sternberg remarked that Donders subtractive method had been popular for decades, fell out of favor around the turn of the century, and that interest in the idea of processing stages was revived again in the 1960s. Sternberg himself was interested in the method and extended it in his *additive-factors logic* as another way to identify putative stages of mental operations. The concept of stages of processes has continued to be used since the 1960s, and we will revisit the general concept of processing stages throughout, especially in the chapter on attention.
+But, by subtracting the reaction time in the 2AFC task, from the reaction time in the GO-NO GO task, Donders argued that the amount of time for response selection could be separated from the amount of time for stimulus identification.
 
-Donders subtractive logic has also been widely used in neuro-imaging studies. 
+## Beyond Donders
 
-discovery of processing stages...or discovery of a question about what happens over time?
+It has been $2021 - 1865 = 156$ years since Donders proposed subtraction logic to measure stages of mental processing time. What happened to research using human reaction times, the concept of processing stages, and his subtraction method over that period of time?
 
-something was happening in the stage..it could potentially be named..and timed..a starting point for further clarification
+### Reaction time research
 
-### Metaphorical issues
+The measurement of reaction times to make inferences about cognitive processes became widespread, and remains a very common measurement tool in cognition. For example, we already discussed Cattell's associative reaction time research from 1886, which was clearly inspired by Donders. In 1890, Jastrow reviewed the promising uses of reaction time methods in psychology in a book called, *Time relations of mental phenomena* [@jastrowTimerelationsMentalPhenomena1890]. Reaction times would be used throughout every decade to study cognitive processes in humans, even throughout the behaviorist period. We will continue to discuss reaction time research throughout this chapter and others.
+
+### Processing Stages
+
+Donders concept of mental processing stages disappeared for a while during the behaviorist era. Although some behaviorists (like Tolman and Hull) were willing to speculate about intervening processes between a stimulus and response, other forms of behaviorism were not interested in whatever mental operations might be taking place. As a result, the possibility that there was a mental processing stage for stimulus-identification, response-selection, or other mental operations, was not of scientific interest.
+
+The concept of processing stages came back in different ways, and we will see more examples in the chapters on memory and attention. As a historical sidenote, Donders ideas become popular again in cognition roughly 100 years after his publication. His centenary was celebrated at the second [Attention and Performance](http://www.attentionandperformance.org) conference in 1968, held in the Netherlands. This invited-speaker conference series still runs today, and publishes books containing the papers presented at the conference. Many of the articles from the early conference years established a role for the concept of processing stages in cognition. One example to mention briefly is the [psychological refractory period](https://en.wikipedia.org/wiki/Psychological_refractory_period).
+
+#### PRP: Psychological Refractory Period
+
+British psychologist A. T. Welford drew attention to the *Psychological Refractory Period* in a 1952 paper [@welfordPsychologicalRefractoryPeriod1952, see also @welfordEvidenceSinglechannelDecision1959]. In the preceding war years a great deal of basic research on human reaction times was conducted for the war effort. For example, the ability to make a quick reaction could be important for a pilot. As a result, empirical studies were conducted to identify useful information about human reaction times. Useful information could include how to make reactions more efficient, or to discover limitations in reaction times that could be addressed. For example, if people are pressing buttons or flicking switches in a cockpit, how should the cockpit be designed to improve the speed and accuracy of the responses?
 
 
+Welford observed the psychological refractory period from existing reaction time research, and discussed possible explanations of the finding in terms of processing stages. The basic PRP effect was that responding to one stimulus can sometimes delay a response to second stimulus, especially if they are presented quickly, one after the other. 
+
+::: floatright50
+
+```{r}
+knitr::include_graphics("imgs/PRP_effect.jpg")
+```
+
+:::
+
+The conditions to observe the PRP effect are depicted on the right. In the task, participants are presented with stimuli (S) one after the other, and they asked to response (R) as fast as possible to each of them (e.g., by pressing a button). The long-delay  condition highlights an important difference between two successive stimuli. In this case, the second stimulus ($S_2$) appears after a long temporal delay following the response ($R_1$) to the first stimulus $S_1$. When this delay is long enough, the average reaction time to the first and second stimulus are generally the same ($RT_1 = RT_2$). However, when the delay is shortened, the PRP effect is observed. What happens in performance is that the average reaction time to the second stimulus is longer than the average reaction time to the first stimulus ($RT_1 < RT_2$). This lengthening of the second response time is an example of the so-called "psychological refractory period".
+
+The PRP effect is a reliable finding in reaction time research, and since Welford hundreds of papers have been published on the phenomena. Note, as we move forward, we will discuss many findings like the PRP effect that have inspired large numbers of research papers. The term *paradigm* is commonly used to refer to collections of research activity that are relatively focused on specific phenomena or tasks. For example, we could refer to the maze-running research discussed last chapter as a paradigm using the task of maze-running. The PRP paradigm is full of papers testing explanations of the PRP phenomena. My purpose in bringing up the PRP literature is not for us to become experts in this one phenomena; instead, the PRP effect provides a clear example of the metaphorical use of processing stages to provide a quasi-mechanical explanation of the phenomena.
+
+So, why does the PRP effect occur? Why is the second response time lengthened if the second stimulus is presented shortly after a previous response? In 1959, Welford described five different theoretical accounts. One possibility was a physical explanation in terms of limitations of signalling among nerve fibres. Another theory had to do with preparedness or expectancy, maybe the shorter duration caused people to be more surprised, and it was the surprise that lengthened the second response. The fifth hypothesis involved a *central mechanism with a single-channel of limited capacity*, and was summarized as follows [@welfordEvidenceSinglechannelDecision1959]:
+
+> "In its bare essentials this theory assumes, firstly, a number of sensory input mechanisms each capable of receiving data and storing it for a limited period so that, for example, a short series of signals can be received as a unit. Secondly, it assumes a number of effector mechanisms containing both central and peripheral elements and capable of carrying out a series of actions such as the pressing and release of a key or a series of taps (Vince, 1949) as a single unit. Thirdly, between these two it postulates a single-channel decision mechanism. This is regarded as being of limited capacity in the sense that it takes a finite time to process information and can thus only deal with a limited amount of information in a given time."
+
+The mechanism being proposed was like the processing stages of a serial assembly-line. A stimulus is first processed in the perceptual stage, and then moved to the next central processing stage. The central processing stage produces the decision to make a response to the stimulus. This decision is sent to a response production stage, and the response is made. Furthermore, the central processing stage was claimed to be "capacity limited". For example, what if it could only deal with one decision at a time? This would create a *bottleneck* in performance. If a second stimulus entered the central stage it would have to *wait in line* until the decision to respond to the first stimulus was sent to the next stage.
+
+Welford and others (Craik [@craikTheoryHumanOperator1948], Hick [@hickDiscontinuousFunctioningHuman1948], Davis [@davisHumanOperatorSingle1957], Fraisse [@fraissePeriodeRefractairePsychologique1957], and Broadbent [@broadbentMechanicalModelHuman1957,@broadbentPerceptionCommunication1958]) were part of a new wave of researchers proposing mechanistic metaphors, in the form of *information processing channels* as explanations for cognitive operations. The second half of this chapter elaborates on the bigger ideas behind those proposals.
+
+### Subtractive logic
+
+Donders subtractive logic is a nifty idea, but it doesn't necessarily produce correct inferences about cognitive operations. One issue is the distinction between *serial and parallel* processing. If the intervening mental operations between a stimulus and response really do work like a simple *serial* assembly-line, then the subtractive logic can work quite well. In this case, the mental operations occur one after another in series. In this case the total reaction associated with a task involving two or more mental operations (that occur in serial stages), can be inferred by subtracting reaction times from tasks involving one fewer mental operation. However, the serial assembly line is just a metaphor, people don't really have serial assembly lines in their head (although sometimes their behavior can be usefully interpreted that way). A major problem occurs for subtractive logic if operations can be completed in parallel (e.g., at the same time). Another problem occurs if the stages are unpredictable, and therefore it does not make sense to subtract times that are not constants. 
+
+
+To address some of the inferential problems with subtractive for making inferences about putative processing stages, Saul Sternberg introduced another method called *additive-factors logic* [@sternbergDiscoveryProcessingStages1969a]. Finally, subtractive logic became commonly used in neuro-imaging research to find areas of brain activity that appear unique to specific task demands. [@alexanderDondersDeadCortical2015].
 
 <!-- general issues with the metaphor 
 
@@ -129,11 +204,16 @@ something was happening in the stage..it could potentially be named..and timed..
 
 -->
 
-
-
 ## The computerization of cognition
 
 ## Shannon's Information Theory
+
+<!-- cybernetics, macy conference 
+
+slow squeezing out of eugenics (still of interest to some of the researchers)
+interdisciplinary
+
+-->
 
 ## Hick-Hyman Law
 
