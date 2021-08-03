@@ -4,3 +4,27 @@
 
 
 - build the perspective that memorial processes involved in processing specific experience are fundamental to all aspects of cognition.
+
+Amazing feats of memory..questions about memory
+
+A landscape review of memory research
+
+-Ebbinghaus
+  -forgetting
+  
+-Bartlett
+  -schema (coding)
+  
+Information processing tradition  
+- Miller
+  -chunking (coding)
+- STM/LTM models
+  
+Subjective processing tradition
+- memory principles
+- Tulving (subjective organization)
+ - and memory distinctions
+ - Semantic vs episodic
+ 
+
+ 
