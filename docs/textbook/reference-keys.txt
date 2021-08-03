@@ -174,7 +174,7 @@ summary
 hick-hyman-law
 choice-reaction-time
 the-number-of-alternatives-increases-choice-rt
-number-of-alernatives-or-information-in-the-message
+number-of-alternatives-or-information-in-the-message
 deconfounding-alternatives-from-information
 the-experiments
 experiment-i-hyman-1953
