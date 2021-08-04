@@ -1,14 +1,13 @@
 delete_merged_file: true
 new_session: true
-book_filename: "instances_of_cognition_Crump.pdf"
+book_filename: "instances_of_cognition_Crump"
 
 output_dir: "../docs/textbook"
 
 rmd_files:
 - "index.Rmd"
 - "Preface.Rmd"
-
-- "Getting_Started.Rmd"
+- "Reading_Formats.Rmd"
 
 
 - "C1_What_is_Cognition.Rmd"
