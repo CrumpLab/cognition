@@ -1,3 +1,9 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+
 ```{r, include = FALSE}
 source("global_stuff.R")
 ```
@@ -37,7 +43,7 @@ One imperfect solution is called the method of introspection, which means to sel
 
 ### Galton's Statistics of mental imagery
 
-::: floatrightbox25
+::: {.floatrightbox25 data-latex=""}
 
 **Sir Francis Galton**
 

@@ -291,7 +291,7 @@ Pavlov wrestled with whether or not psychology should be involved with attempts 
 **Réne Descartes**
 
 ```{r}
-knitr::include_graphics("imgs/René_Descartes.jpg")
+knitr::include_graphics("imgs/Rene_Descartes.jpg")
 ```
 :::
 

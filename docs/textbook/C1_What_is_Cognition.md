@@ -3,9 +3,13 @@
 # What is cognition?
 
 
-| Word Count|Reading Time |
-|----------:|:------------|
-|       6569|32.8 minutes |
+\begin{tabular}{r|l}
+\hline
+Word Count & Reading Time\\
+\hline
+6569 & 32.8 minutes\\
+\hline
+\end{tabular}
 
 ## Chapter Overview
 

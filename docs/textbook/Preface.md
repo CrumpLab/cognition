@@ -34,7 +34,18 @@ Feel free to fork the repo and use these materials as you see fit. If you would 
 
 ## CC BY-SA 4.0 license
 
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+
+
+```r
+if (knitr::is_latex_output()) {
+  knitr::asis_output('[License: CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)')
+}
+```
+
+[License: CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+
 
 This license means that you are free to:
 
@@ -71,6 +82,6 @@ Thanks to Miriam Deutch (Associate Librarian for Access Services/Art Specialist)
 
 Note, the date reflects the latest compilation of this book. CITATION IS TBD WHILE THE PROJECT IS UNDER DEVELOPMENT.
 
-Crump, M. J. C. (2021, August 03). TBD. 
+Crump, M. J. C. (2021, August 04). TBD. 
 
 

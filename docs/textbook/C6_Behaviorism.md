@@ -3,9 +3,13 @@
 # Behaviorism
 
 
-| Word Count|Reading Time |
-|----------:|:------------|
-|      12058|60.3 minutes |
+\begin{tabular}{r|l}
+\hline
+Word Count & Reading Time\\
+\hline
+12058 & 60.3 minutes\\
+\hline
+\end{tabular}
 
 ## Overview
 
@@ -45,7 +49,8 @@ One backdrop I term scientific credentialism, which involves making claims about
 ### Positivism
 
 ::: floatright25
-<img src="imgs/Auguste_Comte.jpg" width="100%" />
+
+\includegraphics[width=1\linewidth]{imgs/Auguste_Comte} 
 :::
 
 [Auguste Comte](https://plato.stanford.edu/entries/comte/) (1798–1857) created positivism as a part of founding [sociology](https://en.wikipedia.org/wiki/Sociology). He was a French philosopher writing during a period of social upheaval ^[e.g., the [1848 French revolution](https://en.wikipedia.org/wiki/Revolutions_of_1848) to remove the monarchy]. His work is an early example of a [philosophy of science](https://en.wikipedia.org/wiki/Philosophy_of_science) attempting to define attributes and processes of science, as well as hierarchical relations between scientific disciplines. He argued that science and society develops through theological, metaphysical, and positive stages to explain natural phenomena. In the theological phase, phenomena are explained by supernatural powers. For example, the mind is attributed to soul or spiritual forces. The metaphysical stage replaces the supernatural forces with abstractions. For example, the mind is psychic forces. In the positive stage a description system is achieved, whereby the scientific process will eventually describe the nouns and verbs of a phenomena. The nouns are the features of a phenomena, and the verbs are the mathematical laws that describe actions of the features. For example, the work of B.F. Skinner (at the end of this chapter), is an example of reducing cognition and behavior to a descriptive system in the positive tradition.
@@ -73,7 +78,8 @@ In the remaining sections, instances of behaviorism are explored further by exam
 ## Watson's "Salesman" Behaviorism
 
 ::: floatright25
-<img src="imgs/John_Broadus_Watson.jpg" width="100%" />
+
+\includegraphics[width=1\linewidth]{imgs/John_Broadus_Watson} 
 :::
 
 J. B. Watson is one of the controversial figures I alluded to earlier. He is credited with ushering in behaviorism, and although he did push it in, he also left psychology soon after.
@@ -114,7 +120,8 @@ In positivism a descriptive scientific system is achieved when there are terms f
 
 ::: floatrightbox50
 
-<img src="imgs/Watson_SR.png" width="100%" />
+
+\includegraphics[width=1\linewidth]{imgs/Watson_SR} 
 
 :::
 
@@ -122,30 +129,47 @@ Stimuli (in the environment) and responses (observable behaviors of humans and a
 
 One set of behaviors involved pre-existing stimulus-response associations in the form of unconditioned responses.
 
-<img src="imgs/Watson_unconditioned.png" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
+
+
+
+\begin{center}\includegraphics[width=1\linewidth]{imgs/Watson_unconditioned} \end{center}
 
 All remaining behavior was involved newly acquired or learned stimulus-responses associations. Watson generalized Pavlov's concept of conditioning to cover learned behaviors. He presented conditioning as a widely applicable process that could potentially allow a wide-range of stimuli to become a substitute for triggering a wide-range of responses.
 
-<img src="imgs/Watson_conditioned.png" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
+
+
+
+\begin{center}\includegraphics[width=1\linewidth]{imgs/Watson_conditioned} \end{center}
+
 
 Watson's S-R system was more like speculative fiction than a fully worked out system in the positivist tradition. He identified terms like stimuli and response, and made grand claims about possible functional relationships between them, but did not supply a detailed mathematical analysis of assumed lawful connections between stimuli and responses. Instead, he jumped straight to envisioning how future society could control its citizenry using behavioral engineering. He formulated societal level manipulations in terms of stimulus-response questions (see below), and was hopeful that behaviorism could help make predictions about outcomes of such interventions.
 
-<img src="imgs/Watson_Society_S.png" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
+
+
+
+\begin{center}\includegraphics[width=1\linewidth]{imgs/Watson_Society_S} \end{center}
 
 Similarly, he imagined desired outcomes for society, and implied that behavioral engineering would be able to construct the appropriate stimuli to force the behaviors he considered desirable.
 
-<img src="imgs/Watson_Society_R.png" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
+
+
+
+\begin{center}\includegraphics[width=1\linewidth]{imgs/Watson_Society_R} \end{center}
 
 Finally, Watson promoted behaviorism as more than the correct scientific way to do psychology. It was an academic social movement, in the tradition of scientific utopias, that was sweeping the nation. For example, in the figure below, Watson describes how psychology, philosophy, ethics, social psychology, sociology, religion, and psycho-analysis were all becoming behaviorist systems or disappearing if they were not.
 
-<img src="imgs/Watson_sweep.png" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
+
+
+
+\begin{center}\includegraphics[width=1\linewidth]{imgs/Watson_sweep} \end{center}
 
 ## Tolman's "Purposive" behaviorism
 
 > "All students agree as to the facts. They disagree, however, on theory and explanation." -- Tolman, 1948 [@tolmanCognitiveMapsRats1948]
 
 ::: floatright25
-<img src="imgs/Tolman_portrait.jpg" width="100%" />
+
+\includegraphics[width=1\linewidth]{imgs/Tolman_portrait} 
 :::
 
 [Edward C. Tolman's](https://en.wikipedia.org/wiki/Edward_C._Tolman) (1886-1959) flavor of behaviorism incorporated elements that are common in modern cognitive psychology. In 1932, he wrote "Purposive Behavior in Animals and Men" [@tolmanPurposiveBehaviorAnimal1932], which summarizes his research and views on behaviorism. In presenting his view, Tolman points out that numerous authors, such as "Holt, Perry, Singer, de Laguna, Hunter, Weiss, Lashley" had been developing their own versions of behaviorism, and refers to Roback's "Behaviorism and Psychology", for "the best analysis and bibliography of the different varieties of behaviorims extant to 1923". I mention the diversity of views to emphasize the difficulty of treating the period of behaviorism as single monolithic entity. Instead, much like there are numerous views on cognition today, there were numerous views on behaviorism. Similarly, it is worth noting that there were many non-behaviorist views on psychology and non-behaviorist lines of research that were ongoing throughout the so-called period of behaviorism.
@@ -186,7 +210,8 @@ Maze-running procedures were similar to Thorndike's puzzle boxes. Typically, an 
 
 ::: floatrightbox50
 
-<img src="imgs/Tolman_AlleyMaze.png" width="100%" />
+
+\includegraphics[width=1\linewidth]{imgs/Tolman_AlleyMaze} 
 
 :::
 
@@ -194,7 +219,8 @@ Tolman argued that behaviors were obviously goal-driven and should be described 
 
 ::: floatrightbox50
 
-<img src="imgs/Tolman_hunger.png" width="100%" />
+
+\includegraphics[width=1\linewidth]{imgs/Tolman_hunger} 
 
 :::
 
@@ -212,7 +238,8 @@ Tolman also argued that behavior should be described in terms of cognitive acts.
 
 ::: floatrightbox50
 
-<img src="imgs/Tolman_DistanceMaze.png" width="100%" />
+
+\includegraphics[width=1\linewidth]{imgs/Tolman_DistanceMaze} 
 
 :::
 
@@ -220,7 +247,8 @@ Tolman credits De Camp [@decampRelativeDistanceFactor1920] with connecting the r
 
 ::: floatrightbox50
 
-<img src="imgs/Tolman_Minima.png" width="100%" />
+
+\includegraphics[width=1\linewidth]{imgs/Tolman_Minima} 
 
 :::
 
@@ -228,7 +256,8 @@ Tolman to another interesting experiment by Gengerelli [@gengerelliPrincipleMaxi
 
 ::: floatrightbox50
 
-<img src="imgs/Tolman_Temporal.png" width="100%" />
+
+\includegraphics[width=1\linewidth]{imgs/Tolman_Temporal} 
 
 :::
 
@@ -252,7 +281,8 @@ To wrap up our discussion of Tolman, I will point quickly at his 1948 paper in P
 
 ::: floatrightbox25
 
-<img src="imgs/Tolman_latentmap.png" width="100%" />
+
+\includegraphics[width=1\linewidth]{imgs/Tolman_latentmap} 
 
 :::
 
@@ -260,7 +290,8 @@ Tolman credits Bodgett [@blodgettEffectIntroductionReward1929] with introducing 
 
 ::: floatrightbox50
 
-<img src="imgs/Tolman_latentresults.png" width="100%" />
+
+\includegraphics[width=1\linewidth]{imgs/Tolman_latentresults} 
 
 :::
 
@@ -283,7 +314,8 @@ According to wikipedia, Hull was recruited to Yale by James Rowland Angell (pres
 -->
 
 ::: floatright25
-<img src="imgs/clark-l-hull.jpg" width="100%" />
+
+\includegraphics[width=1\linewidth]{imgs/clark-l-hull} 
 :::
 
 [Clark L. Hull's](https://en.wikipedia.org/wiki/Clark_L._Hull) (1884-1952) flavor of behaviorism was again in the positivist tradition, but more focused on using math to specify functional relationships between units of behavior. In the positive tradition, a scientific theory is tentative and pragmatic. It is useful if it works for purposes of manipulation and control. Mathematical formulations are not strictly necessary, but they are often useful in describing functional relationships for purposes of prediction. 
@@ -319,7 +351,8 @@ Hull's mathematical theory did not succeed in explaining and predicting behavior
 ## Skinner's "Radical" Behaviorism
 
 ::: floatright25
-<img src="imgs/bf_skinner.jpg" width="100%" />
+
+\includegraphics[width=1\linewidth]{imgs/bf_skinner} 
 :::
 
 [Burrhus F. Skinner](https://en.wikipedia.org/wiki/B._F._Skinner) (1904–1990) received his Ph.D. at Harvard in 1931, where he spent the majority of his later academic career. Skinner had a profound impact on psychology and cognitive psychology both in terms of his ideas and the number of graduate students he mentored that would continue to shape the field. Skinner is often associated with the term "radical behaviorism", and although he did refer to his work this way on occasion, the term was in use more broadly to describe behaviorist ideas as "radical" in relation to other ideas in psychology [for more see, @schneiderHistoryTermRadical1987].
@@ -339,7 +372,8 @@ Operant conditioning is commonly used to train behaviors in animals such that th
 Skinner demonstrated operant conditioning in rats using a "Skinner-box" and a lever-pressing device. Unlike Thorndike's puzzle boxes, where animals demonstrated learning by escaping the boxes as quickly as possible; Skinner's boxes were constructed to contain the animal and create an environment where a particular behavior could be efficiently observed and measures.
 
 ::: floatright50
-<img src="imgs/Skinner_Box.png" width="100%" />
+
+\includegraphics[width=1\linewidth]{imgs/Skinner_Box} 
 :::
 
 The example skinner box to the right shows the box had space for a single rat to move about, and mechanisms for water and food delivery. The box also contained a lever the animal could press in order to receive food reward (subject to experimenter control). And, the box was set up to record any lever presses the animal made.
@@ -351,7 +385,8 @@ Skinner assumed that operant behavior, like pressing a lever, could become reinf
 Skinner's procedure for conditioning lever-pressing was very simple. He put rats in the Skinner box ad measured how many times they pressed the lever over time without any reward. This established a baseline frequency for the spontaneous occurence of the operant behavior. Then, the lever was connected to food delivery. Whenever, the animal pressed the lever, it received a food pellet. Skinner then observed the animal and measured each of the lever-presses over time.
 
 ::: floatright50
-<img src="imgs/Skinner_Results.png" width="100%" />
+
+\includegraphics[width=1\linewidth]{imgs/Skinner_Results} 
 :::
 
 The figure shows an example of Skinner's findings in a simple operant conditioning procedure. The Y axis shows the total number of lever presses, and the X axis shows time in minutes. The line represents lever-pressing behavior over time. The rat pressed lever for the first time after 5 minutes inside the box, and then received a food reward. Then it waited a long time (almost an hour) and pressed the lever a 2nd time, and then waited again and pressed a 3rd then 4th time. Look what happens after the 4th press. The line veers up, indicating the rat began pressing the lever at a much higher rate. 
@@ -365,7 +400,8 @@ Skinner had several reasons for choosing lever-pressing as a behavior to investi
 Skinner usually plotted responses over time in a cumulative graph. Cumulative means that the line represents the  "accumulation" of responses over time. In other words, at each point in time on the X axis, the vertical position of the line on the Y axis indicates the sum total number of responses occurring up to that point in time.
 
 ::: floatright50
-<img src="imgs/Skinner_Slope.png" width="100%" />
+
+\includegraphics[width=1\linewidth]{imgs/Skinner_Slope} 
 :::
 
 Importantly, the slope of the line in the graph has a special meaning, it represents the rate of responding. The rate of responding (or response rate) is a ratio of the number of responses divided by amount of time. For example, the first 4 responses occurred in about 120 minutes, so the response rate could be calculated as $4/120 = .033$ (responses per minute). Notice the line in the graph up to the 4th response has a very shallow slope, this indicates a low rate of responding (e.g., only .033 responses per minute). After the fourth response, the slope of the line becomes much steeper, indicating a much higher rate of responding. By rough visual inspection of the graph, it looks like close to 100 lever-presses were made in about 30 minutes, or a response rate of $100/30 = 3.33$ (responses per minute).
@@ -380,7 +416,10 @@ We will spend a little bit more time on Skinner's system because it represents a
 
 To give an example of the descriptive nature of Skinner's system, consider the figure below. The figure is a cartoon summary of how white rats typically behave in the Skinner box under different conditions. 
 
-<img src="imgs/Skinner_description.png" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
+
+
+
+\begin{center}\includegraphics[width=1\linewidth]{imgs/Skinner_description} \end{center}
 
 Notice the graph is purely descriptive in two senses. First, the line describes lever-pressing over time. Second, I have added terms to describe conditions and phases of the experiment. I also added letters to individual line segments to highlight how Skinner's system involved using abstract terms to describe what he argued were generalizable components of behavior. To contrast some ways we could describe this graph, first let me describe it using "everyday language", then let's use Skinner's system to describe it. 
 
@@ -416,7 +455,10 @@ Finally, Skinner sometimes proposed additional hypothetical constructs like a **
 
 Let's bring back the cartoon figure showing general trends in rat lever-pressing behavior over time and different experimental conditions, and use Skinner's system to describe the behavior.
 
-<img src="imgs/Skinner_description.png" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
+
+
+
+\begin{center}\includegraphics[width=1\linewidth]{imgs/Skinner_description} \end{center}
 
 The rat has an initial **reflex reserve** giving it some propensity to make the reflex. Prior to acquisition, some unknown impulse causes a **threshold** to be reached, and the **reflex** is spontaneously emitted. The impulse doesn't occur often, or the threshold is very high, so the **reflex strength** is low overall because it occurs infrequently.
 

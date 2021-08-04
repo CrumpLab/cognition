@@ -134,31 +134,52 @@ Stimuli (in the environment) and responses (observable behaviors of humans and a
 
 One set of behaviors involved pre-existing stimulus-response associations in the form of unconditioned responses.
 
-```{r,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+knitr::include_graphics("imgs/Watson_unconditioned.png")
+```
+
+```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
 knitr::include_graphics("imgs/Watson_unconditioned.png")
 ```
 
 All remaining behavior was involved newly acquired or learned stimulus-responses associations. Watson generalized Pavlov's concept of conditioning to cover learned behaviors. He presented conditioning as a widely applicable process that could potentially allow a wide-range of stimuli to become a substitute for triggering a wide-range of responses.
 
-```{r,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
 knitr::include_graphics("imgs/Watson_conditioned.png")
 ```
 
+```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
+knitr::include_graphics("imgs/Watson_conditioned.png")
+```
+
+
 Watson's S-R system was more like speculative fiction than a fully worked out system in the positivist tradition. He identified terms like stimuli and response, and made grand claims about possible functional relationships between them, but did not supply a detailed mathematical analysis of assumed lawful connections between stimuli and responses. Instead, he jumped straight to envisioning how future society could control its citizenry using behavioral engineering. He formulated societal level manipulations in terms of stimulus-response questions (see below), and was hopeful that behaviorism could help make predictions about outcomes of such interventions.
 
-```{r,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+knitr::include_graphics("imgs/Watson_Society_S.png")
+```
+
+```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
 knitr::include_graphics("imgs/Watson_Society_S.png")
 ```
 
 Similarly, he imagined desired outcomes for society, and implied that behavioral engineering would be able to construct the appropriate stimuli to force the behaviors he considered desirable.
 
-```{r, out.extra="class = 'centerfigureshadow'", fig.align="center"}
+```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+knitr::include_graphics("imgs/Watson_Society_R.png")
+```
+
+```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
 knitr::include_graphics("imgs/Watson_Society_R.png")
 ```
 
 Finally, Watson promoted behaviorism as more than the correct scientific way to do psychology. It was an academic social movement, in the tradition of scientific utopias, that was sweeping the nation. For example, in the figure below, Watson describes how psychology, philosophy, ethics, social psychology, sociology, religion, and psycho-analysis were all becoming behaviorist systems or disappearing if they were not.
 
-```{r, out.extra="class = 'centerfigureshadow'", fig.align="center"}
+```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+knitr::include_graphics("imgs/Watson_sweep.png")
+```
+
+```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
 knitr::include_graphics("imgs/Watson_sweep.png")
 ```
 
@@ -428,7 +449,11 @@ We will spend a little bit more time on Skinner's system because it represents a
 
 To give an example of the descriptive nature of Skinner's system, consider the figure below. The figure is a cartoon summary of how white rats typically behave in the Skinner box under different conditions. 
 
-```{r, out.extra="class = 'centerfigureshadow'", fig.align="center"}
+```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+knitr::include_graphics("imgs/Skinner_description.png")
+```
+
+```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
 knitr::include_graphics("imgs/Skinner_description.png")
 ```
 
@@ -466,7 +491,11 @@ Finally, Skinner sometimes proposed additional hypothetical constructs like a **
 
 Let's bring back the cartoon figure showing general trends in rat lever-pressing behavior over time and different experimental conditions, and use Skinner's system to describe the behavior.
 
-```{r, out.extra="class = 'centerfigureshadow'", fig.align="center"}
+```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+knitr::include_graphics("imgs/Skinner_description.png")
+```
+
+```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
 knitr::include_graphics("imgs/Skinner_description.png")
 ```
 

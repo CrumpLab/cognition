@@ -22,7 +22,8 @@ To understand computer metaphors for cognition it is necessary to know what a co
 
 **Computer Room, 1949**
 
-<img src="imgs/NACA_computers.jpg" width="100%" />
+
+\includegraphics[width=1\linewidth]{imgs/NACA_computers} 
 
 :::
 
@@ -32,7 +33,8 @@ Computers existed in various forms before the digital computer was introduced. T
 
 **Difference Engine**
 
-<img src="imgs/Babbage_diff.gif" width="100%" />
+
+\includegraphics[width=1\linewidth]{imgs/Babbage_diff} 
 
 :::
 

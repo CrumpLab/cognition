@@ -70,6 +70,7 @@ There were many national and international conferences where elites in the eugen
 ```{r}
 knitr::include_graphics("imgs/Eugenics_tree.jpg")
 ```
+
 In America, eugenics appealed to large segments of society and was embraced by celebrities, national leaders, and everyday people across country. Some famous Americans who were strong proponents of eugenics include Alexander Graham Bell (inventor of the telephone), John Harvey Kellogg (Kellog's Corn Flakes), and Theodore Roosevelt (American President). During the height of its activity, the Eugenics Record Office trained scores of operators to disseminate information about eugenics across the states. For example, it would be common to attend a county fair and learn about eugenics at a eugenics information tent. Or, to participate in eugenics contests, like the "better babies" contests, where families had their baby's judged and won prize for having the highest quality baby (by eugenical standards). The take home message here is that the eugenics movement spread its ideology to the point were its proposals for improving society were very well known, accepted, and fanatically embraced by its strongest adherents.
 
 ### Eugenics Journals

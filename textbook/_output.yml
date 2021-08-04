@@ -8,3 +8,7 @@ bookdown::bs4_book:
   includes:
     in_header: [ga_script.html,og_cards.html,twitter_cards.html]
   css: custom.css
+bookdown::pdf_book:
+  keep_tex: yes
+  includes:
+      in_header: "preamble.tex"

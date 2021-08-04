@@ -3,9 +3,13 @@
 # Intelligence Testing
 
 
-| Word Count|Reading Time |
-|----------:|:------------|
-|       6768|33.8 minutes |
+\begin{tabular}{r|l}
+\hline
+Word Count & Reading Time\\
+\hline
+6768 & 33.8 minutes\\
+\hline
+\end{tabular}
 
 
 <!--
@@ -88,7 +92,8 @@ Binet described psychological, pedagogical, and medical batteries of tests that 
 
 The figure below shows individual tasks that were determined to be appropriate to children in each year, from 3 to 13. Binet describes the individual tasks in great detail, along with instructions for administering each test, and scoring of each test.
 
-<img src="imgs/Binet_1905.png" width="100%" />
+
+\includegraphics[width=1\linewidth]{imgs/Binet_1905} 
 
 To give an example of results, panel B shows performance from seven and eleven year old children on the task, "immediate repetition of sentences of 14 to 15 words each". In this task, a sentence was read aloud to a child, and the child had to repeat back the sentence exactly as many times as they could. Multiple measures of performance were taken, including total number of sentences repeated, and notes about "absurdities", occurring when the child repeated something that was determined by the examiner to be absurd. There are two important features of the results that were common to all of the tests, and that were fundamental to Binet's method. First, there were clear differences in task performance between children of different ages. For example, children at age seven year recited fewer sentences than children at ege eleven. To my eye, the average seven year old in the table (in the middle of the group) repeated about 3 sentences; whereas, the average eleven year old repeated about 5 sentences. Second, there were individual differences within children of the same age. Some children at age seven recited one or two sentences and other recited up to 4 or 5 sentences.
 

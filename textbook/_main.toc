@@ -1,0 +1,203 @@
+\contentsline {chapter}{Welcome}{7}{chapter*.2}% 
+\contentsline {chapter}{Preface}{9}{chapter*.3}% 
+\contentsline {section}{\numberline {0.1}Purpose and Motivation}{9}{section.0.1}% 
+\contentsline {section}{\numberline {0.2}About the Author(s)}{9}{section.0.2}% 
+\contentsline {section}{\numberline {0.3}For Students}{10}{section.0.3}% 
+\contentsline {section}{\numberline {0.4}For Instructors}{10}{section.0.4}% 
+\contentsline {section}{\numberline {0.5}CC BY-SA 4.0 license}{10}{section.0.5}% 
+\contentsline {section}{\numberline {0.6}Copying the textbook}{11}{section.0.6}% 
+\contentsline {section}{\numberline {0.7}Acknowledgments}{11}{section.0.7}% 
+\contentsline {section}{\numberline {0.8}Citation}{11}{section.0.8}% 
+\contentsline {chapter}{Getting started}{13}{chapter*.4}% 
+\contentsline {chapter}{\numberline {1}What is cognition?}{15}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Chapter Overview}{15}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Taking a step back}{15}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}The truth, the whole truth, and nothing but the truth vs knowledge creation}{16}{subsection.1.2.1}% 
+\contentsline {section}{\numberline {1.3}What is Cognition?}{17}{section.1.3}% 
+\contentsline {subsection}{\numberline {1.3.1}Cognitive abilities}{18}{subsection.1.3.1}% 
+\contentsline {subsection}{\numberline {1.3.2}Answering How questions}{19}{subsection.1.3.2}% 
+\contentsline {section}{\numberline {1.4}How does research in cognition work?}{19}{section.1.4}% 
+\contentsline {section}{\numberline {1.5}The cooking of science: A recipe metaphor}{21}{section.1.5}% 
+\contentsline {subsection}{\numberline {1.5.1}Oven Fries: My favorite recipe}{21}{subsection.1.5.1}% 
+\contentsline {subsection}{\numberline {1.5.2}Cooking competitions and the best recipe}{22}{subsection.1.5.2}% 
+\contentsline {subsection}{\numberline {1.5.3}Recipe Quality}{23}{subsection.1.5.3}% 
+\contentsline {subsection}{\numberline {1.5.4}Testing Recipes}{24}{subsection.1.5.4}% 
+\contentsline {subsection}{\numberline {1.5.5}Making inferences about recipes}{25}{subsection.1.5.5}% 
+\contentsline {subsection}{\numberline {1.5.6}Dessert}{26}{subsection.1.5.6}% 
+\contentsline {section}{\numberline {1.6}Society and Historical context}{27}{section.1.6}% 
+\contentsline {subsection}{\numberline {1.6.1}Questions to keep in mind as you learn about cognition}{27}{subsection.1.6.1}% 
+\contentsline {chapter}{\numberline {2}Mental Imagery}{29}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Chapter Overview}{29}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}What is mental imagery?}{29}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}Generating facts about mental imagery}{30}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Methods of Introspection and Subjective report}{30}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.2}Galton's Statistics of mental imagery}{30}{subsection.2.3.2}% 
+\contentsline {subsubsection}{\numberline {2.3.2.1}Galton's Method of Subjective Report}{31}{subsubsection.2.3.2.1}% 
+\contentsline {subsubsection}{\numberline {2.3.2.2}Galton's results}{31}{subsubsection.2.3.2.2}% 
+\contentsline {subsubsection}{\numberline {2.3.2.3}Galton's conclusion}{32}{subsubsection.2.3.2.3}% 
+\contentsline {subsubsection}{\numberline {2.3.2.4}Limitations with Galton's method}{32}{subsubsection.2.3.2.4}% 
+\contentsline {subsection}{\numberline {2.3.3}Reproducing Galton's mental imagery work}{33}{subsection.2.3.3}% 
+\contentsline {subsection}{\numberline {2.3.4}Aphantasia and Hyperphantasia}{34}{subsection.2.3.4}% 
+\contentsline {subsection}{\numberline {2.3.5}Taking stock of the facts so far}{35}{subsection.2.3.5}% 
+\contentsline {section}{\numberline {2.4}Theories, explanation and mental imagery}{36}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Mental Imagery as explanation}{37}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.2}Paivio's concrete versus abstract memory task}{37}{subsection.2.4.2}% 
+\contentsline {subsubsection}{\numberline {2.4.2.1}Paivio's explanations}{39}{subsubsection.2.4.2.1}% 
+\contentsline {subsubsection}{\numberline {2.4.2.2}The research cycle and theory testing}{39}{subsubsection.2.4.2.2}% 
+\contentsline {subsection}{\numberline {2.4.3}Theories of Mental Representation}{40}{subsection.2.4.3}% 
+\contentsline {subsubsection}{\numberline {2.4.3.1}Mental Chronometry}{41}{subsubsection.2.4.3.1}% 
+\contentsline {subsection}{\numberline {2.4.4}Explaining mental scanning times}{45}{subsection.2.4.4}% 
+\contentsline {subsubsection}{\numberline {2.4.4.1}A pictorial explanation of scanning time}{46}{subsubsection.2.4.4.1}% 
+\contentsline {subsubsection}{\numberline {2.4.4.2}A propositional explanation of scanning time}{46}{subsubsection.2.4.4.2}% 
+\contentsline {subsubsection}{\numberline {2.4.4.3}Evaluating the explanations}{47}{subsubsection.2.4.4.3}% 
+\contentsline {section}{\numberline {2.5}Society and Historical context}{47}{section.2.5}% 
+\contentsline {chapter}{\numberline {3}Eugenics and Psychology}{51}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Chapter Overview}{51}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Eugenics, psychology and the cognitive sciences}{51}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Eugenics: an overview}{52}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Galton's Eugenics}{53}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}The Eugenics movement}{54}{section.3.5}% 
+\contentsline {subsection}{\numberline {3.5.1}A Timeline}{54}{subsection.3.5.1}% 
+\contentsline {subsection}{\numberline {3.5.2}From ideas to internationalization}{55}{subsection.3.5.2}% 
+\contentsline {subsection}{\numberline {3.5.3}Conferences and popularity}{55}{subsection.3.5.3}% 
+\contentsline {subsection}{\numberline {3.5.4}Eugenics Journals}{56}{subsection.3.5.4}% 
+\contentsline {subsection}{\numberline {3.5.5}Eugenics Fears}{56}{subsection.3.5.5}% 
+\contentsline {subsection}{\numberline {3.5.6}Positive and Negative Eugenics}{57}{subsection.3.5.6}% 
+\contentsline {subsection}{\numberline {3.5.7}Influences on society}{57}{subsection.3.5.7}% 
+\contentsline {section}{\numberline {3.6}Psychology and Eugenics}{59}{section.3.6}% 
+\contentsline {subsection}{\numberline {3.6.1}Emergence of Psychology}{59}{subsection.3.6.1}% 
+\contentsline {section}{\numberline {3.7}Cognition as Testing abilities vs.\nobreakspace {}testing theories}{60}{section.3.7}% 
+\contentsline {chapter}{\numberline {4}Intelligence Testing}{63}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Chapter Overview}{63}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}The intelligence test race}{63}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Cattell's mental tests}{66}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Binet's critiques}{67}{subsection.4.2.2}% 
+\contentsline {section}{\numberline {4.3}Binet-Simon Test (1905-1911)}{68}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}Motivation}{68}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.2}Method}{69}{subsection.4.3.2}% 
+\contentsline {subsection}{\numberline {4.3.3}Quantifying mental ability with Age}{70}{subsection.4.3.3}% 
+\contentsline {subsection}{\numberline {4.3.4}Comparison to Norms}{71}{subsection.4.3.4}% 
+\contentsline {subsection}{\numberline {4.3.5}Computing intelligence scores}{72}{subsection.4.3.5}% 
+\contentsline {subsection}{\numberline {4.3.6}Binet's use cases}{72}{subsection.4.3.6}% 
+\contentsline {subsection}{\numberline {4.3.7}Meaning of the measure}{73}{subsection.4.3.7}% 
+\contentsline {section}{\numberline {4.4}Mental testing and eugenics in America}{75}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1}The Alpha-Beta test}{75}{subsection.4.4.1}% 
+\contentsline {subsection}{\numberline {4.4.2}Scientific Racism}{76}{subsection.4.4.2}% 
+\contentsline {subsection}{\numberline {4.4.3}Mental health}{77}{subsection.4.4.3}% 
+\contentsline {subsection}{\numberline {4.4.4}Education and The Black Psychologists}{78}{subsection.4.4.4}% 
+\contentsline {section}{\numberline {4.5}Cognition: Testing abilities vs.\nobreakspace {}testing theories}{79}{section.4.5}% 
+\contentsline {chapter}{\numberline {5}Associations}{81}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Chapter overview}{81}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Evolving ideas on cognition}{81}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}Humans and animals}{82}{subsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2.2}Philosophy}{83}{subsection.5.2.2}% 
+\contentsline {subsection}{\numberline {5.2.3}Natural Science}{83}{subsection.5.2.3}% 
+\contentsline {subsection}{\numberline {5.2.4}Evolution}{84}{subsection.5.2.4}% 
+\contentsline {subsection}{\numberline {5.2.5}Associative Claims}{85}{subsection.5.2.5}% 
+\contentsline {section}{\numberline {5.3}Cattell's Associative Reaction times}{86}{section.5.3}% 
+\contentsline {subsection}{\numberline {5.3.1}Naming times}{86}{subsection.5.3.1}% 
+\contentsline {subsection}{\numberline {5.3.2}Association reaction times}{87}{subsection.5.3.2}% 
+\contentsline {section}{\numberline {5.4}Thorndike's puzzle boxes}{88}{section.5.4}% 
+\contentsline {subsection}{\numberline {5.4.1}Thornike's basic methodology}{91}{subsection.5.4.1}% 
+\contentsline {subsection}{\numberline {5.4.2}Putative Mental Components of Association}{91}{subsection.5.4.2}% 
+\contentsline {subsection}{\numberline {5.4.3}Experimental questions about associative processes}{92}{subsection.5.4.3}% 
+\contentsline {subsubsection}{\numberline {5.4.3.1}Imitation Learning}{92}{subsubsection.5.4.3.1}% 
+\contentsline {subsubsection}{\numberline {5.4.3.2}Mental Representation}{92}{subsubsection.5.4.3.2}% 
+\contentsline {subsubsection}{\numberline {5.4.3.3}General concept formation}{93}{subsubsection.5.4.3.3}% 
+\contentsline {subsection}{\numberline {5.4.4}Further associative questions}{94}{subsection.5.4.4}% 
+\contentsline {section}{\numberline {5.5}Pavlov's Classical Conditioning}{94}{section.5.5}% 
+\contentsline {subsection}{\numberline {5.5.1}Descartes' reflex}{95}{subsection.5.5.1}% 
+\contentsline {subsection}{\numberline {5.5.2}Pavlov's liquid}{99}{subsection.5.5.2}% 
+\contentsline {subsection}{\numberline {5.5.3}Simple acquisition and conditioning terminology}{100}{subsection.5.5.3}% 
+\contentsline {subsubsection}{\numberline {5.5.3.1}Explaining simple acquisition}{103}{subsubsection.5.5.3.1}% 
+\contentsline {subsection}{\numberline {5.5.4}Extinction}{104}{subsection.5.5.4}% 
+\contentsline {subsubsection}{\numberline {5.5.4.1}Explaining extinction}{104}{subsubsection.5.5.4.1}% 
+\contentsline {subsection}{\numberline {5.5.5}Spontaneous Recovery}{105}{subsection.5.5.5}% 
+\contentsline {section}{\numberline {5.6}Conclusions}{106}{section.5.6}% 
+\contentsline {chapter}{\numberline {6}Behaviorism}{107}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Overview}{107}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}The Rabbit Hole: To explain or not to explain?}{108}{section.6.2}% 
+\contentsline {subsection}{\numberline {6.2.1}Youtube, machine-learning, and internet behaviorism}{108}{subsection.6.2.1}% 
+\contentsline {section}{\numberline {6.3}Enter Behaviorism}{110}{section.6.3}% 
+\contentsline {subsection}{\numberline {6.3.1}Positivism}{111}{subsection.6.3.1}% 
+\contentsline {subsection}{\numberline {6.3.2}Scientific Utopianism}{112}{subsection.6.3.2}% 
+\contentsline {section}{\numberline {6.4}Associationism, Conditioning and Behaviorism}{112}{section.6.4}% 
+\contentsline {section}{\numberline {6.5}Watson's ``Salesman'' Behaviorism}{114}{section.6.5}% 
+\contentsline {subsection}{\numberline {6.5.1}Elements of Watson's Behaviorism}{116}{subsection.6.5.1}% 
+\contentsline {subsection}{\numberline {6.5.2}Watson's stimulus-response positivism}{117}{subsection.6.5.2}% 
+\contentsline {subsection}{\numberline {6.5.3}Watson's S-R System}{118}{subsection.6.5.3}% 
+\contentsline {section}{\numberline {6.6}Tolman's ``Purposive'' behaviorism}{121}{section.6.6}% 
+\contentsline {subsection}{\numberline {6.6.1}Molar definition of behavior}{123}{subsection.6.6.1}% 
+\contentsline {subsection}{\numberline {6.6.2}Purposive and cognitive determinants}{124}{subsection.6.6.2}% 
+\contentsline {subsection}{\numberline {6.6.3}The rat in the maze}{125}{subsection.6.6.3}% 
+\contentsline {subsubsection}{\numberline {6.6.3.1}Purposive behavior}{126}{subsubsection.6.6.3.1}% 
+\contentsline {subsubsection}{\numberline {6.6.3.2}Cognitive Behavior}{128}{subsubsection.6.6.3.2}% 
+\contentsline {subsection}{\numberline {6.6.4}Tolman's inheritance project: A rat model of eugenics}{132}{subsection.6.6.4}% 
+\contentsline {subsection}{\numberline {6.6.5}Cognitive maps in rats and men}{133}{subsection.6.6.5}% 
+\contentsline {subsubsection}{\numberline {6.6.5.1}Latent-learning as evidence for cognitive maps}{134}{subsubsection.6.6.5.1}% 
+\contentsline {subsubsection}{\numberline {6.6.5.2}Implications for society}{136}{subsubsection.6.6.5.2}% 
+\contentsline {section}{\numberline {6.7}Hull's mathematical behaviorism}{137}{section.6.7}% 
+\contentsline {section}{\numberline {6.8}Skinner's ``Radical'' Behaviorism}{139}{section.6.8}% 
+\contentsline {subsection}{\numberline {6.8.1}Operant Conditioning}{139}{subsection.6.8.1}% 
+\contentsline {subsubsection}{\numberline {6.8.1.1}Lever pressing in the Skinner box}{140}{subsubsection.6.8.1.1}% 
+\contentsline {subsubsection}{\numberline {6.8.1.2}Interpreting a cumulative response graph}{143}{subsubsection.6.8.1.2}% 
+\contentsline {subsection}{\numberline {6.8.2}Reflex strength: A descriptive system}{144}{subsection.6.8.2}% 
+\contentsline {subsubsection}{\numberline {6.8.2.1}Everyday Description}{144}{subsubsection.6.8.2.1}% 
+\contentsline {subsubsection}{\numberline {6.8.2.2}Systematic Description: Setting terms and laws}{145}{subsubsection.6.8.2.2}% 
+\contentsline {subsubsection}{\numberline {6.8.2.3}Example Skinnerian Description}{147}{subsubsection.6.8.2.3}% 
+\contentsline {subsection}{\numberline {6.8.3}Applications of operant conditioning}{148}{subsection.6.8.3}% 
+\contentsline {subsection}{\numberline {6.8.4}Implications: Skinner's Utopia}{149}{subsection.6.8.4}% 
+\contentsline {section}{\numberline {6.9}Exit Behaviorism?}{149}{section.6.9}% 
+\contentsline {chapter}{\numberline {7}Information Processing}{151}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Overview}{151}{section.7.1}% 
+\contentsline {section}{\numberline {7.2}Four Revolutions: Industrial, Technological, Digital, and ``Cognitive''}{152}{section.7.2}% 
+\contentsline {subsection}{\numberline {7.2.1}Assembly-line metaphor of cognition}{153}{subsection.7.2.1}% 
+\contentsline {subsection}{\numberline {7.2.2}Telephone metaphor of cognition}{153}{subsection.7.2.2}% 
+\contentsline {subsection}{\numberline {7.2.3}Computer metaphor of cognition}{154}{subsection.7.2.3}% 
+\contentsline {section}{\numberline {7.3}The mechanization of cognition}{154}{section.7.3}% 
+\contentsline {section}{\numberline {7.4}Donders' Processing Stages}{156}{section.7.4}% 
+\contentsline {subsection}{\numberline {7.4.1}Donders mental chronometry and processing stages}{156}{subsection.7.4.1}% 
+\contentsline {subsection}{\numberline {7.4.2}Physiological reaction time}{157}{subsection.7.4.2}% 
+\contentsline {subsection}{\numberline {7.4.3}Donders mental reaction times}{157}{subsection.7.4.3}% 
+\contentsline {subsection}{\numberline {7.4.4}Donders subtractive stage logic}{160}{subsection.7.4.4}% 
+\contentsline {section}{\numberline {7.5}Beyond Donders}{163}{section.7.5}% 
+\contentsline {subsection}{\numberline {7.5.1}Subtractive logic}{163}{subsection.7.5.1}% 
+\contentsline {subsection}{\numberline {7.5.2}Reaction time research}{163}{subsection.7.5.2}% 
+\contentsline {subsection}{\numberline {7.5.3}Processing Stages}{164}{subsection.7.5.3}% 
+\contentsline {subsubsection}{\numberline {7.5.3.1}PRP: Psychological Refractory Period}{164}{subsubsection.7.5.3.1}% 
+\contentsline {section}{\numberline {7.6}Cybernetics and the Macy Conferences}{167}{section.7.6}% 
+\contentsline {section}{\numberline {7.7}Shannon's Information Theory}{168}{section.7.7}% 
+\contentsline {subsection}{\numberline {7.7.1}Information channels}{169}{subsection.7.7.1}% 
+\contentsline {subsection}{\numberline {7.7.2}Measuring Information: H}{171}{subsection.7.7.2}% 
+\contentsline {subsection}{\numberline {7.7.3}Computing H}{172}{subsection.7.7.3}% 
+\contentsline {subsection}{\numberline {7.7.4}Bits of information}{173}{subsection.7.7.4}% 
+\contentsline {subsection}{\numberline {7.7.5}H, Bits, predictability and Information}{174}{subsection.7.7.5}% 
+\contentsline {subsection}{\numberline {7.7.6}Summary}{176}{subsection.7.7.6}% 
+\contentsline {section}{\numberline {7.8}Hick-Hyman ``Law''}{176}{section.7.8}% 
+\contentsline {subsection}{\numberline {7.8.1}Choice Reaction time}{177}{subsection.7.8.1}% 
+\contentsline {subsection}{\numberline {7.8.2}The number of alternatives increases choice-RT}{178}{subsection.7.8.2}% 
+\contentsline {subsection}{\numberline {7.8.3}Number of alternatives or ``Information'' in the message?}{178}{subsection.7.8.3}% 
+\contentsline {subsection}{\numberline {7.8.4}Deconfounding alternatives from information}{179}{subsection.7.8.4}% 
+\contentsline {subsection}{\numberline {7.8.5}The experiments}{179}{subsection.7.8.5}% 
+\contentsline {subsubsection}{\numberline {7.8.5.1}Experiment I (Hyman 1953)}{179}{subsubsection.7.8.5.1}% 
+\contentsline {subsubsection}{\numberline {7.8.5.2}Experiment II (Hyman 1953)}{179}{subsubsection.7.8.5.2}% 
+\contentsline {subsubsection}{\numberline {7.8.5.3}The results}{180}{subsubsection.7.8.5.3}% 
+\contentsline {subsection}{\numberline {7.8.6}Implications for Behaviorism}{181}{subsection.7.8.6}% 
+\contentsline {subsection}{\numberline {7.8.7}Debate about interpretation}{182}{subsection.7.8.7}% 
+\contentsline {subsubsection}{\numberline {7.8.7.1}Information theory was not a psychological theory}{182}{subsubsection.7.8.7.1}% 
+\contentsline {subsubsection}{\numberline {7.8.7.2}The Hick-Hyman law could be violated}{182}{subsubsection.7.8.7.2}% 
+\contentsline {subsubsection}{\numberline {7.8.7.3}Hick's explanations}{183}{subsubsection.7.8.7.3}% 
+\contentsline {subsubsection}{\numberline {7.8.7.4}A tale of two confounds: Priming Explanations}{184}{subsubsection.7.8.7.4}% 
+\contentsline {section}{\numberline {7.9}Information theory and beyond}{185}{section.7.9}% 
+\contentsline {chapter}{\numberline {8}Memory}{187}{chapter.8}% 
+\contentsline {chapter}{\numberline {9}Implicit Memory}{189}{chapter.9}% 
+\contentsline {chapter}{\numberline {10}Computational models}{191}{chapter.10}% 
+\contentsline {chapter}{\numberline {11}Categorization}{193}{chapter.11}% 
+\contentsline {chapter}{\numberline {12}Attention}{195}{chapter.12}% 
+\contentsline {chapter}{\numberline {13}Language and Semantic Cognition}{197}{chapter.13}% 
+\contentsline {chapter}{\numberline {14}Judgment and Decision Making}{199}{chapter.14}% 
+\contentsline {chapter}{\numberline {15}Thinking}{201}{chapter.15}% 
+\contentsline {chapter}{Style guide}{203}{chapter*.5}% 
+\contentsline {section}{\numberline {15.1}Header level 1}{203}{section.15.1}% 
+\contentsline {subsection}{\numberline {15.1.1}Header level 2}{203}{subsection.15.1.1}% 
+\contentsline {subsubsection}{\numberline {15.1.1.1}Header level 3}{203}{subsubsection.15.1.1.1}% 

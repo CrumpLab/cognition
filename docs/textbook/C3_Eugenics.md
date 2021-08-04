@@ -3,9 +3,13 @@
 # Eugenics and Psychology
 
 
-| Word Count|Reading Time |
-|----------:|:------------|
-|       4163|20.8 minutes |
+\begin{tabular}{r|l}
+\hline
+Word Count & Reading Time\\
+\hline
+4163 & 20.8 minutes\\
+\hline
+\end{tabular}
 
 
 <!--
@@ -61,7 +65,8 @@ Galton continued to expand and popularize his ideas from 1865, and coined the ph
 
 There were many national and international conferences where elites in the eugenics movement gathered to popularize and discuss eugenical solutions to improve society. The first (1912), second (1921) and third (1932) International Eugenics Congresses were held in London, and New York (last two). The tree of eugenics created for the second conference depicts how the movement saw itself as, "the self-direction of human evolution", and harmoniously integrating many fields of study to better mankind. Just like each of the countries listed above, the academic fields listed in the roots of the tree of eugenics, also have their own eugenics legacies to contend with.
 
-<img src="imgs/Eugenics_tree.jpg" width="100%" />
+
+\includegraphics[width=1\linewidth]{imgs/Eugenics_tree} 
 In America, eugenics appealed to large segments of society and was embraced by celebrities, national leaders, and everyday people across country. Some famous Americans who were strong proponents of eugenics include Alexander Graham Bell (inventor of the telephone), John Harvey Kellogg (Kellog's Corn Flakes), and Theodore Roosevelt (American President). During the height of its activity, the Eugenics Record Office trained scores of operators to disseminate information about eugenics across the states. For example, it would be common to attend a county fair and learn about eugenics at a eugenics information tent. Or, to participate in eugenics contests, like the "better babies" contests, where families had their baby's judged and won prize for having the highest quality baby (by eugenical standards). The take home message here is that the eugenics movement spread its ideology to the point were its proposals for improving society were very well known, accepted, and fanatically embraced by its strongest adherents.
 
 ### Eugenics Journals
