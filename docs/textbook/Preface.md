@@ -36,13 +36,6 @@ Feel free to fork the repo and use these materials as you see fit. If you would 
 
 
 
-
-```r
-if (knitr::is_latex_output()) {
-  knitr::asis_output('[License: CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)')
-}
-```
-
 [License: CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 

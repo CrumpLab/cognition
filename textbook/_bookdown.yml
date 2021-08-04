@@ -1,5 +1,6 @@
 delete_merged_file: true
 new_session: true
+book_filename: "instances_of_cognition_Crump.pdf"
 
 output_dir: "../docs/textbook"
 

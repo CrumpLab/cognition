@@ -36,7 +36,7 @@ As I will describe briefly in the next section, metaphors are very commonly used
 
 ### Assembly-line metaphor of cognition
 
-::: floatright50
+::: {.floatright50 data-latex=""} 
 
 **A crayon assembly line**
 
@@ -101,7 +101,7 @@ Donders conducted many human reaction time experiments using tactile, visual and
 
 A basic question was whether different sense organs had different physiological reaction times. But, Donders was more interested in the additional "mental" time it might take to perform increasingly complex tasks before making a response to the stimuli. The tasks that Donders used to increase complexity are still widely used. In the remaining description of Donders work, I will use the modern terms for the tasks, and present a generic summary of Donders findings and conclusions. 
 
-::: floatright25
+::: {.floatright25 data-latex=""} 
 ```{r}
 knitr::include_graphics("imgs/Donders_simple.png")
 ```
@@ -109,7 +109,7 @@ knitr::include_graphics("imgs/Donders_simple.png")
 
 The most basic reaction time task is called a *simple reaction time task*. In this task, subjects are presented with a stimulus, and asked to respond to as quickly as possible, as soon as they detect it. Donders would consider the reaction times from this task as "physiological reaction times".
 
-::: floatright25
+::: {.floatright25 data-latex=""} 
 ```{r}
 knitr::include_graphics("imgs/Donders_GoNoGo.png")
 ```
@@ -117,7 +117,7 @@ knitr::include_graphics("imgs/Donders_GoNoGo.png")
 
 Donders invented the idea of having subjects perform a slightly more complicated task that is now referred to as the *GO-NO GO* task. In this task, subjects are presented with a stimulus, but they only make a response if the stimulus is the target stimulus. For example, one might see a blue or red stimulus, and the response would be required only if the stimulus was blue (a GO response). No response would be required if the stimulus was red (a NO GO trial).
 
-::: floatright25
+::: {.floatright25 data-latex=""} 
 ```{r}
 knitr::include_graphics("imgs/Donders_Choice.png")
 ```
@@ -203,7 +203,7 @@ British psychologist A. T. Welford drew attention to the *Psychological Refracto
 
 Welford observed the psychological refractory period from existing reaction time research, and discussed possible explanations of the finding in terms of processing stages. The basic PRP effect was that responding to one stimulus can sometimes delay a response to second stimulus, especially if they are presented quickly, one after the other. 
 
-::: floatright50
+::: {.floatright50 data-latex=""} 
 
 ```{r}
 knitr::include_graphics("imgs/PRP_effect.jpg")
@@ -332,8 +332,8 @@ df <- df %>%
   rbind(c("sum","","","$\\sum_\\text{i=1}^n$",as.character(sum_H))) %>%
   rbind(c("H","","","$-1*\\sum_\\text{i=1}^n$",as.character(H)))
 
-knitr::kable(df)
-
+if(knitr::is_html_output()) knitr::kable(df)
+if(knitr::is_latex_output()) knitr::kable(df,escape = FALSE)
 ```
 
 To walk through the table, in the first row we have the calculations for heads. The probability of heads is .5.
@@ -417,7 +417,8 @@ df <- df %>%
   rbind(c("sum","","","$\\sum_\\text{i=1}^n$",as.character(sum_H))) %>%
   rbind(c("H","","","$-1*\\sum_\\text{i=1}^n$",as.character(H)))
 
-knitr::kable(df)
+if(knitr::is_html_output()) knitr::kable(df)
+if(knitr::is_latex_output()) knitr::kable(df,escape = FALSE)
 
 ```
 
@@ -454,7 +455,8 @@ df <- df %>%
   rbind(c("sum","","","$\\sum_\\text{i=1}^n$",as.character(sum_H))) %>%
   rbind(c("H","","","$-1*\\sum_\\text{i=1}^n$",as.character(H)))
 
-knitr::kable(df)
+if(knitr::is_html_output()) knitr::kable(df)
+if(knitr::is_latex_output()) knitr::kable(df,escape = FALSE)
 
 ```
 
@@ -490,7 +492,8 @@ df <- df %>%
   rbind(c("sum","","","$\\sum_\\text{i=1}^n$",as.character(sum_H))) %>%
   rbind(c("H","","","$-1*\\sum_\\text{i=1}^n$",as.character(H)))
 
-knitr::kable(df)
+if(knitr::is_html_output()) knitr::kable(df)
+if(knitr::is_latex_output()) knitr::kable(df,escape = FALSE)
 
 ```
 
@@ -525,7 +528,8 @@ df <- df %>%
   rbind(c("sum","","","$\\sum_\\text{i=1}^n$",as.character(sum_H))) %>%
   rbind(c("H","","","$-1*\\sum_\\text{i=1}^n$",as.character(H)))
 
-knitr::kable(df)
+if(knitr::is_html_output()) knitr::kable(df)
+if(knitr::is_latex_output()) knitr::kable(df,escape = FALSE)
 
 ```
 

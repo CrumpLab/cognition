@@ -24,7 +24,7 @@ Amet laoreet per a velit interdum neque class penatibus. Tortor nullam ultrices,
 
 ::: floatrightbox50
 
-This is a breakout box, compatiable with markdown
+This is a breakout box, compatible with markdown
 
 :::
 
@@ -40,4 +40,15 @@ Non, condimentum morbi venenatis eget diam lectus dignissim ridiculus ac mi ince
 
 
 
+Non, condimentum morbi venenatis eget diam lectus dignissim ridiculus ac mi inceptos tempus urna. Vitae rhoncus eleifend parturient tincidunt et ac, fames non dolor, a amet nascetur porttitor. Non, condimentum morbi venenatis eget diam lectus dignissim ridiculus ac mi inceptos tempus urna. Vitae rhoncus eleifend parturient tincidunt et ac, fames non dolor, a amet nascetur porttitor. 
+
+::: {.floatrightbox25 data-latex=""}
+
+
+
+\includegraphics[width=1\linewidth]{imgs/Francis_Galton} 
+
+:::
+
+Non, condimentum morbi venenatis eget diam lectus dignissim ridiculus ac mi inceptos tempus urna. Vitae rhoncus eleifend parturient tincidunt et ac, fames non dolor, a amet nascetur porttitor. Non, condimentum morbi venenatis eget diam lectus dignissim ridiculus ac mi inceptos tempus urna. Vitae rhoncus eleifend parturient tincidunt et ac, fames non dolor, a amet nascetur porttitor. Non, condimentum morbi venenatis eget diam lectus dignissim ridiculus ac mi inceptos tempus urna. Vitae rhoncus eleifend parturient tincidunt et ac, fames non dolor, a amet nascetur porttitor. Non, condimentum morbi venenatis eget diam lectus dignissim ridiculus ac mi inceptos tempus urna. Vitae rhoncus eleifend parturient tincidunt et ac, fames non dolor, a amet nascetur porttitor. 
 

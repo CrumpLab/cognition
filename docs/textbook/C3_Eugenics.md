@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 
 
 # Eugenics and Psychology
@@ -7,7 +12,7 @@
 \hline
 Word Count & Reading Time\\
 \hline
-4163 & 20.8 minutes\\
+4166 & 20.8 minutes\\
 \hline
 \end{tabular}
 
@@ -59,14 +64,21 @@ The eugenics movement spread from Britain around the world and impacted differen
 
 ### From ideas to internationalization
 
-Galton continued to expand and popularize his ideas from 1865, and coined the phrase eugenics in 1883 []. In these few decades, eugenics proponents had succeeded in blaming social problems on undesirable and inferior sub-types of humans, and instilling fear that society would collapse if these inferior humans continued to spread throughout society. By 1882, fear of undesirables spread to American immigration policy, and immigrants who were found to be "undesirable" could be denied entry to the USA []. By 1897, fear that "degenerates" would reproduce and overwhelm society led lawmakers in Michigan to propose a compulsory sterilization law (where the state would forcibly sterilize any woman deemed to be a degenerate). By the early 1900s, the first formal eugenics societies were being established. In Britain, Galton sat as the first president of the Eugenics Education Society in 1907. One year earlier, Charles Davenport formed a Eugenics committee in the American breeders association-- a pre-cursor to the Eugenics Record Office, which was the national headquarters of eugenics in the USA (located at Cold Springs Harbor Laboratory in Huntington, Long Island, NY, which still exists today). Eugenics societies spread across the world. The Oxford handbook of the history of eugenics [], has individual chapters describing the aftermath of eugenics in Britain, South Asia, Australia and New Zealand, China and Hong Kong, South Africa, Colonial Kenya, Germany, France, the Netherlands and the Dutch East Indies, the Scandinavian States, Southern Europe, Eastern Europe, Russia and the Soviet Union, Japan, Iran, the Jewish Diaspora; Cuba Puerto, Rico, and Mexico; Brazil, the United Sates, and Canada.
+Galton continued to expand and popularize his ideas from 1865, and coined the phrase eugenics in 1883 []. In these few decades, eugenics proponents had succeeded in blaming social problems on undesirable and inferior sub-types of humans, and instilling fear that society would collapse if these inferior humans continued to spread throughout society. By 1882, fear of undesirables spread to American immigration policy, and immigrants who were found to be "undesirable" could be denied entry to the USA []. By 1897, fear that "degenerates" would reproduce and overwhelm society led lawmakers in Michigan to propose a compulsory sterilization law (where the state would forcibly sterilize any woman deemed to be a degenerate). By the early 1900s, the first formal eugenics societies were being established. 
+
+In Britain, Galton sat as the first president of the Eugenics Education Society in 1907. One year earlier, Charles Davenport formed a Eugenics committee in the American breeders association-- a pre-cursor to the Eugenics Record Office, which was the national headquarters of eugenics in the USA (located at Cold Springs Harbor Laboratory in Huntington, Long Island, NY, which still exists today). Eugenics societies spread across the world. The Oxford handbook of the history of eugenics [], has individual chapters describing the aftermath of eugenics in Britain, South Asia, Australia and New Zealand, China and Hong Kong, South Africa, Colonial Kenya, Germany, France, the Netherlands and the Dutch East Indies, the Scandinavian States, Southern Europe, Eastern Europe, Russia and the Soviet Union, Japan, Iran, the Jewish Diaspora; Cuba Puerto, Rico, and Mexico; Brazil, the United Sates, and Canada.
 
 ### Conferences and popularity
 
-There were many national and international conferences where elites in the eugenics movement gathered to popularize and discuss eugenical solutions to improve society. The first (1912), second (1921) and third (1932) International Eugenics Congresses were held in London, and New York (last two). The tree of eugenics created for the second conference depicts how the movement saw itself as, "the self-direction of human evolution", and harmoniously integrating many fields of study to better mankind. Just like each of the countries listed above, the academic fields listed in the roots of the tree of eugenics, also have their own eugenics legacies to contend with.
+::: {.floatright50 data-latex=""} 
 
 
 \includegraphics[width=1\linewidth]{imgs/Eugenics_tree} 
+
+:::
+
+There were many national and international conferences where elites in the eugenics movement gathered to popularize and discuss eugenical solutions to improve society. The first (1912), second (1921) and third (1932) International Eugenics Congresses were held in London, and New York (last two). The tree of eugenics created for the second conference depicts how the movement saw itself as, "the self-direction of human evolution", and harmoniously integrating many fields of study to better mankind. Just like each of the countries listed above, the academic fields listed in the roots of the tree of eugenics, also have their own eugenics legacies to contend with.
+
 In America, eugenics appealed to large segments of society and was embraced by celebrities, national leaders, and everyday people across country. Some famous Americans who were strong proponents of eugenics include Alexander Graham Bell (inventor of the telephone), John Harvey Kellogg (Kellog's Corn Flakes), and Theodore Roosevelt (American President). During the height of its activity, the Eugenics Record Office trained scores of operators to disseminate information about eugenics across the states. For example, it would be common to attend a county fair and learn about eugenics at a eugenics information tent. Or, to participate in eugenics contests, like the "better babies" contests, where families had their baby's judged and won prize for having the highest quality baby (by eugenical standards). The take home message here is that the eugenics movement spread its ideology to the point were its proposals for improving society were very well known, accepted, and fanatically embraced by its strongest adherents.
 
 ### Eugenics Journals

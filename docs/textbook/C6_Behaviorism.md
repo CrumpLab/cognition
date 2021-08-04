@@ -7,7 +7,7 @@
 \hline
 Word Count & Reading Time\\
 \hline
-12058 & 60.3 minutes\\
+12094 & 60.5 minutes\\
 \hline
 \end{tabular}
 
@@ -48,9 +48,11 @@ One backdrop I term scientific credentialism, which involves making claims about
 
 ### Positivism
 
-::: floatright25
+::: {.floatright25 data-latex=""}
+
 
 \includegraphics[width=1\linewidth]{imgs/Auguste_Comte} 
+
 :::
 
 [Auguste Comte](https://plato.stanford.edu/entries/comte/) (1798–1857) created positivism as a part of founding [sociology](https://en.wikipedia.org/wiki/Sociology). He was a French philosopher writing during a period of social upheaval ^[e.g., the [1848 French revolution](https://en.wikipedia.org/wiki/Revolutions_of_1848) to remove the monarchy]. His work is an early example of a [philosophy of science](https://en.wikipedia.org/wiki/Philosophy_of_science) attempting to define attributes and processes of science, as well as hierarchical relations between scientific disciplines. He argued that science and society develops through theological, metaphysical, and positive stages to explain natural phenomena. In the theological phase, phenomena are explained by supernatural powers. For example, the mind is attributed to soul or spiritual forces. The metaphysical stage replaces the supernatural forces with abstractions. For example, the mind is psychic forces. In the positive stage a description system is achieved, whereby the scientific process will eventually describe the nouns and verbs of a phenomena. The nouns are the features of a phenomena, and the verbs are the mathematical laws that describe actions of the features. For example, the work of B.F. Skinner (at the end of this chapter), is an example of reducing cognition and behavior to a descriptive system in the positive tradition.
@@ -63,7 +65,7 @@ Comte's ideas were popularized in England through [John Stuart Mill](https://en.
 
 ## Associationism, Conditioning and Behaviorism
 
-::: floatrightbox50
+::: {.floatrightbox50 data-latex=""}
 
 Robert Yerkes was a eugenicist and APA president who conducted the alpha-beta intelligence tests of the American military in World War I. He was also a comparative psychologist and studied animal cognition. Pavlov also became interested in eugenics (even after eugenics journals were outlawed in Russia in the 1920s), and conducted experiments on inheritance of temperament in dogs [@rossiianovIvanPavlovMoral2017].
 
@@ -77,7 +79,7 @@ In the remaining sections, instances of behaviorism are explored further by exam
 
 ## Watson's "Salesman" Behaviorism
 
-::: floatright25
+::: {.floatright25 data-latex=""}
 
 \includegraphics[width=1\linewidth]{imgs/John_Broadus_Watson} 
 :::
@@ -118,7 +120,7 @@ He further explains that "the interest of the behaviorist in man's doings is mor
 
 In positivism a descriptive scientific system is achieved when there are terms for describing features of a phenomena, and functions describing actions of the features, such that they come under predictable control. Watson saw the possibility for stimulus-response learning to become such a system. Elements of Watson's S-R system are described below with figures showing original text [from, @watsonBehaviorism1924].
 
-::: floatrightbox50
+::: {.floatrightbox50 data-latex=""}
 
 
 \includegraphics[width=1\linewidth]{imgs/Watson_SR} 
@@ -167,7 +169,7 @@ Finally, Watson promoted behaviorism as more than the correct scientific way to 
 
 > "All students agree as to the facts. They disagree, however, on theory and explanation." -- Tolman, 1948 [@tolmanCognitiveMapsRats1948]
 
-::: floatright25
+::: {.floatright25 data-latex=""}
 
 \includegraphics[width=1\linewidth]{imgs/Tolman_portrait} 
 :::
@@ -208,7 +210,7 @@ Maze-running procedures were similar to Thorndike's puzzle boxes. Typically, an 
 
 #### Purposive behavior
 
-::: floatrightbox50
+::: {.floatrightbox50 data-latex=""}
 
 
 \includegraphics[width=1\linewidth]{imgs/Tolman_AlleyMaze} 
@@ -217,7 +219,7 @@ Maze-running procedures were similar to Thorndike's puzzle boxes. Typically, an 
 
 Tolman argued that behaviors were obviously goal-driven and should be described in terms of goals and purposes. To support this argument, he showed that maze running behavior could be influenced by apparent goals or motivational drives. The figure depicts one of Tolman's "Alley Mazes". The maze had a start point where the rat entered, and an end point where it could receive food reward. In between, the rat had to navigate the maze, which contained several corridors, doors, and curtains, and many "blind-alleys" leading to an empty wall. In general, rats explore the maze and eventually find the food reward. The behavior of the rat can be measured in different ways, such as the total amount of time taken to succesfully navigate the maze. In the following experiment, Tolman measured the number of errors an animal made during navigation. An error is counted whenever the rat enters a blind-alley entrance.
 
-::: floatrightbox50
+::: {.floatrightbox50 data-latex=""}
 
 
 \includegraphics[width=1\linewidth]{imgs/Tolman_hunger} 
@@ -236,7 +238,7 @@ By comparison, the "Hungry non-reward" rats showed a decrease in errors across d
 
 Tolman also argued that behavior should be described in terms of cognitive acts. He used choice and discrimination behavior in rats as evidence. The form of the argument was to first to demonstrate that a rat could distinguish between two option (discrimination), and then show that the rat's behavior showed a preference (choice) toward one of the options. This kind of behavior was characterized as being cognitive because it implied a process of considering costs and benefits of different options, and making choices to take actions that would help the animal achieve its goals.
 
-::: floatrightbox50
+::: {.floatrightbox50 data-latex=""}
 
 
 \includegraphics[width=1\linewidth]{imgs/Tolman_DistanceMaze} 
@@ -245,7 +247,7 @@ Tolman also argued that behavior should be described in terms of cognitive acts.
 
 Tolman credits De Camp [@decampRelativeDistanceFactor1920] with connecting the results of a distance discrimination experiment to the argument that behavior should be described with cognitive features. The figure shows De Camp's circular maze. The rat entered the maze at the bottom starting point. The maze had two rooms on the left and right of the circle that could contain food. In the first phase, the right room was blocked, and food could be found in the left room. The rat's could either go the short way (turn left), or the long-way, (turn right and go around the circle). De Camp showed that with practice, rat's showed a preference for the shortest path. In a second, phase, the left room was blocked, and the right room contained the food. Again, after practice, the rat's showed a preference to turn right and take the shortest path to the food. This behavior was aptly described as cognitive, because the rats appeared to be weighing the option to go the long or short way, and choosing the shortest way to achieve their goal.
 
-::: floatrightbox50
+::: {.floatrightbox50 data-latex=""}
 
 
 \includegraphics[width=1\linewidth]{imgs/Tolman_Minima} 
@@ -254,7 +256,7 @@ Tolman credits De Camp [@decampRelativeDistanceFactor1920] with connecting the r
 
 Tolman to another interesting experiment by Gengerelli [@gengerelliPrincipleMaximaMinima1930], showing that rats can learn to take the shortest or most efficient path through a maze. The figure shows Gengerelli's maze, which looks kind of like a [bean machine](https://en.wikipedia.org/wiki/Bean_machine). The maze included numerous choice points where a rat could decide to turn left or right and take an open pathway or not. For example, imagine how many ways you could solve the maze with by drawing a line from the start to the finish. There are many ways, and some are longer than others. Gengerelli showed that, given multiple attempts, rats will begin taking shorter paths to get the food reward at the end. 
 
-::: floatrightbox50
+::: {.floatrightbox50 data-latex=""}
 
 
 \includegraphics[width=1\linewidth]{imgs/Tolman_Temporal} 
@@ -279,7 +281,7 @@ To wrap up our discussion of Tolman, I will point quickly at his 1948 paper in P
 
 #### Latent-learning as evidence for cognitive maps
 
-::: floatrightbox25
+::: {.floatrightbox25 data-latex=""}
 
 
 \includegraphics[width=1\linewidth]{imgs/Tolman_latentmap} 
@@ -288,7 +290,7 @@ To wrap up our discussion of Tolman, I will point quickly at his 1948 paper in P
 
 Tolman credits Bodgett [@blodgettEffectIntroductionReward1929] with introducing the concept of latent learning to maze-running experiments. Latent learning refers to something an animal apparently learned without expressing the learning in performance. Bodgett demonstrated latent learning by giving three groups of rats different kinds of experience with running the maze. 
 
-::: floatrightbox50
+::: {.floatrightbox50 data-latex=""}
 
 
 \includegraphics[width=1\linewidth]{imgs/Tolman_latentresults} 
@@ -313,14 +315,14 @@ Scientific utopianism is another tradition of positivism. For example, Watson's 
 According to wikipedia, Hull was recruited to Yale by James Rowland Angell (president of Yale) and former psychologist who ran a nationally celebrated Eugenics laboratory (according to Yakushko)..working in the context of the Yale IHR institute
 -->
 
-::: floatright25
+::: {.floatright25 data-latex=""}
 
 \includegraphics[width=1\linewidth]{imgs/clark-l-hull} 
 :::
 
 [Clark L. Hull's](https://en.wikipedia.org/wiki/Clark_L._Hull) (1884-1952) flavor of behaviorism was again in the positivist tradition, but more focused on using math to specify functional relationships between units of behavior. In the positive tradition, a scientific theory is tentative and pragmatic. It is useful if it works for purposes of manipulation and control. Mathematical formulations are not strictly necessary, but they are often useful in describing functional relationships for purposes of prediction. 
 
-::: floatrightbox50
+::: {.floatrightbox50 data-latex=""}
 
 Hull also worked during the eugenics era in American psycholgoy. He was recruited to Yale in 1929 by then president [James R. Angell](https://en.wikipedia.org/wiki/James_Rowland_Angell), who was previously a psychologist running a nationally recognized eugenics laboratory. Hull was recruited into Yale's burgeoning new enterprise, the Institute for Human Relations (IHR). Hull was hired as a mental tester, and among his first grant applications to the institute was a program of eugenics (see also the role of eugenics in the early Yale psychology department [@doyleMeasuringProblemsHuman2014] and more on Hull's influence in the IHR [@morawskiOrganizingKnowledgeBehavior1986]).
 
@@ -350,7 +352,7 @@ Hull's mathematical theory did not succeed in explaining and predicting behavior
 
 ## Skinner's "Radical" Behaviorism
 
-::: floatright25
+::: {.floatright25 data-latex=""}
 
 \includegraphics[width=1\linewidth]{imgs/bf_skinner} 
 :::
@@ -371,7 +373,7 @@ Operant conditioning is commonly used to train behaviors in animals such that th
 
 Skinner demonstrated operant conditioning in rats using a "Skinner-box" and a lever-pressing device. Unlike Thorndike's puzzle boxes, where animals demonstrated learning by escaping the boxes as quickly as possible; Skinner's boxes were constructed to contain the animal and create an environment where a particular behavior could be efficiently observed and measures.
 
-::: floatright50
+::: {.floatright50 data-latex=""}
 
 \includegraphics[width=1\linewidth]{imgs/Skinner_Box} 
 :::
@@ -384,7 +386,7 @@ Skinner assumed that operant behavior, like pressing a lever, could become reinf
 
 Skinner's procedure for conditioning lever-pressing was very simple. He put rats in the Skinner box ad measured how many times they pressed the lever over time without any reward. This established a baseline frequency for the spontaneous occurence of the operant behavior. Then, the lever was connected to food delivery. Whenever, the animal pressed the lever, it received a food pellet. Skinner then observed the animal and measured each of the lever-presses over time.
 
-::: floatright50
+::: {.floatright50 data-latex=""}
 
 \includegraphics[width=1\linewidth]{imgs/Skinner_Results} 
 :::
@@ -399,7 +401,7 @@ Skinner had several reasons for choosing lever-pressing as a behavior to investi
 
 Skinner usually plotted responses over time in a cumulative graph. Cumulative means that the line represents the  "accumulation" of responses over time. In other words, at each point in time on the X axis, the vertical position of the line on the Y axis indicates the sum total number of responses occurring up to that point in time.
 
-::: floatright50
+::: {.floatright50 data-latex=""}
 
 \includegraphics[width=1\linewidth]{imgs/Skinner_Slope} 
 :::

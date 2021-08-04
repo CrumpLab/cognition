@@ -1,5 +1,38 @@
+\usepackage[T1]{fontenc}
+\usepackage{palatino}
 \usepackage{booktabs}
 \usepackage{wrapfig}
-\newenvironment{floatrightbox25}{
-  \begin{wrapfigure}{R}{.20\textwidth} }
-  {\end{wrapfigure}}
+\usepackage{setspace}
+\setstretch{1.15}
+\newenvironment{floatrightbox25}{%
+  \wrapfigure{R}{.25\textwidth}%
+  }{%
+  \endwrapfigure}
+\newenvironment{floatrightbox50}{%
+  \wrapfigure{R}{.5\textwidth}%
+  }{%
+  \endwrapfigure}
+\newenvironment{floatright25}{%
+  \wrapfigure{R}{.25\textwidth}%
+  }{%
+  \endwrapfigure}
+\newenvironment{floatright50}{%
+  \wrapfigure{R}{.5\textwidth}%
+  }{%
+  \endwrapfigure}
+\newenvironment{floatleft25}{%
+  \wrapfigure{L}{.25\textwidth}%
+  }{%
+  \endwrapfigure}
+\newenvironment{floatleft50}{%
+  \wrapfigure{L}{.5\textwidth}%
+  }{%
+  \endwrapfigure}
+
+\usepackage{titling}
+\pretitle{%
+  \begin{center}
+  \includegraphics[width=.7\linewidth]{imgs/cover}
+  \newpage
+}
+\posttitle{\end{center}}

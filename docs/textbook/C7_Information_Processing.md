@@ -12,7 +12,7 @@ output:
 \hline
 Word Count & Reading Time\\
 \hline
-11657 & 58.3 minutes\\
+11667 & 58.3 minutes\\
 \hline
 \end{tabular}
 
@@ -34,7 +34,7 @@ As I will describe briefly in the next section, metaphors are very commonly used
 
 ### Assembly-line metaphor of cognition
 
-::: floatright50
+::: {.floatright50 data-latex=""} 
 
 **A crayon assembly line**
 
@@ -99,21 +99,21 @@ Donders conducted many human reaction time experiments using tactile, visual and
 
 A basic question was whether different sense organs had different physiological reaction times. But, Donders was more interested in the additional "mental" time it might take to perform increasingly complex tasks before making a response to the stimuli. The tasks that Donders used to increase complexity are still widely used. In the remaining description of Donders work, I will use the modern terms for the tasks, and present a generic summary of Donders findings and conclusions. 
 
-::: floatright25
+::: {.floatright25 data-latex=""} 
 
 \includegraphics[width=1\linewidth]{imgs/Donders_simple} 
 :::
 
 The most basic reaction time task is called a *simple reaction time task*. In this task, subjects are presented with a stimulus, and asked to respond to as quickly as possible, as soon as they detect it. Donders would consider the reaction times from this task as "physiological reaction times".
 
-::: floatright25
+::: {.floatright25 data-latex=""} 
 
 \includegraphics[width=1\linewidth]{imgs/Donders_GoNoGo} 
 :::
 
 Donders invented the idea of having subjects perform a slightly more complicated task that is now referred to as the *GO-NO GO* task. In this task, subjects are presented with a stimulus, but they only make a response if the stimulus is the target stimulus. For example, one might see a blue or red stimulus, and the response would be required only if the stimulus was blue (a GO response). No response would be required if the stimulus was red (a NO GO trial).
 
-::: floatright25
+::: {.floatright25 data-latex=""} 
 
 \includegraphics[width=1\linewidth]{imgs/Donders_Choice} 
 :::
@@ -186,7 +186,7 @@ British psychologist A. T. Welford drew attention to the *Psychological Refracto
 
 Welford observed the psychological refractory period from existing reaction time research, and discussed possible explanations of the finding in terms of processing stages. The basic PRP effect was that responding to one stimulus can sometimes delay a response to second stimulus, especially if they are presented quickly, one after the other. 
 
-::: floatright50
+::: {.floatright50 data-latex=""} 
 
 
 \includegraphics[width=1\linewidth]{imgs/PRP_effect} 
@@ -285,15 +285,15 @@ The table below shows the calculation of H for a fair coin. A fair coin has two 
 
 \begin{tabular}{l|l|l|l|l}
 \hline
-Events & \$i\$ & \$P(x\_i)\$ & \$log\_2 P(x\_i)\$ & \$P(x\_i)*log\_2 P(x\_i)\$\\
+Events & $i$ & $P(x_i)$ & $log_2 P(x_i)$ & $P(x_i)*log_2 P(x_i)$\\
 \hline
 Heads & 1 & 0.5 & -1 & -0.5\\
 \hline
 Tails & 2 & 0.5 & -1 & -0.5\\
 \hline
-sum &  &  & \$\textbackslash{}sum\_\textbackslash{}text\{i=1\}\textasciicircum{}n\$ & -1\\
+sum &  &  & $\sum_\text{i=1}^n$ & -1\\
 \hline
-H &  &  & \$-1*\textbackslash{}sum\_\textbackslash{}text\{i=1\}\textasciicircum{}n\$ & 1\\
+H &  &  & $-1*\sum_\text{i=1}^n$ & 1\\
 \hline
 \end{tabular}
 
@@ -349,7 +349,7 @@ The most uncertainty occurs when the message is completely random. By definition
 
 \begin{tabular}{l|l|l|l|l}
 \hline
-Events & \$i\$ & \$P(x\_i)\$ & \$log\_2 P(x\_i)\$ & \$P(x\_i)*log\_2 P(x\_i)\$\\
+Events & $i$ & $P(x_i)$ & $log_2 P(x_i)$ & $P(x_i)*log_2 P(x_i)$\\
 \hline
 A & 1 & 0.25 & -2 & -0.5\\
 \hline
@@ -359,9 +359,9 @@ C & 3 & 0.25 & -2 & -0.5\\
 \hline
 D & 4 & 0.25 & -2 & -0.5\\
 \hline
-sum &  &  & \$\textbackslash{}sum\_\textbackslash{}text\{i=1\}\textasciicircum{}n\$ & -2\\
+sum &  &  & $\sum_\text{i=1}^n$ & -2\\
 \hline
-H &  &  & \$-1*\textbackslash{}sum\_\textbackslash{}text\{i=1\}\textasciicircum{}n\$ & 2\\
+H &  &  & $-1*\sum_\text{i=1}^n$ & 2\\
 \hline
 \end{tabular}
 
@@ -372,7 +372,7 @@ What if the events do not occur with equal probability? This would mean that som
 
 \begin{tabular}{l|l|l|l|l}
 \hline
-Events & \$i\$ & \$P(x\_i)\$ & \$log\_2 P(x\_i)\$ & \$P(x\_i)*log\_2 P(x\_i)\$\\
+Events & $i$ & $P(x_i)$ & $log_2 P(x_i)$ & $P(x_i)*log_2 P(x_i)$\\
 \hline
 A & 1 & 0.7 & -0.514573172829758 & -0.360201220980831\\
 \hline
@@ -382,9 +382,9 @@ C & 3 & 0.1 & -3.32192809488736 & -0.332192809488736\\
 \hline
 D & 4 & 0.1 & -3.32192809488736 & -0.332192809488736\\
 \hline
-sum &  &  & \$\textbackslash{}sum\_\textbackslash{}text\{i=1\}\textasciicircum{}n\$ & -1.35677964944704\\
+sum &  &  & $\sum_\text{i=1}^n$ & -1.35677964944704\\
 \hline
-H &  &  & \$-1*\textbackslash{}sum\_\textbackslash{}text\{i=1\}\textasciicircum{}n\$ & 1.35677964944704\\
+H &  &  & $-1*\sum_\text{i=1}^n$ & 1.35677964944704\\
 \hline
 \end{tabular}
 
@@ -394,7 +394,7 @@ In this case, H is computed as 1.35, which means that events in the message requ
 
 \begin{tabular}{l|l|l|l|l}
 \hline
-Events & \$i\$ & \$P(x\_i)\$ & \$log\_2 P(x\_i)\$ & \$P(x\_i)*log\_2 P(x\_i)\$\\
+Events & $i$ & $P(x_i)$ & $log_2 P(x_i)$ & $P(x_i)*log_2 P(x_i)$\\
 \hline
 A & 1 & 0.97 & -0.0439433475875971 & -0.0426250471599691\\
 \hline
@@ -404,9 +404,9 @@ C & 3 & 0.01 & -6.64385618977472 & -0.0664385618977472\\
 \hline
 D & 4 & 0.01 & -6.64385618977472 & -0.0664385618977472\\
 \hline
-sum &  &  & \$\textbackslash{}sum\_\textbackslash{}text\{i=1\}\textasciicircum{}n\$ & -0.241940732853211\\
+sum &  &  & $\sum_\text{i=1}^n$ & -0.241940732853211\\
 \hline
-H &  &  & \$-1*\textbackslash{}sum\_\textbackslash{}text\{i=1\}\textasciicircum{}n\$ & 0.241940732853211\\
+H &  &  & $-1*\sum_\text{i=1}^n$ & 0.241940732853211\\
 \hline
 \end{tabular}
 
@@ -415,7 +415,7 @@ If one of the event occurs 100% of the time, and the others occur 0% of the time
 
 \begin{tabular}{l|l|l|l|l}
 \hline
-Events & \$i\$ & \$P(x\_i)\$ & \$log\_2 P(x\_i)\$ & \$P(x\_i)*log\_2 P(x\_i)\$\\
+Events & $i$ & $P(x_i)$ & $log_2 P(x_i)$ & $P(x_i)*log_2 P(x_i)$\\
 \hline
 A & 1 & 1 & 0 & 0\\
 \hline
@@ -425,9 +425,9 @@ C & 3 & 0 & -Inf & 0\\
 \hline
 D & 4 & 0 & -Inf & 0\\
 \hline
-sum &  &  & \$\textbackslash{}sum\_\textbackslash{}text\{i=1\}\textasciicircum{}n\$ & 0\\
+sum &  &  & $\sum_\text{i=1}^n$ & 0\\
 \hline
-H &  &  & \$-1*\textbackslash{}sum\_\textbackslash{}text\{i=1\}\textasciicircum{}n\$ & 0\\
+H &  &  & $-1*\sum_\text{i=1}^n$ & 0\\
 \hline
 \end{tabular}
 

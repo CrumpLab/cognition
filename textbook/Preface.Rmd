@@ -38,7 +38,7 @@ Feel free to fork the repo and use these materials as you see fit. If you would 
 cat('[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)')
 ```
 
-```{r}
+```{r, echo=FALSE}
 if (knitr::is_latex_output()) {
   knitr::asis_output('[License: CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)')
 }

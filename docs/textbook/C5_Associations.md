@@ -8,7 +8,7 @@
 \hline
 Word Count & Reading Time\\
 \hline
-7518 & 37.6 minutes\\
+7538 & 37.7 minutes\\
 \hline
 \end{tabular}
 :::
@@ -91,7 +91,7 @@ For example, Cattell's subjects were twice as fast to read a regular versus scra
 
 [^c5_associations-2]: These are not original stimuli used by Cattell
 
-::: {.floatrightbox50}
+::: {.floatrightbox50 data-latex=""} 
 **Try it yourself**
 
 *Read each of the words below as fast as you can.*
@@ -105,7 +105,7 @@ For example, Cattell's subjects were twice as fast to read a regular versus scra
 
 Similarly, if the task was to read individual letters one a time, Cattell's subjects were twice as fast to read letters when they occurred in words compared to when they did not. This general finding was later re-discovered, and termed the word-superiority effect in 1969 [@reicherPerceptualRecognitionFunction1969].
 
-::: {.floatrightbox50}
+::: {.floatrightbox50 data-latex=""} 
 **Try it yourself**
 
 *Read each of the* **letters** *as fast as you can.*
@@ -135,7 +135,7 @@ In the remainder of the paper, Cattell gave subjects an association task that in
 
 [^c5_associations-3]: Thorndike also followed Cattell in becoming a strong proponent and public figure in the American eugenics movement
 
-::: {.floatrightbox25}
+::: {.floatrightbox25 data-latex=""}
 **Edward Thorndike**
 
 
@@ -158,7 +158,7 @@ To summarize these quotes, Thorndike was interested in settling debate and ideas
 
 Thorndike conducted multiple experiments on cats, dogs, and chicks. His experimental apparatus was in the form of a puzzle box, like the one depicted below:
 
-::: {.floatright50}
+::: {.floatright50 data-latex=""}
 
 \includegraphics[width=1\linewidth]{imgs/Thorndike_puzzle_box_1898} 
 :::
@@ -283,7 +283,7 @@ Pavlov wrestled with whether or not psychology should be involved with attempts 
 
 ### Descartes' reflex
 
-::: {.floatrightbox25}
+::: {.floatrightbox25 data-latex=""}
 **Réne Descartes**
 
 
@@ -292,21 +292,21 @@ Pavlov wrestled with whether or not psychology should be involved with attempts 
 
 Before describing his experiments, Pavlov connected his work to philosophical ideas about humans and animals popularized much earlier by [René Descartes](https://en.wikipedia.org/wiki/René_Descartes) (1596-1650). Descartes was a rationalist philosopher who advanced a dualist perspective of the mind. According to Descartes, humans had a physical body that operated like a physical machine that obeyed the laws and principles of physical machines. But, humans also had a soul that did not operate according to physical laws. The human soul was the mysterious quality that set humans apart from animals which were viewed as less than human. Animals had physical bodies, but no soul. Although Descartes advocated for dualism, his ideas about how human and animal bodies behaved like complicated machines were inspirational to physiologists [@fearingReneDescartesStudy1929], who would become proponents of explaining cognition solely in terms of physical processes.
 
-::: {.floatright25}
+::: {.floatright25 data-latex=""}
 
 \includegraphics[width=1\linewidth]{imgs/Patellar-knee-reflex} 
 :::
 
 One of Descartes core ideas was the concept of a reflex, which involves a clear-cut line of cause and effect between an impending stimulus or impulse, and a subsequent effect. A common example is the [knee-jerk reflex](https://en.wikipedia.org/wiki/Patellar_reflex), where tapping a knee in the right spot can cause cause a leg to automatically kick up a little bit.
 
-::: {.floatleft25}
+::: {.floatleft25 data-latex=""}
 
 \includegraphics[width=1\linewidth]{imgs/st_germain} 
 :::
 
 In describing humans and animals as physical machines, Descartes was inspired by [the gardens at Saint-Germain-en-Laye](https://en.wikipedia.org/wiki/Château_de_Saint-Germain-en-Laye#16th–18th_centuries) [@vaccariDissolvingNatureHow2012]. The gardens were a marvel of hydraulic engineering. They contained an extensive network of pipes connected to fountains, and even controlled statues that had moving parts.
 
-::: {.floatright50}
+::: {.floatright50 data-latex=""}
 
 \includegraphics[width=1\linewidth]{imgs/Descartes_brain_large} 
 :::
@@ -323,7 +323,7 @@ Pavlov was interested in discovering the so-called laws of stimulus-response pat
 
 ### Simple acquisition and conditioning terminology
 
-::: {.floatrightbox50}
+::: {.floatrightbox50 data-latex=""}
 **Simple acquisition procedure**
 
 
@@ -334,7 +334,7 @@ In Pavlov's simple acquisition procedure, a dog was housed in a controlled labor
 
 Simple acquisition is an example of a classical conditioning phenomena that results from systematic pairing of particular kinds of stimuli and their responses. Before we discuss a few other examples of conditioning phenomena, we will first define terms commonly used to describe stimuli and responses in these procedures. These terms include the unconditioned stimulus (UCS) and the unconditioned response (UCR), and the conditioned stimulus (CS) and the conditioned response (CR).
 
-::: floatright50
+::: {.floatright50 data-latex=""} 
 
 
 \includegraphics[width=1\linewidth]{imgs/Conditioning_terms} 

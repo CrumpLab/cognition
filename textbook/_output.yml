@@ -12,3 +12,4 @@ bookdown::pdf_book:
   keep_tex: yes
   includes:
       in_header: "preamble.tex"
+  pandoc_args: --top-level-division=chapter
