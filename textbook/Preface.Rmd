@@ -81,6 +81,6 @@ Thanks to Miriam Deutch (Associate Librarian for Access Services/Art Specialist)
 
 Note, the date reflects the latest compilation of this book. CITATION IS TBD WHILE THE PROJECT IS UNDER DEVELOPMENT.
 
-Crump, M. J. C. (`r format(Sys.Date(), format = "%Y, %B %d")`). TBD. 
+Crump, M. J. C. (`r format(Sys.Date(), format = "%Y, %B %d")`). Instances of Cognition: Findings, Explanations, Applications, and Implications. 
 
 

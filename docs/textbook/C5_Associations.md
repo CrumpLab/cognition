@@ -8,7 +8,7 @@
 \hline
 Word Count & Reading Time\\
 \hline
-7538 & 37.7 minutes\\
+7656 & 38.3 minutes\\
 \hline
 \end{tabular}
 :::
@@ -48,6 +48,8 @@ The experiments of Thorndike and Pavlov are also set in a background of philosop
 [Empiricism](https://en.wikipedia.org/wiki/Empiricism) additionally emphasized a role for observation and evidence collection in knowledge creation. For example, human's were argued to acquire knowledge over the course of their experience of the world through their sense organs. Empiricism invited further questions about how people created knowledge from their sensory experience, which clearly connected to questions of interest for early experimental psychologists.
 
 The [Associationist School](https://en.wikipedia.org/wiki/Associationism#Associationist_School) included empiricist philosophers who speculated further on the nature of mental processes that produced knowledge from experience. In 1689, John Locke wrote, "An essay concerning human understanding", and argued against the rationalist/nativist idea that people were born only with innate knowledge about the world. Instead, Locke advocated that people acquired knowledge by learning about the world through their experiences. In 1739, David Hume elaborated on the nature of the learning process and suggested a role for associations in, "Treatise on Human Nature", that "when the mind, therefore, passes from the idea or impression of one object to the idea or belief of another, it is not determined by reason, but by certain principles, which associate together the ideas of these objects, and unite them in the imagination.". Hume suggests broadly that acts of cognition involve a process of association that works according to "certain principles". What the principles are, and how they work, is still a primary focus of the modern cognitive sciences.
+
+Principles of association included roles for contiguity, similarity, frequency, and recency to shape the formation of new associations. *The principle of contiguity* states that strength of association depends on the proximity of events in space and time. Events that are closer to each other are associated more strongly. *The principle of similarity* states that more similar events will develop stronger associations than less similar events. *The principle of frequency* is that events that co-occur more frequently will be be associated more strongly than less frequent events. *The recency principle* suggests stronger associations for recent events than more remote events. In general, these philosophical principles of association have held up quite well and are often components of modern theories.
 
 ### Natural Science
 
