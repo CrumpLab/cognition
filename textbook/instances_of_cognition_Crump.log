@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  5 AUG 2021 14:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  5 AUG 2021 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1154,33 +1154,36 @@ Chapter 8.
 [223
 
 ] [224] [225]
-Overfull \hbox (226.21297pt too wide) in paragraph at lines 2686--2707
-[][] 
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 2689.
+
+Overfull \hbox (64.37628pt too wide) in paragraph at lines 2689--2711
+ [][] 
  []
 
 [226]
 <imgs/Ebbinghaus_OL.png, id=2646, 652.4375pt x 456.70625pt>
 File: imgs/Ebbinghaus_OL.png Graphic file (type png)
 <use imgs/Ebbinghaus_OL.png>
-Package pdftex.def Info: imgs/Ebbinghaus_OL.png  used on input line 2718.
+Package pdftex.def Info: imgs/Ebbinghaus_OL.png  used on input line 2723.
 (pdftex.def)             Requested size: 194.99605pt x 136.49724pt.
 [227 <./imgs/Ebbinghaus_OL.png>]
-<C8_Memory_files/figure-latex/unnamed-chunk-5-1.pdf, id=2655, 452.69125pt x 305
+<C8_Memory_files/figure-latex/unnamed-chunk-5-1.pdf, id=2656, 452.69125pt x 305
 .14pt>
 File: C8_Memory_files/figure-latex/unnamed-chunk-5-1.pdf Graphic file (type pdf
 )
 <use C8_Memory_files/figure-latex/unnamed-chunk-5-1.pdf>
 Package pdftex.def Info: C8_Memory_files/figure-latex/unnamed-chunk-5-1.pdf  us
-ed on input line 2733.
+ed on input line 2738.
 (pdftex.def)             Requested size: 389.99763pt x 262.88087pt.
 [228] [229 <./C8_Memory_files/figure-latex/unnamed-chunk-5-1.pdf>]
 <imgs/Ebbinghaus_exp.jpg, id=2673, 1392.20125pt x 1455.4375pt>
 File: imgs/Ebbinghaus_exp.jpg Graphic file (type jpg)
 <use imgs/Ebbinghaus_exp.jpg>
-Package pdftex.def Info: imgs/Ebbinghaus_exp.jpg  used on input line 2747.
+Package pdftex.def Info: imgs/Ebbinghaus_exp.jpg  used on input line 2752.
 (pdftex.def)             Requested size: 194.99182pt x 203.8487pt.
 
-Underfull \hbox (badness 1845) in paragraph at lines 2751--2752
+Underfull \hbox (badness 1845) in paragraph at lines 2756--2757
 \T1/ppl/m/n/12 (+20) an ex-po-nen-tial for-get-ting curve.
  []
 
@@ -1188,17 +1191,17 @@ Underfull \hbox (badness 1845) in paragraph at lines 2751--2752
 <imgs/Bartlett_homme.png, id=2742, 1137.24875pt x 480.79625pt>
 File: imgs/Bartlett_homme.png Graphic file (type png)
 <use imgs/Bartlett_homme.png>
-Package pdftex.def Info: imgs/Bartlett_homme.png  used on input line 2819.
+Package pdftex.def Info: imgs/Bartlett_homme.png  used on input line 2824.
 (pdftex.def)             Requested size: 390.00859pt x 164.88446pt.
 [236 <./imgs/Bartlett_homme.png>] [237] [238]
 <imgs/Von_restorff_Stimuli.png, id=2786, 262.9825pt x 156.585pt>
 File: imgs/Von_restorff_Stimuli.png Graphic file (type png)
 <use imgs/Von_restorff_Stimuli.png>
-Package pdftex.def Info: imgs/Von_restorff_Stimuli.png  used on input line 2856
+Package pdftex.def Info: imgs/Von_restorff_Stimuli.png  used on input line 2861
 .
 (pdftex.def)             Requested size: 195.00928pt x 116.1124pt.
 [239]
-Underfull \hbox (badness 3601) in paragraph at lines 2865--2866
+Underfull \hbox (badness 3601) in paragraph at lines 2870--2871
 []\T1/ppl/m/n/12 (+20) Von Restorff used a tech-nique
  []
 
@@ -1206,64 +1209,64 @@ Underfull \hbox (badness 3601) in paragraph at lines 2865--2866
 File: imgs/Von_Restorff_counterbalance.jpg Graphic file (type jpg)
 <use imgs/Von_Restorff_counterbalance.jpg>
 Package pdftex.def Info: imgs/Von_Restorff_counterbalance.jpg  used on input li
-ne 2868.
+ne 2873.
 (pdftex.def)             Requested size: 194.98804pt x 143.43503pt.
 [240 <./imgs/Von_restorff_Stimuli.png>] [241 <./imgs/Von_Restorff_counterbalanc
-e.jpg>] [242]
+e.jpg>] [242] [243] [244]
 Chapter 9.
-[243
-
-]
-Chapter 10.
-[244
-
-]
-Chapter 11.
 [245
 
 ]
-Chapter 12.
+Chapter 10.
 [246
 
 ]
-Chapter 13.
+Chapter 11.
 [247
 
 ]
-Chapter 14.
+Chapter 12.
 [248
 
 ]
-Chapter 15.
+Chapter 13.
 [249
 
-] [250
+]
+Chapter 14.
+[250
+
+]
+Chapter 15.
+[251
+
+] [252
 
 ]
 File: imgs/Francis_Galton.jpg Graphic file (type jpg)
 <use imgs/Francis_Galton.jpg>
-Package pdftex.def Info: imgs/Francis_Galton.jpg  used on input line 2971.
+Package pdftex.def Info: imgs/Francis_Galton.jpg  used on input line 2986.
 (pdftex.def)             Requested size: 97.4935pt x 99.48769pt.
-[251] [252] [253] [254] [255] [256] [257] [258] [259]
-Overfull \hbox (0.16257pt too wide) in paragraph at lines 3252--3254
+[253] [254] [255] [256] [257] [258] [259] [260] [261]
+Overfull \hbox (0.16257pt too wide) in paragraph at lines 3267--3269
 \T1/ppl/m/n/12 (+18) n e N A I 2 d k L Q cJ : s c h o l a r . g o o g l e . c o
  m /& o t s = h k n D d V u K 4 v& s i g = 8 p b h X
  []
 
-[260] [261] [262] [263]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3386.
-[264]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3386.
+[262] [263] [264] [265]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3401.
+[266]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3401.
 (./instances_of_cognition_Crump.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3386.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3386.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3401.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3401.
  ) 
 Here is how much of TeX's memory you used:
- 15183 strings out of 492616
- 227485 string characters out of 6129482
- 355859 words of memory out of 5000000
- 17271 multiletter control sequences out of 15000+600000
- 78679 words of font info for 370 fonts, out of 8000000 for 9000
+ 15203 strings out of 492616
+ 227731 string characters out of 6129482
+ 354856 words of memory out of 5000000
+ 17285 multiletter control sequences out of 15000+600000
+ 84299 words of font info for 377 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,10n,38p,2295b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.170} has been referenced but does not e
@@ -1790,11 +1793,11 @@ pe1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw
 /palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palati
 no/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplr
 i8a.pfb>
-Output written on instances_of_cognition_Crump.pdf (266 pages, 15320177 bytes).
+Output written on instances_of_cognition_Crump.pdf (268 pages, 15323533 bytes).
 
 PDF statistics:
- 3592 PDF objects out of 4296 (max. 8388607)
- 3180 compressed objects within 32 object streams
- 1101 named destinations out of 1200 (max. 500000)
+ 3600 PDF objects out of 4296 (max. 8388607)
+ 3186 compressed objects within 32 object streams
+ 1103 named destinations out of 1200 (max. 500000)
  25521 words of extra memory for PDF output out of 29859 (max. 10000000)
 
