@@ -7,7 +7,7 @@
 \hline
 Word Count & Reading Time\\
 \hline
-3035 & 15.2 minutes\\
+5036 & 25.2 minutes\\
 \hline
 \end{tabular}
 
@@ -124,39 +124,118 @@ Ebbinghaus also demonstrated the effects of spacing out practice on learning and
 
 If you search [Google Scholar](https://scholar.google.com/) with terms like "massed practice", "spaced vs massed practice", and "distributed practice" you will find many papers examining how the schedule of practice attempts influences learning and memory in many different tasks. In general, the practice schedule does matter, it can change how fast you learn something and how long you retain information. For example, a meta-analysis in 1999 looked at evidence for spacing effects in 63 studies, which used a wide range of different tasks [@donovanMetaanalyticReviewDistribution1999]. Overall they found that spaced practice benefited learning compared to massed practice. So, should you always space practice to improve your learning? Well, they also found the size of the benefit depended on the task. So, before you space all of your practice, try searching google scholar to see if there is any research on the skill you are trying to learn. There may be recommendations for "best-practice" schedules to help you optimize your skill acquisition. 
 
-### Sir Frederic Bartlett (1886 - 1969)
+#### Serial Position effect
 
-Bartlett pursued research into memory processes at a time when behaviorism dominated Psychological science, and the notion of mental processes involved in encoding, storing, and remembering information was frowned upon as non-scientific. He is famous for a book titled **Remembering**, pubished in 1932, that records his extensive experiments on remembering, imaging, and perceiving.
+Ebbinghaus also showed early evidence of serial position effects in memory. Just like "spacing effects", if you search "serial position effect" in google scholar, you will again find hundreds of papers on the phenomena. The basic finding is that your memory for items in a list can depend on the order in which you received the items. In many cases there are primacy and recency effects. Memory is often better for the first (primacy) and last items (recency) compared to the items in the middle.
 
-#### Bartlett's background assumptions
+#### Process explanations
 
-Bartlett took the word **remembering** very literally and played a prominent role in establishing the reconstructivist view of human memory. To understand this view it is worth considering some other kinds of memory systems.
+It is worth flipping through Ebbinghaus' book on his memory research. It is available [here from the internet archive](https://archive.org/details/memorycontributi00ebbiuoft). He ran many experiments and tested ideas about the underlying operations of memory processes. In particular, I will refer you for additional reading to his chapter VII, called "Retention and obliviscence as a function of the time". Here, Ebbinghaus considers four explanations about how a memory process may hold onto knowledge over time ("retention") and/or lose knowledge over time ("obliviscence"). In his discussion, he anticipates the concept of memory traces which is important in many modern theories.
+
+### Bartlett's Remembering
+
+[Sir Frederic Bartlett](https://en.wikipedia.org/wiki/Frederic_Bartlett) (1886 - 1969) was British psychologist, and is well-known for his book "Remembering" published in 1932 [@bartlettRemembering1932] recounting his extensive experiments on remembering, imaging, and perceiving. Bartlett took the word **remembering** very literally and played a prominent role in establishing a reconstruction based view of human memory. Before discussing the reconstruction idea, and Bartlett's experiments that supported it, let's begin with a few simple, but wrong physical metaphors of memory.
 
 #### Memory is a file drawer
-File drawers are a physical system for storing and retrieving information. Information in the form of words on paper is placed into files that are stored in a cabinet. The papers are given tags, for example alphabetic tags, and placed in corresponding locations in the filing system. Information is retrieved by looking up the correct file and taking it out of the file drawer. On this view, the only contents that get saved in memory are what goes into the file system. Failures of memory could include, 1) not getting placed into the system, 2) getting misfiled, 3) destruction of information due to some outside source (e.g., water, fire), and so on.
 
-#### Memory is a video camera
-Video cameras record streams of visual and auditory information and store the records on film or digital mediums. Video cameras provide a veridical record of events. Memory failures could include failing to capture an event in the record, noisy input quality, noisy playback quality, or degradation of the storage material.
+File drawers a physical systems for storing and retrieving information. Information on paper is placed into files and stored in cabinets. The files could be tagged for ease of later retrieval. Information is retrieved by looking up the correct file and taking it out of the file drawer. The only contents that get saved in memory are what goes into the file system. Failures of memory could include, 1) not getting placed into the drawer, 2) getting misfiled, 3) destruction of information due to some outside source (e.g., water, fire), and so on.
 
-#### Memory is neither of these things
+#### Memory is a camera
 
-The above memory sytems accomplish many of the important functions of human memory. They can encode information, store it, and retreive it. These systems are also susesctible to memory failures, as are humans. However, humans display many more interesting memory failures that make these kinds of analogies unfit for understanding human memory. The file drawer and video camera systems do not allow the memory to retrieve information that was not initially encoded. This means these devices will never produce memory distortions. However, people produce memory distortions all of the time by claiming to remember events that did not occur, or exagerating events that did occur.
+Cameras, like the ones on modern cell phones, can record and save streams of visual and auditory information. Cameras provide a veridical record of light in the world hitting the lense over time. In this system, memory failures could include failing to capture an event in the record, noisy input quality, noisy playback quality, or degradation of the storage material.
+
+#### Memory is a bent-wire
+
+One more quick metaphor, memory as a bent-wire. Consider a brand new metal wire that is completely straight. It get's bent into a clothes hanger, then it get's bent into a hook for reaching something, then it get's thrown out, and bent in the trash, and so on. The wire doesn't have a hard-drive where it can store pictures of times it got bent. Instead, those memories are imprinted on the wire. The bends in the wire reflect the history of experiences.
+
+#### Memory is none of these things
+
+The above physical metaphors for memory have some properties in common with human memory. The file drawer and camera can encode, store, and retrieve information, and make errors and mistakes. However, people display many more interesting memory failures than the physical metaphors. The physical memory devices do not produce memory distortion. They do not remember new information that was not in the file, or on the hard-drive. Importantly, people produce memory distortions all of the time. Two examples of memory distortions are claiming to remember events that did not occur, or exagerating events that did occur. Bartlett's work is important for demonsrating evidence of memory distortions as fundamental to the process of remembering.
 
 #### Memory is re-membering
 
-The word re-member literally means to take pieces (members) that were previously together, and put them back together again. Bartlett imagines memory as a humpty-dumpty process, where the broken up parts of previous experiences are put back together again by memory. On this view, memories are not complete files of experience that are simply retrieved, they are process of attempting to reconstruct previous experiences. These reconstructed experiences **feel like** events from the past, but they are approximations of those events. Some modern memory theories take this stance very seriously and claim that we do not have memories at all. Instead, we have the ability to reconstruct our past experiences, and we have the feeling that these events occured in the past.
+The word re-member literally means to take pieces (members) that were previously together, and put them back together again. Bartlett imagines memory as a [humpty-dumpty](https://en.wikipedia.org/wiki/Humpty_Dumpty) process, where the broken up parts of previous experiences are put back together again by memory. On this reconstructive view, memories are not like replaying a video from a past experience. Instead, the memory process reconstructs elements of prior experiences into a whole. These reconstructed experiences **feel like** events from the past, but they are approximated reconstructions of those events. Some modern memory theories take this stance even further and claim that people do not really have "memories" that are stored or retrieve at all. Instead, we have the mental ability to construct experiences, both new ones (as in dreaming or imagination) that feel new, and new ones that convincingly feel like they occurred in the past.
 
-#### Schemas
-
-Bartlett's major contribution was the notion of schemas. Schemas are simply the rules used to interpret patterns of events. For example, stories are often told with a schema in mind. The schema might be introduce characters, introduce tension, rise to climax, resolve tension, end story. Many stories follow this format. Another kind of schema is the notion of personality types or stereotypes. These are prescribed sets of attributes that a person or group of people typically exhibit.
-
-Bartlett assumed that we interpret and organize our experiences with reference to schemas. The schema is a hypothesized mental representation that organizes our knowledge. Bartlett is well known for his experimental investigations providing evidence for the existence of schemas. 
+Bartlett assumed that re-membering is guided by an overarching schema, or someone's general understanding. He assumed it was possible for memory to become distorted during reconstruction, and that reconstructed events could become shifted toward the schema used to aid reconstruction. If some information was missing during reconstruction, then those features of the reconstructed memory would be substituted by the schema, thus rendering the recreated memory more similar to the general schema than the peculiar details of an original experience.
 
 #### Method of Serial Reproduction
 
-Bartlett assumed that re-membering is guided by an overarching schema. He assumed it was possible for memory to become distorted during reconstruction attempts. The main hypothesis was that reconstructed events could become shifted toward the schema used to aid reconstruction. If some information was missing during reconstruction, then those features of the reconstructed memory would be substituted by the schema, thus rendering the recreated memory more similar to the schema.
+Bartlett's reconstructionist view of memory was informed by his "method of serial reproduction". This was similar to Ebbinghaus' method of learning lists by practicing them over and over. The major difference was that Bartlett gave his subjects something to remember, then he had them remember it over-and-over again. He measured how the content of each remembering attempt changed over time. We will look briefly at two of his examples, the war of the ghosts, and L'Portraite D'homme.
 
-Bartlett established evidence for schema-driven reconstruction using the method of serial reproduction. He applied this method to different tasks. One such task involved drawing faces. He gave people an abstract picture that was recognizable as a face, but looked like a children's drawing of a monster. Then he took the picture away, and asked his participants to draw the face from memory. Over days and months, he had the same people attempt to draw the face memory many more times. The astonishing finding was that as people re-drew the picture, it became more and more recognizable as a regular face. Bartlett interpreted this finding as evidence that people reconstruct their memories based on schemas. His participants knew they attempting to reconstruct face, but the face did not fit very well with familiar faces. Thus, as they reconstructed their drawings, over time the replaced elements of the original with elements from their schema for faces. With enough reproductions, the participants were relying mostly on their schematic knowledge to create their faces.
+#### War of the Ghosts
+
+Bartlett had subjects (who were also British) read a story called the "War of the Ghosts", which was a folk-lore story about indigenous Americans. Then, he asked his subjects to write down the story from memory. After they were finished, he had them write it down again from memory. Then, again, and again. It's a little bit like the children's [game of telephone](https://en.wikipedia.org/wiki/Chinese_whispers), where a message is passed from one child to another. What happens to the message at the end? It is usually morphed into something very different from the first message. Bartlett found similar results in his serial reproduction task, where subjects were essentially playing telephone with their own memory of a story.
+
+As people kept reproducing the story from memory, they introduced new details, and left out original details. Additionally, the retold story seemed to head toward a common direction. It was as if his subjects pre-existing biases and general notions about the characters and situations in the story were guiding how they retold the story. Bartlett used these observations to suggest that memory reconstruction was being guided by "schemas". Schemas are scripts that are supposed to guide how memory reconstructs information. Bartlett's schemas often referred to central tendencies or stereotypical generalizations about the content he showed his subjects.
+
+#### L'Portraite D'homme
+
+Another example of serial reproduction involved drawing faces. He gave people a picture of a mask. Then he took the picture away, and asked his participants to draw the it from memory. Over days and months, he had the same people attempt to draw the picture from memory many more times. The astonishing finding was that as people re-drew the picture, it became less and less mask-like, and more and more face-like.
+
+
+
+
+\begin{center}\includegraphics[width=1\linewidth]{imgs/Bartlett_homme} \end{center}
+
+Bartlett interpreted this finding as evidence that people reconstructed their memories based on schemas. His participants knew they were attempting to reconstruct face-like thing, and as they redrew the item from memory, over time they replaced elements of the original mask with elements from their schema for faces. With enough reproductions, the participants were relying mostly on their schematic knowledge, and their drawings slowly morphed into faces rather than masks.
+
+#### Reproducing Bartlett
+
+Some of Bartlett's experiments and specific findings have not been replicated by other researchers. For example, in 2012, Carbon and Albrecht [@carbonBartlettSchemaTheory2012] tried five different replications of the Bartlett's face drawing procedure, but they did not show that people's reproductions became more face-like over time. They used Bartlett's mask stimuli, and even stressed to subjects that the task was to redraw the "face" from memory. Their subjects drawings did change over reproductions by becoming less detailed, but they did not appear to converge on a prototypical face.
+
+At the same time, some of Bartlett's results have been replicated. For example in 1999, Bergmann and Roediger [@bergmanCanBartlettRepeated1999] replicated a version of the war of the ghosts. They were able to show that subjects did introduce major and minor distortions to recall of the story during a first, second, and third recall session. As they note, if you read Bartlett's book (which is highly recommended and fun to read), you will find he did not explain his experimental protocol in precise detail, which makes it difficult to repeat what he did.
+
+Finally, although some of Bartlett's individual findings may not stand the test of time, there are many reproducible findings showing that memory can be distorted in interesting ways. So, even though memory reconstruction may not always head toward a schema, memory does appear to involve some kind of constructive process capable of returning sometimes accurate and sometimes distorted impressions of past experiences.
+
+#### Meaningful memory
+
+One of the big implications of Bartlett's ideas is that memory can depend on meaning. Again we will unpack this principle throughout because it is obvious, at least to me, what it means for something to be meaningful. In a general way, your memory for particular events can be influenced by how you think about and understand those events. In other words, it's not just the number of times that you practice something, or whether or not you include breaks in your practice schedule that will makes things stick. Making new things meaningful with respect to old things you already understand can influence the process as well.
+
+### The Zeigarnik effect
+
+Research on human memory has yield many experimental procedures intended to demonstrate a particular kind of memory phenomena, or test an explanation of a phenomena, or both. Many of the phenomena are also called "effects", sometimes credited person who first demonstrated the phenomena. And, just like we saw earlier with Bartlett, sometimes the effect and explanation becomes well-known, even if it isn't reliably reproduced. Another example in this vein is the Zeigarnik effect.
+
+In 1927, Bluma Zeigarnik conducted several experiments showing that uncompleted tasks are remembered better than completed tasks [@zeigarnikFinishedUnfinishedTasks1968]. I've always thought of the Zeigarnik effect as the "to-do list" effect. I think about tasks on the list, but I don't think about tasks I've already completed. Sadly for me, I often forget to think about the tasks on the list too...
+
+In any case, Zeigarnik ran several experiments with a simple design. Participants were given a variety of tasks that took about 3- 5 minutes to complete. The tasks could be math, or drawing, or threading a needle. Partway through some of the tasks, she interupted people and asked them to start on a new task. At the end of the experiment, the participants had completed some of the tasks, and others remained incomplete. Zeigarnik then had participants recall all of the tasks. Across several experiments she reliably found that people recalled more of the incompleted tasks than the completed tasks. One explanation was the goal to a complete a task created psychological tension that could only be resolved by completing the task. This goal-based tension is not resolved when a task is interrupted, and leads to differences in memory completed and incompleted tasks.
+
+In a recent historical review of Zeigarnik's life and research, Macleod notes that her findings have been difficult to replicate. For example, 1968, Van Bergen published several replication attempts and found that her participants did not show systematic differences in their memory for completed and incompleted tasks. He also notes that additional research on the basic effect  of "task-interruption" on later recall of tasks from memory has not been forthcoming. So, in many ways the status of this effect as a reliable influence on memory remains unclear.
+
+I bring up this example because it reflects several broader issues in memory research. One is that some findings are not reproducible for many reasons. Maybe the effect happens for some people and not others, or maybe it just doesn't happen much at all. Individual memory effects can be neat an interesting. For example, after learning about Zeigarnik effect myself many years ago, I thought, "that's neat...maybe I should complete some tasks on my to-do list so that I no longer think about them". Last, the research pursuit of individual memory effects can be a red-herring, especially if the motivation for examining the effect is unclear, and the effect is not reproducible. 
+
+### The von Restorff effect
+
+A historical review of Hedwig von Restorff and her now famous demonstrations that distinctiveness influences memory [@vonrestorffUberWirkungBereichsbildungen1933] is also provided by Macleod [@macleodZeigarnikRestorffMemory2020]. Von Restorff applied the figure/ground concept from Gestalt theory to memory domain. A basic idea from Gestalt theory was that representations of individual experiences are wholistic, involving  objects (figure) and their surrounding context (ground). Von Restorff took this idea and asked how memory might depend on factors that isolate figure from ground. In perception a chameleon can be camouflaged and difficult to isolate from its surrounding. Or, a bright and conspicuous flower can stand out in a distinctive way, against dull colorless backgrounds. Would the same principles of distinctiveness apply to memory? It turns out, they do, and unlike the Zeigarnik effect, Von Restorff's findings have been reproduced many times, and in different ways. Here is what she did. 
+
+::: {.floatright50 data-latex=""}
+
+
+
+\includegraphics[width=1\linewidth]{imgs/Von_restorff_Stimuli} 
+
+:::
+
+Participants were tested on their memory for 5 lists. Each list had 8 pairs of items. An example of a list is presented to the right. Each list had four pairs that were similar. These were called "massed" pairs. Think of them as providing a dull grey background. The other four pairs were all different. These were called "isolates". They are like a colorful flower, in that they stand out from the massed pairs. The "massed" pairs in the list below were the four pairs of nonsense-syllables. The "isolates" were the remaining four pairs.
+
+#### Counterbalancing
+
+Von Restorff used a technique called *counter-balancing* in her experiment. Counter-balancing can be used to reduce the concern that the outcome of the experiment was due to a stimulus confound. For example, Von Restorff would show participants her lists, have a conversation brief conversation with them, and then ask the participants to recall each pair from the list. Her question was whether the "isolated" pairs would be recalled with greater accuracy than the "massed" pairs. In the list above, this would mean better recall for "# -- +, 89 -- 46, red square -- green square, and S -- B", compared to the other four pairs that were all nonsense-syllables. This is what Von Restorff found, but you might be concerned that there was a stimulus confound. For example, maybe nonsense syllables are hard to remember compared to these other pairs. 
+
+::: {.floatright50 data-latex=""}
+
+
+
+\includegraphics[width=1\linewidth]{imgs/Von_Restorff_counterbalance} 
+
+:::
+
+Von Restorff guarded against the stimulus confound interpretation by *counter-balancing*. This is why there were 5 lists in total. In the first list, the massed pairs were nonsense syllables, but the "isolated" pairs were used for the massed pairs in the other four lists. For example, the second list could have four massed symbol pairs (like # -- +), and the remaining four pairs would be "isolates" from the kinds of pairs. The third list could have four massed number pairs, and so on. The counterbalancing scheme is illustrated in the figure for further clarity.
+
+#### Memory and Distinctiveness
+
+Importantly, Von Restorff averaged across the counterbalancing lists to look at the effect of "massed"  vs "isolated" pairs on memory. She found that "isolated" pairs were recalled at higher rates than "massed pairs, and she found this reliably across the lists. For example, when there were four symbol pairs (like list 2 in the figure), memory for the other isolated pairs (in yellow) was better than memory for the symbol pairs.  In list 3, memory for the four number pairs was worse compared to the isolated pairs. To quote from the English translation, across the conditions, "the number of hits is higher in the isolated constellation than in the corresponding massed constellation, regardless of type of material." This last point is intriguing. Von Restorff had shown that particular stimuli were more or less memorable, not in and of themselves, but in relation to how distinct they were from other stimuli in the set.
+
+The finding that distinctive items can be remembered better than non-distinctive items has been reproduced many times, with many different kinds of stimuli. However, although the finding is well known, explanations of the finding continue to be debated. At this juncture we will not head into that debate just yet. One of the reasons for the debate, is that there are many different models and theories of memory, so naturally there are differing perspectives on the role of distinctiveness in memory.
 
 
 <!--
@@ -186,13 +265,6 @@ Ebbinghaus measured the first forgetting curves by waiting different amounts of 
 
 -->
 
-### Bartlett's Remembering
-
--Bartlett
-  -schema (coding)
-  
-###   
-  
   
 ## Separating traditions in memory research
 
