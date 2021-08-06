@@ -11,7 +11,7 @@ editor_options:
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|       5534|27.7 minutes |
+|       5526|27.6 minutes |
 
 ## Chapter Overview
 
@@ -81,131 +81,131 @@ To give you a better sense, here is a single list of nonsense syllables similar 
 <tbody>
   <tr>
    <td style="text-align:right;"> 1 </td>
-   <td style="text-align:left;"> BIP </td>
-   <td style="text-align:left;"> XEV </td>
-   <td style="text-align:left;"> DUV </td>
-   <td style="text-align:left;"> YUL </td>
-   <td style="text-align:left;"> BER </td>
-   <td style="text-align:left;"> YEY </td>
-   <td style="text-align:left;"> XOK </td>
-   <td style="text-align:left;"> WAH </td>
-   <td style="text-align:left;"> XEQ </td>
-   <td style="text-align:left;"> DEQ </td>
-   <td style="text-align:left;"> CAH </td>
-   <td style="text-align:left;"> VOK </td>
-   <td style="text-align:left;"> GIH </td>
+   <td style="text-align:left;"> ZES </td>
+   <td style="text-align:left;"> KAD </td>
+   <td style="text-align:left;"> DES </td>
+   <td style="text-align:left;"> TEB </td>
+   <td style="text-align:left;"> WEH </td>
+   <td style="text-align:left;"> XAQ </td>
+   <td style="text-align:left;"> SOQ </td>
+   <td style="text-align:left;"> QOQ </td>
+   <td style="text-align:left;"> ZAK </td>
+   <td style="text-align:left;"> TIJ </td>
+   <td style="text-align:left;"> XED </td>
+   <td style="text-align:left;"> KEM </td>
+   <td style="text-align:left;"> MUH </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 2 </td>
-   <td style="text-align:left;"> HOX </td>
-   <td style="text-align:left;"> DEH </td>
-   <td style="text-align:left;"> HAZ </td>
-   <td style="text-align:left;"> WEL </td>
-   <td style="text-align:left;"> GOJ </td>
-   <td style="text-align:left;"> GIC </td>
-   <td style="text-align:left;"> SOG </td>
-   <td style="text-align:left;"> GUD </td>
-   <td style="text-align:left;"> GEC </td>
-   <td style="text-align:left;"> GER </td>
-   <td style="text-align:left;"> VIH </td>
-   <td style="text-align:left;"> WOH </td>
-   <td style="text-align:left;"> YIF </td>
+   <td style="text-align:left;"> GOW </td>
+   <td style="text-align:left;"> YEX </td>
+   <td style="text-align:left;"> DOH </td>
+   <td style="text-align:left;"> GUK </td>
+   <td style="text-align:left;"> QIX </td>
+   <td style="text-align:left;"> SAJ </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> WEV </td>
+   <td style="text-align:left;"> RIY </td>
+   <td style="text-align:left;"> ZUR </td>
+   <td style="text-align:left;"> JIF </td>
+   <td style="text-align:left;"> GAH </td>
+   <td style="text-align:left;"> QIR </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 3 </td>
-   <td style="text-align:left;"> VEL </td>
-   <td style="text-align:left;"> VIT </td>
-   <td style="text-align:left;"> XIB </td>
-   <td style="text-align:left;"> ZOR </td>
-   <td style="text-align:left;"> ZIW </td>
-   <td style="text-align:left;"> VOK </td>
-   <td style="text-align:left;"> QOJ </td>
-   <td style="text-align:left;"> WIV </td>
-   <td style="text-align:left;"> SAR </td>
-   <td style="text-align:left;"> GUW </td>
-   <td style="text-align:left;"> CEZ </td>
-   <td style="text-align:left;"> HIZ </td>
-   <td style="text-align:left;"> HUL </td>
+   <td style="text-align:left;"> WUH </td>
+   <td style="text-align:left;"> POF </td>
+   <td style="text-align:left;"> FUZ </td>
+   <td style="text-align:left;"> CEB </td>
+   <td style="text-align:left;"> WUH </td>
+   <td style="text-align:left;"> ZEW </td>
+   <td style="text-align:left;"> KOD </td>
+   <td style="text-align:left;"> QAR </td>
+   <td style="text-align:left;"> LUJ </td>
+   <td style="text-align:left;"> XEG </td>
+   <td style="text-align:left;"> FOD </td>
+   <td style="text-align:left;"> ZAT </td>
+   <td style="text-align:left;"> JOH </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 4 </td>
-   <td style="text-align:left;"> ZOK </td>
-   <td style="text-align:left;"> FUW </td>
-   <td style="text-align:left;"> QEL </td>
-   <td style="text-align:left;"> VEP </td>
-   <td style="text-align:left;"> LUF </td>
-   <td style="text-align:left;"> QUC </td>
-   <td style="text-align:left;"> XEM </td>
-   <td style="text-align:left;"> BEB </td>
-   <td style="text-align:left;"> CUV </td>
-   <td style="text-align:left;"> CUC </td>
-   <td style="text-align:left;"> XEZ </td>
-   <td style="text-align:left;"> CUZ </td>
-   <td style="text-align:left;"> GIZ </td>
+   <td style="text-align:left;"> JUC </td>
+   <td style="text-align:left;"> WUG </td>
+   <td style="text-align:left;"> WAK </td>
+   <td style="text-align:left;"> NON </td>
+   <td style="text-align:left;"> CID </td>
+   <td style="text-align:left;"> LUJ </td>
+   <td style="text-align:left;"> WUH </td>
+   <td style="text-align:left;"> NUZ </td>
+   <td style="text-align:left;"> HOM </td>
+   <td style="text-align:left;"> QAX </td>
+   <td style="text-align:left;"> TEQ </td>
+   <td style="text-align:left;"> DIK </td>
+   <td style="text-align:left;"> XIN </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 5 </td>
-   <td style="text-align:left;"> VIK </td>
-   <td style="text-align:left;"> GUG </td>
-   <td style="text-align:left;"> CUY </td>
-   <td style="text-align:left;"> XAW </td>
-   <td style="text-align:left;"> DIZ </td>
-   <td style="text-align:left;"> POV </td>
-   <td style="text-align:left;"> KIC </td>
+   <td style="text-align:left;"> SIK </td>
+   <td style="text-align:left;"> CIC </td>
+   <td style="text-align:left;"> MAQ </td>
+   <td style="text-align:left;"> RIV </td>
+   <td style="text-align:left;"> MEV </td>
+   <td style="text-align:left;"> DIJ </td>
+   <td style="text-align:left;"> YOP </td>
+   <td style="text-align:left;"> MOX </td>
+   <td style="text-align:left;"> CIL </td>
    <td style="text-align:left;"> WUK </td>
-   <td style="text-align:left;"> RUP </td>
-   <td style="text-align:left;"> XIH </td>
-   <td style="text-align:left;"> PEV </td>
-   <td style="text-align:left;"> LUQ </td>
-   <td style="text-align:left;"> ZES </td>
+   <td style="text-align:left;"> YIF </td>
+   <td style="text-align:left;"> CUH </td>
+   <td style="text-align:left;"> MUP </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 6 </td>
-   <td style="text-align:left;"> JUV </td>
-   <td style="text-align:left;"> XOR </td>
-   <td style="text-align:left;"> TAY </td>
-   <td style="text-align:left;"> KIK </td>
-   <td style="text-align:left;"> CIY </td>
-   <td style="text-align:left;"> SEB </td>
-   <td style="text-align:left;"> CER </td>
-   <td style="text-align:left;"> NOQ </td>
-   <td style="text-align:left;"> YIR </td>
-   <td style="text-align:left;"> HEJ </td>
-   <td style="text-align:left;"> KAQ </td>
-   <td style="text-align:left;"> XOP </td>
-   <td style="text-align:left;"> BUF </td>
+   <td style="text-align:left;"> ROV </td>
+   <td style="text-align:left;"> QET </td>
+   <td style="text-align:left;"> HIZ </td>
+   <td style="text-align:left;"> TOB </td>
+   <td style="text-align:left;"> JES </td>
+   <td style="text-align:left;"> FUY </td>
+   <td style="text-align:left;"> PAK </td>
+   <td style="text-align:left;"> DUR </td>
+   <td style="text-align:left;"> LUC </td>
+   <td style="text-align:left;"> KAJ </td>
+   <td style="text-align:left;"> NER </td>
+   <td style="text-align:left;"> COV </td>
+   <td style="text-align:left;"> YOV </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 7 </td>
-   <td style="text-align:left;"> PIF </td>
-   <td style="text-align:left;"> PUM </td>
-   <td style="text-align:left;"> FOW </td>
-   <td style="text-align:left;"> VEQ </td>
-   <td style="text-align:left;"> MIY </td>
-   <td style="text-align:left;"> BAW </td>
-   <td style="text-align:left;"> MOK </td>
-   <td style="text-align:left;"> ZAF </td>
-   <td style="text-align:left;"> NIC </td>
-   <td style="text-align:left;"> PEK </td>
-   <td style="text-align:left;"> JID </td>
-   <td style="text-align:left;"> JOP </td>
-   <td style="text-align:left;"> MEK </td>
+   <td style="text-align:left;"> NOP </td>
+   <td style="text-align:left;"> CEY </td>
+   <td style="text-align:left;"> QOT </td>
+   <td style="text-align:left;"> KUZ </td>
+   <td style="text-align:left;"> JIS </td>
+   <td style="text-align:left;"> FEK </td>
+   <td style="text-align:left;"> HOX </td>
+   <td style="text-align:left;"> GEP </td>
+   <td style="text-align:left;"> QIY </td>
+   <td style="text-align:left;"> JAD </td>
+   <td style="text-align:left;"> POQ </td>
+   <td style="text-align:left;"> JAD </td>
+   <td style="text-align:left;"> FAQ </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 8 </td>
-   <td style="text-align:left;"> YEM </td>
-   <td style="text-align:left;"> PEK </td>
-   <td style="text-align:left;"> WUZ </td>
-   <td style="text-align:left;"> PEB </td>
-   <td style="text-align:left;"> HUD </td>
-   <td style="text-align:left;"> MIT </td>
-   <td style="text-align:left;"> SED </td>
-   <td style="text-align:left;"> KED </td>
-   <td style="text-align:left;"> TID </td>
-   <td style="text-align:left;"> HOV </td>
-   <td style="text-align:left;"> GIK </td>
-   <td style="text-align:left;"> VOZ </td>
-   <td style="text-align:left;"> BOZ </td>
+   <td style="text-align:left;"> ZIR </td>
+   <td style="text-align:left;"> RUW </td>
+   <td style="text-align:left;"> CER </td>
+   <td style="text-align:left;"> DEJ </td>
+   <td style="text-align:left;"> HIW </td>
+   <td style="text-align:left;"> XON </td>
+   <td style="text-align:left;"> RAL </td>
+   <td style="text-align:left;"> POV </td>
+   <td style="text-align:left;"> ZUQ </td>
+   <td style="text-align:left;"> VUR </td>
+   <td style="text-align:left;"> TAY </td>
+   <td style="text-align:left;"> TIY </td>
+   <td style="text-align:left;"> KUB </td>
   </tr>
 </tbody>
 </table>
@@ -232,7 +232,7 @@ If memory for a learned row was not perfect after a delay, then it would have to
 
 The blue line always shows the number of attempts needed during original learning. The black line shows the number of attempts needed during re-learning. The y-axis shows the number of attempts, and the x-axis shows the temporal delay between original learning and re-learning.
 
-<img src="C8_Memory_files/figure-html/unnamed-chunk-5-1.png" width="100%" />
+<img src="C8_Memory_files/figure-epub3/unnamed-chunk-5-1.png" width="100%" />
 
 What happened after a 20 minute delay? First, memory for a learned row was not perfect. Instead, about 16 re-learning attempts were needed to reach the once-time perfect criterion. However, even though a row could not be remembered perfectly after a 20 minute delay, the savings in re-learning showed that the original learning was "gone, but not completely forgotten". The savings in relearning was computed as the difference between original learning and relearning, or
 $30.77-16.26 = 14.51$. In other words, 14.5 practice attempts were saved, or not necessary, in getting back to the same level of performance. Re-learning the lists wasn't like riding a bike ^[an expression referring to skills that are supposedly learned once and not forgotten], but it wasn't like starting from scratch either.
@@ -313,11 +313,11 @@ Bartlett interpreted this finding as evidence that people reconstructed their me
 
 #### Reproducing Bartlett
 
-Some of Bartlett's experiments and specific findings have not been replicated by other researchers. For example, in 2012, Carbon and Albrecht [@carbonBartlettSchemaTheory2012] tried five different replications of the Bartlett's face drawing procedure, but they did not show that people's reproductions became more face-like over time. They used Bartlett's mask stimuli, and even stressed to subjects that the task was to redraw the "face" from memory. Their subjects drawings did change over reproductions by becoming less detailed, but they did not appear to converge on a prototypical face.
+Some of Bartlett's experiments and specific findings have not been replicated by other researchers. For example, in 2012 Carbon and Albrecht [@carbonBartlettSchemaTheory2012] tried five different replications of Bartlett's face drawing procedure, but they found no evidence that reproductions became more face-like over time. They used Bartlett's mask stimuli, and even stressed to subjects that the task was to redraw the "face" from memory. They found drawings changed over reproductions by becoming less detailed, but the drawings did not converge on a prototypical face.
 
 At the same time, some of Bartlett's results have been replicated. For example in 1999, Bergmann and Roediger [@bergmanCanBartlettRepeated1999] replicated a version of the war of the ghosts. They were able to show that subjects did introduce major and minor distortions to recall of the story during a first, second, and third recall session. As they note, if you read Bartlett's book (which is highly recommended and fun to read), you will find he did not explain his experimental protocol in precise detail, which makes it difficult to repeat what he did.
 
-Finally, although some of Bartlett's individual findings may not stand the test of time, there are many reproducible findings showing that memory can be distorted in interesting ways. So, even though memory reconstruction may not always head toward a schema, memory does appear to involve some kind of constructive process capable of returning sometimes accurate and sometimes distorted impressions of past experiences.
+Finally, although some of Bartlett's findings may not stand the test of time, there are many reproducible findings showing that memory can be distorted in interesting ways. So, even though memory reconstruction may not always head toward a schema, memory does appear to involve some kind of constructive process capable of returning accurate and distorted impressions of past experiences.
 
 #### Meaningful memory
 

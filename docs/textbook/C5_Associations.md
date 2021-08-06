@@ -4,13 +4,9 @@
 
 ::: {.readingtime}
 
-\begin{tabular}{r|l}
-\hline
-Word Count & Reading Time\\
-\hline
-7656 & 38.3 minutes\\
-\hline
-\end{tabular}
+| Word Count|Reading Time |
+|----------:|:------------|
+|       7656|38.3 minutes |
 :::
 
 ## Chapter overview
@@ -140,8 +136,7 @@ In the remainder of the paper, Cattell gave subjects an association task that in
 ::: {.floatrightbox25 data-latex=""}
 **Edward Thorndike**
 
-
-\includegraphics[width=1\linewidth]{imgs/Edward_thorndike} 
+<img src="imgs/Edward_thorndike.png" width="100%" />
 :::
 
 Thorndike viewed previous claims about animal cognition as belonging to two wildly different camps, with almost no middle ground, or evidence to interrogate the claims. In one camp, animals might be near human, potentially being able to reason and form associations on par with people. In the other camp, animals might be simple reflex machines and nothing more.
@@ -161,8 +156,7 @@ To summarize these quotes, Thorndike was interested in settling debate and ideas
 Thorndike conducted multiple experiments on cats, dogs, and chicks. His experimental apparatus was in the form of a puzzle box, like the one depicted below:
 
 ::: {.floatright50 data-latex=""}
-
-\includegraphics[width=1\linewidth]{imgs/Thorndike_puzzle_box_1898} 
+<img src="imgs/Thorndike_puzzle_box_1898.png" width="100%" />
 :::
 
 Thorndike made several variations on his puzzle boxes, but they all had the same basic features in common. First, animals could be placed inside the box. Second, animals could escape from the box if they figure out the trick. For example, pulling a latch, or a hoop on a string would unlock a door allowing the animal to escape. Animals were typically deprived of food and made hungry before they were placed in the box. And, they were given a food reward after they escaped from the box. Animals were given many practice attempts to get out of the box, and Thorndike measured the amount of time to get out of the box for each attempt.
@@ -288,29 +282,25 @@ Pavlov wrestled with whether or not psychology should be involved with attempts 
 ::: {.floatrightbox25 data-latex=""}
 **Réne Descartes**
 
-
-\includegraphics[width=1\linewidth]{imgs/Rene_Descartes} 
+<img src="imgs/Rene_Descartes.jpg" width="100%" />
 :::
 
 Before describing his experiments, Pavlov connected his work to philosophical ideas about humans and animals popularized much earlier by [René Descartes](https://en.wikipedia.org/wiki/René_Descartes) (1596-1650). Descartes was a rationalist philosopher who advanced a dualist perspective of the mind. According to Descartes, humans had a physical body that operated like a physical machine that obeyed the laws and principles of physical machines. But, humans also had a soul that did not operate according to physical laws. The human soul was the mysterious quality that set humans apart from animals which were viewed as less than human. Animals had physical bodies, but no soul. Although Descartes advocated for dualism, his ideas about how human and animal bodies behaved like complicated machines were inspirational to physiologists [@fearingReneDescartesStudy1929], who would become proponents of explaining cognition solely in terms of physical processes.
 
 ::: {.floatright25 data-latex=""}
-
-\includegraphics[width=1\linewidth]{imgs/Patellar-knee-reflex} 
+<img src="imgs/Patellar-knee-reflex.png" width="100%" />
 :::
 
 One of Descartes core ideas was the concept of a reflex, which involves a clear-cut line of cause and effect between an impending stimulus or impulse, and a subsequent effect. A common example is the [knee-jerk reflex](https://en.wikipedia.org/wiki/Patellar_reflex), where tapping a knee in the right spot can cause cause a leg to automatically kick up a little bit.
 
 ::: {.floatleft25 data-latex=""}
-
-\includegraphics[width=1\linewidth]{imgs/st_germain} 
+<img src="imgs/st_germain.png" width="100%" />
 :::
 
 In describing humans and animals as physical machines, Descartes was inspired by [the gardens at Saint-Germain-en-Laye](https://en.wikipedia.org/wiki/Château_de_Saint-Germain-en-Laye#16th–18th_centuries) [@vaccariDissolvingNatureHow2012]. The gardens were a marvel of hydraulic engineering. They contained an extensive network of pipes connected to fountains, and even controlled statues that had moving parts.
 
 ::: {.floatright50 data-latex=""}
-
-\includegraphics[width=1\linewidth]{imgs/Descartes_brain_large} 
+<img src="imgs/Descartes_brain_large.png" width="100%" />
 :::
 
 Descartes made an analogy between the pipes in the garden and the physiology of the body and brain. For example, Descartes drew the brain as a complicated system of hydraulic pipes that were connected in a network of cause and effect reflexes. In the garden, water pushed through a pipe could cause a statue to move on the other end. In the body and brain, liquids pushed through the nervous system would cause movements too, in the form of behaviors and reflexes.
@@ -328,8 +318,7 @@ Pavlov was interested in discovering the so-called laws of stimulus-response pat
 ::: {.floatrightbox50 data-latex=""}
 **Simple acquisition procedure**
 
-
-\includegraphics[width=1\linewidth]{imgs/Conditioning_Acquisition} 
+<img src="imgs/Conditioning_Acquisition.png" width="100%" />
 :::
 
 In Pavlov's simple acquisition procedure, a dog was housed in a controlled laboratory setting and given numerous "acquisition trials". On each trial, the dog was presented with a perceptual stimulus, like a loud tone, followed by a reward, like meat powder. The meat powder was a stimulus that normally caused the dog to salivate. Pavlov discovered that over the course of acquisition trials, the dog would begin to salivate in response to the loud tone, which was consistently paired with the food reward.
@@ -338,8 +327,7 @@ Simple acquisition is an example of a classical conditioning phenomena that resu
 
 ::: {.floatright50 data-latex=""} 
 
-
-\includegraphics[width=1\linewidth]{imgs/Conditioning_terms} 
+<img src="imgs/Conditioning_terms.png" width="100%" />
 
 :::
 
@@ -363,8 +351,7 @@ In a simple acquisition procedure the animal appears to learn a new association.
 
 Can associations be unlearned? Pavlov addressed this question using an extinction procedure. The figure below shows an acquisition phase followed by an extinction phase. In the acquisition phase, the tone is paired with food, and over trials the dog begins to salivate when it hears the tone.
 
-
-\includegraphics[width=1\linewidth]{imgs/Conditioning_extinction} 
+<img src="imgs/Conditioning_extinction.png" width="100%" />
 
 In the extinction phase, the CS is presented alone without any reward. At the beginning of the extinction phase, the dog shows the salivation response (UCR) when it hears the tone (CS). However, throughout the extinction phase, the dog will hear the tone many times, but the tone will not be paired with food reward. The phenomena of extinction occurs when the dog reduces or ceases to show a salivation response when it hears the tone. In other words, extinction is a reduction in the conditioned response (salivation) to the conditioned stimulus (tone).
 

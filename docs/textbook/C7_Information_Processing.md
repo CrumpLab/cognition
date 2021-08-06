@@ -8,13 +8,9 @@ output:
 # Information Processing
 
 
-\begin{tabular}{r|l}
-\hline
-Word Count & Reading Time\\
-\hline
-11667 & 58.3 minutes\\
-\hline
-\end{tabular}
+| Word Count|Reading Time |
+|----------:|:------------|
+|      11667|58.3 minutes |
 
 ## Overview
 
@@ -38,7 +34,8 @@ As I will describe briefly in the next section, metaphors are very commonly used
 
 **A crayon assembly line**
 
-<iframe src="https://www.youtube.com/embed/ZQ_MEFVx5jM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 :::
 
 
@@ -53,11 +50,13 @@ A major innovation of the technological revolution was the introduction of [comm
 A major innovation of the digital revolution was the introduction of computing technology. The rise of the computer sciences also occurred in tandem with the growth of modern cognitive psychology. For example, the "[cognitive sciences](https://en.wikipedia.org/wiki/Cognitive_science)" are considered an interdisciplinary discipline with major contributions from and cross-fertilization of ideas between cognitive psychology, computer science, philosophy, linguistics, neuroscience and anthropology. Like other transformational technology, computers have been used as prominent metaphors for cognition. Sometimes cognitive theories are very literal with the metaphor, and cognition is broken down into parts resembling actual physical components of a digital computer. In other cases, cognition is described in terms of more abstract computational processes and algorithms rather than concrete components. Although computers are highly relevant to the "information processing" theme of this chapter, further elaboration on the computational metaphor of cognition will be reserved for upcoming chapters.
 
 <!--
+
 This could go in the modeling chapter?
 
-The behaviorists we just finished reading about successfully squeezed in the study of behavior as a topic of inquiry in its own right. They did this by criticizing mentalism on one side for being unscientific (lacking objectivity and too metaphysical); but, they also had to contend with physiologists on the other side. Physiology was not lacking objectivity-- there were liquids, organic tissues, and electrical impulses that could be readily observed. The behaviorists sought to legitimize the objective study of behavior at a macroscopic level, while conceding that physiological processes were obviously causing the behavior at a microscopic level. In distinguishing between behavioral and physiological levels of analysis, behaviorism also made a case against needing to justify itself in terms of lower-level mechanisms. For example, Skinner's system had no mechanisms for any of the behaviors in the system. There were no physical counterparts to reflex strength, or to a reflex reserve. These were not mechanisms, they were just terms he used in his descriptive system. Skinner chose terms that loosely referred to physical entities, but did not extend the metaphors any further. Notably, Skinner argued that the goal was not to explain the mechanisms of behavior, but instead to control and manipulate behavior, and his system was capable of doing that without referring to mechanisms.
+The behaviorists we just finished reading about successfully squeezed in the study of behavior as a topic of inquiry in its own right. They did this by criticizing mentalism on one side for being unscientific (lacking objectivity and too metaphysical); but, they also had to contend with physiologists on the other side. Physiology was not lacking objectivity: there were liquids, organic tissues, and electrical impulses that could be readily observed. The behaviorists sought to legitimize the objective study of behavior at a macroscopic level, while conceding that physiological processes were obviously causing the behavior at a microscopic level. In distinguishing between behavioral and physiological levels of analysis, behaviorism also made a case against needing to justify itself in terms of lower-level mechanisms. For example, Skinner's system had no mechanisms for any of the behaviors in the system. There were no physical counterparts to reflex strength, or to a reflex reserve. These were not mechanisms, they were just terms he used in his descriptive system. Skinner chose terms that loosely referred to physical entities, but did not extend the metaphors any further. Notably, Skinner argued that the goal was not to explain the mechanisms of behavior, but instead to control and manipulate behavior, and his system was capable of doing that without referring to mechanisms.
 
 -->
+
 
 ## The mechanization of cognition
 
@@ -100,22 +99,19 @@ Donders conducted many human reaction time experiments using tactile, visual and
 A basic question was whether different sense organs had different physiological reaction times. But, Donders was more interested in the additional "mental" time it might take to perform increasingly complex tasks before making a response to the stimuli. The tasks that Donders used to increase complexity are still widely used. In the remaining description of Donders work, I will use the modern terms for the tasks, and present a generic summary of Donders findings and conclusions. 
 
 ::: {.floatright25 data-latex=""} 
-
-\includegraphics[width=1\linewidth]{imgs/Donders_simple} 
+<img src="imgs/Donders_simple.png" width="100%" />
 :::
 
 The most basic reaction time task is called a *simple reaction time task*. In this task, subjects are presented with a stimulus, and asked to respond to as quickly as possible, as soon as they detect it. Donders would consider the reaction times from this task as "physiological reaction times".
 
 ::: {.floatright25 data-latex=""} 
-
-\includegraphics[width=1\linewidth]{imgs/Donders_GoNoGo} 
+<img src="imgs/Donders_GoNoGo.png" width="100%" />
 :::
 
 Donders invented the idea of having subjects perform a slightly more complicated task that is now referred to as the *GO-NO GO* task. In this task, subjects are presented with a stimulus, but they only make a response if the stimulus is the target stimulus. For example, one might see a blue or red stimulus, and the response would be required only if the stimulus was blue (a GO response). No response would be required if the stimulus was red (a NO GO trial).
 
 ::: {.floatright25 data-latex=""} 
-
-\includegraphics[width=1\linewidth]{imgs/Donders_Choice} 
+<img src="imgs/Donders_Choice.png" width="100%" />
 :::
 
 An even more complicated version of the task is referred to as an *alternative forced-choice task*. For example, a subject could be asked to respond to a blue stimulus by pressing a left button, and to respond to a red stimulus by pressing a right button. This would be called a 2-AFC (two-alternative forced choice) task, or a choice reaction time task.
@@ -124,26 +120,23 @@ An even more complicated version of the task is referred to as an *alternative f
 
 Donders used subtraction of reaction times between tasks to estimate the speed of mental operations. He assumed that mental operations occurred in successive stages like an assembly line, and that each stage took an average amount time. 
 
+<img src="imgs/Donders_Assembly.png" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
 
 
-
-\begin{center}\includegraphics[width=1\linewidth]{imgs/Donders_Assembly} \end{center}
 
 
 The fastest reaction time should be the physiological time given by the simple reaction time task. This one involved a minimum of mental processing. Reaction times should increase in length if mental processing had to occur before a response was made. 
 
+<img src="imgs/Donders_task_stages.jpg" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
 
 
-
-\begin{center}\includegraphics[width=1\linewidth]{imgs/Donders_task_stages} \end{center}
 
 
 For example, the GO-NO GO task should produce a longer reaction time than the simple reaction time task. This is because the task requires an additional mental operation of stimulus identification. In the GO-NO GO task, the stimulus must be identified as the target stimulus before a response is made. 
 
+<img src="imgs/Donders_id_time.jpg" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
 
 
-
-\begin{center}\includegraphics[width=1\linewidth]{imgs/Donders_id_time} \end{center}
 
 
 If it took 170 milliseconds to make a response in the GO - NO GO task, and 150 milliseconds to make a response in the simple reaction time task, Donders took the difference of 20 milliseconds (by subtraction 170-150 = 20) to indicate the time taken by the mental operation. In this example, Donders might say the mental process of identification takes 20 milliseconds. 
@@ -151,10 +144,9 @@ If it took 170 milliseconds to make a response in the GO - NO GO task, and 150 m
 
 The subtraction logic could be applied to infer the times associated with subsequent stages of processing. For example, reaction times in a two alternative forced choice task (2AFC) are longer than in a GO-NO GO task. Following Donders logic, a 2AFC task involves yet another mental operation, *response selection*. For example, in this task the stimulus must be identified before a response is made, and then the correct response (e.g., right or left) must be selected before the final response is made. The stage of stimulus identification is assumed to occur before the subsequent stage of response selection.
 
+<img src="imgs/Donders_RT_time.png" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
 
 
-
-\begin{center}\includegraphics[width=1\linewidth]{imgs/Donders_RT_time} \end{center}
 
 
 But, by subtracting the reaction time in the 2AFC task, from the reaction time in the GO-NO GO task, Donders argued that the amount of time for response selection could be separated from the amount of time for stimulus identification.
@@ -188,8 +180,7 @@ Welford observed the psychological refractory period from existing reaction time
 
 ::: {.floatright50 data-latex=""} 
 
-
-\includegraphics[width=1\linewidth]{imgs/PRP_effect} 
+<img src="imgs/PRP_effect.jpg" width="100%" />
 
 :::
 
@@ -238,10 +229,9 @@ Information Theory was not developed as a theory for cognition or psychology. It
 
 An information channel has three major parts-- a sender, a channel, and a receiver--and two big questions, how much information was sent? And, how much was received?
 
+<img src="imgs/Shannon_info_channel.jpg" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
 
 
-
-\begin{center}\includegraphics[width=1\linewidth]{imgs/Shannon_info_channel} \end{center}
 
 
 A toy telephone system made out of tin cans and string is a great example of a simple information channel. In this system, one person speaks into a tin-can on one end. There is a hole in the bottom of the can, and a knot is securely blocking the hole so that the remaining length of string can be unrolled for a distance and connected to another tin can. The person on the other end is holding the second can up to their ears, and listening to the message from the sender. If you have never made this toy, it's just that simple, and it works. 
@@ -283,19 +273,12 @@ The capital X refers to the set of discrete events that can occur in a series of
 The table below shows the calculation of H for a fair coin. A fair coin has two possible events, heads or tails, and each event has the same .5 probability of occurring.
 
 
-\begin{tabular}{l|l|l|l|l}
-\hline
-Events & $i$ & $P(x_i)$ & $log_2 P(x_i)$ & $P(x_i)*log_2 P(x_i)$\\
-\hline
-Heads & 1 & 0.5 & -1 & -0.5\\
-\hline
-Tails & 2 & 0.5 & -1 & -0.5\\
-\hline
-sum &  &  & $\sum_\text{i=1}^n$ & -1\\
-\hline
-H &  &  & $-1*\sum_\text{i=1}^n$ & 1\\
-\hline
-\end{tabular}
+|Events |$i$ |$P(x_i)$ |$log_2 P(x_i)$         |$P(x_i)*log_2 P(x_i)$ |
+|:------|:---|:--------|:----------------------|:---------------------|
+|Heads  |1   |0.5      |-1                     |-0.5                  |
+|Tails  |2   |0.5      |-1                     |-0.5                  |
+|sum    |    |         |$\sum_\text{i=1}^n$    |-1                    |
+|H      |    |         |$-1*\sum_\text{i=1}^n$ |1                     |
 
 To walk through the table, in the first row we have the calculations for heads. The probability of heads is .5.
 
@@ -325,10 +308,9 @@ A single bit has two states, 0 or 1. So, we could use a single bit to represent 
 
 How many states can two bits represent? This would involve counting all of the unique ways of combining the states from two bits, for example, the first and second bit could be 0 (00), the first bit could be zero and the second a one (01), and so on. All of four possibilities are: 00, 01, 10, and 11. The figure below shows the relationship between number of bits, and the number of unique events that can be represented by combining bits together. 
 
+<img src="imgs/Shannon_bits.jpg" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
 
 
-
-\begin{center}\includegraphics[width=1\linewidth]{imgs/Shannon_bits} \end{center}
 
 The relationship between number of bits and number of unique events they can code is defined by raising 2 to the number of $Bits$:
 
@@ -347,89 +329,53 @@ If a sender is communicating only discrete events like As, Bs, Cs, and Ds, then 
 The most uncertainty occurs when the message is completely random. By definition, this means that the sender randomly chooses to send As, Bs, Cs, and Ds with equal probability. This is like a four-sided coin flip (if that was possible). Each of the probabilities is .25, or 1/4. In this situation, the receiver has no way of predicting which event will occur as they receive the message. It is maximally uncertain. Watch what happens when we compute H using Shannon's formula, we compute $H = 2$, which is the same as the number of bits needed to represent each of the four events:
 
 
-\begin{tabular}{l|l|l|l|l}
-\hline
-Events & $i$ & $P(x_i)$ & $log_2 P(x_i)$ & $P(x_i)*log_2 P(x_i)$\\
-\hline
-A & 1 & 0.25 & -2 & -0.5\\
-\hline
-B & 2 & 0.25 & -2 & -0.5\\
-\hline
-C & 3 & 0.25 & -2 & -0.5\\
-\hline
-D & 4 & 0.25 & -2 & -0.5\\
-\hline
-sum &  &  & $\sum_\text{i=1}^n$ & -2\\
-\hline
-H &  &  & $-1*\sum_\text{i=1}^n$ & 2\\
-\hline
-\end{tabular}
+|Events |$i$ |$P(x_i)$ |$log_2 P(x_i)$         |$P(x_i)*log_2 P(x_i)$ |
+|:------|:---|:--------|:----------------------|:---------------------|
+|A      |1   |0.25     |-2                     |-0.5                  |
+|B      |2   |0.25     |-2                     |-0.5                  |
+|C      |3   |0.25     |-2                     |-0.5                  |
+|D      |4   |0.25     |-2                     |-0.5                  |
+|sum    |    |         |$\sum_\text{i=1}^n$    |-2                    |
+|H      |    |         |$-1*\sum_\text{i=1}^n$ |2                     |
 
 We have just seen that when a communication involves a maximally unpredictable set of events, Shannon's formula for H returns the number of bits needed to represent each of the unique events in the message. In other words, the number of bits represents an upper bound on the amount of information in a message, in this case it represents maximal uncertainty when the events occur with equal probability.
 
 What if the events do not occur with equal probability? This would mean that some of the events are more likely than others. In Shannon's system, whenever some events are more likely than others something special happens at the receiving end of the message. The receiver is now able to predict some of the message. For example, if the message 70% As, 10% Bs, 10% Cs, and 10% Ds, the receiver would be able to predict that each event has a high probability of being an A, and a low probability of being a B, C, or D. Let's enter this situation into the formula for H and see what happens:
 
 
-\begin{tabular}{l|l|l|l|l}
-\hline
-Events & $i$ & $P(x_i)$ & $log_2 P(x_i)$ & $P(x_i)*log_2 P(x_i)$\\
-\hline
-A & 1 & 0.7 & -0.514573172829758 & -0.360201220980831\\
-\hline
-B & 2 & 0.1 & -3.32192809488736 & -0.332192809488736\\
-\hline
-C & 3 & 0.1 & -3.32192809488736 & -0.332192809488736\\
-\hline
-D & 4 & 0.1 & -3.32192809488736 & -0.332192809488736\\
-\hline
-sum &  &  & $\sum_\text{i=1}^n$ & -1.35677964944704\\
-\hline
-H &  &  & $-1*\sum_\text{i=1}^n$ & 1.35677964944704\\
-\hline
-\end{tabular}
+|Events |$i$ |$P(x_i)$ |$log_2 P(x_i)$         |$P(x_i)*log_2 P(x_i)$ |
+|:------|:---|:--------|:----------------------|:---------------------|
+|A      |1   |0.7      |-0.514573172829758     |-0.360201220980831    |
+|B      |2   |0.1      |-3.32192809488736      |-0.332192809488736    |
+|C      |3   |0.1      |-3.32192809488736      |-0.332192809488736    |
+|D      |4   |0.1      |-3.32192809488736      |-0.332192809488736    |
+|sum    |    |         |$\sum_\text{i=1}^n$    |-1.35677964944704     |
+|H      |    |         |$-1*\sum_\text{i=1}^n$ |1.35677964944704      |
 
 In this case, H is computed as 1.35, which means that events in the message require less than 2 bits. There are still four events, but one of them is more predictable then the others. If we made one of the events even more predictable (e.g., like A = .97), then the amount of bits needed would decrease and get closer to zero.
 
 
 
-\begin{tabular}{l|l|l|l|l}
-\hline
-Events & $i$ & $P(x_i)$ & $log_2 P(x_i)$ & $P(x_i)*log_2 P(x_i)$\\
-\hline
-A & 1 & 0.97 & -0.0439433475875971 & -0.0426250471599691\\
-\hline
-B & 2 & 0.01 & -6.64385618977472 & -0.0664385618977472\\
-\hline
-C & 3 & 0.01 & -6.64385618977472 & -0.0664385618977472\\
-\hline
-D & 4 & 0.01 & -6.64385618977472 & -0.0664385618977472\\
-\hline
-sum &  &  & $\sum_\text{i=1}^n$ & -0.241940732853211\\
-\hline
-H &  &  & $-1*\sum_\text{i=1}^n$ & 0.241940732853211\\
-\hline
-\end{tabular}
+|Events |$i$ |$P(x_i)$ |$log_2 P(x_i)$         |$P(x_i)*log_2 P(x_i)$ |
+|:------|:---|:--------|:----------------------|:---------------------|
+|A      |1   |0.97     |-0.0439433475875971    |-0.0426250471599691   |
+|B      |2   |0.01     |-6.64385618977472      |-0.0664385618977472   |
+|C      |3   |0.01     |-6.64385618977472      |-0.0664385618977472   |
+|D      |4   |0.01     |-6.64385618977472      |-0.0664385618977472   |
+|sum    |    |         |$\sum_\text{i=1}^n$    |-0.241940732853211    |
+|H      |    |         |$-1*\sum_\text{i=1}^n$ |0.241940732853211     |
 
 If one of the event occurs 100% of the time, and the others occur 0% of the time, then H=0. What happens in the formula is that $log2(1) = 0$, and $log2(0)= -infinity$. By convention, the negative infinities are turned into 0s, which results in a sum of 0s, such that $H=0$.
 
 
-\begin{tabular}{l|l|l|l|l}
-\hline
-Events & $i$ & $P(x_i)$ & $log_2 P(x_i)$ & $P(x_i)*log_2 P(x_i)$\\
-\hline
-A & 1 & 1 & 0 & 0\\
-\hline
-B & 2 & 0 & -Inf & 0\\
-\hline
-C & 3 & 0 & -Inf & 0\\
-\hline
-D & 4 & 0 & -Inf & 0\\
-\hline
-sum &  &  & $\sum_\text{i=1}^n$ & 0\\
-\hline
-H &  &  & $-1*\sum_\text{i=1}^n$ & 0\\
-\hline
-\end{tabular}
+|Events |$i$ |$P(x_i)$ |$log_2 P(x_i)$         |$P(x_i)*log_2 P(x_i)$ |
+|:------|:---|:--------|:----------------------|:---------------------|
+|A      |1   |1        |0                      |0                     |
+|B      |2   |0        |-Inf                   |0                     |
+|C      |3   |0        |-Inf                   |0                     |
+|D      |4   |0        |-Inf                   |0                     |
+|sum    |    |         |$\sum_\text{i=1}^n$    |0                     |
+|H      |    |         |$-1*\sum_\text{i=1}^n$ |0                     |
 
 
 ### Summary
@@ -482,10 +428,9 @@ The first experiment was a choice-reaction time task with 8 different conditions
 
 The second experiment varied the amount information in bits and the number of alternatives separately, again across 8 conditions. A table showing the design of each of the 8 conditions is shown below, along with some mark-up to highlight important features of the design.
 
+<img src="imgs/Hyman_e2.jpg" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
 
 
-
-\begin{center}\includegraphics[width=1\linewidth]{imgs/Hyman_e2} \end{center}
 
 The first two conditions both had 2 alternatives each, however, the choices were more predictable in the first than second condition. In condition 1, the first alternative occurred more often (9/10 times) than the second alternative (1/10 times). In condition 2, the first alternative still occurred more often than the second, but was slightly less predictable (8/10 vs 2/10 times). Using Shannon's formula to calculate the number bits in each condition, Hyman reports .47 bits for condition 1, and .72 bits for condition 2. If reaction times are influenced by the number of alternatives, then they should be the same in condition 1 and 2, because they both had the same number of alternatives (two each). If reaction times are influenced by the amount of information (measured in bits), then they should be slower in condition 2 compared to condition 1, because condition 2 required more bits (it was less predictable).
 
@@ -495,10 +440,9 @@ The table shows six other conditions. Hyman constructed similar conditions for f
 
 Hyman reported results from four subjects, the graph below shows original results from two of his participants. Note, Hyman had conducted a third experiment where he manipulated the amount of information separately from the number of alternatives in a slightly different way. All told, his subjects had completed three experiments worth of choice reaction time experiments. All of them had different numbers of alternatives, and separately manipulated amounts of information measured in bits. The big finding can be stated by the Hick-Hyman Law: choice-reaction time increased as a linear function of the information (measured in bits) in the stimulus set. Critically, it was not the number of number alternatives that was making people slower, it seemed to the amount of information in the stimulus set.
 
+<img src="imgs/Hick_hyman_law.png" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
 
 
-
-\begin{center}\includegraphics[width=1\linewidth]{imgs/Hick_hyman_law} \end{center}
 
 
 ### Implications for Behaviorism

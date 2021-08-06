@@ -8,13 +8,9 @@ output:
 # Eugenics and Psychology
 
 
-\begin{tabular}{r|l}
-\hline
-Word Count & Reading Time\\
-\hline
-4166 & 20.8 minutes\\
-\hline
-\end{tabular}
+| Word Count|Reading Time |
+|----------:|:------------|
+|       4166|20.8 minutes |
 
 
 <!--
@@ -72,8 +68,7 @@ In Britain, Galton sat as the first president of the Eugenics Education Society 
 
 ::: {.floatright50 data-latex=""} 
 
-
-\includegraphics[width=1\linewidth]{imgs/Eugenics_tree} 
+<img src="imgs/Eugenics_tree.jpg" width="100%" />
 
 :::
 

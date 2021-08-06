@@ -45,8 +45,7 @@ Non, condimentum morbi venenatis eget diam lectus dignissim ridiculus ac mi ince
 ::: {.floatrightbox25 data-latex=""}
 
 
-
-\includegraphics[width=1\linewidth]{imgs/Francis_Galton} 
+<img src="imgs/Francis_Galton.jpg" width="100%" />
 
 :::
 
