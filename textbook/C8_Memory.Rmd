@@ -374,7 +374,7 @@ Let's imagine people would have 100% accuracy on this very simple pitch judgment
 
 #### Pollack's pitch judgment results
 
-Miller cited work by Pollack[], who had applied information theory measurements to absolute pitch judgment. Pollack ran an experiment very similar to the thought-experiment described above. He gave people a tone judgment task, and varied the number of tones in the set. He had sets of 2, 3, 4, 5, 6, 7, 8, 10 and 14 tones. Subjects were given tones from one set. On each trial they heard a tone, then they had to identify with a number, (e.g., "this is tone number 7"). This general task is also called the "method of absolute judgment" in [psychophysics](https://en.wikipedia.org/wiki/Psychophysics). 
+Miller cited work by Pollack[@pollackInformationElementaryAuditory1952a], who had applied information theory measurements to absolute pitch judgment. Pollack ran an experiment very similar to the thought-experiment described above. He gave people a tone judgment task, and varied the number of tones in the set. He had sets of 2, 3, 4, 5, 6, 7, 8, 10 and 14 tones. Subjects were given tones from one set. On each trial they heard a tone, then they had to identify with a number, (e.g., "this is tone number 7"). This general task is also called the "method of absolute judgment" in [psychophysics](https://en.wikipedia.org/wiki/Psychophysics). 
 
 ::: {.floatright50 data-latex=""}
 
@@ -409,10 +409,114 @@ Miller's paper reviewed many absolute perceptual judgments besides tone judgment
 
 Miller described how the data from all of the tasks could be plotted using information theory concepts. And, he noted similar channel capacities across all of different perceptual judgments. This is where the title, "7 plus or minus two" comes from.  Seven items is the same as 2.8 bits. The channel capacity for identifying tones was around 2.5 bits, or about 5 items. Some of the other channel capacities were a little lower or higher. The fact that the channel capacities were all very similar, even though the stimuli were all very different suggested law-like behavior. It seemed promising that the descriptive language of information theory could be used to state laws of information processing capacity in perceptual judgments. Miller had hoped the apparent principles could extend even further, past perception, to the domain of immediate memory.
 
+#### Immediate memory span
 
-### Short and long term memory
+Miller had noticed a correspondence between limitations in absolute judgment tasks and limitations in tasks measuring immediate memory span. Immediate memory span is how many items you can remember over a short period of time. The correspondence was the number 7. Absolute perceptual judgments seemed to be limited by set-sizes of around 7. And, it was already well-known that people had short immediate memory spans, with spans also around 7 items.
 
-### Working Memory
+How is immediate memory span can measured? One method is to provide a series of items, and then have a subject repeat them back. The series starts with a small number of items. And the number of items is increased until the subject fails to repeat the series back perfectly. Immediate memory span is the number of items in the list that you can recite back without making mistakes. The number 7 is just a rough description of typical findings from immediate memory span research. People can usually recite back lists of 7 things without making errors. However, people start making errors when the list gets longer and longer. For example, a phone number with seven digits isn't too hard to remember long enough to write down or write into your contact info. Longer sequences are typically harder to remember, especially when extended practice is not allowed (like in the Ebbinghaus procedure).
+
+Miller thought the spans of roughly 7 in absolute perceptual judgment and immediate memory could be related, possibly pointing to a common process limiting both perception and memory. However, the whole point of his paper was to raise the possibility as an idea, and then provide evidence that it wasn't true. He concluded that any similarities were just an annoying coincidence. Miller arrived at the conclusion by distinguishing between bits of information, and **chunks** of information. He suggested that perceptual decision is limited by bits, and that immediate memory was limited by chunks. So, let's look at chunks and bits.
+
+#### Chunks vs bits
+
+Miller describes an immediate memory experiment by Hayes [] to make his point. That experiment measured immediate memory spans with different kinds of stimuli. These included binary digits, decimal digits, letters, letters & digits, and items from a pool of 1000 words.
+
+For example, I could give you a series of 0s and 1s (binary digits), and see how many you can remember in a row. Try it out, read this series one time from beginning to end. Then, try to write down the series from beginning to end without looking.
+
+> 0110100010100101
+
+If you count how many you got correct from left to right, this is another way to measure immediate memory span. Instead of binary digits, the list could be decimal digits:
+
+> 4986754322345112
+
+Or, letters, letters and digits, and so on. 
+
+Miller again used information theory, but this time he distinguished between the information in a stimulus and the information across a list of stimuli. For example, a single binary digit can be represented by a single bit. A list of 7 binary digits then required 7 bits. 
+
+A decimal number is a different kind of stimulus, and requires more bits to represent a single stimulus. For example, a single decimal could any of the 10 symbols between 0 and 9 (0,1,2,3,4,5,6,7,8,9). According to information theory, it takes 3.32 bits to represent a equi-probably choice between 10 alternatives. Therefore, a list of 7 decimal digits would require 3.32 bits * 7 =  23.24 bits.
+
+The same calculations were made for the other stimulus sets. There are 26 letters, requiring 4.7 bits per letter, and 32.9 bits for a list of 7 letters. There are 36 total symbols combining letters and digits, requiring 5.16 bits per symbol, and 36 bits for a list of 7. If 1000 words are taken as 1000 unique symbols, then 9.96 bits are required to represent a single word. A list of seven words would require 69.7 bits.
+
+Here is the first take-home message of Miller's information theory analysis of the different stimulus sets: **some stimuli carry more information per item than other stimuli**. For example, binary digits carry less information than decimal digits, because binary digits have few possible symbols than decimal digits. Decimal digits carry less information than letters. Letters carry less information words. By information theory definition, stimuli with more possible symbols carry more information than stimuli with fewer possible symbols.
+
+So, what happened in Hayes immediate memory span experiment? Remember, he measured immediate memory span for lists from the different stimulus sets I just described. Does immediate memory span depend on the amount of information in the stimuli? The answer is, not really, no, not so much.
+
+::: {.floatright50 data-latex=""}
+
+
+```{r}
+knitr::include_graphics("imgs/Miller_im_span.jpg")
+```
+
+:::
+
+The immediate memory span data is shown to the right. The y-axis shows the average immediate memory span, and the x-axis is the amount of bits needed for each kind symbol. The take-home message that immediate memory span was about 7 items for all of the stimulus sets. It was a little bit higher for binary digits, compared to words, but nowhere near as high as it should be. If people could handle 7 words just just fine, then they should have an immediate memory span closer to 40 for binary digits (which required fewer bits than words). Instead, the spans were pretty similar across stimuli.
+
+Miller suggested that immediate memory escapes capacity limitations imposed by information at the level of stimulus sets through a recoding process. He called this process chunking. 
+
+At the level of stimulus information, seven bits would be required to code seven binary digits. However, as discussed earlier 69.7 bits would be required to code seven words (from a set of 1000 words). It seemed that people were totally capable of remembering 7 words, even though the amount of stimulus information required was way higher. How could this be? Miller proposed that immediate memory was recoding the stimulus into chunks, or individual units. This allowed immediate memory to treat any kind of stimulus as a single chunk. As a result, the capacity of immediate memory was not limited by the amount of information in each stimulus (e.g., binary symbol vs word symbol), it was limited by the number of chunks.
+
+## On tasks, abilities, and processes
+
+We're about to finish up this chapter by discussing research on short and long-term memory, as well as working memory. Before we do that, now is a good time to discuss differences between memory tasks, abilities, and processes. When I read the memory literature I am often confused about whether researchers are discussing tasks, abilities, or processes, or some combinations of the three. So, I will define these three aspects common to all cognitive research before we continue. Let's use the immediate memory span as an example. 
+
+### Tasks
+
+The immediate memory span task is most obviously a task that people perform. Most people don't perform this task in everyday life, or most psychological tasks. The immediate memory span task was created as a research instrument. As a research instrument, the task has some controlled properties, and people asked to perform it in a particular way. That is, follow the instructions. For example, if I asked you to remember the following 10 digits (3,5,4,2,3,2,6,5,7,6), and you told me about your favorite movie, then it wouldn't count as "doing the task". Tasks are also made to provide convenient measurements. For example the immediate memory span task yields a number, called the immediate memory span. It is the number of items correctly recalled in the task. 
+
+### Abilities
+
+We can distinguish between the immediate memory span task, and the ability to perform the task. The immediate memory span task is an example of a behavioral task. People perform the task, and some aspect of their behavior in the task is measured. For example, the immediate memory span is a measure of performance in the task. Behavioral measures of performance can reflect the ability to perform a task, but they may not. For example, I have the ability to perform an immediate memory task, but this ability will not be measured if I choose not to perform the task. While I am doing the task, I can also choose to do it in different ways. In other words, I could use multiple abilities to perform the task. I might not even know what abilities I was using. At the very least, when a task is performed, I will use ability to refer to the fact that the task was performed in some way. 
+
+### Processes
+
+In cognitive research tasks and abilities are measured to better understand the underlying cognitive processes involved. We have just described the immediate memory span as task that can be completed. If you follow the instructions and complete the task as intended, then your performance will be measured, potentially as a reflection of your ability. For example, you may have a measured immediate memory span of 5, 7, or 10, or some other number. What does this number mean in relation to a cognitive process? For example, do you have an immediate memory system? If so, does it have a span? My answer is no, not at all. 
+
+Cognitive processes refer to the mechanisms underlying the abilities to perform a task. Tasks produce measures of abilities, but not direct measures of the processes enabling the abilities. Instead, cognitive processes are largely theoretical entities. They are used to explain the measures of behavior. In this way, it is possible for multiple theories to explain the same measurements of task performance. 
+
+I'm bringing these issues to the foreground because it will be useful to distinguish between tasks, abilities, and process explanations when we discuss short and long term memory. It is possible to make short and long term memory tasks. People have the ability to remember some information over very long time periods, and at the same time do not have the ability to remember other information over very short periods. Do these facts about tasks and abilities require different process explanations? That is a research question in cognition that continues to be debated.
+
+## Short and long term memory
+
+I'm guessing you have heard of short-term memory and long-term memory. It's OK if you haven't. These are terms from cognitive psychology that are commonly used to describe memory abilities. We've all forgotten something that just happened, and maybe blamed short-term memory. We've all remembered something from ages ago...thanks to long-term memory. Clearly, memory can last a long time sometimes, and not last a long time other times. What is going on here? Why is memory behaving so differently?
+
+One potential answer is that there are two memory systems. A short-term memory system and a long-term memory system. The short-term system is limited in capacity, so it can only hold a few things-- like Miller's chunks-- for a short time. Short-term memory explains things like forgetting a phone-number right away. It went in your short-term memory system, and was easily forgotten. Perhaps the phone-number was pushed out by new incoming information. The long-term system has a much larger capacity, so it can hold many things for a long time. This explains why you can remember some events in great detail from a long-time ago.
+
+Before we look at this idea more closely let me first make a comment about independent systems. First, the distinction between a short-term and long-term memory is between supposedly separate systems. There are lots of examples of separate systems in humans, especially at a physiological level. For example, we could consider different organs in the body as separate independent systems, each doing their own job in the connected network of your body. In terms of brain function, there are also different perceptual systems and brain areas mostly dedicated to processing information from each modality. I think partly because systems like these do exist, that some researchers adopt a "systems-focused" approach to cognition. In this approach, one of the goals is to find all of the systems, and then interrogate them to understand how they work.
+
+Several memory models distinguish between short and long-term memory systems. The basic short-term/long-term distinction marks a branching point in memory research. One side of the branch continued to make distinctions between different kinds of memory systems. Another side of the branch tended to focus more on the algorithms of memory processes. The next two chapters expand on the algorithmic branch. The last part of this chapter describes the multiple-systems approach, starting with the multi-store model.
+
+### Multi-store model
+
+A classic memory model that distinguishes between short and long-term memory is the multi-store model of Atkinson and Shriffrin from 1968. This model is fairly easy to explain and not too complicated, which is one reason why it had a big impact. At the time, it also successfully modeled a number of findings from the memory literature. We will talk about this model in general terms. However, Atkinson and Shiffrin also formalized the operation of their model with mathematical assumptions, which allowed them to more precisely generate predictions from the model. Although the model follows an information processing approach, the underlying metaphor for cognition is more in the vein of the assembly line metaphor from last chapter.
+
+The multi-store model has three major storage locations, a sensory register, a short-term store, and a long-term store. Each storage device is further split by modality. There is a visual sensory register, and an auditory register etc. The short-term store also has different locations for different kinds of information, like auditory information, or visual information. Similarly, the long-term store also has separate locations for different kinds of representations. 
+
+More important, the model describes the operation of control processes allowing information to flow between the different storage locations. An incoming stimulus is first registered in sensory storage. Here there was some probability that the new information could be lost due to forgetting. The sensory stimulus could be sent to the short term store, or it could be sent directly to the long-term store (with some probability). The short and long-term stores had their own control processes and rules for operation.
+
+The short-term store had limited storage locations. It was imagined as buffer between the sensory register and long-term memory. The buffer could keep a representation "alive" for a short while. They used the example of a rehearsal loop. For example, if you are remembering a phone number, you can say it over and over in your head. This is called rehearsal, and it can help you "maintain" the phone number for a longer period of time. Representations in the short-term store could also be lost with some probability.
+
+The long-term store received representations from the sensory register or from short-term memory. This storage location was assumed to have a more robust storage system. It could store many representations for longer periods of time. The long-term store was still vulnerable to information loss. A memory representation could lose its strength over time.
+
+Finally, Atkinson and Shiffrin discussed rules for encoding and retrieval of memory traces. These rules determined how information was encoded into short or long-term memory, and how memory traces were retrieved from those locations.
+
+All together, the model had several parameters that could be used to describe performance in memory tasks. For example, failure to remember something could be explained in the model in several ways. The trace could be lost immediately from the sensory register, it could have made it to short term-memory, but never transferred to long-term memory. These would be considered encoding failures. The trace could have been succesfully transferred to long-term memory, but decayed over time and lost its strength. This would be like Ebbinghaus' "obliviscence", where a memory trace is assumed to disintegrate into nothing. Finally, the model had a role for retrieval to cause problems with remembering. For example, in the model it was possible for a strong memory trace to suffer interference during retrieval. Other memory traces were lying around too, and they would compete for retrieval. This could lead to incorrect remembering, which could appear like forgetting.
+
+
+Short and long-term memory systems
+marks a branching point in memory research. 
+
+When we consider the topic of memory, the concept of a system becomes a little bit more fuzzy. 
+
+
+- use subjective consensus
+  - have you ever remembered something from a long time ago?
+  - have you ever forgotten something from a short time ago?
+  Yes...We don't need research from cognitive psychology to tell us these basic facts about our own experience. It is also possible to measure both examples in the lab. People can remember information over long periods of time, and they can also forget information over short periods of time. These observations fit with a distinction between two kinds of memory systems. One that holds information for a long period of time, and another that is limited to holding information for short periods of time. However, a classica debate in cognition is whether or not multiple memory systems, one for each phenomena, are necessary for the explanation.
+  
+
+
+## Working Memory
   
 Information processing tradition  
 - Miller

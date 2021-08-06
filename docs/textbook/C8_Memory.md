@@ -11,7 +11,7 @@ editor_options:
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|       5526|27.6 minutes |
+|       8398|42 minutes   |
 
 ## Chapter Overview
 
@@ -81,131 +81,131 @@ To give you a better sense, here is a single list of nonsense syllables similar 
 <tbody>
   <tr>
    <td style="text-align:right;"> 1 </td>
-   <td style="text-align:left;"> ZES </td>
-   <td style="text-align:left;"> KAD </td>
-   <td style="text-align:left;"> DES </td>
-   <td style="text-align:left;"> TEB </td>
-   <td style="text-align:left;"> WEH </td>
-   <td style="text-align:left;"> XAQ </td>
-   <td style="text-align:left;"> SOQ </td>
-   <td style="text-align:left;"> QOQ </td>
-   <td style="text-align:left;"> ZAK </td>
-   <td style="text-align:left;"> TIJ </td>
-   <td style="text-align:left;"> XED </td>
-   <td style="text-align:left;"> KEM </td>
-   <td style="text-align:left;"> MUH </td>
+   <td style="text-align:left;"> BIP </td>
+   <td style="text-align:left;"> XEV </td>
+   <td style="text-align:left;"> DUV </td>
+   <td style="text-align:left;"> YUL </td>
+   <td style="text-align:left;"> BER </td>
+   <td style="text-align:left;"> YEY </td>
+   <td style="text-align:left;"> XOK </td>
+   <td style="text-align:left;"> WAH </td>
+   <td style="text-align:left;"> XEQ </td>
+   <td style="text-align:left;"> DEQ </td>
+   <td style="text-align:left;"> CAH </td>
+   <td style="text-align:left;"> VOK </td>
+   <td style="text-align:left;"> GIH </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 2 </td>
-   <td style="text-align:left;"> GOW </td>
-   <td style="text-align:left;"> YEX </td>
-   <td style="text-align:left;"> DOH </td>
-   <td style="text-align:left;"> GUK </td>
-   <td style="text-align:left;"> QIX </td>
-   <td style="text-align:left;"> SAJ </td>
-   <td style="text-align:left;"> DEM </td>
-   <td style="text-align:left;"> WEV </td>
-   <td style="text-align:left;"> RIY </td>
-   <td style="text-align:left;"> ZUR </td>
-   <td style="text-align:left;"> JIF </td>
-   <td style="text-align:left;"> GAH </td>
-   <td style="text-align:left;"> QIR </td>
+   <td style="text-align:left;"> HOX </td>
+   <td style="text-align:left;"> DEH </td>
+   <td style="text-align:left;"> HAZ </td>
+   <td style="text-align:left;"> WEL </td>
+   <td style="text-align:left;"> GOJ </td>
+   <td style="text-align:left;"> GIC </td>
+   <td style="text-align:left;"> SOG </td>
+   <td style="text-align:left;"> GUD </td>
+   <td style="text-align:left;"> GEC </td>
+   <td style="text-align:left;"> GER </td>
+   <td style="text-align:left;"> VIH </td>
+   <td style="text-align:left;"> WOH </td>
+   <td style="text-align:left;"> YIF </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 3 </td>
-   <td style="text-align:left;"> WUH </td>
-   <td style="text-align:left;"> POF </td>
-   <td style="text-align:left;"> FUZ </td>
-   <td style="text-align:left;"> CEB </td>
-   <td style="text-align:left;"> WUH </td>
-   <td style="text-align:left;"> ZEW </td>
-   <td style="text-align:left;"> KOD </td>
-   <td style="text-align:left;"> QAR </td>
-   <td style="text-align:left;"> LUJ </td>
-   <td style="text-align:left;"> XEG </td>
-   <td style="text-align:left;"> FOD </td>
-   <td style="text-align:left;"> ZAT </td>
-   <td style="text-align:left;"> JOH </td>
+   <td style="text-align:left;"> VEL </td>
+   <td style="text-align:left;"> VIT </td>
+   <td style="text-align:left;"> XIB </td>
+   <td style="text-align:left;"> ZOR </td>
+   <td style="text-align:left;"> ZIW </td>
+   <td style="text-align:left;"> VOK </td>
+   <td style="text-align:left;"> QOJ </td>
+   <td style="text-align:left;"> WIV </td>
+   <td style="text-align:left;"> SAR </td>
+   <td style="text-align:left;"> GUW </td>
+   <td style="text-align:left;"> CEZ </td>
+   <td style="text-align:left;"> HIZ </td>
+   <td style="text-align:left;"> HUL </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 4 </td>
-   <td style="text-align:left;"> JUC </td>
-   <td style="text-align:left;"> WUG </td>
-   <td style="text-align:left;"> WAK </td>
-   <td style="text-align:left;"> NON </td>
-   <td style="text-align:left;"> CID </td>
-   <td style="text-align:left;"> LUJ </td>
-   <td style="text-align:left;"> WUH </td>
-   <td style="text-align:left;"> NUZ </td>
-   <td style="text-align:left;"> HOM </td>
-   <td style="text-align:left;"> QAX </td>
-   <td style="text-align:left;"> TEQ </td>
-   <td style="text-align:left;"> DIK </td>
-   <td style="text-align:left;"> XIN </td>
+   <td style="text-align:left;"> ZOK </td>
+   <td style="text-align:left;"> FUW </td>
+   <td style="text-align:left;"> QEL </td>
+   <td style="text-align:left;"> VEP </td>
+   <td style="text-align:left;"> LUF </td>
+   <td style="text-align:left;"> QUC </td>
+   <td style="text-align:left;"> XEM </td>
+   <td style="text-align:left;"> BEB </td>
+   <td style="text-align:left;"> CUV </td>
+   <td style="text-align:left;"> CUC </td>
+   <td style="text-align:left;"> XEZ </td>
+   <td style="text-align:left;"> CUZ </td>
+   <td style="text-align:left;"> GIZ </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 5 </td>
-   <td style="text-align:left;"> SIK </td>
-   <td style="text-align:left;"> CIC </td>
-   <td style="text-align:left;"> MAQ </td>
-   <td style="text-align:left;"> RIV </td>
-   <td style="text-align:left;"> MEV </td>
-   <td style="text-align:left;"> DIJ </td>
-   <td style="text-align:left;"> YOP </td>
-   <td style="text-align:left;"> MOX </td>
-   <td style="text-align:left;"> CIL </td>
+   <td style="text-align:left;"> VIK </td>
+   <td style="text-align:left;"> GUG </td>
+   <td style="text-align:left;"> CUY </td>
+   <td style="text-align:left;"> XAW </td>
+   <td style="text-align:left;"> DIZ </td>
+   <td style="text-align:left;"> POV </td>
+   <td style="text-align:left;"> KIC </td>
    <td style="text-align:left;"> WUK </td>
-   <td style="text-align:left;"> YIF </td>
-   <td style="text-align:left;"> CUH </td>
-   <td style="text-align:left;"> MUP </td>
+   <td style="text-align:left;"> RUP </td>
+   <td style="text-align:left;"> XIH </td>
+   <td style="text-align:left;"> PEV </td>
+   <td style="text-align:left;"> LUQ </td>
+   <td style="text-align:left;"> ZES </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 6 </td>
-   <td style="text-align:left;"> ROV </td>
-   <td style="text-align:left;"> QET </td>
-   <td style="text-align:left;"> HIZ </td>
-   <td style="text-align:left;"> TOB </td>
-   <td style="text-align:left;"> JES </td>
-   <td style="text-align:left;"> FUY </td>
-   <td style="text-align:left;"> PAK </td>
-   <td style="text-align:left;"> DUR </td>
-   <td style="text-align:left;"> LUC </td>
-   <td style="text-align:left;"> KAJ </td>
-   <td style="text-align:left;"> NER </td>
-   <td style="text-align:left;"> COV </td>
-   <td style="text-align:left;"> YOV </td>
+   <td style="text-align:left;"> JUV </td>
+   <td style="text-align:left;"> XOR </td>
+   <td style="text-align:left;"> TAY </td>
+   <td style="text-align:left;"> KIK </td>
+   <td style="text-align:left;"> CIY </td>
+   <td style="text-align:left;"> SEB </td>
+   <td style="text-align:left;"> CER </td>
+   <td style="text-align:left;"> NOQ </td>
+   <td style="text-align:left;"> YIR </td>
+   <td style="text-align:left;"> HEJ </td>
+   <td style="text-align:left;"> KAQ </td>
+   <td style="text-align:left;"> XOP </td>
+   <td style="text-align:left;"> BUF </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 7 </td>
-   <td style="text-align:left;"> NOP </td>
-   <td style="text-align:left;"> CEY </td>
-   <td style="text-align:left;"> QOT </td>
-   <td style="text-align:left;"> KUZ </td>
-   <td style="text-align:left;"> JIS </td>
-   <td style="text-align:left;"> FEK </td>
-   <td style="text-align:left;"> HOX </td>
-   <td style="text-align:left;"> GEP </td>
-   <td style="text-align:left;"> QIY </td>
-   <td style="text-align:left;"> JAD </td>
-   <td style="text-align:left;"> POQ </td>
-   <td style="text-align:left;"> JAD </td>
-   <td style="text-align:left;"> FAQ </td>
+   <td style="text-align:left;"> PIF </td>
+   <td style="text-align:left;"> PUM </td>
+   <td style="text-align:left;"> FOW </td>
+   <td style="text-align:left;"> VEQ </td>
+   <td style="text-align:left;"> MIY </td>
+   <td style="text-align:left;"> BAW </td>
+   <td style="text-align:left;"> MOK </td>
+   <td style="text-align:left;"> ZAF </td>
+   <td style="text-align:left;"> NIC </td>
+   <td style="text-align:left;"> PEK </td>
+   <td style="text-align:left;"> JID </td>
+   <td style="text-align:left;"> JOP </td>
+   <td style="text-align:left;"> MEK </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 8 </td>
-   <td style="text-align:left;"> ZIR </td>
-   <td style="text-align:left;"> RUW </td>
-   <td style="text-align:left;"> CER </td>
-   <td style="text-align:left;"> DEJ </td>
-   <td style="text-align:left;"> HIW </td>
-   <td style="text-align:left;"> XON </td>
-   <td style="text-align:left;"> RAL </td>
-   <td style="text-align:left;"> POV </td>
-   <td style="text-align:left;"> ZUQ </td>
-   <td style="text-align:left;"> VUR </td>
-   <td style="text-align:left;"> TAY </td>
-   <td style="text-align:left;"> TIY </td>
-   <td style="text-align:left;"> KUB </td>
+   <td style="text-align:left;"> YEM </td>
+   <td style="text-align:left;"> PEK </td>
+   <td style="text-align:left;"> WUZ </td>
+   <td style="text-align:left;"> PEB </td>
+   <td style="text-align:left;"> HUD </td>
+   <td style="text-align:left;"> MIT </td>
+   <td style="text-align:left;"> SED </td>
+   <td style="text-align:left;"> KED </td>
+   <td style="text-align:left;"> TID </td>
+   <td style="text-align:left;"> HOV </td>
+   <td style="text-align:left;"> GIK </td>
+   <td style="text-align:left;"> VOZ </td>
+   <td style="text-align:left;"> BOZ </td>
   </tr>
 </tbody>
 </table>
@@ -232,7 +232,7 @@ If memory for a learned row was not perfect after a delay, then it would have to
 
 The blue line always shows the number of attempts needed during original learning. The black line shows the number of attempts needed during re-learning. The y-axis shows the number of attempts, and the x-axis shows the temporal delay between original learning and re-learning.
 
-<img src="C8_Memory_files/figure-epub3/unnamed-chunk-5-1.png" width="100%" />
+<img src="C8_Memory_files/figure-html/unnamed-chunk-5-1.png" width="100%" />
 
 What happened after a 20 minute delay? First, memory for a learned row was not perfect. Instead, about 16 re-learning attempts were needed to reach the once-time perfect criterion. However, even though a row could not be remembered perfectly after a 20 minute delay, the savings in re-learning showed that the original learning was "gone, but not completely forgotten". The savings in relearning was computed as the difference between original learning and relearning, or
 $30.77-16.26 = 14.51$. In other words, 14.5 practice attempts were saved, or not necessary, in getting back to the same level of performance. Re-learning the lists wasn't like riding a bike ^[an expression referring to skills that are supposedly learned once and not forgotten], but it wasn't like starting from scratch either.
@@ -403,13 +403,119 @@ I have titled this section "Multiple Memory Systems" to alert us to the fact tha
 
 I already alluded to one outlier perspective stemming from Bartlett's reconstructionist perspective on memory. An extreme reconstructionist could argue that memory systems do not encode, store, or retrieve memories because memories themselves are not real psychological objects. They instead result from a constructive process that can generate or simulate past experiences in a way that feels "real". In this case, memories, false-memories, dreams, and imagination are all created by the same construction process. The only difference is that people make different attributions about what those mental experiences refer to, sometimes attributing mental experiences to a real past experience, or other times attributing them to a dream or imagined experience. We will revisit this idea again, especially in the chapter on judgment and decision-making where attribution theory is commonly used.
 
-In the next section we are going to review a more mundane metaphor about memory, which I call the information processing metaphor of memory. This will connect with the previous chapter on information processing. This metaphor treats memory a little bit like a computer. Information comes into the central processing unit, and is saved into a memory storage device for later retrieval. The information processing view splits memory up into little processing modules, like short term memory and long-term memory. And, this tradition of theorizing has led to a "multiple-systems" view of memory, that involves many little modules of memory that do different memory tasks. As we go into this research, I would encourage you to remember that we are still talking about metaphors, and highly provisional explanations of memory. 
+In the next section we are going to review a more mundane metaphor about memory, which I call the information processing metaphor of memory. In later chapters, especially the chapter on computational modelling, we will examine a "single-system" tradition of theorizing in memory research. This tradition emphasizes the algorithms of memory processes over the taxonomy of memory compartments.
 
-In later chapters, especially the chapter on computational modelling, we will examine a "single-system" tradition of theorizing in memory research. This tradition emphasizes the algorithms of memory processes over the taxonomy of memory compartments.
-
-Finally, as we wade into these newer territories, keep in mind a few background questions. What is the evidence for the claim? What is the basis for the explanation? We will come across many new claims, and before accepting them, it is worth examining what evidence exists for the claim. This could involve inspecting the experimental design to see whether it is capable of producing a high standard of evidence, suitable for justifying the claim. We will come across new explanations too, and it will be worth scrutinizing those as well.
+Finally, as we wade into newer territories keep in mind a few background questions. What is the evidence for the claim? What is the basis for the explanation? We will come across new claims, and before accepting them it is worth examining what evidence exists for the claim. This could involve inspecting the experimental design to see whether it is capable of producing a high standard of evidence, suitable for justifying the claim. We will come across new explanations too, and it will be worth scrutinizing those as well.
 
 ## Memory as information processing
+
+The previous chapter on information processing identified cybernetics as a transitional domain between behaviorism and cognitivism. Concepts from Shannon's mathematical theory of communication were introduced, such as the concept of a communication channel between a sender and receiver; and, his formula for measuring "information" or uncertainty in a set of stimuli. We discussed how those concepts were applied to studies of reaction time performance. Throughout the late 1950s and 1960s, information processing concepts were applied to human memory. In terms of parallel developments, this time period coincided with the emergence of digital computers; Shannon's information theory was also relevant to computer technology. In psychology, metaphors from information theory and computer technology were borrowed as tentative explanations of memory processes. In the next sections we will look examples of both.
+
+First up is George Miller's "Magic number 7" paper [@millerMagicalNumberSeven1956]. This paper reviewed successful applications of information theory to problems in perceptual judgments, and an attempt to apply similar principles to memory. It focuses more on the information processing metaphor, and less on the computer metaphor. Major themes include capacity limitations in information processing, and roles for "mental coding" (Miller's chunking) to influence memory and get around capacity limitations.
+
+After Miller, we head into a discussion of memory models relying on computer metaphors, which appeared to motivate distinctions between short and long-term memory, and later models of working memory. This tradition of theorizing has developed into a "multiple-systems" view of memory, that involves many little modules of memory that do different memory tasks. As we go into this research, I would encourage you to remember that we are still talking about metaphors, and provisional explanations of memory. 
+
+### Miller's Magic Number 7
+
+[George Miller](https://en.wikipedia.org/wiki/George_Armitage_Miller) (1920-2012) was American psychologist, who is often associated with leading the transition from behaviorism to cognitivism. In 1956, he wrote an influential paper called, "The magical number seven, plus or minus two: Some limits on our capacity for processing information". This paper probably introduced many psychologists to concepts from information theory. I think the contribution of this paper is often highly compressed to ideas implied by the title. For example, you may have heard of this paper before, and perhaps were told that your short-term memory can hold about 7 things...plus or minus two. Indeed, after the Miller paper, many researchers have spent time invoking similar ideas, and attempting to measure the "capacity" of one kind of memory system or another. We will get to short-term memory in the section. In this section, the focus is not on how many things short-term memory may or may not be able to "hold". It is instead on Miller's attempt to use information theory to establish common principles between perceptual judgment and memory.
+
+#### Absolute Perceptual Judgment
+
+Miller began by stating, "My problem is that I have been persecuted by an integer". He was following the positivist tradition in science and attempting to discover natural laws in psychology. It was an exciting time because Shannon's information theory was being applied to basic tasks in psychology, and Miller was noticing a regular pattern in the data. The metaphor of the day was that people were like a capacity-limited communication channel. Following the metaphor, people would be limited in the amount of information they could process, where information is defined in terms of bits (see previous chapter for a reminder). Miller was "persecuted" by an integer because he saw what appeared to be a lawful relationship across a variety of perceptual judgment tasks. More or less, people appeared to process information in a limited-capacity way, and the capacity limitation seemed pretty consistent, it involved close to the same number of bits.
+
+If we converted Miller's title to bits it wouldn't be as catchy as, "7 plus or minus two". For example, 7 items is 2.8 bits, 9 items is 3.17 bits, and 5 items is 2.32 bits. Nevertheless, in the first part of his paper, he reviewed evidence from the literature on absolute perceptual judgment showing that people had similar "capacity-limitations" across tasks. 
+
+An absolute perceptual judgment task starts out simple, but gets more difficult as the number of alternatives increases. In this way, it is a little bit like the choice-reaction time procedure, and the observation that choice-reaction increases as the set-size (number of alternatives) increases. The basic task involves un-speeded stimulus identification. On each trial you are shown one stimulus from a set, and then asked to identify it. Miller's first example was absolute judgments of pitch, so let's use that.
+
+Have you ever heard of [absolute pitch](https://en.wikipedia.org/wiki/Absolute_pitch)? Some people are able to hear a tone and immediately identify the name of the note on an instrument. The ability is pretty rare, and most people are not able to recognize the exact pitch of a tone. The piano represents the difficulty an absolute perceptual judgment task for pitch quite well. A full-size piano has 88 keys that produce individual sounds by hitting strings. The sounds range in pitch going up by one semi-tone for each note. I took piano lessons as a kid, and part of the lessons involved an absolute pitch judgment task (I didn't know it at the time). Here is what happened.
+
+I turned away from the piano and closed my eyes. My piano teacher then played a note on the piano. I had to guess what the note was by naming it. Piano notes have names like, A, B, C, D, E, F, G. It turns out I don't have absolute pitch. And, I wasn't very good at hearing the note and identifying it's name. 
+
+However, it is possible to make the task easier by reducing the number of alternatives. For example, identifying any note on the piano is hard when there are 88 possibilities. But, even without absolute pitch, it is easy to tell two notes apart from each other. For example, people with normal hearing can tell apart a really high pitched note from a really low pitched note. In this way, if we made an absolute pitch identification task with only two alternatives (low note versus high note), people would hardly make any mistakes at identification. They would hear one note a time, and easily identify the "low" note from the "high" note. 
+
+Let's imagine people would have 100% accuracy on this very simple pitch judgment task with only two options. What do you think would happen to stimulus identification accuracy if the number of options increased? For example, what happens if the task has three alternatives, or four, or five, or more? If you are like me, and you do not have absolute pitch, then the typical outcome is that the task gets harder, and at some point you start to make mistakes. In general, for some range of options your accuracy at identifying individual stimuli from the set will be near perfect. However, as the number of options increases, you will start making mistakes. 
+
+#### Pollack's pitch judgment results
+
+Miller cited work by Pollack[@pollackInformationElementaryAuditory1952a], who had applied information theory measurements to absolute pitch judgment. Pollack ran an experiment very similar to the thought-experiment described above. He gave people a tone judgment task, and varied the number of tones in the set. He had sets of 2, 3, 4, 5, 6, 7, 8, 10 and 14 tones. Subjects were given tones from one set. On each trial they heard a tone, then they had to identify with a number, (e.g., "this is tone number 7"). This general task is also called the "method of absolute judgment" in [psychophysics](https://en.wikipedia.org/wiki/Psychophysics). 
+
+::: {.floatright50 data-latex=""}
+
+
+<img src="imgs/Pollack_tone.png" width="100%" />
+
+:::
+
+
+The data from Pollack's task is shown on the right. This figure shows the data in a conventional way, plotting accuracy against set-size. The three dots in green show examples of perfect performance in the task. People are able to absolutely identify a tone with perfect accuracy when there were 2, 3, or 4 tones in the set (this is like a toy piano with 2, 3, or 4 total keys). However, the dots in red show what happens as the number of tones increases past 5. Accuracy gets worse and worse. The percentage of correct responses goes down and down. The experiment only went up to set-size 14, and the rest of line is a statistical estimate of what would happen to accuracy if the set-size was increased further.
+
+#### Translation to Channel capacity
+
+Miller was reviewing work by Pollack and others who had the insight to interpret their findings from the point of view of information theory. This involved applying Shannon's mathematical formulas to the data and re-plotting it. Instead of plotting how accuracy changed as set-size increased. It was possible to plot the very same data in terms of the amount of information in the stimulus set, and the amount of information transmitted across a channel. Remember, we can convert the number of unique elements in set into the number of bits necessary to represent all the unique elements. 2 elements require bit, four elements require 2 bits, 8 elements require 3 bits, and so on. 
+
+::: {.floatright50 data-latex=""}
+
+
+<img src="imgs/Miller_tone.png" width="100%" />
+
+:::
+
+When the same data from the task above are replotted using information theory, it looks like the figure on the right. Notice, the first three dots fall exactly on the line, this is the same as perfect performance for set-sizes 2, 3, and 4. However, set-size is now called "input information" and expressed in bits (2 = 1 bit, 3 = 1.58 bits, 4 = 2 bits). The y-axis converts accuracy into a measure of bits called "transmitted information". Although the data is exactly the same as before, the metaphor is different. Looking at the graph in terms of information theory, it looks like performance hits a plateau. As the amount of information in the input (e.g., set-size) increases, the amount of transmitted inforamtion levels off. The set-size can be increased to any number of options, but it seems that people are hitting an upper bound of around 2.5 bits in this task. This upper bound is called the channel capacity in information theory.
+
+#### Generalization across perceptual tasks
+
+Miller's paper reviewed many absolute perceptual judgments besides tone judgments. They were all basically the same except the type of stimulus was changed. For example, instead of pitch there were similar experiments using absolute judgments of loudness. Other examples were absolute judgments of saltiness, or points on a line. All of the tasks involved splitting the stimulus dimensions into sets of different sizes (like pianos with different numbers of keys), and asking people identify specific items from a set. 
+
+Miller described how the data from all of the tasks could be plotted using information theory concepts. And, he noted similar channel capacities across all of different perceptual judgments. This is where the title, "7 plus or minus two" comes from.  Seven items is the same as 2.8 bits. The channel capacity for identifying tones was around 2.5 bits, or about 5 items. Some of the other channel capacities were a little lower or higher. The fact that the channel capacities were all very similar, even though the stimuli were all very different suggested law-like behavior. It seemed promising that the descriptive language of information theory could be used to state laws of information processing capacity in perceptual judgments. Miller had hoped the apparent principles could extend even further, past perception, to the domain of immediate memory.
+
+#### Immediate memory span
+
+Miller had noticed a correspondence between limitations in absolute judgment tasks and limitations in tasks measuring immediate memory span. Immediate memory span is how many items you can remember over a short period of time. The correspondence was the number 7. Absolute perceptual judgments seemed to be limited by set-sizes of around 7. And, it was already well-known that people had short immediate memory spans, with spans also around 7 items.
+
+How is immediate memory span can measured? One method is to provide a series of items, and then have a subject repeat them back. The series starts with a small number of items. And the number of items is increased until the subject fails to repeat the series back perfectly. Immediate memory span is the number of items in the list that you can recite back without making mistakes. The number 7 is just a rough description of typical findings from immediate memory span research. People can usually recite back lists of 7 things without making errors. However, people start making errors when the list gets longer and longer. For example, a phone number with seven digits isn't too hard to remember long enough to write down or write into your contact info. Longer sequences are typically harder to remember, especially when extended practice is not allowed (like in the Ebbinghaus procedure).
+
+Miller thought the spans of roughly 7 in absolute perceptual judgment and immediate memory could be related, possibly pointing to a common process limiting both perception and memory. However, the whole point of his paper was to raise the possibility as an idea, and then provide evidence that it wasn't true. He concluded that any similarities were just an annoying coincidence. Miller arrived at the conclusion by distinguishing between bits of information, and **chunks** of information. He suggested that perceptual decision is limited by bits, and that immediate memory was limited by chunks. So, let's look at chunks and bits.
+
+#### Chunks vs bits
+
+Miller describes an immediate memory experiment by Hayes [] to make his point. That experiment measured immediate memory spans with different kinds of stimuli. These included binary digits, decimal digits, letters, letters & digits, and items from a pool of 1000 words.
+
+For example, I could give you a series of 0s and 1s (binary digits), and see how many you can remember in a row. Try it out, read this series one time from beginning to end. Then, try to write down the series from beginning to end without looking.
+
+> 0110100010100101
+
+If you count how many you got correct from left to right, this is another way to measure immediate memory span. Instead of binary digits, the list could be decimal digits:
+
+> 4986754322345112
+
+Or, letters, letters and digits, and so on. 
+
+Miller again used information theory, but this time he distinguished between the information in a stimulus and the information across a list of stimuli. For example, a single binary digit can be represented by a single bit. A list of 7 binary digits then required 7 bits. 
+
+A decimal number is a different kind of stimulus, and requires more bits to represent a single stimulus. For example, a single decimal could any of the 10 symbols between 0 and 9 (0,1,2,3,4,5,6,7,8,9). According to information theory, it takes 3.32 bits to represent a equi-probably choice between 10 alternatives. Therefore, a list of 7 decimal digits would require 3.32 bits * 7 =  23.24 bits.
+
+The same calculations were made for the other stimulus sets. There are 26 letters, requiring 4.7 bits per letter, and 32.9 bits for a list of 7 letters. There are 36 total symbols combining letters and digits, requiring 5.16 bits per symbol, and 36 bits for a list of 7. If 1000 words are taken as 1000 unique symbols, then 9.96 bits are required to represent a single word. A list of seven words would require 69.7 bits.
+
+Here is the first take-home message of Miller's information theory analysis of the different stimulus sets: **some stimuli carry more information per item than other stimuli**. For example, binary digits carry less information than decimal digits, because binary digits have few possible symbols than decimal digits. Decimal digits carry less information than letters. Letters carry less information words. By information theory definition, stimuli with more possible symbols carry more information than stimuli with fewer possible symbols.
+
+So, what happened in Hayes immediate memory span experiment? Remember, he measured immediate memory span for lists from the different stimulus sets I just described. Does immediate memory span depend on the amount of information in the stimuli? The answer is, not really, no, not so much.
+
+::: {.floatright50 data-latex=""}
+
+
+<img src="imgs/Miller_im_span.jpg" width="100%" />
+
+:::
+
+The immediate memory span data is shown to the right. The y-axis shows the average immediate memory span, and the x-axis is the amount of bits needed for each kind symbol. The take-home message that immediate memory span was about 7 items for all of the stimulus sets. It was a little bit higher for binary digits, compared to words, but nowhere near as high as it should be. If people could handle 7 words just just fine, then they should have an immediate memory span closer to 40 for binary digits (which required fewer bits than words). Instead, the spans were pretty similar across stimuli.
+
+Miller suggested that immediate memory escapes capacity limitations imposed by information at the level of stimulus sets through a recoding process. He called this process chunking. 
+
+At the level of stimulus information, seven bits would be required to code seven binary digits. However, as discussed earlier 69.7 bits would be required to code seven words (from a set of 1000 words). It seemed that people were totally capable of remembering 7 words, even though the amount of stimulus information required was way higher. How could this be? Miller proposed that immediate memory was recoding the stimulus into chunks, or individual units. This allowed immediate memory to treat any kind of stimulus as a single chunk. As a result, the capacity of immediate memory was not limited by the amount of information in each stimulus (e.g., binary symbol vs word symbol), it was limited by the number of chunks.
+
+### Short and long term memory
+
+### Working Memory
   
 Information processing tradition  
 - Miller
