@@ -1,136 +1,265 @@
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
 
 
-# Memory 
+
+# Memory
 
 
-\begin{tabular}{r|l}
-\hline
-Word Count & Reading Time\\
-\hline
-5596 & 28 minutes\\
-\hline
-\end{tabular}
+| Word Count|Reading Time |
+|----------:|:------------|
+|       5534|27.7 minutes |
 
 ## Chapter Overview
 
-This chapter provides a compressed overview of memory research in cognition. Like other topics in this book, there has been a great deal of memory research that is too large to fit into one chapter. My personal bias is that memory processes are very important for many cognitive abilities, and further discussion of phenomena and theory from the memory domain will occur in later chapters. This overview will cover a couple early memory researchers, the emergence of different research traditions in the study of memory, and discovery of important memory processing principles.
+This chapter overviews some memory research in cognition, covering a few early memory researchers, the emergence of different research traditions in the study of memory, and the information-processing approach to memory. The next chapter is also about memory, which elaborates on further memory principles along implicit influences in memory.
 
 ## Some questions about memory
 
-What is it like for you to remember something from your past? How many events from your life experience can you remember? Why can you remember something from years ago, but forget a phone number or other new information from seconds ago? How do you preserve your experiences so that they can be remembered later on? Why is it sometimes hard to remember something, but later the answer pops in your head? How can you improve your memory? How can you forget things you don't want to think about? What other animals besides humans have memories? How are memories encoded, stored, and retrieved in the brain? How do people use their environment to help them remember things?
+What is it like for you to remember something from your past? How many events from your experience can you remember? Why can you remember something from years ago, but forget new information from seconds ago? How do you preserve your experiences so that they can be remembered later on? Why is it sometimes hard to remember something, but later the answer pops in your head? How can you improve your memory? How can you forget things you don't want to think about? What other animals besides humans have memories? How are memories encoded, stored, and retrieved in the brain? How do people use their environment to help them remember things?
 
-I could keep this list of quesitons going, and I'm sure you could too. I find all of these questions about memory very interesting, and even though memory research hasn't solved all of the mysteries, research on memory systems has yielded some answers about these questions and more. 
+I could keep this list of questions going and I'm sure you could too. I find all of these questions about memory very interesting, and even though memory research hasn't solved all of the mysteries, research on memory systems has yielded some answers about these questions and more.
 
-Memory research has been central in cognitive psychology because it refers to a mental process intervening between a stimulus and response. Not surprisingly, memory processes were neglected by Behaviorists for the same reason, who instead reframed memory in terms of learning processes. Even though it seems sensible that learning and memory should go together, the study of associative learning and memory have developed separate traditions in the literature. Despite these differences, memory research occurred before, during, and after the period of behaviorism in American psychology. For example, psychologists in other countries were interested in memory and made numerous contributions to understanding basic aspects of memory. 
+Memory research has been central in cognitive psychology and often refers to mental processing intervening between a stimulus and response. The invocation of mental processing led Behaviorists to neglect memory and re-frame it in terms of learning processes. However, psychologists in other countries were still interested and made numerous contributions to memory research. As a result, memory research occurred before, during, and after the period of behaviorism in American psychology.
 
 ## Early Memory Research
 
-Let's talk about early memory research in two pairs. The first pair is Hermann Ebbinghaus from Germany, and Sir Frederic Bartlett from Britain. Ebbinghaus is famous for his research on forgetting, and Bartlett is known for his book on 'Remembering'. Both of them studied tasks that required repeated remembering, and both made inferences from task performance about the nature of memory processes.
+Let's talk about early memory research in pairs. The first pair is Hermann Ebbinghaus from Germany, and Sir Frederic Bartlett from Britain. Ebbinghaus is famous for his research on forgetting, and Bartlett is known for his book on 'Remembering'. Both of them studied tasks that required repeated remembering, and both made inferences from task performance about memory processes.
 
-The second pair is Bluma Zeigarnik from Lithuania, and Hedwig von Restorff from Germany, two female psychologists both of whom discovered memory phenomena during the behaviorist period, and both of whose findings were subsequently named after them: the Zeigarnick effect, and the von Restorff effect.
+The second pair is Bluma Zeigarnik from Lithuania, and Hedwig von Restorff from Germany; two female psychologists who discovered memory phenomena during the behaviorist period, and whose findings were subsequently named after them: the Zeigarnik effect, and the von Restorff effect.
 
 ### Ebbinghaus's Forgetting
 
-
-[Hermann Ebbinghaus](https://en.wikipedia.org/wiki/Hermann_Ebbinghaus) (1850 – 1909) is credited with making the first experimental investigations of human memory. His methods pre-date and resemble many aspects of modern memory research. Working in Berlin, in 1885, he published "Über das Gedächtnis. Untersuchungen zur experimentellen Psychologie", which was later translated to English as "[Memory: A Contribution to Experimental Psychology](https://archive.org/details/memorycontributi00ebbiuoft)"[@ebbinghausUberGedachtnisUntersuchungen1885].
+[Hermann Ebbinghaus](https://en.wikipedia.org/wiki/Hermann_Ebbinghaus) (1850 -- 1909) is credited with the first experimental investigations of human memory. His methods still resemble many aspects of modern memory research. Working in Berlin, in 1885, he published "Über das Gedächtnis. Untersuchungen zur experimentellen Psychologie", which was later translated to English as "[Memory: A Contribution to Experimental Psychology](https://archive.org/details/memorycontributi00ebbiuoft)"[@ebbinghausUberGedachtnisUntersuchungen1885].
 
 #### What did Ebbinghaus do?
 
-Remember the chapter on Associationism and the philosophers who explained the mind by associations between ideas? Ebbinghaus was kind of experimental philosopher who used experiments to put the philosophical principles of association formation to the test. He was the first to systematically measure the rates with which newly learned information is acquired and forgotten.
+Remember the chapter on associationism and the philosophers who explained the mind by associations between ideas? Ebbinghaus could be considered an experimental philosopher who tested philosophical principles of association with experiments. He was the first to systematically measure rates of learning and forgetting.
 
 #### Methods
 
-He devised a serial learning task to measure recitation of a list of items from memory. He used artificial stimuli to populate his lists so that pre-existing familiarity with the items would not interfere with the learning process. His stimuli were nonsense syllables ^[sometimes still used today] with a CVC structure (consonant-vowel-consonant), and were made up from randomly combining letters (see table below). Ebbinghaus noted making over 2300 syllables. He was also a remarkable subject and conducted all of his experiments on himself. 
+Ebbinghaus devised a serial learning task to measure how long it took to recite of a list of items from memory. He used artificial stimuli so that pre-existing familiarity with the items would not interfere with the learning process. His stimuli were nonsense syllables [^c8_memory-1] with a CVC structure (consonant-vowel-consonant, see table below). Ebbinghaus noted making over 2300 syllables. He was also a remarkable subject and conducted all of his experiments on himself.
 
-In 2015, a pair of researchers from Amsterdam attempted to replicate Ebbinghaus' procedure [@murreReplicationAnalysisEbbinghaus2015]. They followed the original procedure closely and found similar results to Ebbinghaus. So, let's look at the modern replication to get a better sense of Ebbinghaus' task and findings.
+[^c8_memory-1]: sometimes still used today
 
-A first point to mention, is that the task is very laborious, because it involves a single person learning many long lists of nonsense syllables. If you have ever suffered to rote memorize something, the Ebbinghaus procedure is like your worst nightmare. To give you a better sense, I created a single list similar to one used in the replication. Each nonsense syllable was created by randomly choosing triplets of consonants, vowels, and consonants ^[Note, these nonsense syllables are generated by a script in the programming language R, which is also used to write this whole book. As a result, the letters that appear in the table below will change over time, as I re-run the script to make other changes to the book. I removed nonsense syllables that are legal scrabble words in Enghlish. Nevertheless, it is possible that there are other recognizable words, the appearance of which is not intended, and is a side effect of using a random process to choose the letters for each syllable]. Ebbinghaus, and one of the authors from the replication, learned to recite whole lists, just like this, one row at a time, perfectly from memory. 
+In 2015, another pair of researchers from Amsterdam attempted to replicate Ebbinghaus' procedure and results [@murreReplicationAnalysisEbbinghaus2015]. They followed the original procedure closely and found similar results to Ebbinghaus. I'll use the replication to describe Ebbinghaus' task and findings. A first point to mention is that the task is very laborious. It involves a single person learning many long lists of nonsense syllables. If you have ever suffered to memorize something, the Ebbinghaus procedure could be your worst nightmare.
 
-\begin{table}
-\centering\begingroup\fontsize{9}{11}\selectfont
+To give you a better sense, here is a single list of nonsense syllables similar to the ones used by Ebbinghaus, and in the replication study. Each nonsense syllable was created by randomly choosing triplets of consonants, vowels, and consonants [^c8_memory-2]. Ebbinghaus, and one of the authors from the replication, learned to recite whole lists, just like this, one row at a time, perfectly from memory.
 
-\begin{tabular}{r|l|l|l|l|l|l|l|l|l|l|l|l|l}
-\hline
- & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13\\
-\hline
-1 & GOG & NUG & QEJ & GIR & SAN & BAQ & GIK & LUZ & KEB & QUD & GUP & HIX & CEM\\
-\hline
-2 & JIL & QUK & COK & VOZ & YIR & PUY & NUW & DAZ & GAX & YOC & FUZ & GUZ & XOV\\
-\hline
-3 & JUF & GEH & ROR & SUL & QIB & FEB & KUN & VOL & HIX & NOZ & XIJ & DOF & GOZ\\
-\hline
-4 & DOX & YIB & NAV & PAJ & GAZ & DIR & YOL & JAV & QUB & FAQ & KOC & WIK & SOG\\
-\hline
-5 & VUT & XEH & TUS & ZIC & KUW & BIY & RIC & YEQ & SAS & JOQ & QOV & MOQ & YIV\\
-\hline
-6 & FUV & YUG & LIY & XUW & SIF & NEQ & SEV & MIP & KEW & XAK & CES & GOM & DED\\
-\hline
-7 & FUV & LIQ & ZEV & MER & HEV & HOL & QOM & DAF & JUC & QUH & WIK & VAJ & SEF\\
-\hline
-8 & VIR & SUD & TUR & DOY & SOK & XIB & KAV & ZOQ & BIP & YOG & SAZ & QAZ & POK\\
-\hline
-\end{tabular}
-\endgroup{}
-\end{table}
+[^c8_memory-2]: Note, these nonsense syllables are generated by a script
+    in the programming language R, which is also used to write this
+    whole book. As a result, the letters that appear in the table below
+    will change over time, as I re-run the script to make other changes
+    to the book. I removed nonsense syllables that are legal scrabble
+    words in English. Nevertheless, it is possible that there are other
+    recognizable words, the appearance of which is not intended, and is
+    a side effect of using a random process to choose the letters for
+    each syllable
 
-In the first phase, rows of 8 nonsense syllables were learned to a criterion called "one-time perfect". One-time perfect meant to recite a whole row in order by memory, just one time. To get to "one-time perfect", the syllables were practiced by reading a row out loud in order. Practice attempts were repeated as many times as necessary. After one perfect recitation, the next row was learned and so on. There was a rigorous learning schedule spread over many days so that 70 lists could be learned.
+<table class="table" style="font-size: 9px; margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:right;">  </th>
+   <th style="text-align:left;"> 1 </th>
+   <th style="text-align:left;"> 2 </th>
+   <th style="text-align:left;"> 3 </th>
+   <th style="text-align:left;"> 4 </th>
+   <th style="text-align:left;"> 5 </th>
+   <th style="text-align:left;"> 6 </th>
+   <th style="text-align:left;"> 7 </th>
+   <th style="text-align:left;"> 8 </th>
+   <th style="text-align:left;"> 9 </th>
+   <th style="text-align:left;"> 10 </th>
+   <th style="text-align:left;"> 11 </th>
+   <th style="text-align:left;"> 12 </th>
+   <th style="text-align:left;"> 13 </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:left;"> BIP </td>
+   <td style="text-align:left;"> XEV </td>
+   <td style="text-align:left;"> DUV </td>
+   <td style="text-align:left;"> YUL </td>
+   <td style="text-align:left;"> BER </td>
+   <td style="text-align:left;"> YEY </td>
+   <td style="text-align:left;"> XOK </td>
+   <td style="text-align:left;"> WAH </td>
+   <td style="text-align:left;"> XEQ </td>
+   <td style="text-align:left;"> DEQ </td>
+   <td style="text-align:left;"> CAH </td>
+   <td style="text-align:left;"> VOK </td>
+   <td style="text-align:left;"> GIH </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:left;"> HOX </td>
+   <td style="text-align:left;"> DEH </td>
+   <td style="text-align:left;"> HAZ </td>
+   <td style="text-align:left;"> WEL </td>
+   <td style="text-align:left;"> GOJ </td>
+   <td style="text-align:left;"> GIC </td>
+   <td style="text-align:left;"> SOG </td>
+   <td style="text-align:left;"> GUD </td>
+   <td style="text-align:left;"> GEC </td>
+   <td style="text-align:left;"> GER </td>
+   <td style="text-align:left;"> VIH </td>
+   <td style="text-align:left;"> WOH </td>
+   <td style="text-align:left;"> YIF </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:left;"> VEL </td>
+   <td style="text-align:left;"> VIT </td>
+   <td style="text-align:left;"> XIB </td>
+   <td style="text-align:left;"> ZOR </td>
+   <td style="text-align:left;"> ZIW </td>
+   <td style="text-align:left;"> VOK </td>
+   <td style="text-align:left;"> QOJ </td>
+   <td style="text-align:left;"> WIV </td>
+   <td style="text-align:left;"> SAR </td>
+   <td style="text-align:left;"> GUW </td>
+   <td style="text-align:left;"> CEZ </td>
+   <td style="text-align:left;"> HIZ </td>
+   <td style="text-align:left;"> HUL </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:left;"> ZOK </td>
+   <td style="text-align:left;"> FUW </td>
+   <td style="text-align:left;"> QEL </td>
+   <td style="text-align:left;"> VEP </td>
+   <td style="text-align:left;"> LUF </td>
+   <td style="text-align:left;"> QUC </td>
+   <td style="text-align:left;"> XEM </td>
+   <td style="text-align:left;"> BEB </td>
+   <td style="text-align:left;"> CUV </td>
+   <td style="text-align:left;"> CUC </td>
+   <td style="text-align:left;"> XEZ </td>
+   <td style="text-align:left;"> CUZ </td>
+   <td style="text-align:left;"> GIZ </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:left;"> VIK </td>
+   <td style="text-align:left;"> GUG </td>
+   <td style="text-align:left;"> CUY </td>
+   <td style="text-align:left;"> XAW </td>
+   <td style="text-align:left;"> DIZ </td>
+   <td style="text-align:left;"> POV </td>
+   <td style="text-align:left;"> KIC </td>
+   <td style="text-align:left;"> WUK </td>
+   <td style="text-align:left;"> RUP </td>
+   <td style="text-align:left;"> XIH </td>
+   <td style="text-align:left;"> PEV </td>
+   <td style="text-align:left;"> LUQ </td>
+   <td style="text-align:left;"> ZES </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:left;"> JUV </td>
+   <td style="text-align:left;"> XOR </td>
+   <td style="text-align:left;"> TAY </td>
+   <td style="text-align:left;"> KIK </td>
+   <td style="text-align:left;"> CIY </td>
+   <td style="text-align:left;"> SEB </td>
+   <td style="text-align:left;"> CER </td>
+   <td style="text-align:left;"> NOQ </td>
+   <td style="text-align:left;"> YIR </td>
+   <td style="text-align:left;"> HEJ </td>
+   <td style="text-align:left;"> KAQ </td>
+   <td style="text-align:left;"> XOP </td>
+   <td style="text-align:left;"> BUF </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:left;"> PIF </td>
+   <td style="text-align:left;"> PUM </td>
+   <td style="text-align:left;"> FOW </td>
+   <td style="text-align:left;"> VEQ </td>
+   <td style="text-align:left;"> MIY </td>
+   <td style="text-align:left;"> BAW </td>
+   <td style="text-align:left;"> MOK </td>
+   <td style="text-align:left;"> ZAF </td>
+   <td style="text-align:left;"> NIC </td>
+   <td style="text-align:left;"> PEK </td>
+   <td style="text-align:left;"> JID </td>
+   <td style="text-align:left;"> JOP </td>
+   <td style="text-align:left;"> MEK </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:left;"> YEM </td>
+   <td style="text-align:left;"> PEK </td>
+   <td style="text-align:left;"> WUZ </td>
+   <td style="text-align:left;"> PEB </td>
+   <td style="text-align:left;"> HUD </td>
+   <td style="text-align:left;"> MIT </td>
+   <td style="text-align:left;"> SED </td>
+   <td style="text-align:left;"> KED </td>
+   <td style="text-align:left;"> TID </td>
+   <td style="text-align:left;"> HOV </td>
+   <td style="text-align:left;"> GIK </td>
+   <td style="text-align:left;"> VOZ </td>
+   <td style="text-align:left;"> BOZ </td>
+  </tr>
+</tbody>
+</table>
 
-In the second phase, each row was re-learned after a delay. The delays were 20 minutes, 1 hour, 9 hours, or 1, 2, 6, or 31 days. After each delay period, lists were shown again and relearned. The number of relearning attempts needed to recite a rows perfectly was counted.
+In the first phase, lists containing 8 rows of 13 nonsense syllables were learned to a criterion called "one-time perfect". One-time perfect meant to recite a whole row, in order from memory, one time perfectly. To get to "one-time perfect", the syllables were practiced by reading a row out loud in order, one at a time. Practice attempts were repeated as many times as necessary. After one perfect recitation, the next row was learned and so on. There was a rigorous learning schedule spread over many days so that 70 lists could be learned. In the first phase, a primary measure of interest was the number of practice attempts used before the first "one-time perfect" recitation.
+
+In the second phase, each row was re-learned after a delay. The delays were 20 minutes, 1 hour, 9 hours, or 1, 2, 6, or 31 days. After each delay period, rows were shown again and relearned. The number of relearning attempts to get to another "one-time perfect" recitation was also measured.
 
 #### Original Learning
 
-Ebbinghaus considered the feat of reciting a single row of nonsense syllables by memory an example of learning new associations. Something like associations was the connecting glue between the syllables. Before the associations were established he was unable to recite all of the syllables from memory. However, practicing was assumed to establish associative connections between syllables. And, after enough practice attempts it was totally possible to recite a row of 13 nonsense syllables one time from memory. So, some kind of new learning must have happened to enable the recitation.
+Ebbinghaus considered the feat of reciting a single row of nonsense syllables by memory an example of learning new associations. Before associations were established he was unable to recite all of the syllables from memory. However, practicing was assumed to establish associative connections between syllables. After enough practice attempts it became possible to recite a row of 13 nonsense syllables, at least one time from memory. Some kind of new learning must have happened to enable the recitation.
 
 ::: {.floatright50 data-latex=""}
-
-
-
-\includegraphics[width=1\linewidth]{imgs/Ebbinghaus_OL} 
-
+<img src="imgs/Ebbinghaus_OL.png" width="100%" />
 :::
 
-The first phase of the experiment measured how many practice attempts were needed to learn a row of 13 nonsense syllables. The results from the 2015 replication [reported in their table 1] are shown in the figure. The blue line shows around 30-32 practice attempts were needed to memorize a single row in the first phase. Each dot represents the number of practice attempts for sets of rows that would be paired with particular delays to test forgetting and relearning.
+The first phase of the experiment measured the number of practice attempts needed to learn a row of 13 nonsense syllables. The results from the 2015 replication ^[reported in their table 1] are shown in the figure. The blue line shows that an average of 30-32 practice attempts were needed to memorize each row. ^[Each dot represents practice attempts for sets of rows that would be paired with delays to test forgetting and relearning]
 
 #### Savings in Relearning
 
-Ebbinghaus was most interested in what would happen in the second phase. For example, what would happen to his ability to recite a row of nonsense syllables if he waited 20 minutes, 1 hour, 9 hours, or up to 1, 2, 6, and 31 days before trying to recite the list over again? He decided to measuring savings in re-learning to find out.
+Ebbinghaus was more interested in results from the second phase. For example, what would happen to his ability to recite a row of nonsense syllables if he waited 20 minutes, 1 hour, 9 hours, or up to 1, 2, 6, and 31 days before trying to recite the list over again? He measured savings in re-learning to find out.
 
-If memory for a learned row was not perfect after a delay, then it would not be possible to recite a row perfectly from memory. The row would have to be relearned. The question was how many relearning attempts would be needed to reach the same criterion as before...one-time perfect. If it took 30 practice attempts in the original learning phase, would there be any savings in relearning? That is, would the number of relearning attempts be less than 30? The data from the original and re-learning phases are shown below.
+If memory for a learned row was not perfect after a delay, then it would have to be relearned. The question was how many relearning attempts would be needed to reach the same criterion as before...one-time perfect. If it took 30 practice attempts in the original learning phase, would there be any savings in relearning? That is, would the number of relearning attempts be less than 30? The data from the original and re-learning phases are shown below.
 
-The blue line always shows the number of attempts needed during original learning. The black line shows the number of attempts needed during re-learning. The y-axis shows the number of attempts, and the x-axis shows the amount of delay between original learning and re-learning.
+The blue line always shows the number of attempts needed during original learning. The black line shows the number of attempts needed during re-learning. The y-axis shows the number of attempts, and the x-axis shows the temporal delay between original learning and re-learning.
 
+<img src="C8_Memory_files/figure-html/unnamed-chunk-5-1.png" width="100%" />
 
-\includegraphics[width=1\linewidth]{C8_Memory_files/figure-latex/unnamed-chunk-5-1} 
+What happened after a 20 minute delay? First, memory for a learned row was not perfect. Instead, about 16 re-learning attempts were needed to reach the once-time perfect criterion. However, even though a row could not be remembered perfectly after a 20 minute delay, the savings in re-learning showed that the original learning was "gone, but not completely forgotten". The savings in relearning was computed as the difference between original learning and relearning, or
+$30.77-16.26 = 14.51$. In other words, 14.5 practice attempts were saved, or not necessary, in getting back to the same level of performance. Re-learning the lists wasn't like riding a bike ^[an expression referring to skills that are supposedly learned once and not forgotten], but it wasn't like starting from scratch either.
 
-What happened after a 20 minute delay? First, memory for a row was not perfect. Instead, around 16 re-learning attempts were needed to reach the once-time perfect criterion. However, even though a row could not be remembered perfectly after a 20 minute delay, the savings in re-learning showed that the original learning was "gone but not completely forgotten". The savings in relearning was computed as the difference between original learning and relearning, or $30.77-16.26 = 14.51$. In other words, 14.5 practice attempts were saved, or not necessary, in order to get back to the same level of performance. 
+What happened as the delays got longer and longer, up to 31 days? There are two ways to look at this. First, the larger plot on the left shows the number of relearning attempts go up from 16 to 28 as the delay increases from 20 minutes to 31 days. This shows a decrease in savings. As the delay increased, re-learning was more like starting from scratch. This suggested that the ability to recite a row was degrading more and more over time. However, even by 31 days there was still some small amount of savings in relearning, suggesting the ability had not degraded entirely.
 
-What happened as the delays got longer and longer, up to 31 days? There are two ways to look at this. First, the larger plot on the left shows that the relearning attempts go up from 16 to 28, as the delay increases from 20 minutes to 31 days. This shows that the ability to recite a row appears to degrade more and more over time. However, even by 31 days, there is still some small amount of savings in relearning, suggesting the ability had not degraded entirely.
+Second, the smaller plot on the bottom right shows the same findings, except the x-axis expresses delay in minutes. Here, the x-axis goes from 20 minutes to 44640 minutes (the number of minutes in 31 days). This way of plotting the data makes it easier to see the exponential trend in the number of re-learning attempts. The exponential trend suggests that forgetting, or the learning associated with this ability degraded at different rates over time.
 
-Second, the smaller plot on the bottom right shows the same findings, except the x-axis expresses the delays in minutes. Here, the x-axis goes from 20 to 44640 (the number of minutes in 31 days). This way of plotting the data makes it easier to see an an exponential trend in the number of re-learning attempts. The exponential trend suggests that the rate of forgetting, or the rate this ability degrades changes over time.
-
-Specifically, the rate of forgetting is very high after initial learning but the rate slows down over time. For example, between 0 and 20 minutes from original learning, the number of relearning attempts needed goes from 0 to 16. By two days, the number of relearning attempts goes to 24. However, the rate of forgetting is greatly reduced as the delay gets longer. Between 2 days and 31 days, the number of re-learning attempts goes from 24 to 28. Taking re-learning attempts as a measure of forgetting, there was a big increase from 0 to 24 in the first 2 days, but a much smaller increase from 24-28 over the next 29 days.
+Specifically, the rate of forgetting was very high after initial learning, but the rate slowed down over time. For example, between 0 and 20 minutes from original learning the number of relearning attempts went from 0 to 16. By two days, the number of relearning attempts went to 24. However, the rate of forgetting was greatly reduced as the delay became longer. Between 2 and 31 days, the number of re-learning attempts went from 24 to 28. Taking re-learning attempts as a measure of forgetting, there was a big increase from 0 to 24 in the first 2 days, but a much smaller increase from 24 to 28 over the next 29 days.
 
 #### Exponential Forgetting
 
 ::: {.floatright50 data-latex=""}
-
-
-
-\includegraphics[width=1\linewidth]{imgs/Ebbinghaus_exp} 
-
+<img src="imgs/Ebbinghaus_exp.jpg" width="100%" />
 :::
 
-In other words, Ebbinghaus found an exponential forgetting curve. Early on after learning there is fast forgetting. Lots of forgetting occurs in a short period  of time. Later on, the rate of forgetting slows down, and there is less forgetting over longer periods of time. It's like going to Las Vegas and spending most of your money on the first day, and then losing your small amount of remaining money slowly over the rest of week.
+In other words, Ebbinghaus found an exponential forgetting curve. Early on after learning there was fast forgetting. Lots of forgetting occurred in a short period of time. Later on, the rate of forgetting slowed down, and there was less forgetting extended over longer periods of time. Exponential forgetting is like going to Las Vegas and spending most of your money on the first day, and then losing the rest of it slowly over the next week.
 
 #### Spacing effects
 
 Ebbinghaus also demonstrated the effects of spacing out practice on learning and memory performance. Two ways to practice a new skill, like learning a series of nonsense syllables, are to mass or space practice attempts. Massing practice attempts mean to lump attempts together and take few breaks between attempts. Spacing refers to adding breaks between practice attempts. Ebbinghaus showed that adding spacing between practice attempts improved his memory performance.
 
-If you search [Google Scholar](https://scholar.google.com/) with terms like "massed practice", "spaced vs massed practice", and "distributed practice" you will find many papers examining how the schedule of practice attempts influences learning and memory in many different tasks. In general, the practice schedule does matter, it can change how fast you learn something and how long you retain information. For example, a meta-analysis in 1999 looked at evidence for spacing effects in 63 studies, which used a wide range of different tasks [@donovanMetaanalyticReviewDistribution1999]. Overall they found that spaced practice benefited learning compared to massed practice. So, should you always space practice to improve your learning? Well, they also found the size of the benefit depended on the task. So, before you space all of your practice, try searching google scholar to see if there is any research on the skill you are trying to learn. There may be recommendations for "best-practice" schedules to help you optimize your skill acquisition. 
+If you search [Google Scholar](https://scholar.google.com/) with terms like "massed practice", "spaced vs massed practice", and "distributed practice" you will find many papers examining how the schedule of practice attempts influences learning and memory in many different tasks. In general, the practice schedule does matter, it can change how fast you learn something and how long you retain information. For example, a meta-analysis in 1999 looked at evidence for spacing effects in 63 studies, which used a wide range of different tasks [@donovanMetaanalyticReviewDistribution1999]. Overall they found that spaced practice benefited learning compared to massed practice. So, should you always space practice to improve your learning? Well, they also found the size of the benefit depended on the task. So, before you space all of your practice, try searching Google scholar to see if there is any research on the skill you are trying to learn. There may be recommendations for "best-practice" schedules to help you optimize your skill acquisition. 
 
 #### Serial Position effect
 
-Ebbinghaus also showed early evidence of serial position effects in memory. Just like "spacing effects", if you search "serial position effect" in google scholar, you will again find hundreds of papers on the phenomena. The basic finding is that your memory for items in a list can depend on the order in which you received the items. In many cases there are primacy and recency effects. Memory is often better for the first (primacy) and last items (recency) compared to the items in the middle.
+Ebbinghaus also showed early evidence of serial position effects in memory. If you search "serial position effect" in Google scholar, you will again find hundreds of papers on the phenomena. The basic finding is that your memory for items in a list can depend on the order in which you received the items. In many cases there are primacy and recency effects. Memory is often better for the first (primacy) and last items (recency) compared to the items in the middle.
 
 #### Process explanations
 
@@ -146,7 +275,7 @@ File drawers a physical systems for storing and retrieving information. Informat
 
 #### Memory is a camera
 
-Cameras, like the ones on modern cell phones, can record and save streams of visual and auditory information. Cameras provide a veridical record of light in the world hitting the lense over time. In this system, memory failures could include failing to capture an event in the record, noisy input quality, noisy playback quality, or degradation of the storage material.
+Cameras, like the ones on modern cell phones, can record and save streams of visual and auditory information. Cameras provide a veridical record of light in the world hitting the lens over time. In this system, memory failures could include failing to capture an event in the record, noisy input quality, noisy playback quality, or degradation of the storage material.
 
 #### Memory is a bent-wire
 
@@ -154,7 +283,7 @@ One more quick metaphor, memory as a bent-wire. Consider a brand new metal wire 
 
 #### Memory is none of these things
 
-The above physical metaphors for memory have some properties in common with human memory. The file drawer and camera can encode, store, and retrieve information, and make errors and mistakes. However, people display many more interesting memory failures than the physical metaphors. The physical memory devices do not produce memory distortion. They do not remember new information that was not in the file, or on the hard-drive. Importantly, people produce memory distortions all of the time. Two examples of memory distortions are claiming to remember events that did not occur, or exagerating events that did occur. Bartlett's work is important for demonsrating evidence of memory distortions as fundamental to the process of remembering.
+The above physical metaphors for memory have some properties in common with human memory. The file drawer and camera can encode, store, and retrieve information, and make errors and mistakes. However, people display many more interesting memory failures than the physical metaphors. The physical memory devices do not produce memory distortion. They do not remember new information that was not in the file, or on the hard-drive. Importantly, people produce memory distortions all of the time. Two examples of memory distortions are claiming to remember events that did not occur, or exaggerating events that did occur. Bartlett's work is important for demonstrating evidence of memory distortions as fundamental to the process of remembering.
 
 #### Memory is re-membering
 
@@ -164,11 +293,11 @@ Bartlett assumed that re-membering is guided by an overarching schema, or someon
 
 #### Method of Serial Reproduction
 
-Bartlett's reconstructionist view of memory was informed by his "method of serial reproduction". This was similar to Ebbinghaus' method of learning lists by practicing them over and over. The major difference was that Bartlett gave his subjects something to remember, then he had them remember it over-and-over again. He measured how the content of each remembering attempt changed over time. We will look briefly at two of his examples, the war of the ghosts, and L'Portraite D'homme.
+Bartlett's reconstructionist view of memory was informed by his "method of serial reproduction". This was similar to Ebbinghaus' method of learning lists by practicing them over and over. The major difference was that Bartlett gave his subjects something to remember, then he had them remember it over-and-over again. He measured how the content of each remembering attempt changed over time. We will look briefly at two of his examples, the war of the ghosts, and l'portrait d'homme.
 
 #### War of the Ghosts
 
-Bartlett had subjects (who were also British) read a story called the "War of the Ghosts", which was a folk-lore story about indigenous Americans. Then, he asked his subjects to write down the story from memory. After they were finished, he had them write it down again from memory. Then, again, and again. It's a little bit like the children's [game of telephone](https://en.wikipedia.org/wiki/Chinese_whispers), where a message is passed from one child to another. What happens to the message at the end? It is usually morphed into something very different from the first message. Bartlett found similar results in his serial reproduction task, where subjects were essentially playing telephone with their own memory of a story.
+Bartlett had subjects (who were also British) read a story called the "War of the Ghosts", which was a folk-lore story about indigenous Americans. Then, he asked his subjects to write down the story from memory. After they were finished, he had them write it down again from memory. Then, again, and again. It's a little bit like the [game of telephone](https://en.wikipedia.org/wiki/Chinese_whispers), where a message is passed from one child to another. What happens to the message at the end? It is usually morphed into something very different from the first message. Bartlett found similar results in his serial reproduction task, where subjects were essentially playing telephone with their own memory of a story.
 
 As people kept reproducing the story from memory, they introduced new details, and left out original details. Additionally, the retold story seemed to head toward a common direction. It was as if his subjects pre-existing biases and general notions about the characters and situations in the story were guiding how they retold the story. Bartlett used these observations to suggest that memory reconstruction was being guided by "schemas". Schemas are scripts that are supposed to guide how memory reconstructs information. Bartlett's schemas often referred to central tendencies or stereotypical generalizations about the content he showed his subjects.
 
@@ -176,10 +305,9 @@ As people kept reproducing the story from memory, they introduced new details, a
 
 Another example of serial reproduction involved drawing faces. He gave people a picture of a mask. Then he took the picture away, and asked his participants to draw the it from memory. Over days and months, he had the same people attempt to draw the picture from memory many more times. The astonishing finding was that as people re-drew the picture, it became less and less mask-like, and more and more face-like.
 
+<img src="imgs/Bartlett_homme.png" width="100%" class = 'centerfigureshadow' style="display: block; margin: auto;" />
 
 
-
-\begin{center}\includegraphics[width=1\linewidth]{imgs/Bartlett_homme} \end{center}
 
 Bartlett interpreted this finding as evidence that people reconstructed their memories based on schemas. His participants knew they were attempting to reconstruct face-like thing, and as they redrew the item from memory, over time they replaced elements of the original mask with elements from their schema for faces. With enough reproductions, the participants were relying mostly on their schematic knowledge, and their drawings slowly morphed into faces rather than masks.
 
@@ -201,21 +329,20 @@ Research on human memory has yield many experimental procedures intended to demo
 
 In 1927, Bluma Zeigarnik conducted several experiments showing that uncompleted tasks are remembered better than completed tasks [@zeigarnikFinishedUnfinishedTasks1968]. I've always thought of the Zeigarnik effect as the "to-do list" effect. I think about tasks on the list, but I don't think about tasks I've already completed. Sadly for me, I often forget to think about the tasks on the list too...
 
-In any case, Zeigarnik ran several experiments with a simple design. Participants were given a variety of tasks that took about 3- 5 minutes to complete. The tasks could be math, or drawing, or threading a needle. Partway through some of the tasks, she interupted people and asked them to start on a new task. At the end of the experiment, the participants had completed some of the tasks, and others remained incomplete. Zeigarnik then had participants recall all of the tasks. Across several experiments she reliably found that people recalled more of the incompleted tasks than the completed tasks. One explanation was the goal to a complete a task created psychological tension that could only be resolved by completing the task. This goal-based tension is not resolved when a task is interrupted, and leads to differences in memory completed and incompleted tasks.
+In any case, Zeigarnik ran several experiments with a simple design. Participants were given a variety of tasks that took about 3- 5 minutes to complete. The tasks could be math, or drawing, or threading a needle. Partway through some of the tasks, she interrupted people and asked them to start on a new task. At the end of the experiment, the participants had completed some of the tasks, and others remained incomplete. Zeigarnik then had participants recall all of the tasks. Across several experiments she reliably found that people recalled more of the uncompleted tasks than the completed tasks. One explanation was the goal to a complete a task created psychological tension that could only be resolved by completing the task. This goal-based tension is not resolved when a task is interrupted, and leads to differences in memory completed and uncompleted tasks.
 
-In a recent historical review of Zeigarnik's life and research, Macleod notes that her findings have been difficult to replicate. For example, 1968, Van Bergen published several replication attempts and found that her participants did not show systematic differences in their memory for completed and incompleted tasks. He also notes that additional research on the basic effect  of "task-interruption" on later recall of tasks from memory has not been forthcoming. So, in many ways the status of this effect as a reliable influence on memory remains unclear.
+In a recent historical review of Zeigarnik's life and research, Macleod notes that her findings have been difficult to replicate. For example, 1968, Van Bergen published several replication attempts and found that her participants did not show systematic differences in their memory for completed and uncompleted tasks. He also notes that additional research on the basic effect  of "task-interruption" on later recall of tasks from memory has not been forthcoming. So, in many ways the status of this effect as a reliable influence on memory remains unclear.
 
 I bring up this example because it reflects several broader issues in memory research. One is that some findings are not reproducible for many reasons. Maybe the effect happens for some people and not others, or maybe it just doesn't happen much at all. Individual memory effects can be neat an interesting. For example, after learning about Zeigarnik effect myself many years ago, I thought, "that's neat...maybe I should complete some tasks on my to-do list so that I no longer think about them". Last, the research pursuit of individual memory effects can be a red-herring, especially if the motivation for examining the effect is unclear, and the effect is not reproducible. 
 
 ### The von Restorff effect
 
-A historical review of Hedwig von Restorff and her now famous demonstrations that distinctiveness influences memory [@vonrestorffUberWirkungBereichsbildungen1933] is also provided by Macleod [@macleodZeigarnikRestorffMemory2020]. Von Restorff applied the figure/ground concept from Gestalt theory to memory domain. A basic idea from Gestalt theory was that representations of individual experiences are wholistic, involving  objects (figure) and their surrounding context (ground). Von Restorff took this idea and asked how memory might depend on factors that isolate figure from ground. In perception a chameleon can be camouflaged and difficult to isolate from its surrounding. Or, a bright and conspicuous flower can stand out in a distinctive way, against dull colorless backgrounds. Would the same principles of distinctiveness apply to memory? It turns out, they do, and unlike the Zeigarnik effect, Von Restorff's findings have been reproduced many times, and in different ways. Here is what she did. 
+A historical review of Hedwig von Restorff and her now famous demonstrations that distinctiveness influences memory [@vonrestorffUberWirkungBereichsbildungen1933] is also provided by Macleod [@macleodZeigarnikRestorffMemory2020]. Von Restorff applied the figure/ground concept from Gestalt theory to memory domain. A basic idea from Gestalt theory was that representations of individual experiences are holistic, involving  objects (figure) and their surrounding context (ground). Von Restorff took this idea and asked how memory might depend on factors that isolate figure from ground. In perception a chameleon can be camouflaged and difficult to isolate from its surrounding. Or, a bright and conspicuous flower can stand out in a distinctive way, against dull colorless backgrounds. Would the same principles of distinctiveness apply to memory? It turns out, they do, and unlike the Zeigarnik effect, Von Restorff's findings have been reproduced many times, and in different ways. Here is what she did. 
 
 ::: {.floatright50 data-latex=""}
 
 
-
-\includegraphics[width=1\linewidth]{imgs/Von_restorff_Stimuli} 
+<img src="imgs/Von_restorff_Stimuli.png" width="100%" />
 
 :::
 
@@ -228,8 +355,7 @@ Von Restorff used a technique called *counter-balancing* in her experiment. Coun
 ::: {.floatright50 data-latex=""}
 
 
-
-\includegraphics[width=1\linewidth]{imgs/Von_Restorff_counterbalance} 
+<img src="imgs/Von_Restorff_counterbalance.jpg" width="100%" />
 
 :::
 
@@ -297,6 +423,3 @@ Subjective processing tradition
 - Tulving (subjective organization)
  - and memory distinctions
  - Semantic vs episodic
- 
-
- 
