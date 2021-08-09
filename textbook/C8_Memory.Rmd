@@ -458,55 +458,124 @@ At the level of stimulus information, seven bits would be required to code seven
 
 ## On tasks, abilities, and processes
 
-We're about to finish up this chapter by discussing research on short and long-term memory, as well as working memory. Before we do that, now is a good time to discuss differences between memory tasks, abilities, and processes. When I read the memory literature I am often confused about whether researchers are discussing tasks, abilities, or processes, or some combinations of the three. So, I will define these three aspects common to all cognitive research before we continue. Let's use the immediate memory span as an example. 
+We're about to finish up this chapter by discussing short-term, long-term, and working memory. Before we do that, now is a good time to discuss some differences between tasks, abilities, and processes. It can be easy to confuse one for the other. Let's use the immediate memory span that we discussed above as an example.
 
 ### Tasks
 
-The immediate memory span task is most obviously a task that people perform. Most people don't perform this task in everyday life, or most psychological tasks. The immediate memory span task was created as a research instrument. As a research instrument, the task has some controlled properties, and people asked to perform it in a particular way. That is, follow the instructions. For example, if I asked you to remember the following 10 digits (3,5,4,2,3,2,6,5,7,6), and you told me about your favorite movie, then it wouldn't count as "doing the task". Tasks are also made to provide convenient measurements. For example the immediate memory span task yields a number, called the immediate memory span. It is the number of items correctly recalled in the task. 
+The immediate memory span task is a laboratory memory task, and was created as a research instrument. The task involves presenting a list of items, like numbers or letters, and then asking participants to repeat back as many as possible from memory. The number of items repeated back correctly is a measure of performance in the task, and the measurement is given a name like immediate memory span. There are many other tasks like the immediate memory span task that measure cognitive abilities. They typically have controlled properties that the experimenter can vary, and they require participants to perform the task (by following the instructions) to the best of their ability.
 
 ### Abilities
 
-We can distinguish between the immediate memory span task, and the ability to perform the task. The immediate memory span task is an example of a behavioral task. People perform the task, and some aspect of their behavior in the task is measured. For example, the immediate memory span is a measure of performance in the task. Behavioral measures of performance can reflect the ability to perform a task, but they may not. For example, I have the ability to perform an immediate memory task, but this ability will not be measured if I choose not to perform the task. While I am doing the task, I can also choose to do it in different ways. In other words, I could use multiple abilities to perform the task. I might not even know what abilities I was using. At the very least, when a task is performed, I will use ability to refer to the fact that the task was performed in some way. 
+I have been using the term cognitive ability throughout this textbook to refer broadly to successful performance in tasks that require "cognition". For example, if you successfully completed an immediate memory span task, and your immediate memory span was found to be 10, then you clearly have the ability to perform that task, and you also have the ability to remember 10 items from the list of items you were presented.
 
 ### Processes
 
-In cognitive research tasks and abilities are measured to better understand the underlying cognitive processes involved. We have just described the immediate memory span as task that can be completed. If you follow the instructions and complete the task as intended, then your performance will be measured, potentially as a reflection of your ability. For example, you may have a measured immediate memory span of 5, 7, or 10, or some other number. What does this number mean in relation to a cognitive process? For example, do you have an immediate memory system? If so, does it have a span? My answer is no, not at all. 
+I will define cognitive processes as theoretical mechanisms underlying the ability to perform a task. For example, if you were able to remember 10 items in an immediate memory span task, how were you able to do that? What were the mechanisms enabling you to perform the task, and how do those mechanisms work? 
 
-Cognitive processes refer to the mechanisms underlying the abilities to perform a task. Tasks produce measures of abilities, but not direct measures of the processes enabling the abilities. Instead, cognitive processes are largely theoretical entities. They are used to explain the measures of behavior. In this way, it is possible for multiple theories to explain the same measurements of task performance. 
-
-I'm bringing these issues to the foreground because it will be useful to distinguish between tasks, abilities, and process explanations when we discuss short and long term memory. It is possible to make short and long term memory tasks. People have the ability to remember some information over very long time periods, and at the same time do not have the ability to remember other information over very short periods. Do these facts about tasks and abilities require different process explanations? That is a research question in cognition that continues to be debated.
+In the next section we will look at a formative cognitive process explanation of short and long-term memory from the late 1960s. We will review the theory's proposed mechanisms of short and long-term memory, and how they work together to explain performance in a classic memory task. Then, before heading on to the last section on working memory, we will again consider relationships between cognitive tasks, abilities, and processes to entertain alternative viewpoints on the distinction between short and long-term memory.
 
 ## Short and long term memory
 
-I'm guessing you have heard of short-term memory and long-term memory. It's OK if you haven't. These are terms from cognitive psychology that are commonly used to describe memory abilities. We've all forgotten something that just happened, and maybe blamed short-term memory. We've all remembered something from ages ago...thanks to long-term memory. Clearly, memory can last a long time sometimes, and not last a long time other times. What is going on here? Why is memory behaving so differently?
+I'm guessing you have heard of short-term memory and long-term memory. It's OK if you haven't. These are terms from cognitive psychology that are commonly used to describe memory abilities. We've all forgotten something that just happened, and maybe blamed short-term memory. We've all remembered something from ages ago...thanks to long-term memory. Clearly, some memories can last a long time, and some don't. What is going on here? Why is memory behaving so differently?
 
 One potential answer is that there are two memory systems. A short-term memory system and a long-term memory system. The short-term system is limited in capacity, so it can only hold a few things-- like Miller's chunks-- for a short time. Short-term memory explains things like forgetting a phone-number right away. It went in your short-term memory system, and was easily forgotten. Perhaps the phone-number was pushed out by new incoming information. The long-term system has a much larger capacity, so it can hold many things for a long time. This explains why you can remember some events in great detail from a long-time ago.
 
-Before we look at this idea more closely let me first make a comment about independent systems. First, the distinction between a short-term and long-term memory is between supposedly separate systems. There are lots of examples of separate systems in humans, especially at a physiological level. For example, we could consider different organs in the body as separate independent systems, each doing their own job in the connected network of your body. In terms of brain function, there are also different perceptual systems and brain areas mostly dedicated to processing information from each modality. I think partly because systems like these do exist, that some researchers adopt a "systems-focused" approach to cognition. In this approach, one of the goals is to find all of the systems, and then interrogate them to understand how they work.
+Before we look at this idea more closely let me first make a comment about independent systems. First, the distinction between a short and long-term memory is between supposedly separate systems. There are lots of examples of separate systems in humans, especially at a physiological level. For example, we could consider different organs in the body as separate independent systems, each doing their own job in the connected network of your body. In terms of brain function, there are also different perceptual systems and brain areas mostly dedicated to processing information from each modality. I think partly because systems like these do exist, that some researchers adopt a "systems-focused" approach to cognition. In this approach, one of the goals is to find all of the systems, and then interrogate them to understand how they work.
 
-Several memory models distinguish between short and long-term memory systems. The basic short-term/long-term distinction marks a branching point in memory research. One side of the branch continued to make distinctions between different kinds of memory systems. Another side of the branch tended to focus more on the algorithms of memory processes. The next two chapters expand on the algorithmic branch. The last part of this chapter describes the multiple-systems approach, starting with the multi-store model.
+
+<!--
+Several memory models distinguish between short and long-term memory systems. The basic short-term/long-term distinction marks a branching point shaping different styles of memory research. Historically,  one side of the branch continued to make distinctions between different kinds of memory systems. Another side of the branch tended to focus more on the algorithms of memory processes. The next two chapters expand on the algorithmic branch. This chapter describes the multiple-systems approach, starting with the multi-store model.
+
+-->
 
 ### Multi-store model
 
-A classic memory model that distinguishes between short and long-term memory is the multi-store model of Atkinson and Shriffrin from 1968. This model is fairly easy to explain and not too complicated, which is one reason why it had a big impact. At the time, it also successfully modeled a number of findings from the memory literature. We will talk about this model in general terms. However, Atkinson and Shiffrin also formalized the operation of their model with mathematical assumptions, which allowed them to more precisely generate predictions from the model. Although the model follows an information processing approach, the underlying metaphor for cognition is more in the vein of the assembly line metaphor from last chapter.
+Atkinson and Shiffrin's multi-store model (also called the modal model) from 1968 [@atkinsonHumanMemoryProposed1968] is an excellent example of an early cognitive process explanation. I will describe the model in general terms; however, the original model was also more formally presented in mathematical terms as well. This allowed the theory to generate quantitative predictions that closely matched data patterns in a variety of memory tasks. The next two figures depict how the model envisions encoding, storage and retrieval in memory.
 
-The multi-store model has three major storage locations, a sensory register, a short-term store, and a long-term store. Each storage device is further split by modality. There is a visual sensory register, and an auditory register etc. The short-term store also has different locations for different kinds of information, like auditory information, or visual information. Similarly, the long-term store also has separate locations for different kinds of representations. 
-
-More important, the model describes the operation of control processes allowing information to flow between the different storage locations. An incoming stimulus is first registered in sensory storage. Here there was some probability that the new information could be lost due to forgetting. The sensory stimulus could be sent to the short term store, or it could be sent directly to the long-term store (with some probability). The short and long-term stores had their own control processes and rules for operation.
-
-The short-term store had limited storage locations. It was imagined as buffer between the sensory register and long-term memory. The buffer could keep a representation "alive" for a short while. They used the example of a rehearsal loop. For example, if you are remembering a phone number, you can say it over and over in your head. This is called rehearsal, and it can help you "maintain" the phone number for a longer period of time. Representations in the short-term store could also be lost with some probability.
-
-The long-term store received representations from the sensory register or from short-term memory. This storage location was assumed to have a more robust storage system. It could store many representations for longer periods of time. The long-term store was still vulnerable to information loss. A memory representation could lose its strength over time.
-
-Finally, Atkinson and Shiffrin discussed rules for encoding and retrieval of memory traces. These rules determined how information was encoded into short or long-term memory, and how memory traces were retrieved from those locations.
-
-All together, the model had several parameters that could be used to describe performance in memory tasks. For example, failure to remember something could be explained in the model in several ways. The trace could be lost immediately from the sensory register, it could have made it to short term-memory, but never transferred to long-term memory. These would be considered encoding failures. The trace could have been succesfully transferred to long-term memory, but decayed over time and lost its strength. This would be like Ebbinghaus' "obliviscence", where a memory trace is assumed to disintegrate into nothing. Finally, the model had a role for retrieval to cause problems with remembering. For example, in the model it was possible for a strong memory trace to suffer interference during retrieval. Other memory traces were lying around too, and they would compete for retrieval. This could lead to incorrect remembering, which could appear like forgetting.
+::: {.floatright50 data-latex=""}
 
 
-Short and long-term memory systems
-marks a branching point in memory research. 
+```{r}
+knitr::include_graphics("imgs/Multi_store_1.jpg")
+```
 
-When we consider the topic of memory, the concept of a system becomes a little bit more fuzzy. 
+:::
+
+The first figure shows an information flow diagram between storage locations in the multi-store model. First, environmental stimuli (external inputs to the model) are converted into representations and briefly stored in sensory registrars. The sensory register is assumed to hold onto perceptual information for a very limited time. The information in the sensory register will be lost, unless it gets transferred to the short-term or long-term store. Notice, that information from the sensory register could go either to the short-term store or directly to the long-term store. As implied by the name, the short-term store is limited in capacity and can only store a small number of items. The long-term store has a much larger capacity, and can store many items over a very long time. Finally, the model describes control operations for passing information between the short and long-term stores. These operations are described next.
+
+::: {.floatright50 data-latex=""}
+
+
+```{r}
+knitr::include_graphics("imgs/Multi_store_2.jpg")
+```
+
+:::
+
+In general, the short-term store is described as a temporary buffer that keeps a memory representation "alive", and is capable of transferring a representation from the sensory registrar to the long-term store for more permanent storage. The model likens the short-term store to a rehearsal buffer. For example, have you ever tried to remember something, like a phone number, by saying it over and over to yourself? This is called a rehearsal strategy. The model suggests that the short-term store is the place where rehearsal takes place, and further suggests that the buffer has a limited number of slots, which means that only a few items may be in the rehearsal loop at any given time. The model also suggests that items in the short-term store are gradually transferred to the long-terms store. So, items that stay longer in the rehearsal are more likely to be fully preserved in long-term memory, because they had more time to be transferred to the long-term store. The long-term store was still vulnerable to information loss, and memory traces could decay over time, or interfere with one another during memory retrieval.
+
+Although less clear from the figures, the model also described potential rules for retrieving information from long-term memory. For example, retrieving a representation from memory could involve a search process where a person "looks" through things in their memory until they find what they are looking for. Additionally, the search process relies on cues to aid the search. For example, if you were searching your memory for names of American presidents, at some point you might run out names, even if you felt you could name few more. In this case, you might use a cuing strategy. For example, the letters of the alphabet could help focus your memory search. Thinking about the letter "A", could help you remember "Abraham Lincoln"; or, the letter "B" might help you remember "Lyndon B. Johnson". Finally, the short-term system was involved in remembering information from the long-term system. For example, the short-term system could be rehearsing the cue "B", while the search of long-term memory is conducted.
+
+### Serial Position, Recency, and long-term recency
+
+The operations of the multi-store model explained performance in an impressive range of memory tasks. We will discuss its application to the serial position curve, and describe two successes of the model, and one failure to account for recency effects.
+
+I mentioned earlier that Ebbinghaus had shown examples of the serial position effect. Since Ebbinghaus, many researchers noticed serial-position effects in experiments where participants tried to learn a list of items.
+
+::: {.floatright50 data-latex=""}
+
+
+```{r}
+knitr::include_graphics("imgs/Serial_position_1.jpg")
+```
+
+:::
+
+The graph shows the serial position effect from Deese & Kaufman [@deeseSerialEffectsRecall1957a], obtained from a free recall memory task [see also, @murdockjrSerialPositionEffect1962]. In this task, subjects heard a list of unrelated words (either 10 words or 32 words), and then they had to recall as many words as they could. In a free recall task, a subject can write any word they want in any order. After the subjects wrote down the words they recalled, the researchers analyzed which words were most likely to be recalled as a function of original position in the list. The graph shows primacy and recency effects. Subjects were more likely to recall words from the beginning (primacy) and ending (recency) of the list, compared to the words from the middle.
+
+#### Explaining the serial position effect
+
+The multi-store model provided explanations of both primacy and recency effects. The short-term rehearsal buffer had a prominent role in explaining both effects. To appreciate this influence, consider how a person might use a rehearsal strategy to memorize as many words as possible in a free recall task. 
+
+Imagine you are about to hear 32 words in a row. You will hear one new word every 2 seconds. It's hard to keep track of all the words; but, you can try to rehearse them out loud, or in your head. So, as you hear each new word, you begin saying them to yourself, over and over again. As you get more words, you try to keep rehearsing them all, but some of them get lost or forgotten because it is hard to rehearse too many words at the same time (i.e., rehearsal is capacity limited).
+
+According to the multi-store model, the more time items spend in the rehearsal buffer, the more they are transferred to long-term memory. Does this idea have implications for which words should be recalled from a list of otherwise random words? It offers a perspective on the primacy effect: words presented at the beginning of a list had the most opportunity to be rehearsed and transferred to long-term memory. As a result, words from the beginning of a list are more likely to be recalled because they are better preserved in long-term memory, compared to words from the middle and end of the list, that had much less of an opportunity to be rehearsed.
+
+Hold on a second! What about the recency effect? The words at the end of the list are also recalled at high rates, but they have very little time to be rehearsed. So, why are words at the end of the list recalled with a high probability? The multi-store model explains that the words at the end of the list are probably in the rehearsal buffer. They are the words that someone is saying over and over to themselves. When a person eventually begins recalling words, the first thing they do is write down all of the words they are rehearsing. 
+
+To summarize, the primacy effect is explained by better representations in long-term memory as a result of rehearsal. The recency effect is explained by outputting the last items in the short-term rehearsal buffer. One virtue of the model was that it offered a potential explanation of phenomena like the serial position curve. Another virtue was that the ideas behind the explanation could be tested with further experiments.
+
+#### Recency and Rehearsal
+
+What kind of experimental manipulation could you come up with to test the multi-store model's explanation of the recency effect? Let's re-imagine the situation.
+
+> You are hearing words, one at a time, for a later memory test. You start saying the words over and over to yourself to try to remember them. But, new words keep coming. You are rehearsing some words, but not all of them. You are trying the best you can. Then it's over, the words stop. You try to write down as many words as you can on a piece of paper. The first thing you do is write down all the words you were repeating over and over to yourself. These happen to be the most recent words you heard.
+
+The above describes the subjective experience of someone completing a free-recall task to emphasize how the strategy of rehearsing some words might lead a person to preferentially recall words at the end of a list. If the recency effect occurs because people are recalling words that they were rehearsing, then the recency effect should go away if people were prevented from rehearsing words at the end of the experiment. 
+
+::: {.floatright50 data-latex=""}
+
+
+```{r}
+knitr::include_graphics("imgs/Serial_position_2.png")
+```
+
+:::
+
+Postman & Philips had already provided data that was consistent with the explanation of the multi-store model [@postmanShorttermTemporalChanges1965]. Their findings are shown to the right. They conducted a free-recall experiment but added a delay with an intervening task before subjects recalled words. In the 0 second condition, subjects heard a list of words and tried to recall all of the words right away. That group shows a clear primacy and recency effect. In the 30 second condition, after the list of words was presented subjects had to perform arithmetic for 30 seconds before recalling the items. Look what happened to the recency effect portion of the curve, it disappears. The interpretation from the multi-store model is that subjects were prevented from rehearsing the final words in the list because they had to do arithmetic instead. Therefore, during recall subject could only rely on long-term memory to perform the task. As result, they showed no recency effect because the short-term rehearsal buffer had lost any items due to the intervening task.
+
+#### Long-term recency
+
+
+
+
+If the recency effect occurs because people are "reading off" whatever words are in their rehearsal buffer, what kind of experimental manipulation 
+
+
+
+the fact that words from the beginning of a list are recalled more often is attributed to the
+
+According to the model, the primacy effect 
 
 
 - use subjective consensus
