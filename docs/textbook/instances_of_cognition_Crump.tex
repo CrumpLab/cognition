@@ -107,6 +107,20 @@
   \newpage
 }
 \posttitle{\end{center}}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
 \ifluatex
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -255,7 +269,7 @@ Thanks to Miriam Deutch (Associate Librarian for Access Services/Art Specialist)
 
 Note, the date reflects the latest compilation of this book. CITATION IS TBD WHILE THE PROJECT IS UNDER DEVELOPMENT.
 
-Crump, M. J. C. (2021, August 06). Instances of Cognition: Findings, Explanations, Applications, and Implications.
+Crump, M. J. C. (2021, August 09). Instances of Cognition: Findings, Explanations, Applications, and Implications.
 
 \hypertarget{reading-formats}{%
 \chapter*{Reading Formats}\label{reading-formats}}
@@ -2638,7 +2652,7 @@ Information theory and the idea of information processing stages will pop-up aga
 \hline
 Word Count & Reading Time\\
 \hline
-5526 & 27.6 minutes\\
+10877 & 54.4 minutes\\
 \hline
 \end{tabular}
 
@@ -2900,14 +2914,244 @@ I have titled this section ``Multiple Memory Systems'' to alert us to the fact t
 
 I already alluded to one outlier perspective stemming from Bartlett's reconstructionist perspective on memory. An extreme reconstructionist could argue that memory systems do not encode, store, or retrieve memories because memories themselves are not real psychological objects. They instead result from a constructive process that can generate or simulate past experiences in a way that feels ``real.'' In this case, memories, false-memories, dreams, and imagination are all created by the same construction process. The only difference is that people make different attributions about what those mental experiences refer to, sometimes attributing mental experiences to a real past experience, or other times attributing them to a dream or imagined experience. We will revisit this idea again, especially in the chapter on judgment and decision-making where attribution theory is commonly used.
 
-In the next section we are going to review a more mundane metaphor about memory, which I call the information processing metaphor of memory. This will connect with the previous chapter on information processing. This metaphor treats memory a little bit like a computer. Information comes into the central processing unit, and is saved into a memory storage device for later retrieval. The information processing view splits memory up into little processing modules, like short term memory and long-term memory. And, this tradition of theorizing has led to a ``multiple-systems'' view of memory, that involves many little modules of memory that do different memory tasks. As we go into this research, I would encourage you to remember that we are still talking about metaphors, and highly provisional explanations of memory.
+In the next section we are going to review a more mundane metaphor about memory, which I call the information processing metaphor of memory. In later chapters, especially the chapter on computational modelling, we will examine a ``single-system'' tradition of theorizing in memory research. This tradition emphasizes the algorithms of memory processes over the taxonomy of memory compartments.
 
-In later chapters, especially the chapter on computational modelling, we will examine a ``single-system'' tradition of theorizing in memory research. This tradition emphasizes the algorithms of memory processes over the taxonomy of memory compartments.
-
-Finally, as we wade into these newer territories, keep in mind a few background questions. What is the evidence for the claim? What is the basis for the explanation? We will come across many new claims, and before accepting them, it is worth examining what evidence exists for the claim. This could involve inspecting the experimental design to see whether it is capable of producing a high standard of evidence, suitable for justifying the claim. We will come across new explanations too, and it will be worth scrutinizing those as well.
+Finally, as we wade into newer territories keep in mind a few background questions. What is the evidence for the claim? What is the basis for the explanation? We will come across new claims, and before accepting them it is worth examining what evidence exists for the claim. This could involve inspecting the experimental design to see whether it is capable of producing a high standard of evidence, suitable for justifying the claim. We will come across new explanations too, and it will be worth scrutinizing those as well.
 
 \hypertarget{memory-as-information-processing}{%
 \section{Memory as information processing}\label{memory-as-information-processing}}
+
+The previous chapter on information processing identified cybernetics as a transitional domain between behaviorism and cognitivism. Concepts from Shannon's mathematical theory of communication were introduced, such as the concept of a communication channel between a sender and receiver; and, his formula for measuring ``information'' or uncertainty in a set of stimuli. We discussed how those concepts were applied to studies of reaction time performance. Throughout the late 1950s and 1960s, information processing concepts were applied to human memory. In terms of parallel developments, this time period coincided with the emergence of digital computers; Shannon's information theory was also relevant to computer technology. In psychology, metaphors from information theory and computer technology were borrowed as tentative explanations of memory processes. In the next sections we will look examples of both.
+
+First up is George Miller's ``Magic number 7'' paper.\footnote{\protect\hyperlink{ref-millerMagicalNumberSeven1956}{Miller, George A. (1956). The magical number seven, plus or minus two: {Some} limits on our capacity for processing information. \emph{Psychological Review}, \emph{63}(2), 81}.} This paper reviewed successful applications of information theory to problems in perceptual judgments, and an attempt to apply similar principles to memory. It focuses more on the information processing metaphor, and less on the computer metaphor. Major themes include capacity limitations in information processing, and roles for ``mental coding'' (Miller's chunking) to influence memory and get around capacity limitations.
+
+After Miller, we head into a discussion of memory models relying on computer metaphors, which appeared to motivate distinctions between short and long-term memory, and later models of working memory. This tradition of theorizing has developed into a ``multiple-systems'' view of memory, that involves many little modules of memory that do different memory tasks. As we go into this research, I would encourage you to remember that we are still talking about metaphors, and provisional explanations of memory.
+
+\hypertarget{millers-magic-number-7}{%
+\subsection{Miller's Magic Number 7}\label{millers-magic-number-7}}
+
+\href{https://en.wikipedia.org/wiki/George_Armitage_Miller}{George Miller} (1920-2012) was American psychologist, who is often associated with leading the transition from behaviorism to cognitivism. In 1956, he wrote an influential paper called, ``The magical number seven, plus or minus two: Some limits on our capacity for processing information.'' This paper probably introduced many psychologists to concepts from information theory. I think the contribution of this paper is often highly compressed to ideas implied by the title. For example, you may have heard of this paper before, and perhaps were told that your short-term memory can hold about 7 things\ldots plus or minus two. Indeed, after the Miller paper, many researchers have spent time invoking similar ideas, and attempting to measure the ``capacity'' of one kind of memory system or another. We will get to short-term memory in the section. In this section, the focus is not on how many things short-term memory may or may not be able to ``hold.'' It is instead on Miller's attempt to use information theory to establish common principles between perceptual judgment and memory.
+
+\hypertarget{absolute-perceptual-judgment}{%
+\subsubsection{Absolute Perceptual Judgment}\label{absolute-perceptual-judgment}}
+
+Miller began by stating, ``My problem is that I have been persecuted by an integer.'' He was following the positivist tradition in science and attempting to discover natural laws in psychology. It was an exciting time because Shannon's information theory was being applied to basic tasks in psychology, and Miller was noticing a regular pattern in the data. The metaphor of the day was that people were like a capacity-limited communication channel. Following the metaphor, people would be limited in the amount of information they could process, where information is defined in terms of bits (see previous chapter for a reminder). Miller was ``persecuted'' by an integer because he saw what appeared to be a lawful relationship across a variety of perceptual judgment tasks. More or less, people appeared to process information in a limited-capacity way, and the capacity limitation seemed pretty consistent, it involved close to the same number of bits.
+
+If we converted Miller's title to bits it wouldn't be as catchy as, ``7 plus or minus two.'' For example, 7 items is 2.8 bits, 9 items is 3.17 bits, and 5 items is 2.32 bits. Nevertheless, in the first part of his paper, he reviewed evidence from the literature on absolute perceptual judgment showing that people had similar ``capacity-limitations'' across tasks.
+
+An absolute perceptual judgment task starts out simple, but gets more difficult as the number of alternatives increases. In this way, it is a little bit like the choice-reaction time procedure, and the observation that choice-reaction increases as the set-size (number of alternatives) increases. The basic task involves un-speeded stimulus identification. On each trial you are shown one stimulus from a set, and then asked to identify it. Miller's first example was absolute judgments of pitch, so let's use that.
+
+Have you ever heard of \href{https://en.wikipedia.org/wiki/Absolute_pitch}{absolute pitch}? Some people are able to hear a tone and immediately identify the name of the note on an instrument. The ability is pretty rare, and most people are not able to recognize the exact pitch of a tone. The piano represents the difficulty an absolute perceptual judgment task for pitch quite well. A full-size piano has 88 keys that produce individual sounds by hitting strings. The sounds range in pitch going up by one semi-tone for each note. I took piano lessons as a kid, and part of the lessons involved an absolute pitch judgment task (I didn't know it at the time). Here is what happened.
+
+I turned away from the piano and closed my eyes. My piano teacher then played a note on the piano. I had to guess what the note was by naming it. Piano notes have names like, A, B, C, D, E, F, G. It turns out I don't have absolute pitch. And, I wasn't very good at hearing the note and identifying it's name.
+
+However, it is possible to make the task easier by reducing the number of alternatives. For example, identifying any note on the piano is hard when there are 88 possibilities. But, even without absolute pitch, it is easy to tell two notes apart from each other. For example, people with normal hearing can tell apart a really high pitched note from a really low pitched note. In this way, if we made an absolute pitch identification task with only two alternatives (low note versus high note), people would hardly make any mistakes at identification. They would hear one note a time, and easily identify the ``low'' note from the ``high'' note.
+
+Let's imagine people would have 100\% accuracy on this very simple pitch judgment task with only two options. What do you think would happen to stimulus identification accuracy if the number of options increased? For example, what happens if the task has three alternatives, or four, or five, or more? If you are like me, and you do not have absolute pitch, then the typical outcome is that the task gets harder, and at some point you start to make mistakes. In general, for some range of options your accuracy at identifying individual stimuli from the set will be near perfect. However, as the number of options increases, you will start making mistakes.
+
+\hypertarget{pollacks-pitch-judgment-results}{%
+\subsubsection{Pollack's pitch judgment results}\label{pollacks-pitch-judgment-results}}
+
+Miller cited work by Pollack,\footnote{\protect\hyperlink{ref-pollackInformationElementaryAuditory1952a}{Pollack, I. (1952). The {Information} of {Elementary Auditory Displays}. \emph{The Journal of the Acoustical Society of America}, \emph{24}, 745--749}.} who had applied information theory measurements to absolute pitch judgment. Pollack ran an experiment very similar to the thought-experiment described above. He gave people a tone judgment task, and varied the number of tones in the set. He had sets of 2, 3, 4, 5, 6, 7, 8, 10 and 14 tones. Subjects were given tones from one set. On each trial they heard a tone, then they had to identify with a number, (e.g., ``this is tone number 7''). This general task is also called the ``method of absolute judgment'' in \href{https://en.wikipedia.org/wiki/Psychophysics}{psychophysics}.
+
+\begin{floatright50}
+\includegraphics[width=1\linewidth]{imgs/Pollack_tone}
+
+\end{floatright50}
+
+The data from Pollack's task is shown on the right. This figure shows the data in a conventional way, plotting accuracy against set-size. The three dots in green show examples of perfect performance in the task. People are able to absolutely identify a tone with perfect accuracy when there were 2, 3, or 4 tones in the set (this is like a toy piano with 2, 3, or 4 total keys). However, the dots in red show what happens as the number of tones increases past 5. Accuracy gets worse and worse. The percentage of correct responses goes down and down. The experiment only went up to set-size 14, and the rest of line is a statistical estimate of what would happen to accuracy if the set-size was increased further.
+
+\hypertarget{translation-to-channel-capacity}{%
+\subsubsection{Translation to Channel capacity}\label{translation-to-channel-capacity}}
+
+Miller was reviewing work by Pollack and others who had the insight to interpret their findings from the point of view of information theory. This involved applying Shannon's mathematical formulas to the data and re-plotting it. Instead of plotting how accuracy changed as set-size increased. It was possible to plot the very same data in terms of the amount of information in the stimulus set, and the amount of information transmitted across a channel. Remember, we can convert the number of unique elements in set into the number of bits necessary to represent all the unique elements. 2 elements require bit, four elements require 2 bits, 8 elements require 3 bits, and so on.
+
+\begin{floatright50}
+\includegraphics[width=1\linewidth]{imgs/Miller_tone}
+
+\end{floatright50}
+
+When the same data from the task above are replotted using information theory, it looks like the figure on the right. Notice, the first three dots fall exactly on the line, this is the same as perfect performance for set-sizes 2, 3, and 4. However, set-size is now called ``input information'' and expressed in bits (2 = 1 bit, 3 = 1.58 bits, 4 = 2 bits). The y-axis converts accuracy into a measure of bits called ``transmitted information.'' Although the data is exactly the same as before, the metaphor is different. Looking at the graph in terms of information theory, it looks like performance hits a plateau. As the amount of information in the input (e.g., set-size) increases, the amount of transmitted inforamtion levels off. The set-size can be increased to any number of options, but it seems that people are hitting an upper bound of around 2.5 bits in this task. This upper bound is called the channel capacity in information theory.
+
+\hypertarget{generalization-across-perceptual-tasks}{%
+\subsubsection{Generalization across perceptual tasks}\label{generalization-across-perceptual-tasks}}
+
+Miller's paper reviewed many absolute perceptual judgments besides tone judgments. They were all basically the same except the type of stimulus was changed. For example, instead of pitch there were similar experiments using absolute judgments of loudness. Other examples were absolute judgments of saltiness, or points on a line. All of the tasks involved splitting the stimulus dimensions into sets of different sizes (like pianos with different numbers of keys), and asking people identify specific items from a set.
+
+Miller described how the data from all of the tasks could be plotted using information theory concepts. And, he noted similar channel capacities across all of different perceptual judgments. This is where the title, ``7 plus or minus two'' comes from. Seven items is the same as 2.8 bits. The channel capacity for identifying tones was around 2.5 bits, or about 5 items. Some of the other channel capacities were a little lower or higher. The fact that the channel capacities were all very similar, even though the stimuli were all very different suggested law-like behavior. It seemed promising that the descriptive language of information theory could be used to state laws of information processing capacity in perceptual judgments. Miller had hoped the apparent principles could extend even further, past perception, to the domain of immediate memory.
+
+\hypertarget{immediate-memory-span}{%
+\subsubsection{Immediate memory span}\label{immediate-memory-span}}
+
+Miller had noticed a correspondence between limitations in absolute judgment tasks and limitations in tasks measuring immediate memory span. Immediate memory span is how many items you can remember over a short period of time. The correspondence was the number 7. Absolute perceptual judgments seemed to be limited by set-sizes of around 7. And, it was already well-known that people had short immediate memory spans, with spans also around 7 items.
+
+How is immediate memory span can measured? One method is to provide a series of items, and then have a subject repeat them back. The series starts with a small number of items. And the number of items is increased until the subject fails to repeat the series back perfectly. Immediate memory span is the number of items in the list that you can recite back without making mistakes. The number 7 is just a rough description of typical findings from immediate memory span research. People can usually recite back lists of 7 things without making errors. However, people start making errors when the list gets longer and longer. For example, a phone number with seven digits isn't too hard to remember long enough to write down or write into your contact info. Longer sequences are typically harder to remember, especially when extended practice is not allowed (like in the Ebbinghaus procedure).
+
+Miller thought the spans of roughly 7 in absolute perceptual judgment and immediate memory could be related, possibly pointing to a common process limiting both perception and memory. However, the whole point of his paper was to raise the possibility as an idea, and then provide evidence that it wasn't true. He concluded that any similarities were just an annoying coincidence. Miller arrived at the conclusion by distinguishing between bits of information, and \textbf{chunks} of information. He suggested that perceptual decision is limited by bits, and that immediate memory was limited by chunks. So, let's look at chunks and bits.
+
+\hypertarget{chunks-vs-bits}{%
+\subsubsection{Chunks vs bits}\label{chunks-vs-bits}}
+
+Miller describes an immediate memory experiment by Hayes {[}{]} to make his point. That experiment measured immediate memory spans with different kinds of stimuli. These included binary digits, decimal digits, letters, letters \& digits, and items from a pool of 1000 words.
+
+For example, I could give you a series of 0s and 1s (binary digits), and see how many you can remember in a row. Try it out, read this series one time from beginning to end. Then, try to write down the series from beginning to end without looking.
+
+\begin{quote}
+0110100010100101
+\end{quote}
+
+If you count how many you got correct from left to right, this is another way to measure immediate memory span. Instead of binary digits, the list could be decimal digits:
+
+\begin{quote}
+4986754322345112
+\end{quote}
+
+Or, letters, letters and digits, and so on.
+
+Miller again used information theory, but this time he distinguished between the information in a stimulus and the information across a list of stimuli. For example, a single binary digit can be represented by a single bit. A list of 7 binary digits then required 7 bits.
+
+A decimal number is a different kind of stimulus, and requires more bits to represent a single stimulus. For example, a single decimal could any of the 10 symbols between 0 and 9 (0,1,2,3,4,5,6,7,8,9). According to information theory, it takes 3.32 bits to represent a equi-probably choice between 10 alternatives. Therefore, a list of 7 decimal digits would require 3.32 bits * 7 = 23.24 bits.
+
+The same calculations were made for the other stimulus sets. There are 26 letters, requiring 4.7 bits per letter, and 32.9 bits for a list of 7 letters. There are 36 total symbols combining letters and digits, requiring 5.16 bits per symbol, and 36 bits for a list of 7. If 1000 words are taken as 1000 unique symbols, then 9.96 bits are required to represent a single word. A list of seven words would require 69.7 bits.
+
+Here is the first take-home message of Miller's information theory analysis of the different stimulus sets: \textbf{some stimuli carry more information per item than other stimuli}. For example, binary digits carry less information than decimal digits, because binary digits have few possible symbols than decimal digits. Decimal digits carry less information than letters. Letters carry less information words. By information theory definition, stimuli with more possible symbols carry more information than stimuli with fewer possible symbols.
+
+So, what happened in Hayes immediate memory span experiment? Remember, he measured immediate memory span for lists from the different stimulus sets I just described. Does immediate memory span depend on the amount of information in the stimuli? The answer is, not really, no, not so much.
+
+\begin{floatright50}
+\includegraphics[width=1\linewidth]{imgs/Miller_im_span}
+
+\end{floatright50}
+
+The immediate memory span data is shown to the right. The y-axis shows the average immediate memory span, and the x-axis is the amount of bits needed for each kind symbol. The take-home message that immediate memory span was about 7 items for all of the stimulus sets. It was a little bit higher for binary digits, compared to words, but nowhere near as high as it should be. If people could handle 7 words just just fine, then they should have an immediate memory span closer to 40 for binary digits (which required fewer bits than words). Instead, the spans were pretty similar across stimuli.
+
+Miller suggested that immediate memory escapes capacity limitations imposed by information at the level of stimulus sets through a recoding process. He called this process chunking.
+
+At the level of stimulus information, seven bits would be required to code seven binary digits. However, as discussed earlier 69.7 bits would be required to code seven words (from a set of 1000 words). It seemed that people were totally capable of remembering 7 words, even though the amount of stimulus information required was way higher. How could this be? Miller proposed that immediate memory was recoding the stimulus into chunks, or individual units. This allowed immediate memory to treat any kind of stimulus as a single chunk. As a result, the capacity of immediate memory was not limited by the amount of information in each stimulus (e.g., binary symbol vs word symbol), it was limited by the number of chunks.
+
+\hypertarget{on-tasks-abilities-and-processes}{%
+\section{On tasks, abilities, and processes}\label{on-tasks-abilities-and-processes}}
+
+We're about to finish up this chapter by discussing short-term, long-term, and working memory. Before we do that, now is a good time to discuss some differences between tasks, abilities, and processes. It can be easy to confuse one for the other. Let's use the immediate memory span that we discussed above as an example.
+
+\hypertarget{tasks}{%
+\subsection{Tasks}\label{tasks}}
+
+The immediate memory span task is a laboratory memory task, and was created as a research instrument. The task involves presenting a list of items, like numbers or letters, and then asking participants to repeat back as many as possible from memory. The number of items repeated back correctly is a measure of performance in the task, and the measurement is given a name like immediate memory span. There are many other tasks like the immediate memory span task that measure cognitive abilities. They typically have controlled properties that the experimenter can vary, and they require participants to perform the task (by following the instructions) to the best of their ability.
+
+\hypertarget{abilities}{%
+\subsection{Abilities}\label{abilities}}
+
+I have been using the term cognitive ability throughout this textbook to refer broadly to successful performance in tasks that require ``cognition.'' For example, if you successfully completed an immediate memory span task, and your immediate memory span was found to be 10, then you clearly have the ability to perform that task, and you also have the ability to remember 10 items from the list of items you were presented.
+
+\hypertarget{processes}{%
+\subsection{Processes}\label{processes}}
+
+I will define cognitive processes as theoretical mechanisms underlying the ability to perform a task. For example, if you were able to remember 10 items in an immediate memory span task, how were you able to do that? What were the mechanisms enabling you to perform the task, and how do those mechanisms work?
+
+In the next section we will look at a formative cognitive process explanation of short and long-term memory from the late 1960s. We will review the theory's proposed mechanisms of short and long-term memory, and how they work together to explain performance in a classic memory task. Then, before heading on to the last section on working memory, we will again consider relationships between cognitive tasks, abilities, and processes to entertain alternative viewpoints on the distinction between short and long-term memory.
+
+\hypertarget{short-and-long-term-memory}{%
+\section{Short and long term memory}\label{short-and-long-term-memory}}
+
+I'm guessing you have heard of short-term memory and long-term memory. It's OK if you haven't. These are terms from cognitive psychology that are commonly used to describe memory abilities. We've all forgotten something that just happened, and maybe blamed short-term memory. We've all remembered something from ages ago\ldots thanks to long-term memory. Clearly, some memories can last a long time, and some don't. What is going on here? Why is memory behaving so differently?
+
+One potential answer is that there are two memory systems. A short-term memory system and a long-term memory system. The short-term system is limited in capacity, so it can only hold a few things-- like Miller's chunks-- for a short time. Short-term memory explains things like forgetting a phone-number right away. It went in your short-term memory system, and was easily forgotten. Perhaps the phone-number was pushed out by new incoming information. The long-term system has a much larger capacity, so it can hold many things for a long time. This explains why you can remember some events in great detail from a long-time ago.
+
+Before we look at this idea more closely let me first make a comment about independent systems. First, the distinction between a short and long-term memory is between supposedly separate systems. There are lots of examples of separate systems in humans, especially at a physiological level. For example, we could consider different organs in the body as separate independent systems, each doing their own job in the connected network of your body. In terms of brain function, there are also different perceptual systems and brain areas mostly dedicated to processing information from each modality. I think partly because systems like these do exist, that some researchers adopt a ``systems-focused'' approach to cognition. In this approach, one of the goals is to find all of the systems, and then interrogate them to understand how they work.
+
+\hypertarget{multi-store-model}{%
+\subsection{Multi-store model}\label{multi-store-model}}
+
+Atkinson and Shiffrin's multi-store model (also called the modal model) from 1968\footnote{\protect\hyperlink{ref-atkinsonHumanMemoryProposed1968}{Atkinson, R. C., \& Shiffrin, R. M. (1968). Human memory: {A} proposed system and its control processes. In \emph{Psychology of learning and motivation} (Vol. 2, pp. 89--195). {Elsevier}}.} is an excellent example of an early cognitive process explanation. I will describe the model in general terms; however, the original model was also more formally presented in mathematical terms as well. This allowed the theory to generate quantitative predictions that closely matched data patterns in a variety of memory tasks. The next two figures depict how the model envisions encoding, storage and retrieval in memory.
+
+\begin{floatright50}
+\includegraphics[width=1\linewidth]{imgs/Multi_store_1}
+
+\end{floatright50}
+
+The first figure shows an information flow diagram between storage locations in the multi-store model. First, environmental stimuli (external inputs to the model) are converted into representations and briefly stored in sensory registrars. The sensory register is assumed to hold onto perceptual information for a very limited time. The information in the sensory register will be lost, unless it gets transferred to the short-term or long-term store. Notice, that information from the sensory register could go either to the short-term store or directly to the long-term store. As implied by the name, the short-term store is limited in capacity and can only store a small number of items. The long-term store has a much larger capacity, and can store many items over a very long time. Finally, the model describes control operations for passing information between the short and long-term stores. These operations are described next.
+
+\begin{floatright50}
+\includegraphics[width=1\linewidth]{imgs/Multi_store_2}
+
+\end{floatright50}
+
+In general, the short-term store is described as a temporary buffer that keeps a memory representation ``alive,'' and is capable of transferring a representation from the sensory registrar to the long-term store for more permanent storage. The model likens the short-term store to a rehearsal buffer. For example, have you ever tried to remember something, like a phone number, by saying it over and over to yourself? This is called a rehearsal strategy. The model suggests that the short-term store is the place where rehearsal takes place, and further suggests that the buffer has a limited number of slots, which means that only a few items may be in the rehearsal loop at any given time. The model also suggests that items in the short-term store are gradually transferred to the long-terms store. So, items that stay longer in the rehearsal are more likely to be fully preserved in long-term memory, because they had more time to be transferred to the long-term store. The long-term store was still vulnerable to information loss, and memory traces could decay over time, or interfere with one another during memory retrieval.
+
+Although less clear from the figures, the model also described potential rules for retrieving information from long-term memory. For example, retrieving a representation from memory could involve a search process where a person ``looks'' through things in their memory until they find what they are looking for. Additionally, the search process relies on cues to aid the search. For example, if you were searching your memory for names of American presidents, at some point you might run out names, even if you felt you could name few more. In this case, you might use a cuing strategy. For example, the letters of the alphabet could help focus your memory search. Thinking about the letter ``A,'' could help you remember ``Abraham Lincoln''; or, the letter ``B'' might help you remember ``Lyndon B. Johnson.'' Finally, the short-term system was involved in remembering information from the long-term system. For example, the short-term system could be rehearsing the cue ``B,'' while the search of long-term memory is conducted.
+
+\hypertarget{serial-position-recency-and-long-term-recency}{%
+\subsection{Serial Position, Recency, and long-term recency}\label{serial-position-recency-and-long-term-recency}}
+
+The operations of the multi-store model explained performance in an impressive range of memory tasks. We will discuss its application to the serial position curve, and describe two successes of the model, and one failure to account for recency effects.
+
+I mentioned earlier that Ebbinghaus had shown examples of the serial position effect. Since Ebbinghaus, many researchers noticed serial-position effects in experiments where participants tried to learn a list of items.
+
+\begin{floatright50}
+\includegraphics[width=1\linewidth]{imgs/Serial_position_1}
+
+\end{floatright50}
+
+The graph shows the serial position effect from Deese \& Kaufman,\footnote{\protect\hyperlink{ref-deeseSerialEffectsRecall1957a}{Deese, J., \& Kaufman, R. A. (1957). Serial effects in recall of unorganized and sequentially organized verbal material. \emph{Journal of Experimental Psychology}, \emph{54}(3), 180. \url{https://doi.org/drc265}}.} obtained from a free recall memory task.\footnote{See also, \protect\hyperlink{ref-murdockjrSerialPositionEffect1962}{Murdock Jr, B. B. (1962). The serial position effect of free recall. \emph{Journal of Experimental Psychology}, \emph{64}(5), 482. \url{https://doi.org/d3jxkh}}.} In this task, subjects heard a list of unrelated words (either 10 words or 32 words), and then they had to recall as many words as they could. In a free recall task, a subject can write any word they want in any order. After the subjects wrote down the words they recalled, the researchers analyzed which words were most likely to be recalled as a function of original position in the list. The graph shows primacy and recency effects. Subjects were more likely to recall words from the beginning (primacy) and ending (recency) of the list, compared to the words from the middle.
+
+\hypertarget{explaining-the-serial-position-effect}{%
+\subsubsection{Explaining the serial position effect}\label{explaining-the-serial-position-effect}}
+
+The multi-store model provided explanations of both primacy and recency effects. The short-term rehearsal buffer had a prominent role in explaining both effects. To appreciate this influence, consider how a person might use a rehearsal strategy to memorize as many words as possible in a free recall task.
+
+Imagine you are about to hear 32 words in a row. You will hear one new word every 2 seconds. It's hard to keep track of all the words; but, you can try to rehearse them out loud, or in your head. So, as you hear each new word, you begin saying them to yourself, over and over again. As you get more words, you try to keep rehearsing them all, but some of them get lost or forgotten because it is hard to rehearse too many words at the same time (i.e., rehearsal is capacity limited).
+
+According to the multi-store model, the more time items spend in the rehearsal buffer, the more they are transferred to long-term memory. Does this idea have implications for which words should be recalled from a list of otherwise random words? It offers a perspective on the primacy effect: words presented at the beginning of a list had the most opportunity to be rehearsed and transferred to long-term memory. As a result, words from the beginning of a list are more likely to be recalled because they are better preserved in long-term memory, compared to words from the middle and end of the list, that had much less of an opportunity to be rehearsed.
+
+Hold on a second! What about the recency effect? The words at the end of the list are also recalled at high rates, but they have very little time to be rehearsed. So, why are words at the end of the list recalled with a high probability? The multi-store model explains that the words at the end of the list are probably in the rehearsal buffer. They are the words that someone is saying over and over to themselves. When a person eventually begins recalling words, the first thing they do is write down all of the words they are rehearsing.
+
+To summarize, the primacy effect is explained by better representations in long-term memory as a result of rehearsal. The recency effect is explained by outputting the last items in the short-term rehearsal buffer. One virtue of the model was that it offered a potential explanation of phenomena like the serial position curve. Another virtue was that the ideas behind the explanation could be tested with further experiments.
+
+\hypertarget{recency-and-rehearsal}{%
+\subsubsection{Recency and Rehearsal}\label{recency-and-rehearsal}}
+
+What kind of experimental manipulation could you come up with to test the multi-store model's explanation of the recency effect? Let's re-imagine the situation.
+
+\begin{quote}
+You are hearing words, one at a time, for a later memory test. You start saying the words over and over to yourself to try to remember them. But, new words keep coming. You are rehearsing some words, but not all of them. You are trying the best you can. Then it's over, the words stop. You try to write down as many words as you can on a piece of paper. The first thing you do is write down all the words you were repeating over and over to yourself. These happen to be the most recent words you heard.
+\end{quote}
+
+The above describes the subjective experience of someone completing a free-recall task to emphasize how the strategy of rehearsing some words might lead a person to preferentially recall words at the end of a list. If the recency effect occurs because people are recalling words that they were rehearsing, then the recency effect should go away if people were prevented from rehearsing words at the end of the experiment.
+
+\begin{floatright50}
+\includegraphics[width=1\linewidth]{imgs/Serial_position_2}
+
+\end{floatright50}
+
+Postman \& Philips had already provided data that was consistent with the explanation of the multi-store model.\footnote{\protect\hyperlink{ref-postmanShorttermTemporalChanges1965}{Postman, L., \& Phillips, L. W. (1965). Short-term temporal changes in free recall. \emph{Quarterly Journal of Experimental Psychology}, \emph{17}(2), 132--138. \url{https://doi.org/csjdm5}}.} Their findings are shown to the right. They conducted a free-recall experiment but added a delay with an intervening task before subjects recalled words. In the 0 second condition, subjects heard a list of words and tried to recall all of the words right away. That group shows a clear primacy and recency effect. In the 30 second condition, after the list of words was presented subjects had to perform arithmetic for 30 seconds before recalling the items. Look what happened to the recency effect portion of the curve, it disappears. The interpretation from the multi-store model is that subjects were prevented from rehearsing the final words in the list because they had to do arithmetic instead. Therefore, during recall subject could only rely on long-term memory to perform the task. As result, they showed no recency effect because the short-term rehearsal buffer had lost any items due to the intervening task.
+
+\hypertarget{long-term-recency}{%
+\subsubsection{Long-term recency}\label{long-term-recency}}
+
+If the recency effect occurs because people are ``reading off'' whatever words are in their rehearsal buffer, what kind of experimental manipulation
+
+the fact that words from the beginning of a list are recalled more often is attributed to the
+
+According to the model, the primacy effect
+
+\begin{itemize}
+\tightlist
+\item
+  use subjective consensus
+
+  \begin{itemize}
+  \tightlist
+  \item
+    have you ever remembered something from a long time ago?
+  \item
+    have you ever forgotten something from a short time ago?
+    Yes\ldots We don't need research from cognitive psychology to tell us these basic facts about our own experience. It is also possible to measure both examples in the lab. People can remember information over long periods of time, and they can also forget information over short periods of time. These observations fit with a distinction between two kinds of memory systems. One that holds information for a long period of time, and another that is limited to holding information for short periods of time. However, a classica debate in cognition is whether or not multiple memory systems, one for each phenomena, are necessary for the explanation.
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{working-memory}{%
+\section{Working Memory}\label{working-memory}}
 
 Information processing tradition\\
 - Miller
@@ -3005,6 +3249,9 @@ Alexander, D. M., Trengove, C., \& van Leeuwen, C. (2015). Donders is dead: Cort
 \leavevmode\hypertarget{ref-armstrongjrImageryAmericanStudents1894}{}%
 Armstrong Jr, A. C. (1894). The imagery of {American} students. \emph{Psychological Review}, \emph{1}(5), 496. \url{https://doi.org/dkhdx2}
 
+\leavevmode\hypertarget{ref-atkinsonHumanMemoryProposed1968}{}%
+Atkinson, R. C., \& Shiffrin, R. M. (1968). Human memory: {A} proposed system and its control processes. In \emph{Psychology of learning and motivation} (Vol. 2, pp. 89--195). {Elsevier}.
+
 \leavevmode\hypertarget{ref-bartlettRemembering1932}{}%
 Bartlett, F. C. (1932). \emph{Remembering}. {Cambridge Univ. Press.{[}LRS{]}}.
 
@@ -3082,6 +3329,9 @@ Davis, R. (1957). The human operator as a single channel information system. \em
 
 \leavevmode\hypertarget{ref-decampRelativeDistanceFactor1920}{}%
 De Camp, J. E. (1920). Relative distance as a factor in the white rat's selection of a path. \emph{Psychobiology}, \emph{2}(3), 245. \url{https://doi.org/bcx2m3}
+
+\leavevmode\hypertarget{ref-deeseSerialEffectsRecall1957a}{}%
+Deese, J., \& Kaufman, R. A. (1957). Serial effects in recall of unorganized and sequentially organized verbal material. \emph{Journal of Experimental Psychology}, \emph{54}(3), 180. \url{https://doi.org/drc265}
 
 \leavevmode\hypertarget{ref-dondersSpeedMentalProcesses1868}{}%
 Donders, F. C. (1868--1969). On the speed of mental processes. In W. G. Koster (Ed.), \emph{Attention and {Performance II}}. {North-Holland Publishing Company}.
@@ -3203,6 +3453,9 @@ Mandler, G. (23 C.E.--2002). Origins of the cognitive (r)evolution. \emph{Journa
 \leavevmode\hypertarget{ref-marksVisualImageryDifferences1973}{}%
 Marks, D. F. (1973). Visual imagery differences in the recall of pictures. \emph{British Journal of Psychology}, \emph{64}(1), 17--24. \url{https://doi.org/b6v5wv}
 
+\leavevmode\hypertarget{ref-millerMagicalNumberSeven1956}{}%
+Miller, George A. (1956). The magical number seven, plus or minus two: {Some} limits on our capacity for processing information. \emph{Psychological Review}, \emph{63}(2), 81.
+
 \leavevmode\hypertarget{ref-millerCognitiveRevolutionHistorical2003}{}%
 Miller, George A. (2003). The cognitive revolution: A historical perspective. \emph{Trends in Cognitive Sciences}, \emph{7}(3), 141--144. \url{https://doi.org/b7wqdk}
 
@@ -3217,6 +3470,9 @@ Morawski, J. G. (1986). Organizing {Knowledge} and {Behavior} at {Yale}'s {Insti
 
 \leavevmode\hypertarget{ref-munsterbergZurIndividualPscyhologie1891}{}%
 Munsterberg, H. (1891). Zur individual {Pscyhologie}. \emph{Centralblatt Fur Nervenheilkund Und Psychiatrie}, \emph{2}, 196--198.
+
+\leavevmode\hypertarget{ref-murdockjrSerialPositionEffect1962}{}%
+Murdock Jr, B. B. (1962). The serial position effect of free recall. \emph{Journal of Experimental Psychology}, \emph{64}(5), 482. \url{https://doi.org/d3jxkh}
 
 \leavevmode\hypertarget{ref-murreReplicationAnalysisEbbinghaus2015}{}%
 Murre, J. M. J., \& Dros, J. (2015). Replication and {Analysis} of {Ebbinghaus}' {Forgetting Curve}. \emph{PLOS ONE}, \emph{10}(7), e0120644. \url{https://doi.org/f7vfcn}
@@ -3239,8 +3495,14 @@ Parenthood, P. (2020). \emph{Statement about {Margaret Sanger} and {Planned Pare
 \leavevmode\hypertarget{ref-pavlovConditionedReflexesInvestigation1927}{}%
 Pavlov, I. P. (1927). \emph{Conditioned reflexes: {An} investigation of the physiological activity of the cerebral cortex} (A. G. V., Ed.). {London: Oxford University Press}. \url{http://books.google.com/books?hl=en\&lr=\&id=cknrYDqAClkC\&oi=fnd\&pg=PA1\&dq=pavlov\&ots=KAnkq8Z5Jb\&sig=9io8iEUzHMM3wDB0J7cMjT-bEcY}
 
+\leavevmode\hypertarget{ref-pollackInformationElementaryAuditory1952a}{}%
+Pollack, I. (1952). The {Information} of {Elementary Auditory Displays}. \emph{The Journal of the Acoustical Society of America}, \emph{24}, 745--749.
+
 \leavevmode\hypertarget{ref-popperLogicScientificDiscovery1959}{}%
 Popper, K. (1959). \emph{The logic of scientific discovery}. {(First English Edition) Hutchinson \& Co}.
+
+\leavevmode\hypertarget{ref-postmanShorttermTemporalChanges1965}{}%
+Postman, L., \& Phillips, L. W. (1965). Short-term temporal changes in free recall. \emph{Quarterly Journal of Experimental Psychology}, \emph{17}(2), 132--138. \url{https://doi.org/csjdm5}
 
 \leavevmode\hypertarget{ref-proctorHickLawChoice2018}{}%
 Proctor, R. W., \& Schneider, D. W. (2018). Hick's law for choice reaction time: {A} review. \emph{Quarterly Journal of Experimental Psychology}, \emph{71}(6), 1281--1299. \url{https://doi.org/gfs37w}

@@ -9,6 +9,10 @@
 
 ## Chapter Overview
 
+<!--
+questions, methods, findings, explanations, applications, and implications
+-->
+
 This chapter provides a broad view of some of the issues involved with describing, and tools and methods used to describe cognition and how it works. We begin to give some definition to cognition, although this definition expands across the rest of the textbook. Most of this chapter is concerned with background concepts that are important for understanding the processes by which we can create knowledge about how cognition works. This includes preliminary discussions about roles for theories and facts, philosophy of science, the scientific method and other methods for generating knowledge, and the kinds of explanations that provide more or less satisfying answers to questions about the mind.
 
 ## Taking a step back
