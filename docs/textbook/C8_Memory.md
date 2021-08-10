@@ -11,7 +11,7 @@ editor_options:
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|      10877|54.4 minutes |
+|      11108|55.5 minutes |
 
 ## Chapter Overview
 
@@ -81,131 +81,131 @@ To give you a better sense, here is a single list of nonsense syllables similar 
 <tbody>
   <tr>
    <td style="text-align:right;"> 1 </td>
-   <td style="text-align:left;"> ZES </td>
-   <td style="text-align:left;"> KAD </td>
-   <td style="text-align:left;"> DES </td>
-   <td style="text-align:left;"> TEB </td>
-   <td style="text-align:left;"> WEH </td>
-   <td style="text-align:left;"> XAQ </td>
-   <td style="text-align:left;"> SOQ </td>
-   <td style="text-align:left;"> QOQ </td>
-   <td style="text-align:left;"> ZAK </td>
-   <td style="text-align:left;"> TIJ </td>
-   <td style="text-align:left;"> XED </td>
-   <td style="text-align:left;"> KEM </td>
-   <td style="text-align:left;"> MUH </td>
+   <td style="text-align:left;"> BIP </td>
+   <td style="text-align:left;"> XEV </td>
+   <td style="text-align:left;"> DUV </td>
+   <td style="text-align:left;"> YUL </td>
+   <td style="text-align:left;"> BER </td>
+   <td style="text-align:left;"> YEY </td>
+   <td style="text-align:left;"> XOK </td>
+   <td style="text-align:left;"> WAH </td>
+   <td style="text-align:left;"> XEQ </td>
+   <td style="text-align:left;"> DEQ </td>
+   <td style="text-align:left;"> CAH </td>
+   <td style="text-align:left;"> VOK </td>
+   <td style="text-align:left;"> GIH </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 2 </td>
-   <td style="text-align:left;"> GOW </td>
-   <td style="text-align:left;"> YEX </td>
-   <td style="text-align:left;"> DOH </td>
-   <td style="text-align:left;"> GUK </td>
-   <td style="text-align:left;"> QIX </td>
-   <td style="text-align:left;"> SAJ </td>
-   <td style="text-align:left;"> DEM </td>
-   <td style="text-align:left;"> WEV </td>
-   <td style="text-align:left;"> RIY </td>
-   <td style="text-align:left;"> ZUR </td>
-   <td style="text-align:left;"> JIF </td>
-   <td style="text-align:left;"> GAH </td>
-   <td style="text-align:left;"> QIR </td>
+   <td style="text-align:left;"> HOX </td>
+   <td style="text-align:left;"> DEH </td>
+   <td style="text-align:left;"> HAZ </td>
+   <td style="text-align:left;"> WEL </td>
+   <td style="text-align:left;"> GOJ </td>
+   <td style="text-align:left;"> GIC </td>
+   <td style="text-align:left;"> SOG </td>
+   <td style="text-align:left;"> GUD </td>
+   <td style="text-align:left;"> GEC </td>
+   <td style="text-align:left;"> GER </td>
+   <td style="text-align:left;"> VIH </td>
+   <td style="text-align:left;"> WOH </td>
+   <td style="text-align:left;"> YIF </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 3 </td>
-   <td style="text-align:left;"> WUH </td>
-   <td style="text-align:left;"> POF </td>
-   <td style="text-align:left;"> FUZ </td>
-   <td style="text-align:left;"> CEB </td>
-   <td style="text-align:left;"> WUH </td>
-   <td style="text-align:left;"> ZEW </td>
-   <td style="text-align:left;"> KOD </td>
-   <td style="text-align:left;"> QAR </td>
-   <td style="text-align:left;"> LUJ </td>
-   <td style="text-align:left;"> XEG </td>
-   <td style="text-align:left;"> FOD </td>
-   <td style="text-align:left;"> ZAT </td>
-   <td style="text-align:left;"> JOH </td>
+   <td style="text-align:left;"> VEL </td>
+   <td style="text-align:left;"> VIT </td>
+   <td style="text-align:left;"> XIB </td>
+   <td style="text-align:left;"> ZOR </td>
+   <td style="text-align:left;"> ZIW </td>
+   <td style="text-align:left;"> VOK </td>
+   <td style="text-align:left;"> QOJ </td>
+   <td style="text-align:left;"> WIV </td>
+   <td style="text-align:left;"> SAR </td>
+   <td style="text-align:left;"> GUW </td>
+   <td style="text-align:left;"> CEZ </td>
+   <td style="text-align:left;"> HIZ </td>
+   <td style="text-align:left;"> HUL </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 4 </td>
-   <td style="text-align:left;"> JUC </td>
-   <td style="text-align:left;"> WUG </td>
-   <td style="text-align:left;"> WAK </td>
-   <td style="text-align:left;"> NON </td>
-   <td style="text-align:left;"> CID </td>
-   <td style="text-align:left;"> LUJ </td>
-   <td style="text-align:left;"> WUH </td>
-   <td style="text-align:left;"> NUZ </td>
-   <td style="text-align:left;"> HOM </td>
-   <td style="text-align:left;"> QAX </td>
-   <td style="text-align:left;"> TEQ </td>
-   <td style="text-align:left;"> DIK </td>
-   <td style="text-align:left;"> XIN </td>
+   <td style="text-align:left;"> ZOK </td>
+   <td style="text-align:left;"> FUW </td>
+   <td style="text-align:left;"> QEL </td>
+   <td style="text-align:left;"> VEP </td>
+   <td style="text-align:left;"> LUF </td>
+   <td style="text-align:left;"> QUC </td>
+   <td style="text-align:left;"> XEM </td>
+   <td style="text-align:left;"> BEB </td>
+   <td style="text-align:left;"> CUV </td>
+   <td style="text-align:left;"> CUC </td>
+   <td style="text-align:left;"> XEZ </td>
+   <td style="text-align:left;"> CUZ </td>
+   <td style="text-align:left;"> GIZ </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 5 </td>
-   <td style="text-align:left;"> SIK </td>
-   <td style="text-align:left;"> CIC </td>
-   <td style="text-align:left;"> MAQ </td>
-   <td style="text-align:left;"> RIV </td>
-   <td style="text-align:left;"> MEV </td>
-   <td style="text-align:left;"> DIJ </td>
-   <td style="text-align:left;"> YOP </td>
-   <td style="text-align:left;"> MOX </td>
-   <td style="text-align:left;"> CIL </td>
+   <td style="text-align:left;"> VIK </td>
+   <td style="text-align:left;"> GUG </td>
+   <td style="text-align:left;"> CUY </td>
+   <td style="text-align:left;"> XAW </td>
+   <td style="text-align:left;"> DIZ </td>
+   <td style="text-align:left;"> POV </td>
+   <td style="text-align:left;"> KIC </td>
    <td style="text-align:left;"> WUK </td>
-   <td style="text-align:left;"> YIF </td>
-   <td style="text-align:left;"> CUH </td>
-   <td style="text-align:left;"> MUP </td>
+   <td style="text-align:left;"> RUP </td>
+   <td style="text-align:left;"> XIH </td>
+   <td style="text-align:left;"> PEV </td>
+   <td style="text-align:left;"> LUQ </td>
+   <td style="text-align:left;"> ZES </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 6 </td>
-   <td style="text-align:left;"> ROV </td>
-   <td style="text-align:left;"> QET </td>
-   <td style="text-align:left;"> HIZ </td>
-   <td style="text-align:left;"> TOB </td>
-   <td style="text-align:left;"> JES </td>
-   <td style="text-align:left;"> FUY </td>
-   <td style="text-align:left;"> PAK </td>
-   <td style="text-align:left;"> DUR </td>
-   <td style="text-align:left;"> LUC </td>
-   <td style="text-align:left;"> KAJ </td>
-   <td style="text-align:left;"> NER </td>
-   <td style="text-align:left;"> COV </td>
-   <td style="text-align:left;"> YOV </td>
+   <td style="text-align:left;"> JUV </td>
+   <td style="text-align:left;"> XOR </td>
+   <td style="text-align:left;"> TAY </td>
+   <td style="text-align:left;"> KIK </td>
+   <td style="text-align:left;"> CIY </td>
+   <td style="text-align:left;"> SEB </td>
+   <td style="text-align:left;"> CER </td>
+   <td style="text-align:left;"> NOQ </td>
+   <td style="text-align:left;"> YIR </td>
+   <td style="text-align:left;"> HEJ </td>
+   <td style="text-align:left;"> KAQ </td>
+   <td style="text-align:left;"> XOP </td>
+   <td style="text-align:left;"> BUF </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 7 </td>
-   <td style="text-align:left;"> NOP </td>
-   <td style="text-align:left;"> CEY </td>
-   <td style="text-align:left;"> QOT </td>
-   <td style="text-align:left;"> KUZ </td>
-   <td style="text-align:left;"> JIS </td>
-   <td style="text-align:left;"> FEK </td>
-   <td style="text-align:left;"> HOX </td>
-   <td style="text-align:left;"> GEP </td>
-   <td style="text-align:left;"> QIY </td>
-   <td style="text-align:left;"> JAD </td>
-   <td style="text-align:left;"> POQ </td>
-   <td style="text-align:left;"> JAD </td>
-   <td style="text-align:left;"> FAQ </td>
+   <td style="text-align:left;"> PIF </td>
+   <td style="text-align:left;"> PUM </td>
+   <td style="text-align:left;"> FOW </td>
+   <td style="text-align:left;"> VEQ </td>
+   <td style="text-align:left;"> MIY </td>
+   <td style="text-align:left;"> BAW </td>
+   <td style="text-align:left;"> MOK </td>
+   <td style="text-align:left;"> ZAF </td>
+   <td style="text-align:left;"> NIC </td>
+   <td style="text-align:left;"> PEK </td>
+   <td style="text-align:left;"> JID </td>
+   <td style="text-align:left;"> JOP </td>
+   <td style="text-align:left;"> MEK </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 8 </td>
-   <td style="text-align:left;"> ZIR </td>
-   <td style="text-align:left;"> RUW </td>
-   <td style="text-align:left;"> CER </td>
-   <td style="text-align:left;"> DEJ </td>
-   <td style="text-align:left;"> HIW </td>
-   <td style="text-align:left;"> XON </td>
-   <td style="text-align:left;"> RAL </td>
-   <td style="text-align:left;"> POV </td>
-   <td style="text-align:left;"> ZUQ </td>
-   <td style="text-align:left;"> VUR </td>
-   <td style="text-align:left;"> TAY </td>
-   <td style="text-align:left;"> TIY </td>
-   <td style="text-align:left;"> KUB </td>
+   <td style="text-align:left;"> YEM </td>
+   <td style="text-align:left;"> PEK </td>
+   <td style="text-align:left;"> WUZ </td>
+   <td style="text-align:left;"> PEB </td>
+   <td style="text-align:left;"> HUD </td>
+   <td style="text-align:left;"> MIT </td>
+   <td style="text-align:left;"> SED </td>
+   <td style="text-align:left;"> KED </td>
+   <td style="text-align:left;"> TID </td>
+   <td style="text-align:left;"> HOV </td>
+   <td style="text-align:left;"> GIK </td>
+   <td style="text-align:left;"> VOZ </td>
+   <td style="text-align:left;"> BOZ </td>
   </tr>
 </tbody>
 </table>
@@ -232,7 +232,7 @@ If memory for a learned row was not perfect after a delay, then it would have to
 
 The blue line always shows the number of attempts needed during original learning. The black line shows the number of attempts needed during re-learning. The y-axis shows the number of attempts, and the x-axis shows the temporal delay between original learning and re-learning.
 
-<img src="C8_Memory_files/figure-epub3/unnamed-chunk-5-1.png" width="100%" />
+<img src="C8_Memory_files/figure-html/unnamed-chunk-5-1.png" width="100%" />
 
 What happened after a 20 minute delay? First, memory for a learned row was not perfect. Instead, about 16 re-learning attempts were needed to reach the once-time perfect criterion. However, even though a row could not be remembered perfectly after a 20 minute delay, the savings in re-learning showed that the original learning was "gone, but not completely forgotten". The savings in relearning was computed as the difference between original learning and relearning, or
 $30.77-16.26 = 14.51$. In other words, 14.5 practice attempts were saved, or not necessary, in getting back to the same level of performance. Re-learning the lists wasn't like riding a bike ^[an expression referring to skills that are supposedly learned once and not forgotten], but it wasn't like starting from scratch either.
@@ -592,9 +592,9 @@ Imagine you are about to hear 32 words in a row. You will hear one new word ever
 
 According to the multi-store model, the more time items spend in the rehearsal buffer, the more they are transferred to long-term memory. Does this idea have implications for which words should be recalled from a list of otherwise random words? It offers a perspective on the primacy effect: words presented at the beginning of a list had the most opportunity to be rehearsed and transferred to long-term memory. As a result, words from the beginning of a list are more likely to be recalled because they are better preserved in long-term memory, compared to words from the middle and end of the list, that had much less of an opportunity to be rehearsed.
 
-Hold on a second! What about the recency effect? The words at the end of the list are also recalled at high rates, but they have very little time to be rehearsed. So, why are words at the end of the list recalled with a high probability? The multi-store model explains that the words at the end of the list are probably in the rehearsal buffer. They are the words that someone is saying over and over to themselves. When a person eventually begins recalling words, the first thing they do is write down all of the words they are rehearsing. 
+Hold on a second! What about the recency effect? The words at the end of the list are also recalled at high rates, but they have very little time to be rehearsed. So, why are words at the end of the list recalled with a high probability? The multi-store model explains that the words at the end of the list are in the rehearsal buffer. They are the words that someone is saying over and over to themselves. When a person eventually begins recalling words, the first thing they do is write down all of the words they were rehearsing. 
 
-To summarize, the primacy effect is explained by better representations in long-term memory as a result of rehearsal. The recency effect is explained by outputting the last items in the short-term rehearsal buffer. One virtue of the model was that it offered a potential explanation of phenomena like the serial position curve. Another virtue was that the ideas behind the explanation could be tested with further experiments.
+To summarize, the primacy effect is explained by better representations in long-term memory as a result of rehearsal. The recency effect is explained by outputting the last items in the short-term rehearsal buffer. One virtue of the model was that it offered a potential explanation of phenomena like the serial position curve. Another was that the ideas behind the explanation could be tested with further experiments.
 
 #### Recency and Rehearsal
 
@@ -602,7 +602,7 @@ What kind of experimental manipulation could you come up with to test the multi-
 
 > You are hearing words, one at a time, for a later memory test. You start saying the words over and over to yourself to try to remember them. But, new words keep coming. You are rehearsing some words, but not all of them. You are trying the best you can. Then it's over, the words stop. You try to write down as many words as you can on a piece of paper. The first thing you do is write down all the words you were repeating over and over to yourself. These happen to be the most recent words you heard.
 
-The above describes the subjective experience of someone completing a free-recall task to emphasize how the strategy of rehearsing some words might lead a person to preferentially recall words at the end of a list. If the recency effect occurs because people are recalling words that they were rehearsing, then the recency effect should go away if people were prevented from rehearsing words at the end of the experiment. 
+The above describes how a rehearsal strategy  could lead someone to preferentially recall words at the end of a list. What would happen to the recent effect if people were prevented from rehearsing words at the end of the experiment? According to the multi-store model, the recency effect should be eliminated. 
 
 ::: {.floatright50 data-latex=""}
 
@@ -611,13 +611,30 @@ The above describes the subjective experience of someone completing a free-recal
 
 :::
 
-Postman & Philips had already provided data that was consistent with the explanation of the multi-store model [@postmanShorttermTemporalChanges1965]. Their findings are shown to the right. They conducted a free-recall experiment but added a delay with an intervening task before subjects recalled words. In the 0 second condition, subjects heard a list of words and tried to recall all of the words right away. That group shows a clear primacy and recency effect. In the 30 second condition, after the list of words was presented subjects had to perform arithmetic for 30 seconds before recalling the items. Look what happened to the recency effect portion of the curve, it disappears. The interpretation from the multi-store model is that subjects were prevented from rehearsing the final words in the list because they had to do arithmetic instead. Therefore, during recall subject could only rely on long-term memory to perform the task. As result, they showed no recency effect because the short-term rehearsal buffer had lost any items due to the intervening task.
+Postman & Philips already had data consistent with multi-store model explanation [@postmanShorttermTemporalChanges1965]. They manipulated whether or not subjects completed arithmetic problems before recalling words from a list. In the 0 second condition, subjects heard a list of words and tried to recall all of the words right away. That group shows clear primacy and recency effects, for all three list lengths. In the 30 second condition, subjects heard a list of words and then had to perform arithmetic for 30 seconds before recalling the items. The recency effect portion of the curve disappeared for all of the lists. The multi-store model explains that the arithmetic task disrupted the rehearsal process. Subjects were solving arithmetic problems rather than rehearsing the last few words from the list. According to the model, the short-term rehearsal buffer would no longer have any words in it. Therefore, only long-term memory could be used to recall words; and, recall from from long-term memory would produce a primacy effect, but not a recency effect.
 
 #### Long-term recency
 
+The multi-store model explained recency effects in terms of a short-term rehearsal buffer. The explanation was appealing because people use rehearsal strategies, and manipulating rehearsal could eliminate the recency effect. The explanation also lent itself to further tests. For example, the title of this subsection is "long-term recency". Can you imagine what a long-term recency effect might be, and why it would be a challenge to the multi-store model explanation?
+
+There are several examples of long-term recency effects. In general, they involve experimental conditions that compromise a short-term rehearsal buffer, but nevertheless produce recency effects in a free-recall task. Here are two examples. 
+
+In 1973, Tzeng reported a standard free-recall experiment with a twist. His subjects were given four lists of 10 words each. The twist was that after hearing each word, subjects spent 20 seconds counting backwards by 3s from a random starting digit. This was similar to the Postman & Philips manipulation, but the arithmetic was performed after every word, and not just at the end of the list. Counting backwards by 3s was a very demanding task that should occupy and replace the contents of any short-term rehearsal buffer. According to the multi-store model, Tzeng should not have found recency effects in this experiment, but he did.
+
+::: {.floatright50 data-latex=""}
 
 
+<img src="imgs/Tzeng_1973.jpg" width="100%" />
 
+:::
+
+The data to the right show Tzeng's results for initial and final recall. Initial recall is the solid line, and refers to the results of free recall tests performed right after encoding each list of 10 words (with 20 seconds of backwards counting for each word). There were four initial recall tests, one after each list. At the end of all four tests, there was a surprise final recall test, where subjects were asked to recall as many words as they could from all the lists. Final recall is the dashed line. Recency effects were obtained in both initial and final recall tests. 
+
+In 1977, Baddeley and Hitch [@baddeleyRecencyReexamined1977] reviewed several  additional examples of recency effects that were not easily explained by a short-term rehearsal buffer. One example was from naturalistic data they collected from rugby players. Near the end of a season, rugby players were asked to recall the names of teams they had played in previous games. The data showed a prominent recency effect, roughly as a function of number of intervening games. The players were more likely to recall teams from more recent games than more remote games. These kinds of findings suggested a role for long-term memory to produce recency effects, and that short-term rehearsal was not the sole explanation for recency effects.
+
+### Summary
+
+<!--
 If the recency effect occurs because people are "reading off" whatever words are in their rehearsal buffer, what kind of experimental manipulation 
 
 
@@ -632,7 +649,7 @@ According to the model, the primacy effect
   - have you ever forgotten something from a short time ago?
   Yes...We don't need research from cognitive psychology to tell us these basic facts about our own experience. It is also possible to measure both examples in the lab. People can remember information over long periods of time, and they can also forget information over short periods of time. These observations fit with a distinction between two kinds of memory systems. One that holds information for a long period of time, and another that is limited to holding information for short periods of time. However, a classica debate in cognition is whether or not multiple memory systems, one for each phenomena, are necessary for the explanation.
   
-
+-->
 
 ## Working Memory
   

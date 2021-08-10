@@ -1,8 +1,6 @@
-```{r, include = FALSE}
-source("global_stuff.R")
-```
 
-# Computational models
+
+# Computational modeling
 
 
 
@@ -24,9 +22,7 @@ To understand computer metaphors for cognition it is necessary to know what a co
 
 **Computer Room, 1949**
 
-```{r}
-knitr::include_graphics("imgs/NACA_computers.jpg")
-```
+<img src="imgs/NACA_computers.jpg" width="100%" />
 
 :::
 
@@ -36,9 +32,7 @@ Computers existed in various forms before the digital computer was introduced. T
 
 **Difference Engine**
 
-```{r}
-knitr::include_graphics("imgs/Babbage_diff.gif")
-```
+<img src="imgs/Babbage_diff.gif" width="100%" />
 
 :::
 

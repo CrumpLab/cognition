@@ -1,0 +1,31 @@
+```{r, include = FALSE}
+source("global_stuff.R")
+```
+
+# Memory II
+
+```{r, cache=FALSE}
+word_count <- wordcountaddin::word_count("C9_Memory_II.Rmd")
+wpm <- 200
+reading_time <- paste0(round(word_count/wpm, 1), " minutes")
+info <- data.frame(word_count,reading_time)
+colnames(info) <- c("Word Count","Reading Time")
+knitr::kable(info)
+```
+
+
+
+## Working Memory
+  
+Information processing tradition  
+- Miller
+  -chunking (coding)
+- STM/LTM models
+  
+## Memory Principles 
+
+Subjective processing tradition
+- memory principles
+- Tulving (subjective organization)
+ - and memory distinctions
+ - Semantic vs episodic

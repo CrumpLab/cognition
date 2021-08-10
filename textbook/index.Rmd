@@ -1,6 +1,6 @@
 --- 
 title: Instances of Cognition
-subtitle: Findings, Explanations, Applications, and Implications
+subtitle: Questions, Methods, Findings, Explanations, Applications, and Implications
 author: "Matthew J. C. Crump"
 site: bookdown::bookdown_site
 titlegraphic: "imgs/cover.png"

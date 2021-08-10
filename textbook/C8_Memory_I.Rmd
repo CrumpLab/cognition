@@ -8,10 +8,10 @@ editor_options:
 source("global_stuff.R")
 ```
 
-# Memory
+# Memory I
 
 ```{r, cache=FALSE}
-word_count <- wordcountaddin::word_count("C8_Memory.Rmd")
+word_count <- wordcountaddin::word_count("C8_Memory_I.Rmd")
 wpm <- 200
 reading_time <- paste0(round(word_count/wpm, 1), " minutes")
 info <- data.frame(word_count,reading_time)
@@ -21,7 +21,7 @@ knitr::kable(info)
 
 ## Chapter Overview
 
-This chapter overviews some memory research in cognition, covering a few early memory researchers, the emergence of different research traditions in the study of memory, and the information-processing approach to memory. The next chapter is also about memory, which elaborates on further memory principles along implicit influences in memory.
+The topic of memory occupies a large space in cognitive research, so it will be covered across two chapters. This chapter overviews the beginnings of memory research in cognition, covering a few early researchers, the emergence of different research traditions in the study of memory, and the information-processing approach to memory. 
 
 ## Some questions about memory
 
@@ -458,7 +458,7 @@ At the level of stimulus information, seven bits would be required to code seven
 
 ## On tasks, abilities, and processes
 
-We're about to finish up this chapter by discussing short-term, long-term, and working memory. Before we do that, now is a good time to discuss some differences between tasks, abilities, and processes. It can be easy to confuse one for the other. Let's use the immediate memory span that we discussed above as an example.
+We're about to finish up this chapter by discussing short and long-term memory. Before we do that, now is a good time to discuss some differences between tasks, abilities, and processes. It can be easy to confuse one for the other. Let's use the immediate memory span that we discussed above as an example.
 
 ### Tasks
 
@@ -481,7 +481,6 @@ I'm guessing you have heard of short-term memory and long-term memory. It's OK i
 One potential answer is that there are two memory systems. A short-term memory system and a long-term memory system. The short-term system is limited in capacity, so it can only hold a few things-- like Miller's chunks-- for a short time. Short-term memory explains things like forgetting a phone-number right away. It went in your short-term memory system, and was easily forgotten. Perhaps the phone-number was pushed out by new incoming information. The long-term system has a much larger capacity, so it can hold many things for a long time. This explains why you can remember some events in great detail from a long-time ago.
 
 Before we look at this idea more closely let me first make a comment about independent systems. First, the distinction between a short and long-term memory is between supposedly separate systems. There are lots of examples of separate systems in humans, especially at a physiological level. For example, we could consider different organs in the body as separate independent systems, each doing their own job in the connected network of your body. In terms of brain function, there are also different perceptual systems and brain areas mostly dedicated to processing information from each modality. I think partly because systems like these do exist, that some researchers adopt a "systems-focused" approach to cognition. In this approach, one of the goals is to find all of the systems, and then interrogate them to understand how they work.
-
 
 <!--
 Several memory models distinguish between short and long-term memory systems. The basic short-term/long-term distinction marks a branching point shaping different styles of memory research. Historically,  one side of the branch continued to make distinctions between different kinds of memory systems. Another side of the branch tended to focus more on the algorithms of memory processes. The next two chapters expand on the algorithmic branch. This chapter describes the multiple-systems approach, starting with the multi-store model.
@@ -541,9 +540,9 @@ Imagine you are about to hear 32 words in a row. You will hear one new word ever
 
 According to the multi-store model, the more time items spend in the rehearsal buffer, the more they are transferred to long-term memory. Does this idea have implications for which words should be recalled from a list of otherwise random words? It offers a perspective on the primacy effect: words presented at the beginning of a list had the most opportunity to be rehearsed and transferred to long-term memory. As a result, words from the beginning of a list are more likely to be recalled because they are better preserved in long-term memory, compared to words from the middle and end of the list, that had much less of an opportunity to be rehearsed.
 
-Hold on a second! What about the recency effect? The words at the end of the list are also recalled at high rates, but they have very little time to be rehearsed. So, why are words at the end of the list recalled with a high probability? The multi-store model explains that the words at the end of the list are probably in the rehearsal buffer. They are the words that someone is saying over and over to themselves. When a person eventually begins recalling words, the first thing they do is write down all of the words they are rehearsing. 
+Hold on a second! What about the recency effect? The words at the end of the list are also recalled at high rates, but they have very little time to be rehearsed. So, why are words at the end of the list recalled with a high probability? The multi-store model explains that the words at the end of the list are in the rehearsal buffer. They are the words that someone is saying over and over to themselves. When a person eventually begins recalling words, the first thing they do is write down all of the words they were rehearsing. 
 
-To summarize, the primacy effect is explained by better representations in long-term memory as a result of rehearsal. The recency effect is explained by outputting the last items in the short-term rehearsal buffer. One virtue of the model was that it offered a potential explanation of phenomena like the serial position curve. Another virtue was that the ideas behind the explanation could be tested with further experiments.
+To summarize, the primacy effect is explained by better representations in long-term memory as a result of rehearsal. The recency effect is explained by outputting the last items in the short-term rehearsal buffer. One virtue of the model was that it offered a potential explanation of phenomena like the serial position curve. Another was that the ideas behind the explanation could be tested with further experiments.
 
 #### Recency and Rehearsal
 
@@ -551,7 +550,7 @@ What kind of experimental manipulation could you come up with to test the multi-
 
 > You are hearing words, one at a time, for a later memory test. You start saying the words over and over to yourself to try to remember them. But, new words keep coming. You are rehearsing some words, but not all of them. You are trying the best you can. Then it's over, the words stop. You try to write down as many words as you can on a piece of paper. The first thing you do is write down all the words you were repeating over and over to yourself. These happen to be the most recent words you heard.
 
-The above describes the subjective experience of someone completing a free-recall task to emphasize how the strategy of rehearsing some words might lead a person to preferentially recall words at the end of a list. If the recency effect occurs because people are recalling words that they were rehearsing, then the recency effect should go away if people were prevented from rehearsing words at the end of the experiment. 
+The above describes how a rehearsal strategy  could lead someone to preferentially recall words at the end of a list. What would happen to the recent effect if people were prevented from rehearsing words at the end of the experiment? According to the multi-store model, the recency effect should be eliminated. 
 
 ::: {.floatright50 data-latex=""}
 
@@ -562,13 +561,47 @@ knitr::include_graphics("imgs/Serial_position_2.png")
 
 :::
 
-Postman & Philips had already provided data that was consistent with the explanation of the multi-store model [@postmanShorttermTemporalChanges1965]. Their findings are shown to the right. They conducted a free-recall experiment but added a delay with an intervening task before subjects recalled words. In the 0 second condition, subjects heard a list of words and tried to recall all of the words right away. That group shows a clear primacy and recency effect. In the 30 second condition, after the list of words was presented subjects had to perform arithmetic for 30 seconds before recalling the items. Look what happened to the recency effect portion of the curve, it disappears. The interpretation from the multi-store model is that subjects were prevented from rehearsing the final words in the list because they had to do arithmetic instead. Therefore, during recall subject could only rely on long-term memory to perform the task. As result, they showed no recency effect because the short-term rehearsal buffer had lost any items due to the intervening task.
+Postman & Philips already had data consistent with multi-store model explanation [@postmanShorttermTemporalChanges1965]. They manipulated whether or not subjects completed arithmetic problems before recalling words from a list. In the 0 second condition, subjects heard a list of words and tried to recall all of the words right away. That group shows clear primacy and recency effects, for all three list lengths. In the 30 second condition, subjects heard a list of words and then had to perform arithmetic for 30 seconds before recalling the items. The recency effect portion of the curve disappeared for all of the lists. The multi-store model explains that the arithmetic task disrupted the rehearsal process. Subjects were solving arithmetic problems rather than rehearsing the last few words from the list. According to the model, the short-term rehearsal buffer would no longer have any words in it. Therefore, only long-term memory could be used to recall words; and, recall from from long-term memory would produce a primacy effect, but not a recency effect.
 
 #### Long-term recency
 
+The multi-store model explained recency effects in terms of a short-term rehearsal buffer. The explanation was appealing because people use rehearsal strategies, and manipulating rehearsal could eliminate the recency effect. The explanation also lent itself to further tests. For example, the title of this subsection is "long-term recency". Can you imagine what a long-term recency effect might be, and why it would be a challenge to the multi-store model explanation?
+
+There are several examples of long-term recency effects. In general, they involve experimental conditions that compromise a short-term rehearsal buffer, but nevertheless produce recency effects in a free-recall task. Here are two examples. 
+
+In 1973, Tzeng reported a standard free-recall experiment with a twist. His subjects were given four lists of 10 words each. The twist was that after hearing each word, subjects spent 20 seconds counting backwards by 3s from a random starting digit. This was similar to the Postman & Philips manipulation, but the arithmetic was performed after every word, and not just at the end of the list. Counting backwards by 3s was a very demanding task that should occupy and replace the contents of any short-term rehearsal buffer. According to the multi-store model, Tzeng should not have found recency effects in this experiment, but he did.
+
+::: {.floatright50 data-latex=""}
 
 
+```{r}
+knitr::include_graphics("imgs/Tzeng_1973.jpg")
+```
 
+:::
+
+The data to the right show Tzeng's results for initial and final recall. Initial recall is the solid line, and refers to the results of free recall tests performed right after encoding each list of 10 words (with 20 seconds of backwards counting for each word). There were four initial recall tests, one after each list. At the end of all four tests, there was a surprise final recall test, where subjects were asked to recall as many words as they could from all the lists. Final recall is the dashed line. Recency effects were obtained in both initial and final recall tests. 
+
+In 1977, Baddeley and Hitch [@baddeleyRecencyReexamined1977] reviewed several  additional examples of recency effects that were not easily explained by a short-term rehearsal buffer. One example was from naturalistic data they collected from rugby players. Near the end of a season, rugby players were asked to recall the names of teams they had played in previous games. The data showed a prominent recency effect, roughly as a function of number of intervening games. The players were more likely to recall teams from more recent games than more remote games. These kinds of findings suggested a role for long-term memory to produce recency effects, and that short-term rehearsal was not the sole explanation for recency effects.
+
+### Systems or strategies?
+
+The multi-store model uses a series of mechanistic metaphors to theorize about memory. The metaphors are similar to the assembly line metaphor from last chapter. To-be remembered information is treated like raw material processed through an internal cognitive assembly line, from the sensory register to short and long-term storage locations. Furthermore, the metaphor treats storage like a physical object with structural limitations. For example, the short-term store has a limited number of slots, and can run out space. The structural metaphor emphasizes how the mechanical operation of a system can be used to explain memory, but it also de-emphasizes important non-structural factors that change performance like the strategies people use to perform a task.
+
+The idea of a short-term store implies the existence of a separate memory system with a limited number of physical slots. On this view, a task for future research could be to better understand the structural properties of the short-term system, and could lead to questions like the following: How many slots are there? How do they hold information. How does a piece of information get into the slot? How long can it stay in the slot? How does information in a slot get transferred to long term memory? Where are the slots in the brain? Is there some kind of mental crane that moves information into and out of slots?
+
+I generated the above questions by imagining the structures in the multi-store model were literal rather than metaphorical. In the next chapter, we will encounter further examples where memory systems are explained using similar literal metaphors. We will also look at counter examples where memory is examined in terms more general processing principles. 
+
+To anticipate that discussion, and to conclude this chapter, let's briefly consider the role of strategy in a free-recall task. I will refer to strategy as "the way" a person does a task. In many cases, the way a person does a task naturally influences aspects of how the task is performed. For example, swimmers can complete the task of swimming down a lane using many different kinds of strokes: freestyle, backstroke, breaststroke, butterfly, sidestroke, and any other method of moving about in the water. The different swimming strategies lead to different performance outcomes. For example, the fastest swimming times have been recorded by swimmers using the freestyle (or front-crawl) method. Just like in swimming, cognitive tasks can be completed using different strategies. For example, when given a list of words to remember, a person may decide to adopt the strategy of repeating some of the words over and over. Another person may decide to use a different strategy, like mentally visualize each word, find a rhyming word, think of a semantically related word, just listen to each word, or do whatever else they wanted to do. And, just like in swimming, the strategy used to complete a cognitive task can lead to different performance outcomes.
+
+The possibility of strategic influences on performance adds another layer of complexity to explanations of cognitive abilities. It may be unclear whether task performance reflects fundamental operations of a cognitive system, or something fundamental about how the strategy recruits cognitive systems to perform a task. For example, it is possible that rehearsal strategies in a free-recall task are limited by the structure short-term memory, and people can only rehearse as many items as they have slots in short-term memory. But, it is also possible that rehearsal strategies are limited for completely different reasons, such as the way that language processes allow people to repeat words over and over. Taken together, a finding like the recency effect could be potentially be explained by a dedicated system like a short-term store, by other cognitive processes enabling the strategy or "way" the task was performance, or a little bit of both.  
+
+## Summary
+
+This chapter introduced some early researchers, methods, findings, and theories from the memory domain. Memory research is central in cognition, and we have barely scratched the surface. So, the next chapter continues to overview perspectives on memory research continuing on from the information processing approaches of the 1960s. 
+
+
+<!--
 If the recency effect occurs because people are "reading off" whatever words are in their rehearsal buffer, what kind of experimental manipulation 
 
 
@@ -583,19 +616,5 @@ According to the model, the primacy effect
   - have you ever forgotten something from a short time ago?
   Yes...We don't need research from cognitive psychology to tell us these basic facts about our own experience. It is also possible to measure both examples in the lab. People can remember information over long periods of time, and they can also forget information over short periods of time. These observations fit with a distinction between two kinds of memory systems. One that holds information for a long period of time, and another that is limited to holding information for short periods of time. However, a classica debate in cognition is whether or not multiple memory systems, one for each phenomena, are necessary for the explanation.
   
+-->
 
-
-## Working Memory
-  
-Information processing tradition  
-- Miller
-  -chunking (coding)
-- STM/LTM models
-  
-## Memory Principles 
-
-Subjective processing tradition
-- memory principles
-- Tulving (subjective organization)
- - and memory distinctions
- - Semantic vs episodic

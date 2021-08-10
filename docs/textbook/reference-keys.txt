@@ -189,7 +189,7 @@ the-hick-hyman-law-could-be-violated
 hicks-explanations
 a-tale-of-two-confounds-priming-explanations
 information-theory-and-beyond
-memory
+memory-i
 chapter-overview-5
 some-questions-about-memory
 early-memory-research
@@ -236,10 +236,13 @@ serial-position-recency-and-long-term-recency
 explaining-the-serial-position-effect
 recency-and-rehearsal
 long-term-recency
+systems-or-strategies
+summary-1
+memory-ii
 working-memory
 memory-principles
-implicit-memory
-computational-models
+implicit-cognition
+computational-modeling
 categorization
 attention
 language-and-semantic-cognition
