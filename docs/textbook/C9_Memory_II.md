@@ -5,16 +5,119 @@
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|         29|0.1 minutes  |
+|       2358|11.8 minutes |
+
+## Chapter Overview
+
+This chapter continues to discuss memory research in cognition. In the last chapter we reviewed some early memory research that led into an information processing approach to memory in the 1960s. In this chapter we will pick up our discussion from this time period onward. I will also focus less on models of memory, and more on tasks, phenomena, and principles of memory. We will return to formal explanations in the computational modeling chapter.
+
+## Verbal Learning and Verbal Behavior
+
+The period of behaviorism in American psychology had a sizeable influence on the character of memory research that would follow in the 1950s, 60s, and 70s. And, itt is worth mentioning one of the transitional points between behaviorism and cognitive approaches to explain why so much of this chapter will be about memory for words.
+
+In 1938, B.F. Skinner published his book on a behaviorist approach to animal learning. However, Skinner also sought to apply his behaviorism to people, and all of their behavior as well. In 1947, Skinner's William James lectures at Harvard developed an extension of behaviorism to human language. The idea was that human language involved verbal behavior, and that principles of behaviorism could be applied to the domain of verbal behavior. Just like a science of behaviorism could determine how environmental stimuli could be manipulated to control a behavioral response in an animal, behaviorism could also determine the functional principles controlling the output of verbal responses in people. His lectures were widely circulated in unpublished form, and were eventually published in 1957, in the book "Verbal Behavior" [@skinnerVerbalBehavior1957]. At the same time, other domains like psycholinguistics were also developing, and Noam Chomsky famously critiqued the prospects of a behaviorist science of human language in his review of Skinner's book [@chomskyReviewVerbalBehavior1959]. One of the issues caught hanging in the balance was whether or not cognitive processes would be necessary for a successful account of language.
+
+Subsequently, behaviorist and cognitivist research streams emerged on topics of verbal behavior. Skinner's behaviorist approach to verbal behavior was followed up in behaviorist journals in the 60s, and some research in that tradition continued at a small pace [@eshlemanQuantifiedTrendsHistory1991]. In 1962, following a growing interest in verbal behavior from the emerging cognitive tradition [@coferOriginsJournalVerbal1978], a new journal was created called "The Journal of Verbal Learning and Verbal Behavior", and later renamed "Journal of memory and language" in 1985. Many other journals published memory research over that time period, but I am highlighting this journal for three reasons. First, the papers in that journal track several notable developments in memory  that we will discuss in this chaper. Second, the journal shows how ideas from the study of associative learning guided the renewed interest in experimental research on human memory. Last, if you ever wondered why memory research uses words as stimuli so often, it might have something to do with the verbal learning and verbal behavior phase of memory research.
+
+To make one more historical note, the growing divide between Skinner's operant behaviorism and cognitive psychology is nicely documented in Blough and Millward's 1965 review, "Learning: Operant Conditioning and Verbal Learning". They begin by quoting Kendler saying "In general, learning theorists understand each other much better than did their ancestors of two decades ago. Neobehaviorists, S-R functionalists, and statistical theorists can communicate easily with each other. Skinnerians also find it easy to communicate among themselves". The paper then reviews operant conditioning research in part A, and verbal learning in part B, with little overlap between the two research traditions. Their review of verbal learning also provides a bird's eye view of the increasingly wide-ranging empirical and theoretical concerns that was becoming a new era of cognitive psychology. Much of the work revolved around learning and memory.
+
+## Memory Methodology
+
+We have already seen a few different memory tasks in the last chapter. Ebbinghaus memorized lists of nonsense syllables. Bartlett had his method of serial reproduction. Von Restorff had people memorize pairs of items. There was also the immediate memory span task, and memory for lists of words testing with free-recall. There are many more memory tasks that have been used in the study of learning and memory. Some of these tasks become very popular and generate bursts of research interest. In this section, I will describe some general properties of memory tasks, and throughout the rest of this chapter we will encounter specific examples of the tasks in action. 
+
+Memory tasks typically involve two phases: encoding and retrieval. Generally speaking, the encoding phase involves the presentation of stimuli for a later memory test in the retrieval phase. For example, there were two phases in the free-recall experiments from last chapter showing the serial-position effect. In the encoding phase, participants were presented with a list of words. In the retrieval phase, participants were asked to recall as many words as they could. The encoding and retrieval phases could also overlap depending on how the experiment was conducted. For example, a participant could encode some items, then try to remember them, then encode some new items, and so on. 
+
+Memory tasks typically involve experimental manipulation of factors in the encoding and retrieval phases. One aim of the experiments is to determine which factors influence performance in the memory task. Another aim can be to test theories of memory processes. For example, some theories may make predictions about the extent to which the factors will influence memory performance. The addition of experimental manipulations can change almost any aspect of the basic task setup. 
+
+Some common manipulations include the following. The kind of information or stimuli presented or learned in the task. Stimuli can be words, pictures, artificial stimuli like nonsense syllables, or sounds, movies, sentences, and more. The frequency of presentation of items. The order of presentation of items. The temporal delay between the encoding phase and the later memory test. Manipulations can also include what the participant does to information during the encoding phase, or how they are asked to remember it in the retrieval phase. If you can think of something that might increase or decrease your ability to remember information, I'd say there is a good chance that a memory researcher may have tried the manipulation at some point in a published experiment.
+
+Memory tasks also involve different methods for measuring memory performance. For example, in the free recall task, a participant could be given a blank sheet of paper and asked to write down as many words as they can remember, in any order. In this task, memory performance could be measured as the number of words correctly written down. There are other tasks as well, such as the recognition task. In a recognition memory task, the retrieval phase involves presenting items to a participant, and having them judge whether the item is new (not presented in the encoding phase) or old (was presented in the encoding phase). Importantly, memory performance depends on the task used to measure memory. 
+
+### Issues with measuring memory: the case of recognition
+
+The recognition task is a good example to alert you to a common interpretation problem in memory research. The issue is that the choice and structure of a task can easily influence measurements of memory performance. For example, in a recognition memory task the retrieval phase involves a person making judgments about stimuli they have seem before, and stimuli they have not seen before. Old items from the encoding phase may be presented, and the correct answer is to identify them as old. New items that were not shown in the encoding phase are also presented, and the correct answer is to identify them as new. 
+
+One of the issues is that participants can always achieve 100% correct on the old items. All they have to do is say "old" for every item in the test, both old and new items. In this case, it would be obvious that the participant was not discriminating between old and new items, because they would also be 100% incorrect on the new items. This thought experiment highlights the fact that the recognition task can involve a discrimination judgment between old and new items. That is, the recognition task measures memory by having people make judgments about the difference between old and new items. The discrimination aspect of the task raises another major issue for experimenters, which is to choose which items to use as new items in the task. 
+
+Imagine an encoding phase were you read a list of 20 words that all began with the letter A. Then, in a recognition test you read one word at a time, and were asked to judge whether the word was old (from the list) or new (not from the list). How well do you think you would perform this task if all of the new words also began with the letter A, compared to a situation where all of the new words began with the letter Z? The recognition task would be very easy when all of the new words started with Z, and were obviously different from the words that began with A in the original list. The recognition task would be harder if the new words started with A, and were chosen to be very similar words to the studied list.
+
+The take home message from this discussion is that performance in a memory task may not necessarily involve memory processes, but could involve other cognitive abilities and processes that participants use to perform the task at hand. Memory researchers are well aware of these nuances, and are often at pains to experimentally control aspects of memory tasks to rule out confounding processes or interpretations. I raise these general issues of interpretation to encourage a little bit of caution when reading through the next section on memory phenomena. Here we will go through a list of findings from memory tasks. These findings are suggestive of general principles about how memory works, but they also reflect the specific ways that people perform laboratory tasks used in memory research.
+
+## Memory Phenomena
+
+The term memory phenomena refers to findings from performance in laboratory-based memory tasks. It could refer more broadly to everyday aspects of memory as well. For example, the feeling of *déjà vu* is an experience where people feel as though they have lived through a present moment before. This section will focus mostly on laboratory-based phenomena. There are more laboratory phenomena of memory than can fit in this chapter, so I have chosen some that are in my estimation reasonably representative of the very large literature. I will start by reminding you of some phenomena we have already discussed, and then continue with a small laundry list of newer phenomena.
+
+### Temporal Delay
+
+As we know from Ebbinghaus' research on the forgetting curve, memory performance tends to decline with increasing temporal delays between encoding and retrieval. Memory experiments often include a manipulation of delay, such as a short delay of 5 to 20 minutes, to longer delays of days, weeks, or months. In general, memory performance is usually worse after longer than shorter delays. But, memory can change in interesting ways over time, and manipulations of delay are known to interact with other factors too.
+
+### Distinctiveness
+
+Von Restorff showed that memory for a set of "isolated" items that were all different from one another was better compared to a set of "massed" items that were all similar to one another. In other words, memory performance in her task was better for the distinctive items. There have been many demonstrations that distinctiveness can influence later memory performance, and researchers continue to be interested in distinctiveness phenomena.
+
+### Serial Position
+
+In the last chapter saw that the order of items in a list (serial position) influenced memory performance in a free recall task. People generally recalled more words from the beginning (primacy) and ending (recency) of the list, compared to the words in the middle of the list. The relative size of primacy and recency effects can also depend on the format of the memory test (e.g., recall vs. recognition) [@oberauerUnderstandingSerialPosition2003].
+
+### Mental Imagery
+
+If you remember way back to the chapter on mental imagery, we learned about Paivio's work showing that memory performance is better for words that evoke more imagery than words that do not.
+
+### Picture Superiority effect
+
+Not surprisingly, the format of stimuli used in memory experiments influence memory performance. The picture superiority effect provides one example. As the old saying goes, "A picture is worth a thousand words", which apparently works for memory too. Several papers have reported that pictures are remembered better than words, in both recall tasks [@paivioWhyArePictures1968] and recognition tasks [@gehringRecognitionMemoryWords1976]. 
+
+More recently, Hockley showed the picture superiority effect extended to another kind of recognition task called "associative recognition" [@hockleyPictureSuperiorityEffect2008]. In this task participants saw pairs of items in the encoding phase. The item pairs were concrete noun words, or pairs of line drawings. In the recognition phase, participants saw word or picture pairs from the encoding phase, or rearranged versions of the pairs. Participants were better at recognizing the old pairs when they were pictures compared to words.
+
+### Frequency effects
+
+The frequency or number of times you encounter an item can influence later memory performance. However, item frequency can have unexpected influences on memory performance. For example, in a free recall task people  generally recall more high frequency words than low frequency words. However, in a recognition task, people often recognize low frequency words more accurately than high frequency words.
+
+For example, in a memory test for words involving
 
 
+For example, consider a memory test for words. The encoding phase involves a list with high and low frequency words. High frequency words occur many times in natural language, examples are: 
 
-## Working Memory
-  
-Information processing tradition  
-- Miller
-  -chunking (coding)
-- STM/LTM models
+
+, so a participant would be expected to have experienced high frequency words many times before the experiment. Low frequency words occur less often in natural language, so a participant would be expected to have less pre-experimental experience with the lo
+
+
+For example, a common finding is that 
+
+
+<!--
+## List of memory journals
+
+- Verbal Learning and Verbal Behavior
+- Journal of Memory and Language
+- Journal of experimental psychology: Learning, Memory, and Cognition
+- Journal of experimental psychology: General
+- Journal of Memory
+- Memory and Cognition
+- Memory
+- Canadian Journal of Experimental Psychology
+- Psychonomic Bulletin and Review
+- Psychological Review
+-->
+
+
+<!--
+## This or That Psychology
+
+A guiding theme for this chapter is the concept of a dichotomy. Dichotomies are a very common research strategy (for better or worse) throughout all of psychology, including cognition, and they are most definitely used in memory research. A dichotomy is a binary variable that divides something into two sides: this or that. In psychology, dichotomous variables are often used to describe properties of psychological phenomena. For example, here are a few binary oppositions common in cognition:
+
+1. Conscious vs. Unconscious
+2. Single system vs. multiple system
+3. Serial vs. Parallel
+4. Automatic vs. controlled
+5. Explicit vs. implicit
+
+Let's try applying these dichotomies to describe a psychological phenomena like the recency effect. For example, according to the multi-store model, the recency effect is a "conscious" phenomena. It is also a "multiple system" phenomena because people make the "controlled" and "explicit" decision to "serially" rehearse words in the short-term memory buffer. The use of dichotomies adds descriptive flavor to a psychological phenomena. At the same time, the terms don't always uniformly fit. For example, the long-term recency effect by Tzang isn't described very well by the same terms. In that case, people were using conscious, controlled, and explicit processes to count backwards in 3s while receiving words in the encoding phase. Nevertheless, a long-term recency effect was observed. Perhaps there is a "single" memory system that "automatically" causes the long-term recency effect by "unconsciously" or "implicitly" biasing how people perform the free recall task.
+
+In memory research, researchers commonly propose different sorts of dichotomies about the processes involved in memory phenomenon. Experiments are sometimes constructed to test dichotomous claims in attempt to determine whether a phenomena is "this kind of thing" or "that kind of thing". This research strategy was famously criticized by Alan Newell in the 1970s [], who suggested that "playing 20 questions with nature" that would inevitably fail as a research strategy in cognition. And, we will return to Newell's critcism after becoming more familiar and comfortable with the use of dichotomies in cognitive research. In the next section we will continue our discussion of multiple-system approaches to memory, where dichotomies are commonly used to distinguish between different kinds of systems. For example, in the multi-store model, the short-term system is *capacity-limited*, but the long-term system is not. The sensory register *automatically* represents new information from sensory channels, but the short-term store requires a *controlled* decision by the subject to enter representations into the rehearsal loop. 
+
+
+-->
   
 ## Memory Principles 
 
