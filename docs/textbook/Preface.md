@@ -78,6 +78,6 @@ Thanks to Miriam Deutch (Associate Librarian for Access Services/Art Specialist)
 
 Note, the date reflects the latest compilation of this book. CITATION IS TBD WHILE THE PROJECT IS UNDER DEVELOPMENT.
 
-Crump, M. J. C. (2021, August 10). Instances of Cognition: Findings, Explanations, Applications, and Implications. 
+Crump, M. J. C. (2021, August 13). Instances of Cognition: Findings, Explanations, Applications, and Implications. 
 
 

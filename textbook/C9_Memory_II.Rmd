@@ -43,7 +43,22 @@ Memory tasks also involve different methods for measuring memory performance. Fo
 
 The recognition task is a good example to alert you to a common interpretation problem in memory research. The issue is that the choice and structure of a task can easily influence measurements of memory performance. For example, in a recognition memory task the retrieval phase involves a person making judgments about stimuli they have seem before, and stimuli they have not seen before. Old items from the encoding phase may be presented, and the correct answer is to identify them as old. New items that were not shown in the encoding phase are also presented, and the correct answer is to identify them as new. 
 
-One of the issues is that participants can always achieve 100% correct on the old items. All they have to do is say "old" for every item in the test, both old and new items. In this case, it would be obvious that the participant was not discriminating between old and new items, because they would also be 100% incorrect on the new items. This thought experiment highlights the fact that the recognition task can involve a discrimination judgment between old and new items. That is, the recognition task measures memory by having people make judgments about the difference between old and new items. The discrimination aspect of the task raises another major issue for experimenters, which is to choose which items to use as new items in the task. 
+One of the issues is that participants can always achieve 100% correct on the old items. All they have to do is say "old" for every item in the test, both old and new items. In this case, it would be obvious that the participant was not discriminating between old and new items, because they would also be 100% incorrect on the new items. This thought experiment highlights the fact that the recognition task can involve a discrimination judgment between old and new items. The ability to tell the difference between old and new items is commonly measured by hits and false alarms.
+
+#### Hits, False Alarms, misses and correct rejecdtions
+
+Hits and false alarms come from an analysis technique called [signal detection theory](https://en.wikipedia.org/wiki/Detection_theory) [@greenSignalDetectionTheory1966], commonly used to describe performance in recognition memory tasks. The table below shows the relationship between response in a recognition memory task, and terms in signal detection theory:
+
+|   |  OLD ITEM |  NEW ITEM |
+|---|-----------|-----------|
+| RESPOND OLD  |  HIT (Correct Answer) | FALSE ALARM  (Incorrect Answer) |
+| RESPOND NEW  |  MISS (Incorrect Answer) | CORRECT REJECTION  (Correct Answer) |
+
+A hit is correctly identifying an old item as old. A false alarm is incorrectly identifying a new item as old. We will not go more deeply into signal detection at this point. However, the hit and false alarm rates can be used to measure whether a person can discriminate between old and new items. If the hit and false alarms are equal, like 100% hits and 100% false alarms, then the person is not showing evidence they can tell the difference between old and new items. However, if the hit rate is greater than the false alarm rate, like 80% hits and 20% false alarms, then the person is showing evidence they can make the discrimination. The important aspect is that memory performance in the recognition task is assessed with both hit and false alarm, and not solely on the basis of one measure like proportion correct (hit rate).
+
+#### Choosing the lures (new items)
+
+The discrimination aspect of the recognition task raises the issues of which items to use as lures or new items in the task. Memory researchers sometimes use the word *lures* to describe new items in a recognition memory test, referring to whether or not participants  will take the bait and claim to have recognized the lure even though it was not presented in the encoding phase. The issue with choosing lures or new items, is that recognition performance will improve or worsen depending on whether the lures are easy or hard to discriminate from the old items. 
 
 Imagine an encoding phase were you read a list of 20 words that all began with the letter A. Then, in a recognition test you read one word at a time, and were asked to judge whether the word was old (from the list) or new (not from the list). How well do you think you would perform this task if all of the new words also began with the letter A, compared to a situation where all of the new words began with the letter Z? The recognition task would be very easy when all of the new words started with Z, and were obviously different from the words that began with A in the original list. The recognition task would be harder if the new words started with A, and were chosen to be very similar words to the studied list.
 
@@ -69,7 +84,7 @@ In the last chapter saw that the order of items in a list (serial position) infl
 
 If you remember way back to the chapter on mental imagery, we learned about Paivio's work showing that memory performance is better for words that evoke more imagery than words that do not.
 
-### Picture Superiority effect
+### Stimulus effects: Picture Superiority
 
 Not surprisingly, the format of stimuli used in memory experiments influence memory performance. The picture superiority effect provides one example. As the old saying goes, "A picture is worth a thousand words", which apparently works for memory too. Several papers have reported that pictures are remembered better than words, in both recall tasks [@paivioWhyArePictures1968] and recognition tasks [@gehringRecognitionMemoryWords1976]. 
 
@@ -77,18 +92,111 @@ More recently, Hockley showed the picture superiority effect extended to another
 
 ### Frequency effects
 
-The frequency or number of times you encounter an item can influence later memory performance. However, item frequency can have unexpected influences on memory performance. For example, in a free recall task people  generally recall more high frequency words than low frequency words. However, in a recognition task, people often recognize low frequency words more accurately than high frequency words.
+The frequency or number of times you encounter an item can influence later memory performance. For example, memory recall can improve for items presented more than once during learning [@petersonRecencyFrequencyPairedassociate1962,@petersonShorttermVerbalMemory1966].
 
-For example, in a memory test for words involving
+The number of times an item is presented during an encoding phase can also influence performance in a recognition task. For example, Hintzman showed a case where item frequency had no effect on recognition accuracy, but did influence the speed of recognition judgments [@hintzmanRecognitionTimeEffects1969]. However, this was a curious case, and I bring it up to quickly mention the concept of *ceiling* and *floor* effects. A ceiling effect occurs when performance is at the top a scale and can't go upward any further. For example, in Hintzman's study, participants were close 100% accurate in their recognition judgments for all items. The task was easy enough that they were at the ceiling after seeing an item only one time, and the remaining presentations of the item did not improve their performance, because they were already perfect. A *floor* effect is the opposite case, where performance is at the bottom of a scale, and is unable to go down further. Even though Hintzman's participants had near perfect recognition memory, the effect of item frequency was still evident on the reaction time measure. Recognition judgments became faster as the number of item presentations increased.
+
+Although higher frequency of experience generally translates to greater memorability, there are exceptions to the rule. In the previous examples, the frequency manipulation was applied in the encoding phase, and some items were presented more than others before the memory test. What about frequency effects for stimuli like words that have been encountered by participants outside of the context of a memory experiments? Some words occur with high frequency in the natural language, which means you encounter the words fairly often. For example, here are some very high frequency words: the, and, a to, said, in, was, you, but, that, etc. Low frequency words occur less often, and some examples are: aardvark, magnolia, caboose, filament, cassette, harmonize. In memory a task, the words presented during an encoding phase can be manipulated by their frequency of occurrence in the natural language. Interestingly, manipulations of word frequency influence memory performance in different ways depending on the task. For example, in a free recall task people generally recall more high frequency words than low frequency words; however, in a recognition task, people often recognize low frequency words more accurately than high frequency words [@greggWordFrequencyRecognition1976,@balotaTestexpectancyWordfrequencyEffects1980].
+
+### Presentation rate and spacing
+
+The role of frequency invites further questions the conditions surrounding the presentation and repetition of the item. For example, for how long is the item presented during the encoding phase? If the item will be repeated again, when will it be repeated? It could be repeated right away, or after some number of other items have been presented. The factors of presentation time and spacing between repetitions both influence memory performance. 
+
+::: {.floatright50 data-latex=""}
 
 
-For example, consider a memory test for words. The encoding phase involves a list with high and low frequency words. High frequency words occur many times in natural language, examples are: 
+```{r}
+knitr::include_graphics("imgs/Melton_1970.jpg")
+```
+
+:::
+
+The joint effects of presentation rate and spacing of repetitions are shown in the graph, and taken from an experiment by Melton and Shulman [@meltonSituationRespectSpacing1970]. The encoding phase varied how long participants viewed each word, and used presentation rates of 1.3, 2.3, and 4.3 seconds. The graph shows that probability of recall goes up as participants had more time with each word during the encoding phase. This experiment also included repetitions of some words throughout the encoding phase. Importantly, the repetitions were separated, or spaced out, by 0, 2, 4, 8, 20, or 40 intervening words. The graph shows in general that recall probability is higher for words presented twice, compared to only once. But, it also shows an effect of the spacing manipulation. Recall was improved for repetitions that were more spaced out compared to repetitions that occurred with fewer intervening events.
+
+### Retro-active and pro-active interference
+
+Memory tasks may involve multiple lists of stimuli, or multiple encoding and retrieval phases. Memory performance for a particular list, or performance in one of the tests, can depend on the other lists and tests. These influences are generally termed retroactive and proactive interference, and have been objects of research interest for man years [@brittRetroactiveInhibitionReview1935].
+
+#### Retroactive interference
+
+Retroactive interference refers to cases when subsequent learning activities in the future influence prior learning from the past. Retroactive interference can be observed in designs with multiple phases, and is the finding that memory performance for items from a first phase can depend on tasks performed in a second phase. 
+
+Postman provides a clear example [@postmanRetroactiveInhibitionRecall1952]. In a first phase (called original learning), subjects encoded 24 nonsense syllables and were then given a memory test. In a second phase (called interpolated learning), subjects in the experimental group were given 24 new nonsense syllables to remember, and subjects in a control group read the *New Yorker* magazine instead. In the final phase, everyone was retested for the items from the first list. 
+
+In general, everyone was better on the first test compared to the second retest. In other words, everyone forgot some of the nonsense syllables between the first and second test. However, the experimental group showed even more forgetting than the control group. Remember, the experimental group had to learn a second list of nonsense syllables after the first. This second learning is described as "retroactively" interfering with memory for items from the first list. Postman also showed in that more retroactive interference occurred when memory was tested with a recall procedure compared to a recognition procedure.
+
+#### Proactive interference
+
+Proactive interference happens when previous learning activities from the past interferes with current learning activities in the present. For example, Ebbinghaus experienced proactive interference as he was learning his lists of nonsense syllables. In this case, his memory for a current list was influenced by the number of lists that he had previously learned. 
+
+::: {.floatright50 data-latex=""}
+
+```{r}
+knitr::include_graphics("imgs/Underwood_1957.png")
+```
+
+:::
+
+This figure from Underwood [@underwoodInterferenceForgetting1957] shows evidence of proactive interference compiled across several studies involving learning lists of items. The y-axis measures the percent of items recalled for a current list, the x-axis shows how many other lists had been previously learned. The curve shows that recall is very high when few lists were previously learned, and recall gets worse and worse as more lists were previously learned.
+
+### Number of associates and the Fan effect
+
+People have extensive background experience with words as they appear in natural language. Importantly, words in natural language are not like random collections of words often used in memory tests. Instead, words appear in sentences in highly structured ways. One important aspect of the structure is word frequency: some words appear more than others in the language. Another important aspect is **word co-occurrence**: words occur together with other words in sentences. Some words co-occur with many other words, and have a high number of associates; whereas, other words co-occur with fewer other words, and have a small number of associate. More generally, any item can be paired with more or less associates, referred to as the item's fan (associated items). And, the size of an item's fan influences memory processes [@andersonFanEffectNew1999]. For example, the time to recognize an item increases as its fan, or the number of associated items increases.
+
+Anderson demonstrated fan effects in a memory test for propositional sentences [@andersonRetrievalPropositionalInformation1974]. Participants studied sentences describing two concepts, a *person* in a *location*. Examples are presented below. Across the studied sentences, each concept was associated with one, two, or three facts. For example, the "hippie" person appeared in three locations, "park", "church", and "bank" (fan of 3). Similarly, the "park" location was visited by three people, the "hippie", "captain", and "fireman" (fan of 3). The lawyer only appeared in the cave, so both had a fan of 1.
 
 
-, so a participant would be expected to have experienced high frequency words many times before the experiment. Low frequency words occur less often in natural language, so a participant would be expected to have less pre-experimental experience with the lo
+```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+knitr::include_graphics("imgs/Fan_effect.png")
+```
+
+```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
+knitr::include_graphics("imgs/Fan_effect.png")
+```
+
+During the memory test subjects were shown original sentences that they had studied (target probes), or re-arranged sentences (foil probes) containing new pairings of the same people in different locations. Anderson showed that participants recognition time to accept target sentences, and to reject foil sentences increased as the fan for each word in the test sentence increased. A reproduction of the data reported by Anderson is shown in the figure below. 
+
+```{r}
+library(tibble)
+library(ggplot2)
+
+fan <- tibble(rts = c(1.11,1.17,1.22,
+                       1.17,1.2,1.22,
+                       1.15,1.23,1.36,
+                       1.2,1.22,1.26,
+                       1.25,1.36,1.29,
+                       1.26,1.47,1.47),
+              person = as.factor(rep(1:3,6)),
+              locations = as.factor(rep(rep(1:3,each=3),2)),
+              type = rep(c("Targets","Foils"),each=9)
+)
+
+ggplot(fan, aes(y=rts,x=person,group=locations,
+                color=locations))+
+  geom_line()+
+  facet_wrap(~type)+
+  ylab("Reaction Time (seconds)")+
+  xlab("Person Facts") 
+
+```
+
+All of the target sentences were studied during the encoding phase. It took longer to recognize a target sentence as the "person" and/or location "words" in the sentence had more facts associated with them. In general it took longer to reject the foil sentences, but it also took longer as a function of the number facts associated with each word in the sentence. So, a "fan effect" was observed for both studied sentences and re-arranged (foil) sentences.
 
 
-For example, a common finding is that 
+### Meaningfulness
+
+Meaningfulness influences memory performance, but the construct of meaningfulness is not as straightforward as some of the previous factors. Two examples of meaningfulness effects in memory are presented below. In general, more meaningful stimuli are more memorable than less meaningful stimuli.
+
+### The self-reference effect
+
+The self-reference effect suggests that relating information to yourself can help you remember it better [@donovanMetaanalyticReviewDistribution1999]. The original study [@rogersSelfreferenceEncodingPersonal1977] had participants encode lists adjectives in different ways to contrast shallow versus meaningful processing of the words. Shallow processing involved judging whether or not the word had big or small letters, or rhymed with another word. The most meaningful task presented adjectives along with the question, "Describes you?". Subjects simply had to respond "yes" or "no". The results showed memory for adjectives was highest for the words in the self-reference condition, when subjects had to consider whether or not the word described them.
+
+### Meaningful context
+
+bransfordContextualPrerequisitesUnderstanding1972
+
+### Context effects
+
 
 
 <!--
