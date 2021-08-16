@@ -187,16 +187,214 @@ All of the target sentences were studied during the encoding phase. It took long
 
 Meaningfulness influences memory performance, but the construct of meaningfulness is not as straightforward as some of the previous factors. Two examples of meaningfulness effects in memory are presented below. In general, more meaningful stimuli are more memorable than less meaningful stimuli.
 
-### The self-reference effect
+#### The self-reference effect
 
 The self-reference effect suggests that relating information to yourself can help you remember it better [@donovanMetaanalyticReviewDistribution1999]. The original study [@rogersSelfreferenceEncodingPersonal1977] had participants encode lists adjectives in different ways to contrast shallow versus meaningful processing of the words. Shallow processing involved judging whether or not the word had big or small letters, or rhymed with another word. The most meaningful task presented adjectives along with the question, "Describes you?". Subjects simply had to respond "yes" or "no". The results showed memory for adjectives was highest for the words in the self-reference condition, when subjects had to consider whether or not the word described them.
 
-### Meaningful context
+#### Meaningful context 
 
-bransfordContextualPrerequisitesUnderstanding1972
+Bransford and Johnson demonstrated an important role for meaningful context to support memory recall and comprehension [@bransfordContextualPrerequisitesUnderstanding1972]. They had participants read a short paragraph for a later comprehension and memory test. The paragraph is reprinted below. 
+
+> If the ballons popped, the sound wouldn't be able to carry since everything would be too far away from the correct floor. A closed window would also prevent the sound from carrying, since most buildings tend to be well insulated. Since the whole operation depends on a steady flow of electricity, a break in the middle of the wire would also cause problems. Of course, the fellow could shout, but the human voice is not loud enough to carry that far. An additional problem is that a string could break the instrument. Then there could be no accompaniment to the message. It is clear that the best situation would involve less distance. Then there would be fewer potential problems. With face to face contact, the lest number of things could go wrong.
+
+This paragraph was designed to be difficult to comprehend without further context. Each sentence could make some sense by itself, but as a whole, it may not be very clear what this paragraph is about.
+
+::: {.floatright25 data-latex=""}
+
+```{r}
+knitr::include_graphics("imgs/Bransford_context.png")
+```
+
+:::
+
+
+The critical manipulation in this experiment was whether participants received additional meaningful context, in the form of a cartoon picture. For example, one group saw the cartoon image to the right *before* they read the paragraph. Another group saw the same image *after* they read the paragraph. If you thought the paragraph was confusing before, try reading it while looking at this image to get a feel for how it could help support your comprehension of the paragraph.
+
+::: {.floatright25 data-latex=""}
+
+```{r}
+knitr::include_graphics("imgs/Bransford_partial.png")
+```
+
+:::
+
+Another group of participants were given a "partial context" cartoon picture displayed to the right. And, two last groups were not given any context at all. The "no context (1)" group received one opportunity to read the paragraph. The "no context (2)" group got to read the paragraph twice.
+
+After the encoding phase, participants were given a comprehension test and a recall memory test. The question was whether or not the presence or absence of meaningful context would influence comprehension scores, and number of ideas recalled from the paragraph. The table below shows the results from the experiment.
+
+```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+knitr::include_graphics("imgs/Bransford_data.png")
+```
+
+```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
+knitr::include_graphics("imgs/Bransford_data.png")
+```
+
+The comprehension test had a maximum score of seven. The *context before* group had the highest comprehension score (6.1), compared to all other groups. The recall test had a maximum score of 14. Again, the *context before* group had the highest recall score (8), compared to all other groups. Notably, all of the groups performed fairly similarly to one another, showing very little influence of reading the paragraph twice, seeing a partial context cartoon, or even getting the full context cartoon after initially reading the paragraph. The conclusion was that, in this case, receiving meaningful context **before** reading the paragraph was an important pre-requisite for later comprehension and recall.
 
 ### Context effects
 
+Have you ever walked into a room looking for something, and then forgot what you were looking for, or why you had went into the room? And, then went back into the room you came from and suddenly remembered the goal you had forgotten? This is an everyday example of an environmental context effect on memory. In this case, it seems like the room you are in can be a powerful remember of your current goals. 
+
+Similar effects of environmental context on memory performance have been demonstrated by memory researchers. One classic example is the experiment by Baddeley and Godden involving a group of underwater divers. They conducted their experiment at a dive location outside of a normal laboratory context. They had divers encode words in one of two locations on land or under water; and, then they had divers recall words in the same or different locations from where they encoded the words. All of the words were presented as audio using headphones. One group heard the words in a *dry* environment before they went for the dive; then, half of those divers were given a memory test in the same *dry* environment, and the other half went underwater and were given the memory test in the *wet* environment. Another group heard the words first underwater in the *wet* environment, and were tested underwater (wet) or on land (dry). The question was whether memory recall would be better if the encoding and retrieval contexts were the same (dry-dry, wet-wet) versus different (dry-wet, wet-dry). 
+
+The results from the experiment are presented in the table below:
+
+```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+knitr::include_graphics("imgs/Godden_Baddeley_data.png")
+```
+
+```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
+knitr::include_graphics("imgs/Godden_Baddeley_data.png")
+```
+
+The divers recalled more words when the encoding and and retrieval (learning and recall) environments matched. For example, they recalled 13.4 and 11.4 words in the matching *dry-dry* and *wet-wet* conditions. However, they only recalled 8.4 and 8.6 words in the *wet-dry* and *dry-wet* conditions.
+
+### Generation Effect
+
+The generation effect [@bertschGenerationEffectMetaanalytic2007] refers to the finding that generating information yourself can improve memory performance. For example, Slamecka and Graf [@slameckaGenerationEffectDelineation1978a] demonstrated participants had much better memory for words they generated themselves, compared to words they read.
+
+Their procedure involved a manipulation during the encoding phase. Participants either generated words or read words for a later memory test. In the generate condition, participants were shown cards with a word followed by a letter, and instruction to help them generate a word. For example, in the *synonymn* condition participants saw *rapid-F*, and had to generate rapid-*FAST*. In the reading condition, participants were shown *rapid-FAST*, and simply read the two words. There were a few different rules for the generation task, like generate an associate, the category label, an opposite, a synonym, or a rhyme word. 
+
+::: {.floatright50 data-latex=""}
+
+```{r}
+knitr::include_graphics("imgs/Generation_effect.png")
+```
+
+:::
+
+The results of the experiment are shown in the figure to the right. In all cases, the probability of recognizing a word was higher for generated words, compared to words that were read. They also found evidence that memory was better for generated than read words in a recall task, and in confidence judgments, where people are asked how confident they are about their recognition decisions.
+
+#### Enactment and Production Effects
+
+Enactment and production effects are similar to generation effects in memory. For example, the production effect [@macleodProductionEffectDelineation2010] shows that memory can be better for words that are read out loud (produced) versus read silently. And, enactment effects [@engelkampMemorySelfperformedTasks1994] shows that instructions are remembered better if they are carried-out (enacted) or imagined-to-be enacted versus not.
+
+### Testing effect (Retrieval practice)
+
+Have you ever wondered why some experiences are memorable than others? The testing effect suggests that the act of remembering an event itself can make the event easier to remember the next time. The testing effect, also called the retrieval-practice effect, occurs when people show better memory for items they have practiced retrieving or remembering compared to items that have not received similar amounts of practice [@roedigeriiiCriticalRoleRetrieval2011]. 
+
+One demonstration of the testing effect involved participants learning to read, remember, and understand two short English passages from the TOEFL (The Test of English as a Foreign Language) [@roedigeriiiTestenhancedLearningTaking2006]. There was a learning phase, separated by a 5 minute, 2 day, or 1 week retention interval, followed by a memory test to recall as many "idea units" from the paragraphs as possible. 
+
+The learning phase involved a *within-subjects* manipulation, which means that each person contributed data to both conditions of the experiment. In the *study-study* condition, participants studied one passage for 7 minutes, and then they re-studied the paragraph for 7 minutes. In the *study-test* condition, participants studied one passage for 7 minutes, and they were given a recall memory test, and asked to remember as many ideas from the passage as they could.
+
+::: {.floatright50 data-latex=""}
+
+```{r}
+knitr::include_graphics("imgs/Test_enhanced.png")
+```
+
+:::
+
+After the learning phase, participants were given a final recall test following a 5 minute, 2 Day, or 1 week delay. The results are shown in the graph to the right. The study-study group remembered the most ideas after a minute delay, but they remembered fewer and fewer ideas across 2 days and 1 week. The study-test group also remembered fewer ideas across the retention interval, but after 2 days and w 1 week they recalled more ideas than the study-study group. The take home finding was that the act of practicing remembering, rather than restudying the material, helped people remember more information over a longer period of time.
+
+### Directed forgetting
+
+Directed forgetting effects occur when memory performance is influenced by instructions to remember or forget information [@basdenDirectedForgettingContrast2013]. For example, Geiselman [@geiselmanPositiveForgettingSentence1974] had subjects read one sentence at a time for a later memory test. After each sentence, participants were presented with an "R", which meant they would be later tested on their memory for the sentence; or an "F", which meant they would not be tested on their memory for the sentence, and they could "forget" the sentence. However, subjects were given memory tests for all of the sentences, even the ones they were told to forget.
+
+::: {.floatright50 data-latex=""}
+
+```{r}
+knitr::include_graphics("imgs/Direct_forgetting.png")
+```
+
+:::
+
+The results from the experiment are shown in the figure. TBR stands for "to-be-remembered", and TBF stands for "to-be-forgotten". Using a free-recall task, participants recalled fewer sentences that were directed to be forgotten (TBF), compared to sentences that were directed to be remembered. The general trend was also obtained for other tests of memory,  like sentence completion and multiple choice, but the largest difference was observed with free-recall.
+
+### Summary: Memory Effects
+
+The above section lists numerous memory phenomena that have been investigated by cognitive psychologists. This is not a complete list, and the effects here were chosen to give a rough sample of the kinds of experiments and findings in this domain. Each of the effects listed here has been reproduced several times and in various ways. Most of the effects have also received substantial further investigation. For example, you may have not noticed that I did not offer any explanations of the above effects. In most cases, a great deal of additional experimental work has been conducted to test explanations and theories for each of the above effects, and many more. Instead of pursuing these issues in their minute detail, the rest of the chapter focuses on some broader themes in memory research. These include the concepts of memory processing principles, described next.
+
+## Memory processing principles
+
+The above list presents a large number of phenomena that a theory of memory processes could be expected to explain. Although we could spend the rest of this chapter discusses a few theories and models of memory that have been created to explain some of these effects, we will instead touch on some more general memory processing principles. As a sidenote, we will examine another memory model in more detail in the computational modeling chapter. 
+
+Memory processing principles are general rules of thumb for memory. They are not laws, because memory is a complex process and doesn't always behave in ways that can be described by simple laws. For example, whether or not memory performance will improve or decline under particular conditions is often an empirical question, where the answer is determined by creating the situation and observing what happens. Nevertheless, memory researchers have proposed general principles of processing that appear to broadly characterize several aspects of memory performance.
+
+### The levels of processing principle
+
+In the 1970s, Craik and Lockhart proposed the levels of processing principle to characterize several emerging patterns of performance that were spread across numerous findings. The levels of processing principle refers generally to the idea that strength and quality of encoding determines later memory. The principle distinguishes roughly between shallow and deep levels of encodings. For example, a shallow level of encoding would involve brief presentations with minimal additional processing, like reading or hearing some words for a short amount of time. Depth of processing at encoding could be increased by requiring additional operations beyond simply perceiving an item. The levels of processing principle suggests that memory is best for information given deep-encoding compared to shallow encoding.
+
+The general idea of levels of processing captures several trends in the list of memory effects. For example, the self-reference effect was developed as a general test of the levels of processing idea. In that study, words that were given shallow encoding were remembered worse than words given deeper encoding. The mental imagery, meaningfulness, generation, enactment, and production effects, could all reflect examples where more elaborate or deeper encoding led to better memory performance.
+
+The levels of processing principle was criticized for its apparent circularity. The principle was not a theory of memory processes, and did not explain the mechanisms involved in shallow or deep encoding. Instead, deep versus shallow encoding was inferred from measures of memory performance.
+
+### Context-dependent and Cue-dependent memory 
+
+There are many ways that memory appears to be dependent on context [@smithTheoreticalPrinciplesContextdependent1994]. On the one hand, context effects in memory are a phenomena in need of explanation. On the other hand, they point at a kind of general principle: context matters for encoding and retrieval. 
+
+During encoding, the formation of mental representations for new information is assumed to include contextual information. For example, encoding a picture of a face might include mental representations for objects in the foreground, like the face, and the scene in the background. In this case the scene could be acting as the context for the face. The word context is often used very generally, and one thing in general could serve as "context" for another thing. 
+
+During retrieval, memory is assumed to operate in a cue-driven manner. Specifically, a cue to memory can initiate and aid retrieval. For example, in everyday life you may have had the experience of "being reminded" of one thing, as a result of thinking or encountering another thing. Similarly, in a laboratory memory experiment, cues presented at retrieval can aid memory performance. For example, people may remember fewer words in a free recall task compared to a cued-recall task, that involves hints related to the words learned during the encoding phase.
+
+Putting the encoding and retrieval roles for context together, we get the idea that memory performance can benefit from matching encoding and retrieval contexts. If the cues that were encoded as contexts during encoding (e.g., a background scene) are represented at a later time, they can serve as a cue to memory to retrieve contextually associated information (e.g., a face) that was encoded together during encoding. 
+
+### Encoding specificity principle
+
+The encoding specificity principle was proposed by Tulving and Thompson [@tulvingEncodingSpecificityRetrieval1973], and is very similar to the previous principle. Here is the principle stated in the words of the authors:
+
+> "In its broadest form the [encoding specificity] principle asserts that only that can be retrieved that has been stored, and that how it can be retrieved depends on how it was stored. In its more restricted senses, the principle becomes less truistic and hence theoretically more interesting. For instance, we assume that what is stored about the occurrence of a word in an experimental list is information about the specific encoding of that word in that context in that situation. This information may or may not include the relation that the target word has with some other word...If it does, that other word may be an effective retrieval cue. If it does not, the other word cannot provide access to the stored information because its relation to the target word is not stored."
+
+The encoding specificity principle suggests that the details of how information was encoded in the first place matter for later memory retrieval. This principle is very similar to the previous one, with a greater emphasis on the processing that occurred during encoding, rather than the mere presence of contextual information. For example, according to the encoding specificity principle, contextual information present during memory encoding may or may not play help later retrieval; it all, depends on how the contextual information was encoded. If some target information was encoded in relation to its context, then contextual cues may be useful for retrieval later on. However, if the operations that occurred during encoding did not focus much on contextual information, then contextual cues may not be very useful as retrieval cues later on.
+
+### TIP/TAP: Transfer-inappropriate and transfer-appropriate processing
+
+The last memory principle is called the transfer appropriate processing principle. Sometimes it is also called TIP/TAP, for transfer-inappropriate vs. transfer-appropriate processing. The big idea here is that "cognitive processing" at both encoding AND retrieval matters for memory. In other words, how a person makes use of prior information encoded by memory depends on how the information was encoded in interaction with the demands of present task. Cognitive processing refers very broadly to the things, task, or other operations that a person does during encoding and retrieval. The principle suggests better memory when there is a match between the processing done at encoding and the processing required at test. In this case, the learning that occurred during encoding is appropriate for, and tranfers well to, the task required at retrieval. At the same time, worse memory performance may be observed when their is a mismatch between encoding and retrieval processing. In this case, the learning that occurred during encoding does not transfer well to the task at retrieval.
+
+The TIP/TAP principle further qualifies the preceding principles. For example, memory depends on how deeply you encode information (levels of processing), the context around the encoding episode (context-dependent memory), and how the information is encoded (encoding-specificity principle); but, memory performance will also depend on the nature of the processing required by the retrieval task. According to TIP/TAP, previous information becomes more available when retrieval processing conditions match well with encoding processing conditions, and becomes less available when the conditions mismatch. As a result, it is possible for memory to depend on very specific encoding and retrieval conditions. For example, failure to remember an item could be due to a failure of encoding, or a failure to produce the specific retrieval conditions necessary to cue memory for the item.
+
+#### Morris, Bransford and Franks
+
+In one demonstration, Morris, Bransford, and Franks [@morrisLevelsProcessingTransfer1977] showed that the tasks performed at encoding and retrieval can influence memory performance. They used a design typical of levels processing research, where subjects encoded words semantically (in a sentence) to encourage deep processing, or in a rhyming condition to encourage more shallow phonetic processing. In general, subjects should show better recognition memory for the semantically processed words compared to the phonetically processed words. The twist in the experiment was to include two different tests of recognition memory: a standard test, and another test involving rhyming. For example, in the standard test, subjects heard an old or new word and responded yes or no (to identify the word as old). In the rhyming test, subjects heard a rhyming cue word, and were asked to judge whether they heard a word that rhymed with the cue word during encoding. For example, if subjects had received EAGLE during encoding, they might be given the word LEGAL as a rhyming cue.
+
+::: {.floatright50 data-latex=""}
+
+```{r}
+knitr::include_graphics("imgs/Tip_Tap.png")
+```
+
+:::
+
+The table of results shows how tasks at encoding and retrieval influence memory performance. First, in the standard recognition memory test, the proportion of words recognized was higher for the semantic (.84) compared to rhyme (.63) encoding conditions. This result is in line with the levels of processing idea that words given deeper semantic encoding should be easier to remember than words given shallow phonetic encoding. However, looks what happened to memory performance in the rhyming test condition. In this case, rhyming recognition performance was worse for the semantic (.33) than the rhyming (.489) condition. In this case, the memory test involved cognitive operations related to rhyming, which apparently made it easier to remember words that were encoded with rhyming related operations compared to words that were not.
+
+## Procedures of Mind
+
+In the next chapter on implicit cognition we will continue to discuss some aspects of memory, including implicit influences on memory and learning. As a transition to those themes, I end this chapter with a skill-based memory framework that provides an interesting perspective on themes we have just finished talking about, and the ones we will discuss next. 
+
+Procedures of mind refers to a paper by Kolers and Roediger in 1984 [@kolersProceduresMind1984] that outlines a skill-learning and task-based view of cognition and memory. The general idea is that cognition can be understood in terms of tasks that people perform, and the collections of specific skills they learn to perform the tasks. The collections of specific skills are termed "procedures of mind". In this framework, a major problem for cognition is to understand how skill-learning in one situation or task transfers to other tasks and components of tasks. To provide a concrete example we will consider some of Kolers research on reading words upside down.
+
+### Kolerian Reading 
+
+Paul Kolers [@roedigeriiiPaulKolers19261987] (1926-1986) published several papers over his career on phenomena associated with learning to read geometrically transformed text. The picture below shows some examples of rotations and mirror inversions to text. If you try reading each of the sentences, you may notice that some of the transformations are easier to read and others are harder to read.
+
+```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+knitr::include_graphics("imgs/Procedures_text.png")
+```
+
+```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
+knitr::include_graphics("imgs/Procedures_text.png")
+```
+
+Kolers ran many kinds of experiments where people practiced the skill of reading geometrically transformed text [@kolersPatternanalyzingMemory1976;@kolersReadingYearLater1976]. Several of his important findings are illustrated by the learning and transfer curves in the next graph. In this experiment [@kolersSpecificityPatternanalyzingSkills1978], participants practiced reading text for up to 7 one hour long sessions. They all received the exact same text, however one group practiced reading words out loud, and the other group practiced naming the letters in each word out loud.
+
+```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+knitr::include_graphics("imgs/Procedures_transfer.png")
+```
+
+```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
+knitr::include_graphics("imgs/Procedures_transfer.png")
+```
+
+A first important finding was that people get better at both tasks with practice. Everyone struggled to read the inverted words and letter at the beginning, but they all got faster as they practiced more passages.
+
+The second and more important finding was that people showed some general and some selective skill learning. In particular, the task of reading text or naming letters appeared to change the kinds of skills that were learned. And, each task required some similar and some different skills. As a result, learning from one task transferred to another in different ways.
+
+After learning 15 passages, the participants in the naming letters conditions (white dots) were transferred to the reading text condition. It appears that the skills they acquired while letter naming positively transfer to the task of reading words. For example, the next black dot at passage 16 had a reading time comparable to the reading time after 4 passages from the reading text group. This result showed that the skills learned letter naming of rotated text generalized to the reading text task.
+
+However, the reverse pattern of generalization was not obtained. For example, at the very end of the experiment there was another transfer. The most striking result is from the reading text group "black triangle" who had been reading text the entire time, and were never asked to try the task of naming letters until the very end. The "white triangle" shows minimal transfer to the letter naming task. Although the group had read 25 passages, and were very fast at reading rotated words, those skills were equivalent to having practiced letter naming for two or three passages. 
+
+The two skills seem very close, and there is some overlap in skill-learing, nevertheless, the skill-learning is highly selective. Practice on reading text is required to get better at the task of reading text. Practice on
 
 
 <!--
@@ -215,28 +413,5 @@ bransfordContextualPrerequisitesUnderstanding1972
 -->
 
 
-<!--
-## This or That Psychology
 
-A guiding theme for this chapter is the concept of a dichotomy. Dichotomies are a very common research strategy (for better or worse) throughout all of psychology, including cognition, and they are most definitely used in memory research. A dichotomy is a binary variable that divides something into two sides: this or that. In psychology, dichotomous variables are often used to describe properties of psychological phenomena. For example, here are a few binary oppositions common in cognition:
-
-1. Conscious vs. Unconscious
-2. Single system vs. multiple system
-3. Serial vs. Parallel
-4. Automatic vs. controlled
-5. Explicit vs. implicit
-
-Let's try applying these dichotomies to describe a psychological phenomena like the recency effect. For example, according to the multi-store model, the recency effect is a "conscious" phenomena. It is also a "multiple system" phenomena because people make the "controlled" and "explicit" decision to "serially" rehearse words in the short-term memory buffer. The use of dichotomies adds descriptive flavor to a psychological phenomena. At the same time, the terms don't always uniformly fit. For example, the long-term recency effect by Tzang isn't described very well by the same terms. In that case, people were using conscious, controlled, and explicit processes to count backwards in 3s while receiving words in the encoding phase. Nevertheless, a long-term recency effect was observed. Perhaps there is a "single" memory system that "automatically" causes the long-term recency effect by "unconsciously" or "implicitly" biasing how people perform the free recall task.
-
-In memory research, researchers commonly propose different sorts of dichotomies about the processes involved in memory phenomenon. Experiments are sometimes constructed to test dichotomous claims in attempt to determine whether a phenomena is "this kind of thing" or "that kind of thing". This research strategy was famously criticized by Alan Newell in the 1970s [], who suggested that "playing 20 questions with nature" that would inevitably fail as a research strategy in cognition. And, we will return to Newell's critcism after becoming more familiar and comfortable with the use of dichotomies in cognitive research. In the next section we will continue our discussion of multiple-system approaches to memory, where dichotomies are commonly used to distinguish between different kinds of systems. For example, in the multi-store model, the short-term system is *capacity-limited*, but the long-term system is not. The sensory register *automatically* represents new information from sensory channels, but the short-term store requires a *controlled* decision by the subject to enter representations into the rehearsal loop. 
-
-
--->
   
-## Memory Principles 
-
-Subjective processing tradition
-- memory principles
-- Tulving (subjective organization)
- - and memory distinctions
- - Semantic vs episodic
