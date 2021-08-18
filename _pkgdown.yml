@@ -30,6 +30,7 @@ navbar:
     - home
     - syllabus
     - articles
+    - slides
     right:
     - github
     - news
@@ -47,6 +48,11 @@ navbar:
       menu:
       - text: Cognition the textbook
         href: textbook/index.html
+    slides:
+      text: Slides
+      menu:
+      - text: Lecture 1- Getting Started
+        href: slides/L1_Getting_started/L1_Getting_Started.html
     news:
       text: news
       href: news/index.html

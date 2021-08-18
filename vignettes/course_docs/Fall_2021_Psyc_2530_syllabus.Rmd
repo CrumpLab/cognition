@@ -10,9 +10,13 @@ output: pdf_document
 Fall 2021
 
 Section: MW12
-Code: 
+
+Code:
+
 Location: online (zoom links provided on blackboard)
+
 Time: 12:50 PM - 2:05PM MW
+
 Office Hours: TBD
 
 Instructor:  Matthew Crump, [mcrump@brooklyn.cuny.edu](mcrump@brooklyn.cuny.edu)
@@ -27,18 +31,32 @@ This course will provide an introductory overview of basic concepts in cognitive
 
 **Course objectives**: develop the following skills in relation to content learning objectives in 2530:
 
+- GOAL: Exposure to breadth of theory and data across major domains of cognition (listed above). 
+    - LEARNING OUTCOME: Students will demonstrate ability to identify and describe domain-specific theories and phenomena
+- GOAL: Understanding deduction from theory, which requires an understanding of the assumptions of a theory and how they combine to force a clear prediction.
+    - LEARNING OUTCOME: Students will demonstrate the ability to describe in written format the assumptions of a domain-specific theory along to show how the theory demands a prediction.
+- GOAL: Understanding experimental design.
+    - LEARNING OUTCOME: Students will demonstrate working knowledge of the elements of particular experimental designs that create opportunity to test a theoretical idea
+- GOAL: Understanding patterns in data
+    - LEARNING OUTCOME: Students will demonstrate the ability to interpret tables and figures, including the pattern for how a dependent measure changes across the levels/conditions of the independent variable
+- GOAL: Understanding inference from results to theory
+    - LEARNING OUTCOME:  Students will demonstrate the ability to form an inference about an observed result, and display the ability to evaluate whether or not a result conforms to a prediction made by a theory in cognitive psychology
+
+
 ## Course Materials
 
 All of the course materials will be available in a timely fashion on this course website and/or blackboard. 
 
+Link to the course website:
+<https://www.crumplab.com/cognition/>
+
+Link to the textbook:
+<https://www.crumplab.com/cognition/textbook/>
+
+
 ## Course Structure
 
-We are scheduled to have synchronous online meetings on a weekly basis. We will decide as a class how to best use this time to accomplish the course goals. 
-
-## Course Assessments
-
-TBD
-
+We are scheduled to have synchronous online meetings on a weekly basis. Each week class time will involve a lecture and other class activities. Readings corresponding to chapters in the textbook, and occasionally primary research articles will be assigned each week. The schedule of lectures and midterms is listed below. 
 
 ```{r, message=FALSE, warning=FALSE, echo=FALSE, eval=TRUE}
 #library(data.table)
@@ -51,16 +69,26 @@ knitr::kable(Lectures)
 
 ```
 
-### Assignments and Grading
+## Course Assessments
 
-There are 12 weekly assignments, and a final project. The grading rubric is below:
+Course assessments include quizzes, alternative assignments, and exams. 
+
+Throughout the semester there are 11 weekly quizzes. Quizzes are posted and completed on Blackboard. Quizzes will test knowledge of concepts and content from the weekly lectures, and prepare students for each of the exams. Each quiz is worth 5 points toward the final grade, for a maximum of 55 points.
+
+Some weeks will include alternative assignments, to be posted on blackboard. Alternative assignments will typically involve writing, and may involve group work during class. In general, alternative assignments will be graded pass/fail. Alternative assignments are worth 5 points. Alternative assignments can be added to the quiz points, for a maximum of 55 points.
+
+There are three exams, two midterms and a final exam. All exams are worth 15 points, for a total of 45 points toward the final grade. The exam format will be similar to the quizzes, as a result taking the quizzes is practice for the exams.
+
+### Grading
+
+There are 11 weekly quizzes, two midterms and a final exam. The grading rubric is below:
 
 | Assignment |  Points| Total|
 |:----------|--------:|-------:|
-| Weekly assignments/Quizzes | x | x|
-| Midterm 1 | x | x|
-| Midterm 2 | x | x|
-| Final Exam |  | 25|
+| 11 Weekly Quizzes | 5 | 55|
+| Midterm 1 | 15 | 15 |
+| Midterm 2 | 15 | 15 |
+| Final Exam | 15  | 15|
 |||100|
 
 ### University’s policy on Academic Integrity
