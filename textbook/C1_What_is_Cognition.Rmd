@@ -19,16 +19,114 @@ knitr::kable(info)
 questions, methods, findings, explanations, applications, and implications
 -->
 
-This chapter provides a broad view of some of the issues involved with describing, and tools and methods used to describe cognition and how it works. We begin to give some definition to cognition, although this definition expands across the rest of the textbook. Most of this chapter is concerned with background concepts that are important for understanding the processes by which we can create knowledge about how cognition works. This includes preliminary discussions about roles for theories and facts, philosophy of science, the scientific method and other methods for generating knowledge, and the kinds of explanations that provide more or less satisfying answers to questions about the mind.
+This chapter introduces the structure of the textbook and how it will cover aspects of cognition across the remaining chapters. The title of the textbook is "Instances of Cognition: Questions, Methods, Findings, Explanations, Applications, and Implications", which summarizes key aspects of the approach. The rest of this chapter elaborates on each these pieces in turn.
 
-## Taking a step back
+## Instances of Cognition
 
-What is cognition and how does it work? These are questions I have been wondering about ever since I started doing research into human cognition. At the moment, I (Matt Crump) am a roughly early/mid-career researcher who has been conducting research on topics in cognition since about 2000-2001, where I started as an undergraduate working in cognitive psychology labs. At that time I discovered that there was a large scientific literature on human and animal cognition that went back over a hundred years. Today, that very same literature has continued to grow and grow. Perhaps I shouldn't admit this, but even though I've dedicated over 20 years of my life to studying and contributing to this literature, I think I can safely say that I have way more questions about cognition than answers. In some sense, the more I learn about research into cognition, the less I feel I know about how cognition works. It's quite possible that I am more confused about cognitive psychology now (after 20 years as a researcher), than I was before I started!
+What is cognition and how does it work? These are questions I have been wondering about ever since I started doing research into human cognition. At the moment, your author is a roughly early/mid-career researcher who has been conducting research on topics in cognition since about 2000-2001, when I started as an undergraduate working in cognitive psychology labs. At that time I discovered that there was a large scientific literature on human and animal cognition that went back over a hundred years. Today, that very same literature has continued to grow and grow. Perhaps I shouldn't admit this, but even though I've dedicated over 20 years of my life to studying and contributing to this literature, I think I can safely say that I have way more questions about cognition than answers. In some sense, the more I learn about research into cognition, the less I feel I know about how cognition works. It's quite possible that I am more confused about cognitive psychology now (after 20 years as a researcher), than I was before I started!
 
-Maybe I shouldn't be writing this textbook, and you should instead find an "authoritative" textbook where you can trust that the author knows everything about cognition, is not confused, and is also able to compress over a hundred years of science down into engaging and readable chapters for beginners to the field. Indeed, there are many introductory textbooks to the field of Cognitive Psychology available, each offering the authors view on the field, along with their way of introducing the field to new students. So, just like those other textbooks, in this one, you will be treated to my view of cognition, and my style for presenting it to new students. The reason I am drawing attention to these issues is that there is one thing about cognition that is very clear to me: there are many different perspectives and answers to the question "what is cognition and how does it work?".
+In my opinion, even though cognitive psychology is a longstanding scientific discipline that has been formally asking and answering questions about how the mind works for well over a hundred years; and even though there has been substantial progress in this field, there is nevertheless no emerging consensus view across researchers and labs about how cognition works. Instead, there are many labs and researchers and it is not uncommon for each lab or researcher to be researching their own unique phenomena, or forwarding their own preferred explanations and theories for the parts of cognition they are studying. I will develop the view across this textbook, that this kind of diversity is OK for cognitive research; and, that a fully grown and well developed science of cognition will continue to have a great diversity of theories and perspectives about how cognition works.
 
-I would go so far as to say that it is a fact, in the year 2021, that even though cognitive psychology is a longstanding scientific discipline, that has been formally asking and answering questions about how the mind works for well over a hundred years; and even though there has been substantial progress in this field, there is nevertheless no emerging consensus view across researchers and labs about how cognition works. There are many labs and researchers and it is not uncommon for each lab or researcher to be researching their own unique phenomena, or forwarding their own preferred explanations and theories for the parts of cognition they are studying. I will develop the view across this textbook, that this kind of diversity is OK for the science of cognition; and, that a fully grown and well developed science of cognition will continue to have a great diversity of theories and perspectives about how cognition works. Although a common goal for many sciences is to arrive at a single unified theory that explains everything, even if this doesn't happen for cognition, I think that is OK too, because many of the possible explanations that will be generated along the way will make useful contributions to understanding cognition, even if parts of their explanations are not completely true.
+I titled the book, and this first section "Instances of Cognition" to alert you to the diversity of ideas, approaches, and interests in cognition. ^[We will also learn later that there are "instance theories of cognition", so the title is also a reference to those ideas.] We could use the Metropolitan Museum of Art as a metaphor for the diversity of issues in cognition. The MET is very large and has many rooms containing artifacts from more and less connected cultures across the world. There are many stories behind the artifacts, and there are too many rooms to visit in one day. A tour guide can help you navigate through the museum, tell a story, and give some highlights. Ultimately, the museum and the course of human history contain many elements, and a comprehensive understanding of even single artifacts can require years or lifetimes of careful investigation.
 
+Cognition is like the museum. It contains many artifacts in the form of questions, methods, findings, theories, applications, and implications for society. This textbook is like a museum tour guide. It is intended to highlight different domains in cognition, and hopefully find ways to tell compelling stories along the way. Like the MET is open to the public, much of the research we will discuss is open to you, in the form of published journal articles and books. 
+
+<!-- Although a common goal for many sciences is to arrive at a single unified theory that explains everything, even if this doesn't happen for cognition, I think that is OK too, because many of the possible explanations that will be generated along the way will make useful contributions to understanding cognition, even if parts of their explanations are not completely true.
+-->
+
+## Questions of cognition
+
+Let's tackle two different sorts of questions. First, what is cognition? Second, what kinds of questions about cognition are researchers asking and seeking answers to?
+
+### Defining Cognition
+
+An everyday definition of cognition involves pretty much anything to do with how your mind works. If you are reading this, then you have cognition; and, as someone with cognition, I'm sure you can form your own opinions on what counts as cognition for you. This textbook is about cognition in this everyday sense, as well as the field of cognitive psychology and the broader cognitive sciences. These domains of academic inquiry have the goal of studying cognition from many different angles to produce knowledge about how cognition works.
+
+In the first textbook to coin the phrase "Cognitive Psychology" [@neisserCognitivePsychology1967], [Ulric Neisser](https://en.wikipedia.org/wiki/Ulric_Neisser) defined cognition as:
+
+> "...all processes by which the sensory input is transformed, reduced, elaborated, stored, recovered, and used". 
+
+Neisser's definition remains current and still describes much of the concerns of modern cognitive research. At the same time, Neisser was also known for critiquing research interests in cognition, and also said:
+
+> "If X is an interesting or socially important aspect of memory, then psychologists have hardly ever studied X". [@RememberingFatherCognitive2012]
+
+Neisser's criticism also remains current. We will encounter examples cognitive research that Neisser might have criticized for being uninteresting or not socially important. And, even though a great deal of research has been conducted, many interesting and socially relevant aspects of cognition remain under investigated.
+
+We could also define cognition as a discipline in terms of the questions, methods, and findings that researchers in the field have produced over the years. However, to Neisser's point, this would be a limiting definition, because there are many interesting questions, new methods, perspectives and discoveries waiting to shape the future discipline and definition of cognition.
+
+### Research questions
+
+I like to think of cognition as a big list of questions about how cognitive abilities work. For example, How do you remember what you ate for breakfast? How do you remember something that happened when you were a kid? How do you learn language? How do you know how to say a sentence? How do you think your next thought? What is your imagination like? How do you learn new skills, like walking, riding a bike, playing a musical instrument, playing a sport, or a game? How do you learn new information, and how can you study more efficiently? How do you recognize peoples faces? How do you know a tree is a tree and not some other object? How do you make plans for the future? Do you have an inner voice and if so how do you use it? How do you make decisions in your daily life? What makes you prefer some music and not others? How do you control all of your body movements from moving your fingers to facial expressions? How do you pay attention to some things while ignoring others? How did you forget that phone number so fast? How did you forget what you were doing while you were in the middle of doing something? How do you learn to read? How do you know the meaning of words? How can you train your brain to get better at something? Why do you think you know a word that is just on the tip of your tongue, but yet you can't say the word, until later it pops in your head? How many memories can a person have? What does it mean to be smart? Can anyone learn anything to a high degree of skill? How do all of these cognitive abilities develop over the lifespan? How do people understand their own cognition? How do people understand other people's cognition? What about non-human animals, what kind of cognitive abilities do they have? Does my cat dream about me?
+
+I could have kept going with those questions, and you probably could too. From my perspective, these kinds of questions are ones that cognition researchers are interested in asking and answering. Most of the above questions are "how" questions, and "how" questions are all about explaining how things work. So, one of the goals of asking research questions about cognitive abilities is to generate explanations about how the abilities work. The process of generating working explanations involves a research cycle that uses methods to generate new findings and test potential explanations.
+
+## Methods
+
+This textbook will mostly survey research about cognition derived from experimental or quasi-experimental methods. We will encounter numerous methods throughout the textbook that have all been specifically crafted to answer detailed research questions about cognition. In this overview section I will discuss research methods in general, in the form of the research cycle, and some examples of measurement techniques commonly employed in cognitive research.
+
+### Research Cycle
+
+The research cycle involves a wide variety of methods--such as the [scientific method](https://en.wikipedia.org/wiki/Scientific_method)-- that researchers use to generate knowledge about cognition. 
+
+::: {.floatright50 data-latex=""}
+
+```{r}
+knitr::include_graphics("imgs/The_Scientific_Method.png")
+```
+
+:::
+
+A researcher today might begin with an **observation**--like, I find some tastes delicious and others repulsive-- or, a **question**-- how can I read a book faster?. Given that cognition has already been studied for well over a hundred years, a next step could be to understand the previous literature, if it exists, on the topic or question. For example, a good place to start would be searching [Google Scholar](https://scholar.google.com) for primary research articles that have asked similar questions.
+
+**Prior research** can often help you understand the current state of knowledge about a question. For example, if you want to read a book faster, you should read the review article, "So Much to Read, So Little Time, How Do We Read, and Can Speed Reading Help?
+[@raynerMuchReadLittle2016]. This article covers many important previous results in the reading literature that someone should be aware of before they conduct their own research. Unfortunately, it turns out that there is no known simple and easy method to dramatically improve reading speed without also sacrificing comprehension.
+
+Nevertheless, let's imagine a researcher has familiarized themselves with the previous literature, and then they come up with a new **hypothesis**. For example, maybe reading speed could be improved if fonts for text were redesigned to make visual processing faster. Perhaps similar formatting changes could be made for braille or other reading methods that would influence reading speed. Ideally, hypotheses should have testable implications that can be measured.
+
+Next, the hypothesis is put to a **test with an experiment**. The purpose of the experiment is to create a controlled situation where aspects of the hypothesis are manipulated to determine whether they influence the measurements. For example, a researcher might create two kinds of fonts, **some fonts could be presented in bold**, and **other fonts could be presented in italics**. Then, people could volunteer to read words presented in both fonts, and the researcher could measure reading speed.
+
+The experiment generates measurements in the form of data that is collected under different experimental conditions. A next stage in the cycle is to **analyze the data**, and determine whether the manipulations had any influences. For example, if font type reliably influences reading speed, then the data should show that reading speeds are reliably slow for some fonts, and reliably faster for others.
+
+The research cycle ideally involves a community of peers, so the final stage of a research project could be to **report conclusions**, or otherwise communicate the results of your research. This is typically done by writing up a research report and submitting it for peer-review to a journal. The peer-review process can help identify areas of improvement that the researcher may address in a revision. If the journal accepts the paper, then it becomes a part of the literature on that subject. 
+
+
+
+Fact and theory generation are a part of the research cycle, but I gave them their own big landmark. Fact and theory generation is the process of figuring out what facts about cognition are real and in need of explanation, and then coming up with theories that explain the facts. The research cycle can be used to test factual claims and theoretical claims, which can lead researchers to discover new facts and create new theories (i.e., a cyclical process). Last, cognition research is a human activity that is embedded within a socio-historical context. The discoveries of cognitive research can have applications in society (for better and worse), and the potential prospects of these applications can in turn influence the research process by guiding researchers to spend their time on some problems as opposed to others.
+
+<!--
+The very broad domain of all-of-cognition is very large, and probably too difficult to ever study all at once. So, a common strategy in cognitive research is to focus inquiry onto smaller pieces of the puzzle. We will see this approach in action in this textbook, because each chapter is about different domains or parts of cognition (e.g., memory, learning, attention, etc). 
+
+-->
+
+<!--The rest of this chapter is set in the research domain of mental imagery. Despite the difficulties about obtaining truly objective facts about subjective experiences like mental imagery, the research cycle has been turning on this problem for well over a hundred years. There is way too much research to cover all of it in one short chapter. Instead, I will choose some research highlights to focus on three issues: getting facts about mental imagery, testing theories about mental imagery, and societal implications of the research.
+
+-->
+
+
+
+
+### Measurements
+
+## Findings and Phenomena
+
+## Explanations
+
+## Applications
+
+## Implications
+
+### Society and Historical context
+
+The research cycle will continue to churn out new findings and explanations about cognitive abilities and how they work. Importantly, theory and data about cognition have implications for society. One kind of implication is that the knowledge gained by the research can be applied to solve problems in society. Throughout the textbook I will describe many useful applications of the research findings that we discuss.
+
+At the same time, research into cognitive abilities has not always had uniformly positive implications for society, and there are examples where research applications were severely destructive for some groups of people. I think issues of equality and justice are important when discussing cognitive research and its applications, so I will also touch on these topics. One way I will do this is by occasionally discussing historical context around the research and researchers that we discuss.
+
+### Questions to keep in mind as you learn about cognition
+
+What are the goals of the cognitive sciences and research in cognitive psychology? Who has been involved in setting those goals? Are the goals useful? What kind of questions about cognition have already been asked by researchers? What were the scientific as well as social-historical reasons for why those researchers asked those questions? What answers were found, and how were they informative or not informative about how cognition works? How do the measurements and tools that researchers use to ask questions influence the kind of picture they build about how cognition works? What kinds of questions about cognition are not being asked that should be asked? Why are they not being asked? What benefits to society have been produced by the cognitive sciences? Have the benefits been spread equitably across different groups of people? What costs to society have been produced by the cognitive sciences? How are the costs shared by society? Are their injustices resulting from cognitive science research? Have they been adequately addressed? How should society decide whether or not to proceed with different kinds of research?
+
+
+<!--
 ### The truth, the whole truth, and nothing but the truth vs knowledge creation
 
 The cognitive sciences are interested in understanding how cognition works, and this could mean that the whole enterprise is trying to figure out what is true about cognition and what is false. Science is a slow moving incremental process, so over the history of the cognitive sciences there have been many false starts. Some findings have been published that are hard to replicate (so they might not be real), and there are many theories about cognitive phenomena that have been proven to be false. There are also many findings that seem pretty stable, and there are good reasons to treat them as facts; and, despite the limitations of cognitive theories, there are nevertheless some very powerful ones out there that do a commendable job at explaining aspects of cognition.
@@ -37,15 +135,8 @@ So, as a final thought before we get started, I'm going to give you a heads up a
 
 Instead, this textbook will tell a story about cognition that is not so obsessed with the truth, the whole truth, and nothing but the truth. I don't deny that there are so-called "truth's" about how cognition works. Most researchers, including me, accept facts like people and animals are physical beings, and that cognition somehow emerges from biological processes. From this perspective, there must be some truths about human and animal cognition because cognition must be determined by physical properties of our physiology. Instead of telling a story about all the true things we think we know about cognition, I'm going to back up a little up and focus the story on the process by which cognitive science creates knowledge about cognition. Sometimes cognitive science produces knowledge about cognition that is not true about people or animals, but nevertheless very useful say for creating computer intelligence or other smart technology. Similarly, it will be important to recognize that much of what cognitive science has produced over its history resembles "working draft concepts" in the large scheme of things, and very rarely fundamental truths about cognition that everyone agrees on.
 
-## What is Cognition?
+-->
 
-So, what is cognition anyway? An everyday definition involves pretty much anything to do with how your mind works. If you are reading this, then you have cognition, and as someone with cognition, I'm sure you can form your own opinions on what counts as cognition for you. This textbook is both about cognition in this everyday sense, as well as the field of cognitive psychology and the broader cognitive sciences. These domains of academic inquiry have the goal of studying cognition from many different angles to produce knowledge about how cognition works.
-
-I like to think of cognition as a big list of questions about how cognitive abilities work. For example, How do you remember what you ate for breakfast? How do you remember something that happened when you were a kid? How do you learn language? How do you know how to say a sentence? How do you think your next thought? What is your imagination like? How do you learn new skills, like walking, riding a bike, playing a musical instrument, playing a sport, or a game? How do you learn new information, and how can you study more efficiently? How do you recognize peoples faces? How do you know a tree is a tree and not some other object? How do you make plans for the future? Do you have an inner voice and if so how do you use it? How do you make decisions in your daily life? What makes you prefer some music and not others? How do you control all of your body movements from moving your fingers to facial expressions? How do you pay attention to some things while ignoring others? How did you forget that phone number so fast? How did you forget what you were doing while you were in the middle of doing something? How do you learn to read? How do you know the meaning of words? How can you train your brain to get better at something? Why do you think you know a word that is just on the tip of your tongue, but yet you can't say the word, until later it pops in your head? How many memories can a person have? What does it mean to be smart? Can anyone learn anything to a high degree of skill? How do all of these cognitive abilities develop over the lifespan? How do people understand their own cognition? How do people understand other people's cognition? What about non-human animals, what kind of cognitive abilities do they have? Does my cat dream about me?
-
-I hope you got the sense that I could have kept going with those questions, and that you could probably come with your similar kinds of questions. From my perspective, these kinds of questions are ones that cognition researchers are interested in asking and answering.
-
-Most of the above questions have two things in common that make them relevant to research in cognition (or they could be rephrased to have these two things). First, they are all about a kind of cognitive ability (such as being able to remember something, attend to something, read a book, hear a word, and so on). Second, they are "how" questions, and "how" questions are all about explaining how things work. Let's elaborate on both of these to begin answering "what is cognition?"
 
 ### Cognitive abilities
 
@@ -69,9 +160,6 @@ Some of these topics are little bit abstract, and one of the principles of cogni
 2.  Fact and theory generation
 3.  Society and historical context
 
-The research cycle involves a wide variety of methods (such as the scientific method) that researchers use to test claims about cognition. Fact and theory generation are a part of the research cycle, but I gave them their own big landmark. Fact and theory generation is the process of figuring out what facts about cognition are real and in need of explanation, and then coming up with theories that explain the facts. The research cycle can be used to test factual claims and theoretical claims, which can lead researchers to discover new facts and create new theories (i.e., a cyclical process). Last, cognition research is a human activity that is embedded within a socio-historical context. The discoveries of cognitive research can have applications in society (for better and worse), and the potential prospects of these applications can in turn influence the research process by guiding researchers to spend their time on some problems as opposed to others.
-
-The very broad domain of all-of-cognition is very large, and probably too difficult to ever study all at once. So, a common strategy in cognitive research is to focus inquiry onto smaller pieces of the puzzle. We will see this approach in action in this textbook, because each chapter is about different domains or parts of cognition (e.g., memory, learning, attention, etc). The rest of this chapter is set in the research domain of mental imagery. Despite the difficulties about obtaining truly objective facts about subjective experiences like mental imagery, the research cycle has been turning on this problem for well over a hundred years. There is way too much research to cover all of it in one short chapter. Instead, I will choose some research highlights to focus on three issues: getting facts about mental imagery, testing theories about mental imagery, and societal implications of the research.
 
 
 
@@ -147,15 +235,7 @@ It is also OK to like different recipes for many reasons. Some recipes are inspi
 
 Last, consider the concept of truth in the metaphor between recipes and theories. In the domain of cooking and recipes is there such a thing as true recipes? Is there one true oven fries recipe? I don't think so. There are lots of oven fries recipes. They all make oven fries. Some of them make oven fries that I like more than others. Also, there is an entire world of other recipes and it is very exciting to explore all of the tasty ways that different people and cultures prepare food. What about theories in cognition? Is there one true theory of cognition? If there is, I haven't heard about it. Instead, like recipes there are lots of different theories about cognition, and it is OK to appreciate that variety as we learn about how different researchers have prepared their explanations of different cognitive abilities.
 
-## Society and Historical context
 
-The research cycle will continue to churn out new findings and explanations about cognitive abilities and how they work. Importantly, theory and data about cognition have implications for society. One kind of implication is that the knowledge gained by the research can be applied to solve problems in society. Throughout the textbook I will describe many useful applications of the research findings that we discuss.
-
-At the same time, research into cognitive abilities has not always had uniformly positive implications for society, and there are examples where research applications were severely destructive for some groups of people. I think issues of equality and justice are important when discussing cognitive research and its applications, so I will also touch on these topics. One way I will do this is by occasionally discussing historical context around the research and researchers that we discuss.
-
-### Questions to keep in mind as you learn about cognition
-
-What are the goals of the cognitive sciences and research in cognitive psychology? Who has been involved in setting those goals? Are the goals useful? What kind of questions about cognition have already been asked by researchers? What were the scientific as well as social-historical reasons for why those researchers asked those questions? What answers were found, and how were they informative or not informative about how cognition works? How do the measurements and tools that researchers use to ask questions influence the kind of picture they build about how cognition works? What kinds of questions about cognition are not being asked that should be asked? Why are they not being asked? What benefits to society have been produced by the cognitive sciences? Have the benefits been spread equitably across different groups of people? What costs to society have been produced by the cognitive sciences? How are the costs shared by society? Are their injustices resulting from cognitive science research? Have they been adequately addressed? How should society decide whether or not to proceed with different kinds of research?
 
 
 <!--
