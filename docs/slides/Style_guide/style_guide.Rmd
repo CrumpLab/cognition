@@ -1,6 +1,6 @@
 ---
-title: "PSYC 2530: Introduction to Cognitive Psychology"
-subtitle: "Welcome, and let's get started!"
+title: "Style guide for making slides"
+subtitle: "A subtitle"
 author: "Matthew J. C. Crump"
 date: "08/25/2021 last compiled `r format(Sys.time(), '%m/%d/%y')`"
 css: style.css
@@ -11,6 +11,7 @@ output:
     self_contained: false
     theme: yeti
     incremental: true
+    template: slidy_template.html
 ---
 
 ```{r setup, include=FALSE}

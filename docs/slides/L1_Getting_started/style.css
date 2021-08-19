@@ -7,6 +7,19 @@
   --textbox: #f06cc8;
 }
 
+.frontlogo {
+  margin-top: 50px;
+  width: 200px;
+}
+
+#gohome {
+  position: fixed; z-index: 200;
+}
+
+.fas fa-home {
+  padding-top: 50px!important;
+}
+
 .center{
   text-align: center;
 }

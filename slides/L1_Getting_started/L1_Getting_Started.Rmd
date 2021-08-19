@@ -2,24 +2,28 @@
 title: "PSYC 2530: Introduction to Cognitive Psychology"
 subtitle: "Welcome, and let's get started!"
 author: "Matthew J. C. Crump"
-date: "08/25/2021 last compiled `r format(Sys.time(), '%m/%d/%y')`"
+date: "Last compiled `r format(Sys.time(), '%m/%d/%y')`"
+logoimage: "imgs/BC_logo.png"
 css: style.css
 output:
   slidy_presentation:
+    footer: "written by Matt Crump"
     includes:
       in_header: header.html
     self_contained: false
     theme: yeti
     incremental: true
+    template: slidy_template.html
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(fontawesome)
 ```
 
 ## Roadmap
 
-### 1. What this course is about {.bolder}
+### 1. What this course is about? {.bolder}
 
 ### 2. Syllabus {.greyout}
 
@@ -28,11 +32,17 @@ knitr::opts_chunk$set(echo = FALSE)
 ### 4. Questions {.greyout}
 
 
+## What is Cognition?
 
-## A regular slide with text
+::: {.bigger}
+1. Questions
+2. Methods
+3. Findings
+4. Explanations
+5. Applications
+6. Implications
+:::
 
-
-Here is some text that I would like to say. It is a paragraph of text. Most of the time I would not make a slide with a paragraph. It would be too much text. So, instead of a paragraph. Point form might work better
 
 ## A regular slide with a list
 
@@ -61,7 +71,9 @@ Here is some text that I would like to say. It is a paragraph of text. Most of t
 :::
 ::::
 
-## Full-screen picture
+## slide with a link
+
+here is a link <https://crumplab.com>
 
 
 
