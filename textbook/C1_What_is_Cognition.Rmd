@@ -112,20 +112,70 @@ Consider your ability to form thoughts, and more specifically your ability to ge
 
 In general, measurements in cognition are taken while a participant is performing a task. Measurements are often behavioral aspects of task performance, but may involve measures of physiological processes like heart rate, or brain processes as well. Common behavioral measurements include accuracy and reaction times to complete actions or portions of a task. Technology like eye-trackers can measure eye-movements during task performance; or systems like the X-box [Kinect](https://en.wikipedia.org/wiki/Kinect) can be used to for body motion sensing. People are often asked to make judgments on various rating scales, and generate or produce information like words or drawings. Common physiological measurements include heart rate, skin-conductance, and pupil-dilation, which sometimes correlates with cognitive activities. Common non-invasive neuro-physiological techniques include [EEG](https://en.wikipedia.org/wiki/Electroencephalography), [fMRI](https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging), [MEG](https://en.wikipedia.org/wiki/Magnetoencephalography), and [PET](https://en.wikipedia.org/wiki/Positron_emission_tomography), for measuring correlated brain activity during task performance.
 
+Finally, measures of cognition are not set in stone, and researchers may find creative ways to gain traction on cognitive phenomena. One of my favorite examples of a clever measurement is from Patrick Rabbitt, who was investigating the skill of typewriting on mechanical typewriters [@rabbittDetectionErrorsSkilled1978]. He wondered whether typists might hit keys more softly when they make errors, perhaps because they knew they were making an error, and were trying to stop the keystroke. The clever bit was how to measure response force without creating a special typewriter capable of measuring forces for individual keypresses. Rabbitt had typists type on layers of carbon paper using a mechanical typewriter. With this apparatus harder keystrokes would impress on deeper layers of the carbon paper, while softer keystrokes would only impress faintly on shallower layers. Rabbitt did find evidence that typists pressed keys more softly when they were making some errors. This is an example of a finding or phenomena which we discuss next.
 
-## Findings and Phenomena
+## Findings, effects, and Phenomena
 
-## Explanations
+The research cycle in cognition has produced numerous findings, effects, and phenomena. A **finding** refers very generally to results from the research cycle. For example, Rabbitt found that typists press keys a little bit more softly for some of the errors that they committed. Another general word for *finding* is observation, and we could say that Rabbitt observed soft responses during error production in his study. I'll reserve the word **effect** for findings that are the result of an experimental manipulation, especially where the manipulation has an effect on the measurement. Finally, phenomena refers to classes of related findings or effects.
+
+::: {.floatright50 data-latex=""}
+
+```{r}
+knitr::include_graphics("imgs/Stroop_stim.png")
+```
+
+:::
+
+The Stroop effect [@Stroop1935] provides a useful example. In a Stroop task, subjects are shown stimuli like in the example to the right, and asked to name the ink-color of the stimulus on each trial. For congruent stimuli, the ink-color matches the name of the word, like the color blue in the word BLUE. The correct answer for this stimulus is *blue*. For incongruent stimuli, the ink-color does not match the name of the word, like color red in the word GREEN. The correct answer for this stimulus is *red*. The typical finding in this procedure is that participants are faster and more accurate to identify congruent than incongruent stimuli. This difference is termed the Stroop effect ^[named after J. R. Stroop who first discovered them], which refers to the effect of the congruency manipulation on the reaction time or accuracy measure. Stroop effects can be obtained with many different combinations of stimuli that involve manipulations of matching and mismatching target and distractor dimensions, and they have the subject of many investigations for various reasons ^[see the chapter on Attention], and collectively are referred to as Stroop phenomena ^[and several other terms, including congruency phenomena, compatibility phenomena, interference phenomena, and cognitive control phenomena].
+
+There are too many findings in cognition to discuss in a single book. This textbook will aim mostly for breadth to give readers a high level overview of many findings and phenomena. On occasion we will also inspect particular findings and phenomena with additional depth to examine how experiments are used to evaluate process-based explanations of findings and phenomena.
+
+## Explanations, Theories, and Models
+
+Just like we will encounter numerous findings and phenomena across many domains in cognition, we will visit almost as many theories, models and general approaches to explaining those phenomena. There is no single agreed upon format for theories or models, so explanations take a variety of formats, from informal verbal theories to formal mathematical models. Explanations can also be aimed at different levels of analysis, and they are often metaphorical in nature.
+
+One of the problems with explaining how cognition works is that cognitive systems-- like people and animals-- are extremely complex and made up of many interacting physical parts. The complexity makes a reductionist account of cognition very challenging because there are so many parts and pieces of parts to explain. For example, a reductionist theory might attempt to explain a cognitive phenomena like human memory in terms of the operation of physiological substrates in the brain, which would require an explanation of how neuronal processes work at an electrical and biological level, which would require explanations in terms of physics and chemistry and so on. Physiological accounts of cognitive phenomena are one standard for reductive explanation, but there are others as well.
+
+### Levels of Analysis
+
+Another approach to explanation in cognition invokes the concept of multiple levels of analysis [@marrVisionComputationalApproach1982,@mcclamrockMarrThreeLevels1991,@peeblesThirtyYearsMarr2015,@pylyshynComputationCognitionFoundation1984]. For example, vision scientist David Marr described three levels of analysis for the task of explaining visual perception from a computational perspective.
+
+Consider first that vision involves a series of transformations beginning at the moment where light hits the retina. From here, photoreceptors in your eyes convert light into electrical impulses sent through the optic nerve, past the optic chiasm, where they are received by neurons in the lateral geniculate nucleus in the thalamus, which is further connected to primary visual areas at the back of the brain. Somehow the visual processing pathways of the brain turn patterns of light falling on the retina into perceptions. Marr considered this system from a computational perspective involving three levels of analysis ^[As a quick sidenote, the computational view of cognition will receive much more elaboration across the textbook].
+
+Marr's likened visual processing to information processing in a computer system, and suggested that both should be understood in terms of three levels of analysis: computational, representational or algorithmic, implementational or hardware. 
+
+#### Computational Level
+
+The computational level refers to the overall goal of a process. For example, what is the computational purpose of an eyeball? At this level, and in the context of the rest of the visual system, the goal of eyeballs could be to transduce light photons into electrical signals for further processing. At the computational level it is possible for the goal to be realizable in multiple ways. For example, smart phones with digital cameras also have a lens system to convert photons into electrical signals. So, if you were to imagine yourself as an alien researcher wondering about eyeballs or digital camera lens, one level of explanation involves understanding the purpose or goal of the system, which in this case would be to capture and convert light for further processing.
+
+#### Representational or Algorithmic Level
+
+The representational or algorithmic level refers to the steps taken to achieve the computational goal. A The cooking metaphor developed later in the chapter is useful here. For example, you might have the goal (computational level) of making chocolate chip cookies. The ingredients and steps in the recipe you use to make chocolate chip cookies is a good example of the representational or algorithmic level of analysis. The representations refer to the inputs and outputs of the process, such as the raw ingredient inputs, and the cookie outputs. The algorithm refers to the step-by-step instructions for transforming the inputs to the output. A good recipe for making chocolate chips contains a reasonably precise high-level description of the ingredient list (representations), and the combination and cooking instructions (algorithm) to create tasty cookies. 
+
+To return to the domain of vision, photons are the representational inputs of eyeballs and digital cameras. The algorithm in either system refers to the steps, or way in which, the inputs are transformed into the electrical signals as outputs. 
+
+#### Hardware implementation
+
+The hardware implementation level refers to how the representations and algorithm used to accomplish a computational goal are instantiated in a physical system. For example, what specific physical elements and processes enable an eyeball to transduce light into electrical signals? Similarly, what specific physical elements and processes enable a digital camera to capture images and store them in computer memory?
+
+
+#### Summary
+
+Using Marr's levels as a guide, this textbook will mostly focus on computational and algorithmic levels, rather than on the hardware implementation level. If you are a student at Brooklyn College taking this introductory course in cognitive psychology, you will find more elaboration on brain mechanisms supporting cognition in other courses such as Mind, Brain and Behavior.
+
+### Metaphorical Models
+
+Metaphorical models are also common strategies for explanation in cognition. Metaphorical models refer to the process of mapping a simple model system as a metaphor for describing and understanding another more complicated system. For example, horse-racing has been used as a model for explaining the Stroop effect. The basic idea is that word and color (or target and distractor) information compete for identification, just like horses running down a track compete to get across a finish line. The metaphor does not assume that people have horses or a race-track in their brains. Instead, the metaphor provides terms and functional relationships that can provide well-fitting descriptions of Stroop phenomena, and even make predictions about what might happen to the effect under different experimental manipulations. Metaphorical models can be informal and verbal, like how I have just loosely described stimulus identification in terms of a horse-race; and, they can be more formal and mathematical. We devote a whole chapter to computational theories to provide some more detailed examples of formal theorizing in cognition.
 
 ## Applications
 
+To simplify some of the preceding discussion up to this point, the research cycle in cognition produces theory and phenomena, and both theory and phenomena can lead to applications. For example, theory about how people learn skills could be used to modify training curriculum and enhance the skill-learning process. Even seemingly strange laboratory phenomena like the Stroop effect can have inventive applications. For example, Stroop effects have been used to detect whether or not a person may be a spy. For example, during world war II, a German spy may claim not to speak German, but a Stroop test involving German words could reveal large interference effects, indicating they do speak the language.
+
+Throughout the textbook I will aim to point out similar applications that have already sprouted from various domains in cognition. And, time permitting, I am planning to include a chapter on cognitive technologies to highlight applications from the past and present, as well as expected future directions. Daily life is increasingly mediated by interactions with smart technologies, and applications from cognition to technology are occurring at a rapid pace. For example, when I was an undergraduate in the early 2000s we didn't have smart phones, and the problem of recognizing faces in photographs was not an easy problem for computers at-the-time to solve. However, today most phones have face-recognition built-in, and deep-neural networks can make convincing fake videos of real people--and, the cognitive sciences have facilitated both of those technological developments and more.
+
 ## Implications
 
-### Society and Historical context
-
-The research cycle will continue to churn out new findings and explanations about cognitive abilities and how they work. Importantly, theory and data about cognition have implications for society. One kind of implication is that the knowledge gained by the research can be applied to solve problems in society. Throughout the textbook I will describe many useful applications of the research findings that we discuss.
-
-At the same time, research into cognitive abilities has not always had uniformly positive implications for society, and there are examples where research applications were severely destructive for some groups of people. I think issues of equality and justice are important when discussing cognitive research and its applications, so I will also touch on these topics. One way I will do this is by occasionally discussing historical context around the research and researchers that we discuss.
+Cognitive research has been developing and ongoing for well over a century. In that time, many theories, findings, and applications have been produced. At the same time, research into cognitive abilities has not always had uniformly positive implications for society, and there are examples where research applications were severely destructive for some groups of people. I think issues of equality and justice are important when discussing cognitive research and its applications, so I will also touch on these topics. One way I will do this is by occasionally discussing historical context around the research and researchers that we discuss. To take one example, we will examine how research on mental imagery ability and the early development of intelligence testing were influenced by the widespread eugenics movement of the time. This era of psychology made a deep impression on subsequent cognitive research, and raises important questions about how psychological can and should be applied in society.
 
 ### Questions to keep in mind as you learn about cognition
 
@@ -143,7 +193,7 @@ Instead, this textbook will tell a story about cognition that is not so obsessed
 
 -->
 
-
+<!--
 ### Cognitive abilities
 
 What is a cognitive ability, and what makes an ability a cognitive one as opposed to a regular ability? In the first textbook to coin the phrase "Cognitive Psychology" [@neisserCognitivePsychology1967], Neisser defined cognition as "all processes by which the sensory input is transformed, reduced, elaborated, stored, recovered, and used". This is a pretty all-encompassing definition that still captures much of what cognitive scientists continue to study today. We could use Neisser's definition to give some definition to the concept of a cognitive ability.
@@ -167,11 +217,11 @@ Some of these topics are little bit abstract, and one of the principles of cogni
 3.  Society and historical context
 
 
-
+-->
 
 ## The cooking of science: A recipe metaphor
 
-The recipe metaphor is intended to orient you toward major features of theories, explanations, and how they are tested across the research cycle [^c1_what_is_cognition-1]. A recipe is a set of instructions for how to do something like cook a dish or put together furniture from IKEA. Recipes can take different formats (e.g., written recipes in a cookbook, cartoon's in an IKEA manual, or even do-it-yourself YouTube videos). Recipes can be more or less specific. Some cookbooks break down every single step in making a dish, others give general directions (e.g., cook it until done). Recipes have the goal of communicating instructions about how to do something. And, it is possible to evaluate recipes to see whether or not they accomplish the goal. For example, if a recipe works, and I know how to follow instructions, then I should be able to follow the recipe and make the thing that the recipe produces. Sometimes a recipe turns out (it does what it says it does), and sometimes it doesn't. When a recipe doesn't work it could be that the recipe instructions had mistakes, were confusing, or were not followed properly (problems with execution). It's also possible that a recipe is totally flawed and does not do what it claims to do.
+This last section provides a cooking or recipe metaphor for the research cycle in cognition. The recipe metaphor is intended to orient you toward major features of theories, explanations, and how they are tested across the research cycle [^c1_what_is_cognition-1]. A recipe is a set of instructions for how to do something like cook a dish or put together furniture from IKEA. Recipes can take different formats (e.g., written recipes in a cookbook, cartoon's in an IKEA manual, or even do-it-yourself YouTube videos). Recipes can be more or less specific. Some cookbooks break down every single step in making a dish, others give general directions (e.g., cook it until done). Recipes have the goal of communicating instructions about how to do something. And, it is possible to evaluate recipes to see whether or not they accomplish the goal. For example, if a recipe works, and I know how to follow instructions, then I should be able to follow the recipe and make the thing that the recipe produces. Sometimes a recipe turns out (it does what it says it does), and sometimes it doesn't. When a recipe doesn't work it could be that the recipe instructions had mistakes, were confusing, or were not followed properly (problems with execution). It's also possible that a recipe is totally flawed and does not do what it claims to do.
 
 [^c1_what_is_cognition-1]: This section starts to get into larger issues in philosophy and the philosophy science, which are beyond the scope of this book. I will attempt to make connections to these domains as much as possible throughout
 
