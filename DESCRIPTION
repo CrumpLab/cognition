@@ -1,6 +1,6 @@
 Package: cognition
 Title: An open educational resource for Introductory Undergraduate Cognition
-Version: 0.0.0.3
+Version: 0.0.0.4
 Authors@R: 
     person(given = "Matthew",
            family = "Crump",

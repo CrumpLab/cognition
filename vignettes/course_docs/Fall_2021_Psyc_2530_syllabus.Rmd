@@ -11,13 +11,11 @@ Fall 2021
 
 Section: MW12
 
-Code:
-
-Location: online (zoom links provided on blackboard)
+Location: online (Blackboard Collaborate Ultra)
 
 Time: 12:50 PM - 2:05PM MW
 
-Office Hours: TBD
+Office Hours: 2:05pm - 3pm MW (zoom link posted on Blackboard)
 
 Instructor:  Matthew Crump, [mcrump@brooklyn.cuny.edu](mcrump@brooklyn.cuny.edu)
 
@@ -45,7 +43,7 @@ This course will provide an introductory overview of basic concepts in cognitive
 
 ## Course Materials
 
-All of the course materials will be available in a timely fashion on this course website and/or blackboard. 
+All of the course materials will be available in a timely fashion on this course website and/or blackboard. The course website contains links to the textbook, and slides.
 
 Link to the course website:
 <https://www.crumplab.com/cognition/>
@@ -56,7 +54,9 @@ Link to the textbook:
 
 ## Course Structure
 
-We are scheduled to have synchronous online meetings on a weekly basis. Each week class time will involve a lecture and other class activities. Readings corresponding to chapters in the textbook, and occasionally primary research articles will be assigned each week. The schedule of lectures and midterms is listed below. 
+We are scheduled to have synchronous online meetings on a weekly basis. Classes will be conducted online using Blackboard Collaborate Ultra. Links to each class meeting will be posted on Blackboard. These meetings may be recorded, and if so the recordings will also be posted on Blackboard for your review.
+
+Each week class time will involve a lecture and other class activities. Readings corresponding to chapters in the textbook, and occasionally primary research articles will be assigned each week. The schedule of lectures, with links to readings, quizzes and exams is listed below. 
 
 ```{r, message=FALSE, warning=FALSE, echo=FALSE, eval=TRUE}
 #library(data.table)
@@ -75,7 +75,7 @@ Course assessments include quizzes, alternative assignments, and exams.
 
 Throughout the semester there are 11 weekly quizzes. Quizzes are posted and completed on Blackboard. Quizzes will test knowledge of concepts and content from the weekly lectures, and prepare students for each of the exams. Each quiz is worth 5 points toward the final grade, for a maximum of 55 points.
 
-Some weeks will include alternative assignments, to be posted on blackboard. Alternative assignments will typically involve writing, and may involve group work during class. In general, alternative assignments will be graded pass/fail. Alternative assignments are worth 5 points. Alternative assignments can be added to the quiz points, for a maximum of 55 points.
+Some weeks will include alternative assignments, to be posted on blackboard. Alternative assignments will typically involve writing, and may involve group work during class. In general, alternative assignments will be graded pass/fail. Alternative assignments are worth 5 points. Alternative assignments can be added to the quiz points, up to a maximum of 55 points. For example, if you took all of the quizzes and recieved a total of 40 points, then you could make up the remainder of the quiz points by completing alternative assignments.
 
 There are three exams, two midterms and a final exam. All exams are worth 15 points, for a total of 45 points toward the final grade. The exam format will be similar to the quizzes, as a result taking the quizzes is practice for the exams.
 
@@ -91,6 +91,16 @@ There are 11 weekly quizzes, two midterms and a final exam. The grading rubric i
 | Final Exam | 15  | 15|
 |||100|
 
+### Lateness and attendance
+
+Each of the assignments, quizzes, and exams will be posted with an associated due date. A quiz or alternative assignment will typically be open for a week-long period, and the work is expected to be completed within the assigned time frame. Late assignments may not be graded.
+
+Students are expected to attend all class sessions, and attendance is logged via Blackboard.
+
+## Changes to the syllabus
+
+The syllabus may be updated for clarity or to make adjustments for pedagogical purposes. The most current version of the syllabus is always available from the course website.
+
 ### University’s policy on Academic Integrity
 
 The faculty and administration of Brooklyn College support an environment free from cheating and plagiarism. Each student is responsible for being aware of what constitutes cheating and plagiarism and for avoiding both. The complete text of the CUNY Academic Integrity Policy and the Brooklyn College procedure for policy implementation can be found at <http://www.brooklyn.cuny.edu/bc/policies>. If a faculty member suspects a violation of academic integrity and, upon investigation, confirms that violation, or if the student admits the violation, the faculty member MUST report the violation. Students should be aware that faculty may use plagiarism detection software.
@@ -100,7 +110,6 @@ The faculty and administration of Brooklyn College support an environment free f
 ### Missing an Exam or class
 
 Students are expected to attend all classes. In the event of an emergency, contact me as soon as possible. If you are missing a class for religious reasons refer to the state law regarding non-attendance because of religious beliefs noted in the front matter of the Undergraduate Bulletin and Graduate Bulletin. These may be found on the Academic Calendars, Course Schedules, and Bulletins page of the Registrar’s website. See also the student bereavement policy at <http://www.brooklyn.cuny.edu/web/about/initiatives/policies/bereavement.php>.
-
 
 ---
 
@@ -112,7 +121,7 @@ It is important to me that the course be accessible to all students. In order to
 
 ### Email Correspondence
 
-I will regularly use e-mail to send out announcements, changes in the syllabus, reminders about tests or due dates etc. It is your responsibility to check e-mail regularly to keep up-to-date with these announcements. I will use the e-mail address you have listed with the College. Therefore, please make sure that this is indeed the correct address.
+I will regularly use e-mail via blackboard to send out announcements, changes in the syllabus, reminders about tests or due dates etc. It is your responsibility to check e-mail regularly to keep up-to-date with these announcements. I will use the e-mail address you have listed with the College. Therefore, please make sure that this is indeed the correct address.
 
 #### General Help with Research and Writing
 

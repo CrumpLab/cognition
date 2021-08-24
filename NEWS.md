@@ -1,3 +1,7 @@
+# cognition 0.0.0.4
+
+- Begin Fall 2021
+
 # cognition 0.0.0.3
 
 - June 2021, started writing the first chapter
