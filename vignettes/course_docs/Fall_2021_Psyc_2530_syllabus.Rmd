@@ -5,8 +5,6 @@ output: pdf_document
 
 ### PSYC 2530 – Introduction to Cognitive Psychology
 
-**THIS SYLLABUS IS UNDER DEVELOPMENT AND WILL BE FINALIZED BY FALL 2021**
-
 Fall 2021
 
 Section: MW12
