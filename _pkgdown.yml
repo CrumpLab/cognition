@@ -46,7 +46,7 @@ navbar:
     articles:
       text: Textbook
       menu:
-      - text: Cognition the textbook
+      - text: Instances of Cognition
         href: textbook/index.html
     slides:
       text: Slides
