@@ -52,7 +52,7 @@ navbar:
       text: Slides
       menu:
       - text: Lecture 1- Getting Started
-        href: slides/L1_Getting_started/L1_Getting_Started.html
+        href: slides/Under_construction/Under_construction.html
     news:
       text: news
       href: news/index.html

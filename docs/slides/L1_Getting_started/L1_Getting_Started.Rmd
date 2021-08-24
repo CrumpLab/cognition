@@ -1,19 +1,21 @@
 ---
-title: "PSYC 2530: Introduction to Cognitive Psychology"
-subtitle: "Welcome, and let's get started!"
+title: 'PSYC 2530: Introduction to Cognitive Psychology'
 author: "Matthew J. C. Crump"
 date: "Last compiled `r format(Sys.time(), '%m/%d/%y')`"
-logoimage: "imgs/BC_logo.png"
-css: style.css
 output:
+  beamer_presentation:
+    incremental: yes
   slidy_presentation:
-    footer: "written by Matt Crump"
+    footer: written by Matt Crump
     includes:
       in_header: header.html
-    self_contained: false
+    self_contained: no
     theme: yeti
-    incremental: true
+    incremental: yes
     template: slidy_template.html
+logoimage: imgs/BC_logo.png
+css: style.css
+subtitle: Welcome, and let's get started!
 ---
 
 ```{r setup, include=FALSE}
