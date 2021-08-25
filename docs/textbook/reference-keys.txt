@@ -9,6 +9,7 @@ acknowledgments
 citation
 web-version
 pdf-version
+epub-version
 what-is-cognition
 chapter-overview
 instances-of-cognition

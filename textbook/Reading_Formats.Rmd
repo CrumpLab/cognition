@@ -14,4 +14,10 @@ The pdf version of this book is available, but may be missing some features not 
 
 <https://github.com/CrumpLab/cognition/raw/main/docs/textbook/instances_of_cognition_Crump.pdf>
 
+## EPUB version
+
+The epub version of this book is available, but may be missing some features not available in hard copy (e.g., videos, audio, animations etc.). The epub version may also have unexpected formatting issues. Nevertheless, it is available here:
+
+<https://github.com/CrumpLab/cognition/raw/main/docs/textbook/instances_of_cognition_Crump.epub>
+
 
