@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  25 AUG 2021 17:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  25 AUG 2021 17:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -718,14 +718,14 @@ l.130 ...umberline {6}Behaviorism}{125}{chapter.6}
 
 [4] [5
 
-]
-LaTeX Font Info:    Try loading font information for TS1+qtm on input line 174.
+] [6
+
+] [7]
+LaTeX Font Info:    Try loading font information for TS1+qtm on input line 204.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
 File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
-) [6
-
-] [7] [8] [9] [10
+) [8] [9] [10
 
 ] [11]
 Chapter 1.
@@ -733,22 +733,22 @@ Chapter 1.
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 310.
+(Font)              <5> on input line 300.
 [13] [14] [15]
-<imgs/The_Scientific_Method.png, id=327, 521.95pt x 495.8525pt>
+<imgs/The_Scientific_Method.png, id=331, 521.95pt x 495.8525pt>
 File: imgs/The_Scientific_Method.png Graphic file (type png)
 <use imgs/The_Scientific_Method.png>
-Package pdftex.def Info: imgs/The_Scientific_Method.png  used on input line 358
+Package pdftex.def Info: imgs/The_Scientific_Method.png  used on input line 348
 .
 (pdftex.def)             Requested size: 194.99805pt x 185.24814pt.
 [16] [17 <./imgs/The_Scientific_Method.png>] [18] [19]
-<imgs/Stroop_stim.png, id=366, 734.745pt x 632.3625pt>
+<imgs/Stroop_stim.png, id=370, 734.745pt x 632.3625pt>
 File: imgs/Stroop_stim.png Graphic file (type png)
 <use imgs/Stroop_stim.png>
-Package pdftex.def Info: imgs/Stroop_stim.png  used on input line 397.
+Package pdftex.def Info: imgs/Stroop_stim.png  used on input line 387.
 (pdftex.def)             Requested size: 194.99799pt x 167.82614pt.
 [20]
-Underfull \hbox (badness 1057) in paragraph at lines 406--406
+Underfull \hbox (badness 1057) in paragraph at lines 396--396
 []\T1/qtm/b/n/17.28 Explanations, The-
  []
 
@@ -758,45 +758,45 @@ Chapter 2.
 [36
 
 ] [37]
-<imgs/Francis_Galton.jpg, id=517, 441.65pt x 450.68375pt>
+<imgs/Francis_Galton.jpg, id=521, 441.65pt x 450.68375pt>
 File: imgs/Francis_Galton.jpg Graphic file (type jpg)
 <use imgs/Francis_Galton.jpg>
-Package pdftex.def Info: imgs/Francis_Galton.jpg  used on input line 581.
+Package pdftex.def Info: imgs/Francis_Galton.jpg  used on input line 571.
 (pdftex.def)             Requested size: 97.4935pt x 99.48769pt.
 [38 <./imgs/Francis_Galton.jpg>] [39] [40] [41] [42] [43] [44] [45] [46] [47] [
 48] [49] [50] [51] [52]
-<imgs/KosslynEtAl1978Fig2.png, id=718, 309.155pt x 381.425pt>
+<imgs/KosslynEtAl1978Fig2.png, id=722, 309.155pt x 381.425pt>
 File: imgs/KosslynEtAl1978Fig2.png Graphic file (type png)
 <use imgs/KosslynEtAl1978Fig2.png>
-Package pdftex.def Info: imgs/KosslynEtAl1978Fig2.png  used on input line 780.
+Package pdftex.def Info: imgs/KosslynEtAl1978Fig2.png  used on input line 770.
 (pdftex.def)             Requested size: 309.16838pt x 381.44151pt.
 [53 <./imgs/KosslynEtAl1978Fig2.png>]
-<C2_Mental_Imagery_files/figure-latex/predictScanning-1.pdf, id=725, 463.7325pt
+<C2_Mental_Imagery_files/figure-latex/predictScanning-1.pdf, id=729, 463.7325pt
  x 316.18124pt>
 File: C2_Mental_Imagery_files/figure-latex/predictScanning-1.pdf Graphic file (
 type pdf)
 <use C2_Mental_Imagery_files/figure-latex/predictScanning-1.pdf>
 Package pdftex.def Info: C2_Mental_Imagery_files/figure-latex/predictScanning-1
-.pdf  used on input line 787.
+.pdf  used on input line 777.
 (pdftex.def)             Requested size: 390.00673pt x 265.91367pt.
 [54] [55 <./C2_Mental_Imagery_files/figure-latex/predictScanning-1.pdf>]
-<imgs/KosslynEtAl1978Fig3.png, id=742, 586.19pt x 386.44376pt>
+<imgs/KosslynEtAl1978Fig3.png, id=746, 586.19pt x 386.44376pt>
 File: imgs/KosslynEtAl1978Fig3.png Graphic file (type png)
 <use imgs/KosslynEtAl1978Fig3.png>
-Package pdftex.def Info: imgs/KosslynEtAl1978Fig3.png  used on input line 800.
+Package pdftex.def Info: imgs/KosslynEtAl1978Fig3.png  used on input line 790.
 (pdftex.def)             Requested size: 389.99928pt x 257.1057pt.
 [56] [57 <./imgs/KosslynEtAl1978Fig3.png>] [58] [59] [60] [61] [62]
 Chapter 3.
 [63
 
 ] [64] [65] [66] [67]
-<imgs/Eugenics_tree.jpg, id=866, 1053.9375pt x 836.12375pt>
+<imgs/Eugenics_tree.jpg, id=870, 1053.9375pt x 836.12375pt>
 File: imgs/Eugenics_tree.jpg Graphic file (type jpg)
 <use imgs/Eugenics_tree.jpg>
-Package pdftex.def Info: imgs/Eugenics_tree.jpg  used on input line 936.
+Package pdftex.def Info: imgs/Eugenics_tree.jpg  used on input line 926.
 (pdftex.def)             Requested size: 194.99147pt x 154.69322pt.
 [68]
-Underfull \hbox (badness 1189) in paragraph at lines 942--943
+Underfull \hbox (badness 1189) in paragraph at lines 932--933
 \T1/qtm/m/n/12 (+20) phone), John Har-vey Kel-logg (Kel-
  []
 
@@ -805,10 +805,10 @@ Chapter 4.
 [77
 
 ] [78] [79] [80] [81] [82] [83] [84]
-<imgs/Binet_1905.png, id=1097, 907.39pt x 653.44125pt>
+<imgs/Binet_1905.png, id=1101, 907.39pt x 653.44125pt>
 File: imgs/Binet_1905.png Graphic file (type png)
 <use imgs/Binet_1905.png>
-Package pdftex.def Info: imgs/Binet_1905.png  used on input line 1100.
+Package pdftex.def Info: imgs/Binet_1905.png  used on input line 1090.
 (pdftex.def)             Requested size: 390.00395pt x 280.85461pt.
 [85] [86 <./imgs/Binet_1905.png>] [87] [88] [89] [90] [91] [92] [93] [94] [95] 
 [96] [97] [98]
@@ -816,71 +816,71 @@ Chapter 5.
 [99
 
 ] [100] [101] [102] [103] [104] [105] [106] [107]
-<imgs/Edward_thorndike.png, id=1378, 441.65pt x 584.1825pt>
+<imgs/Edward_thorndike.png, id=1382, 441.65pt x 584.1825pt>
 File: imgs/Edward_thorndike.png Graphic file (type png)
 <use imgs/Edward_thorndike.png>
-Package pdftex.def Info: imgs/Edward_thorndike.png  used on input line 1411.
+Package pdftex.def Info: imgs/Edward_thorndike.png  used on input line 1401.
 (pdftex.def)             Requested size: 97.4935pt x 128.95732pt.
 [108] [109]
-<imgs/Thorndike_puzzle_box_1898.png, id=1398, 396.48125pt x 274.02374pt>
+<imgs/Thorndike_puzzle_box_1898.png, id=1402, 396.48125pt x 274.02374pt>
 File: imgs/Thorndike_puzzle_box_1898.png Graphic file (type png)
 <use imgs/Thorndike_puzzle_box_1898.png>
 Package pdftex.def Info: imgs/Thorndike_puzzle_box_1898.png  used on input line
- 1439.
+ 1429.
 (pdftex.def)             Requested size: 195.00348pt x 134.77455pt.
 [110 <./imgs/Edward_thorndike.png>] [111 <./imgs/Thorndike_puzzle_box_1898.png>
 ] [112] [113] [114] [115]
-<imgs/Rene_Descartes.jpg, id=1470, 441.65pt x 541.02126pt>
+<imgs/Rene_Descartes.jpg, id=1474, 441.65pt x 541.02126pt>
 File: imgs/Rene_Descartes.jpg Graphic file (type jpg)
 <use imgs/Rene_Descartes.jpg>
-Package pdftex.def Info: imgs/Rene_Descartes.jpg  used on input line 1552.
+Package pdftex.def Info: imgs/Rene_Descartes.jpg  used on input line 1542.
 (pdftex.def)             Requested size: 97.4935pt x 119.42955pt.
-<imgs/Patellar-knee-reflex.png, id=1475, 304.88907pt x 268.75406pt>
+<imgs/Patellar-knee-reflex.png, id=1479, 304.88907pt x 268.75406pt>
 File: imgs/Patellar-knee-reflex.png Graphic file (type png)
 <use imgs/Patellar-knee-reflex.png>
-Package pdftex.def Info: imgs/Patellar-knee-reflex.png  used on input line 1559
+Package pdftex.def Info: imgs/Patellar-knee-reflex.png  used on input line 1549
 .
 (pdftex.def)             Requested size: 97.50136pt x 85.94563pt.
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-1565.
+1555.
 
-<imgs/st_germain.png, id=1477, 286.1892pt x 431.6928pt>
+<imgs/st_germain.png, id=1481, 286.1892pt x 431.6928pt>
 File: imgs/st_germain.png Graphic file (type png)
 <use imgs/st_germain.png>
-Package pdftex.def Info: imgs/st_germain.png  used on input line 1566.
+Package pdftex.def Info: imgs/st_germain.png  used on input line 1556.
 (pdftex.def)             Requested size: 97.49954pt x 147.07002pt.
 [116 <./imgs/Rene_Descartes.jpg>]
-<imgs/Descartes_brain_large.png, id=1492, 328.5876pt x 286.671pt>
+<imgs/Descartes_brain_large.png, id=1496, 328.5876pt x 286.671pt>
 File: imgs/Descartes_brain_large.png Graphic file (type png)
 <use imgs/Descartes_brain_large.png>
-Package pdftex.def Info: imgs/Descartes_brain_large.png  used on input line 157
+Package pdftex.def Info: imgs/Descartes_brain_large.png  used on input line 156
 3.
 (pdftex.def)             Requested size: 195.00314pt x 170.12737pt.
 [117 <./imgs/Patellar-knee-reflex.png> <./imgs/st_germain.png>]
-<imgs/Conditioning_Acquisition.png, id=1507, 725.71124pt x 740.7675pt>
+<imgs/Conditioning_Acquisition.png, id=1511, 725.71124pt x 740.7675pt>
 File: imgs/Conditioning_Acquisition.png Graphic file (type png)
 <use imgs/Conditioning_Acquisition.png>
 Package pdftex.def Info: imgs/Conditioning_Acquisition.png  used on input line 
-1596.
+1586.
 (pdftex.def)             Requested size: 194.99234pt x 199.03781pt.
 [118 <./imgs/Descartes_brain_large.png>]
-<imgs/Conditioning_terms.png, id=1515, 829.0975pt x 2309.62875pt>
+<imgs/Conditioning_terms.png, id=1519, 829.0975pt x 2309.62875pt>
 File: imgs/Conditioning_terms.png Graphic file (type png)
 <use imgs/Conditioning_terms.png>
-Package pdftex.def Info: imgs/Conditioning_terms.png  used on input line 1605.
+Package pdftex.def Info: imgs/Conditioning_terms.png  used on input line 1595.
 (pdftex.def)             Requested size: 194.98975pt x 543.18575pt.
 
-Underfull \hbox (badness 3568) in paragraph at lines 1609--1610
+Underfull \hbox (badness 3568) in paragraph at lines 1599--1600
 []\T1/qtm/m/n/12 (+20) The un-con-di-tioned stim-u-lus (UCS)
  []
 
 [119 <./imgs/Conditioning_Acquisition.png>] [120]
-<imgs/Conditioning_extinction.png, id=1528, 1317.92375pt x 740.7675pt>
+<imgs/Conditioning_extinction.png, id=1532, 1317.92375pt x 740.7675pt>
 File: imgs/Conditioning_extinction.png Graphic file (type png)
 <use imgs/Conditioning_extinction.png>
 Package pdftex.def Info: imgs/Conditioning_extinction.png  used on input line 1
-631.
+621.
 (pdftex.def)             Requested size: 389.99074pt x 219.2027pt.
 [121 <./imgs/Conditioning_extinction.png>] [122 <./imgs/Conditioning_terms.png>
 ] [123] [124]
@@ -888,183 +888,183 @@ Chapter 6.
 [125
 
 ] [126] [127] [128] [129]
-<imgs/Auguste_Comte.jpg, id=1588, 441.65pt x 567.11874pt>
+<imgs/Auguste_Comte.jpg, id=1592, 441.65pt x 567.11874pt>
 File: imgs/Auguste_Comte.jpg Graphic file (type jpg)
 <use imgs/Auguste_Comte.jpg>
-Package pdftex.def Info: imgs/Auguste_Comte.jpg  used on input line 1714.
+Package pdftex.def Info: imgs/Auguste_Comte.jpg  used on input line 1704.
 (pdftex.def)             Requested size: 97.4935pt x 125.19052pt.
 [130 <./imgs/Auguste_Comte.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1728--1728
+Underfull \hbox (badness 10000) in paragraph at lines 1718--1718
 []\T1/qtm/b/n/17.28 Associationism, Con-di-tion-ing
  []
 
 [131]
-Underfull \hbox (badness 1297) in paragraph at lines 1737--1738
+Underfull \hbox (badness 1297) in paragraph at lines 1727--1728
 \T1/qtm/m/n/12 (+20) chol-o-gists were aim-ing to es-tab-lish
  []
 
-<imgs/John_Broadus_Watson.jpg, id=1635, 228.855pt x 328.97906pt>
+<imgs/John_Broadus_Watson.jpg, id=1639, 228.855pt x 328.97906pt>
 File: imgs/John_Broadus_Watson.jpg Graphic file (type jpg)
 <use imgs/John_Broadus_Watson.jpg>
-Package pdftex.def Info: imgs/John_Broadus_Watson.jpg  used on input line 1745.
+Package pdftex.def Info: imgs/John_Broadus_Watson.jpg  used on input line 1735.
 
 (pdftex.def)             Requested size: 97.49779pt x 140.15308pt.
 [132] [133 <./imgs/John_Broadus_Watson.jpg>] [134] [135] [136]
-<imgs/Watson_SR.png, id=1730, 582.175pt x 189.70876pt>
+<imgs/Watson_SR.png, id=1734, 582.175pt x 189.70876pt>
 File: imgs/Watson_SR.png Graphic file (type png)
 <use imgs/Watson_SR.png>
-Package pdftex.def Info: imgs/Watson_SR.png  used on input line 1791.
+Package pdftex.def Info: imgs/Watson_SR.png  used on input line 1781.
 (pdftex.def)             Requested size: 194.99652pt x 63.54196pt.
-<imgs/Watson_unconditioned.png, id=1731, 615.29875pt x 224.84pt>
+<imgs/Watson_unconditioned.png, id=1735, 615.29875pt x 224.84pt>
 File: imgs/Watson_unconditioned.png Graphic file (type png)
 <use imgs/Watson_unconditioned.png>
-Package pdftex.def Info: imgs/Watson_unconditioned.png  used on input line 1799
+Package pdftex.def Info: imgs/Watson_unconditioned.png  used on input line 1789
 .
 (pdftex.def)             Requested size: 390.00621pt x 142.5145pt.
 [137 <./imgs/Watson_SR.png>]
-<imgs/Watson_conditioned.png, id=1741, 616.3025pt x 461.725pt>
+<imgs/Watson_conditioned.png, id=1745, 616.3025pt x 461.725pt>
 File: imgs/Watson_conditioned.png Graphic file (type png)
 <use imgs/Watson_conditioned.png>
-Package pdftex.def Info: imgs/Watson_conditioned.png  used on input line 1803.
+Package pdftex.def Info: imgs/Watson_conditioned.png  used on input line 1793.
 (pdftex.def)             Requested size: 390.01237pt x 292.19168pt.
 [138 <./imgs/Watson_unconditioned.png>]
-<imgs/Watson_Society_S.png, id=1747, 567.11874pt x 362.35374pt>
+<imgs/Watson_Society_S.png, id=1751, 567.11874pt x 362.35374pt>
 File: imgs/Watson_Society_S.png Graphic file (type png)
 <use imgs/Watson_Society_S.png>
-Package pdftex.def Info: imgs/Watson_Society_S.png  used on input line 1807.
+Package pdftex.def Info: imgs/Watson_Society_S.png  used on input line 1797.
 (pdftex.def)             Requested size: 390.01433pt x 249.19499pt.
 [139 <./imgs/Watson_conditioned.png>]
-<imgs/Watson_Society_R.png, id=1753, 427.5975pt x 227.85126pt>
+<imgs/Watson_Society_R.png, id=1758, 427.5975pt x 227.85126pt>
 File: imgs/Watson_Society_R.png Graphic file (type png)
 <use imgs/Watson_Society_R.png>
-Package pdftex.def Info: imgs/Watson_Society_R.png  used on input line 1811.
+Package pdftex.def Info: imgs/Watson_Society_R.png  used on input line 1801.
 (pdftex.def)             Requested size: 390.00168pt x 207.8178pt.
 [140 <./imgs/Watson_Society_S.png> <./imgs/Watson_Society_R.png>]
-<imgs/Watson_sweep.png, id=1760, 603.25375pt x 669.50125pt>
+<imgs/Watson_sweep.png, id=1765, 603.25375pt x 669.50125pt>
 File: imgs/Watson_sweep.png Graphic file (type png)
 <use imgs/Watson_sweep.png>
-Package pdftex.def Info: imgs/Watson_sweep.png  used on input line 1815.
+Package pdftex.def Info: imgs/Watson_sweep.png  used on input line 1805.
 (pdftex.def)             Requested size: 389.99316pt x 432.82103pt.
 [141 <./imgs/Watson_sweep.png>]
-<imgs/Tolman_portrait.jpg, id=1771, 334.24875pt x 511.9125pt>
+<imgs/Tolman_portrait.jpg, id=1775, 334.24875pt x 511.9125pt>
 File: imgs/Tolman_portrait.jpg Graphic file (type jpg)
 <use imgs/Tolman_portrait.jpg>
-Package pdftex.def Info: imgs/Tolman_portrait.jpg  used on input line 1825.
+Package pdftex.def Info: imgs/Tolman_portrait.jpg  used on input line 1815.
 (pdftex.def)             Requested size: 97.50087pt x 149.32567pt.
 [142 <./imgs/Tolman_portrait.jpg>] [143] [144] [145]
-<imgs/Tolman_AlleyMaze.png, id=1807, 554.07pt x 647.41875pt>
+<imgs/Tolman_AlleyMaze.png, id=1811, 554.07pt x 647.41875pt>
 File: imgs/Tolman_AlleyMaze.png Graphic file (type png)
 <use imgs/Tolman_AlleyMaze.png>
-Package pdftex.def Info: imgs/Tolman_AlleyMaze.png  used on input line 1884.
+Package pdftex.def Info: imgs/Tolman_AlleyMaze.png  used on input line 1874.
 (pdftex.def)             Requested size: 195.00111pt x 227.85455pt.
 [146]
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-1890.
+1880.
 
-<imgs/Tolman_hunger.png, id=1817, 553.06625pt x 515.9275pt>
+<imgs/Tolman_hunger.png, id=1821, 553.06625pt x 515.9275pt>
 File: imgs/Tolman_hunger.png Graphic file (type png)
 <use imgs/Tolman_hunger.png>
-Package pdftex.def Info: imgs/Tolman_hunger.png  used on input line 1891.
+Package pdftex.def Info: imgs/Tolman_hunger.png  used on input line 1881.
 (pdftex.def)             Requested size: 194.99385pt x 181.89989pt.
 [147 <./imgs/Tolman_AlleyMaze.png>] [148 <./imgs/Tolman_hunger.png>]
-<imgs/Tolman_DistanceMaze.png, id=1835, 709.65125pt x 662.475pt>
+<imgs/Tolman_DistanceMaze.png, id=1839, 709.65125pt x 662.475pt>
 File: imgs/Tolman_DistanceMaze.png Graphic file (type png)
 <use imgs/Tolman_DistanceMaze.png>
-Package pdftex.def Info: imgs/Tolman_DistanceMaze.png  used on input line 1909.
+Package pdftex.def Info: imgs/Tolman_DistanceMaze.png  used on input line 1899.
 
 (pdftex.def)             Requested size: 194.99768pt x 182.0346pt.
-<imgs/Tolman_Minima.png, id=1839, 561.09625pt x 662.475pt>
+<imgs/Tolman_Minima.png, id=1843, 561.09625pt x 662.475pt>
 File: imgs/Tolman_Minima.png Graphic file (type png)
 <use imgs/Tolman_Minima.png>
-Package pdftex.def Info: imgs/Tolman_Minima.png  used on input line 1916.
+Package pdftex.def Info: imgs/Tolman_Minima.png  used on input line 1906.
 (pdftex.def)             Requested size: 194.99963pt x 230.23213pt.
 [149 <./imgs/Tolman_DistanceMaze.png>]
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-1922.
+1912.
 
-<imgs/Tolman_Temporal.png, id=1856, 530.98375pt x 782.925pt>
+<imgs/Tolman_Temporal.png, id=1860, 530.98375pt x 782.925pt>
 File: imgs/Tolman_Temporal.png Graphic file (type png)
 <use imgs/Tolman_Temporal.png>
-Package pdftex.def Info: imgs/Tolman_Temporal.png  used on input line 1923.
+Package pdftex.def Info: imgs/Tolman_Temporal.png  used on input line 1913.
 (pdftex.def)             Requested size: 195.00252pt x 287.52736pt.
 [150 <./imgs/Tolman_Minima.png>] [151 <./imgs/Tolman_Temporal.png>] [152]
-<imgs/Tolman_latentmap.png, id=1909, 537.00626pt x 484.81125pt>
+<imgs/Tolman_latentmap.png, id=1914, 537.00626pt x 484.81125pt>
 File: imgs/Tolman_latentmap.png Graphic file (type png)
 <use imgs/Tolman_latentmap.png>
-Package pdftex.def Info: imgs/Tolman_latentmap.png  used on input line 1949.
+Package pdftex.def Info: imgs/Tolman_latentmap.png  used on input line 1939.
 (pdftex.def)             Requested size: 97.49274pt x 88.01682pt.
-<imgs/Tolman_latentresults.png, id=1912, 581.17125pt x 496.85625pt>
+<imgs/Tolman_latentresults.png, id=1917, 581.17125pt x 496.85625pt>
 File: imgs/Tolman_latentresults.png Graphic file (type png)
 <use imgs/Tolman_latentresults.png>
-Package pdftex.def Info: imgs/Tolman_latentresults.png  used on input line 1956
+Package pdftex.def Info: imgs/Tolman_latentresults.png  used on input line 1946
 .
 (pdftex.def)             Requested size: 194.9973pt x 166.70753pt.
 [153 <./imgs/Tolman_latentmap.png>] [154 <./imgs/Tolman_latentresults.png>]
-<imgs/clark-l-hull.jpg, id=1931, 220.825pt x 282.05376pt>
+<imgs/clark-l-hull.jpg, id=1935, 220.825pt x 282.05376pt>
 File: imgs/clark-l-hull.jpg Graphic file (type jpg)
 <use imgs/clark-l-hull.jpg>
-Package pdftex.def Info: imgs/clark-l-hull.jpg  used on input line 1981.
+Package pdftex.def Info: imgs/clark-l-hull.jpg  used on input line 1971.
 (pdftex.def)             Requested size: 97.50024pt x 124.53441pt.
 [155 <./imgs/clark-l-hull.jpg>]
 
-LaTeX Warning: Command \texttimes invalid in math mode on input line 1998.
+LaTeX Warning: Command \texttimes invalid in math mode on input line 1988.
 
 
-LaTeX Warning: Command \texttimes invalid in math mode on input line 1998.
+LaTeX Warning: Command \texttimes invalid in math mode on input line 1988.
 
 
-LaTeX Warning: Command \texttimes invalid in math mode on input line 1998.
+LaTeX Warning: Command \texttimes invalid in math mode on input line 1988.
 
 
-LaTeX Warning: Command \texttimes invalid in math mode on input line 1998.
+LaTeX Warning: Command \texttimes invalid in math mode on input line 1988.
 
 
-LaTeX Warning: Command \texttimes invalid in math mode on input line 1998.
+LaTeX Warning: Command \texttimes invalid in math mode on input line 1988.
 
 
-LaTeX Warning: Command \texttimes invalid in math mode on input line 1998.
+LaTeX Warning: Command \texttimes invalid in math mode on input line 1988.
 
 [156]
-<imgs/bf_skinner.jpg, id=1959, 105.996pt x 116.3547pt>
+<imgs/bf_skinner.jpg, id=1963, 105.996pt x 116.3547pt>
 File: imgs/bf_skinner.jpg Graphic file (type jpg)
 <use imgs/bf_skinner.jpg>
-Package pdftex.def Info: imgs/bf_skinner.jpg  used on input line 2021.
+Package pdftex.def Info: imgs/bf_skinner.jpg  used on input line 2011.
 (pdftex.def)             Requested size: 97.50293pt x 107.03163pt.
 [157 <./imgs/bf_skinner.jpg>] [158]
-Underfull \hbox (badness 1412) in paragraph at lines 2041--2042
+Underfull \hbox (badness 1412) in paragraph at lines 2031--2032
 \T1/qtm/m/n/12 (+20) a ``Skinner-box'' and a lever-pressing de-vice. Un-like
  []
 
-<imgs/Skinner_Box.png, id=1975, 557.08125pt x 528.97626pt>
+<imgs/Skinner_Box.png, id=1979, 557.08125pt x 528.97626pt>
 File: imgs/Skinner_Box.png Graphic file (type png)
 <use imgs/Skinner_Box.png>
-Package pdftex.def Info: imgs/Skinner_Box.png  used on input line 2044.
+Package pdftex.def Info: imgs/Skinner_Box.png  used on input line 2034.
 (pdftex.def)             Requested size: 194.99835pt x 185.1606pt.
 [159 <./imgs/Skinner_Box.png>]
-<imgs/Skinner_Results.png, id=1983, 655.44875pt x 387.4475pt>
+<imgs/Skinner_Results.png, id=1987, 655.44875pt x 387.4475pt>
 File: imgs/Skinner_Results.png Graphic file (type png)
 <use imgs/Skinner_Results.png>
-Package pdftex.def Info: imgs/Skinner_Results.png  used on input line 2057.
+Package pdftex.def Info: imgs/Skinner_Results.png  used on input line 2047.
 (pdftex.def)             Requested size: 194.99591pt x 115.26558pt.
 [160 <./imgs/Skinner_Results.png>]
-<imgs/Skinner_Slope.png, id=1989, 659.46375pt x 536.0025pt>
+<imgs/Skinner_Slope.png, id=1993, 659.46375pt x 536.0025pt>
 File: imgs/Skinner_Slope.png Graphic file (type png)
 <use imgs/Skinner_Slope.png>
-Package pdftex.def Info: imgs/Skinner_Slope.png  used on input line 2073.
+Package pdftex.def Info: imgs/Skinner_Slope.png  used on input line 2063.
 (pdftex.def)             Requested size: 194.99294pt x 158.48741pt.
 [161 <./imgs/Skinner_Slope.png>]
-<imgs/Skinner_description.png, id=2000, 683.55376pt x 371.3875pt>
+<imgs/Skinner_description.png, id=2004, 683.55376pt x 371.3875pt>
 File: imgs/Skinner_description.png Graphic file (type png)
 <use imgs/Skinner_description.png>
-Package pdftex.def Info: imgs/Skinner_description.png  used on input line 2091.
+Package pdftex.def Info: imgs/Skinner_description.png  used on input line 2081.
 
 (pdftex.def)             Requested size: 390.00517pt x 211.89708pt.
 [162] [163 <./imgs/Skinner_description.png>] [164] [165]
 File: imgs/Skinner_description.png Graphic file (type png)
 <use imgs/Skinner_description.png>
-Package pdftex.def Info: imgs/Skinner_description.png  used on input line 2141.
+Package pdftex.def Info: imgs/Skinner_description.png  used on input line 2131.
 
 (pdftex.def)             Requested size: 390.00517pt x 211.89708pt.
 [166] [167] [168] [169] [170]
@@ -1072,86 +1072,86 @@ Chapter 7.
 [171
 
 ]
-Underfull \hbox (badness 2277) in paragraph at lines 2209--2209
+Underfull \hbox (badness 2277) in paragraph at lines 2199--2199
 []\T1/qtm/b/n/17.28 Four Rev-o-lu-tions: In-dus-trial, Tech-no-log-i-cal,
  []
 
 [172] [173] [174] [175] [176] [177] [178] [179]
-<imgs/Donders_simple.png, id=2197, 548.0475pt x 565.11125pt>
+<imgs/Donders_simple.png, id=2201, 548.0475pt x 565.11125pt>
 File: imgs/Donders_simple.png Graphic file (type png)
 <use imgs/Donders_simple.png>
-Package pdftex.def Info: imgs/Donders_simple.png  used on input line 2287.
+Package pdftex.def Info: imgs/Donders_simple.png  used on input line 2277.
 (pdftex.def)             Requested size: 97.49863pt x 100.53429pt.
-<imgs/Donders_GoNoGo.png, id=2198, 548.0475pt x 565.11125pt>
+<imgs/Donders_GoNoGo.png, id=2202, 548.0475pt x 565.11125pt>
 File: imgs/Donders_GoNoGo.png Graphic file (type png)
 <use imgs/Donders_GoNoGo.png>
-Package pdftex.def Info: imgs/Donders_GoNoGo.png  used on input line 2294.
+Package pdftex.def Info: imgs/Donders_GoNoGo.png  used on input line 2284.
 (pdftex.def)             Requested size: 97.49863pt x 100.53429pt.
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-2300.
+2290.
 
-<imgs/Donders_Choice.png, id=2199, 548.0475pt x 565.11125pt>
+<imgs/Donders_Choice.png, id=2203, 548.0475pt x 565.11125pt>
 File: imgs/Donders_Choice.png Graphic file (type png)
 <use imgs/Donders_Choice.png>
-Package pdftex.def Info: imgs/Donders_Choice.png  used on input line 2301.
+Package pdftex.def Info: imgs/Donders_Choice.png  used on input line 2291.
 (pdftex.def)             Requested size: 97.49863pt x 100.53429pt.
 [180 <./imgs/Donders_simple.png>]
-<imgs/Donders_Assembly.png, id=2206, 629.35126pt x 212.795pt>
+<imgs/Donders_Assembly.png, id=2210, 629.35126pt x 212.795pt>
 File: imgs/Donders_Assembly.png Graphic file (type png)
 <use imgs/Donders_Assembly.png>
-Package pdftex.def Info: imgs/Donders_Assembly.png  used on input line 2312.
+Package pdftex.def Info: imgs/Donders_Assembly.png  used on input line 2302.
 (pdftex.def)             Requested size: 390.00168pt x 131.86658pt.
-<imgs/Donders_task_stages.jpg, id=2207, 2217.28375pt x 1781.65625pt>
+<imgs/Donders_task_stages.jpg, id=2211, 2217.28375pt x 1781.65625pt>
 File: imgs/Donders_task_stages.jpg Graphic file (type jpg)
 <use imgs/Donders_task_stages.jpg>
-Package pdftex.def Info: imgs/Donders_task_stages.jpg  used on input line 2316.
+Package pdftex.def Info: imgs/Donders_task_stages.jpg  used on input line 2306.
 
 (pdftex.def)             Requested size: 389.99278pt x 313.37129pt.
 [181 <./imgs/Donders_GoNoGo.png> <./imgs/Donders_Choice.png> <./imgs/Donders_As
 sembly.png>]
-<imgs/Donders_id_time.jpg, id=2217, 2180.145pt x 848.16875pt>
+<imgs/Donders_id_time.jpg, id=2221, 2180.145pt x 848.16875pt>
 File: imgs/Donders_id_time.jpg Graphic file (type jpg)
 <use imgs/Donders_id_time.jpg>
-Package pdftex.def Info: imgs/Donders_id_time.jpg  used on input line 2320.
+Package pdftex.def Info: imgs/Donders_id_time.jpg  used on input line 2310.
 (pdftex.def)             Requested size: 389.98073pt x 151.71901pt.
 [182 <./imgs/Donders_task_stages.jpg>]
-<imgs/Donders_RT_time.png, id=2222, 2119.92pt x 1285.80376pt>
+<imgs/Donders_RT_time.png, id=2226, 2119.92pt x 1285.80376pt>
 File: imgs/Donders_RT_time.png Graphic file (type png)
 <use imgs/Donders_RT_time.png>
-Package pdftex.def Info: imgs/Donders_RT_time.png  used on input line 2326.
+Package pdftex.def Info: imgs/Donders_RT_time.png  used on input line 2316.
 (pdftex.def)             Requested size: 389.97945pt x 236.53583pt.
 [183 <./imgs/Donders_id_time.jpg>] [184 <./imgs/Donders_RT_time.png>] [185] [18
 6]
-<imgs/PRP_effect.jpg, id=2280, 2337.73375pt x 2229.32875pt>
+<imgs/PRP_effect.jpg, id=2284, 2337.73375pt x 2229.32875pt>
 File: imgs/PRP_effect.jpg Graphic file (type jpg)
 <use imgs/PRP_effect.jpg>
-Package pdftex.def Info: imgs/PRP_effect.jpg  used on input line 2362.
+Package pdftex.def Info: imgs/PRP_effect.jpg  used on input line 2352.
 (pdftex.def)             Requested size: 194.97713pt x 185.93568pt.
 [187 <./imgs/PRP_effect.jpg>] [188] [189] [190] [191]
-<imgs/Shannon_info_channel.jpg, id=2368, 1986.42125pt x 1189.44376pt>
+<imgs/Shannon_info_channel.jpg, id=2372, 1986.42125pt x 1189.44376pt>
 File: imgs/Shannon_info_channel.jpg Graphic file (type jpg)
 <use imgs/Shannon_info_channel.jpg>
-Package pdftex.def Info: imgs/Shannon_info_channel.jpg  used on input line 2406
+Package pdftex.def Info: imgs/Shannon_info_channel.jpg  used on input line 2396
 .
 (pdftex.def)             Requested size: 389.97243pt x 233.51053pt.
 [192 <./imgs/Shannon_info_channel.jpg>] [193] [194] [195] [196] [197]
-<imgs/Shannon_bits.jpg, id=2422, 2399.96625pt x 1917.1625pt>
+<imgs/Shannon_bits.jpg, id=2426, 2399.96625pt x 1917.1625pt>
 File: imgs/Shannon_bits.jpg Graphic file (type jpg)
 <use imgs/Shannon_bits.jpg>
-Package pdftex.def Info: imgs/Shannon_bits.jpg  used on input line 2491.
+Package pdftex.def Info: imgs/Shannon_bits.jpg  used on input line 2481.
 (pdftex.def)             Requested size: 389.97159pt x 311.52058pt.
 [198 <./imgs/Shannon_bits.jpg>] [199] [200] [201] [202] [203] [204] [205]
-<imgs/Hyman_e2.jpg, id=2499, 1951.29pt x 1361.085pt>
+<imgs/Hyman_e2.jpg, id=2503, 1951.29pt x 1361.085pt>
 File: imgs/Hyman_e2.jpg Graphic file (type jpg)
 <use imgs/Hyman_e2.jpg>
-Package pdftex.def Info: imgs/Hyman_e2.jpg  used on input line 2649.
+Package pdftex.def Info: imgs/Hyman_e2.jpg  used on input line 2639.
 (pdftex.def)             Requested size: 389.98312pt x 272.02527pt.
 [206 <./imgs/Hyman_e2.jpg>]
-<imgs/Hick_hyman_law.png, id=2505, 2139.995pt x 2073.7475pt>
+<imgs/Hick_hyman_law.png, id=2509, 2139.995pt x 2073.7475pt>
 File: imgs/Hick_hyman_law.png Graphic file (type png)
 <use imgs/Hick_hyman_law.png>
-Package pdftex.def Info: imgs/Hick_hyman_law.png  used on input line 2660.
+Package pdftex.def Info: imgs/Hick_hyman_law.png  used on input line 2650.
 (pdftex.def)             Requested size: 389.98257pt x 377.90994pt.
 [207] [208 <./imgs/Hick_hyman_law.png>] [209] [210] [211] [212] [213]
 Chapter 8.
@@ -1159,216 +1159,216 @@ Chapter 8.
 
 ] [215] [216]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 2788.
+(Font)              <9> on input line 2778.
 
-Overfull \hbox (51.9671pt too wide) in paragraph at lines 2788--2810
+Overfull \hbox (51.9671pt too wide) in paragraph at lines 2778--2800
  [][] 
  []
 
 [217]
-<imgs/Ebbinghaus_OL.png, id=2637, 652.4375pt x 456.70625pt>
+<imgs/Ebbinghaus_OL.png, id=2641, 652.4375pt x 456.70625pt>
 File: imgs/Ebbinghaus_OL.png Graphic file (type png)
 <use imgs/Ebbinghaus_OL.png>
-Package pdftex.def Info: imgs/Ebbinghaus_OL.png  used on input line 2822.
+Package pdftex.def Info: imgs/Ebbinghaus_OL.png  used on input line 2812.
 (pdftex.def)             Requested size: 194.99605pt x 136.49724pt.
 [218 <./imgs/Ebbinghaus_OL.png>]
-<C8_Memory_I_files/figure-latex/unnamed-chunk-5-1.pdf, id=2650, 452.69125pt x 3
+<C8_Memory_I_files/figure-latex/unnamed-chunk-5-1.pdf, id=2654, 452.69125pt x 3
 05.14pt>
 File: C8_Memory_I_files/figure-latex/unnamed-chunk-5-1.pdf Graphic file (type p
 df)
 <use C8_Memory_I_files/figure-latex/unnamed-chunk-5-1.pdf>
 Package pdftex.def Info: C8_Memory_I_files/figure-latex/unnamed-chunk-5-1.pdf  
-used on input line 2837.
+used on input line 2827.
 (pdftex.def)             Requested size: 389.99763pt x 262.88087pt.
 [219 <./C8_Memory_I_files/figure-latex/unnamed-chunk-5-1.pdf>]
-<imgs/Ebbinghaus_exp.jpg, id=2664, 1392.20125pt x 1455.4375pt>
+<imgs/Ebbinghaus_exp.jpg, id=2668, 1392.20125pt x 1455.4375pt>
 File: imgs/Ebbinghaus_exp.jpg Graphic file (type jpg)
 <use imgs/Ebbinghaus_exp.jpg>
-Package pdftex.def Info: imgs/Ebbinghaus_exp.jpg  used on input line 2852.
+Package pdftex.def Info: imgs/Ebbinghaus_exp.jpg  used on input line 2842.
 (pdftex.def)             Requested size: 194.99182pt x 203.8487pt.
 [220] [221 <./imgs/Ebbinghaus_exp.jpg>] [222] [223] [224]
-<imgs/Bartlett_homme.png, id=2726, 1137.24875pt x 480.79625pt>
+<imgs/Bartlett_homme.png, id=2731, 1137.24875pt x 480.79625pt>
 File: imgs/Bartlett_homme.png Graphic file (type png)
 <use imgs/Bartlett_homme.png>
-Package pdftex.def Info: imgs/Bartlett_homme.png  used on input line 2924.
+Package pdftex.def Info: imgs/Bartlett_homme.png  used on input line 2914.
 (pdftex.def)             Requested size: 390.00859pt x 164.88446pt.
 [225] [226 <./imgs/Bartlett_homme.png>] [227] [228]
-<imgs/Von_restorff_Stimuli.png, id=2780, 262.9825pt x 156.585pt>
+<imgs/Von_restorff_Stimuli.png, id=2784, 262.9825pt x 156.585pt>
 File: imgs/Von_restorff_Stimuli.png Graphic file (type png)
 <use imgs/Von_restorff_Stimuli.png>
-Package pdftex.def Info: imgs/Von_restorff_Stimuli.png  used on input line 2961
+Package pdftex.def Info: imgs/Von_restorff_Stimuli.png  used on input line 2951
 .
 (pdftex.def)             Requested size: 195.00928pt x 116.1124pt.
 
-Overfull \hbox (1.35799pt too wide) in paragraph at lines 2965--2966
+Overfull \hbox (1.35799pt too wide) in paragraph at lines 2955--2956
 \T1/qtm/m/n/12 (-20) ``massed'' pairs. Think of them as pro-vid-
  []
 
 [229 <./imgs/Von_restorff_Stimuli.png>]
-<imgs/Von_Restorff_counterbalance.jpg, id=2795, 2528.44624pt x 1859.94875pt>
+<imgs/Von_Restorff_counterbalance.jpg, id=2799, 2528.44624pt x 1859.94875pt>
 File: imgs/Von_Restorff_counterbalance.jpg Graphic file (type jpg)
 <use imgs/Von_Restorff_counterbalance.jpg>
 Package pdftex.def Info: imgs/Von_Restorff_counterbalance.jpg  used on input li
-ne 2973.
+ne 2963.
 (pdftex.def)             Requested size: 194.98804pt x 143.43503pt.
 [230 <./imgs/Von_Restorff_counterbalance.jpg>] [231] [232] [233] [234] [235]
-<imgs/Pollack_tone.png, id=2840, 997.7275pt x 1068.99374pt>
+<imgs/Pollack_tone.png, id=2844, 997.7275pt x 1068.99374pt>
 File: imgs/Pollack_tone.png Graphic file (type png)
 <use imgs/Pollack_tone.png>
-Package pdftex.def Info: imgs/Pollack_tone.png  used on input line 3036.
+Package pdftex.def Info: imgs/Pollack_tone.png  used on input line 3026.
 (pdftex.def)             Requested size: 194.98996pt x 208.91782pt.
 [236 <./imgs/Pollack_tone.png>]
-<imgs/Miller_tone.png, id=2852, 534.99875pt x 403.5075pt>
+<imgs/Miller_tone.png, id=2856, 534.99875pt x 403.5075pt>
 File: imgs/Miller_tone.png Graphic file (type png)
 <use imgs/Miller_tone.png>
-Package pdftex.def Info: imgs/Miller_tone.png  used on input line 3048.
+Package pdftex.def Info: imgs/Miller_tone.png  used on input line 3038.
 (pdftex.def)             Requested size: 194.99944pt x 147.07275pt.
 [237 <./imgs/Miller_tone.png>] [238] [239]
-<imgs/Miller_im_span.jpg, id=2875, 867.24pt x 805.0075pt>
+<imgs/Miller_im_span.jpg, id=2879, 867.24pt x 805.0075pt>
 File: imgs/Miller_im_span.jpg Graphic file (type jpg)
 <use imgs/Miller_im_span.jpg>
-Package pdftex.def Info: imgs/Miller_im_span.jpg  used on input line 3100.
+Package pdftex.def Info: imgs/Miller_im_span.jpg  used on input line 3090.
 (pdftex.def)             Requested size: 194.98825pt x 180.99603pt.
 [240] [241 <./imgs/Miller_im_span.jpg>] [242] [243]
-<imgs/Multi_store_1.jpg, id=2903, 606.265pt x 702.625pt>
+<imgs/Multi_store_1.jpg, id=2907, 606.265pt x 702.625pt>
 File: imgs/Multi_store_1.jpg Graphic file (type jpg)
 <use imgs/Multi_store_1.jpg>
-Package pdftex.def Info: imgs/Multi_store_1.jpg  used on input line 3147.
+Package pdftex.def Info: imgs/Multi_store_1.jpg  used on input line 3137.
 (pdftex.def)             Requested size: 194.9986pt x 225.99176pt.
-<imgs/Multi_store_2.jpg, id=2904, 601.24625pt x 774.895pt>
+<imgs/Multi_store_2.jpg, id=2908, 601.24625pt x 774.895pt>
 File: imgs/Multi_store_2.jpg Graphic file (type jpg)
 <use imgs/Multi_store_2.jpg>
-Package pdftex.def Info: imgs/Multi_store_2.jpg  used on input line 3154.
+Package pdftex.def Info: imgs/Multi_store_2.jpg  used on input line 3144.
 (pdftex.def)             Requested size: 194.99904pt x 251.31764pt.
 [244 <./imgs/Multi_store_1.jpg>] [245 <./imgs/Multi_store_2.jpg>]
-<imgs/Serial_position_1.jpg, id=2918, 373.395pt x 428.60126pt>
+<imgs/Serial_position_1.jpg, id=2922, 373.395pt x 428.60126pt>
 File: imgs/Serial_position_1.jpg Graphic file (type jpg)
 <use imgs/Serial_position_1.jpg>
-Package pdftex.def Info: imgs/Serial_position_1.jpg  used on input line 3170.
+Package pdftex.def Info: imgs/Serial_position_1.jpg  used on input line 3160.
 (pdftex.def)             Requested size: 194.99835pt x 223.82875pt.
 [246 <./imgs/Serial_position_1.jpg>] [247]
-<imgs/Serial_position_2.png, id=2943, 645.41125pt x 527.9725pt>
+<imgs/Serial_position_2.png, id=2947, 645.41125pt x 527.9725pt>
 File: imgs/Serial_position_2.png Graphic file (type png)
 <use imgs/Serial_position_2.png>
-Package pdftex.def Info: imgs/Serial_position_2.png  used on input line 3201.
+Package pdftex.def Info: imgs/Serial_position_2.png  used on input line 3191.
 (pdftex.def)             Requested size: 194.99376pt x 159.51277pt.
 [248]
-<imgs/Tzeng_1973.jpg, id=2956, 421.575pt x 384.43625pt>
+<imgs/Tzeng_1973.jpg, id=2960, 421.575pt x 384.43625pt>
 File: imgs/Tzeng_1973.jpg Graphic file (type jpg)
 <use imgs/Tzeng_1973.jpg>
-Package pdftex.def Info: imgs/Tzeng_1973.jpg  used on input line 3217.
+Package pdftex.def Info: imgs/Tzeng_1973.jpg  used on input line 3207.
 (pdftex.def)             Requested size: 195.00111pt x 177.82243pt.
 [249 <./imgs/Serial_position_2.png>] [250 <./imgs/Tzeng_1973.jpg>] [251] [252]
 Chapter 9.
 [253
 
 ] [254] [255] [256]
-Overfull \hbox (51.02402pt too wide) in alignment at lines 3295--3299
+Overfull \hbox (51.02402pt too wide) in alignment at lines 3285--3289
  [] [] [] 
  []
 
 
-Overfull \hbox (51.02402pt too wide) in alignment at lines 3299--3303
+Overfull \hbox (51.02402pt too wide) in alignment at lines 3289--3293
  [] [] [] 
  []
 
 [257] [258] [259] [260] [261]
-<imgs/Melton_1970.jpg, id=3120, 624.3325pt x 502.87875pt>
+<imgs/Melton_1970.jpg, id=3124, 624.3325pt x 502.87875pt>
 File: imgs/Melton_1970.jpg Graphic file (type jpg)
 <use imgs/Melton_1970.jpg>
-Package pdftex.def Info: imgs/Melton_1970.jpg  used on input line 3363.
+Package pdftex.def Info: imgs/Melton_1970.jpg  used on input line 3353.
 (pdftex.def)             Requested size: 194.99863pt x 157.0648pt.
 [262] [263 <./imgs/Melton_1970.jpg>]
-<imgs/Underwood_1957.png, id=3155, 658.46pt x 461.725pt>
+<imgs/Underwood_1957.png, id=3159, 658.46pt x 461.725pt>
 File: imgs/Underwood_1957.png Graphic file (type png)
 <use imgs/Underwood_1957.png>
-Package pdftex.def Info: imgs/Underwood_1957.png  used on input line 3389.
+Package pdftex.def Info: imgs/Underwood_1957.png  used on input line 3379.
 (pdftex.def)             Requested size: 194.99756pt x 136.7361pt.
 [264]
-<imgs/Fan_effect.png, id=3177, 684.5575pt x 321.2pt>
+<imgs/Fan_effect.png, id=3181, 684.5575pt x 321.2pt>
 File: imgs/Fan_effect.png Graphic file (type png)
 <use imgs/Fan_effect.png>
-Package pdftex.def Info: imgs/Fan_effect.png  used on input line 3402.
+Package pdftex.def Info: imgs/Fan_effect.png  used on input line 3392.
 (pdftex.def)             Requested size: 390.01381pt x 182.99768pt.
 [265 <./imgs/Underwood_1957.png>]
-<C9_Memory_II_files/figure-latex/unnamed-chunk-7-1.pdf, id=3191, 457.71pt x 316
+<C9_Memory_II_files/figure-latex/unnamed-chunk-7-1.pdf, id=3195, 457.71pt x 316
 .18124pt>
 File: C9_Memory_II_files/figure-latex/unnamed-chunk-7-1.pdf Graphic file (type 
 pdf)
 <use C9_Memory_II_files/figure-latex/unnamed-chunk-7-1.pdf>
 Package pdftex.def Info: C9_Memory_II_files/figure-latex/unnamed-chunk-7-1.pdf 
- used on input line 3406.
+ used on input line 3396.
 (pdftex.def)             Requested size: 390.01216pt x 269.41628pt.
 [266 <./imgs/Fan_effect.png>] [267 <./C9_Memory_II_files/figure-latex/unnamed-c
 hunk-7-1.pdf>] [268]
-<imgs/Bransford_context.png, id=3234, 362.35374pt x 654.445pt>
+<imgs/Bransford_context.png, id=3238, 362.35374pt x 654.445pt>
 File: imgs/Bransford_context.png Graphic file (type png)
 <use imgs/Bransford_context.png>
-Package pdftex.def Info: imgs/Bransford_context.png  used on input line 3432.
+Package pdftex.def Info: imgs/Bransford_context.png  used on input line 3422.
 (pdftex.def)             Requested size: 97.49954pt x 176.09337pt.
-<imgs/Bransford_partial.png, id=3235, 406.51875pt x 599.23875pt>
+<imgs/Bransford_partial.png, id=3239, 406.51875pt x 599.23875pt>
 File: imgs/Bransford_partial.png Graphic file (type png)
 <use imgs/Bransford_partial.png>
-Package pdftex.def Info: imgs/Bransford_partial.png  used on input line 3439.
+Package pdftex.def Info: imgs/Bransford_partial.png  used on input line 3429.
 (pdftex.def)             Requested size: 97.49825pt x 143.71965pt.
-<imgs/Bransford_data.png, id=3236, 741.77126pt x 244.915pt>
+<imgs/Bransford_data.png, id=3240, 741.77126pt x 244.915pt>
 File: imgs/Bransford_data.png Graphic file (type png)
 <use imgs/Bransford_data.png>
-Package pdftex.def Info: imgs/Bransford_data.png  used on input line 3447.
+Package pdftex.def Info: imgs/Bransford_data.png  used on input line 3437.
 (pdftex.def)             Requested size: 282.49852pt x 93.2742pt.
 [269 <./imgs/Bransford_context.png> <./imgs/Bransford_partial.png> <./imgs/Bran
 sford_data.png>]
-<imgs/Godden_Baddeley_data.png, id=3245, 573.14125pt x 241.90375pt>
+<imgs/Godden_Baddeley_data.png, id=3249, 573.14125pt x 241.90375pt>
 File: imgs/Godden_Baddeley_data.png Graphic file (type png)
 <use imgs/Godden_Baddeley_data.png>
-Package pdftex.def Info: imgs/Godden_Baddeley_data.png  used on input line 3460
+Package pdftex.def Info: imgs/Godden_Baddeley_data.png  used on input line 3450
 .
 (pdftex.def)             Requested size: 390.002pt x 164.6068pt.
 [270] [271 <./imgs/Godden_Baddeley_data.png>]
-<imgs/Generation_effect.png, id=3273, 374.39874pt x 354.32375pt>
+<imgs/Generation_effect.png, id=3278, 374.39874pt x 354.32375pt>
 File: imgs/Generation_effect.png Graphic file (type png)
 <use imgs/Generation_effect.png>
-Package pdftex.def Info: imgs/Generation_effect.png  used on input line 3472.
+Package pdftex.def Info: imgs/Generation_effect.png  used on input line 3462.
 (pdftex.def)             Requested size: 195.00267pt x 184.54677pt.
 
-Underfull \hbox (badness 5652) in paragraph at lines 3479--3479
+Underfull \hbox (badness 5652) in paragraph at lines 3469--3469
 []\T1/qtm/b/n/12 Enactment and Pro-duc-
  []
 
 [272 <./imgs/Generation_effect.png>]
-<imgs/Test_enhanced.png, id=3303, 453.695pt x 379.4175pt>
+<imgs/Test_enhanced.png, id=3307, 453.695pt x 379.4175pt>
 File: imgs/Test_enhanced.png Graphic file (type png)
 <use imgs/Test_enhanced.png>
-Package pdftex.def Info: imgs/Test_enhanced.png  used on input line 3493.
+Package pdftex.def Info: imgs/Test_enhanced.png  used on input line 3483.
 (pdftex.def)             Requested size: 195.00197pt x 163.07686pt.
 [273 <./imgs/Test_enhanced.png>]
-<imgs/Direct_forgetting.png, id=3321, 434.62375pt x 211.79124pt>
+<imgs/Direct_forgetting.png, id=3325, 434.62375pt x 211.79124pt>
 File: imgs/Direct_forgetting.png Graphic file (type png)
 <use imgs/Direct_forgetting.png>
-Package pdftex.def Info: imgs/Direct_forgetting.png  used on input line 3505.
+Package pdftex.def Info: imgs/Direct_forgetting.png  used on input line 3495.
 (pdftex.def)             Requested size: 195.0019pt x 95.02402pt.
 [274 <./imgs/Direct_forgetting.png>] [275] [276] [277]
-Overfull \hbox (14.61066pt too wide) in paragraph at lines 3555--3555
+Overfull \hbox (14.61066pt too wide) in paragraph at lines 3545--3545
 []\T1/qtm/b/n/14.4 TIP/TAP: Transfer-inappropriate and transfer-appropriate
  []
 
 [278]
-<imgs/Tip_Tap.png, id=3376, 357.335pt x 141.52875pt>
+<imgs/Tip_Tap.png, id=3380, 357.335pt x 141.52875pt>
 File: imgs/Tip_Tap.png Graphic file (type png)
 <use imgs/Tip_Tap.png>
-Package pdftex.def Info: imgs/Tip_Tap.png  used on input line 3567.
+Package pdftex.def Info: imgs/Tip_Tap.png  used on input line 3557.
 (pdftex.def)             Requested size: 195.0027pt x 77.2342pt.
 [279 <./imgs/Tip_Tap.png>] [280]
-<imgs/Procedures_text.png, id=3407, 604.2575pt x 593.21625pt>
+<imgs/Procedures_text.png, id=3411, 604.2575pt x 593.21625pt>
 File: imgs/Procedures_text.png Graphic file (type png)
 <use imgs/Procedures_text.png>
-Package pdftex.def Info: imgs/Procedures_text.png  used on input line 3585.
+Package pdftex.def Info: imgs/Procedures_text.png  used on input line 3575.
 (pdftex.def)             Requested size: 389.99666pt x 382.87047pt.
 [281 <./imgs/Procedures_text.png>]
-<imgs/Procedures_transfer.png, id=3428, 563.10374pt x 409.53pt>
+<imgs/Procedures_transfer.png, id=3432, 563.10374pt x 409.53pt>
 File: imgs/Procedures_transfer.png Graphic file (type png)
 <use imgs/Procedures_transfer.png>
-Package pdftex.def Info: imgs/Procedures_transfer.png  used on input line 3589.
+Package pdftex.def Info: imgs/Procedures_transfer.png  used on input line 3579.
 
 (pdftex.def)             Requested size: 390.00269pt x 283.6383pt.
 [282 <./imgs/Procedures_transfer.png>] [283]
@@ -1404,16 +1404,16 @@ Chapter 16.
 ]
 File: imgs/Francis_Galton.jpg Graphic file (type jpg)
 <use imgs/Francis_Galton.jpg>
-Package pdftex.def Info: imgs/Francis_Galton.jpg  used on input line 3681.
+Package pdftex.def Info: imgs/Francis_Galton.jpg  used on input line 3671.
 (pdftex.def)             Requested size: 97.4935pt x 99.48769pt.
 [292] [293] [294] [295] [296] [297] [298] [299] [300] [301] [302] [303] [304] [
 305] [306] [307]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4252.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4242.
 [308] [309]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 4252.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 4242.
 (./instances_of_cognition_Crump.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 4252.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 4252.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 4242.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 4242.
  ) 
 Here is how much of TeX's memory you used:
  15564 strings out of 492616
@@ -2112,11 +2112,11 @@ fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
 1/public/tex-gyre/qtmb.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publ
 ic/tex-gyre/qtmr.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/tex
 -gyre/qtmri.pfb>
-Output written on instances_of_cognition_Crump.pdf (311 pages, 18206059 bytes).
+Output written on instances_of_cognition_Crump.pdf (311 pages, 18207673 bytes).
 
 PDF statistics:
- 4386 PDF objects out of 5155 (max. 8388607)
- 3881 compressed objects within 39 object streams
+ 4390 PDF objects out of 5155 (max. 8388607)
+ 3885 compressed objects within 39 object streams
  1389 named destinations out of 1440 (max. 500000)
  11433 words of extra memory for PDF output out of 12000 (max. 10000000)
 
