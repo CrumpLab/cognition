@@ -21,6 +21,13 @@ knitr::opts_chunk$set(echo = FALSE)
 library(fontawesome)
 ```
 
+## Welcome!
+
+1. Use the chat to ask questions
+2. Mute audio when you are not speaking
+3. Raise your hand for comments/questions
+4. This is a basic overview class
+
 ## Roadmap
 
 ### 1. What this course is about? {.bolder}
@@ -111,6 +118,7 @@ The textbook is:
 1. A free open-educational resource
 2. Web-book, available as pdf and epub
 3. Still in progress...
+4. <https://www.crumplab.com/cognition/textbook/>
 
 :::
 
@@ -150,120 +158,78 @@ Throughout the semester additional reading material may be assigned. Any additio
 
 ### 4. Questions {.greyout}
 
+## Course Syllabus
 
-## A regular slide with a list
+Please read the syllabus.
 
-The following items are important:
-
-1. This thing
-2. Another thing, that is this
-    - here are some additional sub points
-    - and another one
-3. A third thing, is this one
-    -  and another things
-
-## Multicolumn Text and a picture
-
-:::: {.row}
-::: {.col-md-6}
-
-Here is some text that I would like to say. It is a paragraph of text. Most of the time I would not make a slide with a paragraph. It would be too much text. So, instead of a paragraph. Point form might work better
-
-:::
-
-::: {.col-md-6}
+The most current version of the syllabus is located on the course website: <https://www.crumplab.com/cognition/articles/course_docs/Fall_2021_Psyc_2530_syllabus.html>
 
 
+## Logistics
 
-:::
-::::
+We are online and still in a global pandemic, so course adjustments may be necessary
 
-## slide with a link
+If you are running into issues, email me:
 
-here is a link <https://crumplab.com>
+1. Put PSYC 2530 in the subject line
+2. Email me at mcrump@brooklyn.cuny.edu 
 
+## Assessments and grading
 
+Weekly Quizzes and Alternative Assignments
 
+Exams (midterm and final)
 
-## Text, quote and picture
+| Assignment |  Points| Total|
+|:----------|--------:|-------:|
+| 11 Weekly Quizzes | 5 | 55|
+| Midterm 1 | 15 | 15 |
+| Midterm 2 | 15 | 15 |
+| Final Exam | 15  | 15|
+|||100|
 
-:::: {.row}
-::: {.col-md-8}
+## Weekly Quizzes
 
-Here is something Auguste Comte said:
+1. Mostly multiple choice
+2. Conducted on Blackboard
+3. Quizzes will be open for 1 week
+4. Can take them up to 3 times, take last grade
 
-> Well, not really, this is just a test quote to see what it would look like if someone said something.
+## Midterms and final
 
-:::
+1. Mostly multiple choice
+2. Conducted on blackboard
+3. Available on the exam day
+4. Take once
+5. Many questions come from the quizzes, taking the quizzes is practice for the exams
 
-::: {.col-md-4}
+## Alternative assignments
 
+Some weeks will include alternative assignments, to be posted on blackboard. 
 
+Alternative assignments will typically involve writing, and may involve group work during class. 
 
-:::
-::::
+In general, alternative assignments will be graded pass/fail. Alternative assignments are worth 5 points.
 
+Alternative assignments can be added to the quiz points, up to a maximum of 55 points. For example, if you took all of the quizzes and received a total of 40 points, then you could make up the remainder of the quiz points by completing alternative assignments.
 
-## Regular column atop multicolumn
+## Roadmap
 
-Sometimes you might say something as general concept, like a distinction that has two parts. 
+### 1. What this course is about? {.greyout}
 
-:::: {.row}
-::: {.col-md-6}
+### 2. Course Resources {.greyout}
 
-### Distinction 1
+### 3. Syllabus and Logistics {.greyout}
 
-- Has this thing
-- This thing
-- and this thing
+### 4. Questions {.bolder}
 
-:::
+## Questions
 
-::: {.col-md-6}
+## Next week
 
-### Distinction 2
-- Has this thing
-- This thing
-- and this thing
+Readings are chapter 1 [What is cognition?](https://www.crumplab.com/cognition/textbook/what-is-cognition.html) and 2 [Mental Imagery](https://www.crumplab.com/cognition/textbook/mental-imagery.html) from the textbook.
 
-:::
-::::
+A quiz will be posted on Monday, August 30th, and open until Sunday, September 12th. It will cover material from the first two chapters, with a focus on the second chapter.
 
-## Something in the middle {.center .middle}
-
-## regular markdown table
-
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
-
-
-## R markdown table
-
-```{r}
-library(kableExtra)
-knitr::kable(head(cars)) %>%
-  kable_styling("striped")
-```
-
-## {.nocolor}
-
-
-
-
-## No color in the title {.nocolor}
-
-here is some text that I would like to say. It is a paragraph of text. Most of the time I would not make a slide with a paragraph. It would be too much text. So, instead of a paragraph. Point form might work better
-
-## Overview slide
-
-### 1. Big thing one {.bolder}
-
-### 2. Big thing two {.greyout}
-
-### 3. Big thing three {.greyout}
-
-### 4. Big thing four {.greyout}
 
 

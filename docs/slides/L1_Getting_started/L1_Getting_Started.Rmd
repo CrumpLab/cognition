@@ -3,8 +3,6 @@ title: 'PSYC 2530: Introduction to Cognitive Psychology'
 author: "Matthew J. C. Crump"
 date: "Last compiled `r format(Sys.time(), '%m/%d/%y')`"
 output:
-  beamer_presentation:
-    incremental: yes
   slidy_presentation:
     footer: written by Matt Crump
     includes:
@@ -23,13 +21,20 @@ knitr::opts_chunk$set(echo = FALSE)
 library(fontawesome)
 ```
 
+## Welcome!
+
+1. Use the chat to ask questions
+2. Mute audio when you are not speaking
+3. Raise your hand for comments/questions
+4. This is a basic overview class
+
 ## Roadmap
 
 ### 1. What this course is about? {.bolder}
 
-### 2. Syllabus {.greyout}
+### 2. Course Resources {.greyout}
 
-### 3. Course logistics and info {.greyout}
+### 3. Syllabus and Logistics {.greyout}
 
 ### 4. Questions {.greyout}
 
@@ -45,120 +50,186 @@ library(fontawesome)
 6. Implications
 :::
 
+## Cognitive Questions...
 
-## A regular slide with a list
+What kinds of questions about cognition are researchers asking and seeking answers to?
 
-The following items are important:
+1. How do you remember what you ate for breakfast? 
+2. How do you remember something that happened when you were a kid? 
+3. How do you learn a language? 
+4. How do you know how to say a sentence? 
+5. How do you think your next thought? 
+6. How do you imagine things? 
+7. How do you learn new skills, like walking, riding a bike, playing a musical instrument, playing a sport, or a game?
+8. How do you learn new information, and how can you study more efficiently? How do you recognize peoples faces? 
+9. How do you know a tree is a tree and not some other object? How do you make plans for the future? 
+10. Do you have an inner voice and if so how do you use it? 
+11. How do you make decisions in your daily life?
+12. and, many more similar questions
 
-1. This thing
-2. Another thing, that is this
-    - here are some additional sub points
-    - and another one
-3. A third thing, is this one
-    -  and another things
+## Roadmap
 
-## Multicolumn Text and a picture
+### 1. What this course is about? {.greyout}
+
+### 2. Course Resources {.bolder}
+
+### 3. Syllabus and Logistics {.greyout}
+
+### 4. Questions {.greyout}
+
+
+## Course Resources
+
+::: {.bigger}
+1. Blackboard
+2. Course Website
+3. Textbook
+:::
+
+## Blackboard
+
+We will use blackboard for:
+
+1. Online lectures with Blackboard Collaborate
+    - lectures will be recorded, and rewatched
+2. Course Announcements
+    - Make sure your email is up to date
+3. Quizzes, assignments, and exams
+4. Links to material on course website
+
+## Course Website
+
+We will also use an external course website:
+
+<https://www.crumplab.com/cognition/>
+
+1. Most current Syllabus
+2. Links to textbook
+3. Lecture slide decks
+4. Other resources as needed
+
+## Course Textbook
 
 :::: {.row}
 ::: {.col-md-6}
 
-Here is some text that I would like to say. It is a paragraph of text. Most of the time I would not make a slide with a paragraph. It would be too much text. So, instead of a paragraph. Point form might work better
+The textbook is:
+
+1. A free open-educational resource
+2. Web-book, available as pdf and epub
+3. Still in progress...
+4. <https://www.crumplab.com/cognition/textbook/>
 
 :::
 
 ::: {.col-md-6}
 
-
-
-:::
-::::
-
-## slide with a link
-
-here is a link <https://crumplab.com>
-
-
-
-
-## Text, quote and picture
-
-:::: {.row}
-::: {.col-md-8}
-
-Here is something Auguste Comte said:
-
-> Well, not really, this is just a test quote to see what it would look like if someone said something.
-
-:::
-
-::: {.col-md-4}
-
-
-
-:::
-::::
-
-
-## Regular column atop multicolumn
-
-Sometimes you might say something as general concept, like a distinction that has two parts. 
-
-:::: {.row}
-::: {.col-md-6}
-
-### Distinction 1
-
-- Has this thing
-- This thing
-- and this thing
-
-:::
-
-::: {.col-md-6}
-
-### Distinction 2
-- Has this thing
-- This thing
-- and this thing
-
-:::
-::::
-
-## Something in the middle {.center .middle}
-
-## regular markdown table
-
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
-
-
-## R markdown table
-
-```{r}
-library(kableExtra)
-knitr::kable(head(cars)) %>%
-  kable_styling("striped")
+```{r, out.width="50%"}
+knitr::include_graphics("imgs/cover.png")
 ```
 
-## {.nocolor}
+
+:::
+::::
+
+## Using the textbook
+
+Chapters from the textbook will be assigned as readings for each week.
+
+See the [schedule in the syllabus](https://www.crumplab.com/cognition/articles/course_docs/Fall_2021_Psyc_2530_syllabus.html#course-structure-1) for each week's assigned readings. 
+
+## Contributing to the textbook
+
+I am writing this textbook as an open-educational resource, which means that other people can copy, edit, re-use, re-mix and help improve the textbook.
+
+There may be opportunities for you to help improve the textbook as a part of bonus assignments for this course. Details forthcoming across the semester.
+
+## Other resources
+
+Throughout the semester additional reading material may be assigned. Any additional material will be made available for free through blackboard or the course website
+
+## Roadmap
+
+### 1. What this course is about? {.greyout}
+
+### 2. Course Resources {.greyout}
+
+### 3. Syllabus and Logistics {.bolder}
+
+### 4. Questions {.greyout}
+
+## Course Syllabus
+
+Please read the syllabus.
+
+The most current version of the syllabus is located on the course website: <https://www.crumplab.com/cognition/articles/course_docs/Fall_2021_Psyc_2530_syllabus.html>
 
 
+## Logistics
 
+We are online and still in a global pandemic, so course adjustments may be necessary
 
-## No color in the title {.nocolor}
+If you are running into issues, email me:
 
-here is some text that I would like to say. It is a paragraph of text. Most of the time I would not make a slide with a paragraph. It would be too much text. So, instead of a paragraph. Point form might work better
+1. Put PSYC 2530 in the subject line
+2. Email me at mcrump@brooklyn.cuny.edu 
 
-## Overview slide
+## Assessments and grading
 
-### 1. Big thing one {.bolder}
+Weekly Quizzes and Alternative Assignments
 
-### 2. Big thing two {.greyout}
+Exams (midterm and final)
 
-### 3. Big thing three {.greyout}
+| Assignment |  Points| Total|
+|:----------|--------:|-------:|
+| 11 Weekly Quizzes | 5 | 55|
+| Midterm 1 | 15 | 15 |
+| Midterm 2 | 15 | 15 |
+| Final Exam | 15  | 15|
+|||100|
 
-### 4. Big thing four {.greyout}
+## Weekly Quizzes
+
+1. Mostly multiple choice
+2. Conducted on Blackboard
+3. Quizzes will be open for 1 week
+4. Can take them up to 3 times, take last grade
+
+## Midterms and final
+
+1. Mostly multiple choice
+2. Conducted on blackboard
+3. Available on the exam day
+4. Take once
+5. Many questions come from the quizzes, taking the quizzes is practice for the exams
+
+## Alternative assignments
+
+Some weeks will include alternative assignments, to be posted on blackboard. 
+
+Alternative assignments will typically involve writing, and may involve group work during class. 
+
+In general, alternative assignments will be graded pass/fail. Alternative assignments are worth 5 points.
+
+Alternative assignments can be added to the quiz points, up to a maximum of 55 points. For example, if you took all of the quizzes and received a total of 40 points, then you could make up the remainder of the quiz points by completing alternative assignments.
+
+## Roadmap
+
+### 1. What this course is about? {.greyout}
+
+### 2. Course Resources {.greyout}
+
+### 3. Syllabus and Logistics {.greyout}
+
+### 4. Questions {.bolder}
+
+## Questions
+
+## Next week
+
+Readings are chapter 1 [What is cognition?](https://www.crumplab.com/cognition/textbook/what-is-cognition.html) and 2 [Mental Imagery](https://www.crumplab.com/cognition/textbook/mental-imagery.html) from the textbook.
+
+A quiz will be posted on Monday, August 30th, and open until Sunday, September 12th. It will cover material from the first two chapters, with a focus on the second chapter.
+
 
 
