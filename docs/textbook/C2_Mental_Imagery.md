@@ -217,7 +217,7 @@ The map was taken away and participants were asked to mentally image the map in 
 Before we look at the actual data, let's consider three ways the experiment could have turned out. First, let's assume that people can scan between different locations immediately without taking any time at all, I will call this the "no-time" hypothesis. Second, let's assume that that people will take some random amount of time to scan between the locations, the "random-time" hypothesis. And third, let's assume that people's scanning times will increase with the distance between the imagined locations, the "distance-time" hypothesis. Each of the these hypotheses makes a different prediction about how the results might turn out. Consider the three graphs below which show predictions for each hypothesis. These are examples of how the results could have turned out according to each hypothesis
 
 <div class="figure">
-<img src="C2_Mental_Imagery_files/figure-epub3/predictScanning-1.png" alt="Hypothetical results of the mental scanning task for the no-time, random-time, and distance-time hypotheses" width="100%" />
+<img src="C2_Mental_Imagery_files/figure-html/predictScanning-1.png" alt="Hypothetical results of the mental scanning task for the no-time, random-time, and distance-time hypotheses" width="100%" />
 <p class="caption">(\#fig:predictScanning)Hypothetical results of the mental scanning task for the no-time, random-time, and distance-time hypotheses</p>
 </div>
 
