@@ -7,6 +7,22 @@
   --textbox: #f06cc8;
 }
 
+a:any-link {
+  color:var(--primary)!important;
+}
+
+a:link {
+  color:var(--primary)!important;
+}
+
+a:hover {
+  color:var(--textbox)!important;
+}
+
+a:visited {
+  color:var(--fourth)!important;
+}
+
 .frontlogo {
   margin-top: 50px;
   width: 200px;
