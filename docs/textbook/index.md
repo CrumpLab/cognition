@@ -18,4 +18,32 @@ link-citations: yes
 
 
 
-<img class="cover" src="imgs/cover.png" width="50%"/> This is an open-educational textbook and set of course materials for an introductory undergraduate course in cognition. **Presently these materials are under development**, with an anticipated first draft ready for Fall 2021.
+<img class="cover" src="imgs/cover.png" width="50%"/> This is a free, open-educational textbook and set of course materials for an introductory undergraduate course in cognition. The materials are not yet complete, and I am continuing to develop them across the Fall 2021 semester. 
+
+All of the materials are creative-commons licensed and free for others to use, copy, remix, re-use. The suite is developed using open-source software (R, RStudio, Bookdown). The source code for this project is available at <https://github.com/CrumpLab/cognition>. 
+
+The suite includes:
+
+1. This textbook: <https://www.crumplab.com/cognition/textbook>
+2. A course website: <https://www.crumplab.com/cognition/>
+3. Web-based slide decks for a one semester long course (see course website)
+4. An exam test bank (email mcrump@brooklyn.cuny.edu)
+
+The above material is in various stages of development, and should be complete by 2022.
+
+We have plans to continually revise, improve, and add to this suite. In particular, a major stretch goal for the textbook is to embed lab activities in the form of web-based experiment demonstrations, and data-analysis demonstrations. Another goal is to develop tutorials showing others how to copy, use, and/or collaborate on content development.
+
+Cheers,
+
+Matt
+
+
+
+
+
+
+
+
+
+
+
