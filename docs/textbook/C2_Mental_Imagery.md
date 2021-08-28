@@ -11,11 +11,11 @@ output:
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|       7920|39.6 minutes |
+|       8002|40 minutes   |
 
 ## Chapter Overview
 
-[Write me, and edit given new chapter organization]
+This chapter discusses historical and current research on mental imagery. It begins with a review of Sir Francis Galton's early work showing evidence of individual differences in mental imagery. We then turn to more recent work describing extreme differences in mental imagery in terms of aphantasia (lack of mental imagery) and hyperphantasia (very vivid mental imagery). The ends with mental imagery as an explanatory process in the domain of memory and mental scanning.
 
 ## What is mental imagery?
 
@@ -217,7 +217,7 @@ The map was taken away and participants were asked to mentally image the map in 
 Before we look at the actual data, let's consider three ways the experiment could have turned out. First, let's assume that people can scan between different locations immediately without taking any time at all, I will call this the "no-time" hypothesis. Second, let's assume that that people will take some random amount of time to scan between the locations, the "random-time" hypothesis. And third, let's assume that people's scanning times will increase with the distance between the imagined locations, the "distance-time" hypothesis. Each of the these hypotheses makes a different prediction about how the results might turn out. Consider the three graphs below which show predictions for each hypothesis. These are examples of how the results could have turned out according to each hypothesis
 
 <div class="figure">
-<img src="C2_Mental_Imagery_files/figure-html/predictScanning-1.png" alt="Hypothetical results of the mental scanning task for the no-time, random-time, and distance-time hypotheses" width="100%" />
+<img src="C2_Mental_Imagery_files/figure-epub3/predictScanning-1.png" alt="Hypothetical results of the mental scanning task for the no-time, random-time, and distance-time hypotheses" width="100%" />
 <p class="caption">(\#fig:predictScanning)Hypothetical results of the mental scanning task for the no-time, random-time, and distance-time hypotheses</p>
 </div>
 
@@ -282,9 +282,9 @@ Why do you think Galton was trying to measure if mental imagery is different bet
 
 What was going on at the time that led Galton to ask his questions about mental imagery? How did his results and larger research program influence society? Unfortunately, I should warn you that if you do not already know the answers to these questions, you may find the history deeply disturbing, I know I did.
 
-I mentioned earlier that Galton was in the United Kingdom, and that some of his ideas tended to spread among psychologists in other countries. Galton is famous for many things because he happened to make contributions in many different fields. For example, he is involved with inventing the statistical concept of correlation [@galtonCorelationsTheirMeasurement1889;@stiglerFrancisGaltonAccount1989]. He was interested in correlation because he was interested in inheritance, especially the idea that children inherit mental abilities from their parents [@galtonKinshipCorrelation1890]. And, Galton was interested in the inheritance of mental abilities because he invented Eugenics [@galtonHereditaryTalentCharacter1865;@galtonHereditaryGenius1869], which became a very large social movement with terrifying consequences for the entire world. 
+I mentioned earlier that Galton was in the United Kingdom, and that some of his ideas tended to spread among psychologists in other countries. Galton is famous for many things because he happened to make contributions in many different fields. For example, he is involved with inventing the statistical concept of correlation [@galtonCorelationsTheirMeasurement1889;@stiglerFrancisGaltonAccount1989]. He was interested in correlation because he was interested in inheritance, especially the idea that children inherit mental abilities from their parents [@galtonKinshipCorrelation1890]. And, Galton was interested in the inheritance of mental abilities because he was also the father of the eugenics movement [@galtonHereditaryTalentCharacter1865;@galtonHereditaryGenius1869]. Eugenics became a world-wide social movement partly interested in "improving" society across generations through selective human breeding programs. Eugenics programs, ideology, and social policies led to numerous historical injustices and violations of human rights and atrocities.
 
-After spending a great deal of time learning about the lasting legacy of eugenics in society, along with the fact that the discipline of psychology played a very large role facilitating the eugenics movement; I have decided that it would be irresponsible of me to write a survey textbook on cognitive research without acknowledging the historical background of eugenics. I review this background in the next chapter, and then connect it with two historical approaches to researching cognitive abilities. These include the individual differences approach which developed tests to measure mental abilities (see chapter four), and the experimental psychology approach which developed measures to test theories of cognitive abilities.
+After spending a great deal of time learning about the lasting legacy of eugenics in society, along with the fact that the discipline of psychology played a very large role facilitating the eugenics movement; I have decided that it would be irresponsible of me to write a survey textbook on cognitive research without acknowledging the historical background of eugenics. I review this background in the next chapter, and then connect it with psychological research into cognitive abilities in the upcoming chapter on intelligence testing, as well as a few other aspects of cognitive research throughout the textbook.
 
 
 ```{=html}

@@ -10,7 +10,7 @@ output:
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|       4166|20.8 minutes |
+|       4122|20.6 minutes |
 
 
 <!--
@@ -428,7 +428,7 @@ The above is not an accurate history of psychology. It is an example of how I lo
 
 -->
 
-
+<!--
 
 then the associationists and behaviorists took over
 
@@ -445,3 +445,5 @@ Intelligence testing and its impacts
   - Alpha-Beta
   - Who is a moron?
   - Standardized testing in schools, bias, california
+  
+-->

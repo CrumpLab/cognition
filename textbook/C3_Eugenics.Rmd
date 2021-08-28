@@ -436,7 +436,7 @@ The above is not an accurate history of psychology. It is an example of how I lo
 
 -->
 
-
+<!--
 
 then the associationists and behaviorists took over
 
@@ -453,3 +453,5 @@ Intelligence testing and its impacts
   - Alpha-Beta
   - Who is a moron?
   - Standardized testing in schools, bias, california
+  
+-->
