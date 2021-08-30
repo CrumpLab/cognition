@@ -53,6 +53,8 @@ navbar:
       menu:
       - text: Lecture 1- Getting Started
         href: slides/L1_Getting_started/L1_Getting_Started.html
+      - text: Lecture 2 - What is Cognition?
+        href: slides/L2_Instances/L2_Instances.html
     news:
       text: news
       href: news/index.html
