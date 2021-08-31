@@ -20,9 +20,13 @@ link-citations: yes
 knitr::opts_chunk$set(cache=TRUE)
 ```
 
-<img class="cover" src="imgs/cover.png" width="50%"/> This is a free, open-educational textbook and set of course materials for an introductory undergraduate course in cognition. The materials are not yet complete, and I am continuing to develop them across the Fall 2021 semester. 
+<img class="cover" src="imgs/cover.png" width="50%"/> This is a free, open-educational textbook and set of course materials for an introductory undergraduate course in cognition. The materials are not yet complete, and I am continuing to develop them across the Fall 2021 semester. All of the materials are [CC BY-SA 4.0 creative-commons licensed](https://creativecommons.org/licenses/by-sa/4.0/) and free for others to use, copy, remix, re-use. 
 
-All of the materials are creative-commons licensed and free for others to use, copy, remix, re-use. The suite is developed using open-source software (R, RStudio, Bookdown). The source code for this project is available at <https://github.com/CrumpLab/cognition>. 
+```{r, eval=knitr::is_html_output(), echo=FALSE}
+knitr::asis_output('[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)')
+```
+
+The suite is developed using open-source software (R, RStudio, Bookdown). The source code for this project is available at <https://github.com/CrumpLab/cognition>. 
 
 The suite includes:
 
@@ -34,15 +38,6 @@ The suite includes:
 The above material is in various stages of development, and should be complete by 2022.
 
 We have plans to continually revise, improve, and add to this suite. In particular, a major stretch goal for the textbook is to embed lab activities in the form of web-based experiment demonstrations, and data-analysis demonstrations. Another goal is to develop tutorials showing others how to copy, use, and/or collaborate on content development.
-
-Cheers,
-
-Matt
-
-
-
-
-
 
 
 

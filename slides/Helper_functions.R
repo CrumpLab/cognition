@@ -1,7 +1,7 @@
-items <- c("Beginning",
-           "Middle",
-           "Another middle",
-           "End")
+items <- c("Mental imagery and introspection",
+           "Aphantasia and Hyperphantasia",
+           "Imagery and Memory",
+           "Mental scanning")
 
 title <- "Roadmap"
 
@@ -19,3 +19,5 @@ create_roadmaps <- function(items, title="Roadmap", use_item_title=FALSE){
     cat("\n")
   }
 }
+
+create_roadmaps(items=items)

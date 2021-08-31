@@ -159,7 +159,7 @@ Everyone was given pairs of words to remember for a later memory test. Each pair
 | Technical-Advertisement                 | Technical-Discourse      |
 | Massive-Granite                         | Massive-Rebellion        |
 | Subtle-Magician                         | Subtle-Prejudice         |
-| Profound-Philosopher, Profound-Analysis |                          |
+| Profound-Philosopher                    | Profound-Analysis        |
 | Rugged-Arctic                           | Rugged-Locality          |
 | Shabby-Hermit                           | Shabby-Client            |
 | Clumsy-Burglar                          | Clumsy-Imitation         |
