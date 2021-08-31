@@ -21,7 +21,7 @@ knitr::kable(info)
 
 ## Chapter Overview
 
-This chapter discusses historical and current research on mental imagery. It begins with a review of Sir Francis Galton's early work showing evidence of individual differences in mental imagery. We then turn to more recent work describing extreme differences in mental imagery in terms of aphantasia (lack of mental imagery) and hyperphantasia (very vivid mental imagery). The ends with mental imagery as an explanatory process in the domain of memory and mental scanning.
+This chapter discusses historical and current research on mental imagery. It begins with a review of Sir Francis Galton's early work showing evidence of individual differences in mental imagery. We then turn to more recent work describing extreme differences in mental imagery in terms of aphantasia (lack of mental imagery) and hyperphantasia (very vivid mental imagery). The chapter ends with mental imagery as a possible explanatory process in the domain of memory and mental scanning.
 
 ## What is mental imagery?
 
