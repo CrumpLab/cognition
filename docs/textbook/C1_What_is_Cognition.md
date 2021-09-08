@@ -3,9 +3,9 @@
 # What is cognition?
 
 
-| Word Count|Reading Time |
-|----------:|:------------|
-|       8124|40.6 minutes |
+| Word Count|Reading Time |Last Compiled           |
+|----------:|:------------|:-----------------------|
+|       8124|40.6 minutes |2021-09-08 17:26:12 GMT |
 
 ## Chapter Overview
 
@@ -280,85 +280,3 @@ I should bring this metaphor to a close, but here are some parting thoughts. The
 It is also OK to like different recipes for many reasons. Some recipes are inspiring to read and get you excited, some recipes give super-specific instructions for doing one thing really well, some recipes are surprising and make you wonder what the food would taste like, and some recipes are very insightful and show you techniques that can be used over and over again for other recipes. Same goes for explanations of cognition, where there can be different reasons to appreciate the value of a theory, even if it isn't perfect.
 
 Last, consider the concept of truth in the metaphor between recipes and theories. In the domain of cooking and recipes is there such a thing as true recipes? Is there one true oven fries recipe? I don't think so. There are lots of oven fries recipes. They all make oven fries. Some of them make oven fries that I like more than others. Also, there is an entire world of other recipes and it is very exciting to explore all of the tasty ways that different people and cultures prepare food. What about theories in cognition? Is there one true theory of cognition? If there is, I haven't heard about it. Instead, like recipes there are lots of different theories about cognition, and it is OK to appreciate that variety as we learn about how different researchers have prepared their explanations of different cognitive abilities.
-
-
-
-
-<!--
-
-consider adding story about convergence in physics vs. divergence in psycholgoy
-
-the hadron collider story...
-
--->
-
-```{=html}
-<!--
-
-
-Let me consider some explanations for the fact that I can remember my own phone number. How can I do this? Let's try this explanation on for size: I have a memory system in my brain, and I put my phone number into my memory system, and that's why I can remember my phone number. 
-
-I personally don't find that explanation very satisfying. That story doesn't tell me what a memory system is, how it works, how my brain accomplishes the job of this memory system, or how I do something like put a phone number in there and get it out again. That explanation raised more questions that it answered.
-
-As we will see later in the chapters on memory research, sometimes we will encounter explanations that are not too different from the above. For example, one might explain the ability to hold on to a phone number in your head for a couple seconds (before forgetting it) in terms of putting the phone number into a short term memory system that is only capable of holding information for a limited amount of time. Alternatively, the ability to remember an event from ten years ago could be explained by a different kind of memory system, like a long term memory system that is capable of holding information for a long period of time. These explanations aren't too different from the one above because they sidestep most of the explanatory work. For example, how does the short term memory system work? How does the long-term memory system work?
-
-
-Even if you haven't learned much about cognitive psychology, you may have heard about the concepts of short term memory and long term memory. 
-
-I'm bringing these concepts up to raise a point about how explanations are forwarded in cognitive research. 
-
-If we have evidence that people can remember some things for a little bit of time, and other things for a long time; this kind of evidence could potentially by explained by two different kinds of systems that allow people to remember things. One system for a short amount of time, and another of a long amount of time. However, it is extremely important to recognize that there ar
-
-
-For the record, I wouldn't count the above as an explanation at all, instead rather than explaining how I remember a phone number, I brought a few other ideas into the mix and
-
-
-
-
-As a result, cognition as science has progressed somewhat differently from other sciences. 
-
-Before we really get started, there are several reasons why it is important to recognize that there are a diversity of views on cognition. 
-
-Claims vs reality
-
-Theory, phenomena
-
-
-
-
-
-
-
-Over the course of the textbook some of the reasons I am confused will hopefully become more clear. However, I'm admitting to
-
-
-that I come to understand how research in
-
-
-
-What is my "framework for presenting cognition?
-
-Claims about cognition: making them and evaluating
-
-Theories and explanation
-
-Abilities vs process-based explanations
-
-The tools you use shape the picture you draw...
-
-Cognition is a diverse body of research where people have applied to tools of measurment to answer questions about cognition. The present landscape and history of cognition partly depends on social historical context, individual motivations of researchers, funding agency missions, and tools used. In addition to what is normally included in "cognitive psychology", if we take a wider view, many other observations outside of lab and "scientific" domain of cognition, are and should be relevant to asking and answering questions about cognition.
-
-
-NOTES:
-
-There is a lot of research in cognition, and it doesn't all fit together in a logical, orderly fashion. The story of cognitive research is not one succesfully building cumulative knowledge with every published paper. It is much more confusing and complicated...full of interesting tidbits and even many failures.
-
-Truth and facts vs. Theoretical Explanation and Tentative results
-
-Cognition has no facts
-Cognitive processes are not real...They are all theorized.
-
-reality and cognition
-
--->
-```

@@ -9,9 +9,9 @@ output:
 # Mental Imagery
 
 
-| Word Count|Reading Time |
-|----------:|:------------|
-|       8004|40 minutes   |
+| Word Count|Reading Time |Last Compiled           |
+|----------:|:------------|:-----------------------|
+|       8004|40 minutes   |2021-09-08 17:26:12 GMT |
 
 ## Chapter Overview
 
@@ -19,7 +19,7 @@ This chapter discusses historical and current research on mental imagery. It beg
 
 ## What is mental imagery?
 
-Close your eyes, and think about what you can see or hear in your "mind's eye" or "mind's ear". Some people report being able to see life-like images that are extremely clear and vivid, almost as if there is no difference between what they can imagine seeing and what they can see when they are looking at something when their eyes are open. Some people report seeing less vivid mental imagery, that is more spatial in nature. For example, they could close their eyes and imagine their kitchen; but they wouldn't "see" their kitchen as it appears when they are looking at it for real; but, they would nevertheless have some spatial sense about the shape of the kitchen, and where things are stored in the kitchen. Other people report having very little to no mental imagery.
+Close your eyes, and think about what you can see or hear in your "mind's eye" or "mind's ear". Some people report being able to see life-like images that are extremely clear and vivid, almost as if there is no difference between what they can imagine seeing and what they can see when they are looking at something when their eyes are open. Some people report seeing less vivid mental imagery that is more spatial in nature. For example, they could close their eyes and imagine their kitchen; but they wouldn't "see" their kitchen as it appears when they are looking at it for real; but, they would nevertheless have some spatial sense about the shape of the kitchen, and where things are stored in the kitchen. Other people report having very little to no mental imagery.
 
 For fun, I'll tell you what I see when I close my eyes. My eyelids, and not much else... it's pretty dark when I close my eyes. At the same, I can imagine my kitchen pretty easily, although, I wouldn't say that I "see" it very clearly, I "see" it more spatially. However, sometimes I do "see" images that are more visual, that look like things I see when I have my eyes open. Also, I've had lots of dreams that seemed very visually vivid and real, just like visual experiences appear to me in waking life. So, according to me, my mental imagery is all of the above, and can include imagery about other kinds of senses, like sounds, taste, touch, and smells.
 
@@ -285,75 +285,3 @@ What was going on at the time that led Galton to ask his questions about mental 
 I mentioned earlier that Galton was in the United Kingdom, and that some of his ideas tended to spread among psychologists in other countries. Galton is famous for many things because he happened to make contributions in many different fields. For example, he is involved with inventing the statistical concept of correlation [@galtonCorelationsTheirMeasurement1889;@stiglerFrancisGaltonAccount1989]. He was interested in correlation because he was interested in inheritance, especially the idea that children inherit mental abilities from their parents [@galtonKinshipCorrelation1890]. And, Galton was interested in the inheritance of mental abilities because he was also the father of the eugenics movement [@galtonHereditaryTalentCharacter1865;@galtonHereditaryGenius1869]. Eugenics became a world-wide social movement partly interested in "improving" society across generations through selective human breeding programs. Eugenics programs, ideology, and social policies led to numerous historical injustices and violations of human rights and atrocities.
 
 After spending a great deal of time learning about the lasting legacy of eugenics in society, along with the fact that the discipline of psychology played a very large role facilitating the eugenics movement; I have decided that it would be irresponsible of me to write a survey textbook on cognitive research without acknowledging the historical background of eugenics. I review this background in the next chapter, and then connect it with psychological research into cognitive abilities in the upcoming chapter on intelligence testing, as well as a few other aspects of cognitive research throughout the textbook.
-
-
-```{=html}
-<!--
-
-
-Let me consider some explanations for the fact that I can remember my own phone number. How can I do this? Let's try this explanation on for size: I have a memory system in my brain, and I put my phone number into my memory system, and that's why I can remember my phone number. 
-
-I personally don't find that explanation very satisfying. That story doesn't tell me what a memory system is, how it works, how my brain accomplishes the job of this memory system, or how I do something like put a phone number in there and get it out again. That explanation raised more questions that it answered.
-
-As we will see later in the chapters on memory research, sometimes we will encounter explanations that are not too different from the above. For example, one might explain the ability to hold on to a phone number in your head for a couple seconds (before forgetting it) in terms of putting the phone number into a short term memory system that is only capable of holding information for a limited amount of time. Alternatively, the ability to remember an event from ten years ago could be explained by a different kind of memory system, like a long term memory system that is capable of holding information for a long period of time. These explanations aren't too different from the one above because they sidestep most of the explanatory work. For example, how does the short term memory system work? How does the long-term memory system work?
-
-
-Even if you haven't learned much about cognitive psychology, you may have heard about the concepts of short term memory and long term memory. 
-
-I'm bringing these concepts up to raise a point about how explanations are forwarded in cognitive research. 
-
-If we have evidence that people can remember some things for a little bit of time, and other things for a long time; this kind of evidence could potentially by explained by two different kinds of systems that allow people to remember things. One system for a short amount of time, and another of a long amount of time. However, it is extremely important to recognize that there ar
-
-
-For the record, I wouldn't count the above as an explanation at all, instead rather than explaining how I remember a phone number, I brought a few other ideas into the mix and
-
-
-
-
-As a result, cognition as science has progressed somewhat differently from other sciences. 
-
-Before we really get started, there are several reasons why it is important to recognize that there are a diversity of views on cognition. 
-
-Claims vs reality
-
-Theory, phenomena
-
-
-
-
-
-
-
-Over the course of the textbook some of the reasons I am confused will hopefully become more clear. However, I'm admitting to
-
-
-that I come to understand how research in
-
-
-
-What is my "framework for presenting cognition?
-
-Claims about cognition: making them and evaluating
-
-Theories and explanation
-
-Abilities vs process-based explanations
-
-The tools you use shape the picture you draw...
-
-Cognition is a diverse body of research where people have applied to tools of measurment to answer questions about cognition. The present landscape and history of cognition partly depends on social historical context, individual motivations of researchers, funding agency missions, and tools used. In addition to what is normally included in "cognitive psychology", if we take a wider view, many other observations outside of lab and "scientific" domain of cognition, are and should be relevant to asking and answering questions about cognition.
-
-
-NOTES:
-
-There is a lot of research in cognition, and it doesn't all fit together in a logical, orderly fashion. The story of cognitive research is not one succesfully building cumulative knowledge with every published paper. It is much more confusing and complicated...full of interesting tidbits and even many failures.
-
-Truth and facts vs. Theoretical Explanation and Tentative results
-
-Cognition has no facts
-Cognitive processes are not real...They are all theorized.
-
-reality and cognition
-
--->
-```
