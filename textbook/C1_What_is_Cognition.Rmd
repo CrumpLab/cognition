@@ -5,12 +5,16 @@ source("global_stuff.R")
 # What is cognition?
 
 ```{r, cache=FALSE}
+library(git2r)
+compilations <- commits(repo = "../",path = "textbook/C1_What_is_Cognition.Rmd")
+last_compile_time <- as.character(compilations[[1]]$author$when)
 word_count <- wordcountaddin::word_count("C1_What_is_Cognition.Rmd")
 wpm <- 200
 reading_time <- paste0(round(word_count/wpm, 1), " minutes")
-info <- data.frame(word_count,reading_time)
-colnames(info) <- c("Word Count","Reading Time")
+info <- data.frame(word_count,reading_time, last_compile_time)
+colnames(info) <- c("Word Count","Reading Time","Last Compiled")
 knitr::kable(info)
+
 ```
 
 ## Chapter Overview
