@@ -6,10 +6,10 @@ template:
     image:
       src: logo.png
     twitter:
-      creator: "@MattCrump_"
+      creator: "@matt_jc_crump"
       card: summary
   params:
-    ganalytics: UA-79429674-12
+    ganalytics: G-Q5CP3TXLQ3
 
 development:
   mode: unreleased
