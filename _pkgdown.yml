@@ -57,6 +57,8 @@ navbar:
         href: slides/L2_Instances/L2_Instances.html
       - text: Lecture 3 - Mental Imagery
         href: slides/L3_Imagery/L3_Imagery.html
+      - text: Lecture 4 - Psychology and Eugenics
+        href: slides/L4_Eugenics/L4_Eugenics.html
     news:
       text: news
       href: news/index.html
