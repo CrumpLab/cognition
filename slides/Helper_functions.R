@@ -1,7 +1,8 @@
-items <- c("Mental imagery and introspection",
-           "Aphantasia and Hyperphantasia",
-           "Imagery and Memory",
-           "Mental scanning")
+items <- c("Eugenics Overview",
+           "Galton's Eugenics",
+           "The Eugenics movement",
+           "Influences on society",
+           "Psychology and Eugenics")
 
 title <- "Roadmap"
 
