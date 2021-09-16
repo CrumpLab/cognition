@@ -158,7 +158,7 @@ Cattell, J. M., & Farrand, L. (1896). Physical and mental measurements of the st
 :::: {.row}
 ::: {.col-md-6}
 
-```{r}
+```{r,out.width="100%"}
 knitr::include_graphics("imgs/Cattell_form.png")
 ```
 
@@ -166,7 +166,7 @@ knitr::include_graphics("imgs/Cattell_form.png")
 
 ::: {.col-md-6}
 
-```{r}
+```{r,out.width="100%"}
 knitr::include_graphics("imgs/Cattell_conclusion.png")
 ```
 
@@ -210,7 +210,7 @@ Binet thought objective mental tests would allow for a more rational decision-po
 
 ::: {.col-md-6}
 
-```{r}
+```{r,out.width="100%"}
 knitr::include_graphics("imgs/Binet.jpg")
 ```
 
@@ -251,7 +251,7 @@ knitr::include_graphics("imgs/Binet_items.jpg")
 :::: {.row}
 ::: {.col-md-6}
 
-```{r}
+```{r,out.width="100%"}
 knitr::include_graphics("imgs/Binet_caption.png")
 ```
 
@@ -259,7 +259,7 @@ knitr::include_graphics("imgs/Binet_caption.png")
 
 ::: {.col-md-6}
 
-```{r}
+```{r,out.width="100%"}
 knitr::include_graphics("imgs/Binet_results.jpg")
 ```
 
@@ -301,7 +301,7 @@ The large empirical database allowed Binet to assess how anyone performs the min
 :::: {.row}
 ::: {.col-md-6}
 
-```{r}
+```{r,out.width="100%"}
 knitr::include_graphics("imgs/Binet_rule1.jpg")
 ```
 
@@ -309,7 +309,7 @@ knitr::include_graphics("imgs/Binet_rule1.jpg")
 
 ::: {.col-md-6}
 
-```{r}
+```{r,out.width="100%"}
 knitr::include_graphics("imgs/Binet_rule2.jpg")
 ```
 
@@ -349,7 +349,7 @@ was an American Eugenics organization on the east coast
 
 ::: {.col-md-6}
 
-```{r}
+```{r,out.width="100%"}
 knitr::include_graphics("imgs/HBF_ad.jpeg")
 ```
 
@@ -379,7 +379,7 @@ Popularized Binet-Simon test in USA as Stanford-Binet test
 
 ::: {.col-md-6}
 
-```{r}
+```{r,out.width="100%"}
 knitr::include_graphics("imgs/Terman-opener.jpg")
 ```
 
@@ -399,7 +399,7 @@ Terman advocated for widespread intelligence testing across America
 
 ::: {.col-md-6}
 
-```{r, out.width="60%"}
+```{r, out.width="100%"}
 knitr::include_graphics("imgs/Terman_book.jpg")
 ```
 
@@ -424,25 +424,64 @@ Eugenicists were interested in using mental tests in the war effort
 
 ## American Psychologists in WWI
 
+Yerkes, R. M. (1918). Psychology in relation to the war. Psychological Review, 25(2), 85–115. https://doi.org/10/dhdj4j
+
+APA created several committees to determine how psychologists could help the war effort.
+
+Many of them were committed to the eugenics movement, and one-time APA presidents, including Robert Yerkes, Madison Bentley, Edward Thorndike, John B. Watson, Walter D. Scott, Robert Woodworth, and Carl Seashore
+
+## The Alpha-Beta Test
+
 :::: {.row}
 ::: {.col-md-6}
+
+Alpha-Beta tests involved mass testing of 1.75 million Americans
+
+A "mental census" for the Army
+
 
 :::
 
 ::: {.col-md-6}
 
-```{r}
-knitr::include_graphics("")
+Psychologist Robert M Yearkes (1876-1956)
+
+```{r,out.width="100%"}
+knitr::include_graphics("imgs/yerkes_large.jpg")
 ```
 
 :::
 ::::
 
-## The Alpha-Beta Test
+## Examples
 
+:::: {.row}
+::: {.col-md-6}
 
+Alpha test was for literate soldiers
 
+Beta test was for illiterate soldiers
 
+:::
+
+::: {.col-md-6}
+
+```{r, out.width="100%"}
+knitr::include_graphics("imgs/Yerkes_alpha_test.png")
+```
+
+:::
+::::
+
+## Racial bias
+
+Yearkes argued the results showed that whites had superior intelligence compared to blacks and immigrants
+
+## Application and Interpretation
+
+```{r}
+knitr::include_graphics("imgs/Yearkes_explanation.png")
+```
 
 ## Scientific Racism
 
