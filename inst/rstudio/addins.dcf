@@ -1,0 +1,9 @@
+Name: Add slidy multicolumn
+Description: Inserts multicolumn at cursor
+Binding: insert_multicolumn
+Interactive: false
+
+Name: Add knitr graphics
+Description: Inserts knitr::include_graphics
+Binding: insert_knitrgraphics
+Interactive: false

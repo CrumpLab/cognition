@@ -1,8 +1,7 @@
-items <- c("Eugenics Overview",
-           "Galton's Eugenics",
-           "The Eugenics movement",
-           "Influences on society",
-           "Psychology and Eugenics")
+items <- c("The intelligence test race",
+           "Binet-Simon Test",
+           "Mental testing and Eugenics",
+           "Critical responses")
 
 title <- "Roadmap"
 
@@ -21,4 +20,4 @@ create_roadmaps <- function(items, title="Roadmap", use_item_title=FALSE){
   }
 }
 
-create_roadmaps(items=items)
+create_roadmaps(items=items, use_item_title=TRUE)
