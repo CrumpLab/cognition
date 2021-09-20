@@ -6,7 +6,7 @@
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|       7656|38.3 minutes |
+|       7657|38.3 minutes |
 :::
 
 ## Chapter overview
@@ -49,7 +49,7 @@ Principles of association included roles for contiguity, similarity, frequency, 
 
 ### Natural Science
 
-There is also lesser known work from Robert Hooke (1635-1703), a natural scientist, that went much further than Hume's "certain principles". Robert Hooke, coined the word cell, and was the first person to observe a micro-organism under a microscope. In 1705, Hooke's posthumous works were published, and they contained his model of how human memory could operate as a physical system [@hookePosthumousWorksRobert1705]. The model was not entirely physical, because it allowed some role for "immaterial" forces; and, it was largely forgotten until fairly recently []. However, despite not having a major historical impact, Hooke's model was a clear attempt to move toward well-specified mechanistic explanations of cognition [^c5_associations-1].
+There is also lesser known work from Robert Hooke (1635-1703), a natural scientist, that went much further than Hume's "certain principles". Robert Hooke, coined the word cell, and was the first person to observe a micro-organism under a microscope. In 1705, Hooke's posthumous works were published, and they contained his model of how human memory could operate as a physical system [@hookePosthumousWorksRobert1705]. The model was not entirely physical, because it allowed some role for "immaterial" forces; and, it was largely forgotten until fairly recently [@hintzmanRobertHookeModel2003]. However, despite not having a major historical impact, Hooke's model was a clear attempt to move toward well-specified mechanistic explanations of cognition [^c5_associations-1].
 
 [^c5_associations-1]: we will examine several models of human memory in greater detail in the upcoming chapters on memory
 
@@ -112,7 +112,7 @@ Similarly, if the task was to read individual letters one a time, Cattell's subj
 
 2.  *Scrambled letters*: tyshe noact aer ead ta rrdth des etyv Twnasy
 
-*Was it harder to read the scramble letters?*
+*Was it harder to read the scrambled letters?*
 :::
 
 Let's relate Cattell's general findings to the associative claims that people have associations between concepts, they can learn new associations, and that some associations are stronger than others. The first two claims are consistent with reading ability in general, which involves learning connections between an arbitrary symbol system (e.g., alphabetic letters) and vocal outputs. Cattell's results are also consistent with the claim that some associations are stronger than others. For example, it appears that reading time does not just involve the time it takes to recognize and say a word or letter. If this was strictly the case, then people would take the same amount of time to read words and letter no matter if they occurred in sentences or words. Instead, people were faster to read words and letters when they appeared in familiar contexts, like sentences and words. This suggests that information from the surrounding context facilitates reading, possibly through some kind of association.
