@@ -59,6 +59,8 @@ navbar:
         href: slides/L3_Imagery/L3_Imagery.html
       - text: Lecture 4 - Psychology and Eugenics
         href: slides/L4_Eugenics/L4_Eugenics.html
+      - text: Lecture 5 - Intelligence Testing
+        href: slides/L5_IQ/L5_IQ.html
     news:
       text: news
       href: news/index.html
