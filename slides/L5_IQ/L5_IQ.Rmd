@@ -27,7 +27,7 @@ library(fontawesome)
 
 Reading for today was chapter 4 [Intelligence testing](https://www.crumplab.com/cognition/textbook/intelligence-testing.html) from the textbook.
 
-Quiz 2 will be posted today Monday, Sept 20. The quiz will be open for 1 week. Q
+Quiz 2 will be posted today Monday, Sept 20. The quiz will be open for 1 week.
 
 Quiz 2 covers chapter 3 and 4
 
@@ -485,11 +485,83 @@ knitr::include_graphics("imgs/Yearkes_explanation.png")
 
 ## Scientific Racism
 
+:::: {.row}
+::: {.col-md-6}
+
+Carl Brighman further reported on the alpha-beta army test results in his 1922 book
+
+```{r}
+knitr::include_graphics("imgs/Brigham_1922.jpg")
+```
+
+:::
+
+::: {.col-md-6}
+
+A major focus was to assess and further validate racist conceptions of intelligence
+
+```{r}
+knitr::include_graphics("imgs/Yerkes_ruler.png")
+```
+
+:::
+::::
+
 ## Continued racism
+
+- [Arthur Jensen](https://en.wikipedia.org/wiki/Arthur_Jensen)
+
+- [Herrnstein and Murray's 1994 book, The Bell Curve](https://en.wikipedia.org/wiki/The_Bell_Curve)
 
 ## IQ testing and mental health
 
+Eugenics proponents advocated that IQ tests be used to identify "feeble-minded" people that should be institutionalized by the state and/or involuntarily sterilized
+
 ## Goddard's "who is a moron?"
+
+:::: {.row}
+::: {.col-md-6}
+
+Goddard describes how "feeble-mindedness" should be split into categories based on IQ
+
+idiot: mental age of two
+
+imbecile: mental age of 3 to 7
+
+moron: mental age of 8 to 12
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("imgs/Goddard_whois.jpg")
+```
+
+:::
+::::
+
+## Goddard's problem
+
+Considers two general "solutions" to how society should deal with people identified as "morons" by IQ tests
+
+:::: {.row}
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("imgs/Goddard_remove.png")
+```
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("imgs/Goddard_work.png")
+```
+
+:::
+::::
 
 ##  Critical responses
 
@@ -498,15 +570,85 @@ knitr::include_graphics("imgs/Yearkes_explanation.png")
 ### 3. Mental testing and Eugenics {.greyout}
 ### 4. Critical responses {.bolder}
 
-## Formation of the ABPsi
+## Critical Responses
+
+:::: {.row}
+::: {.col-md-6}
+
+Kamin, L. J. (1974). The science and politics of IQ. Psychology Press.
+
+```{r, out.width="100%"}
+knitr::include_graphics("imgs/Kamin_quote.png")
+```
+
+:::
+
+::: {.col-md-6}
+
+Hilliard, A. G. (1976). A Review of Leon Kamin’s The Science and Politics of I.Q. Journal of Black Psychology, 2(2), 64–74. https://doi.org/10/gg3hr5
+
+
+```{r, out.width="100%"}
+knitr::include_graphics("imgs/Hilliard_review.png")
+```
+
+:::
+::::
 
 ## Black Psychologists in APA
 
-## 1960s
+:::: {.row}
+::: {.col-md-6}
+
+Up through the 1960s, the APA was overwhelmingly white
+
+In an APA meeting in 1968, a small group of Black Psychologists formed their own organization, [ABPsi](https://abpsi.org).
+
+Williams, R. (1974). A History of the Association of Black Psychologists: Early Formation and Development. Journal of Black Psychology, 1(1), 9–24. https://doi.org/10/gg3hq4
+
+:::
+
+::: {.col-md-6}
+
+```{r, out.width="100%"}
+knitr::include_graphics("imgs/Williams_front.png")
+```
+
+:::
+::::
+
+## Moratorium on IQ testing of Black children
+
+```{r}
+knitr::include_graphics("imgs/Moratorium_on_testing.png")
+```
 
 ## Outcomes 
 
-## Crane 1994
+:::: {.row}
+::: {.col-md-6}
+
+Advocacy of Black psychologists led to a moratorium on intelligence testing of Black children in California (1979), still in effect
+
+There was also substantial pushback from groups with vested financial interests in intelligence testing
+
+Williams, R. L., & Mitchell, H. (1978). What Happened to ABPsi’s Moratorium on Testing: A 1968 to 1977 Reminder. Journal of Black Psychology, 4(1–2), 25–42. https://doi.org/10/gg6btt
+
+
+:::
+
+::: {.col-md-6}
+
+```{r, out.width="100%"}
+knitr::include_graphics("imgs/What_happened_to_moratorium.png")
+```
+
+:::
+::::
+
+## Further reading
+
+[The Journal of Black Psychology](https://journals.sagepub.com/home/jbp) has published many excellent articles on intelligence testing and its impacts on society
 
 
 ## Questions and Next class
