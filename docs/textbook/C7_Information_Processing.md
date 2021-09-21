@@ -10,7 +10,7 @@ output:
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|      11667|58.3 minutes |
+|      11666|58.3 minutes |
 
 ## Overview
 
@@ -422,7 +422,7 @@ Hick published his results in 1952 [@hickRateGainInformation1952], and Hyman pub
 
 #### Experiment I (Hyman 1953)
 
-The first experiment was a choice-reaction time task with 8 different conditions, corresponding to the number of alternatives, from 1 to 8. In each condition, all stimuli were presented randomly. Thus, the amount of bits in each condition was ranged from 0 to 3 (bits for 1 to 8 alternatives are: 0, 1, 1.58, 2, 2,32, 2,58, 2,81, and 3). As others had found, Hyman's subjects showed a strong linear relationship between bits and reaction time. Reaction time increased linearly with with amount of bits. Note, however, in Experiment I, the number of alternatives, was completely confounded with the amount of bits.
+The first experiment was a choice-reaction time task with 8 different conditions, corresponding to the number of alternatives, from 1 to 8. In each condition, all stimuli were presented randomly. Thus, the amount of bits in each condition was ranged from 0 to 3 (bits for 1 to 8 alternatives are: 0, 1, 1.58, 2, 2,32, 2,58, 2,81, and 3). As others had found, Hyman's subjects showed a strong linear relationship between bits and reaction time. Reaction time increased linearly with amount of bits. Note, however, in Experiment I, the number of alternatives, was completely confounded with the amount of bits.
 
 #### Experiment II (Hyman 1953)
 

@@ -11,7 +11,7 @@ editor_options:
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|      11767|58.8 minutes |
+|      11765|58.8 minutes |
 
 ## Chapter Overview
 
@@ -507,7 +507,7 @@ So, what happened in Hayes immediate memory span experiment? Remember, he measur
 
 :::
 
-The immediate memory span data is shown to the right. The y-axis shows the average immediate memory span, and the x-axis is the amount of bits needed for each kind symbol. The take-home message that immediate memory span was about 7 items for all of the stimulus sets. It was a little bit higher for binary digits, compared to words, but nowhere near as high as it should be. If people could handle 7 words just just fine, then they should have an immediate memory span closer to 40 for binary digits (which required fewer bits than words). Instead, the spans were pretty similar across stimuli.
+The immediate memory span data is shown to the right. The y-axis shows the average immediate memory span, and the x-axis is the amount of bits needed for each kind symbol. The take-home message that immediate memory span was about 7 items for all of the stimulus sets. It was a little bit higher for binary digits, compared to words, but nowhere near as high as it should be. If people could handle 7 words just fine, then they should have an immediate memory span closer to 40 for binary digits (which required fewer bits than words). Instead, the spans were pretty similar across stimuli.
 
 Miller suggested that immediate memory escapes capacity limitations imposed by information at the level of stimulus sets through a recoding process. He called this process chunking. 
 
@@ -610,7 +610,7 @@ The above describes how a rehearsal strategy  could lead someone to preferential
 
 :::
 
-Postman & Philips already had data consistent with multi-store model explanation [@postmanShorttermTemporalChanges1965]. They manipulated whether or not subjects completed arithmetic problems before recalling words from a list. In the 0 second condition, subjects heard a list of words and tried to recall all of the words right away. That group shows clear primacy and recency effects, for all three list lengths. In the 30 second condition, subjects heard a list of words and then had to perform arithmetic for 30 seconds before recalling the items. The recency effect portion of the curve disappeared for all of the lists. The multi-store model explains that the arithmetic task disrupted the rehearsal process. Subjects were solving arithmetic problems rather than rehearsing the last few words from the list. According to the model, the short-term rehearsal buffer would no longer have any words in it. Therefore, only long-term memory could be used to recall words; and, recall from from long-term memory would produce a primacy effect, but not a recency effect.
+Postman & Philips already had data consistent with multi-store model explanation [@postmanShorttermTemporalChanges1965]. They manipulated whether or not subjects completed arithmetic problems before recalling words from a list. In the 0 second condition, subjects heard a list of words and tried to recall all of the words right away. That group shows clear primacy and recency effects, for all three list lengths. In the 30 second condition, subjects heard a list of words and then had to perform arithmetic for 30 seconds before recalling the items. The recency effect portion of the curve disappeared for all of the lists. The multi-store model explains that the arithmetic task disrupted the rehearsal process. Subjects were solving arithmetic problems rather than rehearsing the last few words from the list. According to the model, the short-term rehearsal buffer would no longer have any words in it. Therefore, only long-term memory could be used to recall words; and, recall from long-term memory would produce a primacy effect, but not a recency effect.
 
 #### Long-term recency
 
