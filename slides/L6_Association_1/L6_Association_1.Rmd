@@ -99,11 +99,11 @@ Some rationalist philosophers include:
 :::: {.row}
 ::: {.col-md-6}
 
-Discusses 'Association of Ideas" as a non-rational process
+Discusses *Association of Ideas* as a non-rational process
 
 Suggests some associations are "natural and good", and maintained by reasoning
 
-Suggests associations can also be arbitrary because they depend on a persons history of experience
+Suggests associations can also be arbitrary because they depend on a persons history of experience (scroll down for an excerpt)
 
 :::
 
@@ -123,6 +123,8 @@ From a wrong connexion of ideas. Some of our ideas have a natural correspondence
 This connexion made by custom. This strong combination of ideas, not allied by nature, the mind makes in itself either voluntarily or by chance; and hence it comes in different men to be very different, according to their different inclinations, education, interests, &c. Custom settles habits of thinking in the understanding, as well as of determining in the will, and of motions in the body: all which seems to be but trains of motions in the animal spirits, which, once set a going, continue in the same steps they have used to; which, by often treading, are worn into a smooth path, and the motion in it be-comes easy, and as it were natural. As far as we can comprehend thinking, thus ideas seem to be produced in our minds; or, if they are not, this may serve to explain their following one another in an habitual train, when once they are put into their track, as well as it does to explain such motions of the body. A musician used to any tune will find that, let it but once begin in his head, the ideas of the several notes of it will follow one another orderly in his understanding, without any care or attention, as regularly as his fingers move orderly over the keys of the organ to play out the tune he has begun, though his unattentive thoughts be else-where a wandering. Whether the natural cause of these ideas, as well as of that regular dancing of his fingers be the motion of his animal spirits, I will not determine, how probable soever, by this instance, it appears to be so: but this may help us a little to conceive of intellectual habits, and of the tying together of ideas.
 
 ## Principles of Association
+
+Associationists proposed *principles* about factors that influence the formation of associations:
 
 *The principle of contiguity* states that strength of association depends on the proximity of events in space and time. Events that are closer to each other are associated more strongly. 
 
@@ -153,7 +155,7 @@ Some basic claims include:
 
 ## Cattell's Experimental Psychology
 
-James McKeen Cattell (early mental tester) also conducted experimental psychology research
+James McKeen Cattell (early mental tester from last chapter) also conducted experimental psychology research
 
 General goal was to use experiments to test theories of cognitive processes, especially those related to the formation of associations
 
@@ -165,11 +167,11 @@ Mental chronometry involves measuring the amount of time necessary to complete a
 
 Cattell, J. M. (1886). The time it takes to see and name objects. Mind, 11(41), 63–65. https://doi.org/10/b6fr5r
 
-Question?
+Question? - what were his questions?
 
-Methods?
+Methods? - what were his methods?
 
-Results?
+Results? - what did he find?
 
 Let's take a quick look at the paper
 
@@ -189,6 +191,8 @@ How long does it take to see and name an objects like a color or letter?
 
 :::: {.row}
 ::: {.col-md-6}
+
+Cattell "hacked" a kymograph
 
 Presented stimuli on a rotating drum
 
@@ -211,9 +215,9 @@ knitr::include_graphics("imgs/Kymograph.jpg")
 
 ## Results
 
-Took about 200 to 333 ms to read each letter, when slit was 1cm in diameter
+Participants took 200 to 333 ms to read each letter, when slit was 1cm in diameter
 
-Letter naming speed increases when slit is wider (can preview upcoming letters)
+Letter naming speed increased when slit is wider (can preview upcoming letters)
 
 "Of the nine persons experimented on four could read the letters faster when five were in view at once, but were not helped by a sixth letter; three were not helped by a fifth and two not by a fourth letter. This shows that while one idea is in the centre, two, three or four additional ideas may be in the background of consciousness."
 
@@ -227,7 +231,7 @@ Cattell, J. M. (1887). Experiments on the association of ideas. Mind, 12(45), 68
 
 Big Questions...
 
-How are concepts formed without words? What mental processes take place when an object is named? using a familiar or second-language?
+How are concepts formed without words? What mental processes take place when an object is named? Are their differences when using a familiar or second-language?
 
 Specific questions...
 
@@ -256,6 +260,23 @@ Association learning was also soon studied in non-human animals
 
 ## Human and Animal Cognition
 
+:::: {.row}
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("imgs/baby.gif")
+```
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("imgs/bird.gif")
+```
+
+:::
+::::
 
 ## Edward Thorndike ((1874-1949))
 
@@ -473,21 +494,118 @@ knitr::include_graphics("../../textbook/imgs/Descartes_brain.png")
 
 ## Classical Conditioning
 
+A procedure to demonstrate acquisition or learning of a **new** stimulus-response pathway/association
+
+Terms
+
+UCS = Unconditioned Stimulus
+
+UCR = Unconditioned Response
+
+CS = Conditioned Stimulus
+
+CR = Conditioned Response
+
 ## Simple Acquisition
+
+:::: {.row}
+::: {.col-md-6}
+
+Repeatedly pairing a reward stimulus (food) with a neutral stimulus (tone), causes an animal to begin salivating in response to the neutral stimulus
+
+Before acquistion the food caused salivation
+
+After acquisition the tone causes salivation
+
+:::
+
+::: {.col-md-6}
+
+```{r, out.width="100%"}
+knitr::include_graphics("../../textbook/imgs/Conditioning_terms.png")
+```
+
+:::
+::::
+
+## Explaining Acquisition
+
+What kind of association was learned?
+
+Did the tone make the animal expect to receive food, and the expectation for food evoked salivation?
+
+Does the tone cause the animal to "mentally simulate" eating food?
+
+Does the tone directly cause salivation without causing an expectation for food?
+
 
 ## Extinction
 
+Can newly learned associations become unlearned?
+
+```{r}
+knitr::include_graphics("../../textbook/imgs/Conditioning_extinction.png")
+```
+
+## Explaining Extinction
+
+Did the original association between tone and food become weakened or eliminated during extinction?
+
+Did the animal learn to suppress it's expectation for food?
+
 ## Spontaneous Recovery
+
+:::: {.row}
+::: {.col-md-6}
+
+Spontaneous recovery is the observation that an extinguished S-R association can suddenly re-appear spontaneously
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("imgs/back.gif")
+```
+
+:::
+::::
+
+## Conditioning in humans
+
+Siegel, S., & Allan, L. G. (1998). Learning and homeostasis: Drug addiction and the McCollough effect. Psychological Bulletin, 124(2), 230–239. https://doi.org/10.1037/0033-2909.124.2.230
+
 
 ## Conditioning and Drug tolerance
 
+Siegel, S., Hinson, R. E., Krank, M. D., & McCully, J. (1982). Heroin “overdose” death: Contribution of drug-associated environmental cues. Science, 216(4544), 436–437. https://doi.org/10.1126/science.7200260
+
 ## Conditioning and Perception
+
+McCollough, C. (1965). Color adaptation of edge detectors in the hu- man visual system. Science, 149, 1115-1116.
+
+Allan, L. G., & Siegel, S. (1986). McCollough effects as conditioned responses: Reply to Skowbo. Psychological Bulletin, 100(3), 388–393. https://doi.org/10.1037/0033-2909.100.3.388
+
+## McCollough inducer
+
+Alternate looking directly at the red lines then green lines for about 1 minute or more
+
+```{r}
+knitr::include_graphics("imgs/MC_inducer.jpeg")
+```
+
+## McCollough tester
+
+```{r}
+knitr::include_graphics("imgs/mc_tester.jpeg")
+```
+
 
 ## Questions and Next class
 
 Next class is Monday, Sept 27th.
 
-Read chapter 5 [Associations](https://www.crumplab.com/cognition/textbook/intelligence-testing.html) from the textbook.
+We will continue talking about associations. Some additional/optional readings will be posted on blackboard
 
 Reminder: Quiz 2 covers chapter 3 and 4 and is posted until Sunday, Sept 26th.
 
