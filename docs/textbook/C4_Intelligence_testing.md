@@ -3,10 +3,9 @@
 # Intelligence Testing
 
 
-| Word Count|Reading Time |
-|----------:|:------------|
-|       6724|33.6 minutes |
-
+| Word Count|Reading Time |Last Compiled           |
+|----------:|:------------|:-----------------------|
+|       6724|33.6 minutes |2021-09-08 20:48:18 GMT |
 
 <!--
 Chapter goals

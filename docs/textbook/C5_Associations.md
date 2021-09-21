@@ -2,12 +2,12 @@
 
 # Associations
 
-::: {.readingtime}
 
-| Word Count|Reading Time |
-|----------:|:------------|
-|       7657|38.3 minutes |
-:::
+| Word Count|Reading Time |Last Compiled           |
+|----------:|:------------|:-----------------------|
+|       7656|38.3 minutes |2021-09-21 17:45:51 GMT |
+
+
 
 ## Chapter overview
 

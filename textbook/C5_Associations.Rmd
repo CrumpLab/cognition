@@ -4,16 +4,19 @@ source("global_stuff.R")
 
 # Associations
 
-::: {.readingtime}
 ```{r, cache=FALSE}
+library(git2r)
+compilations <- commits(repo = "../",path = "textbook/C5_Associations.Rmd")
+last_compile_time <- as.character(compilations[[1]]$author$when)
 word_count <- wordcountaddin::word_count("C5_Associations.Rmd")
 wpm <- 200
 reading_time <- paste0(round(word_count/wpm, 1), " minutes")
-info <- data.frame(word_count,reading_time)
-colnames(info) <- c("Word Count","Reading Time")
+info <- data.frame(word_count,reading_time, last_compile_time)
+colnames(info) <- c("Word Count","Reading Time","Last Compiled")
 knitr::kable(info)
 ```
-:::
+
+
 
 ## Chapter overview
 
