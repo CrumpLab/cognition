@@ -330,6 +330,80 @@ How were the animals solving the problem? How were they getting faster? What kin
 knitr::include_graphics("imgs/associative_stages.jpg")
 ```
 
+## Experimental questions
+
+Thorndike conducted several experiments designed to test hypotheses about animal learning.
+
+## Imitation Learning
+
+:::: {.row}
+::: {.col-md-6}
+
+**Question**: can animals learn how to escape a puzzle box by watching another animal escape?
+
+**Result**: Cats, dogs, and chicks did not benefit from the opportunity for imitation learning
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("imgs/imitation.gif")
+```
+
+:::
+::::
+
+## General concept learning
+
+**Question**: Can animals generalize their learning? If they learn to escape from one box, do they show benefits when trying to escape from similar boxes?
+
+**Results**: Thorndike evidence of positive transfer
+
+His animals learned to escape from a new puzzle box faster when it was similar to a puzzle box they had learned previously.
+
+## Interpreting positive transfer
+
+What does evidence of generalization, or positive transfer mean about the underlying cognitive processes involved?
+
+:::: {.row}
+::: {.col-md-6}
+
+**General Concept Formation**
+
+Animals learn abstract concepts about the puzzle boxes, and they use human-like reasoning processes to figure out how to escape from novel boxes
+
+:::
+
+::: {.col-md-6}
+
+**Incidental Transfer**
+
+Thorndike favored the view that animals were not learning general concepts, and instead were learning about specific details of the puzzle box that happened to transfer well to similar boxes.
+
+:::
+::::
+
+## Further questions
+
+Thorndike entertained questions about associations that ought to be studied in the future. Some of these questions included:
+
+1. Delicacy and permanence of associations: How fragile are some associations, how long do associations last after they have been formed?
+
+2. Complexity of associations (Thorndike intended to rank intelligence of animals as a function of the complexity of associations they could acquire)
+
+3. Number of associations: How many associations do different animals have?
+
+4. Inhibition of instinct by habit: Can an animal learn to override an instinctual behavior through associative learning?
+
+5. Role of attention: does the formation of an association depend on attending to sense-impressions?
+
+## Physiology and Psychology
+
+At the same time as Thorndike, Ivan Pavlov was also investigating associative learning processes in animals
+
+Pavlov was interested in the physiological/brain mechanisms that enabled association formation
+
 ##  Pavlov's Classical Conditioning
 
 ### 1. Philosophy and Associationism {.greyout}
@@ -337,11 +411,65 @@ knitr::include_graphics("imgs/associative_stages.jpg")
 ### 3. Thorndike's Puzzle Boxes {.greyout}
 ### 4. Pavlov's Classical Conditioning {.bolder}
 
-## Physiology and Psychology
+## Ivan Pavlov (1849 - 1936)
+
+:::: {.row}
+::: {.col-md-6}
+
+Russian Physiologist
+
+Discovered Classical Conditioning
+
+Won Nobel prize in 1904
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("imgs/pavlov.jpg")
+```
+
+:::
+::::
 
 ## Descarte's Reflexes
 
+:::: {.row}
+::: {.col-md-4}
+
+Knee reflex
+
+```{r, out.width='100%'}
+knitr::include_graphics("../../textbook/imgs/Patellar-knee-reflex.png")
+```
+
+:::
+
+::: {.col-md-4}
+
+Garden at St. Germain, with incredible plumbing
+
+```{r, out.width='100%'}
+knitr::include_graphics("../../textbook/imgs/st_germain.png")
+```
+
+:::
+
+::: {.col-md-4}
+
+The brain as a complicated web of plumbing
+
+```{r, out.width='100%'}
+knitr::include_graphics("../../textbook/imgs/Descartes_brain.png")
+```
+
+:::
+::::
+
 ## Pavlov's Liquids
+
+> "Our starting point has been Descartes’ idea of the nervous reflex. This is a genuine scientific conception, since it implies necessity. It may be summed up as follows: An external or internal stimulus falls on some one or other nervous receptor and gives reise to a nervous impulse; this nervous impulse is transmitted along nerve fibres to the central nervous system, and here, on account of existing nervous connections, it gives rise to a fresh impulse which passes along outgoing nerve fibres to the active organ, where it excites a special activity of the cellular structures. Thus, a stimulus appears to be connected of necessity with a definite response, as cause with effect. It seems obvious that the whole activity of the organism should conform to definite laws."
 
 ## Classical Conditioning
 
