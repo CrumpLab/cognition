@@ -1,7 +1,7 @@
-items <- c("The intelligence test race",
-           "Binet-Simon Test",
-           "Mental testing and Eugenics",
-           "Critical responses")
+items <- c("Philosophy and Associationism",
+           "Cattell's Associations",
+           "Thorndike's Puzzle Boxes",
+           "Pavlov's Classical Conditioning")
 
 title <- "Roadmap"
 
