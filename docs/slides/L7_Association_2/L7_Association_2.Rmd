@@ -1,0 +1,108 @@
+---
+title: 'PSYC 2530: Associations 2'
+author: "Matthew J. C. Crump"
+date: "Last compiled `r format(Sys.time(), '%m/%d/%y')`"
+output:
+  slidy_presentation:
+    footer: written by Matt Crump
+    includes:
+      in_header: header.html
+    self_contained: no
+    theme: yeti
+    incremental: yes
+    template: slidy_template.html
+logoimage: imgs/BC_logo.png
+css: style.css
+subtitle: Reading primary research
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      fig.align = "center",
+                      out.width = "80%")
+library(fontawesome)
+```
+
+## Reminders from last class
+
+We will continue talking about associations. Additional/optional readings for today were posted on blackboard
+
+Reminder: Quiz 2 closed last night
+
+Quiz 3 will be posted today, Monday, Sept 27. Quiz 3 will be open for 1 week, and will cover content on Associations and Behaviorism
+
+##  Reading Primary Research
+
+### 1. Reading Primary Research {.bolder}
+### 2. QALMRI {.greyout}
+### 3. Voss 2009 {.greyout}
+
+## Breadth vs. Depth
+
+:::: {.row}
+::: {.col-md-6}
+
+Textbook gives a bird's eye view of cognition
+
+:::
+
+::: {.col-md-6}
+
+Research articles focus on many important details
+
+:::
+::::
+
+## Course Learning Goal
+
+An important learning goal for this course is to give you skills to help you read and interpret primary research articles in psychology.
+
+## How to read journal articles?
+
+## Let's try
+
+split into groups
+
+read a paper for 5 minutes, and make notes on what it is about
+
+##  QALMRI
+
+### 1. Reading Primary Research {.greyout}
+### 2. QALMRI {.bolder}
+### 3. Voss 2009 {.greyout}
+
+## QALMRI
+
+QALMRI is an acronym, which stands for major parts of a research paper
+
+Question, Alternatives, Logic, Methods, Results, Inference
+
+## Question
+
+## Alternatives
+
+## Logic
+
+## Methods
+
+## Results
+
+## Inferences
+
+##  Voss 2009
+
+### 1. Reading Primary Research {.greyout}
+### 2. QALMRI {.greyout}
+### 3. Voss 2009 {.bolder}
+
+## Questions and Next class
+
+Next class is Wednesday, Sept 29th.
+
+Reading is Chapter 6 on [Behaviorism](https://www.crumplab.com/cognition/textbook/behaviorism.html)
+
+Quiz 3 will be posted today, Monday, Sept 27. Quiz 3 will be open for 1 week, and will cover content on Associations and Behaviorism
+
+
+
+

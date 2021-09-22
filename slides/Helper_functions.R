@@ -1,7 +1,6 @@
-items <- c("Philosophy and Associationism",
-           "Cattell's Associations",
-           "Thorndike's Puzzle Boxes",
-           "Pavlov's Classical Conditioning")
+items <- c("Reading Primary Research",
+           "QALMRI",
+           "Voss 2009")
 
 title <- "Roadmap"
 
