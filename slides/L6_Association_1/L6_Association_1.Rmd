@@ -482,7 +482,7 @@ knitr::include_graphics("../../textbook/imgs/st_germain.png")
 The brain as a complicated web of plumbing
 
 ```{r, out.width='100%'}
-knitr::include_graphics("../../textbook/imgs/Descartes_brain.png")
+knitr::include_graphics("../../textbook/imgs/Descartes_brain_large.png")
 ```
 
 :::
@@ -609,7 +609,7 @@ We will continue talking about associations. Some additional/optional readings w
 
 Reminder: Quiz 2 covers chapter 3 and 4 and is posted until Sunday, Sept 26th.
 
-Quiz 3 will be posted on Monday, Sept 27. Quiz 3 will be open for 1 week, and will cover chapters 5 and 6
+**Quiz 3 will be posted Wednesday, Sept 29th**. Quiz 3 will be open for 1 week, and will cover chapters 5 and 6
 
 
 
