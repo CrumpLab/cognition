@@ -1,6 +1,8 @@
-items <- c("Reading Primary Research",
-           "QALMRI",
-           "Voss 2009")
+items <- c("Positivism",
+           "Watson's Behaviorism",
+           "Tolmans's Behaviorism",
+           "Hulls's Behaviorism",
+           "Skinner's Behaviorism")
 
 title <- "Roadmap"
 

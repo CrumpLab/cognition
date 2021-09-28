@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  21 SEP 2021 15:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  28 SEP 2021 14:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -952,7 +952,7 @@ File: imgs/Tolman_portrait.jpg Graphic file (type jpg)
 Package pdftex.def Info: imgs/Tolman_portrait.jpg  used on input line 1849.
 (pdftex.def)             Requested size: 97.50087pt x 149.32567pt.
 [145 <./imgs/Tolman_portrait.jpg>] [146] [147] [148]
-<imgs/Tolman_AlleyMaze.png, id=2038, 554.07pt x 647.41875pt>
+<imgs/Tolman_AlleyMaze.png, id=2040, 554.07pt x 647.41875pt>
 File: imgs/Tolman_AlleyMaze.png Graphic file (type png)
 <use imgs/Tolman_AlleyMaze.png>
 Package pdftex.def Info: imgs/Tolman_AlleyMaze.png  used on input line 1908.
@@ -967,29 +967,34 @@ File: imgs/Tolman_hunger.png Graphic file (type png)
 <use imgs/Tolman_hunger.png>
 Package pdftex.def Info: imgs/Tolman_hunger.png  used on input line 1915.
 (pdftex.def)             Requested size: 194.99385pt x 181.89989pt.
-[150 <./imgs/Tolman_AlleyMaze.png>] [151 <./imgs/Tolman_hunger.png>]
-<imgs/Tolman_DistanceMaze.png, id=2067, 709.65125pt x 662.475pt>
+[150 <./imgs/Tolman_AlleyMaze.png> <./imgs/Tolman_hunger.png>]
+<imgs/Tolman_DistanceMaze.png, id=2061, 709.65125pt x 662.475pt>
 File: imgs/Tolman_DistanceMaze.png Graphic file (type png)
 <use imgs/Tolman_DistanceMaze.png>
 Package pdftex.def Info: imgs/Tolman_DistanceMaze.png  used on input line 1933.
 
 (pdftex.def)             Requested size: 194.99768pt x 182.0346pt.
-<imgs/Tolman_Minima.png, id=2071, 561.09625pt x 662.475pt>
+[151]
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+1939.
+
+<imgs/Tolman_Minima.png, id=2074, 561.09625pt x 662.475pt>
 File: imgs/Tolman_Minima.png Graphic file (type png)
 <use imgs/Tolman_Minima.png>
 Package pdftex.def Info: imgs/Tolman_Minima.png  used on input line 1940.
 (pdftex.def)             Requested size: 194.99963pt x 230.23213pt.
-[152 <./imgs/Tolman_DistanceMaze.png>]
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
 1946.
 
-<imgs/Tolman_Temporal.png, id=2087, 530.98375pt x 782.925pt>
+<imgs/Tolman_Temporal.png, id=2079, 530.98375pt x 782.925pt>
 File: imgs/Tolman_Temporal.png Graphic file (type png)
 <use imgs/Tolman_Temporal.png>
 Package pdftex.def Info: imgs/Tolman_Temporal.png  used on input line 1947.
 (pdftex.def)             Requested size: 195.00252pt x 287.52736pt.
-[153 <./imgs/Tolman_Minima.png>] [154 <./imgs/Tolman_Temporal.png>] [155]
+[152 <./imgs/Tolman_DistanceMaze.png>] [153 <./imgs/Tolman_Minima.png>] [154 <.
+/imgs/Tolman_Temporal.png>] [155]
 <imgs/Tolman_latentmap.png, id=2141, 537.00626pt x 484.81125pt>
 File: imgs/Tolman_latentmap.png Graphic file (type png)
 <use imgs/Tolman_latentmap.png>
@@ -1026,6 +1031,11 @@ LaTeX Warning: Command \texttimes invalid in math mode on input line 2022.
 
 LaTeX Warning: Command \texttimes invalid in math mode on input line 2022.
 
+
+Underfull \hbox (badness 3758) in paragraph at lines 2028--2030
+\T1/qtm/m/n/12 (+20) (like-li-hood that the or-gan-ism
+ []
+
 [159]
 <imgs/bf_skinner.jpg, id=2190, 105.996pt x 116.3547pt>
 File: imgs/bf_skinner.jpg Graphic file (type jpg)
@@ -1049,13 +1059,13 @@ File: imgs/Skinner_Results.png Graphic file (type png)
 Package pdftex.def Info: imgs/Skinner_Results.png  used on input line 2081.
 (pdftex.def)             Requested size: 194.99591pt x 115.26558pt.
 [163 <./imgs/Skinner_Results.png>]
-<imgs/Skinner_Slope.png, id=2221, 659.46375pt x 536.0025pt>
+<imgs/Skinner_Slope.png, id=2222, 659.46375pt x 536.0025pt>
 File: imgs/Skinner_Slope.png Graphic file (type png)
 <use imgs/Skinner_Slope.png>
 Package pdftex.def Info: imgs/Skinner_Slope.png  used on input line 2097.
 (pdftex.def)             Requested size: 194.99294pt x 158.48741pt.
 [164 <./imgs/Skinner_Slope.png>]
-<imgs/Skinner_description.png, id=2231, 683.55376pt x 371.3875pt>
+<imgs/Skinner_description.png, id=2232, 683.55376pt x 371.3875pt>
 File: imgs/Skinner_description.png Graphic file (type png)
 <use imgs/Skinner_description.png>
 Package pdftex.def Info: imgs/Skinner_description.png  used on input line 2115.
@@ -2193,7 +2203,7 @@ blic/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lm
 tt12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/tex-gyre/qtmb.p
 fb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></u
 sr/local/texlive/2019/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on instances_of_cognition_Crump.pdf (316 pages, 19295298 bytes).
+Output written on instances_of_cognition_Crump.pdf (316 pages, 19295051 bytes).
 
 PDF statistics:
  4667 PDF objects out of 5155 (max. 8388607)

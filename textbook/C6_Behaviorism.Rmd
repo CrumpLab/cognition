@@ -197,7 +197,9 @@ knitr::include_graphics("imgs/Tolman_portrait.jpg")
 
 [Edward C. Tolman's](https://en.wikipedia.org/wiki/Edward_C._Tolman) (1886-1959) flavor of behaviorism incorporated elements that are common in modern cognitive psychology. In 1932, he wrote "Purposive Behavior in Animals and Men" [@tolmanPurposiveBehaviorAnimal1932], which summarizes his research and views on behaviorism. In presenting his view, Tolman points out that numerous authors, such as "Holt, Perry, Singer, de Laguna, Hunter, Weiss, Lashley" had been developing their own versions of behaviorism, and refers to Roback's "Behaviorism and Psychology", for "the best analysis and bibliography of the different varieties of behaviorims extant to 1923". I mention the diversity of views to emphasize the difficulty of treating the period of behaviorism as single monolithic entity. Instead, much like there are numerous views on cognition today, there were numerous views on behaviorism. Similarly, it is worth noting that there were many non-behaviorist views on psychology and non-behaviorist lines of research that were ongoing throughout the so-called period of behaviorism.
 
-After some training in Germany, Tolman received his Ph.D. at Harvard under [Edwin Holt](https://en.wikipedia.org/wiki/Edwin_Holt) in 1915, who had worked under [Hugo Munsterberg](https://en.wikipedia.org/wiki/Hugo_Münsterberg). He is well-known for his research on maze-learning in rats, which is the focus of this section. In addition to basic research on learning processes in rats, Tolman also had an applied side. For example, following world war II, he wrote "Assessment of Men" [], which describes how he coordinated psychological testingfor personnel assignment in the division, X.
+After some training in Germany, Tolman received his Ph.D. at Harvard under [Edwin Holt](https://en.wikipedia.org/wiki/Edwin_Holt) in 1915, who had worked under [Hugo Munsterberg](https://en.wikipedia.org/wiki/Hugo_Münsterberg). He is well-known for his research on maze-learning in rats, which is the focus of this section. 
+
+<!--In addition to basic research on learning processes in rats, Tolman also had an applied side. For example, following world war II, he wrote "Assessment of Men" [], which describes how he coordinated psychological testing for personnel assignment in the division, X. -->
 
 ### Molar definition of behavior
 
@@ -279,7 +281,7 @@ knitr::include_graphics("imgs/Tolman_Minima.png")
 
 :::
 
-Tolman to another interesting experiment by Gengerelli [@gengerelliPrincipleMaximaMinima1930], showing that rats can learn to take the shortest or most efficient path through a maze. The figure shows Gengerelli's maze, which looks kind of like a [bean machine](https://en.wikipedia.org/wiki/Bean_machine). The maze included numerous choice points where a rat could decide to turn left or right and take an open pathway or not. For example, imagine how many ways you could solve the maze with by drawing a line from the start to the finish. There are many ways, and some are longer than others. Gengerelli showed that, given multiple attempts, rats will begin taking shorter paths to get the food reward at the end. 
+Tolman points to another interesting experiment by Gengerelli [@gengerelliPrincipleMaximaMinima1930], showing that rats can learn to take the shortest or most efficient path through a maze. The figure shows Gengerelli's maze, which looks kind of like a [bean machine](https://en.wikipedia.org/wiki/Bean_machine). The maze included numerous choice points where a rat could decide to turn left or right and take an open pathway or not. For example, imagine how many ways you could solve the maze with by drawing a line from the start to the finish. There are many ways, and some are longer than others. Gengerelli showed that, given multiple attempts, rats will begin taking shorter paths to get the food reward at the end. 
 
 ::: {.floatrightbox50 data-latex=""}
 
@@ -289,7 +291,7 @@ knitr::include_graphics("imgs/Tolman_Temporal.png")
 
 :::
 
-As a last example, Tolman [@samsTimeDiscriminationWhite1925] showed that rats are capable of temporal discrimination, and appear to make choices while navigating a maze that reduce the amount of time taken to get a food reward. Tolman's temporal discrimination maze is shown in the figure. Rats started at the entrance (E), and attempted to find the food in the room on the other side (F). However, when the rats took the A corridor to the left, or the B corridor to the right, they were detained for different amounts of time in the "detention" rooms (D) on both sides of the maze. For example, rats would be detained for one to two minutes on the left side, or three to four minutes on the right side. After the first phase were rats experienced the delays, they were allowed to navigate the maze without being detained. The rat's showed a preference to take the route associated with the shortest temporal delay.
+As a last example, Tolman [@samsTimeDiscriminationWhite1925] showed that rats were capable of temporal discrimination, and appear to make choices while navigating a maze that reduce the amount of time taken to get a food reward. Tolman's temporal discrimination maze is shown in the figure. Rats started at the entrance (E), and attempted to find the food in the room on the other side (F). However, when the rats took the A corridor to the left, or the B corridor to the right, they were detained for different amounts of time in the "detention" rooms (D) on both sides of the maze. For example, rats would be detained for one to two minutes on the left side, or three to four minutes on the right side. After the first phase were rats experienced the delays, they were allowed to navigate the maze without being detained. The rat's showed a preference to take the route associated with the shortest temporal delay.
 
 ### Tolman's inheritance project: A rat model of eugenics
 
@@ -465,7 +467,7 @@ In the acquisition phase, the animal is rewarded with food every time the lever 
 
 #### Systematic Description: Setting terms and laws
 
-Skinner's system involved his own set of terms and law relationships. The terms were intended as abstractions, and the laws were supposed to be empirically verified regularities in behavior. The system could be modified over time if new experimental revealed new laws, or forced revisions of old laws. And, terms in the systemc could be added or substracted depending on whether they were useful to describing behavior. 
+Skinner's system involved his own set of terms and law relationships. The terms were intended as abstractions, and the laws were supposed to be empirically verified regularities in behavior. The system could be modified over time if new experiments revealed new laws, or forced revisions of old laws. And, terms in the system could be added or subtracted depending on whether they were useful to describing behavior. 
 
 Skinner used terms like **reflex** and **reflex strength**, but stripped them of their normal everyday meaning. For example, his reflex just refers to any operant behavior like lever-pressing, and is not to be mistaken with a "real reflex". Similarly, the strength of a reflex is an abstract quantity in the system, referring to changes in behavior over time. Reflex strength was not the magnitude of response. For example, an animal could very softly hit the lever (a weak response magnitude), but if it increased the number of times it hit the lever (while hitting it soft or hard), the reflex could be described as increasing in strength.
 
@@ -479,7 +481,7 @@ Other terms involved concepts like **threshold**, **latency**, **after-discharge
  
 > **The Law of After-Discharge** The response may persist for some time after the cessation of the stimulus
 
-Note that the whole enterprise of proposing [scientific laws](https://en.wikipedia.org/wiki/Scientific_law) for behavior was a hopeful one. Behaviorists were modeling themselves after other disciplines like physics, where many [physical laws](https://en.wikipedia.org/wiki/Scientific_law#Laws_of_physics) had been discovered. However, the behavior of animals can be highly complex and not easily captured by simple laws. To accomodate the complexity, Skinner postulates laws in a vague and provisional way. For example, in the law of after-discharge, the response *may* persist for some time, but it may not. He also postulated **dynamic laws** that allow parts of the system to change. Here is an example a Skinnerian dynamic law:
+Note that the whole enterprise of proposing [scientific laws](https://en.wikipedia.org/wiki/Scientific_law) for behavior was a hopeful one. Behaviorists were modeling themselves after other disciplines like physics, where many [physical laws](https://en.wikipedia.org/wiki/Scientific_law#Laws_of_physics) had been discovered. However, the behavior of animals can be highly complex and not easily captured by simple laws. To accommodate the complexity, Skinner postulates laws in a vague and provisional way. For example, in the law of after-discharge, the response *may* persist for some time, but it may not. He also postulated **dynamic laws** that allow parts of the system to change. Here is an example a Skinnerian dynamic law:
 
 > **The Law of Reflex Fatigue**. The strength of a reflex declines during repeated elicitation and returns to its former value during subsequent inactivity. 
 
@@ -503,11 +505,11 @@ knitr::include_graphics("imgs/Skinner_description.png")
 
 The rat has an initial **reflex reserve** giving it some propensity to make the reflex. Prior to acquisition, some unknown impulse causes a **threshold** to be reached, and the **reflex** is spontaneously emitted. The impulse doesn't occur often, or the threshold is very high, so the **reflex strength** is low overall because it occurs infrequently.
 
-During the acquisition phase the animal is inserted into the box. During *A*, the reflex threshold is not exceeded, and no reflexes are emitted. During *B*, the some impulse spontaneously passed the reflex threshold, and the reflex was emitted at a low rate. Now, we must invoke another law:
+During the acquisition phase the animal is inserted into the box. During *A*, the reflex threshold is not exceeded, and no reflexes are emitted. During *B*, some impulse spontaneously passed the reflex threshold, and the reflex was emitted at a low rate. Now, we must invoke another law:
 
 > "**The Law of Conditioning of Type R** If the occurrence of an operant is followed by presentation of a reinforcing stimulus the strength is increased."
 
-During *B*, the reflex strength increases because it is reinforced. This is observed in behavior as an increase in response rate. During **C**, the reflex strength, and perhaps even the reflex reserve, has grown substantially. This is shown in behavior by the increase in response rate. However, during *D*, the response rate begins to decline. This could indicate some part of the system is changing, like the threshold is raised requiring a greated impulse to trigger the reflex. Or, the hypothetical **reflex reserve** could be invoked. The reserve could be "running dry", and observed in behavior by a decreases in response rate. 
+During *B*, the reflex strength increases because it is reinforced. This is observed in behavior as an increase in response rate. During **C**, the reflex strength, and perhaps even the reflex reserve, has grown substantially. This is shown in behavior by the increase in response rate. However, during *D*, the response rate begins to decline. This could indicate some part of the system is changing, like the threshold is raised requiring a greated impulse to trigger the reflex. Or, the hypothetical **reflex reserve** could be invoked. The reserve could be "running dry", and observed in behavior by a decrease in response rate. 
 
 During the extinction phase, reflex continues to occur even though it is not reinforced (E). The continuation of the reflex can be partly described by **after-discharge**. However, an additional law can be stated to describe the reduction of the rate of responding:
 
