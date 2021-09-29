@@ -65,6 +65,8 @@ navbar:
         href: slides/L6_Association_1/L6_Association_1.html
       - text: Lecture 7 - Associations 2
         href: slides/L7_Association_2/L7_Association_2.html
+      - text: Lecture 8 - Behaviorism
+        href: slides/L8_Behaviorism/L8_Behaviorism.html
     news:
       text: news
       href: news/index.html
