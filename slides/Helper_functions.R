@@ -1,8 +1,7 @@
-items <- c("Positivism",
-           "Watson's Behaviorism",
-           "Tolmans's Behaviorism",
-           "Hulls's Behaviorism",
-           "Skinner's Behaviorism")
+items <- c("Revolutions and Metaphors",
+           "Donders and Processing stages",
+           "Information Theory",
+           "Hick-Hyman Law")
 
 title <- "Roadmap"
 

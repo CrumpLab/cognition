@@ -80,7 +80,7 @@ Up to this chapter we have traced a line through psychology from Galton in 1865 
 
 ### Donders mental chronometry and processing stages
 
-Donders was a physiologist and impressed with emerging work on the speed of nerve conduction. Earlier physiologists (Johannes Muller) said the velocity of nerve conduction could be infinitely fast, or unknowable. But, in 1849, [Hermann von Helmolz](https://en.wikipedia.org/wiki/Hermann_von_Helmholtz), succeeded in measuring nerve transmission speeds in a frog in the range of 24-36 meters per second.
+Donders was a physiologist and impressed with emerging work on the speed of nerve conduction. Earlier physiologists (Johannes Muller) said the velocity of nerve conduction could be infinitely fast, or unknowable. But, in 1849, [Hermann von Helmholtz](https://en.wikipedia.org/wiki/Hermann_von_Helmholtz), succeeded in measuring nerve transmission speeds in a frog in the range of 24-36 meters per second.
 
 The empirical observation that nerve conduction was not infinitely fast was very important for Donders. As a physiologist he assumed that thinking processes of the mind were controlled by organs in the brain. If the exchange of signals in the nervous occurred infinitely fast, he assumed that processes of thought might also occur infinitely fast. However, the discovery that nerves had physical properties limiting how fast they conducted signals suggested to Donders thoughts might have some measurable speed, so he set out record the speed thought. 
 
