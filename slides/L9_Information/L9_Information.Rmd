@@ -100,8 +100,6 @@ knitr::include_graphics("imgs/computer.gif")
 ### 3. Information Theory {.greyout}
 ### 4. Hick-Hyman Law {.greyout}
 
-## Donders ()
-
 ## Mental Chronometry
 
 
@@ -123,7 +121,11 @@ knitr::include_graphics("imgs/stopwatch.jpg")
 
 ## How fast can a nerve transmit a signal? 
 
-## Helmolz
+## Hermann von Helmholtz
+
+## Donders
+
+## Physiological Reaction time
 
 ##  Information Theory
 
