@@ -67,6 +67,8 @@ navbar:
         href: slides/L7_Association_2/L7_Association_2.html
       - text: Lecture 8 - Behaviorism
         href: slides/L8_Behaviorism/L8_Behaviorism.html
+      - text: Lecture 9 - Information Processing
+        href: slides/L9_Information/L9_Information.html
     news:
       text: news
       href: news/index.html
