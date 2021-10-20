@@ -354,6 +354,131 @@ Welford described a few:
 ### 3. Information Theory {.bolder}
 ### 4. Hick-Hyman Law {.greyout}
 
+## Claude Shannon (1916-2001)
+
+:::: {.row}
+::: {.col-md-6}
+
+"Father of Information Theory"
+
+A Mathematical Theory of Communication (1948)
+
+Founded digital circuit theory (1937)
+
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("imgs/ClaudeShannon_MFO3807.jpg")
+```
+
+:::
+::::
+
+## Information theory intro
+
+Information theory was NOT originally developed as a theory in psychology
+
+It is a set of mathematical formalisms to describe communication systems
+
+Measurement tools from information theory became popular in Cognitive Psychology beginning around 1950
+
+## Information Channel
+
+:::: {.row}
+::: {.col-md-6}
+
+An information channel has three parts:
+
+a sender, a channel, and a receiver
+
+two questions: 
+
+how much information was sent? How much was received?
+
+:::
+
+::: {.col-md-6}
+
+```{r, out.width="100%"}
+knitr::include_graphics("../../textbook/imgs/Shannon_info_channel.jpg")
+```
+
+:::
+::::
+
+## Example information channels
+
+Toy telephone (two cans and a wire)
+
+Real telephone networks
+
+What about people talking to each other?
+
+## Channel Capacity
+
+Important concept from information theory
+
+The amount of information that can be transmitted and received through a communication channel
+
+## Measuring information: H
+
+Shannon proposed to measure information in terms of entropy, or the amount of uncertainty in a system of messages:
+
+$H(X) = -1*\sum_\text{i=1}^n P(x_i) * log_2 P(x_i)$
+
+## Why a formula is useful
+
+Capacity limitations for information channels could be measured and assigned a value
+
+Content of signals could be analyzed in terms of how much information they carry
+
+Amount of information lost during transmission could be quantified
+
+Led to improvements in telecommunications systems and technology
+
+## Meaning of H?
+
+Shannon’s formula defines information in terms of the predictability of a sequence of messages.
+
+More predictable sequences = Low information
+
+Less predictable sequences = High information
+
+## Consider three books
+
+A book that contained the letter A repeatedly
+
+A book that you read, enjoyed, and found meaningful
+
+A book that contained completely random sequences of letters
+
+## Computing H
+
+<https://www.crumplab.com/cognition/textbook/information-processing.html#computing-h>
+
+## Bits of information
+
+Shannon's formula uses a base 2 logarithm which produces a number in the unit of [bits](https://en.wikipedia.org/wiki/Bit).
+
+Bits can be used to measure the total number of discrete events in a system of messages
+
+## Bits and Unique events
+
+```{r}
+knitr::include_graphics("../../textbook/imgs/Shannon_bits.jpg")
+```
+
+## A simple communication system
+
+Let's review H, Bits, and Information together by examining a simple communication system involving four possible messages:
+
+A B C D
+
+<https://www.crumplab.com/cognition/textbook/information-processing.html#h-bits-predictability-and-information>
+
 ##  Hick-Hyman Law
 
 ### 1. Revolutions and Metaphors {.greyout}
@@ -361,14 +486,133 @@ Welford described a few:
 ### 3. Information Theory {.greyout}
 ### 4. Hick-Hyman Law {.bolder}
 
+## Information theory and cognition
+
+Ideas from information theory were imported into cognitive psychology around the 1950s
+
+## Information processing capacity
+
+A big idea was to describe limitations in "information processing" abilities
+
+E.g., how much "information" can you process?
+
+## Hick-Hyman Law
+
+A promising early demonstration suggesting that *choice reaction time* performance may be fundamentally governed by the amount of information in a set of choice stimuli
+
+## Choice Reaction Time Task
+
+:::: {.row}
+::: {.col-md-6}
+
+Participants are presented with one stimulus at a time from a set of stimuli
+
+Participants identify each stimuli with a unique response as fast as possible
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("../../textbook/imgs/Donders_Choice.png")
+```
+
+:::
+::::
+
+## Set-size effects
+
+Prior research had shown that choice reaction time increases with set-size 
+
+e.g., average response time to respond to any stimulus goes up and up, as the number of alternatives in the set increases
+
+## Explaining set-size effects...
+
+Why does mean reaction time go up when the number of possible choices goes up?
+
+## Hick and Hyman's idea
+
+Maybe people were sensitive to the amount of information in the choice set?
+
+Not simply being influenced by the number of alternatives
+
+But...the predictability of the alternatives...
+
+## Confounds
+
+Prior research typically presented alternatives randomly to participants
+
+This meant the number of alternatives and the amount of information in a set was confounded
+
+## Deconfounding alternatives and information
+
+Need to independently manipulate the number of alternatives, and the amount of information
+
+## Hyman (1953)
+
+Hyman, R. (1953). Stimulus information as a determinant of reaction time. Journal of Experimental Psychology, 45(3), 188–196. https://doi.org/cq3kjd
+
+## Experiment 1
+
+The first experiment was a choice-reaction time task with 8 different conditions, corresponding to the number of alternatives, from 1 to 8. 
+
+In each condition, all stimuli were presented randomly.
+
+Thus, the amount of bits in each condition was ranged from 0 to 3 (bits for 1 to 8 alternatives are: 0, 1, 1.58, 2, 2,32, 2,58, 2,81, and 3).
+
+## Experiment 1 results
+
+Reaction time increased linearly with number of alternatives...
+
+BUT, the number of alternatives, was completely confounded with the amount of bits.
+
+## Experiment II
+
+```{r}
+knitr::include_graphics("../../textbook/imgs/Hyman_e2.jpg")
+```
+
+## Results
+
+```{r}
+knitr::include_graphics("../../textbook/imgs/Hick_hyman_law.png")
+```
+
+## Hick-Hyman Law
+
+Choice reaction time increases linearly as a function of the information (bits) in the stimulus set
+
+## Implications for Behaviorism
+
+- Many behaviorists were interested in understanding lawful regularities connecting a stimulus with a subsequent response
+
+- Hick-Hyman law showed a case where responses to a stimulus did not depend on the stimulus that was presented!
+
+- Instead, the speed of responding to the presented stimulus apparently depended on the predictability of the other stimuli that could have been presented
+
+## Debate about Hick-Hyman Law
+
+Information theory was not an explanation, it was just another way to describe the experimental manipulation
+
+Further research showed some violations to the Hick-Hyman Law (practiced subjects, non-linear trends)
+
+## Explanations
+
+Why does choice reaction time mostly increase linearly as a function of information?
+
+Hick's match to template hypothesis...
+
+Hick's binary logic test hypothesis...
+
+Kornblum's priming explanations
 
 ## Questions and Next class
 
 Next class is Wednesday, Oct 20th.
 
-Reading is Chapter 7 on [Information Processing](https://www.crumplab.com/cognition/textbook/information-processing.html)
+Reading is Chapter 8 on [Memory I](https://www.crumplab.com/cognition/textbook/memory-i.html)
 
-**Quiz 5 will begin on Wednesday** 
+**Quiz 5 will begin on Wednesday, Oct 20th** 
 
 
 
