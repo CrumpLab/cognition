@@ -354,6 +354,8 @@ Welford described a few:
 ### 3. Information Theory {.bolder}
 ### 4. Hick-Hyman Law {.greyout}
 
+
+
 ##  Hick-Hyman Law
 
 ### 1. Revolutions and Metaphors {.greyout}
