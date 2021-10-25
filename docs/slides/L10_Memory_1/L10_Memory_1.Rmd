@@ -1,0 +1,477 @@
+---
+title: 'PSYC 2530: Memory I'
+author: "Matthew J. C. Crump"
+date: "Last compiled `r format(Sys.time(), '%m/%d/%y')`"
+output:
+  slidy_presentation:
+    footer: written by Matt Crump
+    includes:
+      in_header: header.html
+    self_contained: no
+    theme: yeti
+    incremental: yes
+    template: slidy_template.html
+logoimage: imgs/BC_logo.png
+css: style.css
+subtitle: Early approaches
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      fig.align = "center",
+                      out.width = "80%")
+library(fontawesome)
+```
+
+## Reminders from last class
+
+Reading is Chapter 8 on [Memory I](https://www.crumplab.com/cognition/textbook/memory-i.html)
+
+**Quiz 5 is open until Tuesday, 11:59pm** 
+
+##  Questions about memory
+
+### 1. Questions about memory {.bolder}
+### 2. Early memory research {.greyout}
+### 3. Memory as information processing {.greyout}
+### 4. Multi-store model {.greyout}
+
+##  Questions about memory
+
+What is it like for you to remember something from your past? 
+
+How many events from your experience can you remember? 
+
+Why can you remember something from years ago, but forget new information from seconds ago? 
+
+How do you preserve your experiences so that they can be remembered later on? 
+
+Why is it sometimes hard to remember something, but later the answer pops in your head? 
+
+How can you improve your memory?
+
+How can you forget things you don’t want to think about? 
+
+What other animals besides humans have memories? 
+
+How are memories encoded, stored, and retrieved in the brain? 
+
+How do people use their environment to help them remember things?
+
+##  Early memory research
+
+### 1. Questions about memory {.greyout}
+### 2. Early memory research {.bolder}
+### 3. Memory as information processing {.greyout}
+### 4. Multi-store model {.greyout}
+
+## Early memory researchers
+
+Hermann Ebbinghaus
+
+Sir Frederick Bartlett
+
+Bluma Zeigarnik
+
+Hedwig von Restorff
+
+## Hermann Ebbinghaus (1850-1909)
+
+:::: {.row}
+::: {.col-md-6}
+
+Conducted some of the first experimental investigations of human memory
+
+1885 - english translation from German, "[Memory: A Contribution to Experimental Psychology](https://archive.org/details/memorycontributi00ebbiuoft)"
+
+:::
+
+::: {.col-md-6}
+
+```{r, out.width="100%"}
+knitr::include_graphics("imgs/Ebbinghaus2.jpg")
+```
+
+:::
+::::
+
+## What did Ebbinghaus do?
+
+Systematically measured rates of learning and forgetting
+
+Conducted single-subject research on himself
+
+Invented use of nonsense material (CVC syllables)
+
+## Big Questions
+
+How do people learn new associations?
+
+What happens to new learning with delays between practice? (forgetting)
+
+## Issues
+
+People already have many existing associations from their experience...
+
+How to study learning of new associations?
+
+## Methodological insight
+
+Adopt a task with very little pre-existing familiarity
+
+Ebbinghaus devised a serial learning task to measure how long it took to recite of a list of items from memory. 
+
+He used artificial stimuli so that pre-existing familiarity with the items would not interfere with the learning process. 
+
+## Nonsense syllables
+
+```{r, out.width="100%"}
+knitr::include_graphics("imgs/CVC_table.png")
+```
+
+## Ebbinghaus's task
+
+Ebbinghaus' task involved learning lists of nonsense syllables
+
+Two basic phases:
+
+1. Learning phase
+
+2. Re-learning after a delay
+
+
+## Modern Replication
+
+Murre, J. M. J., & Dros, J. (2015). Replication and Analysis of Ebbinghaus’ Forgetting Curve. PLOS ONE, 10(7), e0120644. https://doi.org/f7vfcn
+
+## one-time perfect
+
+:::: {.row}
+::: {.col-md-6}
+
+Learning phase: practice reciting a row until it is recited perfectly one time, then move to next row
+
+:::
+
+::: {.col-md-6}
+
+```{r, out.width="100%"}
+knitr::include_graphics("imgs/CVC_table.png")
+```
+
+:::
+::::
+
+## Re-learning after delay
+
+In the second phase, each row was re-learned after a delay. The delays were 20 minutes, 1 hour, 9 hours, or 1, 2, 6, or 31 days.
+
+After each delay period, rows were shown again and relearned. 
+
+The number of relearning attempts to get to another “one-time perfect” recitation was also measured.
+
+## Original learning
+
+:::: {.row}
+::: {.col-md-6}
+
+How many practice attempts were necessary to memory a row of nonsense syllables?
+
+The blue line shows that an average of 30-32 practice attempts were needed to memorize each row
+
+:::
+
+::: {.col-md-6}
+
+```{r, out.width="100%"}
+knitr::include_graphics("../../textbook/imgs/Ebbinghaus_OL.png")
+```
+
+Data from Murre & Dros, 2015
+
+:::
+::::
+
+## Savings in Re-learning
+
+How many attempts were required to re-learn a list after different delays?
+
+The delays were 20 minutes, 1 hour, 9 hours, or 1, 2, 6, or 31 days.
+
+## Results
+
+```{r}
+knitr::include_graphics("imgs/murre_dros_2015.png")
+```
+
+## Exponential forgetting
+
+:::: {.row}
+::: {.col-md-6}
+
+Ebbinghaus was the first show evidence for exponential forgetting across delays
+
+Most forgetting occurred immediately after learning, and the rate of forgetting slowed down as delay increased
+
+"Exponential forgetting is like going to Las Vegas and spending most of your money on the first day, and then losing the rest of it slowly over the next week."
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("../../textbook/imgs/Ebbinghaus_exp.jpg")
+```
+
+:::
+::::
+
+## Sir Frederick Bartlett (1886-1969)
+
+:::: {.row}
+::: {.col-md-6}
+
+British Psychologist
+
+Published book "Remembering" in 1932
+
+Reconstructionist view of memory
+
+:::
+
+::: {.col-md-6}
+
+```{r, out.width="100%"}
+knitr::include_graphics("imgs/Bartlett.jpg")
+```
+
+:::
+::::
+
+## Memory metaphors
+
+1. Memory is a file drawer
+
+2. Memory is a camera
+
+3. Memory is a bent-wire
+
+## Memory as "RE-" Membering
+
+:::: {.row}
+::: {.col-md-6}
+
+Memory is "Humpty-Dumpty"
+
+Memory as a process of re-constructing, or actively putting back together 
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("imgs/Humpty_dumpty.jpg")
+```
+
+:::
+::::
+
+## Big questions
+
+How do people reconstruct a prior memory?
+
+How does memory change over successive re-memberings?
+
+## Method of Serial Reproduction
+
+Bartlett conducted experiments that involves two general phases:
+
+1. Encoding/learning of some information
+
+2. Reproduction phases: Had people reproduce the information from memory, many times over
+
+## L'Portraite D'homme
+
+```{r}
+knitr::include_graphics("../../textbook/imgs/Bartlett_homme.png")
+```
+
+## Bartlett's Schemas
+
+Bartlett suggested that remembering processes are guided by general schemas
+
+People may distort their original experiences toward a schema
+
+## Reproducing Bartlett
+
+Carbon, C.-C., & Albrecht, S. (2012). Bartlett’s schema theory: The unreplicated “portrait d’homme” series from 1932. Quarterly Journal of Experimental Psychology, 65(11), 2258–2270. https://doi.org/gjs5bh
+
+```{r}
+knitr::include_graphics("imgs/Barteltt_replication.jpg")
+```
+
+## Memory distortions
+
+Although some of Bartlett’s findings may not stand the test of time, there are many reproducible findings showing that memory can be distorted in interesting ways. 
+
+So, even though memory reconstruction may not always head toward a schema, memory does appear to involve some kind of constructive process capable of returning accurate and distorted impressions of past experiences.
+
+
+## Bluma Zeigarnik (1901-1988)
+
+:::: {.row}
+::: {.col-md-6}
+
+Early memory researcher
+
+"to-do" list effect
+
+:::
+
+::: {.col-md-6}
+
+```{r, out.width="100%"}
+knitr::include_graphics("imgs/Zeigarnick.jpg")
+```
+
+:::
+::::
+
+## Phenomenon
+
+Zeigarnik investigated an apparent phenomenon showing that uncompleted tasks are remembered better than completed tasks
+
+## Method
+
+Participants were given a variety of tasks that took about 3- 5 minutes to complete (math, drawing, threading a needle).
+
+Manipulation:
+
+Partway through some of the tasks, she interrupted people and asked them to start on a new task. 
+
+At the end of the experiment, the participants had completed some of the tasks, and others remained incomplete.
+
+## Results
+
+Zeigarnik then had participants recall all of the tasks. 
+
+Across several experiments she reliably found that people recalled more of the uncompleted tasks than the completed tasks. 
+
+One explanation was the goal to a complete a task created psychological tension that could only be resolved by completing the task. This goal-based tension is not resolved when a task is interrupted, and leads to differences in memory completed and uncompleted tasks.
+
+## Replication attempts
+
+In 1968, Van Bergen published several replication attempts and found that her participants did not show systematic differences in their memory for completed and uncompleted tasks...
+
+
+## Hedwig von Restorff (1906-1962)
+
+:::: {.row}
+::: {.col-md-6}
+
+Applied Gestalt theory figure/ground concepts to memory
+
+Demonstrated role of distinctiveness in memory
+
+:::
+
+::: {.col-md-6}
+
+```{r, out.width="100%"}
+knitr::include_graphics("imgs/vonRestorff.jpg")
+```
+
+:::
+::::
+
+## Big Questions
+
+What makes some information more memorable than others?
+
+Is memory better for things that "stand-out" from the background?
+
+## Method
+
+:::: {.row}
+::: {.col-md-6}
+
+Tested recall memory for lists of paired items.
+
+Manipulated:
+
+"massed" items (CVC syllables) vs
+
+"isolated" items (unique pairs)
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("../../textbook/imgs/Von_restorff_Stimuli.png")
+```
+
+:::
+::::
+
+## Counterbalancing
+
+:::: {.row}
+::: {.col-md-6}
+
+Counterbalancing is an experimental technique used to control for the role of individual stimuli
+
+Von Restorff counterbalanced the massed and isolated items across lists
+
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("../../textbook/imgs/Von_Restorff_counterbalance.jpg")
+```
+
+:::
+::::
+
+## Results
+
+Von Restorff found:
+
+Higher recall of isolated pairs compared to massed pairs...
+
+Regardless of type of material
+
+Important: particular stimuli were more or less memorable, not in and of themselves, but in relation to how distinct they were from other stimuli in the set.
+
+## Distinctiveness effects
+
+..have been replicated many times in many ways since von Restorff
+
+
+
+##  Memory as information processing
+
+### 1. Questions about memory {.greyout}
+### 2. Early memory research {.greyout}
+### 3. Memory as information processing {.bolder}
+### 4. Multi-store model {.greyout}
+
+##  Multi-store model
+
+### 1. Questions about memory {.greyout}
+### 2. Early memory research {.greyout}
+### 3. Memory as information processing {.greyout}
+### 4. Multi-store model {.bolder}
+
+## Questions and Next class
+
+Next class is Wednesday, Oct 27th.
+
+Reading is Chapter 8 on [Memory I](https://www.crumplab.com/cognition/textbook/memory-i.html)
+
+
+
+
+

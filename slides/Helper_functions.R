@@ -1,7 +1,7 @@
-items <- c("Revolutions and Metaphors",
-           "Donders and Processing stages",
-           "Information Theory",
-           "Hick-Hyman Law")
+items <- c("Questions about memory",
+           "Early memory research",
+           "Memory as information processing",
+           "Multi-store model")
 
 title <- "Roadmap"
 
