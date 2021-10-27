@@ -458,6 +458,180 @@ Important: particular stimuli were more or less memorable, not in and of themsel
 ### 3. Memory as information processing {.bolder}
 ### 4. Multi-store model {.greyout}
 
+## George Miller (1920-2012)
+
+:::: {.row}
+::: {.col-md-6}
+
+Often considered a "founder" of cognitive psychology
+
+Did early work on information processing limitations
+
+Later work on language
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("imgs/George_Armitage_Miller.jpg")
+```
+
+:::
+::::
+
+## Miller's Magic Number 7
+
+:::: {.row}
+::: {.col-md-6}
+
+Reviews evidence showing that absolute magnitude judgments in perception have similar information "channel" capacities
+
+Considers whether perceptual processing limitations apply to immediate memory
+
+:::
+
+::: {.col-md-6}
+
+```{r, out.wisth="100"}
+knitr::include_graphics("imgs/Miller_magic7.png")
+```
+
+:::
+::::
+
+## Miller's Big Question
+
+Are the information channels for perception and memory limited in the same way or different ways?
+
+## Absolute Perceptual Judgment
+
+A method from psychophysics
+
+People are presented with one stimulus at a time from a set of stimuli
+
+Task is to identify (by name or label) the stimulus
+
+## Absolute Pitch
+
+Absolute pitch is a rare musical ability to identify or name individual pitches played on a musical instrument without a reference tone
+
+Most people are not able to name specific pitches
+
+## Pollacks' pitch judgment results
+
+:::: {.row}
+::: {.col-md-6}
+
+Pollack presented people with sets of tones (from 2 to 14 different tones)
+
+Subjects had identify the specific tone presented with a number
+
+:::
+
+::: {.col-md-6}
+
+```{r, out.width="100%"}
+knitr::include_graphics("../../textbook/imgs/Pollack_tone.png")
+```
+
+Pollack, I. (1952). The Information of Elementary Auditory Displays. The Journal of the Acoustical Society of America, 24, 745–749.
+
+:::
+::::
+
+## Translation to Channel Capacity
+
+Results from absolute magnitude judgment tasks can be translated from accuracy to amount of information transmitted
+
+:::: {.row}
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("../../textbook/imgs/Pollack_tone.png")
+```
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("../../textbook/imgs/Miller_tone.png")
+```
+
+:::
+::::
+
+
+## Generalization across perceptual tasks
+
+```{r}
+knitr::include_graphics("imgs/abs_judg_multi.png")
+```
+
+## Interim summary
+
+Judgments of absolute magnitude appear to be limited by stimulus set-size, which could be translated to amount of information
+
+Performance was typically near perfect up to around set size of 7, plus or minus 2.
+
+## Generalization to immediate memory span?
+
+Do perceptual judgment limitations also apply to your ability to remember information over the short term?
+
+Is there a relationship to **immediate memory span**?
+
+## How items can memory hold?
+
+Immediate memory span is a way to measure the ability to encode and recall an arbitrary list of items over a short period of time
+
+People can often retain around 7, plus or minus two items
+
+## Immediate memory span and bits
+
+:::: {.row}
+::: {.col-md-6}
+
+binary digits : 00010001101110
+
+decimal digits: 17583285647390
+
+letters: abhgkslhjbcksj
+
+letters and digits: 4hsj3hd8fgj3h2g
+
+1000 words: hello dolphin lamp tree plate car ...
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("../../textbook/imgs/Miller_im_span.jpg")
+```
+
+:::
+::::
+
+## Recoding and Chunking
+
+:::: {.row}
+::: {.col-md-6}
+
+Miller suggests that people "recode" information into chunks, and that immediate memory is limited by number of chunks not amount of information in the chunks
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("imgs/chunks.png")
+```
+
+:::
+::::
+
+
 ##  Multi-store model
 
 ### 1. Questions about memory {.greyout}
@@ -465,11 +639,151 @@ Important: particular stimuli were more or less memorable, not in and of themsel
 ### 3. Memory as information processing {.greyout}
 ### 4. Multi-store model {.bolder}
 
+## Short vs long-term memory
+
+We have all forgotten something that just happened
+
+We can all remember things from a long time ago
+
+How do we explain the short and long term aspects of memory ability?
+
+## Multi-store model
+
+:::: {.row}
+::: {.col-md-6}
+
+Atkinson, R. C., & Shiffrin, R. M. (1968). Human memory: A proposed system and its control processes. In Psychology of learning and motivation (Vol. 2, pp. 89–195). Elsevier.
+
+:::
+
+::: {.col-md-6}
+
+```{r, out.width="100%"}
+knitr::include_graphics("../../textbook/imgs/Multi_store_1.jpg")
+```
+
+:::
+::::
+
+## Rehearsal buffer
+
+:::: {.row}
+::: {.col-md-6}
+
+According to the multi-store model, people can consciously rehearse items in a short term buffer
+
+More rehearsal = more transfer to long-term memory
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("../../textbook/imgs/Multi_store_2.jpg")
+```
+
+:::
+::::
+
+## Free recall task
+
+A common memory task procedure
+
+Encoding phase: read a list of words
+
+Recall phase: write down as many as you recall on a blank sheet of paper
+
+## Serial position curve
+
+:::: {.row}
+::: {.col-md-6}
+
+A common finding in free recall tasks
+
+**Primacy effect**: better memory for items presented early in the list
+
+**Recency effect**: better memory for items presented at the end of the list
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("../../textbook/imgs/Serial_position_1.jpg")
+```
+
+Deese, J., & Kaufman, R. A. (1957). Serial effects in recall of unorganized and sequentially organized verbal material. Journal of Experimental Psychology, 54(3), 180. https://doi.org/drc265
+
+:::
+::::
+
+## Explaining the serial position curve
+
+How does the multi-store model explain the primacy effect?
+
+How does the multi-store model explain the recency effect?
+
+## Testing the rehearsal account
+
+How could we test the hypothesis that the rehearsal is causing the recency effect?
+
+## Manipulating Rehearsal
+
+:::: {.row}
+::: {.col-md-6}
+
+Postman & Philips (1965) manipulated whether or not participants did arithmetic problems before a recall test...
+
+Arithmetic problem-solving should make rehearsal difficult
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("../../textbook/imgs/Serial_position_2.png")
+```
+
+:::
+::::
+
+
+## Tzeng 1973
+
+In 1973, Tzeng reported a standard free-recall experiment with a twist. 
+
+His subjects were given four lists of 10 words each. 
+The twist was that after hearing each word, subjects spent 20 seconds counting backwards by 3s from a random starting digit. 
+
+Counting backwards by 3s was a very demanding task that should occupy and replace the contents of any short-term rehearsal buffer. 
+
+## Long-term recency
+
+:::: {.row}
+::: {.col-md-6}
+
+According to the multi-store model, Tzeng should not have found recency effects in this experiment, but he did.
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("../../textbook/imgs/Tzeng_1973.jpg")
+```
+
+:::
+::::
+
+## Systems vs strategies
+
+
+
 ## Questions and Next class
 
-Next class is Wednesday, Oct 27th.
+Next class is Monday, Nov 1.
 
-Reading is Chapter 8 on [Memory I](https://www.crumplab.com/cognition/textbook/memory-i.html)
+Reading is Chapter 9 on [Memory II](https://www.crumplab.com/cognition/textbook/memory-ii.html)
 
 
 
