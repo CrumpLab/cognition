@@ -115,7 +115,7 @@ The joint effects of presentation rate and spacing of repetitions are shown in t
 
 ### Retro-active and pro-active interference
 
-Memory tasks may involve multiple lists of stimuli, or multiple encoding and retrieval phases. Memory performance for a particular list, or performance in one of the tests, can depend on the other lists and tests. These influences are generally termed retroactive and proactive interference, and have been objects of research interest for man years [@brittRetroactiveInhibitionReview1935].
+Memory tasks may involve multiple lists of stimuli, or multiple encoding and retrieval phases. Memory performance for a particular list, or performance in one of the tests, can depend on the other lists and tests. These influences are generally termed retroactive and proactive interference, and have been objects of research interest for many years [@brittRetroactiveInhibitionReview1935].
 
 #### Retroactive interference
 

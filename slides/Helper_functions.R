@@ -1,7 +1,6 @@
-items <- c("Questions about memory",
-           "Early memory research",
-           "Memory as information processing",
-           "Multi-store model")
+items <- c("Measuring Memory",
+           "Memory Phenomena",
+           "Memory Principles")
 
 title <- "Roadmap"
 
