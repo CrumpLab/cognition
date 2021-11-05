@@ -11,7 +11,7 @@ output:
 
 | Word Count|Reading Time |Last Compiled           |
 |----------:|:------------|:-----------------------|
-|       4487|22.4 minutes |2021-09-17 17:53:18 GMT |
+|       4584|22.9 minutes |2021-09-17 17:53:18 GMT |
 
 
 <!--
@@ -162,6 +162,14 @@ My first thought when I read those numbers was: I wonder what the American Psych
 Unfortunately, although it is clear that early psychology and psychologists were deeply involved in eugenics, it is not as clear that modern institutions of psychology have widely acknowledged or reckoned with this history. For example, psychological associations continue to name prestigious awards after famous psychologists who also played large roles in the eugenics movement. To name a few, the APA gives the [E. L. Thorndike Career Achievement Award](https://www.apa.org/about/awards/div-15-thorndike) to recognize achievements in educational psychology; the [Granville Stanley Hall Award](https://www.apadivisions.org/division-7/awards/hall) for achievements in Developmental Psychology; and the [Robert M. Yerkes Award](https://www.apa.org/about/awards/div-19-yerkes) for achievements in Military Psychology by non-psychologists. The Association for Psychological Sciences (APS) gives the [James McKeen Cattell Fellow Award](https://www.psychologicalscience.org/members/awards-and-honors/cattell-award) for contributions to applied research; and, the Society for Experimental Psychology gives the [Howard Crosby Warren Medal](https://www.sepsych.org/warren_medal.php) for outstanding achievement in experimental psychology.
 
 There are many ways to explore connections between psychology and eugenics. For example,clinical psychology, social psychology, developmental psychology, personality psychology, and other domains in psychology each have their own historical connections with the eugenics movement. We will explore a major connection for all psychology in the next chapter on early intelligence testing that is also relevant to broad topics in cognition.
+
+### Addendum: APA's apology to People of Color
+
+On October 29, 2021, the American Psychological Association council of representatives released a resolution titled, "Apology to People of Color for APA’s Role in Promoting, Perpetuating, and Failing to Challenge Racism, Racial Discrimination, and Human Hierarchy in U.S.". The link to the statement can be viewed here: <https://www.apa.org/about/policy/racism-apology>.
+
+This webpage contains additional links relevant to the content of this chapter, including a historical chronology examining psychology's contributions to the belief in racial hierarchy and perpetuation of inequality of color in the U.S. The chronology can be viewed here: <https://www.apa.org/about/apa/addressing-racism/historical-chronology>
+
+
 
 <!--
 
