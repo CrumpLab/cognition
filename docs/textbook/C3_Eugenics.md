@@ -11,7 +11,7 @@ output:
 
 | Word Count|Reading Time |Last Compiled           |
 |----------:|:------------|:-----------------------|
-|       4581|22.9 minutes |2021-11-05 17:31:32 GMT |
+|       4578|22.9 minutes |2021-11-05 17:41:32 GMT |
 
 
 <!--
@@ -25,7 +25,7 @@ Chapter goals
 
 ## Chapter Overview
 
-This chapter describes the eugenics movement and points to some its connections with the larger discipline of psychology and research into cognition. Some of these connections are expanded upon in later chapters, especially the next chapter on mental testing. 
+This chapter describes the eugenics movement and develops connections between the larger discipline of psychology and research into cognition. Some of these connections are expanded upon in later chapters, including the next chapter on mental testing. 
 
 As an editorial note, throughout this chapter we will encounter descriptions of people from the perspective of eugenics. For example, eugenics differentiated people on the basis of human characteristics that eugenicists decided were desirable or undesirable. As a result, people who had eugenically desired traits were labelled as "high-quality" or "superior" compared to people who had eugenically undesired traits, who were labelled as "low-quality" or "inferior". These and other similar descriptors of human beings will sometimes be used in this chapter for the purpose of describing de-humanizing aspects of eugenics ideology.
 
