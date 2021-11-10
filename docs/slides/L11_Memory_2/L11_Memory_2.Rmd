@@ -322,11 +322,91 @@ Then they attempted to recall words in the same or different context from where 
 knitr::include_graphics("../../textbook/imgs/Godden_Baddeley_data.png")
 ```
 
-## Generation effect
-
 ## Testing Effect
 
-## Directed Forgetting
+:::: {.row}
+::: {.col-md-6}
+
+There will be some midterm questions about this paper
+
+It is available to read on blackboard
+
+:::
+
+::: {.col-md-6}
+
+Roediger III, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10/cp47ms
+
+
+:::
+::::
+
+## What is the testing effect?
+
+Better memory for material that was tested and successfully recalled or recognized, compared to material that was not tested
+
+E.g., better later memory for a concept if it was on a quiz, compared to concepts that were not quizzed
+
+## Prior research
+
+Testing effects have usually been obtained for word lists, picture lists, or multiple-choice questions
+
+## Questions
+
+Does the testing effect generalize to more educationally relevant conditions?
+
+Can the testing effect be obtained using prose materials and free-recall tests without feedback?
+
+Will benefits extend beyond restudying the material?
+
+
+## Experiment 1
+
+Question: will the testing effect occur for prose materials and free-recall tests without feedback?
+
+## Method
+
+120 participants studied two prose passages on "the sun" or "sea otters)
+
+passages were 256 and 275 words in length
+
+each passage was divided into 30 idea units for later scoring
+
+## Design
+
+2 x 3 mixed-factorial design
+
+Learning condition: restudy vs. test
+
+Delay to memory test: 5 min, 2 days, 1 week
+
+## Procedure
+
+Phase 1: a 7 minute period. Participants studied a passage for the first time
+
+Then they either restudied the passage OR were given a recall test to remember as much of the material as they could
+
+FINAL TEST: All participants were given a final recall test after a 5 minute, 2day, or 1 week delay
+
+## Results
+
+```{r}
+knitr::include_graphics("imgs/Testing_1.png")
+```
+
+## Experiment 2
+
+What are effects of repeated restudying vs re-testing on memory for the passages?
+
+## Method
+
+"A 3 x 2 between-subjects design was used. Subjects learned one of the two prose passages under one of three conditions (S 5 study, T 5 test): repeated study (SSSS), single test (SSST), or repeated test (STTT). Ninety subjects were given a final recall test following a 5-min retention interval, and 90 took a final test after 1 week. Thirty subjects were assigned to each of the six between-subjects conditions." (Roediger & Karpicke, 2006)
+
+## Results
+
+```{r}
+knitr::include_graphics("imgs/Testing_2.png")
+```
 
 
 ##  Memory Principles
@@ -334,6 +414,176 @@ knitr::include_graphics("../../textbook/imgs/Godden_Baddeley_data.png")
 ### 1. Measuring Memory {.greyout}
 ### 2. Memory Phenomena {.greyout}
 ### 3. Memory Principles {.bolder}
+
+## Memory Principles
+
+The following are general principles about memory performance
+
+These are not strong principles in the sense that they always describe how memory works
+
+But, memory performance often generally follows these principles
+
+## Levels of Processing Principle
+
+
+Principle: The strength, quality, and depth of encoding will determine later memory performance
+
+
+Craik, F. I., & Lockhart, R. S. (1972). Levels of processing: A framework for memory research. Journal of Verbal Learning and Verbal Behavior, 11(6), 671–684. https://doi.org/10/cpcxr6
+
+## Shallow versus deep encoding
+
+:::: {.row}
+::: {.col-md-6}
+
+### Shallow encoding
+
+Brief amount of time
+
+"low-level" processing
+
+Less overall processing of stimulus
+
+**Result = Weak memory trace**
+
+
+:::
+
+::: {.col-md-6}
+
+### Deep encoding
+
+More time encoding
+
+More meaningful processing
+
+More overall processing
+
+**Result = Strong memory trace**
+
+:::
+::::
+
+## Example
+
+:::: {.row}
+::: {.col-md-6}
+
+```{r, out.width="100%"}
+knitr::include_graphics("imgs/Self_Reference_design.png")
+```
+
+:::
+
+::: {.col-md-6}
+
+```{r, out.width="100%"}
+knitr::include_graphics("imgs/Self_reference_results.png")
+```
+
+:::
+::::
+
+## Cue-dependent memory
+
+**Principle:** Context matters for encoding and retrieval
+
+Cues in the environment can trigger memory retrieval for information previously paired/associated with the cue
+
+## Encoding Specificity Principle
+
+> "In its broadest form the [encoding specificity] principle asserts that only that can be retrieved that has been stored, and that how it can be retrieved depends on how it was stored. In its more restricted senses, the principle becomes less truistic and hence theoretically more interesting. For instance, we assume that what is stored about the occurrence of a word in an experimental list is information about the specific encoding of that word in that context in that situation. This information may or may not include the relation that the target word has with some other word...If it does, that other word may be an effective retrieval cue. If it does not, the other word cannot provide access to the stored information because its relation to the target word is not stored."
+
+Tulving, E., & Thomson, D. M. (1973). Encoding specificity and retrieval processes in episodic memory. Psychological Review, 80(5), 352. https://doi.org/10/cgj2rr
+
+## In other words
+
+The encoding specificity principle suggests that the details of how information was encoded in the first place matter for later memory retrieval.
+
+For example, according to the encoding specificity principle, contextual information present during memory encoding may or may not play help later retrieval; it all, depends on how the contextual information was encoded. 
+
+If some target information was encoded in relation to its context, then contextual cues may be useful for retrieval later on. 
+
+However, if the operations that occurred during encoding did not focus much on contextual information, then contextual cues may not be very useful as retrieval cues later on.
+
+## TIP/TAP
+
+**TIP**: Transfer inappropriate processing 
+
+**TAP**: Transfer appropriate processing
+
+How a person makes use of prior information encoded by memory depends on how the information was encoded in interaction with the demands of present task. 
+
+## Qualifying the previous principles
+
+The TIP/TAP principle further qualifies the preceding principles. For example, memory depends on how deeply you encode information (levels of processing), the context around the encoding episode (context-dependent memory), and how the information is encoded (encoding-specificity principle); but, memory performance will also depend on the nature of the processing required by the retrieval task. 
+
+According to TIP/TAP, previous information becomes more available when retrieval processing conditions match well with encoding processing conditions, and becomes less available when the conditions mismatch. 
+
+## Morris, Bransford and Franks
+
+Demonstrated that the tasks performed at encoding and retrieval can influence memory performance.
+
+## Encoding Phase
+
+Subjects encoded words semantically (in a sentence) to encourage deep processing, or in a rhyming condition to encourage more shallow phonetic processing.
+
+## Retrieval Phase
+
+Two kinds of recognition tests: standard vs rhyming
+
+:::: {.row}
+::: {.col-md-6}
+
+Standard
+
+Hear a word a judge OLD vs NEW
+
+:::
+
+::: {.col-md-6}
+
+Rhyming
+
+Hear a cue word (not shown during encoding)
+
+Judge whether they heard a rhyming word during encoding
+
+:::
+::::
+
+## Consider?
+
+What would the levels of processing principle predict for memory performance in this experiment?
+
+## The results
+
+:::: {.row}
+::: {.col-md-6}
+
+Standard: better memory for semantic encoding than rhyming encoding
+
+Rhyming test: better memory for rhyming encoding than semantic encoding
+
+:::
+
+::: {.col-md-6}
+
+```{r, out.width="100%"}
+knitr::include_graphics("../../textbook/imgs/Tip_Tap.png")
+```
+
+:::
+::::
+
+## Reminder
+
+Midterm is on Monday, November 15th, during class time
+
+Approximately 40 MC questions
+
+
+
 
 
 
