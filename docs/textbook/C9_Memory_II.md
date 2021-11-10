@@ -5,7 +5,7 @@
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|       8048|40.2 minutes |
+|       8049|40.2 minutes |
 
 ## Chapter Overview
 
@@ -192,7 +192,7 @@ The comprehension test had a maximum score of seven. The *context before* group 
 
 Have you ever walked into a room looking for something, and then forgot what you were looking for, or why you had went into the room? And, then went back into the room you came from and suddenly remembered the goal you had forgotten? This is an everyday example of an environmental context effect on memory. In this case, it seems like the room you are in can be a powerful remember of your current goals. 
 
-Similar effects of environmental context on memory performance have been demonstrated by memory researchers. One classic example is the experiment by Baddeley and Godden involving a group of underwater divers. They conducted their experiment at a dive location outside of a normal laboratory context. They had divers encode words in one of two locations on land or under water; and, then they had divers recall words in the same or different locations from where they encoded the words. All of the words were presented as audio using headphones. One group heard the words in a *dry* environment before they went for the dive; then, half of those divers were given a memory test in the same *dry* environment, and the other half went underwater and were given the memory test in the *wet* environment. Another group heard the words first underwater in the *wet* environment, and were tested underwater (wet) or on land (dry). The question was whether memory recall would be better if the encoding and retrieval contexts were the same (dry-dry, wet-wet) versus different (dry-wet, wet-dry). 
+Similar effects of environmental context on memory performance have been demonstrated by memory researchers. For example, Godden and Baddeley [@goddenContextdependentMemoryTwo1975] showed evidence of context-dependent memory in a group of underwater divers. They conducted their experiment at a dive location outside of a normal laboratory context. They had divers encode words in one of two locations on land or under water; and, then they had divers recall words in the same or different locations from where they encoded the words. All of the words were presented as audio using headphones. One group heard the words in a *dry* environment before they went for the dive; then, half of those divers were given a memory test in the same *dry* environment, and the other half went underwater and were given the memory test in the *wet* environment. Another group heard the words first underwater in the *wet* environment, and were tested underwater (wet) or on land (dry). The question was whether memory recall would be better if the encoding and retrieval contexts were the same (dry-dry, wet-wet) versus different (dry-wet, wet-dry). 
 
 The results from the experiment are presented in the table below:
 
