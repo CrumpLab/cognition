@@ -93,6 +93,24 @@ There are 11 weekly quizzes, two midterms and a final exam. The grading rubric i
 | Final Exam | 15  | 15|
 |||100|
 
+Percentage grades are converted to letter grades according to the following rubric.
+
+|Letter grade|Range|
+|:--|:--|
+|F	|0-59.99|
+|D-	|60-63.32|
+|D	|63.33-66.66|
+|D+	|66.67-69.99|
+|C-	|70-72.99|
+|C	|73-76.66|
+|C+	|76.67-79.99|
+|B-	|80-83.32|
+|B	|83.33-86.66|
+|B+	|86.67-89.99|
+|A-	|90-93.32|
+|A	|93.33-96.66|
+|A+	|96.67-100|
+
 ### Extra-credit
 
 It will be possible to gain additional extra credit toward your final grade. The maximum number of extra credits is 15 points, so it is hypothetically possibly to obtain a grade of 115% in this course.
