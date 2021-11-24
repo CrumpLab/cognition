@@ -15,24 +15,41 @@ knitr::opts_chunk$set(
 ```
 
 
-There are numerous free resources available online helpful for learning R. I'll make some recommendations on this page, as well as use this page to list some useful R and R Studio tips and tricks.
+## Journals
 
-1. Googling R questions can often turn up an example of someone solving your issue or a closely related one. For example, you can copy error messages and google them, or ask "how to do X in R".
-2. [Stackoverflow](https://stackoverflow.com) is great, Google will often take you there because someone has already asked your question, and someone else has answered, usually many people have answered your question many ways.
-3. I wrote a [Statistics Textbook](https://crumplab.github.io/statistics/) and [Lab manual](https://crumplab.github.io/statisticsLab/) in R for undergraduate psych statistics that has a variety of statistics and R content
-4. Danielle Navarro wrote a [free Psych Stats textbook using R](https://compcogscisydney.org/learning-statistics-with-r/), it's worth checking out (some of our textbook are based on Danielle's)
-5. Danielle Navarro recently made this website for introducing R, it's great, check it out (also made using this R markdown process): [http://compcogscisydney.org/psyr/](http://compcogscisydney.org/psyr/)
-6. Check out my slightly older programming book that also introduces R [https://crumplab.github.io/programmingforpsych/](https://crumplab.github.io/programmingforpsych/)
-7. Another solid and accessible resource for psyc stats using R [https://ademos.people.uic.edu/index.html](https://ademos.people.uic.edu/index.html).
-8. [https://cran.r-project.org/doc/contrib/Short-refcard.pdf](https://cran.r-project.org/doc/contrib/Short-refcard.pdf) This link takes you to a reference card, that shows a big long list of intrinsic r functions.
-9. A really great and really long list of resources for R! [https://paulvanderlaken.com/2017/08/10/r-resources-cheatsheets-tutorials-books/](https://paulvanderlaken.com/2017/08/10/r-resources-cheatsheets-tutorials-books/)
-10. There's a bunch of R markdown tricks right here <https://holtzy.github.io/Pimp-my-rmd/>.
+Primary research articles about cognition are published in many psychology journals. Here is a short list of journals.
 
+### Psychonomics Journals
 
+- [Psychonomic Bulletin & Review](https://www.psychonomic.org/page/pbr)
+- [Memory & Cognition](https://www.psychonomic.org/page/mc)
+- [Attention, Perception & Psychophysics](https://www.psychonomic.org/page/app)
+- [Learning & Behavior](https://www.psychonomic.org/page/lb)
+- [Behavior Research Methods](https://www.psychonomic.org/page/brm)
+- [Cognitive Research: Principles & Implications](https://www.psychonomic.org/page/crpi)
 
+### APA Journals
 
+- [Journals of Experimental Psychology: General](https://www.apa.org/pubs/journals/xge)
+- [Journals of Experimental Psychology: Animal Learning and Cognition](https://www.apa.org/pubs/journals/xan)
+- [Journals of Experimental Psychology: Human, Perception, and Performance](https://www.apa.org/pubs/journals/xhp)
+- [Journals of Experimental Psychology: Learning, Memory, and Cognition](https://www.apa.org/pubs/journals/xlm)
+- [Canadian Journal of Experimental Psychology](https://www.apa.org/pubs/journals/cep)
 
+### APS Journals
 
+- [Psychological Science](https://www.psychologicalscience.org/publications/psychological_science)
+- [Current Directions in Psychological Science](https://www.psychologicalscience.org/publications/current_directions)
+- [Psychological Science in the Public Interest](https://www.psychologicalscience.org/publications/pspi)
+- [Perspectives on Psychological Science](https://www.psychologicalscience.org/publications/perspectives)
 
+### Many other journals
 
+- [Trends in Cognitive Sciences](https://www.cell.com/trends/cognitive-sciences/home)
+- [Cognitive Psychology](https://www.journals.elsevier.com/cognitive-psychology)
+- [Journal of Memory and Language](https://www.journals.elsevier.com/journal-of-memory-and-language)
+- [Cognition](https://www.journals.elsevier.com/cognition)
+- [Cognitive Science](https://cognitivesciencesociety.org/cognitive-science-journal/)
+- [The Journal of Cognition](https://www.journalofcognition.org)
+- [Memory](https://www.tandfonline.com/toc/pmem20/current)
 

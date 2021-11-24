@@ -73,6 +73,9 @@ navbar:
         href: slides/L10_Memory_1/L10_Memory_1.html
       - text: Lecture 11 - Memory II
         href: slides/L11_Memory_2/L11_Memory_2.html
+    resources:
+      text: Resources
+      href: articles/course_docs/resources.html
     news:
       text: news
       href: news/index.html
