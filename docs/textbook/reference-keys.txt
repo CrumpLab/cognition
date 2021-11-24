@@ -260,7 +260,7 @@ chapter-overview-6
 verbal-learning-and-verbal-behavior
 memory-methodology
 issues-with-measuring-memory-the-case-of-recognition
-hits-false-alarms-misses-and-correct-rejecdtions
+hits-false-alarms-misses-and-correct-rejections
 choosing-the-lures-new-items
 memory-phenomena
 temporal-delay

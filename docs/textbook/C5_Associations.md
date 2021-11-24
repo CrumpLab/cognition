@@ -5,13 +5,13 @@
 
 | Word Count|Reading Time |Last Compiled           |
 |----------:|:------------|:-----------------------|
-|       7653|38.3 minutes |2021-09-21 19:59:30 GMT |
+|       7659|38.3 minutes |2021-09-21 19:59:30 GMT |
 
 
 
 ## Chapter overview
 
-The previous chapter covered research on cognitive abilities spanning roughly from the 1860s to the 1960s from the perspective of individual differences psychology. For example, in addition to developing mental tests, Alfred Binet wrote more broadly about his school of "Individual Psychology" [@nicolasProgramIndividualPsychology2014], that was aimed at using measurements of variation in human attributes to make society more efficient. Individual differences was not the only approach to cognitive abilities. Instead, the methods of experimental psychology were also used to ask and answer questions about cognitive abilities. Experimental psychologists also developed tests, but they more often took the form of experimental manipulations. And, the results of the experiments were used to evaluate theories about how cognitive processes work. This chapter will focus on associationism and early empirical work on associative learning processes in humans and  non-human animals.
+The previous chapter covered research on cognitive abilities spanning roughly from the 1860s to the 1960s from the perspective of individual differences psychology. For example, in addition to developing mental tests, Alfred Binet wrote more broadly about his school of "Individual Psychology" [@nicolasProgramIndividualPsychology2014] that was aimed at using measurements of variation in human attributes to make society more efficient. However, the Individual Differences school of psychology was not the only approach to studying cognitive abilities. Instead, the methods of experimental psychology were also used to ask and answer questions about cognitive abilities. Experimental psychologists also developed tests, but they more often took the form of experimental manipulations. And, the results of the experiments were used to evaluate theories about how cognitive processes work. This chapter will focus on associationism and early empirical work on associative learning processes in humans and  non-human animals.
 
 
 ```{=html}
