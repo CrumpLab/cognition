@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 ```
 
 
-## Journals
+## List of Cognitive Psychology Journals
 
 Primary research articles about cognition are published in many psychology journals. Here is a short list of journals.
 
@@ -35,6 +35,7 @@ Primary research articles about cognition are published in many psychology journ
 - [Journals of Experimental Psychology: Human, Perception, and Performance](https://www.apa.org/pubs/journals/xhp)
 - [Journals of Experimental Psychology: Learning, Memory, and Cognition](https://www.apa.org/pubs/journals/xlm)
 - [Canadian Journal of Experimental Psychology](https://www.apa.org/pubs/journals/cep)
+- [Psychological Review](https://www.apa.org/pubs/journals/rev)
 
 ### APS Journals
 
@@ -52,4 +53,10 @@ Primary research articles about cognition are published in many psychology journ
 - [Cognitive Science](https://cognitivesciencesociety.org/cognitive-science-journal/)
 - [The Journal of Cognition](https://www.journalofcognition.org)
 - [Memory](https://www.tandfonline.com/toc/pmem20/current)
+- [Nature Human Behavior](https://www.nature.com/nathumbehav/)
+- [The Quarterly Journal of Experimental Psychology](https://journals.sagepub.com/home/qjp)
+- [Consciousness and Cognition](https://www.journals.elsevier.com/consciousness-and-cognition)
+- [Acta Psychologica](https://www.journals.elsevier.com/acta-psychologica)
+- [Behavioral and Brain Sciences](https://www.cambridge.org/core/journals/behavioral-and-brain-sciences)
+
 
