@@ -5,13 +5,11 @@
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|      12052|60.3 minutes |
+|      11996|60 minutes   |
 
 ## Overview
 
-Last chapter introduced associationism as an example of early ideas about how processes of cognition might work. This chapter covers the school of behaviorism, which rose to prominence in American psychology in the early 20th century (roughly between 1920s to 1960s). Depending on who is telling the history, behaviorism could be the dark ages of psychology that stood in the way of modern cognitive psychology, or a fore-bearer paving the way. 
-
-This chapter describes the following attributes of behaviorism. First, an achievement of behaviorism was to legitimatize human and animal behavior as a topic of scientific inquiry in its own right. In this way, behaviorism carved out space between psychologies focused on intangible mental processes and physical brain-based processes. Second, behaviorism was constructed as a scientific system in the positivist tradition, which adds context to how I will present the goals and background ideas of the movement. Third, there were many versions of behaviorism because there were many researchers who developed and popularized their own brands. Fourth, perhaps because behaviorism was very large (occupying the time of many researchers), it is populated by controversial figures credited with creating and expanding the movement. The core claims and goals of behaviorism continue to have implications for the cognitive sciences and society in general today.
+This chapter covers the following attributes of the school of behaviorism, which rose to prominence in American psychology in the early 20th century. First, an achievement of behaviorism was to legitimize human and animal behavior as a topic of scientific inquiry in its own right. In this way, behaviorism carved out space between psychologies focused on intangible mental processes and physical brain-based processes. Second, behaviorism was constructed as a scientific system in the positivist tradition, which adds context to how I will present the goals and background ideas of the movement. Third, there were many versions of behaviorism because there were many researchers who developed and popularized their own brands. Fourth, perhaps because behaviorism was very large (occupying the time of many researchers), it is populated by controversial figures credited with creating and expanding the movement. The core claims and goals of behaviorism continue to have implications for the cognitive sciences and society in general today.
 
 ## The Rabbit Hole: To explain or not to explain?
 

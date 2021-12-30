@@ -11,7 +11,7 @@ output:
 
 | Word Count|Reading Time |Last Compiled           |
 |----------:|:------------|:-----------------------|
-|       8002|40 minutes   |2021-09-21 19:59:30 GMT |
+|       7940|39.7 minutes |2021-09-21 19:59:30 GMT |
 
 ## Chapter Overview
 
@@ -27,7 +27,9 @@ Let's assume for the moment that mental imagery is a real cognitive ability, and
 
 ## Generating facts about mental imagery
 
-In general, before progress can be made on all of those questions, a first step is to collect information about the features or facts about a phenomena like mental imagery. If we have no facts, there wouldn't be much to explain. So, how do we get facts that we can trust, and collectively agree upon, about a subjective phenomena like mental imagery? My assessment is that the literature has produced many kinds of imperfect measurements that are relevant to the task of establishing facts about mental imagery. Still, a healthy amount of skepticism is required for evaluating what the findings mean. Let's start with perhaps the most obvious way of knowing about mental imagery. Ask yourself what it is like to you, and ask other people what it is like to them.
+A first step to answering questions about mental imagery is to establish facts that we can trust, and collectively agree upon. Establishing facts about mental imagery is difficult because it is a subjective phenomena. We will see that the literature has produced facts about mental imagery, and that some skepticism is required for evaluating what the findings mean. 
+
+Let's start with the most direct way of knowing about mental imagery--**introspection**. 
 
 ### Methods of Introspection and Subjective report
 
@@ -217,7 +219,7 @@ The map was taken away and participants were asked to mentally image the map in 
 Before we look at the actual data, let's consider three ways the experiment could have turned out. First, let's assume that people can scan between different locations immediately without taking any time at all, I will call this the "no-time" hypothesis. Second, let's assume that people will take some random amount of time to scan between the locations, the "random-time" hypothesis. And third, let's assume that people's scanning times will increase with the distance between the imagined locations, the "distance-time" hypothesis. Each of the these hypotheses makes a different prediction about how the results might turn out. Consider the three graphs below which show predictions for each hypothesis. These are examples of how the results could have turned out according to each hypothesis
 
 <div class="figure">
-<img src="C2_Mental_Imagery_files/figure-epub3/predictScanning-1.png" alt="Hypothetical results of the mental scanning task for the no-time, random-time, and distance-time hypotheses" width="100%" />
+<img src="C2_Mental_Imagery_files/figure-html/predictScanning-1.png" alt="Hypothetical results of the mental scanning task for the no-time, random-time, and distance-time hypotheses" width="100%" />
 <p class="caption">(\#fig:predictScanning)Hypothetical results of the mental scanning task for the no-time, random-time, and distance-time hypotheses</p>
 </div>
 

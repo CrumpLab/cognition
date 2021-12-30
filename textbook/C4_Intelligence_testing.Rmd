@@ -49,26 +49,22 @@ We already mentioned that Galton's research on individual differences in the viv
 
 Here is the first paragraph from Cattell's paper:
 
----
-
-"Psychology cannot attain the certainty and exactness of the physical sciences, unless it rests on a foundation of experiment and measurement. A step in this direction could be made by applying a series of mental tests and measurements to a large number of individuals. The results would be of considerable scientific value in discovering the constancy of mental processes, their interdependence, and their variation under different circumstances. Individuals, besides, would find their tests interesting, and, perhaps, useful in regard to training, mode of life or indication of disease. The scientific and practical value of such tests would be much increased should a uniform system be adopted, so that determinations made at different times and places could be compared and combined. "With a view to obtaining agreement among those interested, I venture to suggest the following series of tests and measurements, together with methods of making them."
-
----
+> "Psychology cannot attain the certainty and exactness of the physical sciences, unless it rests on a foundation of experiment and measurement. A step in this direction could be made by applying a series of mental tests and measurements to a large number of individuals. The results would be of considerable scientific value in discovering the constancy of mental processes, their interdependence, and their variation under different circumstances. Individuals, besides, would find their tests interesting, and, perhaps, useful in regard to training, mode of life or indication of disease. The scientific and practical value of such tests would be much increased should a uniform system be adopted, so that determinations made at different times and places could be compared and combined. "With a view to obtaining agreement among those interested, I venture to suggest the following series of tests and measurements, together with methods of making them."
 
 Cattell was corresponding with Galton to make the tests, "meet with his approval", but he only indirectly references the application of mental testing to the eugenics movement (e.g., "indication of disease"), and he mentions several other reasons to pursue the creation of mental tests. In a footnote, he mentions that, "the nationality (including that of the parents), and the age, sex, occupation and state of health" should all be recorded when participants take the test". The inclusion of these measurements is consistent with eugenical aims to show that different races had inherited different mental abilities.
 
 Cattell proposed to measure each person on ten tests:
 
-I. Dynamometer Pressure, (to measure squeezing hand strength). 
-II. Rate of Movement (how fast you can move your hand).
-III. Sensation-areas (telling apart two pin-pricks)
-IV. Pressure causing Pain
-V. Least noticeable difference in Weight
-VI. Reaction-time for Sound
-VII. Time for naming Colours 
-VIII. Bi-section of a 50 cm line
-IX. Judgment of 10 seconds time
-X. Number of Letters remembered on once Hearing
+1. Dynamometer Pressure, (to measure squeezing hand strength). 
+2. Rate of Movement (how fast you can move your hand).
+3. Sensation-areas (telling apart two pin-pricks)
+4. Pressure causing Pain
+5. Least noticeable difference in Weight
+6. Reaction-time for Sound
+7. Time for naming Colours 
+8. Bi-section of a 50 cm line
+9. Judgment of 10 seconds time
+10. Number of Letters remembered on once Hearing
 
 You might notice these individual tests range across physical and mental abilities, and none of them measure a complicated concept like human intelligence. At the end of the paper, Cattell lists 50 additional tests for sight (14 tests), Hearing (8 test), Taste and Smell (3 tests), Touch and Temperature (7 tests), Sense of Effort and Movement (4 tests), Mental Time (7 test), Mental intensity (2 tests), and Mental Extensity (5 tests), that he thought should be important for the incoming discipline of Experimental Psychology. Many of the tests became useful for theorizing about how individual psychological processes work. 
 

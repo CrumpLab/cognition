@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700&family=Work+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700&family=Work+Sans:wght@300;400&family=EB+Garamond&family=Cormorant+Garamond:wght@400;500&family=Baskervville&family=Lora&family=Merriweather:wght@300&family=PT+Serif&display=swap');
 
 :root{
   --primary: #079fe0;
@@ -10,7 +10,15 @@
 }
 
 p {
-  font-family: 'Work Sans' !important;
+ /* font-family: 'Work Sans' !important;*/
+ /* font-family: 'EB Garamond', serif; */
+  font-family: 'Baskervville';
+  font-weight: 500;
+  font-size: 1.15em !important;
+  max-width: 62ch !important;
+  letter-spacing: 0em;
+  line-height: 1.425em;
+  word-spacing: 0.05em;
 }
 
  h1 {
@@ -24,23 +32,25 @@ p {
   font-family: 'Montserrat Alternates' !important;
   /*background-color: #fef5ff !important; */
   /*background-color: var(--secondary) !important;*/
-  background-image: linear-gradient(to right, #fff, var(--first));
+  background-image: linear-gradient(to left, #fff, var(--first));
   border-radius: 5px;
 }
 
 .section h3 {
   /*background-color: #fef5ff !important; */
+  font-family: 'Montserrat Alternates' !important;
   /*background-color: var(--secondary) !important;*/
-  background-image: linear-gradient(to right, #fff, var(--secondary));
+  background-image: linear-gradient(to left, #fff, var(--secondary));
   border-radius: 5px;
   padding-left: 15px;
 }
 
 .section h4 {
   font-weight: 300 !important;
+  font-family: 'Montserrat Alternates' !important;
   /*background-color: #faece3 !important;*/
   /*background-color: var(--third) !important;*/
-  background-image: linear-gradient(to right, #fff, var(--third));
+  background-image: linear-gradient(to left, #fff, var(--third));
   border-radius: 5px;
   padding-left: 15px;
 }
@@ -58,10 +68,11 @@ p {
  padding-left: 5px;
 }
 
-blockquote p {
+.blockquote p {
   font-weight: 200 !important;
-  font-family: 'Work Sans:ital', sans-serif !important;
-  font-style: italic !important;
+  font-size: 1em !important;
+  font-family: 'Work Sans', sans-serif !important;
+  /*font-style: italic !important; */
 }
 
 .videoWrapper {
@@ -166,8 +177,9 @@ blockquote p {
 
 .blockquote {
   font-weight: 200 !important;
-  font-family: 'Work Sans:ital', sans-serif !important;
-  font-style: italic !important;
+  font-size: 1em !important;
+  font-family: 'Work Sans', sans-serif !important;
+  /*font-style: italic !important;*/
   border-left: 0.5rem solid #eee;
   padding-left: 0.5rem;
   margin-left: -0.5rem;

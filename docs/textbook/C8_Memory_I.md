@@ -81,131 +81,131 @@ To give you a better sense, here is a single list of nonsense syllables similar 
 <tbody>
   <tr>
    <td style="text-align:right;"> 1 </td>
-   <td style="text-align:left;"> KOC </td>
-   <td style="text-align:left;"> QUK </td>
+   <td style="text-align:left;"> WIC </td>
+   <td style="text-align:left;"> LUW </td>
+   <td style="text-align:left;"> YAS </td>
+   <td style="text-align:left;"> GIS </td>
+   <td style="text-align:left;"> PUZ </td>
+   <td style="text-align:left;"> NAT </td>
+   <td style="text-align:left;"> TOQ </td>
+   <td style="text-align:left;"> QOV </td>
+   <td style="text-align:left;"> RUK </td>
    <td style="text-align:left;"> ZEL </td>
-   <td style="text-align:left;"> KUF </td>
-   <td style="text-align:left;"> WOL </td>
-   <td style="text-align:left;"> BUC </td>
-   <td style="text-align:left;"> DIC </td>
-   <td style="text-align:left;"> YIJ </td>
-   <td style="text-align:left;"> LIZ </td>
-   <td style="text-align:left;"> GUK </td>
-   <td style="text-align:left;"> KIX </td>
-   <td style="text-align:left;"> JAZ </td>
-   <td style="text-align:left;"> KEK </td>
+   <td style="text-align:left;"> JUV </td>
+   <td style="text-align:left;"> XUH </td>
+   <td style="text-align:left;"> CEW </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 2 </td>
-   <td style="text-align:left;"> BAW </td>
-   <td style="text-align:left;"> HOS </td>
-   <td style="text-align:left;"> DAT </td>
-   <td style="text-align:left;"> ZOB </td>
-   <td style="text-align:left;"> YOF </td>
-   <td style="text-align:left;"> JAT </td>
-   <td style="text-align:left;"> KAC </td>
-   <td style="text-align:left;"> HIY </td>
-   <td style="text-align:left;"> HOX </td>
-   <td style="text-align:left;"> FOZ </td>
-   <td style="text-align:left;"> FAF </td>
-   <td style="text-align:left;"> RUC </td>
-   <td style="text-align:left;"> GIR </td>
+   <td style="text-align:left;"> NEX </td>
+   <td style="text-align:left;"> MIJ </td>
+   <td style="text-align:left;"> GIM </td>
+   <td style="text-align:left;"> JIV </td>
+   <td style="text-align:left;"> KAZ </td>
+   <td style="text-align:left;"> GIQ </td>
+   <td style="text-align:left;"> KOK </td>
+   <td style="text-align:left;"> YUC </td>
+   <td style="text-align:left;"> NEF </td>
+   <td style="text-align:left;"> WUH </td>
+   <td style="text-align:left;"> FIV </td>
+   <td style="text-align:left;"> GUZ </td>
+   <td style="text-align:left;"> TER </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 3 </td>
-   <td style="text-align:left;"> KAV </td>
-   <td style="text-align:left;"> LAQ </td>
-   <td style="text-align:left;"> DAZ </td>
-   <td style="text-align:left;"> YIZ </td>
-   <td style="text-align:left;"> SOJ </td>
-   <td style="text-align:left;"> XIM </td>
-   <td style="text-align:left;"> XOF </td>
-   <td style="text-align:left;"> XIX </td>
-   <td style="text-align:left;"> YOY </td>
-   <td style="text-align:left;"> REW </td>
-   <td style="text-align:left;"> JEV </td>
-   <td style="text-align:left;"> ZOP </td>
-   <td style="text-align:left;"> BUP </td>
+   <td style="text-align:left;"> DUS </td>
+   <td style="text-align:left;"> XIK </td>
+   <td style="text-align:left;"> NUJ </td>
+   <td style="text-align:left;"> CAC </td>
+   <td style="text-align:left;"> VAZ </td>
+   <td style="text-align:left;"> HUJ </td>
+   <td style="text-align:left;"> POK </td>
+   <td style="text-align:left;"> FAK </td>
+   <td style="text-align:left;"> BEF </td>
+   <td style="text-align:left;"> VUL </td>
+   <td style="text-align:left;"> MUB </td>
+   <td style="text-align:left;"> XOT </td>
+   <td style="text-align:left;"> XIW </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 4 </td>
-   <td style="text-align:left;"> MOZ </td>
-   <td style="text-align:left;"> SUZ </td>
-   <td style="text-align:left;"> SOZ </td>
-   <td style="text-align:left;"> SEY </td>
-   <td style="text-align:left;"> WIB </td>
-   <td style="text-align:left;"> TOK </td>
-   <td style="text-align:left;"> FOK </td>
-   <td style="text-align:left;"> CIM </td>
-   <td style="text-align:left;"> QEY </td>
-   <td style="text-align:left;"> QIY </td>
-   <td style="text-align:left;"> QOG </td>
-   <td style="text-align:left;"> FUP </td>
-   <td style="text-align:left;"> XOY </td>
+   <td style="text-align:left;"> SOF </td>
+   <td style="text-align:left;"> DIR </td>
+   <td style="text-align:left;"> XAV </td>
+   <td style="text-align:left;"> MOV </td>
+   <td style="text-align:left;"> DOK </td>
+   <td style="text-align:left;"> FOC </td>
+   <td style="text-align:left;"> MIF </td>
+   <td style="text-align:left;"> LAH </td>
+   <td style="text-align:left;"> ZIZ </td>
+   <td style="text-align:left;"> FUQ </td>
+   <td style="text-align:left;"> SUS </td>
+   <td style="text-align:left;"> LEW </td>
+   <td style="text-align:left;"> RUX </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 5 </td>
-   <td style="text-align:left;"> QAJ </td>
-   <td style="text-align:left;"> JAP </td>
-   <td style="text-align:left;"> VUS </td>
-   <td style="text-align:left;"> LOY </td>
-   <td style="text-align:left;"> FIF </td>
-   <td style="text-align:left;"> KOV </td>
-   <td style="text-align:left;"> NIV </td>
-   <td style="text-align:left;"> TOZ </td>
-   <td style="text-align:left;"> JUQ </td>
-   <td style="text-align:left;"> CAG </td>
-   <td style="text-align:left;"> CIR </td>
-   <td style="text-align:left;"> QAR </td>
-   <td style="text-align:left;"> DIY </td>
+   <td style="text-align:left;"> ZOW </td>
+   <td style="text-align:left;"> DET </td>
+   <td style="text-align:left;"> VUJ </td>
+   <td style="text-align:left;"> CET </td>
+   <td style="text-align:left;"> HUD </td>
+   <td style="text-align:left;"> DUR </td>
+   <td style="text-align:left;"> ZAR </td>
+   <td style="text-align:left;"> JEC </td>
+   <td style="text-align:left;"> COK </td>
+   <td style="text-align:left;"> ZIZ </td>
+   <td style="text-align:left;"> TUL </td>
+   <td style="text-align:left;"> VIY </td>
+   <td style="text-align:left;"> TEJ </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 6 </td>
-   <td style="text-align:left;"> GUZ </td>
-   <td style="text-align:left;"> TOQ </td>
-   <td style="text-align:left;"> WUQ </td>
-   <td style="text-align:left;"> DAZ </td>
-   <td style="text-align:left;"> TUD </td>
-   <td style="text-align:left;"> HUS </td>
-   <td style="text-align:left;"> VEZ </td>
-   <td style="text-align:left;"> DIX </td>
-   <td style="text-align:left;"> ZEH </td>
-   <td style="text-align:left;"> VAB </td>
-   <td style="text-align:left;"> LIF </td>
-   <td style="text-align:left;"> MER </td>
-   <td style="text-align:left;"> SEM </td>
+   <td style="text-align:left;"> NOZ </td>
+   <td style="text-align:left;"> ZUV </td>
+   <td style="text-align:left;"> TEM </td>
+   <td style="text-align:left;"> WAM </td>
+   <td style="text-align:left;"> XOQ </td>
+   <td style="text-align:left;"> CUG </td>
+   <td style="text-align:left;"> PUQ </td>
+   <td style="text-align:left;"> DUQ </td>
+   <td style="text-align:left;"> HUL </td>
+   <td style="text-align:left;"> DAJ </td>
+   <td style="text-align:left;"> QOC </td>
+   <td style="text-align:left;"> QOK </td>
+   <td style="text-align:left;"> ZEB </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 7 </td>
-   <td style="text-align:left;"> XUF </td>
-   <td style="text-align:left;"> DOH </td>
-   <td style="text-align:left;"> VEF </td>
-   <td style="text-align:left;"> HIF </td>
-   <td style="text-align:left;"> NUK </td>
-   <td style="text-align:left;"> KOM </td>
-   <td style="text-align:left;"> PIK </td>
-   <td style="text-align:left;"> FEQ </td>
-   <td style="text-align:left;"> HUC </td>
-   <td style="text-align:left;"> ZEJ </td>
-   <td style="text-align:left;"> QES </td>
-   <td style="text-align:left;"> QID </td>
-   <td style="text-align:left;"> VIQ </td>
+   <td style="text-align:left;"> XOZ </td>
+   <td style="text-align:left;"> WUK </td>
+   <td style="text-align:left;"> ZIH </td>
+   <td style="text-align:left;"> RON </td>
+   <td style="text-align:left;"> MIK </td>
+   <td style="text-align:left;"> JEH </td>
+   <td style="text-align:left;"> HEL </td>
+   <td style="text-align:left;"> WUH </td>
+   <td style="text-align:left;"> BEP </td>
+   <td style="text-align:left;"> JEG </td>
+   <td style="text-align:left;"> LOC </td>
+   <td style="text-align:left;"> MOX </td>
+   <td style="text-align:left;"> HEK </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 8 </td>
-   <td style="text-align:left;"> KUC </td>
-   <td style="text-align:left;"> HUC </td>
-   <td style="text-align:left;"> JER </td>
-   <td style="text-align:left;"> DUV </td>
-   <td style="text-align:left;"> GAK </td>
-   <td style="text-align:left;"> FIK </td>
-   <td style="text-align:left;"> QOX </td>
-   <td style="text-align:left;"> DIW </td>
-   <td style="text-align:left;"> NEP </td>
-   <td style="text-align:left;"> HIG </td>
-   <td style="text-align:left;"> FUC </td>
-   <td style="text-align:left;"> QOV </td>
-   <td style="text-align:left;"> CER </td>
+   <td style="text-align:left;"> DIQ </td>
+   <td style="text-align:left;"> WAL </td>
+   <td style="text-align:left;"> XEJ </td>
+   <td style="text-align:left;"> MEF </td>
+   <td style="text-align:left;"> FIH </td>
+   <td style="text-align:left;"> YEB </td>
+   <td style="text-align:left;"> TIB </td>
+   <td style="text-align:left;"> GIY </td>
+   <td style="text-align:left;"> PUF </td>
+   <td style="text-align:left;"> VUC </td>
+   <td style="text-align:left;"> WEQ </td>
+   <td style="text-align:left;"> ROL </td>
+   <td style="text-align:left;"> GIR </td>
   </tr>
 </tbody>
 </table>
@@ -232,7 +232,7 @@ If memory for a learned row was not perfect after a delay, then it would have to
 
 The blue line always shows the number of attempts needed during original learning. The black line shows the number of attempts needed during re-learning. The y-axis shows the number of attempts, and the x-axis shows the temporal delay between original learning and re-learning.
 
-<img src="C8_Memory_I_files/figure-epub3/unnamed-chunk-5-1.png" width="100%" />
+<img src="C8_Memory_I_files/figure-html/unnamed-chunk-5-1.png" width="100%" />
 
 What happened after a 20 minute delay? First, memory for a learned row was not perfect. Instead, about 16 re-learning attempts were needed to reach the once-time perfect criterion. However, even though a row could not be remembered perfectly after a 20 minute delay, the savings in re-learning showed that the original learning was "gone, but not completely forgotten". The savings in relearning was computed as the difference between original learning and relearning, or
 $30.77-16.26 = 14.51$. In other words, 14.5 practice attempts were saved, or not necessary, in getting back to the same level of performance. Re-learning the lists wasn't like riding a bike ^[an expression referring to skills that are supposedly learned once and not forgotten], but it wasn't like starting from scratch either.
