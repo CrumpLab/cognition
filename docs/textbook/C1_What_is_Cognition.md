@@ -5,7 +5,7 @@
 
 | Word Count|Reading Time |Last Compiled           |
 |----------:|:------------|:-----------------------|
-|       8124|40.6 minutes |2021-09-08 17:26:12 GMT |
+|       8066|40.3 minutes |2021-09-08 17:26:12 GMT |
 
 ## Chapter Overview
 
@@ -23,7 +23,7 @@ In my opinion, even though cognitive psychology is a longstanding scientific dis
 
 I titled the book, and this first section "Instances of Cognition" to alert you to the diversity of ideas, approaches, and interests in cognition. ^[We will also learn later that there are "instance theories of cognition", so the title is also a reference to those ideas.] I'll use the Metropolitan Museum of Art as a metaphor for the diversity of issues in cognition. The MET is very large and has many rooms containing artifacts from more and less connected cultures across the world. There are many stories behind the artifacts, and there are too many rooms to visit in one day. A tour guide can help you navigate through the museum, tell a story, and give some highlights. Ultimately, the museum and the course of human history contain many elements, and a comprehensive understanding of even single artifacts can require years or lifetimes of careful investigation.
 
-Cognition is like the museum. It contains many artifacts in the form of questions, methods, findings, theories, applications, and implications for society. This textbook is like a museum tour guide. It is intended to highlight different domains in cognition, and hopefully find ways to tell compelling stories along the way. Like the MET is open to the public, much of the research we will discuss is open to you, in the form of published journal articles and books. 
+Cognition is like the museum. It contains many artifacts in the form of questions, methods, findings, theories, applications, and implications for society. This textbook is like a museum tour guide. It is intended to highlight different domains in cognition, and hopefully find ways to tell compelling stories along the way. Like the MET is open to the public, much of the research we will discuss is open to you, in the form of published journal articles and books.
 
 <!-- Although a common goal for many sciences is to arrive at a single unified theory that explains everything, even if this doesn't happen for cognition, I think that is OK too, because many of the possible explanations that will be generated along the way will make useful contributions to understanding cognition, even if parts of their explanations are not completely true.
 -->
@@ -34,13 +34,13 @@ Let's tackle two different sorts of questions. First, what is cognition? Second,
 
 ### Defining Cognition
 
-An everyday definition of cognition involves pretty much anything to do with how your mind works. If you are reading this, then you have cognition; and, as someone with cognition, I'm sure you can form your own opinions on what counts as cognition for you. This textbook is about cognition in this everyday sense, as well as the field of cognitive psychology and the broader cognitive sciences. These domains of academic inquiry have the goal of studying cognition from many different angles to produce knowledge about how cognition works.
+An everyday definition of cognition involves anything to do with how your mind works. We will explore cognition from this everyday perspective, and from the angles of the cognitive sciences that produce knowledge about how cognition works.
 
 In the first textbook to coin the phrase "Cognitive Psychology" [@neisserCognitivePsychology1967], [Ulric Neisser](https://en.wikipedia.org/wiki/Ulric_Neisser) defined cognition as:
 
-> "...all processes by which the sensory input is transformed, reduced, elaborated, stored, recovered, and used". 
+> "...all processes by which the sensory input is transformed, reduced, elaborated, stored, recovered, and used".
 
-Neisser's definition remains current and still describes much of the concerns of modern cognitive research. At the same time, Neisser was also known for critiquing research interests in cognition. Here is another Neisser quote:
+Neisser's definition still captures many aspects of modern cognitive research. At the same time, Neisser was also known for critiquing research interests in cognition. Here is another Neisser quote:
 
 > "If X is an interesting or socially important aspect of memory, then psychologists have hardly ever studied X". [@RememberingFatherCognitive2012]
 
@@ -60,7 +60,7 @@ This textbook will mostly survey research about cognition derived from experimen
 
 ### Research Cycle
 
-The research cycle involves a wide variety of methods--such as the [scientific method](https://en.wikipedia.org/wiki/Scientific_method)-- that researchers use to generate knowledge about cognition. 
+The research cycle involves a wide variety of methods--such as the [scientific method](https://en.wikipedia.org/wiki/Scientific_method)-- that researchers use to generate knowledge about cognition.
 
 ::: {.floatright50 data-latex=""}
 
@@ -79,12 +79,12 @@ Next, the hypothesis is put to a **test with an experiment**. The purpose of the
 
 The experiment generates measurements in the form of data that is collected under different experimental conditions. A next stage in the cycle is to **analyze the data**, and determine whether the manipulations had any influences. For example, if font type reliably influences reading speed, then the data should show that reading speeds are reliably slow for some fonts, and reliably faster for others.
 
-The research cycle ideally involves a community of peers, so the final stage of a research project could be to **report conclusions**, or otherwise communicate the results of your research. This is typically done by writing up a research report and submitting it for peer-review to a journal. The peer-review process can help identify areas of improvement that the researcher may address in a revision. If the journal accepts the paper, then it becomes a part of the literature on that subject. 
+The research cycle ideally involves a community of peers, so the final stage of a research project could be to **report conclusions**, or otherwise communicate the results of your research. This is typically done by writing up a research report and submitting it for peer-review to a journal. The peer-review process can help identify areas of improvement that the researcher may address in a revision. If the journal accepts the paper, then it becomes a part of the literature on that subject.
 
 Fact and theory generation are a part of the research cycle. Fact and theory generation is the process of figuring out what facts about cognition are real and in need of explanation, and then coming up with theories that explain the facts. The research cycle can be used to test factual claims and theoretical claims, which can lead researchers to discover new facts and create new theories (i.e., a cyclical process). Last, cognition research is a human activity that is embedded within a socio-historical context. The discoveries of cognitive research can have applications in society (for better and worse), and the potential prospects of these applications can in turn influence the research process by guiding researchers to spend their time on some problems as opposed to others.
 
 <!--
-The very broad domain of all-of-cognition is very large, and probably too difficult to ever study all at once. So, a common strategy in cognitive research is to focus inquiry onto smaller pieces of the puzzle. We will see this approach in action in this textbook, because each chapter is about different domains or parts of cognition (e.g., memory, learning, attention, etc). 
+The very broad domain of all-of-cognition is very large, and probably too difficult to ever study all at once. So, a common strategy in cognitive research is to focus inquiry onto smaller pieces of the puzzle. We will see this approach in action in this textbook, because each chapter is about different domains or parts of cognition (e.g., memory, learning, attention, etc).
 
 -->
 
@@ -132,7 +132,7 @@ Another approach to explanation in cognition invokes the concept of multiple lev
 
 Consider first that vision involves a series of transformations beginning at the moment where light hits the retina. From here, photo-receptors in your eyes convert light into electrical impulses sent through the optic nerve, past the optic chiasm, where they are received by neurons in the lateral geniculate nucleus in the thalamus, which is further connected to primary visual areas at the back of the brain. Somehow the visual processing pathways of the brain turn patterns of light falling on the retina into perceptions. Marr considered this system from a computational perspective involving three levels of analysis ^[As a quick sidenote, the computational view of cognition will receive much more elaboration across the textbook].
 
-Marr's likened visual processing to information processing in a computer system, and suggested that both should be understood in terms of three levels of analysis: computational, representational or algorithmic, implementational or hardware. 
+Marr's likened visual processing to information processing in a computer system, and suggested that both should be understood in terms of three levels of analysis: computational, representational or algorithmic, implementational or hardware.
 
 #### Computational Level
 
@@ -140,9 +140,9 @@ The computational level refers to the overall goal of a process. For example, wh
 
 #### Representational or Algorithmic Level
 
-The representational or algorithmic level refers to the steps taken to achieve the computational goal. A The cooking metaphor developed later in the chapter is useful here. For example, you might have the goal (computational level) of making chocolate chip cookies. The ingredients and steps in the recipe you use to make chocolate chip cookies is a good example of the representational or algorithmic level of analysis. The representations refer to the inputs and outputs of the process, such as the raw ingredient inputs, and the cookie outputs. The algorithm refers to the step-by-step instructions for transforming the inputs to the output. A good recipe for making chocolate chips contains a reasonably precise high-level description of the ingredient list (representations), and the combination and cooking instructions (algorithm) to create tasty cookies. 
+The representational or algorithmic level refers to the steps taken to achieve the computational goal. A The cooking metaphor developed later in the chapter is useful here. For example, you might have the goal (computational level) of making chocolate chip cookies. The ingredients and steps in the recipe you use to make chocolate chip cookies is a good example of the representational or algorithmic level of analysis. The representations refer to the inputs and outputs of the process, such as the raw ingredient inputs, and the cookie outputs. The algorithm refers to the step-by-step instructions for transforming the inputs to the output. A good recipe for making chocolate chips contains a reasonably precise high-level description of the ingredient list (representations), and the combination and cooking instructions (algorithm) to create tasty cookies.
 
-To return to the domain of vision, photons are the representational inputs of eyeballs and digital cameras. The algorithm in either system refers to the steps, or way in which, the inputs are transformed into the electrical signals as outputs. 
+To return to the domain of vision, photons are the representational inputs of eyeballs and digital cameras. The algorithm in either system refers to the steps, or way in which, the inputs are transformed into the electrical signals as outputs.
 
 #### Hardware implementation
 

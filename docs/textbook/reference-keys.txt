@@ -62,6 +62,7 @@ a-pictorial-explanation-of-scanning-time
 a-propositional-explanation-of-scanning-time
 evaluating-the-explanations
 society-and-historical-context
+glossary
 eugenics-and-psychology
 chapter-overview-2
 eugenics-psychology-and-the-cognitive-sciences
