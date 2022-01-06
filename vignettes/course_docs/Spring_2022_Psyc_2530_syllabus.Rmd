@@ -5,7 +5,7 @@ output: pdf_document
 
 ### PSYC 2530 – Introduction to Cognitive Psychology
 
-Fall 2021
+Spring 2022
 
 Section: MW12
 

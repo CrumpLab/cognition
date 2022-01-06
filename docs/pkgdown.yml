@@ -2,12 +2,11 @@ pandoc: '2.16'
 pkgdown: 1.6.1
 pkgdown_sha: ~
 articles:
-  course_docs/Fall_2021_Psyc_2530_syllabus: Fall_2021_Psyc_2530_syllabus.html
+  course_docs/Spring_2022_Psyc_2530_syllabus: Spring_2022_Psyc_2530_syllabus.html
   course_docs/contribute: contribute.html
-  course_docs/reference_code: reference_code.html
   course_docs/resources: resources.html
   test/test_timeline: test_timeline.html
-last_built: 2021-11-24T17:45Z
+last_built: 2022-01-06T21:22Z
 urls:
   reference: https://crumplab.github.io/cognition/reference
   article: https://crumplab.github.io/cognition/articles

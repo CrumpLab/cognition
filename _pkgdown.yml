@@ -41,8 +41,8 @@ navbar:
     syllabus:
       text: Syllabus
       menu:
-      - text: Fall 2021
-        href: articles/course_docs/Fall_2021_Psyc_2530_syllabus.html
+      - text: Spring 2022
+        href: articles/course_docs/Spring_2022_Psyc_2530_syllabus.html
     articles:
       text: Textbook
       menu:
