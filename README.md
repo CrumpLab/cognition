@@ -10,6 +10,6 @@
 This is the course website for Psyc 2530: Introductory Cognitive Psychology (Spring 2022, Asynchronous Online), taught by Dr. Matthew Crump, at the Department of Psychology, Brooklyn College of CUNY. 
 
 Instructor: [Matthew Crump](https://www.crumplab.com)
-[mcrump@brooklyn.cuny.edu](mcrump@brooklyn.cuny.edu)
+Email: [mcrump@brooklyn.cuny.edu](mcrump@brooklyn.cuny.edu) (students please put PSYC 2530 in the subject line)
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)

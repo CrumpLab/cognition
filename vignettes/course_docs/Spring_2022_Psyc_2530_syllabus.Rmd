@@ -1,19 +1,19 @@
 ---
 title: "Syllabus"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 ---
 
 ### PSYC 2530 – Introduction to Cognitive Psychology
 
 Spring 2022
 
-Section: MW12
+Section: NET (21963)
 
-Location: online (Blackboard Collaborate Ultra)
+Location: Asynchronous online
 
-Time: 12:50 PM - 2:05PM MW
-
-Office Hours: 2:05pm - 3pm MW (zoom link posted on Blackboard)
+Office Hours: TBD (zoom link posted on Blackboard)
 
 Instructor:  Matthew Crump
 
@@ -29,41 +29,44 @@ This course will provide an introductory overview of basic concepts in cognitive
 
 **Course objectives**: develop the following skills in relation to content learning objectives in 2530:
 
-- GOAL: Exposure to breadth of theory and data across major domains of cognition (listed above). 
-    - LEARNING OUTCOME: Students will demonstrate ability to identify and describe domain-specific theories and phenomena
-- GOAL: Understanding deduction from theory, which requires an understanding of the assumptions of a theory and how they combine to force a clear prediction.
-    - LEARNING OUTCOME: Students will demonstrate the ability to describe in written format the assumptions of a domain-specific theory along to show how the theory demands a prediction.
-- GOAL: Understanding experimental design.
-    - LEARNING OUTCOME: Students will demonstrate working knowledge of the elements of particular experimental designs that create opportunity to test a theoretical idea
-- GOAL: Understanding patterns in data
-    - LEARNING OUTCOME: Students will demonstrate the ability to interpret tables and figures, including the pattern for how a dependent measure changes across the levels/conditions of the independent variable
-- GOAL: Understanding inference from results to theory
-    - LEARNING OUTCOME:  Students will demonstrate the ability to form an inference about an observed result, and display the ability to evaluate whether or not a result conforms to a prediction made by a theory in cognitive psychology
+|Goal|Learning Outcome|
+|----|-----|
+| 1. Exposure to breadth of theory and data across major domains of cognition (listed above) | Students will demonstrate ability to identify and describe domain-specific theories and phenomena|
+| 2. Understanding deduction from theory, which requires an understanding of the assumptions of a theory and how they combine to force a clear prediction.|Students will demonstrate the ability to describe in written format the assumptions of a domain-specific theory along to show how the theory demands a prediction.|
+| 3. Understanding experimental design | Students will demonstrate working knowledge of the elements of particular experimental designs that create opportunity to test a theoretical idea |
+| 4. Understanding patterns in data | Students will demonstrate the ability to interpret tables and figures, including the pattern for how a dependent measure changes across the levels/conditions of the independent variable |
+| 5. Understanding inference from results to theory |Students will demonstrate the ability to form an inference about an observed result, and display the ability to evaluate whether or not a result conforms to a prediction made by a theory in cognitive psychology |
 
 
 ## Course Materials
 
-All of the course materials will be available in a timely fashion on this course website and/or blackboard. The course website contains links to the textbook, and slides.
+All of the course materials will be available in a timely fashion on this course website and/or posted on blackboard.
 
 Link to the course website:
 <https://www.crumplab.com/cognition/>
 
-Link to the textbook:
-<https://www.crumplab.com/cognition/textbook/>
-
 
 ## Course Structure
 
-We are scheduled to have synchronous online meetings on a weekly basis. Classes will be conducted online using Blackboard Collaborate Ultra. Links to each class meeting will be posted on Blackboard. These meetings may be recorded, and if so the recordings will also be posted on Blackboard for your review.
+This is an asynchronous online course consisting of weekly learning modules and exams. There are 15 total weeks including 12 learning module weeks, and 3 exam weeks (two midterms and one final exam). Students are expected to complete the learning modules and exams. Each module and exam will provide opportunities to earn up to 100 points toward your final grade.
 
-Each week class time will involve a lecture and other class activities. Readings corresponding to chapters in the textbook, and occasionally primary research articles will be assigned each week. The schedule of lectures, with links to the readings, quizzes and exams is listed below. 
+### Learning module structure
+
+Each weekly learning module includes three major components to engage with the domain of cognitive psychology in different ways.
+
+**READ**: Each module will have assigned readings from textbook chapters, or primary research articles. All of the readings will be freely available and posted on blackboard or the course website
+
+**WATCH/LISTEN**: Modules will have mini-lecture videos with overviews of the readings. The videos and slides will be posted on the course website.
+
+**ENGAGE**: Each module will include assignments for students to actively engage with course material. Assignments for each module will vary, and there will be some flexibility for students to choose the assignments they complete. Weekly assignment options will typically include a quiz and/or a writing assignment.
+
 
 ## Course Schedule
 
 ```{r, message=FALSE, warning=FALSE, echo=FALSE, eval=TRUE}
 #library(data.table)
 library(readxl)
-Lectures <- read_excel("Fall_2021_schedule.xlsx", sheet = 1, col_names = TRUE, col_types = NULL, na = "", skip = 0)
+Lectures <- read_excel("Spring_2022_schedule.xlsx", sheet = 1, col_names = TRUE, col_types = NULL, na = "", skip = 0)
 Lectures$Week <- as.character(Lectures$Week)
 Lectures[is.na(Lectures)] <- " "
 #Lectures <- fread("Lectures.csv")
@@ -73,24 +76,24 @@ knitr::kable(Lectures)
 
 ## Course Assessments
 
-Course assessments include quizzes, alternative assignments, and exams. 
+There are multiple paths for students to engage with course materials and achieve their desired grade. All assignments are conducted or submitted via blackboard.
 
-Throughout the semester there are 11 weekly quizzes. Quizzes are posted and completed on Blackboard. Quizzes will test knowledge of concepts and content from the weekly lectures, and prepare students for each of the exams. Each quiz is worth 5 points toward the final grade, for a maximum of 55 points.
+Each weekly module will contain two or more assignment opportunities. In general, each assignment will be worth 5 points. For example, the first module has a quiz worth 5 points, and a writing assignment worth 5 points. **Students should complete at least one assignment per module**. 
 
-Some weeks will include alternative assignments, to be posted on blackboard. Alternative assignments will typically involve writing, and may involve group work during class. In general, alternative assignments will be graded pass/fail. Alternative assignments are worth 5 points. Alternative assignments can be added to the quiz points, up to a maximum of 55 points. For example, if you took all of the quizzes and received a total of 40 points, then you could make up the remainder of the quiz points by completing alternative assignments. See also the section on extra-credit for additional uses of alternative assignment points.
+Students can complete as many assignments as they want, for a maximum of 70 points toward their final grade. However, there are opportunities for extra-credit (see extra credit-section).
 
-There are three exams, two midterms and a final exam. All exams are worth 15 points, for a total of 45 points toward the final grade. The exam format will be similar to the quizzes, as a result taking the quizzes is practice for the exams.
+There are two midterms and a final exam. All exams are worth 10 points each, for a total of 30 points toward the final grade. The exam format will be similar to the quizzes. **Taking the quizzes is practice for the exams**. The exams are NOT cumulative. Each exam covers the material from the preceding weeks.
 
 ### Grading
 
-There are 11 weekly quizzes, two midterms and a final exam. The grading rubric is below:
+There are 12 learning modules, and three exams. The grading rubric is below:
 
 | Assignment |  Points| Total|
 |:----------|--------:|-------:|
-| 11 Weekly Quizzes | 5 | 55|
-| Midterm 1 | 15 | 15 |
-| Midterm 2 | 15 | 15 |
-| Final Exam | 15  | 15|
+| 12 Weekly Modules | 5+ | up to 70|
+| Midterm 1 | 10 | 10 |
+| Midterm 2 | 10 | 10 |
+| Final Exam | 10  | 10|
 |||100|
 
 Percentage grades are converted to letter grades according to the following rubric.
@@ -113,23 +116,21 @@ Percentage grades are converted to letter grades according to the following rubr
 
 ### Extra-credit
 
-It will be possible to gain additional extra credit toward your final grade. The maximum number of extra credits is 15 points, so it is hypothetically possibly to obtain a grade of 115% in this course.
+It will be possible to gain additional extra credit toward your final grade. The maximum number of extra credits is 15 points, so it is hypothetically possibly to obtain a grade of 115% (A+) in this course.
 
-You may apply points from alternative assignments to the extra-credit points according to the formula: 
+Once you have reached 70 points worth of assignments, you can start earning extra-credit points by completing additional assignments. Any additional assignment that you complete will be added to your total points using a 5 to 1 formula:
 
-1 alternative assignment (5 regular points) =  1 extra credit (1 point).
-
-Your alternative assignment points will first be added to your total quiz points, and if you reach a maximum of 55 quiz points, then the remaining alternative assignment points will be added as extra-credit following the above formula.
-
-It is possible that some special extra-credit assignments will be made available.
+1 assignment (5 regular points) =  1 extra credit (1 point).
 
 ## Course Policies
 
-### Lateness and attendance
+### Lateness and due dates
 
-Each of the assignments, quizzes, and exams will be posted with an associated due date. A quiz or alternative assignment will typically be open for a week-long period, and the work is expected to be completed within the assigned time frame. Late assignments may not be graded.
+This is an asynchronous course that allows you some flexibility to work on the material according to your own schedule. However, there are also due dates, and expectations that you will be completing coursework on a weekly basis. You may be able to work ahead, but you are not encouraged to fall behind.
 
-Students are expected to attend all class sessions, and attendance is logged via Blackboard.
+Each of the assignments, quizzes, and exams will be posted with a due date. A quiz or assignment will be open for a week-long period, and the work is expected to be completed within the assigned time frame. Late assignments may not be graded.
+
+Each exam will take place within a week-long period. This should allow everyone enough flexibility to take each exam during the exam week. You should email me if you have an exceptional circumstance preventing you from taking an exam during an exam week.
 
 ### Changes to the syllabus
 
@@ -139,15 +140,9 @@ The syllabus may be updated for clarity or to make adjustments for pedagogical p
 
 **The default assumption is that all assigned work is individual work. Therefore, you should complete all course assignments, quizzes, midterms, and exams by yourself.** Make sure you understand the University's policy on Academic Integrity, described below. Any assignment that is not an individual assignment will be clearly labeled.
 
-### University’s policy on Academic Integrity
+### Missing an Exam
 
-The faculty and administration of Brooklyn College support an environment free from cheating and plagiarism. Each student is responsible for being aware of what constitutes cheating and plagiarism and for avoiding both. The complete text of the CUNY Academic Integrity Policy and the Brooklyn College procedure for policy implementation can be found at <http://www.brooklyn.cuny.edu/bc/policies>. If a faculty member suspects a violation of academic integrity and, upon investigation, confirms that violation, or if the student admits the violation, the faculty member MUST report the violation. Students should be aware that faculty may use plagiarism detection software.
-
----
-
-### Missing an Exam or class
-
-Students are expected to attend all classes. In the event of an emergency, contact me as soon as possible. If you are missing a class for religious reasons refer to the state law regarding non-attendance because of religious beliefs noted in the front matter of the Undergraduate Bulletin and Graduate Bulletin. These may be found on the Academic Calendars, Course Schedules, and Bulletins page of the Registrar’s website. See also the student bereavement policy at <http://www.brooklyn.cuny.edu/web/about/initiatives/policies/bereavement.php>.
+In the event of an emergency, contact me as soon as possible. If you are missing an exam for religious reasons refer to the state law regarding non-attendance because of religious beliefs noted in the front matter of the Undergraduate Bulletin and Graduate Bulletin. These may be found on the Academic Calendars, Course Schedules, and Bulletins page of the Registrar’s website. See also the student bereavement policy at <http://www.brooklyn.cuny.edu/web/about/initiatives/policies/bereavement.php>.
 
 ---
 
@@ -166,58 +161,71 @@ If you have questions please email me:
 1. put PSYC 2530 in your subject line
 2. email me at: mcrump@brooklyn.cuny.edu
 
-#### General Help with Research and Writing
+### General Help with Research and Writing
 
 The Library maintains a collection of links to sites that can assist you with proper citation format and paraphrasing and quoting other authors at [Research & Writing Help](https://library.brooklyn.cuny.edu/resources/?service=research-help).  The Learning Center has writing tutors available to help you with your writing [http://lc.brooklyn.cuny.edu/](http://lc.brooklyn.cuny.edu/).
 
 The best learning is done in conversation with others, whether they are people—classmates, teachers, friends—or texts—books, articles, essays, poems, films etc. It should not be a solitary process. However, the assignments that you hand in for this course must be done on your own, should represent your own thinking, and should be original work that you have done for this particular course. A good way to balance these two seemingly contradictory approaches (collaborative learning and original individually-produced work) without knowingly—or, even unwittingly—resorting to plagiarism or other forms of academic misconduct is to learn and meticulously observe the rules for citing the work of others (this could be the great point your roommate made that you used in your paper, it could be a well-turned phrase from an academic essay, or it could be anything in between). It is your responsibility to learn what constitutes plagiarism and the correct rules for citing sources—read the information on the following website carefully: [http://www.brooklyn.cuny.edu/bc/policies/](http://www.brooklyn.cuny.edu/bc/policies/). The bottom line is: passing off anyone’s words or ideas as your own for any reason whatsoever is plagiarism.
 
-## Alternative Syllabus
+## Violations of Academic integrity
 
-Any student may continue in this course using the rules in the existing syllabus (above), or the following alternative syllabus.
+It is the responsibility of each student to understand and act in accordance with the University's policy on Academic Integrity, described below.
 
-When in doubt, the syllabus that would yield the highest grade will be used for each student. There are some important clarifications for students depending on whether they received any academic sanctions to date (see below).
+### University’s policy on Academic Integrity
 
-The alternative syllabus becomes available as of November 22nd. Students begin with the number of points they have earned so far (minus any sanctions). 
-
-All future assignments in the course will be regular assignments that any student can take. The number of points available for each assignment will range in accordance with the amount of work required. Most assignments will be graded pass/fail, and you will receive the full amount of points if you pass.
-
-You can take as many assignments as you want to earn up to 75 points toward the course. The final 25% of the grade will be determined by the final exam.
-
-All of the assignments are intended to be taken by each student individually, and are to reflect their individual work. Many of the assignments will involve some writing. All of the writing should be done by you, using your own words. 
-
-**If any cheating or plagiarism is detected, this will be grounds for an immediate FAIL in the course, and the filing of a second FAR report. Do your own work and you will be fine. The rest of this course is about you engaging in the course material.**
-
-### Clarifications
-
-### Students who did not receive any sanction
-
-For the remainder of this course, all future posted assignments will take the place of “weekly assignments” in the first syllabus. That syllabus allots up to 55 points in the course for weekly assignments. You can take as many assignments as you want until your points add up to 55. You can also take more assignments, and have those points applied to your exam grade pool at an exchange of 5:1. All of your existing points still count, and your final exam will be worth 15%. Additionally, I will automatically compute whether or not you will get a better grade by taking this option or the alternative syllabus option, and I will give you whichever grade is better.
-
-### Students who did receive a notice of academic sanction
-
-I am giving you a second chance in this course to demonstrate that you can behave according to a high standard or personal and academic integrity, and to demonstrate your engagement with the course material.
-
-If you wish to attempt the alternative syllabus, then you must also complete the Academic Integrity assignment (posted on Blackboard). I will review this assignment and take your response into consideration when filing your FAR report. If you do not wish to attempt the alternative syllabus, you can continue with the regular syllabus along with any sanction you may have received (including taking an F for this course).
-
-For any student who has received an academic sanction, the sanction will remain in place and you will receive 0 points for all assignments and midterms that were sanctioned. If your notification indicated you would receive a grade of "F" for the course, then you will receive 0 points on one quiz, and on the first and second midterm. If you received a 0 on assignment 7 for plagiarism, this sanction will remain in place. Effectively, this means you are behind in points. You can make up the ones you lost by doing as many assignments as needed.
-
+The faculty and administration of Brooklyn College support an environment free from cheating and plagiarism. Each student is responsible for being aware of what constitutes cheating and plagiarism and for avoiding both. The complete text of the CUNY Academic Integrity Policy and the Brooklyn College procedure for policy implementation can be found at <http://www.brooklyn.cuny.edu/bc/policies>. 
 
 ### FYI on cheating etc.
 
 Remember, you are responsible for not cheating or violating CUNY's  [Academic Integrity Policy](http://www.cuny.edu/about/administration/offices/legal-affairs/policies-resources/academic-integrity-policy/). You are responsible for understanding that policy, and for conducting yourself in a manner such that you do not violate the policy.
 
-The above link lists many examples of cheating and plagiarism that are not allowed, but this is just a list. There are many more specific acts that you should NOT do. Here is an additional list of activities that will be sufficient cause for immediate failure in the course.
+The above link lists many examples of cheating and plagiarism that are not allowed. There are many more specific acts that you should NOT do. Here is an additional list of activities that will be sufficient cause for immediate failure in the course.
 
-- Do not take pictures of exam or quiz questions and share them with other students 
+- Do not take pictures of exam or quiz questions and share them with other students
 - Do not give other students answers during an exam or quiz, or any other assignment that is an individual assignment
 - Do not copy work from another source and submit it as your own
 - Do not copy and paste text from the internet and submit it as your own words
-- Do not copy and paste text and slightly alter wording so that you think I won't notice that you copied the words
+- Do not copy and paste text and slightly alter wording so that you think I will not notice that you copied the words
 - Do not hire someone else to do the coursework for you
 - Do not copy and paste text into a paraphrasing app, and then submit the output of the paraphrasing app as your own work
 - Do not copy random words from the internet that have nothing to do with the assignment and submit them as your own work.
 - Do not work on individual assignments with other students, share answers or other material, and then all hand in versions of the same thing that are slightly different.
 - Do not plagiarize yourself by submitting work that you have previously completed in another class.
 
+### Mandate to report violations
+
+If a faculty member suspects a violation of academic integrity and, upon investigation, confirms that violation, or if the student admits the violation, the faculty member MUST report the violation. Students should be aware that faculty may use plagiarism detection software.
+
+There is no excuse for cheating. Students who are caught cheating may receive a failing grade for the entire course. All students who violate the academic integrity will receive a Faculty Action Report, which will go on their personal file at the Academic Integrity Office.
+
+## FAQ
+
+If you have questions about the syllabus, please create a thread on the discussion board for this course on Blackboard. I will update this space with frequently asked questions
+
+## Grading Example
+
+The table below shows an example of how a student's grade would be calculated. In the example, the student completes quizzes or assignments (or both) for all 12 modules, earning a total of 80 assignment points. They receive the maximum of 70 assignment points toward their grade. The remaining 10 points are converted to extra credit (10/5 = 2 extra credit points). The student completes all three exams scoring a total of 24 points. The total is 70+2+24 = 96 points, which translates to a grade of A in the course.
+
+| Assignment |  Points| Notes|
+|:----------|--------:|-------:|
+| Module 1 | 4 | quiz 1|
+| Module 2 | 10 | quiz and assignment|
+| Module 3 | 3 | quiz|
+| Module 4 | 10 | quiz|
+| Module 5 | 5 | quiz|
+| Module 6 | 3 | quiz |
+| Module 7 | 5 | quiz |
+| Module 8 | 5 | quiz|
+| Module 9 | 10 | quiz and assignment|
+| Module 10 | 5 | quiz |
+| Module 11 | 10 |quiz and assignment |
+| Module 12 | 10 | quiz and assignment|
+|Total Assignment Points| 80 | max 70|
+| Extra credit | 2 | 80-70 = 10/5 = 2|
+| Midterm 1 | 8 | |
+| Midterm 2 | 7 | |
+| Final Exam | 9  ||
+| Total Exams| 24| 8+7+9|
+| Total Points| 96 | 70+2+24 = 96|
+| Letter Grade| A| 93.33 - 96.66|
 

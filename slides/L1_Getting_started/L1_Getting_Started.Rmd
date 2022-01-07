@@ -21,13 +21,6 @@ knitr::opts_chunk$set(echo = FALSE)
 library(fontawesome)
 ```
 
-## Welcome!
-
-1. Use the chat to ask questions
-2. Mute audio when you are not speaking
-3. Raise your hand for comments/questions
-4. This is a basic overview class
-
 ## Roadmap
 
 ### 1. What this course is about? {.bolder}
