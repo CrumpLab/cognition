@@ -1,0 +1,45 @@
+---
+title: "Getting Started"
+author: "Matt Crump"
+date: "1/7/2022"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Getting Started}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This is the orientation learning module for PSYC 2530. There will be a total of 12 learning modules throughout the course, each on a different domains in cognition. Each module will contain a similar structure and give you multiple ways to engage with the content.
+
+## Goals
+
+- quick course orientation
+- show you how learning modules will work
+- get you ready for the first week
+
+## Instructions
+
+Work through each of the following sections:Read, Watch/listen, and React. There will be a short quiz on blackboard as a part of the React section. This should take 15-30 minutes.
+
+## Read
+
+Please take the time to read the [syllabus for this course](https://www.crumplab.com/cognition/articles/course_docs/Spring_2022_Psyc_2530_syllabus.html).
+
+If you have questions about the syllabus, then please ask them on the blackboard discussion forum.
+
+## Watch/Listen
+
+This is a mini-lecture introducing you to the course.
+
+You can also view the slide deck under the slides tab on the course website.
+
+## React
+
+When you are ready, take the short intro quiz on blackboard. You can find it in the getting started learning module.

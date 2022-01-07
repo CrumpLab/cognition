@@ -5,8 +5,8 @@ articles:
   course_docs/Spring_2022_Psyc_2530_syllabus: Spring_2022_Psyc_2530_syllabus.html
   course_docs/contribute: contribute.html
   course_docs/resources: resources.html
-  test/test_timeline: test_timeline.html
-last_built: 2022-01-07T16:36Z
+  modules/L0_Getting_Started: L0_Getting_Started.html
+last_built: 2022-01-07T21:21Z
 urls:
   reference: https://crumplab.github.io/cognition/reference
   article: https://crumplab.github.io/cognition/articles

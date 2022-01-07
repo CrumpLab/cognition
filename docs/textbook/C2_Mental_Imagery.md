@@ -11,15 +11,15 @@ output:
 
 | Word Count|Reading Time |Last Compiled           |
 |----------:|:------------|:-----------------------|
-|       7905|39.5 minutes |2021-12-30 18:28:43 GMT |
+|       7746|38.7 minutes |2022-01-04 19:13:23 GMT |
 
 ## Chapter Overview
 
-This chapter discusses historical and current research on [mental imagery](#gls-mentalimagery). It begins with a review of Sir Francis Galton's early work on individual differences in mental imagery. We then turn to more recent work describing extreme differences in mental imagery in terms of aphantasia (lack of mental imagery) and hyperphantasia (very vivid mental imagery). The chapter ends with mental imagery as a possible explanatory process in the domain of memory and mental scanning.
+This chapter discusses historical and current research on [mental imagery](#gls-mentalimagery). Overarching questions include: What is mental imagery and how does it work? What kind of explanation would answer this question? How have prior researchers tackled these questions, and what has been learned about mental imagery? And, how has society been influenced by research into mental imagery? Two major topics include individual differences in mental imagery and the mental imagery debate.
 
 ## What is mental imagery?
 
-Close your eyes, and think about what you can *see* in your "mind's eye". Can you visualize a picture, scene, or movie in your mind? How would you describe the quality of the mental image? Is it just as vivid as real-life?
+Mental imagery is about the subjective experience of being in your own mind, especially while you are in the process of using your imagination. What can you *see* in your "mind's eye" when you use your imagination? Can you visualize a picture, scene, or movie in your mind? If so, how would you describe the quality of the mental image? Is it vivid and lifelike? If not, how would you describe your experience of using your imagination?
 
 ::: floatrightbox50
 
@@ -27,23 +27,17 @@ Close your eyes, and think about what you can *see* in your "mind's eye". Can yo
 
 :::
 
-Here's what I "see" when I close my eyes-- my eyelids, and not much else. It goes dark when I close my eyes, but still I have some visualization ability. I can imagine visual scenes, especially familiar places like my kitchen. My imagery seems to be more spatial than visual. I know the layout of the kitchen, and can feel the layout more easily than seeing the mental picture like the real thing. Occasionally my mental imagery is vivid and life-like, especially in dreams that appear like waking life.  So, according to me, my mental imagery ranges from fairly fuzzy to extremely vivid.
+When I close my eyes I have some limited visualization ability. I can imagine visual scenes, especially familiar places like my kitchen. My imagery seems to be more spatial than visual. I can feel the layout of the scene more easily than seeing visual features of the mental picture. Occasionally my mental imagery is vivid and life-like, especially in dreams that can appear just as visually compelling as real life.  So, according to me, my mental imagery ranges from fairly fuzzy to occasionally extremely vivid and life-like.
 
 The next section reviews evidence that people in general report a wide range of mental imagery abilities. For example, some people report the ability to effortlessly visualize extremely clear and vivid life-like images. Some people report medium visualizing ability; and, other people report having very little to no mental imagery.
 
-Let's assume that mental imagery is a real cognitive ability, and that different people experience mental imagery in different ways. How does mental imagery work? What kind of explanation would answer this question? What steps could be taken to start answering this question? How have prior researchers tackled these questions, and has been learned about mental imagery? How has society been influenced by research into mental imagery?
-
 ## Generating facts about mental imagery
 
-A first step to answering questions about mental imagery is to establish facts about the phenomena that we can trust and collectively agree upon. Establishing facts about mental imagery is difficult because it is a subjective phenomena. Nevertheless, the literature contains methods and findings relevant to mental imagery phenomena, and because of the subjective nature of the topic some skepticism is required for evaluating the results of the research.
-
-Let's start with the most direct way of knowing about mental imagery--[introspection](#gls-introspection).
+A first step to answering questions about mental imagery is to establish facts about the phenomena that we can trust and collectively agree upon. Establishing facts about mental imagery is difficult because it is a subjective phenomena. Nevertheless, the literature contains methods and findings relevant to mental imagery phenomena, and because of the subjective nature of the topic some skepticism is required for evaluating the results of the research. We begin with the method of [introspection](#gls-introspection).
 
 ### Methods of Introspection and Subjective report
 
-Mental imagery is all about the subjective experience of being in your own mind. So, by this definition, there is only one person who really knows what it is like to be you, and you are that person. So, if you want to get the facts about your own mental imagery, is it possible for you to do that?
-
-One imperfect solution is called the method of introspection, which means to self-reflect on your experience of your own cognition. Introspection has been, and still is, employed as a tool by many psychologists. For example, early German psychologist [Wilhem Wundt](https://en.wikipedia.org/wiki/Wilhelm_Wundt) (1832-1920) and American psychologist [Edward Titchener](https://en.wikipedia.org/wiki/Edward_B._Titchener) (1867-1927) advocated the use of introspection as a technique to generate knowledge about the mind. The related method of subjective report involves asking other people to introspect and then report on aspects of their own psychology. Subjective report methods are very common today in the form of questionnaires that ask people to make subjective judgments about their own psychology. Before considering the limitations of introspection and subjective report, let's see an example from mental imagery research.
+The method of introspection involves self-reflecting upon or scrutinizing aspects of your own cognition. For example, I used introspection to think about my own mental imagery experience in the previous section. Similarly, I used the method of subjective report to describe my experiences using a short paragraph. As a historical sidenote, introspection was used as a technique to generate knowledge about the mind by early German psychologist [Wilhem Wundt](https://en.wikipedia.org/wiki/Wilhelm_Wundt) (1832-1920) and American psychologist [Edward Titchener](https://en.wikipedia.org/wiki/Edward_B._Titchener) (1867-1927) who developed the [structuralism](https://en.wikipedia.org/wiki/Structuralism_(psychology)) school of psychology. Methods of subjective report remain very common today, often in the form of questionnaires that ask people to make various subjective judgments. Before considering the limitations of introspection and subjective report, let's see a concrete example from the beginning of mental imagery research.
 
 ### Galton's Statistics of mental imagery
 
@@ -55,11 +49,15 @@ One imperfect solution is called the method of introspection, which means to sel
 
 :::
 
-One of the first attempts at studying mental imagery was by Sir Francis Galton [@galtonStatisticsMentalImagery1880]. In his paper on "Statistics of mental Imagery", Galton set out to "to define the different degrees of vividness with which different persons have the faculty of recalling familiar scenes under the form of mental pictures, and the peculiarities of the mental visions of different persons." How did Galton go about doing this?
+[Sir Francis Galton](https://en.wikipedia.org/wiki/Francis_Galton) (1822-1911) was a British psychologist who was one of the first to systematically study mental imagery. To quote from his 1880 paper titled,  *Statistics of mental imagery* [@galtonStatisticsMentalImagery1880], Galton set out to:
+
+> "define the different degrees of vividness with which different persons have the faculty of recalling familiar scenes under the form of mental pictures, and the peculiarities of the mental visions of different persons" .
+
+The next section reviews Galton's methods and major findings. His original manuscript is freely available from [archive.org](https://archive.org/details/b22462375/mode/2up).
 
 #### Galton's Method of Subjective Report
 
-Galton came up with the "Breakfast table task", which is a series of structured questions about mental imagery, and then asked 100 people to answer his questions. The basic set of questions is reprinted below:
+Galton devised the "Breakfast table task" involving a series of structured questions about mental imagery, and sent letters to 100 people asking them to reply with answers to his questions. The questions are reprinted below:
 
 ::: blockquote
 
@@ -73,7 +71,7 @@ Galton came up with the "Breakfast table task", which is a series of structured 
 
 #### Galton's results
 
-Then, Galton recorded the answers that people gave and tried to make sense of them. Here are some of the answers from "100 men, at least half of whom are distinguished in science or in other fields of intellectual work." (reprinted from his original manuscript):
+Here are some of the answers from "100 men, at least half of whom are distinguished in science or in other fields of intellectual work." (reprinted from his original manuscript):
 
 ::: blockquote
 
@@ -111,17 +109,17 @@ If Galton's results provide facts that we can trust, then the task of explaining
 
 #### Limitations with Galton's method
 
-Galton's methods were useful and appropriate to the task of measuring people's mental imagery abilities, but introspection and subjective report also have many shortcomings that could easily invalidate all of the results. For example, what if everybody that Galton talked to lied about their mental imagery? In this case, none of Galton's results would be meaningful with respect to understanding mental imagery. Similarly, how accurate are people at describing their own mental imagery? If people are not very accurate, then their descriptions will not be very meaningful for describing their actual experiences. Or, what if people are having the same kinds of subjective mental imagery experiences, but they just use different words to describe the same kinds of experiences.
+Galton's methods were straightforward. He wanted to know how different people experienced mental imagery, so he asked them to think about it and tell him. Although introspection and subjective report were good starting points they also have shortcomings that could invalidate the results. Consider the following limitations. Galton's participants could have lied about their mental imagery. Their statements could reflect fictional stories rather than facts about mental imagery abilities. The participants may have inaccurately described their own experiences. For example, descriptions could be exaggerated or contain mistaken impressions. People may use different words that suggest larger differences in mental imagery than actually exist.
 
-Establishing facts about mental imagery is difficult because a person's subjective experience of their own mental imagery is not directly observable by other people. In other domains of inquiry, direct observation can help people quickly establish a set of agreed upon facts. For example, a group of geologists can all look and point at a rock formation, and agree that the rock formation is there, and then proceed to further inspect and measure the rock formation to gather more directly observable facts about it. Galton's method of subjective report does have some directly observable measurements, such as the words that people said about their mental imagery; but, people's verbal statements are an indirect attempt to communicate an experience, and do not provide an objective lens for other observers to directly view the experience itself.
+Establishing facts about mental imagery is difficult because a person's subjective experience of their own mental imagery is not directly observable by other people. In other domains of inquiry, direct observation can help people quickly establish a set of agreed upon facts. For example, a group of geologists can all look and point at a rock formation, and agree that the rock formation is there, and then proceed to further inspect and measure the rock formation to gather more directly observable facts about it. Galton's method of subjective report does have some directly observable measurements, such as the words that people used to describe their mental imagery; but, people's verbal statements are an indirect attempt to communicate an experience, and do not provide an objective lens for other observers to directly view the experience itself.
 
-If it is not possible to establish objective facts about something subjective like mental imagery, how could we possibly hope to explain those facts given that we may not be able to agree on what the facts are in the first place!?! This is undoubtedly a challenge, and there are many tools and methods that cognitive researchers have developed since Galton to help make progress on the issues. One common requirement for establishing facts is to show that they are reproducible. Let's take a look a the reproducibility of some of Galton's claims and findings
+Obtaining objective facts about subjective experience is undoubtedly a challenge, but there are tools developed since Galton to help make progress on the issues. One common requirement for establishing facts is to show that they are reproducible. In psychological research a reproducible finding is one that reliably occurs when an exact or conceptually similar study is repeated by other researchers. Let's take a look a the reproducibility of Galton's core claims and findings
 
 ### Reproducing Galton's mental imagery work
 
-Galton conducted his work in the United Kingdom throughout the last half of the 1800s, and like some of his other ideas (that we will discuss in the next chapter), they tended to spread among psychologists in other countries. At the turn of the century, American psychologists were busy using Galton's methods and publishing on the mental imagery abilities of college students. For example, in 1896, Armstrong [@armstrongjrImageryAmericanStudents1894] used the same "Breakfast Table" questions as Galton did, but gave them to students at Wesleyan University (a male college). The general pattern of results was similar to what Galton found. The students reported a wide range of mental imagery abilities, including a small proportion of students who were classified as having little to no visual imagery.
+Galton conducted his work in the United Kingdom throughout the last half of the 1800s and like some of his other ideas (that we will discuss in the next chapter) they spread among psychologists in other countries. At the turn of the century, American psychologists were busy using Galton's methods and publishing on the mental imagery abilities of college students. For example, in 1896, Armstrong [@armstrongjrImageryAmericanStudents1894] gave the *Breakfast table task* to students at Wesleyan University (a male college). The general pattern of results was similar to what Galton found. The students reported a wide range of mental imagery abilities, including a small proportion of students who were classified as having little to no visual imagery.
 
-However, in 1902, French [@frenchMentalImageryStudents1902] asked students at Vassar college (a female college) about their mental imagery abilities with a longer mental imagery questionnaire (by Titchener [@titchenerExperimentalPsychologyManual1905]), that was intended to improve on Galton's original questions. The results were mostly consistent with prior results, and the Vassar students reported a wide range of different mental imagery abilities. But, one finding was not reproduced. All of the 118 students reported at least some mental imagery abilities, and none of them reported that they had zero mental imagery abilities. This could mean all of the students happened to have mental imagery abilities, or it could call into question the claims that some people do not have mental imagery. One possibility is that the results depend on the questionnaire. Galton had 10 questions about mental imagery, Titchener had almost 90 questions that covered imagery for more senses, and potentially gave students more opportunities to claim that they had at least some mental imagery. Perhaps, Galton and Armstrong would have found all of their participants reporting at least a little bit of mental imagery if they had used the newer questionnaire by Titchener.
+In 1902, French [@frenchMentalImageryStudents1902] asked students at Vassar college (a female college) about their mental imagery abilities with a longer mental imagery questionnaire (by Titchener [@titchenerExperimentalPsychologyManual1905]), that was intended to improve upon Galton's original questions. The results were mostly consistent with prior results, and the Vassar students reported a wide range of different mental imagery abilities. But, one finding was not reproduced. All of the 118 students reported at least some mental imagery abilities, and none of them reported that they had zero mental imagery abilities. This could mean all of the students happened to have mental imagery abilities, or it could call into question the claims that some people do not have mental imagery. One possibility is that the results depend on the questionnaire. Galton had 10 questions about mental imagery, Titchener had almost 90 questions that covered imagery for more senses, and potentially gave students more opportunities to claim that they had at least some mental imagery. Perhaps, Galton and Armstrong would have found all of their participants reporting at least a little bit of mental imagery if they had used the newer questionnaire by Titchener.
 
 ### Aphantasia and Hyperphantasia
 
@@ -227,7 +225,7 @@ The map was taken away and participants were asked to mentally image the map in 
 Before we look at the actual data, let's consider three ways the experiment could have turned out. First, let's assume that people can scan between different locations immediately without taking any time at all, I will call this the "no-time" hypothesis. Second, let's assume that people will take some random amount of time to scan between the locations, the "random-time" hypothesis. And third, let's assume that people's scanning times will increase with the distance between the imagined locations, the "distance-time" hypothesis. Each of the these hypotheses makes a different prediction about how the results might turn out. Consider the three graphs below which show predictions for each hypothesis. These are examples of how the results could have turned out according to each hypothesis
 
 <div class="figure">
-<img src="C2_Mental_Imagery_files/figure-epub3/predictScanning-1.png" alt="Hypothetical results of the mental scanning task for the no-time, random-time, and distance-time hypotheses" width="100%" />
+<img src="C2_Mental_Imagery_files/figure-html/predictScanning-1.png" alt="Hypothetical results of the mental scanning task for the no-time, random-time, and distance-time hypotheses" width="100%" />
 <p class="caption">(\#fig:predictScanning)Hypothetical results of the mental scanning task for the no-time, random-time, and distance-time hypotheses</p>
 </div>
 

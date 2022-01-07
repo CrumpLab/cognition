@@ -30,11 +30,16 @@ navbar:
     - home
     - syllabus
     - articles
+    - modules
     - slides
     right:
     - github
     - news
+    - reference
   components:
+    reference:
+      text: Dev
+      href: reference/index.html
     home:
       icon: fa-home fa-lg
       href: index.html
@@ -48,6 +53,11 @@ navbar:
       menu:
       - text: Instances of Cognition
         href: textbook/index.html
+    modules:
+      text: Learning Modules
+      menu:
+      - text: 0 Getting Started
+        href: articles/modules/L0_Getting_Started.html
     slides:
       text: Slides
       menu:

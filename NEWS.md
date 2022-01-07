@@ -1,3 +1,8 @@
+# cognition 0.0.0.5
+
+- Creating asynchronous version for Spring 2022
+- Fall 2021 version is archived in github branch
+
 # cognition 0.0.0.4
 
 - Begin Fall 2021
