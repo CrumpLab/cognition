@@ -5,7 +5,7 @@
 
 | Word Count|Reading Time |Last Compiled           |
 |----------:|:------------|:-----------------------|
-|       6049|30.2 minutes |2021-12-31 17:34:00 GMT |
+|       6261|31.3 minutes |2022-01-10 13:38:59 GMT |
 
 ## Chapter Overview
 
@@ -13,11 +13,11 @@
 questions, methods, findings, explanations, applications, and implications
 -->
 
-This chapter presents an overview of the questions, methods, findings, explanations, applications, and implications of cognitive research in general. The overview is facilitated with a case-example involving a single primary research article published in a cognitive journal. The components of a research article are discussed in relation to the research process in general, and in the form of a tutorial to develop skill and familiarity with reading and comprehending primary research in psychology.
+This chapter presents an overview of the questions, methods, findings, explanations, applications, and implications of cognitive research in general. At the end, the components of a research article are discussed in relation to the research process in general, and in the form of a tutorial to develop skill and familiarity with reading and comprehending primary research in cognition.
 
 ## Instances of Cognition
 
-What is cognition and how does it work? The book is titled "Instances of Cognition" to alert you to the diversity of ideas, approaches, and interests in cognition. We will also learn later that there are "instance theories of cognition". So, although research into cognition has been ongoing across centuries and much knowledge has been generated, there are many perspectives and unresolved issues that prevent widely agreed upon answers to questions about what cognition is and how it works.
+What is [cognition](#gls-cognition) and how does it work? The book is titled "Instances of Cognition" to alert you to the diversity of ideas, approaches, and interests in cognition. We will also learn later that there are "instance theories of cognition". So, although research into cognition has been ongoing across centuries and much knowledge has been generated, there are many perspectives and unresolved issues that prevent widely agreed upon answers to questions about what cognition is and how it works.
 
 The diversity of approaches and perspectives in cognition makes it difficult to provide a coherent survey of the entire field in the form of a textbook. So, this textbook adopts a museum metaphor to help provide some structure to the overview. Consider the task of learning about everything in a museum like the Metropolitan Museum of Art. It's an impossible task. The MET is way too big to see in one day. It has many rooms with countless artifacts, each with their own histories. A tour guide takes you on a path through the museum while providing context and background and highlighting interesting tidbits. However, a comprehensive understanding of the story behind a single artifact could require years or lifetimes of careful investigation.
 
@@ -92,9 +92,9 @@ The very broad domain of all-of-cognition is very large, and probably too diffic
 
 ### Experiments and measurements
 
-Cognitive research often involves formal experiments and controlled measurements. This textbook assumes you may be unfamiliar some aspects of experimental methods in psychology, and that is OK. We will cover important experimental details when necessary throughout the textbook.
+Cognitive research often involves formal experiments and controlled measurements. This textbook assumes you may be unfamiliar with aspects of experimental methods in psychology. We will cover important experimental details when necessary throughout the textbook.
 
-Experiments are used to manipulate an *independent* variable (like type of font) and measure the influence (or lack of influence) on a *dependent* variable (like reading time). If the experiment is properly controlled and free from confounding variables, then experiments showing positive results suggest a causal connection between the manipulation and the change in the measurement. There are an enormous number of experimental procedures, manipulations, and measurements specifically designed to answer questions about cognition.
+Experiments are used to manipulate an [independent variable](#gls-IV) (like type of font) and measure the influence (or lack of influence) on a [dependent variable](#gls-DV) (like reading time). If the experiment is properly controlled and free from confounding variables, then experiments showing positive results suggest a causal connection between the manipulation and the change in the measurement. There are an enormous number of experimental procedures, manipulations, and measurements specifically designed to answer questions about cognition.
 
 In some research domains the objects of inquiry can be measured directly. For example, geologists can measure rock formations, biologists can inspect cells with a microscope, and neuroscientists can measure action potentials of single neurons. In cognition, the objects of inquiry are often cognitive processes that can not be measured directly. Instead, inferences about cognitive processes are made from indirect measurements.
 
@@ -142,7 +142,7 @@ The representational or algorithmic level refers to the steps taken to achieve t
 
 To return to the domain of vision, photons are the representational inputs of eyeballs and digital cameras. The algorithm in either system refers to the steps, or way in which, the inputs are transformed into the electrical signals as outputs.
 
-#### Hardware implementation
+#### Hardware implementation level
 
 The hardware implementation level refers to how the representations and algorithm used to accomplish a computational goal are instantiated in a physical system. For example, what specific physical elements and processes enable an eyeball to transduce light into electrical signals? Similarly, what specific physical elements and processes enable a digital camera to capture images and store them in computer memory?
 
@@ -171,9 +171,9 @@ What are the goals of the cognitive sciences and research in cognitive psycholog
 
 ## Reading primary research articles
 
-Researchers produce knowledge about cognition using the [research cycle](#researchcycle) and they communicate their findings in the form of primary research articles, usually published in academic journals. There are many academic journals in the domain of cognition, and you can find a [list of journals on the course website](https://www.crumplab.com/cognition/articles/course_docs/resources.html).
+Researchers produce knowledge about cognition using the [research cycle](#research-cycle) and they communicate their findings in the form of primary research articles, usually published in academic journals. There are many academic journals in the domain of cognition, and you can find a [list of journals on the course website](https://www.crumplab.com/cognition/articles/course_docs/resources.html).
 
-Learning how to read, comprehend, and critically evaluate primary research articles are important skills in general; and, they are essential for engaging with the literature on cognition. There will be opportunities to read primary research throughout the course. This section provides a tutorial on how to read research articles using the QALMRI technique.
+Learning how to read, comprehend, and critically evaluate primary research articles are important skills in general; and, they are essential for engaging with the literature on cognition. There will be opportunities to read primary research throughout the course. This section provides a tutorial on how to read research articles using the [QALMRI](#gls-QALMRI) technique ^[Adapted from Kosslyn, S. M., & Rosenberg, R. S. (2001). Psychology: The Brain, The Person, The World. Boston: Allyn & Bacon].
 
 Here are some reasons why it is useful to improve your ability to read primary research articles.
 
@@ -193,7 +193,7 @@ QALMRI is an acronym for critical parts of research articles. It stands for Ques
 
 ### Step one, find a paper
 
-The first step is to find a primary research article to read. To demonstrate QALMRI, I chose a paper from my own research. The article is titled, "Warning: this keyboard will deconstruct -- The role of the keyboard in skilled typewriting" [@crumpWarningThisKeyboard2010]. This paper was published in the journal Psychonomic Bulletin and Review in 2010 and can be [freely downloaded as a pdf here](https://link.springer.com/article/10.3758/PBR.17.3.394).
+The first step is to find a primary research article to read. To demonstrate QALMRI, I chose a paper from my own research. The article is titled, "Warning: this keyboard will deconstruct -- The role of the keyboard in skilled typewriting" [@Crump_2010:2]. This paper was published in the journal Psychonomic Bulletin and Review in 2010 and can be [freely downloaded as a pdf here](https://link.springer.com/article/10.3758/PBR.17.3.394).
 
 Before continuing, I suggest you download the paper and give it a quick glance. It it is only 5 pages long.
 
@@ -267,7 +267,7 @@ Writing a QALMRI for any research paper (one that you are writing, or one that y
 
 ## Example QALMRI
 
-Even if you haven’t read the article, reading a QALMRI should provide you with enough information to get a basic idea of what the article was about. The following QALMRI summarizes our example article by Crump & Logan (2010). @crump_warning:_2010
+Even if you haven’t read the article, reading a QALMRI should provide you with enough information to get a basic idea of what the article was about. The following QALMRI summarizes our example article by Crump & Logan (2010) [@Crump_2010:2].
 
 ### What was the broad and specific question?
 
@@ -360,3 +360,28 @@ To make the distinction and relationship between theoretical and empirical hypot
 Each theoretical hypothesis implies particular empirical outcomes. So, we collect the data about the empirical outcomes because they test the implications of the theoretical hypotheses.
 
 -->
+
+## Glossary
+
+#### Cognition {- #gls-cognition}
+
+This textbook defines cognition as processes of mind and behavior, including human and non-human animal minds, and potentially computational minds. Examples of cognitive abilities include perceiving, attending, remembering, thinking, empathizing, deciding, predicting, judging, etc.
+
+- Anything to do with how minds work
+
+#### Dependent Variable {- #gls-DV}
+
+The measurement in an experiment. For example, in a recall memory experiment a researcher could measure memory performance by counting how many words were remembered under different experimental conditions.
+
+#### Independent Variable {- #gls-IV}
+
+An experimental manipulation involving at least two levels. For example, an experiment testing the efficacy of a drug could have an experimental level where participants receive the drug, and a control level where participants do not receive the drug.
+
+#### QALMRI {- #gls-QALMRI}
+
+An acronym used an aid for reading primary research articles. QALMRI stands for Question, Alternatives, Logic, Methods, Results, and Inference. Research papers ask questions about how phenomena work, they propose alternative working explanations, and test the logical implications of those explanations with methods. The methods produce results that can be used to generate inferences about the working hypotheses and generate insight into the phenomena under investigation.
+
+
+#### Scientific Method {- #gls-scientificmethod}
+
+A systematic process using controlled experiments and observation to generate knowledge about phenomena under investigation.

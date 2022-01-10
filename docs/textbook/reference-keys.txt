@@ -24,7 +24,7 @@ explanations-theories-and-models
 levels-of-analysis
 computational-level
 representational-or-algorithmic-level
-hardware-implementation
+hardware-implementation-level
 summary
 metaphorical-models
 applications
@@ -48,6 +48,7 @@ what-is-the-logic
 what-is-the-method
 results
 inference
+glossary
 mental-imagery
 chapter-overview-1
 what-is-mental-imagery
@@ -73,7 +74,7 @@ a-pictorial-explanation-of-scanning-time
 a-propositional-explanation-of-scanning-time
 evaluating-the-explanations
 society-and-historical-context
-glossary
+glossary-1
 eugenics-and-psychology
 chapter-overview-2
 eugenics-psychology-and-the-cognitive-sciences
