@@ -26,7 +26,7 @@ This is the orientation learning module for PSYC 2530. There will be a total of 
 
 ## Instructions
 
-Work through each of the following sections:Read, Watch/listen, and React. There will be a short quiz on blackboard as a part of the React section. This should take 15-30 minutes.
+Work through each of the following sections: Read, Watch/listen, and Engage. There will be a short quiz on blackboard as a part of the React section. This should take 15-30 minutes.
 
 ## Read
 
@@ -38,8 +38,13 @@ If you have questions about the syllabus, then please ask them on the blackboard
 
 This is a mini-lecture introducing you to the course.
 
-You can also view the slide deck under the slides tab on the course website.
+You can also view the slide deck under the slides tab on the course website. 
 
-## React
+## Engage
 
-When you are ready, take the short intro quiz on blackboard. You can find it in the getting started learning module.
+When you are ready complete the assignments in the getting started module on Blackboard. Both assignments are short and worth 2.5 points each (normally assignments will be worth 5 points each).
+
+1. Complete the getting started quiz (2.5 points)
+2. Complete the short writing assignment (2.5 points)
+
+Submit your work before the due date posted on blackboard. Then, move on to the next learning module.

@@ -1,0 +1,227 @@
+---
+title: 'PSYC 2530: Introduction to Cognitive Psychology'
+author: "Matthew J. C. Crump"
+date: "Last compiled `r format(Sys.time(), '%m/%d/%y')`"
+output:
+  slidy_presentation:
+    footer: written by Matt Crump
+    includes:
+      in_header: header.html
+    self_contained: no
+    theme: yeti
+    incremental: yes
+    template: slidy_template.html
+logoimage: imgs/BC_logo.png
+css: style.css
+subtitle: Spring 2022, Welcome!
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(fontawesome)
+```
+
+## Roadmap
+
+### 1. What is this course about? {.bolder}
+
+### 2. Course Resources {.greyout}
+
+### 3. Syllabus and Logistics {.greyout}
+
+### 4. Questions {.greyout}
+
+
+## What is Cognition?
+
+::: {.bigger}
+1. Questions
+2. Methods
+3. Findings
+4. Explanations
+5. Applications
+6. Implications
+:::
+
+## Roadmap
+
+### 1. What is this course about? {.greyout}
+
+### 2. Course Resources {.bolder}
+
+### 3. Syllabus and Logistics {.greyout}
+
+### 4. Questions {.greyout}
+
+
+## Course Resources
+
+::: {.bigger}
+1. Blackboard
+2. Course Website
+3. Textbook
+:::
+
+## Blackboard
+
+We will use blackboard for:
+
+1. Course Announcements
+    - Make sure your email is up to date
+2. Weekly learning modules, quizzes, assignments, and exams
+3. Links to material on course website
+4. Asking questions (use discussion forum)
+
+## Course Website
+
+We will also use an external course website:
+
+<https://www.crumplab.com/cognition/>
+
+1. Most current Syllabus
+2. Links to textbook
+3. Weekly learning modules
+4. Slide decks
+4. Other resources as needed
+
+## Course Textbook
+
+:::: {.row}
+::: {.col-md-6}
+
+The textbook is:
+
+1. A free open-educational resource
+2. Web-book, available as pdf and epub
+3. Still in progress...
+4. <https://www.crumplab.com/cognition/textbook/>
+
+:::
+
+::: {.col-md-6}
+
+```{r, out.width="50%"}
+knitr::include_graphics("imgs/cover.png")
+```
+
+
+:::
+::::
+
+## Other resources
+
+Throughout the semester additional reading material may be assigned. 
+
+Any additional material will be made available for free through blackboard or the course website
+
+## Roadmap
+
+### 1. What is this course about? {.greyout}
+
+### 2. Course Resources {.greyout}
+
+### 3. Syllabus and Logistics {.bolder}
+
+### 4. Questions {.greyout}
+
+## Course Syllabus
+
+[Please read the syllabus](https://www.crumplab.com/cognition/articles/course_docs/Spring_2022_Psyc_2530_syllabus.html).
+
+The most current version of the syllabus is located on the course website.
+
+
+## Basic overview
+
+15 weeks in the semester
+
+12 Learning module weeks
+
+3 exam weeks (2 midterms, one final)
+
+[Schedule is posted on the syllabus](https://www.crumplab.com/cognition/articles/course_docs/Spring_2022_Psyc_2530_syllabus.html#course-schedule)
+
+## Assessments and grading
+
+There are 12 learning modules, and three exams. The grading rubric is below:
+
+| Assignment |  Points| Total|
+|:----------|--------:|-------:|
+| 12 Weekly Modules | 5+ | up to 60|
+| Extra Credit | Over 60/5 | up to 10|
+| Midterm 1 | 13.33 | 13.33 |
+| Midterm 2 | 13.33 | 13.33 |
+| Final Exam | 13.33  | 13.33|
+|||100|
+
+## Weekly learning modules
+
+1. Posted weekly (or earlier) on Blackboard and Course Website
+2. Include readings, mini-lectures, and quizzes/assignments
+3. Complete the work within the week (submit by due date)
+4. Assignment choice (see next slide)
+
+## Assignment choice
+
+- modules have multiple possible assignments, (e.g., quiz and writing assignment).
+
+- you choose which assignments to complete.
+
+- Complete as many as you want, max 60 points toward final grade
+
+- If you miss an assignment that is OK, you can do an extra one in a future module
+
+## Extra-credit
+
+- If you complete more than 60 points of assignments/quizzes, then your extra points will be converted to extra credit points ta a ratio of 5 to 1.
+
+- 100 - 60 = 40/5 = 8 extra credit points
+
+- maximum 10 extra credit points
+
+## Exams
+
+- There are three exams, 13.33 points each
+
+- Exams will be open for a whole week
+
+- Exams are multiple choice, around 45+ questions, test content from preceding learning modules.
+
+- The questions are similar to the quiz questions. Quizzes are practice for the exams.
+
+## Academic Integrity
+
+It is your responsibility to understand [the CUNY academic integrity policy](https://www.cuny.edu/about/administration/offices/legal-affairs/policies-resources/academic-integrity-policy/) and conduct your behavior according to a high standard of academic integrity.
+
+## Roadmap
+
+### 1. What is this course about? {.greyout}
+
+### 2. Course Resources {.greyout}
+
+### 3. Syllabus and Logistics {.greyout}
+
+### 4. Questions {.bolder}
+
+## Questions
+
+Use the discussion board on Blackboard to ask general questions about the course
+
+## Email
+
+If you are running into issues, email me:
+
+1. Put PSYC 2530 in the subject line
+2. Email me at mcrump@brooklyn.cuny.edu 
+
+## Next Steps
+
+Finish the getting started module by taking the quiz on blackboard, or completing the writing assignment.
+
+Then, you can begin the first official learning module:
+
+L1: What is cognition?
+
+
+
+
