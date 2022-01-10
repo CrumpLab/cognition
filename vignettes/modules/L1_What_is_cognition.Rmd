@@ -1,0 +1,72 @@
+---
+title: "Learning Module 1: What is Cognition?"
+author: "Matt Crump"
+date: "1/7/2022"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Learning Module 1: What is Cognition?}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This is the first content learning module for PSYC 2530.
+
+## Goals
+
+- Present an overview of Cognitive Psychology
+- Provide examples of primary research about cognitive abilities
+- Develop familiarity with reading primary research articles
+
+## Instructions
+
+Work through each of the following sections: Read, Watch/listen, and Engage. You have the full week to complete any quizzes or assignments for this module.
+
+## Read
+
+Your assigned reading is the first chapter of the textbook, titled: [what is cognition?](https://www.crumplab.com/cognition/textbook/what-is-cognition.html). 
+
+This reading provides a quick overview of general aspects of cognitive psychology, as well as how the textbook will cover specific domains of cognition. The chapter ends with some tips for reading primary research articles in cognitive psychology.
+
+## Watch/Listen
+
+There are two mini-lectures for this module. The first one overviews cognition with an example from the reading literature. The second one overviews the QALMRI method for reading journal articles, using an example from the language production literature.
+
+## Engage
+
+When you are ready complete the assignments posted on Blackboard for this module. Each quiz or assignment is worth points. Remember that you can do as many quizzes and or assignments as you want throughout the semester, up to 60 points. After 60 points, your work will count for up to 10 points in extra credit (see syllabus).
+
+1. QUIZ: Complete the L1: What is Cognition quiz (5 points, on blackboard)
+2. Write a QALMRI for new research (5 points, see instructions below or on blackboard)
+
+Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
+
+## Write a QALMRI for new research 
+
+Your assignment is to find a new research article published in a cognitive journal (must be published in 2021 or 2022), download the article, read it, and then write a short QALMRI assignment. Review the [QALMRI method here](https://www.crumplab.com/cognition/textbook/what-is-cognition.html#the-qalmri-method).
+
+Hand in your written QALMRI assignment and a copy of the paper you downloaded.
+
+Tips.
+
+1. **Find an article**: You can search [Google Scholar](https://scholar.google.com) for new papers, or you can read the table of contents of journals online. Check out this [list of cognitive journals from the course website](). Choose any article that is about cognition and looks interesting to you.
+2. **Obtain the article**: You should be able to download most journal articles through the Brooklyn College library. You may also be able to find copies online.
+3. **Read the article**: Scan the article to see what it is about. Your goal will be to write a QALMRI to help you make sense of the article
+4. **Write a QALMRI**: Using [the QALMRI method](https://www.crumplab.com/cognition/textbook/what-is-cognition.html#the-qalmri-method), write a one-page QALMRI (point form is OK) of the paper you chose.
+
+- Question: Identify the big and specific question
+- Alternatives: What are the alternative hypotheses or explanations
+- Logic: What are the logical implications of the hypotheses
+- Method: Describe the Methods
+- Results: What was the main result
+- Inference: What inferences about the hypothesis are made from the results?
+
+It is OK if you find the research article confusing. You only need to describe the first experiment, and the purpose of this exercise is to try as best as you can.
+
+

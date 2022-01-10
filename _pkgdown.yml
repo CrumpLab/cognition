@@ -43,6 +43,7 @@ navbar:
     - articles
     - modules
     - slides
+    - resources
     right:
     - github
     - news
@@ -69,14 +70,16 @@ navbar:
       menu:
       - text: 0 Getting Started
         href: articles/modules/L0_Getting_Started.html
+      - text: 1 What is Cognition?
+        href: articles/modules/L1_What_is_cognition.html
     slides:
       text: Slides
       menu:
       - text: Lecture 0- Getting Started
         href: slides/L0_Getting_started/L0_Getting_Started.html
+      - text: Lecture 1 - What is Cognition?
+        href: slides/L1_Instances/L1_Instances.html
       - text: Not yet updated for Spring 2022
-      - text: Lecture 2 - What is Cognition?
-        href: slides/L2_Instances/L2_Instances.html
       - text: Lecture 3 - Mental Imagery
         href: slides/L3_Imagery/L3_Imagery.html
       - text: Lecture 4 - Psychology and Eugenics

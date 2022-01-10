@@ -23,11 +23,11 @@ knitr::opts_chunk$set(echo = FALSE,
 library(fontawesome)
 ```
 
-## Reminders from last week
+## Reminders
 
-Readings are chapter 1 [What is cognition?](https://www.crumplab.com/cognition/textbook/what-is-cognition.html) and 2 [Mental Imagery](https://www.crumplab.com/cognition/textbook/mental-imagery.html) from the textbook.
+This is the slide deck for Learning Module 1: What is cognition?
 
-A quiz will be posted TODAY, August 30th, and open until Sunday, September 12th. It will cover material from the first two chapters, with a focus on the second chapter.
+The reading is from chapter 1 [What is cognition?](https://www.crumplab.com/cognition/textbook/what-is-cognition.html)
 
 ## Roadmap: Instances of Cognition
 
@@ -116,6 +116,7 @@ Research questions are typically about **how** some cognitive ability works. For
 3. How did you forget what you were doing while you were in the middle of doing something? 
 4. How can you train your brain to get better at something? 
 5. How do you learn to read, and know the meaning of words? How can you read faster?
+6. and many more...
 
 
 ## Research Domains
@@ -188,7 +189,7 @@ Let's search [Google Scholar](https://www.scholar.google.com) for "how to read f
 
 Try out different search terms to find prior research that could be highly relevant
 
-- let's search "does speed reading work"
+- let's search "does speed reading work?"
 
 ## Rayner et al. 2016
 
@@ -589,11 +590,9 @@ Have they been adequately addressed?
 
 How should society decide whether or not to proceed with different kinds of research?
 
-## Questions and Next class
+## What's next?
 
-Readings are chapter 2 [Mental Imagery](https://www.crumplab.com/cognition/textbook/mental-imagery.html) from the textbook.
-
-A quiz will be posted TODAY, August 30th, and open until Sunday, September 12th. It will cover material from the first two chapters, with a focus on the second chapter.
+Continue by reviewing the QALMRI section in chapter 1, and watching the associated mini-lecture. Then complete the assignments for the first module posted on blackboard before the posted due date.
 
 
 
