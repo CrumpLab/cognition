@@ -187,7 +187,7 @@ What are the goals of the cognitive sciences and research in cognitive psycholog
 
 Researchers produce knowledge about cognition using the [research cycle](#research-cycle) and they communicate their findings in the form of primary research articles, usually published in academic journals. There are many academic journals in the domain of cognition, and you can find a [list of journals on the course website](https://www.crumplab.com/cognition/articles/course_docs/resources.html).
 
-Learning how to read, comprehend, and critically evaluate primary research articles are important skills in general; and, they are essential for engaging with the literature on cognition. There will be opportunities to read primary research throughout the course. This section provides a tutorial on how to read research articles using the QALMRI technique.
+Learning how to read, comprehend, and critically evaluate primary research articles are important skills in general; and, they are essential for engaging with the literature on cognition. There will be opportunities to read primary research throughout the course. This section provides a tutorial on how to read research articles using the QALMRI technique ^[Adapted from Kosslyn, S. M., & Rosenberg, R. S. (2001). Psychology: The Brain, The Person, The World. Boston: Allyn & Bacon].
 
 Here are some reasons why it is useful to improve your ability to read primary research articles.
 

@@ -2,6 +2,17 @@
 url: https://crumplab.github.io/cognition
 
 template:
+  bootstrap: 5
+  bslib:
+    #heading_font: {google: "Montserrat Alternates"}
+    headings-font-weight: 600
+   # base_font: {google: "Baskervville"}
+  #  font-weight-base: 500
+    font-size-base: 1.15rem
+    h1-font-size:  2.5rem
+    h2-font-size:  1.8rem
+    h3-font-size:  1.5rem
+    h4-font-size:  1.25rem
   opengraph:
     image:
       src: logo.png

@@ -1,12 +1,12 @@
 pandoc: '2.16'
-pkgdown: 1.6.1
+pkgdown: 2.0.1
 pkgdown_sha: ~
 articles:
-  course_docs/Spring_2022_Psyc_2530_syllabus: Spring_2022_Psyc_2530_syllabus.html
-  course_docs/contribute: contribute.html
-  course_docs/resources: resources.html
-  modules/L0_Getting_Started: L0_Getting_Started.html
-last_built: 2022-01-07T21:21Z
+  Spring_2022_Psyc_2530_syllabus: course_docs/Spring_2022_Psyc_2530_syllabus.html
+  contribute: course_docs/contribute.html
+  resources: course_docs/resources.html
+  L0_Getting_Started: modules/L0_Getting_Started.html
+last_built: 2022-01-10T13:37Z
 urls:
   reference: https://crumplab.github.io/cognition/reference
   article: https://crumplab.github.io/cognition/articles
