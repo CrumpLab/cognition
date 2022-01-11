@@ -56,11 +56,13 @@ Submit your work before the due date posted on blackboard. Then, move on to the 
 
 ## Write a QALMRI for new research 
 
-Your assignment is to find a new research article published in a cognitive journal (must be published in 2021 or 2022), download the article, read it, and then write a short QALMRI assignment. Review the [QALMRI method here](https://www.crumplab.com/cognition/textbook/what-is-cognition.html#the-qalmri-method).
+Your assignment is to find a new research article published in a cognitive journal (must be published since 2020), download the article, read it, and then write a short QALMRI assignment. Review the [QALMRI method here](https://www.crumplab.com/cognition/textbook/what-is-cognition.html#the-qalmri-method).
 
-Hand in your written QALMRI assignment and a copy of the paper you downloaded.
+Submit a written QALMRI assignment and a copy of the paper you downloaded on blackboard
 
-Tips.
+For a better idea of what I am looking for check out this tutorial video. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vP77pqOoXVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 1. **Find an article**: You can search [Google Scholar](https://scholar.google.com) for new papers, or you can read the table of contents of journals online. Check out this [list of cognitive journals from the course website](https://www.crumplab.com/cognition/articles/course_docs/resources.html). Choose any article that is about cognition and looks interesting to you.
 2. **Obtain the article**: You should be able to download most journal articles through the Brooklyn College library. You may also be able to find copies online.
@@ -74,6 +76,7 @@ Tips.
 - Results: What was the main result
 - Inference: What inferences about the hypothesis are made from the results?
 
-It is OK if you find the research article confusing. You only need to describe the first experiment, and the purpose of this exercise is to try as best as you can.
+It is OK if you find the research article confusing. The purpose of this exercise is to try as best as you can, and get a general sense of what it is like to search for and read articles in cognition.
+
 
 
