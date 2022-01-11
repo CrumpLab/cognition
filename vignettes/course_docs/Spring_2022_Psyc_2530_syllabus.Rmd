@@ -76,7 +76,7 @@ knitr::kable(Lectures)
 
 ## Course Assessments
 
-There are multiple paths for students to engage with course materials and achieve their desired grade. **All assignments are conducted and/or submitted via blackboard by the due dates set on blackboard**.
+There are multiple ways for students to engage with course materials and achieve their desired grade. **All assignments are conducted and/or submitted via blackboard by the due dates set on blackboard**.
 
 Each weekly module will contain two or more assignment opportunities. In general, each assignment will be worth 5 points. For example, the first module has a quiz worth 5 points, and a writing assignment worth 5 points. **Students should complete at least one assignment per module**. 
 
@@ -86,7 +86,7 @@ There are two midterms and a final exam. All exams are worth 13.33 points each, 
 
 ### Grading
 
-There are 12 learning modules, and three exams. The grading rubric is below:
+There are 12 learning modules and three exams. The grading rubric is below:
 
 | Assignment |  Points| Total|
 |:----------|--------:|-------:|

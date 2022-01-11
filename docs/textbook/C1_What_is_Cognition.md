@@ -5,7 +5,7 @@
 
 | Word Count|Reading Time |Last Compiled           |
 |----------:|:------------|:-----------------------|
-|       6261|31.3 minutes |2022-01-10 13:38:59 GMT |
+|       6261|31.3 minutes |2022-01-10 14:22:34 GMT |
 
 ## Chapter Overview
 
