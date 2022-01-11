@@ -1,5 +1,6 @@
 ---
 title: "Learning Module 1: What is Cognition?"
+description: "This module presents an overview of Cognitive Psychology along with a tutorial on reading primary research articles. Read Chapter 1 from the textbook, watch the mini-lectures, and complete the quiz and/or writing assignment by the due date."
 author: "Matt Crump"
 date: "1/7/2022"
 output: rmarkdown::html_vignette
@@ -36,7 +37,13 @@ This reading provides a quick overview of general aspects of cognitive psycholog
 
 ## Watch/Listen
 
-There are two mini-lectures for this module. The first one overviews cognition with an example from the reading literature. The second one overviews the QALMRI method for reading journal articles, using an example from the language production literature.
+There are two mini-lectures for this module. The first one overviews cognition with an example from the reading literature. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dnZB-3Sus0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The second one overviews the QALMRI method for reading journal articles, using an example from the language production literature.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eWi6k8Wdl-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Engage
 
