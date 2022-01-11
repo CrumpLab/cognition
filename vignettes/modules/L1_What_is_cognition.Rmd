@@ -62,7 +62,7 @@ Hand in your written QALMRI assignment and a copy of the paper you downloaded.
 
 Tips.
 
-1. **Find an article**: You can search [Google Scholar](https://scholar.google.com) for new papers, or you can read the table of contents of journals online. Check out this [list of cognitive journals from the course website](). Choose any article that is about cognition and looks interesting to you.
+1. **Find an article**: You can search [Google Scholar](https://scholar.google.com) for new papers, or you can read the table of contents of journals online. Check out this [list of cognitive journals from the course website](https://www.crumplab.com/cognition/articles/course_docs/resources.html). Choose any article that is about cognition and looks interesting to you.
 2. **Obtain the article**: You should be able to download most journal articles through the Brooklyn College library. You may also be able to find copies online.
 3. **Read the article**: Scan the article to see what it is about. Your goal will be to write a QALMRI to help you make sense of the article
 4. **Write a QALMRI**: Using [the QALMRI method](https://www.crumplab.com/cognition/textbook/what-is-cognition.html#the-qalmri-method), write a one-page QALMRI (point form is OK) of the paper you chose.
