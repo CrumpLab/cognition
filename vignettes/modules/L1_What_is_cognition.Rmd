@@ -31,9 +31,31 @@ Work through each of the following sections: Read, Watch/listen, and Engage. You
 
 ## Read
 
-Your assigned reading is the first chapter of the textbook, titled: [what is cognition?](https://www.crumplab.com/cognition/textbook/what-is-cognition.html). 
+:::::{.card .border .border-2 .border-info}
+:::: {.row .g-0}
+::: {.col-md-2}
+:::: {.card-body}
 
-This reading provides a quick overview of general aspects of cognitive psychology, as well as how the textbook will cover specific domains of cognition. The chapter ends with some tips for reading primary research articles in cognitive psychology.
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/logo.png")
+```
+
+::::
+:::
+
+::: {.col-md-10}
+:::: {.card-body}
+### Chapter 1: What is Cognition?
+
+Overviews questions, methods, findings, explanations, applications and implications of cognitive psychology.
+
+QALMRI method for reading primary research articles in cognitive psychology.
+
+<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/textbook/what-is-cognition.html" role="button">Read</a>
+::::
+:::
+::::
+:::::
 
 ## Watch/Listen
 
