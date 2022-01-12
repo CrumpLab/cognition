@@ -51,19 +51,19 @@ Overviews questions, methods, findings, explanations, applications and implicati
 
 QALMRI method for reading primary research articles in cognitive psychology.
 
+Reading time: 30 minutes
+
 <a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/textbook/what-is-cognition.html" role="button">Read</a>
 ::::
 :::
 ::::
 :::::
 
----
-
-## Watch/Listen
+## Watch/Listen {.mt-5}
 
 There are two mini-lectures for this module. 
 
-:::::{.card .border .border-2 .border-info}
+:::::{.card .border .border-2 .border-info .mb-3}
 :::: {.row .g-0}
 ::: {.col-md-2}
 :::: {.card-body}
@@ -125,10 +125,7 @@ QALMRI
 ::::
 :::::
 
-
----
-
-## Engage
+## Engage {.mt-5}
 
 When you are ready complete the assignments posted on Blackboard for this module. Each quiz or assignment is worth points. Remember that you can do as many quizzes and or assignments as you want throughout the semester, up to 60 points. After 60 points, your work will count for up to 10 points in extra credit (see syllabus).
 
@@ -147,7 +144,7 @@ Submit a written QALMRI assignment and a copy of the paper you downloaded on bla
 
 For a better idea of what I am looking for check out this tutorial video. 
 
-:::::{.card .border .border-2 .border-info}
+:::::{.card .border .border-2 .border-info .mb-5}
 :::: {.row .g-0}
 ::: {.col-md-2}
 :::: {.card-body}

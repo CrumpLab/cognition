@@ -58,9 +58,7 @@ If you have questions about the syllabus, then please ask them on the blackboard
 ::::
 :::::
 
-
-
-## Watch/Listen
+## Watch/Listen {.mt-5}
 
 :::::{.card .border .border-2 .border-info}
 :::: {.row .g-0}
@@ -92,7 +90,7 @@ Orientation video
 
 You can also view the slide deck under the slides tab on the course website. 
 
-## Engage
+## Engage {.mt-5}
 
 When you are ready complete the assignments in the getting started module on Blackboard. Both assignments are short and worth 2.5 points each (normally assignments will be worth 5 points each).
 
