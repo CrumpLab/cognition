@@ -57,20 +57,76 @@ QALMRI method for reading primary research articles in cognitive psychology.
 ::::
 :::::
 
+---
+
 ## Watch/Listen
 
-There are two mini-lectures for this module. The first one overviews cognition with an example from the reading literature. 
+There are two mini-lectures for this module. 
 
-::: {.embed-responsive-item}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dnZB-3Sus0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::::{.card .border .border-2 .border-info}
+:::: {.row .g-0}
+::: {.col-md-2}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/logo.png")
+```
+
+Lecture 1
+
+Cognition Overview
+
+30 mins
+
+::::
 :::
 
-The second one overviews the QALMRI method for reading journal articles, using an example from the language production literature.
+::: {.col-md-10}
+:::: {.card-body}
 
-::: {.embed-responsive-item}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eWi6k8Wdl-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dnZB-3Sus0Y" style="width:100%; height: 100%;" allowfullscreen></iframe>
 :::
 
+::::
+:::
+::::
+:::::
+
+
+:::::{.card .border .border-2 .border-info}
+:::: {.row .g-0}
+::: {.col-md-2}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/logo.png")
+```
+
+Lecture 2
+
+Reading articles
+QALMRI
+
+25 mins
+
+::::
+:::
+
+::: {.col-md-10}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eWi6k8Wdl-w" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
+
+---
 
 ## Engage
 
@@ -81,7 +137,7 @@ When you are ready complete the assignments posted on Blackboard for this module
 
 Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
 
-## Write a QALMRI for new research 
+### Write a QALMRI for new research 
 
 Your assignment is to find a new research article published in a cognitive journal (must be published since 2020), download the article, read it, and then write a short QALMRI assignment. Review the [QALMRI method here](https://www.crumplab.com/cognition/textbook/what-is-cognition.html#the-qalmri-method).
 
@@ -91,7 +147,33 @@ Submit a written QALMRI assignment and a copy of the paper you downloaded on bla
 
 For a better idea of what I am looking for check out this tutorial video. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vP77pqOoXVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::::{.card .border .border-2 .border-info}
+:::: {.row .g-0}
+::: {.col-md-2}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/logo.png")
+```
+
+Assignment Tutorial
+
+5 mins
+
+::::
+:::
+
+::: {.col-md-10}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vP77pqOoXVw" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
 
 1. **Find an article**: You can search [Google Scholar](https://scholar.google.com) for new papers, or you can read the table of contents of journals online. Check out this [list of cognitive journals from the course website](https://www.crumplab.com/cognition/articles/course_docs/resources.html). Choose any article that is about cognition and looks interesting to you.
 2. **Obtain the article**: You should be able to download most journal articles through the Brooklyn College library. You may also be able to find copies online.
