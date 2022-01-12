@@ -31,15 +31,64 @@ Work through each of the following sections: Read, Watch/listen, and Engage. The
 
 ## Read
 
-Please take the time to read the [syllabus for this course](https://www.crumplab.com/cognition/articles/course_docs/Spring_2022_Psyc_2530_syllabus.html).
+
+:::::{.card .border .border-2 .border-info}
+:::: {.row .g-0}
+::: {.col-md-2}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/logo.png")
+```
+
+::::
+:::
+
+::: {.col-md-10}
+:::: {.card-body}
+### Read the Syllabus
+
+Read the [syllabus for this course](https://www.crumplab.com/cognition/articles/course_docs/Spring_2022_Psyc_2530_syllabus.html).
 
 If you have questions about the syllabus, then please ask them on the blackboard discussion forum.
 
+<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/articles/course_docs/Spring_2022_Psyc_2530_syllabus.html" role="button">Read</a>
+::::
+:::
+::::
+:::::
+
+
+
 ## Watch/Listen
 
-This is a mini-lecture introducing you to the course.
+:::::{.card .border .border-2 .border-info}
+:::: {.row .g-0}
+::: {.col-md-2}
+:::: {.card-body}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nZsAg8RzFd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/logo.png")
+```
+
+Orientation video
+
+15 mins
+
+::::
+:::
+
+::: {.col-md-10}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nZsAg8RzFd4" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
 
 You can also view the slide deck under the slides tab on the course website. 
 
