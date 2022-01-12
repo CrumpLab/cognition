@@ -25,11 +25,11 @@ This is the first content learning module for PSYC 2530.
 - Provide examples of primary research about cognitive abilities
 - Develop familiarity with reading primary research articles
 
-## Instructions
+## Instructions 
 
 Work through each of the following sections: Read, Watch/listen, and Engage. You have the full week to complete any quizzes or assignments for this module.
 
-## Read
+## Read 
 
 :::::{.card .border .border-2 .border-info}
 :::: {.row .g-0}
@@ -61,11 +61,16 @@ QALMRI method for reading primary research articles in cognitive psychology.
 
 There are two mini-lectures for this module. The first one overviews cognition with an example from the reading literature. 
 
+::: {.embed-responsive-item}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dnZB-3Sus0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
 
 The second one overviews the QALMRI method for reading journal articles, using an example from the language production literature.
 
+::: {.embed-responsive-item}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eWi6k8Wdl-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+
 
 ## Engage
 
