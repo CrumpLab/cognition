@@ -7,7 +7,14 @@ articles:
   resources: course_docs/resources.html
   L0_Getting_Started: modules/L0_Getting_Started.html
   L1_What_is_cognition: modules/L1_What_is_cognition.html
-last_built: 2022-01-11T13:20Z
+  L2_Mental_imagery: modules/L2_Mental_imagery.html
+  L3_Eugenics_IQ: modules/L3_Eugenics_IQ.html
+  L4_Associations: modules/L4_Associations.html
+  L5_Behaviorism: modules/L5_Behaviorism.html
+  L6_Information_processing: modules/L6_Information_processing.html
+  L7_Memory_I: modules/L7_Memory_I.html
+  L8_Memory_II: modules/L8_Memory_II.html
+last_built: 2022-01-14T19:04Z
 urls:
   reference: https://crumplab.github.io/cognition/reference
   article: https://crumplab.github.io/cognition/articles

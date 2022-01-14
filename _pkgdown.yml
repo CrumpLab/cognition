@@ -70,12 +70,26 @@ navbar:
       menu:
       - text: 0 Getting Started
         href: articles/modules/L0_Getting_Started.html
-      - text: 1 What is Cognition?
+      - text: L1 What is Cognition?
         href: articles/modules/L1_What_is_cognition.html
+      - text: L2 Mental Imagery?
+        href: articles/modules/L2_Mental_imagery.html
+      - text: L3 Eugenics, Psych, and IQ
+        href: articles/modules/L3_Eugenics_IQ.html
+      - text: L4 Associations
+        href: articles/modules/L4_Associations.html
+      - text: L5 Behaviorism
+        href: articles/modules/L5_Behaviorism.html
+      - text: L6 Information Processing
+        href: articles/modules/L6_Information_processing.html
+      - text: L7 Memory I
+        href: articles/modules/L7_Memory_I.html
+      - text: L8 Memory II
+        href: articles/modules/L8_Memory_II.html
     slides:
       text: Slides
       menu:
-      - text: Lecture 0- Getting Started
+      - text: Lecture 0 - Getting Started
         href: slides/L0_Getting_started/L0_Getting_Started.html
       - text: Lecture 1 - What is Cognition?
         href: slides/L1_Instances/L1_Instances.html
