@@ -2,7 +2,7 @@
 title: "Learning Module 2: Mental Imagery"
 description: "This module overviews research on mental imagery spanning three centuries. Read Chapter 2 from the textbook, watch the mini-lectures, and complete the quiz and/or writing assignment by the due date."
 author: "Matt Crump"
-date: "1/12/2022"
+date: '`r paste("Last edited: ", lubridate::today())`'
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Learning Module 2: Mental Imagery}
