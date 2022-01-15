@@ -1,0 +1,124 @@
+---
+title: "Learning Module 12: Judgment and Decision-making"
+description: ""
+author: "Matt Crump"
+date: '`r paste("Last edited: ", lubridate::today())`'
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Learning Module 12: Judgment and Decision-making}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Goals
+
+
+## Instructions 
+
+Work through each of the following sections: Read, Watch/listen, and Engage. You have the full week to complete any quizzes or assignments for this module.
+
+## Read 
+
+:::::{.card .border .border-2 .border-info .mb-3}
+:::: {.row .g-0}
+::: {.col-md-2}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/logo.png")
+```
+
+TBD
+
+::::
+:::
+
+::: {.col-md-10}
+:::: {.card-body}
+
+TBD
+
+<a class="btn btn-outline-info" href="" role="button">Read</a>
+::::
+:::
+::::
+:::::
+
+
+## Watch/Listen {.mt-5}
+
+There are two mini-lectures for this module. 
+
+:::::{.card .border .border-2 .border-info .mb-3}
+:::: {.row .g-0}
+::: {.col-md-2}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/logo.png")
+```
+
+Lecture 1
+
+::::
+:::
+
+::: {.col-md-10}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
+
+:::::{.card .border .border-2 .border-info}
+:::: {.row .g-0}
+::: {.col-md-2}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/logo.png")
+```
+
+Lecture 2
+
+TBD
+
+::::
+:::
+
+::: {.col-md-10}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
+## Engage {.mt-5}
+
+When you are ready complete any or all of the following assignments.
+
+1. QUIZ: Complete the L12: Judgment and Decision-making quiz (5 points, on blackboard)
+2. Writing: (5 points, instructions below, submit on blackboard)
+
+Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
+
+
+
