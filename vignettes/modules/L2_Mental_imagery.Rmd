@@ -61,7 +61,7 @@ Reading time: 35-40 minutes
 
 ## Watch/Listen {.mt-5}
 
-There are two mini-lectures for this module. 
+There are two mini-lectures for this module, and a tutorial on reading a paper.
 
 :::::{.card .border .border-2 .border-info .mb-3}
 :::: {.row .g-0}
@@ -74,7 +74,7 @@ knitr::include_graphics("imgs/logo.png")
 
 Lecture 1
 
-Mental imagery overview
+Mental imagery pt 1
 
 30 mins
 
@@ -85,7 +85,38 @@ Mental imagery overview
 :::: {.card-body}
 
 ::: {.ratio .ratio-16x9}
-<iframe class="embed-responsive-item" src="" style="width:100%; height: 100%;" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kPDcOyXcuHU" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
+
+:::::{.card .border .border-2 .border-info .mb-3}
+:::: {.row .g-0}
+::: {.col-md-2}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/logo.png")
+```
+
+Lecture 2
+
+Mental imagery pt 2
+
+45 mins
+
+::::
+:::
+
+::: {.col-md-10}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/naNEa28I3y4" style="width:100%; height: 100%;" allowfullscreen></iframe>
 :::
 
 ::::
@@ -103,7 +134,7 @@ Mental imagery overview
 knitr::include_graphics("imgs/logo.png")
 ```
 
-Lecture 2
+Tutorial
 
 Read a paper
 Marks (1973)
