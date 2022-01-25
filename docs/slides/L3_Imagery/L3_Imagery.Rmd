@@ -23,11 +23,9 @@ knitr::opts_chunk$set(echo = FALSE,
 library(fontawesome)
 ```
 
-## Reminders from last class
+## Reminders
 
-Readings are chapter 1 [What is cognition?](https://www.crumplab.com/cognition/textbook/what-is-cognition.html) and 2 [Mental Imagery](https://www.crumplab.com/cognition/textbook/mental-imagery.html) from the textbook.
-
-The quiz is posted on blackboard. It is open until Sunday, September 12th. It will cover material from the first two chapters, with a focus on the second chapter.
+Readings are from chapter 2 on [Mental Imagery](https://www.crumplab.com/cognition/textbook/mental-imagery.html)
 
 ##  Roadmap
 
@@ -86,14 +84,14 @@ He used a "Breakfast table task"...
 
 3. Colouring – Are the colours of the china, of the toast, bread-crust, mustard, meat, parsley, or whatever may have been on the table, quite distinct and natural?
 
-## Let's poll the class
+## What would you say?
 
 Imagine what you last ate in your mind's eye. How would you rate the vividness of your mental imagery?
 
 1. Extremely vivid, like you are eating it all over again in real life
 2. Vivid, you can picture it pretty well
 3. Fuzzy, not really life-like, but you can remember it
-4. No imagery, not all life-like, no mental pictures
+4. No imagery, not at all life-like, no mental pictures
 
 ## What did Galton find?
 
@@ -427,7 +425,7 @@ What do these results mean for cognitive representations of mental imagery?
 
 ## Kosslyn's pictures
 
-The evidence is consistent with the pictorial of analog representation assumption.
+The evidence is consistent with the pictorial or analog representation assumption.
 
 It takes time to scan real images as a function of distance scanned.
 
@@ -462,13 +460,12 @@ A quote from his paper:
 
 > The larger object of my inquiry is to elicit facts that shall define the natural varieties of mental disposition in the two sexes and in different races, and afford trustworthy data as to the relative frequency with which different faculties are inherited in different degrees.
 
-## Questions and Next class
+## What's next
 
-Readings are chapter 3 [Eugenics and Psychology](https://www.crumplab.com/cognition/textbook/eugenics-and-psychology.html) from the textbook.
+Continue working through the readings and mini-lectures for this learning module. Then complete quizzes/assignments by the deadline.
 
-Week 1 quiz is on blackboard...you have unlimited attempts until Sunday, Sept 12 at 11:59pm.
+When you are finished move onto the next learning module where we will cover eugenics, psychology, and intelligence testing.
 
-Quiz 2 will be posted Monday, Sept 20.
 
 
 <!--
