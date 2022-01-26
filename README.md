@@ -18,7 +18,7 @@ Email: [mcrump@brooklyn.cuny.edu](mcrump@brooklyn.cuny.edu) (students please put
 
 If you are a student in my class, then we will be using the resources on this website along with blackboard throughout the semester. This website will always contain the most up-to-date syllabus. The syllabus, textbook, and learning modules, slides, and other resources can all be accessed using the tabs at the top of the page.
 
-Begin with the [getting started learning module](https:/crumplab.com/cognition/articles/modules/L0_Getting_Started.html).
+Begin with the [getting started learning module](https://www.crumplab.com/cognition/articles/modules/L0_Getting_Started.html).
 
 If you have questions please email me. If you think other students have the same question, then please ask your question on the blackboard discussion board for this course.
 
