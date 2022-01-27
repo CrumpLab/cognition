@@ -27,10 +27,6 @@ library(fontawesome)
 
 Reading for today was chapter 4 [Intelligence testing](https://www.crumplab.com/cognition/textbook/intelligence-testing.html) from the textbook.
 
-Quiz 2 will be posted today Monday, Sept 20. The quiz will be open for 1 week.
-
-Quiz 2 covers chapter 3 and 4
-
 ##  Roadmap
 
 ### 1. The intelligence test race {.bolder}
