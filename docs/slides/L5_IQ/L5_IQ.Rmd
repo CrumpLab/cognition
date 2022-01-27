@@ -77,7 +77,7 @@ knitr::include_graphics("imgs/200-1.gif")
 
 - A eugenics goal was to develop mental tests, test whole segments of society, then deploy positive and negative eugenic social policies on people depending on their test results
 
-- Several psychologists committed to the eugenics movement attempts to develop suitable mental tests
+- Psychologists committed to the eugenics movement "race" to develop suitable mental tests
 
 ## Turn of the century (1900)
 
@@ -182,9 +182,9 @@ Efforts to predict Columbia students grades (a potential measure of their intell
 
 As mentioned previously, several other psychologists around the world were attempting to develop their own versions of mental tests
 
-Alfred Binet was a French Psychologist who critiqued Cattell's tests for lacking face-validity
+- Alfred Binet was a French Psychologist who critiqued Cattell's tests for lacking face-validity
 
-Binet argued that Cattell's tests weren't very mentally challenging...
+- Binet argued that Cattell's tests weren't very mentally challenging...
 
 ##  Binet-Simon Test
 
@@ -343,7 +343,7 @@ Binet died in 1911, and his strategy for mental testing was quickly adopted by A
 ::: {.col-md-6}
 
 [Human Betterment Foundation](https://en.wikipedia.org/wiki/Human_Betterment_Foundation)
-was an American Eugenics organization on the east coast
+was an American Eugenics organization on the west coast
 
 :::
 
@@ -651,15 +651,13 @@ knitr::include_graphics("imgs/What_happened_to_moratorium.png")
 [The Journal of Black Psychology](https://journals.sagepub.com/home/jbp) has published many excellent articles on intelligence testing and its impacts on society
 
 
-## Questions and Next class
+## What's next
 
-Next class is Wednesday, Sept 22.
+This is the last lecture for the psychology, eugenics, and intelligence testing learning module. 
 
-Read chapter 5 [Associations](https://www.crumplab.com/cognition/textbook/intelligence-testing.html) from the textbook.
+Your next step is to complete a quiz or assignment by the due date posted on blackboard.
 
-Reminder: Quiz 2 will be posted today Monday, Sept 20. The quiz will be open for 1 week.
-
-Quiz 2 covers chapter 3 and 4
+The next learning module is on the topic of "associations"
 
 
 
