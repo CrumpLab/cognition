@@ -23,13 +23,9 @@ knitr::opts_chunk$set(echo = FALSE,
 library(fontawesome)
 ```
 
-## Reminders from last class
+## Reminders
 
-Readings are chapter 3 [Eugenics and Psychology](https://www.crumplab.com/cognition/textbook/eugenics-and-psychology.html) from the textbook.
-
-Week 1 quiz is on blackboard...you had unlimited attempts until Sunday, Sept 12 at 11:59pm.
-
-Quiz 2 will be posted Monday, Sept 20.
+Read chapter 3 [Eugenics and Psychology](https://www.crumplab.com/cognition/textbook/eugenics-and-psychology.html) from the textbook.
 
 ##  Roadmap
 
@@ -43,11 +39,11 @@ Quiz 2 will be posted Monday, Sept 20.
 
 History is full of problematic efforts to "improve" society
 
-Problems include inequality and injustices
+- Problems include inequality and injustices
 
-Not all groups benefit equally from the improvements
+- Not all groups benefit equally from the improvements
 
-Oppressed groups targets of human rights violations in the name of improvement
+- Oppressed groups have been targets of human rights violations in the name of improvement
 
 ## Scientific Pollyannaism
 
@@ -57,6 +53,8 @@ Oppressed groups targets of human rights violations in the name of improvement
 Psychology considers itself a progressive science, but also has a long history of promoting problematic ways to improve society
 
 > Chapter 4 Eugenic Scientific Utopias Filled with Socially Engineered Happy Productive People
+
+[Get a copy from BC Library](https://cuny-bc.primo.exlibrisgroup.com/permalink/01CUNY_BC/ljnr3v/cdi_askewsholts_vlebooks_9783030159825)
 
 :::
 
@@ -182,7 +180,7 @@ knitr::include_graphics("imgs/map.jpg")
 
 Excellent overview of the formation, development, and nuances of Eugenics movements in many different countries
 
-Available for download from the BC library
+[Available for download from the BC library](https://cuny-bc.primo.exlibrisgroup.com/permalink/01CUNY_BC/ljnr3v/cdi_askewsholts_vlebooks_9781137286123)
 
 :::
 
@@ -309,7 +307,7 @@ A few English language eugenics journals include:
 
 [The Eugenics Review](https://www.ncbi.nlm.nih.gov/pmc/journals/1186/)
 
-The Eugenical News  <https://archive.org/search.php?query=Eugenical%20News>
+[The Eugenical News](https://archive.org/search.php?query=Eugenical%20News)
 
 [The Journal of Race Development](https://www.jstor.org/journal/jracedeve) (whose first editor was the first president of the American Psychological Association, Granville Stanley Hall)
 
@@ -505,6 +503,12 @@ The Association for Psychological Sciences (APS) gives the [James McKeen Cattell
 
 The Society for Experimental Psychology gives the [Howard Crosby Warren Medal](https://www.sepsych.org/warren_medal.php) for outstanding achievement in experimental psychology.
 
+## APA Apology
+
+<https://www.apa.org/about/policy/racism-apology>
+
+<https://www.apa.org/about/apa/addressing-racism/historical-chronology>
+
 ## Psychological tools
 
 ```{r}
@@ -519,13 +523,12 @@ CATTELL, J. McK. (1890). V.—MENTAL TESTS AND MEASUREMENTS. Mind, os-XV(59), 37
 knitr::include_graphics("imgs/Cattell_mental_testing.jpg")
 ```
 
-## Questions and Next class
-
-Next class is Monday, Sept 20.
+## What's Next
 
 Read chapter 4 [Intelligence testing](https://www.crumplab.com/cognition/textbook/intelligence-testing.html) from the textbook.
 
-Quiz 2 will be posted Monday, Sept 20.
+Watch the next mini-lecture in for this learning module, and then complete quizzes and assignments of your choice
+
 
 
 
