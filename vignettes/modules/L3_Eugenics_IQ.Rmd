@@ -100,6 +100,8 @@ Lecture 1
 
 Eugenics overview
 
+50 min
+
 ::::
 :::
 
@@ -127,7 +129,9 @@ knitr::include_graphics("imgs/logo.png")
 
 Lecture 2
 
-Intelligence testing
+Intelligence 
+
+45 min
 
 ::::
 :::
@@ -136,7 +140,7 @@ Intelligence testing
 :::: {.card-body}
 
 ::: {.ratio .ratio-16x9}
-<iframe class="embed-responsive-item" src="" style="width:100%; height: 100%;" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ej_MZ2KKoo4" style="width:100%; height: 100%;" allowfullscreen></iframe>
 :::
 
 ::::
