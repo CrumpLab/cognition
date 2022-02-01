@@ -74,9 +74,9 @@ navbar:
         href: articles/modules/L1_What_is_cognition.html
       - text: L2 Mental Imagery?
         href: articles/modules/L2_Mental_imagery.html
-      - text: Not yet updated for Spring 2022
       - text: L3 Eugenics, Psych, and IQ
         href: articles/modules/L3_Eugenics_IQ.html
+      - text: Not yet updated for Spring 2022
       - text: L4 Associations
         href: articles/modules/L4_Associations.html
       - text: L5 Behaviorism
@@ -106,11 +106,11 @@ navbar:
         href: slides/L2_QALMRI/L2_QALMRI.html
       - text: Lecture 3 - Mental Imagery
         href: slides/L3_Imagery/L3_Imagery.html
-      - text: Not yet updated for Spring 2022
       - text: Lecture 4 - Psychology and Eugenics
         href: slides/L4_Eugenics/L4_Eugenics.html
       - text: Lecture 5 - Intelligence Testing
         href: slides/L5_IQ/L5_IQ.html
+      - text: Not yet updated for Spring 2022
       - text: Lecture 6 - Associations 1
         href: slides/L6_Association_1/L6_Association_1.html
       - text: Lecture 7 - Associations 2
