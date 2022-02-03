@@ -11,6 +11,8 @@ output:
     theme: yeti
     incremental: yes
     template: slidy_template.html
+  beamer_presentation:
+    incremental: yes
 logoimage: imgs/BC_logo.png
 css: style.css
 subtitle: A short history of early cognitive testing
