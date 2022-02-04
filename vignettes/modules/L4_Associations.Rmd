@@ -70,6 +70,8 @@ Lecture 1
 
 Associations
 
+[slides]()
+
 40 min
 
 ::::
