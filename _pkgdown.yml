@@ -110,11 +110,9 @@ navbar:
         href: slides/L4_Eugenics/L4_Eugenics.html
       - text: Lecture 5 - Intelligence Testing
         href: slides/L5_IQ/L5_IQ.html
+      - text: Lecture 6 - Associations
+        href: slides/L6_Associations/L6_Associations.html
       - text: Not yet updated for Spring 2022
-      - text: Lecture 6 - Associations 1
-        href: slides/L6_Association_1/L6_Association_1.html
-      - text: Lecture 7 - Associations 2
-        href: slides/L7_Association_2/L7_Association_2.html
       - text: Lecture 8 - Behaviorism
         href: slides/L8_Behaviorism/L8_Behaviorism.html
       - text: Lecture 9 - Information Processing

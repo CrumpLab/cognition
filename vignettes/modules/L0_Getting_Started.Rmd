@@ -71,6 +71,8 @@ knitr::include_graphics("imgs/logo.png")
 
 Orientation video
 
+[slides](https://www.crumplab.com/cognition/slides/L0_Getting_started/L0_Getting_Started.html#(1))
+
 15 mins
 
 ::::

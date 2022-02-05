@@ -1,5 +1,5 @@
 ---
-title: 'PSYC 2530: Associations 1'
+title: 'PSYC 2530: Associations'
 author: "Matthew J. C. Crump"
 date: "Last compiled `r format(Sys.time(), '%m/%d/%y')`"
 output:

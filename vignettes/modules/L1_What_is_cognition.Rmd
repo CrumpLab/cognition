@@ -76,6 +76,8 @@ Lecture 1
 
 Cognition Overview
 
+[slides](https://www.crumplab.com/cognition/slides/L1_Instances/L1_Instances.html#(1))
+
 30 mins
 
 ::::
@@ -107,6 +109,8 @@ Lecture 2
 
 Reading articles
 QALMRI
+
+[slides](https://www.crumplab.com/cognition/slides/L2_QALMRI/L2_QALMRI.html#(1))
 
 25 mins
 

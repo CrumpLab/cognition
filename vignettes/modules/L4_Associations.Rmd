@@ -70,6 +70,8 @@ Lecture 1
 
 Associations
 
+[slides](https://www.crumplab.com/cognition/slides/L6_Associations/L6_Associations.html#(1))
+
 40 min
 
 ::::
@@ -100,6 +102,8 @@ knitr::include_graphics("imgs/logo.png")
 Lecture 2
 
 Conditioning
+
+[slides](https://www.crumplab.com/cognition/slides/L6_Associations/L6_Associations.html#(39))
 
 35 min
 

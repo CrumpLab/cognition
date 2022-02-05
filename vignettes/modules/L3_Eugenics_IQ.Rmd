@@ -100,6 +100,8 @@ Lecture 1
 
 Eugenics overview
 
+[slides](https://www.crumplab.com/cognition/slides/L4_Eugenics/L4_Eugenics.html#(1))
+
 50 min
 
 ::::
@@ -130,6 +132,8 @@ knitr::include_graphics("imgs/logo.png")
 Lecture 2
 
 Intelligence 
+
+[slides](https://www.crumplab.com/cognition/slides/L5_IQ/L5_IQ.html#(1))
 
 45 min
 
