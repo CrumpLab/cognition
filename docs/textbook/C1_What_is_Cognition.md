@@ -5,7 +5,7 @@
 
 | Word Count|Reading Time |Last Compiled           |
 |----------:|:------------|:-----------------------|
-|       6261|31.3 minutes |2022-01-10 14:22:34 GMT |
+|       6269|31.3 minutes |2022-01-10 14:22:34 GMT |
 
 ## Chapter Overview
 
@@ -17,7 +17,7 @@ This chapter presents an overview of the questions, methods, findings, explanati
 
 ## Instances of Cognition
 
-What is [cognition](#gls-cognition) and how does it work? The book is titled "Instances of Cognition" to alert you to the diversity of ideas, approaches, and interests in cognition. We will also learn later that there are "instance theories of cognition". So, although research into cognition has been ongoing across centuries and much knowledge has been generated, there are many perspectives and unresolved issues that prevent widely agreed upon answers to questions about what cognition is and how it works.
+What is [cognition](#gls-cognition) and how does it work? The book is titled "Instances of Cognition" to alert you to the diversity of ideas, approaches, and interests in cognition. We will also learn later that there are instance theories of cognition [@jamiesonInstanceTheoryDomaingeneral2022, readcube link to read the paper online <https://rdcu.be/cGGzW>]. So, although research into cognition has been ongoing across centuries and much knowledge has been generated, there are many perspectives and unresolved issues that prevent widely agreed upon answers to questions about what cognition is and how it works.
 
 The diversity of approaches and perspectives in cognition makes it difficult to provide a coherent survey of the entire field in the form of a textbook. So, this textbook adopts a museum metaphor to help provide some structure to the overview. Consider the task of learning about everything in a museum like the Metropolitan Museum of Art. It's an impossible task. The MET is way too big to see in one day. It has many rooms with countless artifacts, each with their own histories. A tour guide takes you on a path through the museum while providing context and background and highlighting interesting tidbits. However, a comprehensive understanding of the story behind a single artifact could require years or lifetimes of careful investigation.
 
