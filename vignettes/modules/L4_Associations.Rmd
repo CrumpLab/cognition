@@ -131,5 +131,27 @@ When you are ready complete any or all of the following assignments.
 
 Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
 
+### Conditioning and drug tolerance
+
+5 points
+
+Classical conditioning and associative learning influence a wide range of psychological and physiological processes, including those involved in drug-tolerance.
+
+Your assignment is to write a QALMRI summary for the following paper. A video lecture overview for this paper was also provided in the watch/listen section to help you with this assignment.
+
+Siegel, S., Hinson, R. E., Krank, M. D., & McCully, J. (1982). Heroin "overdose" death: contribution of drug-associated environmental cues. Science, 216(4544), 436-437.
+
+Using [the QALMRI method](https://www.crumplab.com/cognition/textbook/what-is-cognition.html#the-qalmri-method), write a one-page QALMRI (point form is OK) of the assigned paper.
+
+- Question: Identify the big and specific question
+- Alternatives: What are the alternative hypotheses or explanations
+- Logic: What are the logical implications of the hypotheses
+- Method: Describe the Methods
+- Results: What was the main result
+- Inference: What inferences about the hypothesis are made from the results?
+
+
+
+
 
 
