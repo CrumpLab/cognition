@@ -122,6 +122,40 @@ Conditioning
 ::::
 :::::
 
+
+
+:::::{.card .border .border-2 .border-info}
+:::: {.row .g-0}
+::: {.col-md-2}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/logo.png")
+```
+
+Lecture 3
+
+Siegel et al. (1982)
+
+paper on Blackboard
+
+20 min
+
+::::
+:::
+
+::: {.col-md-10}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XrhRMuYN8hM" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
 ## Engage {.mt-5}
 
 When you are ready complete any or all of the following assignments.
