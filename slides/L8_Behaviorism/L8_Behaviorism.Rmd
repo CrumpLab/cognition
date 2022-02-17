@@ -23,27 +23,43 @@ knitr::opts_chunk$set(echo = FALSE,
 library(fontawesome)
 ```
 
-## Reminders from last class
+## Reminders
 
-**Quiz 3 will be posted today, Wednesday, Sept 29th.** Quiz 3 will be open for 1 week, and will cover content on Associations and Behaviorism
+This is the mini-lecture for learning module 5 on Behaviorism.
 
-2 alternative assignments will be posted today on Blackboard as well...more to follow
 
-##  Positivism
+##  Roadmap
 
 ### 1. Positivism {.bolder}
 ### 2. Watson's Behaviorism {.greyout}
 ### 3. Tolman's Behaviorism {.greyout}
-### 4. Hulls's Behaviorism {.greyout}
+### 4. Hull's Behaviorism {.greyout}
 ### 5. Skinner's Behaviorism {.greyout}
 
 ## Explanation
 
-A goal of this course is to examine explanations of cognitive processes
+- A goal of this course is to examine explanations of cognitive processes
 
-The era of behaviorism developed "functional" explanations in the tradition of positivism
+- The era of behaviorism developed "functional" explanations in the tradition of positivism
 
-A major goal of behaviorism was to predict and control behavior
+- A major goal of behaviorism was to predict and control behavior
+
+## The Rabbit Hole
+
+A modern example of using big data for prediction and control over human behavior...
+
+[The Rabbit Hole podcast](https://www.nytimes.com/column/rabbit-hole)
+
+Note: there is an assignment around this podcast if you are interested in listening to it
+
+## Let's rewind
+
+We're going back to the period roughly between 1910s and 1940s, when the school of behaviorism was a dominant perspective in American psychology.
+
+```{r}
+knitr::include_graphics("imgs/rewind.gif")
+```
+
 
 ## Comte's Positivism
 
@@ -71,11 +87,11 @@ knitr::include_graphics("../../textbook/imgs/Auguste_Comte.jpg")
 
 ## Comte's stages of explanation
 
-*In the theological phase,* phenomena are explained by supernatural powers. For example, the mind is attributed to soul or spiritual forces.
+- *In the theological phase,* phenomena are explained by supernatural powers. For example, the mind is attributed to soul or spiritual forces.
 
-*The metaphysical stage* replaces the supernatural forces with abstractions. For example, the mind is psychic forces. 
+- *The metaphysical stage* replaces the supernatural forces with abstractions. For example, the mind is psychic forces. 
 
-*In the positive stage* a description system is achieved that can mathematically describe, predict, and control a process of interest
+- *In the positive stage* a description system is achieved that can mathematically describe, predict, and control a process of interest
 
 ## Scientific Utopianism
 
@@ -84,7 +100,7 @@ knitr::include_graphics("../../textbook/imgs/Auguste_Comte.jpg")
 
 Comte sought to extend his positivism to improve society
 
-The motto positivism is "Love as a principle and order as the basis; progress as the goal."
+**Motto of Positivism:** "Love as a principle and order as the basis; progress as the goal."
 
 Comte also proposed a [humanistic religion based on positivism](https://en.wikipedia.org/wiki/Religion_of_Humanity) to replace the catholic church
 
@@ -101,19 +117,13 @@ knitr::include_graphics("imgs/Templo_Positivista_em_Porto_Alegre.JPG")
 :::
 ::::
 
-## The Rabbit Hole
+## Positivism and Behaviorism
 
-A modern example of using big data for prediction and control over human behavior...
+- Behaviorism was a science in the tradition of positivism
 
-[The Rabbit Hole podcast](https://www.nytimes.com/column/rabbit-hole)
+- We will see many themes from positivism in the next examples of behaviorists
 
-## Let's rewind
-
-We're back to the period roughly between 1910s and 1940s, when the school of behaviorism was a dominant perspective in American psychology.
-
-```{r}
-knitr::include_graphics("imgs/rewind.gif")
-```
+- Behaviorism was not monolithic, and different behaviorists a variety of goals
 
 
 ##  Watson's Behaviorism
@@ -121,7 +131,7 @@ knitr::include_graphics("imgs/rewind.gif")
 ### 1. Positivism {.greyout}
 ### 2. Watson's Behaviorism {.bolder}
 ### 3. Tolman's Behaviorism {.greyout}
-### 4. Hulls's Behaviorism {.greyout}
+### 4. Hull's Behaviorism {.greyout}
 ### 5. Skinner's Behaviorism {.greyout}
 
 ## J. B. Watson (1878-1958)
@@ -131,11 +141,11 @@ knitr::include_graphics("imgs/rewind.gif")
 
 Early proponent of behaviorism
 
-APA president in 1915
+- APA president in 1915
 
-Listed as a researcher in the Eugenical News
+- Listed as a researcher in the Eugenical News
 
-Fired in 1920 due to a divorce scandal, left psychology, but continued to push behaviorism ideas
+- Fired in 1920 due to a divorce scandal, left psychology, but continued to push behaviorism ideas
 
 :::
 
@@ -155,11 +165,9 @@ knitr::include_graphics("../../textbook/imgs/John_Broadus_Watson.jpg")
 :::: {.row}
 ::: {.col-md-6}
 
-Conducted by Watson before ethical codes for research were established
+Watson attempted to generalize Pavlovian conditioning to humans by training an infant to show fear responses to many kinds of stimuli
 
-Attempted to generalize Pavlovian conditioning to humans
-
-[Little Albert](https://en.wikipedia.org/wiki/Little_Albert_experiment) was exposed to various objects (e.g., white rat, masks, burning newspapers) and scary sounds, like Watson striking a steel bar to terrify the infant.
+[Little Albert](https://en.wikipedia.org/wiki/Little_Albert_experiment) was exposed to objects (e.g., white rat, masks, burning newspapers) and sounds that caused traumatic reactions.
 
 Watson apparently planned to "de-sensitize" the infant, but the infant was removed before the experiment was finished
 
@@ -181,7 +189,6 @@ knitr::include_graphics("imgs/Little-albert.jpg")
 
 You can read [Watson's Behaviorism](https://archive.org/details/in.ernet.dli.2015.78133) by downloading it from the internet archive.
 
-
 :::
 
 ::: {.col-md-6}
@@ -197,11 +204,11 @@ knitr::include_graphics("imgs/Watson_Behaviorism.png")
 
 Watson follows Comte’s positivism to criticize psychology and replace it with behaviorism. 
 
-He argues that introspective psychology had a strong religious background (e.g, Comte’s theological stage), invoking God-concepts to explain the mind
+- He argues that introspective psychology had a strong religious background (e.g, Comte’s theological stage), invoking God-concepts to explain the mind
 
-That introspective psychology referred to abstract entities like consciousness which were unscientific (e.g., Comte’s metaphysical stage). 
+- That introspective psychology referred to abstract entities like consciousness which were unscientific (e.g., Comte’s metaphysical stage). 
 
-He then advanced behaviorism as the proper scientific discipline to study people and animals (the positive stage).
+- He then advanced behaviorism as the proper scientific discipline to study people and animals (the positive stage).
 
 ## Watson's S-R system
 
@@ -271,7 +278,7 @@ knitr::include_graphics("../../textbook/imgs/Watson_sweep.png")
 ### 1. Positivism {.greyout}
 ### 2. Watson's Behaviorism {.greyout}
 ### 3. Tolman's Behaviorism {.bolder}
-### 4. Hulls's Behaviorism {.greyout}
+### 4. Hull's Behaviorism {.greyout}
 ### 5. Skinner's Behaviorism {.greyout}
 
 ## E. C. Tolman (1886-1959)
@@ -448,12 +455,12 @@ Like Thorndike, Tolman and his student Tryon analogized the maze-running procedu
 
 They attempted to breed rats to perform better on mazes over generations. Tolman reported that selective breeding did show differences in maze performance in the first generation, but not in the second generation. His student Tryon repeated a selective breeding experiment over 11 years and many more generations and found similar results.
 
-##  Hulls's Behaviorism
+##  Hull's Behaviorism
 
 ### 1. Positivism {.greyout}
 ### 2. Watson's Behaviorism {.greyout}
 ### 3. Tolman's Behaviorism {.greyout}
-### 4. Hulls's Behaviorism {.bolder}
+### 4. Hull's Behaviorism {.bolder}
 ### 5. Skinner's Behaviorism {.greyout}
 
 ## Clark L. Hull
@@ -497,7 +504,7 @@ Where:
 ### 1. Positivism {.greyout}
 ### 2. Watson's Behaviorism {.greyout}
 ### 3. Tolman's Behaviorism {.greyout}
-### 4. Hulls's Behaviorism {.greyout}
+### 4. Hull's Behaviorism {.greyout}
 ### 5. Skinner's Behaviorism {.bolder}
 
 ## B. F. Skinner (1904-1990)
@@ -519,6 +526,12 @@ knitr::include_graphics("../../textbook/imgs/bf_skinner.jpg")
 
 :::
 ::::
+
+## The behavior of organisms (1938)
+
+You can read Skinner's book where he develops and advances his behaviorism [here](https://archive.org/details/in.ernet.dli.2015.191112).
+
+
 
 ## Operant Conditioning
 
@@ -670,15 +683,11 @@ knitr::include_graphics("imgs/Walden_Two_cover.jpg")
 :::
 ::::
 
-## Questions and Next class
+## What's next
 
-Next class is Monday, Oct 4th.
+Complete the quiz for this learning module on Blackboard, and/or the writing assignments by the due date.
 
-Reading is Chapter 7 on [Information Procesing](https://www.crumplab.com/cognition/textbook/information-processing.html)
-
-**Quiz 3 will be posted today, Wednesday, Sept 29th.** Quiz 3 will be open for 1 week, and will cover content on Associations and Behaviorism
-
-2 alternative assignments will be posted today on Blackboard as well...more to follow
+This is the last learning module before the first midterm
 
 
 
