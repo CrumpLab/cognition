@@ -78,9 +78,9 @@ navbar:
         href: articles/modules/L3_Eugenics_IQ.html
       - text: L4 Associations
         href: articles/modules/L4_Associations.html
-      - text: Not yet updated for Spring 2022
       - text: L5 Behaviorism
         href: articles/modules/L5_Behaviorism.html
+      - text: Not yet updated for Spring 2022
       - text: L6 Information Processing
         href: articles/modules/L6_Information_processing.html
       - text: L7 Memory I
@@ -112,9 +112,9 @@ navbar:
         href: slides/L5_IQ/L5_IQ.html
       - text: Lecture 6 - Associations
         href: slides/L6_Associations/L6_Associations.html
-      - text: Not yet updated for Spring 2022
       - text: Lecture 8 - Behaviorism
         href: slides/L8_Behaviorism/L8_Behaviorism.html
+      - text: Not yet updated for Spring 2022
       - text: Lecture 9 - Information Processing
         href: slides/L9_Information/L9_Information.html
       - text: Lecture 10 - Memory I
