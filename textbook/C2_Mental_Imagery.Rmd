@@ -25,11 +25,11 @@ knitr::kable(info)
 
 ## Chapter Overview
 
-This chapter discusses historical and current research on [mental imagery](#gls-mentalimagery). Overarching questions include: What is mental imagery and how does it work? What kind of explanation would answer this question? How have prior researchers tackled these questions, and what has been learned about mental imagery? And, how has society been influenced by research into mental imagery? Two major topics include individual differences in mental imagery and the mental imagery debate.
+This chapter discusses historical and current research on [mental imagery](#gls-mentalimagery). Overarching questions include: What is mental imagery and how does it work? What kind of explanation would answer this question? How did prior researchers tackle these questions, and what has been learned about mental imagery? And, how has society been influenced by research into mental imagery? Two major topics include individual differences in mental imagery and the mental imagery debate.
 
 ## What is mental imagery?
 
-Mental imagery is about the subjective experience of being in your own mind, especially while you are in the process of using your imagination. What can you *see* in your "mind's eye" when you use your imagination? Can you visualize a picture, scene, or movie in your mind? If so, how would you describe the quality of the mental image? Is it vivid and lifelike? If not, how would you describe your experience of using your imagination?
+Mental imagery is about the subjective experience of being in your own mind, especially while you are in the process of using your imagination. What can you *see* in your "mind's eye" when you use your imagination? Can you visualize a picture, scene, or movie in your mind? If so, how would you describe the quality of the mental image? Is it vivid and life-like? If not, how would you describe your experience of using your imagination?
 
 ::: floatrightbox50
 
@@ -39,11 +39,11 @@ Mental imagery is about the subjective experience of being in your own mind, esp
 
 When I close my eyes I have some limited visualization ability. I can imagine visual scenes, especially familiar places like my kitchen. My imagery seems to be more spatial than visual. I can feel the layout of the scene more easily than seeing visual features of the mental picture. Occasionally my mental imagery is vivid and life-like, especially in dreams that can appear just as visually compelling as real life.  So, according to me, my mental imagery ranges from fairly fuzzy to occasionally extremely vivid and life-like.
 
-The next section reviews evidence that people in general report a wide range of mental imagery abilities. For example, some people report the ability to effortlessly visualize extremely clear and vivid life-like images. Some people report medium visualizing ability; and, other people report having very little to no mental imagery.
+The next section reviews evidence that people report a wide range of mental imagery abilities. For example, some people report the ability to effortlessly visualize extremely clear and vivid life-like images. Some people report medium visualizing ability; and, other people report having very little to no mental imagery.
 
 ## Generating facts about mental imagery
 
-A first step to answering questions about mental imagery is to establish facts about the phenomena that we can trust and collectively agree upon. Establishing facts about mental imagery is difficult because it is a subjective phenomena. Nevertheless, the literature contains methods and findings relevant to mental imagery phenomena, and because of the subjective nature of the topic some skepticism is required for evaluating the results of the research. We begin with the method of [introspection](#gls-introspection).
+Answering questions about mental imagery requires establishing facts about the phenomena that we can trust and collectively agree upon. However, the subjective aspects of mental imagery present difficulties for objectively measurement. Nevertheless, the literature contains methods and findings relevant to mental imagery phenomena, and because of the subjective nature of the topic some skepticism is required for evaluating the results of the research. We begin with the method of [introspection](#gls-introspection).
 
 ### Methods of Introspection and Subjective report
 
@@ -125,7 +125,7 @@ Galton's methods were straightforward. He wanted to know how different people ex
 
 Establishing facts about mental imagery is difficult because a person's subjective experience of their own mental imagery is not directly observable by other people. In other domains of inquiry, direct observation can help people quickly establish a set of agreed upon facts. For example, a group of geologists can all look and point at a rock formation, and agree that the rock formation is there, and then proceed to further inspect and measure the rock formation to gather more directly observable facts about it. Galton's method of subjective report does have some directly observable measurements, such as the words that people used to describe their mental imagery; but, people's verbal statements are an indirect attempt to communicate an experience, and do not provide an objective lens for other observers to directly view the experience itself.
 
-Obtaining objective facts about subjective experience is undoubtedly a challenge, but there are tools developed since Galton to help make progress on the issues. One common requirement for establishing facts is to show that they are reproducible. In psychological research a reproducible finding is one that reliably occurs when an exact or conceptually similar study is repeated by other researchers. Let's take a look a the reproducibility of Galton's core claims and findings
+Obtaining objective facts about subjective experience is undoubtedly a challenge, but there are tools developed since Galton to help make progress on the issues. One common requirement for establishing facts is to show that they are reproducible. In psychological research a reproducible finding is one that reliably occurs when an exact or conceptually similar study is repeated by other researchers. The next section examines the reproducibility of Galton's core claims and findings.
 
 ### Reproducing Galton's mental imagery work
 
@@ -165,7 +165,7 @@ I think I can safely say that as of right now, there is no broadly accepted theo
 
 In the previous section, I mentioned that we skipped about a hundred years of research. And there were some general trends in psychology that shaped how researchers asked questions about mental imagery. Some of the general trends correspond to gradual transitions between "schools" of thought in psychology. At the beginning of psychology in the USA, Titchener (1867-1927) developed the "Structuralist" school of thought, and used careful, but subjective, introspection techniques to interrogate and discover individual components of cognition. Behaviorism was another school of thought that favored asking questions that could only be answered with objective measures of behavior. Some "hard-core" behaviorists like B.F. Skinner (1904-1990), claimed that internal processes of the mind were simply outside the boundaries of scientific inquiry, and that psychology should only study observable phenomena like behavior. So, whole topics like mental imagery received less attention by researchers. However, in the 1950s 60s, and 70s, there was a "cognitive revolution" of sorts, and more psychologists returned to asking questions about cognitive abilities, including mental imagery.
 
-Curiously, when mental imagery began re-appearing in scientific journals in the 1960s and 1970s, it came back as a potential explanation of other cognitive abilities. For example, by the 1960s there was already a very large literature on human memory abilities, which was often focused on examining factors that influence how well people can remember verbal stimuli like words. In 1963, Allan Paivio [@paivioLearningAdjectivenounPaired1963] considered the possibility that mental imagery might be involved in tasks where people attempt to remember words from a list. He suggested that experiencing strong mental imagery when reading a word could make it easier to remember that word later on. Similarly, other words might not be associated with strong mental imagery, and those kinds of words might be harder to remember later on. Paivio also provided some experimental evidence that was consistent with the idea that mental imagery is involved in memory abilities.
+When mental imagery returned as a research topic it also came back as a potential explanation of other cognitive abilities. For example, by the 1960s there was already a very large literature on human memory abilities, which was often focused on examining factors that influence how well people can remember verbal stimuli like words. In 1963, Allan Paivio [@paivioLearningAdjectivenounPaired1963] considered the possibility that mental imagery might be involved in tasks where people attempt to remember words from a list. He suggested that experiencing strong mental imagery when reading a word could make it easier to remember that word later on. Similarly, other words might not be associated with strong mental imagery, and those kinds of words might be harder to remember later on. Paivio also provided some experimental evidence that was consistent with the idea that mental imagery is involved in memory abilities.
 
 ### Paivio's concrete versus abstract memory task
 
@@ -194,7 +194,7 @@ Everyone was given pairs of words to remember for a later memory test. Each pair
 
 What makes a noun more concrete or abstract? I think this remains a good question, and the distinction isn't always so clear to me. The general idea was that concrete words are potentially more evocative, meaningful, and easier to mentally image than abstract words. For example, hearing or reading the word "Magician" might cause you to think of a colorful magician's hat, whereas the word "Discourse" might not bring to mind specific mental images. Paivio chose the words that he considered more concrete and more abstract when constructing the lists for his experiment.
 
-During the encoding phase, the experimenter read lists of 16 word pairs out loud, with a two second pause in between. Half of the word pairs had a concrete noun, and the other half had an abstract noun. During the memory test, the experimenter read out only the first word from each pair (the adjective), and participants were asked to remember the word it was paired with and write it down. If you heard the word "Amazing", and you were given the concrete pair, the correct answer would be to write down "Circus". If you were given the abstract pair then the correct answer would be "Crusade".
+During the encoding phase, the experimenter read lists of 16 word pairs out loud, with a two second pause in between. Half of the word pairs had a concrete noun, and the other half had an abstract noun. During the memory test, the experimenter read out only the first word from each pair (the adjective), and participants were asked to remember the word it was paired with and write it down. If you heard the word *Amazing* and you were given the concrete pair, then the correct answer would be to write down *Circus*. If you were given the abstract pair, then the correct answer would be *Crusade*.
 
 The empirical question was whether people would have better memory for the concrete nouns compared to the abstract nouns, and this is exactly what Paivio found. In the second experiment, he found that people remembered on average about 4.5 words correctly if they were concrete nouns, but only about 2 words correctly if they were abstract nouns. This is only a difference of 2.5 words, but the result seemed to be consistent across 120 university students, and it suggested that something about the concrete versus abstract quality of these words caused differences in memory performance for the words.
 
@@ -336,7 +336,7 @@ A term describing people who report experiencing very little to no mental imager
 
 #### Hyperphantasia {- #gls-hyperphantasia}
 
-A term describing people who report experiencing extremely vivid and lifelike mental imagery.
+A term describing people who report experiencing extremely vivid and life-like mental imagery.
 
 #### Introspection {- #gls-introspection}
 

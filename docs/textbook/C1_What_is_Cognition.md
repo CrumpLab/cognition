@@ -5,7 +5,7 @@
 
 | Word Count|Reading Time |Last Compiled           |
 |----------:|:------------|:-----------------------|
-|       6269|31.3 minutes |2022-01-10 14:22:34 GMT |
+|       6248|31.2 minutes |2022-02-09 22:21:27 GMT |
 
 ## Chapter Overview
 
@@ -138,7 +138,7 @@ The computational level refers to the overall goal of a process. For example, wh
 
 #### Representational or Algorithmic Level
 
-The representational or algorithmic level refers to the steps taken to achieve the computational goal. A The cooking metaphor developed later in the chapter is useful here. For example, you might have the goal (computational level) of making chocolate chip cookies. The ingredients and steps in the recipe you use to make chocolate chip cookies is a good example of the representational or algorithmic level of analysis. The representations refer to the inputs and outputs of the process, such as the raw ingredient inputs, and the cookie outputs. The algorithm refers to the step-by-step instructions for transforming the inputs to the output. A good recipe for making chocolate chips contains a reasonably precise high-level description of the ingredient list (representations), and the combination and cooking instructions (algorithm) to create tasty cookies.
+The representational or algorithmic level refers to the steps taken to achieve the computational goal. For example, you might have the goal (computational level) of making chocolate chip cookies. The ingredients and steps in the recipe is a good example of the representational or algorithmic level of analysis. The representations refer to the inputs and outputs of the process, such as the raw ingredient inputs, and the cookie outputs. The algorithm refers to the step-by-step instructions for transforming the inputs to the output. A good recipe for making chocolate chips contains a reasonably precise high-level description of the ingredient list (representations), and the combination and cooking instructions (algorithm) to create tasty cookies.
 
 To return to the domain of vision, photons are the representational inputs of eyeballs and digital cameras. The algorithm in either system refers to the steps, or way in which, the inputs are transformed into the electrical signals as outputs.
 
@@ -241,13 +241,13 @@ In our example, the method involved having skilled typists copy text while they 
 
 The results are a final product of the research cycle. A given research article may present many results depending on the complexity of the method. In general, the results refer to an analysis of whether the experimental manipulation influenced the measurements.
 
-In our example, typing performance was measured for four different keyboards. The paper presents the results in a graph, and shows different measures of typing performance, such as reaction time (time to start typing a word), interkeystroke interval (time between keystrokes), and error rate. The major result was that typing performance WAS influenced by the keyboard manipulation. Typists were fastest and most accurate on a regular keyboard, and always slower and less accurate on the keyboards with less tactile feedback.
+In our example, typing performance was measured for four different keyboards. Results were reported in a graph and showing different measures of typing performance, such as reaction time (time to start typing a word), inter-keystroke interval (time between keystrokes), and error rate. The major result was that typing performance WAS influenced by the keyboard manipulation. Typists were fastest and most accurate on a regular keyboard, and always slower and less accurate on the keyboards with less tactile feedback.
 
 ### I stands for Inferences
 
 Inferences may be the most important product of a research project. Inferences connect the results back to the original research questions. So, what inferences about the alternative explanations under investigation can we draw based on the results of the research? Inferences are possible if the methods do a good job of testing the logic of the alternatives.
 
-In our example, the logic of the internal keyboard map idea suggested that manipulations to the feeling of the keyboard should not influence typing performance. However, the results of the study showed that reducing tactile feedback from the keyboard cause slower and more error prone typing. So, one inference from the study could be that typists do not rely upon an internal map of the keyboard.
+In our example, the logic of the internal keyboard map idea suggested that manipulations to the feeling of the keyboard should not influence typing performance. However, the results of the study showed that reducing tactile feedback from the keyboard causes slower and more error-prone typing. So, one inference from the study could be that typists do not rely upon an internal map of the keyboard.
 
 ## Writing a QALMRI assignment
 
@@ -283,7 +283,7 @@ The specific question is how do typists know where the keys are on the QWERTY ke
 
 ### What is the logic?
 
-1.  If typists have an internal map of the keyboard, then they should be able guide their fingers to correct locations based on the map alone, and no feedback from the environment. For example, if we could measure “air-typing” without a keyboard, then typists should still be able to put their fingers in the correct locations even when the keyboard is missing because they are relying on their internal map.
+1.  If typists have an internal map of the keyboard, then they should be able to guide their fingers to correct locations based on the map alone and no feedback from the environment. For example, if we could measure “air-typing” without a keyboard, then typists should still be able to put their fingers in the correct locations even when the keyboard is missing because they are relying on their internal map.
 
 2.  If typists do not use an internal map of the keyboard, then their finger movements should become slow and inaccurate when they try to type without a keyboard, or in other conditions that change the normal feel of the keyboard, and thereby remove the cues that typists use to direct their fingers.
 

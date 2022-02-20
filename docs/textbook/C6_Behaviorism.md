@@ -5,7 +5,7 @@
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|      11996|60 minutes   |
+|      11995|60 minutes   |
 
 ## Overview
 
@@ -66,7 +66,7 @@ Robert Yerkes was a eugenicist and APA president who conducted the alpha-beta in
 
 The more immediate backdrops to behaviorism were covered in the last chapter, these are the ideas of associationism and the discovery of classical conditioning by Pavlov. Pavlov's extended lectures on his work were translated in to English in 1927, however his methods were introduced to American psychologists much earlier. Pavlov won the Nobel prize in 1904 for his conditioning work in physiology; and in 1909, Yerkes and Margulis [@yerkesMethodPawlowAnimal1909] published descriptions of his methods in "The method of Pawlow in animal psychology" ^[In this publication Ivan P. Pavlov was written as J. P. Pawlow.].
 
-Pavlov's methods and findings arrived in America at the same time that psychologists were aiming to establish themselves as a real science. Psychologists were already investigating associative processes in animal cognition (e.g., Thorndike), and humans using reaction times (e.g., Cattell). And, perhaps the physiological nature of Pavlov's methods appeared attractive as a "more scientific" way to measure associative learning. It is certainly the case that Pavlovian conditioning was inspirational to [John B. Watson](https://en.wikipedia.org/wiki/John_B._Watson) (1878-1958), the "arch-prophet" ^[according to Tolman] of Behaviorism. As we will cover shortly, Watson's behaviorism consisted of grand claims that psychology should become a science of stimulus-response learning.
+Pavlov's methods and findings arrived in America at the same time that psychologists were trying to establish themselves as real scientists. Psychologists were already investigating associative processes in animal cognition (e.g., Thorndike), and humans using reaction times (e.g., Cattell). And, perhaps the physiological nature of Pavlov's methods appeared attractive as a "more scientific" way to measure associative learning. It is certainly the case that Pavlovian conditioning was inspirational to [John B. Watson](https://en.wikipedia.org/wiki/John_B._Watson) (1878-1958), the "arch-prophet" ^[according to Tolman] of Behaviorism. As we will cover shortly, Watson's behaviorism consisted of grand claims that psychology should become a science of stimulus-response learning.
 
 In the remaining sections, instances of behaviorism are explored further by examining prominent individuals and their individual flavors of behaviorism. There were/are many behaviorists, but this chapter limits discussion to J. B. Watson, [Edward Tolman](https://en.wikipedia.org/wiki/Edward_C._Tolman) (1886–1959), [Clark L. Hull](https://en.wikipedia.org/wiki/Clark_L._Hull) (1884-1952) and [Burrhus F. Skinner](https://en.wikipedia.org/wiki/B._F._Skinner) (1904–1990).
 
