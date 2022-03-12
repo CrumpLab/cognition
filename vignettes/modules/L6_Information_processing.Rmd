@@ -132,4 +132,16 @@ When you are ready complete any or all of the following assignments.
 Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
 
 
+### Hick-Hyman law
+
+The textbook chapter discussed choice reaction time experiments and the Hick-Hyman law. Your writing assignment is to explain the following:
+
+1. Describe what the set-size effect refers to in a choice-reaction time experiment.
+
+2. Describe what the Hick-Hyman law refers to.
+
+3. Explain the repetition priming confound, and describe how repetition priming could explain performance in choice-reaction time tasks showing evidence of the Hick-Hyman law. (Hint review section 7.8.7.4 in the textbook)
+
+5 points
+
 

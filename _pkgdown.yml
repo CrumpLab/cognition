@@ -80,9 +80,9 @@ navbar:
         href: articles/modules/L4_Associations.html
       - text: L5 Behaviorism
         href: articles/modules/L5_Behaviorism.html
-      - text: Not yet updated for Spring 2022
       - text: L6 Information Processing
         href: articles/modules/L6_Information_processing.html
+      - text: Not yet updated for Spring 2022
       - text: L7 Memory I
         href: articles/modules/L7_Memory_I.html
       - text: L8 Memory II
@@ -114,9 +114,9 @@ navbar:
         href: slides/L6_Associations/L6_Associations.html
       - text: Lecture 8 - Behaviorism
         href: slides/L8_Behaviorism/L8_Behaviorism.html
-      - text: Not yet updated for Spring 2022
       - text: Lecture 9 - Information Processing
         href: slides/L9_Information/L9_Information.html
+      - text: Not yet updated for Spring 2022
       - text: Lecture 10 - Memory I
         href: slides/L10_Memory_1/L10_Memory_1.html
       - text: Lecture 11 - Memory II

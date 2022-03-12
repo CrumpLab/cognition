@@ -23,13 +23,14 @@ knitr::opts_chunk$set(echo = FALSE,
 library(fontawesome)
 ```
 
-## Reminders from last class
+## Reminders
 
 Reading is Chapter 7 on [Information Processing](https://www.crumplab.com/cognition/textbook/information-processing.html)
 
-**Your midterm grade is posted on Blackboard**
+**Grades**
 
-**Quiz 5 will begin on Wednesday** 
+**Discussion Boards**
+
 
 ##  Roadmap
 
@@ -130,9 +131,9 @@ Or, with a certain speed?
 :::: {.row}
 ::: {.col-md-6}
 
-measured nerve conduction speeds in sciatic nerve of a frog
+Measured nerve conduction speeds in sciatic nerve of a frog
 
-range of 24.6 - 38.4 meters per second
+Range of 24.6 - 38.4 meters per second
 
 
 :::
@@ -308,7 +309,7 @@ What happens if two processing stages can both occur in parallel at the same tim
 
 Interest in reaction time studies was revived in the 1950s
 
-During this time period, the metaphor for explaining cognitive processes shifts from the assembly line metaphor, to a telecommunications metaphor
+And, the metaphor for explaining cognitive processes shifts from an assembly line metaphor to a telecommunications metaphor
 
 ## PRP effect
 
@@ -392,11 +393,13 @@ Measurement tools from information theory became popular in Cognitive Psychology
 
 An information channel has three parts:
 
-a sender, a channel, and a receiver
+A sender, a channel, and a receiver
 
-two questions: 
+Two questions: 
 
-how much information was sent? How much was received?
+How much information was sent? 
+
+How much was received?
 
 :::
 
@@ -498,7 +501,10 @@ E.g., how much "information" can you process?
 
 ## Hick-Hyman Law
 
-A promising early demonstration suggesting that *choice reaction time* performance may be fundamentally governed by the amount of information in a set of choice stimuli
+A promising early demonstration suggesting that **choice reaction time** performance may be fundamentally governed by the amount of information in a set of choice stimuli.
+
+Specifically, choice reaction time increases a linear function of the information in the set of choice stimuli.
+
 
 ## Choice Reaction Time Task
 
@@ -532,17 +538,15 @@ Why does mean reaction time go up when the number of possible choices goes up?
 
 ## Hick and Hyman's idea
 
-Maybe people were sensitive to the amount of information in the choice set?
+Perhaps people were responding to the amount of information in the choice set, and not simply the number of the alternatives.
 
-Not simply being influenced by the number of alternatives
-
-But...the predictability of the alternatives...
+If people were responding to the amount information, then they should be sensitive to the predictability of individual alternatives.
 
 ## Confounds
 
-Prior research typically presented alternatives randomly to participants
+Choice stimuli were usually presented randomly to participants.
 
-This meant the number of alternatives and the amount of information in a set was confounded
+This meant the number of alternatives and the amount of information in a set was confounded.
 
 ## Deconfounding alternatives and information
 
@@ -554,7 +558,7 @@ Hyman, R. (1953). Stimulus information as a determinant of reaction time. Journa
 
 ## Experiment 1
 
-The first experiment was a choice-reaction time task with 8 different conditions, corresponding to the number of alternatives, from 1 to 8. 
+A choice-reaction time task with 8 different conditions, corresponding to the number of alternatives in a set, from 1 to 8. 
 
 In each condition, all stimuli were presented randomly.
 
@@ -584,11 +588,11 @@ Choice reaction time increases linearly as a function of the information (bits) 
 
 ## Implications for Behaviorism
 
-- Many behaviorists were interested in understanding lawful regularities connecting a stimulus with a subsequent response
+- Behaviorists looked for lawful regularities connecting a stimulus with a subsequent response
 
 - Hick-Hyman law showed a case where responses to a stimulus did not depend on the stimulus that was presented!
 
-- Instead, the speed of responding to the presented stimulus apparently depended on the predictability of the other stimuli that could have been presented
+- People were not only responding to the stimulus in front of them, their performance was also determined by the relative predictability of other stimuli that were not presented.
 
 ## Debate about Hick-Hyman Law
 
@@ -606,13 +610,11 @@ Hick's binary logic test hypothesis...
 
 Kornblum's priming explanations
 
-## Questions and Next class
+## What's next
 
-Next class is Wednesday, Oct 20th.
+Complete the quiz for this learning module on Blackboard, and/or the writing assignments by the due date.
 
-Reading is Chapter 8 on [Memory I](https://www.crumplab.com/cognition/textbook/memory-i.html)
-
-**Quiz 5 will begin on Wednesday, Oct 20th** 
+The next learning learning module is Memory I
 
 
 

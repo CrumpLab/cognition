@@ -57,7 +57,7 @@ Note: there is an assignment around this podcast if you are interested in listen
 We're going back to the period roughly between 1910s and 1940s, when the school of behaviorism was a dominant perspective in American psychology.
 
 ```{r}
-knitr::include_graphics("imgs/rewind.gif")
+#knitr::include_graphics("imgs/rewind.gif")
 ```
 
 
