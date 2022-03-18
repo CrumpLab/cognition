@@ -90,13 +90,25 @@ Once you have reached 60 points worth of assignments, you begin earning extra-cr
 
 You can earn up to 10 extra credit points in the course.
 
+#### Extra-credit super bonus level (NEW 3/17/22)
+
+If you max out your extra-credit by getting 60 regular points, and 10 extra points (see above), then congratulations! You have engaged deeply in course content and you have unlocked the new rules that could give you a higher grade. The new rules mean more of your grade can come from extra credit, and less of your grade can come from the exams. You still have to take the exams, but they will be low stress because your grade will not depend heavily on how you perform on the exams.
+
+Here is what happens when you reach 60 regular points, plus 10 extra credit points in this course:
+
+1. NEW RATIO: All of your existing extra-credit is recomputed using a 2.5 to 1 ratio. For example, if you had accrued 50 regular points converted to 10 extra credits at a 5 to 1 ratio (50/5 = 10), then those points will now be converted at a 2.5 to 1 ratio (50/2.5 = 20). This means your extra credits just increased from 10 to 20.
+
+2. HIGHER MAX: Your extra credit total is increased from 10 points to a maximum of 40 points. This means that 100% of your whole course grade can come from quizzes/assignments/discussion board etc. You need to do at least 60 points worth, plus enough additional assignments to get 40 points of extra credit.
+
+3. NEW EXAM REQUIREMENT: To get the super bonus credit you are required to take the midterms and final. These exams will now be low stress, and will not prevent you from getting your desired grade.
+
 ### Exams
 
 There are two midterms and a final exam. All exams are worth 13.33 points each, for a total of 40 points toward the final grade. The exam format will be similar to the quizzes. **Taking the quizzes is practice for the exams**. The exams are NOT cumulative. Each exam covers the material from the preceding weeks.
 
 ### Discussion Boards (NEW 2/18/22)
 
-There will be opportunity to gain points through participation in discussion boards on Blackboard. Points gained through discussion board participation will count toward the 60 point maximum for quizzes and assignments, or will add toward the 10 point extra credit maximum if you have already reached 60 points. See instructions on blackboard for individual discussion baords.
+There will be opportunity to gain points through participation in discussion boards on Blackboard. Points gained through discussion board participation will count toward the 60 point maximum for quizzes and assignments, or will add toward the 10 point extra credit maximum if you have already reached 60 points. See instructions on blackboard for individual discussion boards.
 
 ### Grading
 
@@ -105,11 +117,14 @@ There are 12 learning modules and three exams. The grading rubric is below:
 | Assignment |  Points| Total|
 |:----------|--------:|-------:|
 | 12 Weekly Modules | 5+ | up to 60|
-| Extra Credit | Over 60/5 | up to 10|
+| Extra Credit | see above rules | up to 10*|
+| SUPER BONUS  |see above rules | up to 40*|
 | Midterm 1 | 13.33 | 13.33 |
 | Midterm 2 | 13.33 | 13.33 |
 | Final Exam | 13.33  | 13.33|
 |||100|
+
+* See the rules for extra credit and super bonus that appear in the previous sections.
 
 Percentage grades are converted to letter grades according to the following rubric.
 
