@@ -23,11 +23,9 @@ knitr::opts_chunk$set(echo = FALSE,
 library(fontawesome)
 ```
 
-## Reminders from last class
+## Reminders
 
 Reading is Chapter 8 on [Memory I](https://www.crumplab.com/cognition/textbook/memory-i.html)
-
-**Quiz 5 is open until Tuesday, 11:59pm** 
 
 ##  Questions about memory
 
@@ -779,13 +777,10 @@ knitr::include_graphics("../../textbook/imgs/Tzeng_1973.jpg")
 
 
 
-## Questions and Next class
+## What's next?
 
-Next class is Monday, Nov 1.
+Take the quiz and complete any assignments for the learning module by the due date. 
 
-Reading is Chapter 9 on [Memory II](https://www.crumplab.com/cognition/textbook/memory-ii.html)
-
-
-
+The next learning module is Memory II.
 
 
