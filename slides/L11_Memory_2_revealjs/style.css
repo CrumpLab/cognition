@@ -36,15 +36,18 @@ a:visited {
   padding-top: 50px!important;
 }
 
-.center{
+.center p {
+  text-align: center !important;
+}
+
+.middle p {
+  margin-top: 25% !important;
+  margin-bottom: 25% !important;
   text-align: center;
 }
 
-.middle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+.reveal section .bigger p{
+  font-size: 200% !important;
 }
 
 .reveal h1.title {
@@ -158,6 +161,14 @@ h3 {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 150%;
   font-weight: 500;
+}
+
+.col-md-6 {
+ /* width: 90%!important;*/
+ padding-right: 5%!important;
+  margin-left: 0%;
+  margin-right: 0%!important;
+
 }
 
 .reveal p {

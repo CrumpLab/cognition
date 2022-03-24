@@ -24,9 +24,7 @@ library(fontawesome)
 
 ## Reminders from last class
 
-Reading is Chapter 9 on [Memory I](https://www.crumplab.com/cognition/textbook/memory-ii.html)
-
-Quiz 6 is open until Thursday @ 11:59pm
+Reading is Chapter 9 on [Memory II](https://www.crumplab.com/cognition/textbook/memory-ii.html)
 
 #  Measuring Memory
 
@@ -38,11 +36,14 @@ Quiz 6 is open until Thursday @ 11:59pm
 
 Memory processes and abilities are measured with memory tasks
 
-Memory tasks are imperfect, and do not necessarily directly measure a memory process
+>- Memory tasks are imperfect
+
+>- Need to critically evaluate how performance in a task relates to hypothesized memory processes
 
 # Recall vs recognition
 
 :::: {.row}
+::: {.fragment}
 ::: {.col-md-6}
 
 
@@ -58,7 +59,9 @@ Recall phase:
 >- e.g., write down as many words as you can remember
 
 :::
+:::
 
+::: {.fragment}
 ::: {.col-md-6}
 
 <span class = "greyed_box"> Recognition Task </span>
@@ -72,16 +75,131 @@ Recognition phase:
 >- view one item at a time, judge whether the item is OLD (shown before) or NEW (not shown before)
 
 :::
+:::
 ::::
+
+# Example Memory Task
+
+Let's do a quick demo
+
+We will do a memory test for words
+
+Before we start make sure you have a way to write down answers
+
+# Encoding Phase
+
+I am about to read 15 words, one at a time
+
+Try to remember each word as best as you can
+
+# Listen to each word
+
+```{r}
+# bed rest awake tired dream wake snooze blanket doze slumber snore nap peace yawn drowsy
+```
+
+# Recall test
+
+Spend 1 minute and write down as many individual words as you can remember
+
+I will show you the list of words at the end and you can count how many you correctly recalled
+
+# Recognition task
+
+
+
+In a recognition test participants see a stimulus and judge whether the stimulus is OLD or NEW?
+
+# Is this word OLD or NEW?
+
+::: {.center .middle .bigger}
+snooze
+:::
+
+# Is this word OLD or NEW?
+
+::: {.center .middle .bigger}
+piano
+:::
+
+# Is this word OLD or NEW?
+
+::: {.center .middle .bigger}
+sleep
+:::
 
 # Recall task performance
 
-Does failing to recall an item mean you don't have a memory for it?
+::: {.row}
+::: {.col-md-6}
+
+The list of words:
+
+bed rest awake tired dream wake snooze blanket doze slumber snore nap peace yawn drowsy
+
+::: {.fragment}
+>- How many words did you recall correctly?
+:::
+
+:::
+
+::: {.col-md-6}
+
+::: {.fragment}
+>- Did you write down any words that were not on the list?
+:::
+
+::: {.fragment}
+>- Does failing to recall an item mean you don't have a memory for it?
+:::
+
+:::
+:::
 
 
 # Recognition task performance
 
-Does near 100% accuracy on a recognition memory test mean you have good memory for the old items?
+How did you do on the recognition task?
+
+>- Performance can depend on how easy the NEW items are.
+
+>- People can get 100% correct on all OLD items, just by saying OLD every time...
+
+# Memory Phenomena
+
+In the next section we are going to explore laboratory memory phenomena
+
+These are experimental manipulations known influence memory
+
+# Example 1: False-memory
+
+:::: {.row}
+::: {.col-md-6}
+
+Did you recall or recognize this word?
+
+::: {.center .middle .bigger}
+sleep
+:::
+
+:::
+
+::: {.col-md-6}
+
+If you did, then you just had a false-memory.
+
+>- sleep was not on the list!
+
+>- The words in the list were manipulated to cause this effect
+
+>- scroll down for citation
+
+:::
+::::
+
+## DRM paper
+
+Roediger, H. L., & McDermott, K. B. (1995). Creating false memories: Remembering words not presented in lists. Journal of experimental psychology: Learning, Memory, and Cognition, 21(4), 803.
 
 
 #  Memory Phenomena
@@ -92,7 +210,7 @@ Does near 100% accuracy on a recognition memory test mean you have good memory f
 
 # Memory Phenomena
 
-Memory phenomena are experimental findings showing that some manipulation changes performance in a memory task
+We will review experimental findings showing that some manipulation changes performance in a memory task
 
 Example:
 
@@ -101,13 +219,15 @@ Example:
 
 # Many Memory Phenomena
 
-The textbook reviews several examples of manipulations that are known to influence memory performance, let's review some of them
+The textbook reviews several phenomena
+
+We review them here
 
 # Picture Superiority effect
 
 Is your memory better for pictures than other things?
 
-Gehring, R. E., Toglia, M. P., & Kimble, G. A. (1976). Recognition memory for words and pictures at short and long retention intervals. Memory & Cognition, 4(3), 256–260. https://doi.org/bmxw8f
+>- Gehring, R. E., Toglia, M. P., & Kimble, G. A. (1976). Recognition memory for words and pictures at short and long retention intervals. Memory & Cognition, 4(3), 256–260. https://doi.org/bmxw8f
 
 ## Picture Superiority effect
 
@@ -154,12 +274,20 @@ knitr::include_graphics("imgs/Frequency_results.png")
 
 # Presentation Rate and Spacing
 
+How does study time influence word memory?
+
+What about spacing out your practice?
+
+>- Melton, A. W. (1970). The situation with respect to the spacing of repetitions and memory. Journal of Verbal Learning and Verbal Behavior, 9(5), 596–606. https://doi.org/cpd74k
+
+## Presentation Rate and Spacing
+
 :::: {.row}
 ::: {.col-md-6}
 
-The encoding phase varied how long participants viewed each word, and used presentation rates of 1.3, 2.3, and 4.3 seconds.
+Words were presented for 1.3, 2.3, and 4.3 seconds.
 
-Repetitions were separated, or spaced out, by 0, 2, 4, 8, 20, or 40 intervening words. 
+Repetitions of the same word were separated, or spaced out, by 0, 2, 4, 8, 20, or 40 intervening words. 
 
 :::
 
@@ -169,36 +297,16 @@ Repetitions were separated, or spaced out, by 0, 2, 4, 8, 20, or 40 intervening 
 knitr::include_graphics("../../textbook/imgs/Melton_1970.jpg")
 ```
 
-Melton, A. W. (1970). The situation with respect to the spacing of repetitions and memory. Journal of Verbal Learning and Verbal Behavior, 9(5), 596–606. https://doi.org/cpd74k
 
 :::
 ::::
 
-# Retroactive interference
+# Pro-active interference (PI)
 
-Retroactive interference refers to cases when subsequent learning activities in the future influence prior learning from the past. 
+Proactive interference happens when prior learning activities interfere with current learning activities.
 
-## RI example
-
-:::: {.row}
-::: {.col-md-6}
-
-In a first phase (called original learning), subjects encoded 24 nonsense syllables and were then given a memory test. In a second phase (called interpolated learning), subjects in the experimental group were given 24 new nonsense syllables to remember, and subjects in a control group read the New Yorker magazine instead. In the final phase, everyone was retested for the items from the first list.
-
-:::
-
-::: {.col-md-6}
-
-```{r, out.width="100%"}
-knitr::include_graphics("imgs/RI_results.png")
-```
-
-:::
-::::
-
-# Pro-active interference
-
-Proactive interference happens when previous learning activities from the past interferes with current learning activities in the present. 
+>- The more lists of words you already learned...
+>- The harder it gets to learn new lists of words
 
 ## PI example from Underwood
 
@@ -213,6 +321,33 @@ Underwood, B. J. (1957). Interference and forgetting. Psychological Review, 64(1
 
 ```{r, out.width="100%"}
 knitr::include_graphics("../../textbook/imgs/Underwood_1957.png")
+```
+
+:::
+::::
+
+
+# Retroactive interference (RI)
+
+Retroactive interference happens when new learning activities interfere memory for past learning activities.
+
+## RI example
+
+:::: {.row}
+::: {.col-md-6}
+
+>- phase 1: learn 24 nonsense syllables and memory test
+>- GROUP A phase 2: learn 24 new nonsense syllabes
+>- GROUP B phase 2: read magazine
+>- phase 3: final memory test for first list
+
+
+:::
+
+::: {.col-md-6}
+
+```{r, out.width="100%"}
+knitr::include_graphics("imgs/RI_results.png")
 ```
 
 :::
