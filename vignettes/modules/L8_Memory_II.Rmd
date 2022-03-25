@@ -43,7 +43,7 @@ knitr::include_graphics("imgs/logo.png")
 ::: {.col-md-10}
 :::: {.card-body}
 
-### Chapter 8: Memory II
+### Chapter 9: Memory II
 Memory research beyond the 1960s, including a focus on tasks, phenomena, and principles of memory.
 
 <a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/textbook/memory-ii.html" role="button">Read</a>
@@ -55,7 +55,7 @@ Memory research beyond the 1960s, including a focus on tasks, phenomena, and pri
 
 ## Watch/Listen {.mt-5}
 
-There are two mini-lectures for this module. 
+There are three mini-lectures for this module. 
 
 :::::{.card .border .border-2 .border-info .mb-3}
 :::: {.row .g-0}
@@ -68,7 +68,9 @@ knitr::include_graphics("imgs/logo.png")
 
 Lecture 1
 
-Memory II
+Memory Measurement
+
+16 min
 
 ::::
 :::
@@ -77,7 +79,7 @@ Memory II
 :::: {.card-body}
 
 ::: {.ratio .ratio-16x9}
-<iframe class="embed-responsive-item" src="" style="width:100%; height: 100%;" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6pRGXVmMFJ8" style="width:100%; height: 100%;" allowfullscreen></iframe>
 :::
 
 ::::
@@ -97,7 +99,9 @@ knitr::include_graphics("imgs/logo.png")
 
 Lecture 2
 
-TBD
+Memory Phenomena
+
+40 min
 
 ::::
 :::
@@ -106,13 +110,44 @@ TBD
 :::: {.card-body}
 
 ::: {.ratio .ratio-16x9}
-<iframe class="embed-responsive-item" src="" style="width:100%; height: 100%;" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/aeVT-tpaGWk" style="width:100%; height: 100%;" allowfullscreen></iframe>
 :::
 
 ::::
 :::
 ::::
 :::::
+
+:::::{.card .border .border-2 .border-info}
+:::: {.row .g-0}
+::: {.col-md-2}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/logo.png")
+```
+
+Lecture 3
+
+Memory Principles
+
+20 min
+
+::::
+:::
+
+::: {.col-md-10}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OehRnKWIQhU" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
 
 ## Engage {.mt-5}
 
@@ -122,6 +157,19 @@ When you are ready complete any or all of the following assignments.
 2. Writing: (5 points, instructions below, submit on blackboard)
 
 Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
+
+
+### How to study better? (5 points)
+
+This learning module reviewed several memory phenomena and principles. The phenomena show examples of factors that can improve and/or interfere with memory. For example, making information meaningful can improve memory for the information. The principles describe guiding ideas that impact memory performance. For example, context cues can help memory, but only when the contexts are meaningfully processed during encoding (the encoding specificity principles).
+
+In at least 250 words, your assignment is to describe how you could apply these phenomena and principles to improve your personal study habits for learning and retaining new information in general. Try to include or consider how you could include as many of the phenomena/principles as possible. 
+
+Example: You could try to answer the following kinds of questions:
+
+How could a spacing manipulation improve my study habits? How could the time spent studying improve my study habits? How could context-effects improve my study habits? How could the levels of processing principle improve myt study habits? etc.
+
+
 
 
 
