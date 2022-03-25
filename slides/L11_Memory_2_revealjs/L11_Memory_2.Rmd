@@ -179,7 +179,7 @@ How did you do on the recognition task?
 
 In the next section we are going to explore laboratory memory phenomena
 
-These are experimental manipulations that influence memory performace
+These are experimental manipulations that influence memory performance
 
 # Example 1: False-memory
 

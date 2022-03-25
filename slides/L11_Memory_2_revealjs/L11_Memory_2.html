@@ -628,7 +628,7 @@ document.getElementsByTagName('head')[0].appendChild(style);
 <section id="memory-phenomena" class="title-slide slide level1">
 <h1>Memory Phenomena</h1>
 <p>In the next section we are going to explore laboratory memory phenomena</p>
-<p>These are experimental manipulations that influence memory performace</p>
+<p>These are experimental manipulations that influence memory performance</p>
 </section>
 
 <section>
@@ -1152,6 +1152,8 @@ document.getElementsByTagName('head')[0].appendChild(style);
         controls: true,
         // Display a presentation progress bar
         progress: true,
+        // Display the page number of the current slide
+        slideNumber: false,
         // Push each slide change to the browser history
         history: true,
         // Enable keyboard shortcuts for navigation
@@ -1162,8 +1164,15 @@ document.getElementsByTagName('head')[0].appendChild(style);
         center: false,
         // Enables touch navigation on devices with touch input
         touch: true,
+        // Loop the presentation
+        loop: false,
+        // Change the presentation direction to be RTL
+        rtl: false,
         // Turns fragments on and off globally
         fragments: true,
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
         // Flags if we should show a help overlay when the questionmark
         // key is pressed
         help: true,
@@ -1173,6 +1182,10 @@ document.getElementsByTagName('head')[0].appendChild(style);
         autoSlide: 0,
         // Stop auto-sliding after user input
         autoSlideStoppable: true,
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
         // Transition style
         transition: 'fade', // none/fade/slide/convex/concave/zoom
         // Transition speed
