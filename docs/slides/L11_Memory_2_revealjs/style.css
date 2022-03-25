@@ -50,6 +50,18 @@ a:visited {
   font-size: 200% !important;
 }
 
+.reveal section .smaller_75 p{
+  font-size: 75% !important;
+}
+
+.reveal section .smaller_50 p{
+  font-size: 50% !important;
+}
+
+.reveal section .smaller_25 p{
+  font-size: 25% !important;
+}
+
 .reveal h1.title {
   padding-left: 20pt;
   padding-right: 0;
@@ -201,7 +213,6 @@ h3 {
   width: 90%;
   height: 100%;
   color: black;
-  background-color: white;
   /*font-family: "Helvetica", sans-serif;*/
   font-weight: 400;
   font-family: 'Raleway', sans-serif;
@@ -234,33 +245,61 @@ table {
   font-size: 100%!important;
 }
 
-.highlighted_box {
+.pop_box_1 p, .pop_span_1 {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
-  margin-bottom: 20px;
-  line-height: 1.35;
-  width: 100%;
-  height: 100%;
+  margin-bottom: 5%;
+  width: 90%;
   color: black;
   background-image: linear-gradient(to right, #fff, var(--primary));
   /*font-family: "Helvetica", sans-serif;*/
   font-weight: 400;
+  border-radius: 5px;
   font-family: 'Raleway', sans-serif;
-  font-size: 200%!important;
+  font-size: 150%!important;
   text-align: left;
 }
 
-.greyed_box {
-   margin: 0 0 0 0;
+.pop_box_2 p, .pop_span_2 {
+  margin: 0 0 0 0;
   padding: 0 0 0 0;
-  margin-bottom: 20px;
-  line-height: 1.35;
-  width: 100%;
-  height: 100%;
+  margin-bottom: 5%;
+  width: 90%;
+  color: black;
+  background-image: linear-gradient(to right, #fff, var(--secondary));
+  /*font-family: "Helvetica", sans-serif;*/
+  font-weight: 400;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 150%!important;
+  text-align: left;
+}
+
+.pop_box_3 p, .pop_span_3 {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  margin-bottom: 5%;
+  width: 90%;
+  color: black;
+  background-image: linear-gradient(to right, #fff, var(--third));
+  /*font-family: "Helvetica", sans-serif;*/
+  font-weight: 400;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 150%!important;
+  text-align: left;
+}
+
+.grey_box p, .grey_span {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  margin-bottom: 5%;
+  width: 90%;
   color: black;
   background-image: linear-gradient(to right, #fff, grey)!important;
   /*font-family: "Helvetica", sans-serif;*/
   font-weight: 400;
+  border-radius: 5px;
   font-family: 'Raleway', sans-serif;
   font-size: 150%!important;
   text-align: left;

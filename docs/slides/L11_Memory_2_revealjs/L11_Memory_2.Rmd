@@ -22,15 +22,25 @@ knitr::opts_chunk$set(echo = FALSE,
 library(fontawesome)
 ```
 
-## Reminders from last class
+# Reminders from last class
 
 Reading is Chapter 9 on [Memory II](https://www.crumplab.com/cognition/textbook/memory-ii.html)
 
-#  Measuring Memory
+#  Roadmap
 
-### 1. Measuring Memory {.bolder}
-### 2. Memory Phenomena {.greyout}
-### 3. Memory Principles {.greyout}
+::: {.pop_box_2}
+1 Measuring Memory
+:::
+
+::: {.grey_box}
+2 Memory Phenomena 
+:::
+
+::: {.grey_box}
+3 Memory Principles
+:::
+
+
 
 # Measuring Memory
 
@@ -47,7 +57,7 @@ Memory processes and abilities are measured with memory tasks
 ::: {.col-md-6}
 
 
-<span class = "greyed_box"> Recall Task </span>
+<span class = "pop_span_2"> Recall Task </span>
 
 Encoding phase: 
 
@@ -64,7 +74,7 @@ Recall phase:
 ::: {.fragment}
 ::: {.col-md-6}
 
-<span class = "greyed_box"> Recognition Task </span>
+<span class = "pop_span_3"> Recognition Task </span>
 
 Encoding phase: 
 
@@ -169,7 +179,7 @@ How did you do on the recognition task?
 
 In the next section we are going to explore laboratory memory phenomena
 
-These are experimental manipulations known influence memory
+These are experimental manipulations that influence memory performace
 
 # Example 1: False-memory
 
@@ -201,33 +211,46 @@ If you did, then you just had a false-memory.
 
 Roediger, H. L., & McDermott, K. B. (1995). Creating false memories: Remembering words not presented in lists. Journal of experimental psychology: Learning, Memory, and Cognition, 21(4), 803.
 
+#  Roadmap
 
-#  Memory Phenomena
+::: {.grey_box}
+1 Measuring Memory
+:::
 
-### 1. Measuring Memory {.greyout}
-### 2. Memory Phenomena {.bolder}
-### 3. Memory Principles {.greyout}
+::: {.pop_box_2}
+2 Memory Phenomena 
+:::
 
-# Memory Phenomena
-
-We will review experimental findings showing that some manipulation changes performance in a memory task
-
-Example:
-
->- Ebbinghaus **manipulated** the delay between learning and re-learning lists of nonsense syllables
->- He showed the **phenomena** of forgetting by measuring changes in re-learning rates across delays
+::: {.grey_box}
+3 Memory Principles
+:::
 
 # Many Memory Phenomena
 
-The textbook reviews several phenomena
+The textbook reviews several memory phenomena
 
 We review them here
+
+# Memory Phenomena definition
+
+:::{.fragment}
+Really general definition:
+
+> Anything to do with human and animal memory
+:::
+
+:::{.fragment}
+Laboratory definition:
+
+> Changes in memory measurements resulting from experimental manipulations
+:::
 
 # Picture Superiority effect
 
 Is your memory better for pictures than other things?
 
 >- Gehring, R. E., Toglia, M. P., & Kimble, G. A. (1976). Recognition memory for words and pictures at short and long retention intervals. Memory & Cognition, 4(3), 256–260. https://doi.org/bmxw8f
+>- navigate down for next slide
 
 ## Picture Superiority effect
 
@@ -252,7 +275,10 @@ knitr::include_graphics("imgs/Gehring_results.png")
 
 # Frequency effects
 
-Do you remember more frequent things better then infrequent things?
+What do you remember better?
+
+>- More frequent things?
+>- Less frequent things?
 
 :::: {.row}
 ::: {.col-md-6}
@@ -336,9 +362,9 @@ Retroactive interference happens when new learning activities interfere memory f
 :::: {.row}
 ::: {.col-md-6}
 
->- phase 1: learn 24 nonsense syllables and memory test
->- GROUP A phase 2: learn 24 new nonsense syllabes
->- GROUP B phase 2: read magazine
+>- Phase 1: learn 24 nonsense syllables and do memory test
+>- Phase 2, **Exp**: learn 24 new nonsense syllables
+>- Phase 2, **Control**: read magazine
 >- phase 3: final memory test for first list
 
 
@@ -383,13 +409,13 @@ knitr::include_graphics("imgs/Fan_results.png")
 
 # Meaningfulness
 
-There are many demonstrations that increasing "meaningfulness" can make information more memorable
+Making information meaningful can make it more memorable
 
 # Self-reference effect
 
-The self-reference effect suggests that relating information to yourself can help you remember it better.
+The self-reference effect shows that relating information to yourself can help you remember it better.
 
-Rogers, T. B., Kuiper, N. A., & Kirker, W. S. (1977). Self-reference and the encoding of personal information. Journal of Personality and Social Psychology, 35(9), 677. https://doi.org/cfzwx7
+>- Rogers, T. B., Kuiper, N. A., & Kirker, W. S. (1977). Self-reference and the encoding of personal information. Journal of Personality and Social Psychology, 35(9), 677. https://doi.org/cfzwx7
 
 ## Self-reference effect example
 
@@ -416,7 +442,9 @@ knitr::include_graphics("imgs/Self_reference_results.png")
 
 How well do you think you can understand and remember this paragaph?
 
-> If the ballons popped, the sound wouldn't be able to carry since everything would be too far away from the correct floor. A closed window would also prevent the sound from carrying, since most buildings tend to be well insulated. Since the whole operation depends on a steady flow of electricity, a break in the middle of the wire would also cause problems. Of course, the fellow could shout, but the human voice is not loud enough to carry that far. An additional problem is that a string could break the instrument. Then there could be no accompaniment to the message. It is clear that the best situation would involve less distance. Then there would be fewer potential problems. With face to face contact, the lest number of things could go wrong.
+::: {.smaller_75} 
+>If the balloons popped, the sound wouldn't be able to carry since everything would be too far away from the correct floor. A closed window would also prevent the sound from carrying, since most buildings tend to be well insulated. Since the whole operation depends on a steady flow of electricity, a break in the middle of the wire would also cause problems. Of course, the fellow could shout, but the human voice is not loud enough to carry that far. An additional problem is that a string could break the instrument. Then there could be no accompaniment to the message. It is clear that the best situation would involve less distance. Then there would be fewer potential problems. With face to face contact, the lest number of things could go wrong.
+:::
 
 ## Bransford and Johnson
 
@@ -435,7 +463,7 @@ knitr::include_graphics("../../textbook/imgs/Bransford_context.png")
 
 ::: {.col-md-6}
 
-Full context
+Partial context
 
 ```{r}
 knitr::include_graphics("../../textbook/imgs/Bransford_partial.png")
@@ -455,7 +483,9 @@ knitr::include_graphics("../../textbook/imgs/Bransford_data.png")
 
 # Environmental Context Effects
 
-Godden, D. R., & Baddeley, A. D. (1975). Context-dependent memory in two natural environments: On land and underwater. British Journal of Psychology, 66(3), 325–331. https://doi.org/10.1111/j.2044-8295.1975.tb01468.x
+How does your environment influence your memory?
+
+>- Godden, D. R., & Baddeley, A. D. (1975). Context-dependent memory in two natural environments: On land and underwater. British Journal of Psychology, 66(3), 325–331. https://doi.org/10.1111/j.2044-8295.1975.tb01468.x
 
 
 ## Design
@@ -472,28 +502,19 @@ knitr::include_graphics("../../textbook/imgs/Godden_Baddeley_data.png")
 
 # Testing Effect
 
-:::: {.row}
-::: {.col-md-6}
+Does quizzing yourself help you remember things?
 
-There will be some midterm questions about this paper
+>- Roediger III, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10/cp47ms
 
-It is available to read on blackboard
+>- There will be some midterm questions about this paper
 
-:::
-
-::: {.col-md-6}
-
-Roediger III, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10/cp47ms
-
-
-:::
-::::
+>- It is available to read on blackboard
 
 ## What is the testing effect?
 
 Better memory for material that was tested and successfully recalled or recognized, compared to material that was not tested
 
-E.g., better later memory for a concept if it was on a quiz, compared to concepts that were not quizzed
+>- E.g., better later memory for a concept if it was on a quiz, compared to concepts that were not quizzed
 
 ## Prior research
 
@@ -501,40 +522,42 @@ Testing effects have usually been obtained for word lists, picture lists, or mul
 
 ## Questions
 
-Does the testing effect generalize to more educationally relevant conditions?
+>- Does the testing effect generalize to more educationally relevant conditions?
 
-Can the testing effect be obtained using prose materials and free-recall tests without feedback?
+>- Can the testing effect be obtained using prose materials and free-recall tests without feedback?
 
-Will benefits extend beyond restudying the material?
+>- Will benefits extend beyond restudying the material?
 
 
 ## Experiment 1
 
-Question: will the testing effect occur for prose materials and free-recall tests without feedback?
+**Question:** 
+
+>- Will the testing effect occur for prose materials and free-recall tests without feedback?
 
 ## Method
 
-120 participants studied two prose passages on "the sun" or "sea otters)
+>- 120 participants studied two prose passages on "the sun" or "sea otters)
 
-passages were 256 and 275 words in length
+>- Passages were 256 and 275 words in length
 
-each passage was divided into 30 idea units for later scoring
+>- Each passage was divided into 30 idea units for later scoring
 
 ## Design
 
-2 x 3 mixed-factorial design
+>- 2 x 3 mixed-factorial design
 
-Learning condition: restudy vs. test
+>- Learning condition: restudy vs. test
 
-Delay to memory test: 5 min, 2 days, 1 week
+>- Delay to memory test: 5 min, 2 days, 1 week
 
 ## Procedure
 
-Phase 1: a 7 minute period. Participants studied a passage for the first time
+**Phase 1**: Participants studied a passage for the first time
 
-Then they either restudied the passage OR were given a recall test to remember as much of the material as they could
+>- Then they either restudied the passage OR were given a recall test to remember as much of the material as they could
 
-FINAL TEST: All participants were given a final recall test after a 5 minute, 2day, or 1 week delay
+**FINAL TEST**: All participants were given a final recall test after a 5 minute, 2 day, or 1 week delay
 
 ## Results
 
@@ -544,7 +567,7 @@ knitr::include_graphics("imgs/Testing_1.png")
 
 ## Experiment 2
 
-What are effects of repeated restudying vs re-testing on memory for the passages?
+What are the effects of repeated restudying vs re-testing on memory for the passages?
 
 ## Method
 
@@ -556,12 +579,19 @@ What are effects of repeated restudying vs re-testing on memory for the passages
 knitr::include_graphics("imgs/Testing_2.png")
 ```
 
+#  Roadmap
 
-#  Memory Principles
+::: {.grey_box}
+1 Measuring Memory
+:::
 
-### 1. Measuring Memory {.greyout}
-### 2. Memory Phenomena {.greyout}
-### 3. Memory Principles {.bolder}
+::: {.grey_box}
+2 Memory Phenomena 
+:::
+
+::: {.pop_box_2}
+3 Memory Principles
+:::
 
 # Memory Principles
 
@@ -576,15 +606,16 @@ But, memory performance often generally follows these principles
 
 Principle: The strength, quality, and depth of encoding will determine later memory performance
 
-
-Craik, F. I., & Lockhart, R. S. (1972). Levels of processing: A framework for memory research. Journal of Verbal Learning and Verbal Behavior, 11(6), 671–684. https://doi.org/10/cpcxr6
+>- Craik, F. I., & Lockhart, R. S. (1972). Levels of processing: A framework for memory research. Journal of Verbal Learning and Verbal Behavior, 11(6), 671–684. https://doi.org/10/cpcxr6
 
 ## Shallow versus deep encoding
 
 :::: {.row}
 ::: {.col-md-6}
 
-### Shallow encoding
+::: {.pop_box_2}
+Shallow encoding
+:::
 
 Brief amount of time
 
@@ -594,12 +625,13 @@ Less overall processing of stimulus
 
 **Result = Weak memory trace**
 
-
 :::
 
 ::: {.col-md-6}
 
-### Deep encoding
+::: {.pop_box_3}
+Deep encoding
+:::
 
 More time encoding
 
@@ -640,15 +672,15 @@ Cues in the environment can trigger memory retrieval for information previously 
 
 ## Encoding Specificity Principle
 
+::: {.smaller_75}
 > "In its broadest form the [encoding specificity] principle asserts that only that can be retrieved that has been stored, and that how it can be retrieved depends on how it was stored. In its more restricted senses, the principle becomes less truistic and hence theoretically more interesting. For instance, we assume that what is stored about the occurrence of a word in an experimental list is information about the specific encoding of that word in that context in that situation. This information may or may not include the relation that the target word has with some other word...If it does, that other word may be an effective retrieval cue. If it does not, the other word cannot provide access to the stored information because its relation to the target word is not stored."
+:::
 
 Tulving, E., & Thomson, D. M. (1973). Encoding specificity and retrieval processes in episodic memory. Psychological Review, 80(5), 352. https://doi.org/10/cgj2rr
 
 ## In other words
 
-The encoding specificity principle suggests that the details of how information was encoded in the first place matter for later memory retrieval.
-
-For example, according to the encoding specificity principle, contextual information present during memory encoding may or may not play help later retrieval; it all, depends on how the contextual information was encoded. 
+The encoding specificity principle says the details of how information was encoded in the first place matters for later memory retrieval.
 
 If some target information was encoded in relation to its context, then contextual cues may be useful for retrieval later on. 
 
@@ -664,21 +696,38 @@ How a person makes use of prior information encoded by memory depends on how the
 
 ## Qualifying the previous principles
 
-The TIP/TAP principle further qualifies the preceding principles. For example, memory depends on how deeply you encode information (levels of processing), the context around the encoding episode (context-dependent memory), and how the information is encoded (encoding-specificity principle); but, memory performance will also depend on the nature of the processing required by the retrieval task. 
+The TIP/TAP principle further qualifies the preceding principles. 
+
+>- Memory depends on how deeply you encode information (levels of processing), the context around the encoding episode (context-dependent memory), and how the information is encoded (encoding-specificity principle)
+
+>- BUT, memory performance will also depend on the nature of the processing required by the retrieval task. 
+
+## Matching vs mismatching processing
 
 According to TIP/TAP, previous information becomes more available when retrieval processing conditions match well with encoding processing conditions, and becomes less available when the conditions mismatch. 
+
+>- Encoding and retrieval demands Match = better memory
+
+>- Encoding and retrieval demands mismatch = worse memory
 
 ## Morris, Bransford and Franks
 
 Demonstrated that the tasks performed at encoding and retrieval can influence memory performance.
 
+>- Morris, C. D., Bransford, J. D., & Franks, J. J. (1977). Levels of processing versus transfer appropriate processing. Journal of verbal learning and verbal behavior, 16(5), 519-533.
+
 ## Encoding Phase
 
-Subjects encoded words semantically (in a sentence) to encourage deep processing, or in a rhyming condition to encourage more shallow phonetic processing.
+Subjects encoded words in two conditions:
+
+>- **semantically** (in a sentence) to encourage deep processing, or
+>- **rhyming** condition to encourage more shallow phonetic processing.
 
 ## Retrieval Phase
 
 Two kinds of recognition tests: standard vs rhyming
+
+>- Purpose was to change the processing demands during retrieval to match or mismatch with encoding task
 
 :::: {.row}
 ::: {.col-md-6}
@@ -709,9 +758,9 @@ What would the levels of processing principle predict for memory performance in 
 :::: {.row}
 ::: {.col-md-6}
 
-Standard: better memory for semantic encoding than rhyming encoding
+**Standard**: better memory for semantic encoding than rhyming encoding
 
-Rhyming test: better memory for rhyming encoding than semantic encoding
+**Rhyming test**: better memory for rhyming encoding than semantic encoding
 
 :::
 
@@ -724,11 +773,11 @@ knitr::include_graphics("../../textbook/imgs/Tip_Tap.png")
 :::
 ::::
 
-# Reminder
+# What's next
 
-Midterm is on Monday, November 15th, during class time
+Take the quiz and complete any additional assignments
 
-Approximately 40 MC questions
+Next week we begin discussing implicit influences in cognition.
 
 
 
