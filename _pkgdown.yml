@@ -84,9 +84,9 @@ navbar:
         href: articles/modules/L6_Information_processing.html
       - text: L7 Memory I
         href: articles/modules/L7_Memory_I.html
-      - text: Not yet updated for Spring 2022
       - text: L8 Memory II
         href: articles/modules/L8_Memory_II.html
+      - text: Not yet updated for Spring 2022
       - text: L9 Implicit Cognition
         href: articles/modules/L9_Implicit_Cognition.html
       - text: L10 Attention
@@ -118,9 +118,9 @@ navbar:
         href: slides/L9_Information/L9_Information.html
       - text: Lecture 10 - Memory I
         href: slides/L10_Memory_1/L10_Memory_1.html
-      - text: Not yet updated for Spring 2022
       - text: Lecture 11 - Memory II
-        href: slides/L11_Memory_2/L11_Memory_2.html
+        href: slides/L11_Memory_2_revealjs/L11_Memory_2.html
+      - text: Not yet updated for Spring 2022
     resources:
       text: Resources
       href: articles/course_docs/resources.html
