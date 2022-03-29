@@ -1,596 +1,1175 @@
-<?xml version="1.0" encoding="utf-8"?>
-  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-  <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
-  <meta name="generator" content="pandoc" />
-    <meta name="author" content="Matthew J. C. Crump" />
-        <meta name="copyright" content="written by Matt Crump"/>
-      <title>PSYC 2530: Memory I</title>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Matthew J. C. Crump" />
+  <title>PSYC 2530: Memory I</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="L10_Memory_1_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+
+<link rel="stylesheet" href="L10_Memory_1_files/reveal.js-3.3.0.1/css/theme/white.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
   <style type="text/css">
-  code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-      </style>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700;800&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
 
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5CP3TXLQ3"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
 
-        gtag('config', 'G-Q5CP3TXLQ3');
-      </script>
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+    <link rel="stylesheet" href="style.css"/>
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Cormorant+Garamond&family=EB+Garamond:wght@400;500&family=Lora&family=Merriweather:wght@300&family=PT+Serif&family=Raleway:wght@200;400&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href = "bootstrap/css/bootstrap_mod.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5CP3TXLQ3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-Q5CP3TXLQ3');
+    </script>
     <script src="L10_Memory_1_files/header-attrs-2.11/header-attrs.js"></script>
-    <script src="L10_Memory_1_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="L10_Memory_1_files/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
-    <script src="L10_Memory_1_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
-    <script src="L10_Memory_1_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
-    <script src="L10_Memory_1_files/bootstrap-3.3.5/shim/respond.min.js"></script>
-    <style>h1 {font-size: 34px;}
-           h1.title {font-size: 38px;}
-           h2 {font-size: 30px;}
-           h3 {font-size: 24px;}
-           h4 {font-size: 18px;}
-           h5 {font-size: 16px;}
-           h6 {font-size: 12px;}
-           code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
-           pre:not([class]) { background-color: white }</style>
-    <link href="L10_Memory_1_files/slidy-2/styles/slidy.css" rel="stylesheet" />
-    <script src="L10_Memory_1_files/slidy-2/scripts/slidy.js"></script>
-    <script src="L10_Memory_1_files/slidy_shiny-1/slidy_shiny.js"></script>
-        <link rel="stylesheet" type="text/css" media="screen, projection, print"
-href="style.css" />
-      </head>
-  <body>
-      <div class="slide titlepage">
-  <h1 class="title">PSYC 2530: Memory I</h1>
-    <h1 class="subtitle">Early approaches</h1>
-    <p class="author">
-  Matthew J. C. Crump
-  </p>
-    <p class="date">Last compiled 03/18/22</p>
-      <img src=imgs/BC_logo.png class="frontlogo">
-  
-  </div>
-    <div id="gohome">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
 
-  <a href="https://crumplab.com/cognition/"> <i class="fas fa-home"></i> </a>
-  </div>
-  <div id="reminders" class="slide section level2">
-  <h1>Reminders</h1>
-  <p>Reading is Chapter 8 on <a href="https://www.crumplab.com/cognition/textbook/memory-i.html">Memory I</a></p>
-  </div>
-  <div id="questions-about-memory" class="slide section level2">
-  <h1>Questions about memory</h1>
-  <h3 class="bolder" id="questions-about-memory-1">1. Questions about memory</h3>
-  <h3 class="greyout" id="early-memory-research">2. Early memory research</h3>
-  <h3 class="greyout" id="memory-as-information-processing">3. Memory as information processing</h3>
-  <h3 class="greyout" id="multi-store-model">4. Multi-store model</h3>
-  </div>
-  <div id="questions-about-memory-2" class="slide section level2">
-  <h1>Questions about memory</h1>
-  <p>What is it like for you to remember something from your past?</p>
-  <p>How many events from your experience can you remember?</p>
-  <p>Why can you remember something from years ago, but forget new information from seconds ago?</p>
-  <p>How do you preserve your experiences so that they can be remembered later on?</p>
-  <p>Why is it sometimes hard to remember something, but later the answer pops in your head?</p>
-  <p>How can you improve your memory?</p>
-  <p>How can you forget things you don’t want to think about?</p>
-  <p>What other animals besides humans have memories?</p>
-  <p>How are memories encoded, stored, and retrieved in the brain?</p>
-  <p>How do people use their environment to help them remember things?</p>
-  </div>
-  <div id="early-memory-research-1" class="slide section level2">
-  <h1>Early memory research</h1>
-  <h3 class="greyout" id="questions-about-memory-3">1. Questions about memory</h3>
-  <h3 class="bolder" id="early-memory-research-2">2. Early memory research</h3>
-  <h3 class="greyout" id="memory-as-information-processing-1">3. Memory as information processing</h3>
-  <h3 class="greyout" id="multi-store-model-1">4. Multi-store model</h3>
-  </div>
-  <div id="early-memory-researchers" class="slide section level2">
-  <h1>Early memory researchers</h1>
-  <p>Hermann Ebbinghaus</p>
-  <p>Sir Frederick Bartlett</p>
-  <p>Bluma Zeigarnik</p>
-  <p>Hedwig von Restorff</p>
-  </div>
-  <div id="hermann-ebbinghaus-1850-1909" class="slide section level2">
-  <h1>Hermann Ebbinghaus (1850-1909)</h1>
-  <div class="row">
-  <div class="col-md-6">
-  <p>Conducted some of the first experimental investigations of human memory</p>
-  <p>1885 - english translation from German, “<a href="https://archive.org/details/memorycontributi00ebbiuoft">Memory: A Contribution to Experimental Psychology</a>”</p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="imgs/Ebbinghaus2.jpg" width="100%" style="display: block; margin: auto;" /></p>
-  </div>
-  </div>
-  </div>
-  <div id="what-did-ebbinghaus-do" class="slide section level2">
-  <h1>What did Ebbinghaus do?</h1>
-  <p>Systematically measured rates of learning and forgetting</p>
-  <p>Conducted single-subject research on himself</p>
-  <p>Invented use of nonsense material (CVC syllables)</p>
-  </div>
-  <div id="big-questions" class="slide section level2">
-  <h1>Big Questions</h1>
-  <p>How do people learn new associations?</p>
-  <p>What happens to new learning with delays between practice? (forgetting)</p>
-  </div>
-  <div id="issues" class="slide section level2">
-  <h1>Issues</h1>
-  <p>People already have many existing associations from their experience…</p>
-  <p>How to study learning of new associations?</p>
-  </div>
-  <div id="methodological-insight" class="slide section level2">
-  <h1>Methodological insight</h1>
-  <p>Adopt a task with very little pre-existing familiarity</p>
-  <p>Ebbinghaus devised a serial learning task to measure how long it took to recite of a list of items from memory.</p>
-  <p>He used artificial stimuli so that pre-existing familiarity with the items would not interfere with the learning process.</p>
-  </div>
-  <div id="nonsense-syllables" class="slide section level2">
-  <h1>Nonsense syllables</h1>
-  <p><img src="imgs/CVC_table.png" width="100%" style="display: block; margin: auto;" /></p>
-  </div>
-  <div id="ebbinghauss-task" class="slide section level2">
-  <h1>Ebbinghaus’s task</h1>
-  <p>Ebbinghaus’ task involved learning lists of nonsense syllables</p>
-  <p>Two basic phases:</p>
-  <ol class="incremental" style="list-style-type: decimal">
-  <li><p>Learning phase</p></li>
-  <li><p>Re-learning after a delay</p></li>
-  </ol>
-  </div>
-  <div id="modern-replication" class="slide section level2">
-  <h1>Modern Replication</h1>
-  <p>Murre, J. M. J., &amp; Dros, J. (2015). Replication and Analysis of Ebbinghaus’ Forgetting Curve. PLOS ONE, 10(7), e0120644. <a href="https://doi.org/f7vfcn" class="uri">https://doi.org/f7vfcn</a></p>
-  </div>
-  <div id="one-time-perfect" class="slide section level2">
-  <h1>one-time perfect</h1>
-  <div class="row">
-  <div class="col-md-6">
-  <p>Learning phase: practice reciting a row until it is recited perfectly one time, then move to next row</p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="imgs/CVC_table.png" width="100%" style="display: block; margin: auto;" /></p>
-  </div>
-  </div>
-  </div>
-  <div id="re-learning-after-delay" class="slide section level2">
-  <h1>Re-learning after delay</h1>
-  <p>In the second phase, each row was re-learned after a delay. The delays were 20 minutes, 1 hour, 9 hours, or 1, 2, 6, or 31 days.</p>
-  <p>After each delay period, rows were shown again and relearned.</p>
-  <p>The number of relearning attempts to get to another “one-time perfect” recitation was also measured.</p>
-  </div>
-  <div id="original-learning" class="slide section level2">
-  <h1>Original learning</h1>
-  <div class="row">
-  <div class="col-md-6">
-  <p>How many practice attempts were necessary to memory a row of nonsense syllables?</p>
-  <p>The blue line shows that an average of 30-32 practice attempts were needed to memorize each row</p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="../../textbook/imgs/Ebbinghaus_OL.png" width="100%" style="display: block; margin: auto;" /></p>
-  <p>Data from Murre &amp; Dros, 2015</p>
-  </div>
-  </div>
-  </div>
-  <div id="savings-in-re-learning" class="slide section level2">
-  <h1>Savings in Re-learning</h1>
-  <p>How many attempts were required to re-learn a list after different delays?</p>
-  <p>The delays were 20 minutes, 1 hour, 9 hours, or 1, 2, 6, or 31 days.</p>
-  </div>
-  <div id="results" class="slide section level2">
-  <h1>Results</h1>
-  <p><img src="imgs/murre_dros_2015.png" width="80%" style="display: block; margin: auto;" /></p>
-  </div>
-  <div id="exponential-forgetting" class="slide section level2">
-  <h1>Exponential forgetting</h1>
-  <div class="row">
-  <div class="col-md-6">
-  <p>Ebbinghaus was the first show evidence for exponential forgetting across delays</p>
-  <p>Most forgetting occurred immediately after learning, and the rate of forgetting slowed down as delay increased</p>
-  <p>“Exponential forgetting is like going to Las Vegas and spending most of your money on the first day, and then losing the rest of it slowly over the next week.”</p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="../../textbook/imgs/Ebbinghaus_exp.jpg" width="80%" style="display: block; margin: auto;" /></p>
-  </div>
-  </div>
-  </div>
-  <div id="sir-frederick-bartlett-1886-1969" class="slide section level2">
-  <h1>Sir Frederick Bartlett (1886-1969)</h1>
-  <div class="row">
-  <div class="col-md-6">
-  <p>British Psychologist</p>
-  <p>Published book “Remembering” in 1932</p>
-  <p>Reconstructionist view of memory</p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="imgs/Bartlett.jpg" width="100%" style="display: block; margin: auto;" /></p>
-  </div>
-  </div>
-  </div>
-  <div id="memory-metaphors" class="slide section level2">
-  <h1>Memory metaphors</h1>
-  <ol class="incremental" style="list-style-type: decimal">
-  <li><p>Memory is a file drawer</p></li>
-  <li><p>Memory is a camera</p></li>
-  <li><p>Memory is a bent-wire</p></li>
-  </ol>
-  </div>
-  <div id="memory-as-re--membering" class="slide section level2">
-  <h1>Memory as “RE-” Membering</h1>
-  <div class="row">
-  <div class="col-md-6">
-  <p>Memory is “Humpty-Dumpty”</p>
-  <p>Memory as a process of re-constructing, or actively putting back together</p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="imgs/Humpty_dumpty.jpg" width="80%" style="display: block; margin: auto;" /></p>
-  </div>
-  </div>
-  </div>
-  <div id="big-questions-1" class="slide section level2">
-  <h1>Big questions</h1>
-  <p>How do people reconstruct a prior memory?</p>
-  <p>How does memory change over successive re-memberings?</p>
-  </div>
-  <div id="method-of-serial-reproduction" class="slide section level2">
-  <h1>Method of Serial Reproduction</h1>
-  <p>Bartlett conducted experiments that involves two general phases:</p>
-  <ol class="incremental" style="list-style-type: decimal">
-  <li><p>Encoding/learning of some information</p></li>
-  <li><p>Reproduction phases: Had people reproduce the information from memory, many times over</p></li>
-  </ol>
-  </div>
-  <div id="lportraite-dhomme" class="slide section level2">
-  <h1>L’Portraite D’homme</h1>
-  <p><img src="../../textbook/imgs/Bartlett_homme.png" width="80%" style="display: block; margin: auto;" /></p>
-  </div>
-  <div id="bartletts-schemas" class="slide section level2">
-  <h1>Bartlett’s Schemas</h1>
-  <p>Bartlett suggested that remembering processes are guided by general schemas</p>
-  <p>People may distort their original experiences toward a schema</p>
-  </div>
-  <div id="reproducing-bartlett" class="slide section level2">
-  <h1>Reproducing Bartlett</h1>
-  <p>Carbon, C.-C., &amp; Albrecht, S. (2012). Bartlett’s schema theory: The unreplicated “portrait d’homme” series from 1932. Quarterly Journal of Experimental Psychology, 65(11), 2258–2270. <a href="https://doi.org/gjs5bh" class="uri">https://doi.org/gjs5bh</a></p>
-  <p><img src="imgs/Barteltt_replication.jpg" width="80%" style="display: block; margin: auto;" /></p>
-  </div>
-  <div id="memory-distortions" class="slide section level2">
-  <h1>Memory distortions</h1>
-  <p>Although some of Bartlett’s findings may not stand the test of time, there are many reproducible findings showing that memory can be distorted in interesting ways.</p>
-  <p>So, even though memory reconstruction may not always head toward a schema, memory does appear to involve some kind of constructive process capable of returning accurate and distorted impressions of past experiences.</p>
-  </div>
-  <div id="bluma-zeigarnik-1901-1988" class="slide section level2">
-  <h1>Bluma Zeigarnik (1901-1988)</h1>
-  <div class="row">
-  <div class="col-md-6">
-  <p>Early memory researcher</p>
-  <p>“to-do” list effect</p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="imgs/Zeigarnick.jpg" width="100%" style="display: block; margin: auto;" /></p>
-  </div>
-  </div>
-  </div>
-  <div id="phenomenon" class="slide section level2">
-  <h1>Phenomenon</h1>
-  <p>Zeigarnik investigated an apparent phenomenon showing that uncompleted tasks are remembered better than completed tasks</p>
-  </div>
-  <div id="method" class="slide section level2">
-  <h1>Method</h1>
-  <p>Participants were given a variety of tasks that took about 3- 5 minutes to complete (math, drawing, threading a needle).</p>
-  <p>Manipulation:</p>
-  <p>Partway through some of the tasks, she interrupted people and asked them to start on a new task.</p>
-  <p>At the end of the experiment, the participants had completed some of the tasks, and others remained incomplete.</p>
-  </div>
-  <div id="results-1" class="slide section level2">
-  <h1>Results</h1>
-  <p>Zeigarnik then had participants recall all of the tasks.</p>
-  <p>Across several experiments she reliably found that people recalled more of the uncompleted tasks than the completed tasks.</p>
-  <p>One explanation was the goal to a complete a task created psychological tension that could only be resolved by completing the task. This goal-based tension is not resolved when a task is interrupted, and leads to differences in memory completed and uncompleted tasks.</p>
-  </div>
-  <div id="replication-attempts" class="slide section level2">
-  <h1>Replication attempts</h1>
-  <p>In 1968, Van Bergen published several replication attempts and found that her participants did not show systematic differences in their memory for completed and uncompleted tasks…</p>
-  </div>
-  <div id="hedwig-von-restorff-1906-1962" class="slide section level2">
-  <h1>Hedwig von Restorff (1906-1962)</h1>
-  <div class="row">
-  <div class="col-md-6">
-  <p>Applied Gestalt theory figure/ground concepts to memory</p>
-  <p>Demonstrated role of distinctiveness in memory</p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="imgs/vonRestorff.jpg" width="100%" style="display: block; margin: auto;" /></p>
-  </div>
-  </div>
-  </div>
-  <div id="big-questions-2" class="slide section level2">
-  <h1>Big Questions</h1>
-  <p>What makes some information more memorable than others?</p>
-  <p>Is memory better for things that “stand-out” from the background?</p>
-  </div>
-  <div id="method-1" class="slide section level2">
-  <h1>Method</h1>
-  <div class="row">
-  <div class="col-md-6">
-  <p>Tested recall memory for lists of paired items.</p>
-  <p>Manipulated:</p>
-  <p>“massed” items (CVC syllables) vs</p>
-  <p>“isolated” items (unique pairs)</p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="../../textbook/imgs/Von_restorff_Stimuli.png" width="80%" style="display: block; margin: auto;" /></p>
-  </div>
-  </div>
-  </div>
-  <div id="counterbalancing" class="slide section level2">
-  <h1>Counterbalancing</h1>
-  <div class="row">
-  <div class="col-md-6">
-  <p>Counterbalancing is an experimental technique used to control for the role of individual stimuli</p>
-  <p>Von Restorff counterbalanced the massed and isolated items across lists</p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="../../textbook/imgs/Von_Restorff_counterbalance.jpg" width="80%" style="display: block; margin: auto;" /></p>
-  </div>
-  </div>
-  </div>
-  <div id="results-2" class="slide section level2">
-  <h1>Results</h1>
-  <p>Von Restorff found:</p>
-  <p>Higher recall of isolated pairs compared to massed pairs…</p>
-  <p>Regardless of type of material</p>
-  <p>Important: particular stimuli were more or less memorable, not in and of themselves, but in relation to how distinct they were from other stimuli in the set.</p>
-  </div>
-  <div id="distinctiveness-effects" class="slide section level2">
-  <h1>Distinctiveness effects</h1>
-  <p>..have been replicated many times in many ways since von Restorff</p>
-  </div>
-  <div id="memory-as-information-processing-2" class="slide section level2">
-  <h1>Memory as information processing</h1>
-  <h3 class="greyout" id="questions-about-memory-4">1. Questions about memory</h3>
-  <h3 class="greyout" id="early-memory-research-3">2. Early memory research</h3>
-  <h3 class="bolder" id="memory-as-information-processing-3">3. Memory as information processing</h3>
-  <h3 class="greyout" id="multi-store-model-2">4. Multi-store model</h3>
-  </div>
-  <div id="george-miller-1920-2012" class="slide section level2">
-  <h1>George Miller (1920-2012)</h1>
-  <div class="row">
-  <div class="col-md-6">
-  <p>Often considered a “founder” of cognitive psychology</p>
-  <p>Did early work on information processing limitations</p>
-  <p>Later work on language</p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="imgs/George_Armitage_Miller.jpg" width="80%" style="display: block; margin: auto;" /></p>
-  </div>
-  </div>
-  </div>
-  <div id="millers-magic-number-7" class="slide section level2">
-  <h1>Miller’s Magic Number 7</h1>
-  <div class="row">
-  <div class="col-md-6">
-  <p>Reviews evidence showing that absolute magnitude judgments in perception have similar information “channel” capacities</p>
-  <p>Considers whether perceptual processing limitations apply to immediate memory</p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="imgs/Miller_magic7.png" width="80%" style="display: block; margin: auto;" /></p>
-  </div>
-  </div>
-  </div>
-  <div id="millers-big-question" class="slide section level2">
-  <h1>Miller’s Big Question</h1>
-  <p>Are the information channels for perception and memory limited in the same way or different ways?</p>
-  </div>
-  <div id="absolute-perceptual-judgment" class="slide section level2">
-  <h1>Absolute Perceptual Judgment</h1>
-  <p>A method from psychophysics</p>
-  <p>People are presented with one stimulus at a time from a set of stimuli</p>
-  <p>Task is to identify (by name or label) the stimulus</p>
-  </div>
-  <div id="absolute-pitch" class="slide section level2">
-  <h1>Absolute Pitch</h1>
-  <p>Absolute pitch is a rare musical ability to identify or name individual pitches played on a musical instrument without a reference tone</p>
-  <p>Most people are not able to name specific pitches</p>
-  </div>
-  <div id="pollacks-pitch-judgment-results" class="slide section level2">
-  <h1>Pollacks’ pitch judgment results</h1>
-  <div class="row">
-  <div class="col-md-6">
-  <p>Pollack presented people with sets of tones (from 2 to 14 different tones)</p>
-  <p>Subjects had identify the specific tone presented with a number</p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="../../textbook/imgs/Pollack_tone.png" width="100%" style="display: block; margin: auto;" /></p>
-  <p>Pollack, I. (1952). The Information of Elementary Auditory Displays. The Journal of the Acoustical Society of America, 24, 745–749.</p>
-  </div>
-  </div>
-  </div>
-  <div id="translation-to-channel-capacity" class="slide section level2">
-  <h1>Translation to Channel Capacity</h1>
-  <p>Results from absolute magnitude judgment tasks can be translated from accuracy to amount of information transmitted</p>
-  <div class="row">
-  <div class="col-md-6">
-  <p><img src="../../textbook/imgs/Pollack_tone.png" width="80%" style="display: block; margin: auto;" /></p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="../../textbook/imgs/Miller_tone.png" width="80%" style="display: block; margin: auto;" /></p>
-  </div>
-  </div>
-  </div>
-  <div id="generalization-across-perceptual-tasks" class="slide section level2">
-  <h1>Generalization across perceptual tasks</h1>
-  <p><img src="imgs/abs_judg_multi.png" width="80%" style="display: block; margin: auto;" /></p>
-  </div>
-  <div id="interim-summary" class="slide section level2">
-  <h1>Interim summary</h1>
-  <p>Judgments of absolute magnitude appear to be limited by stimulus set-size, which could be translated to amount of information</p>
-  <p>Performance was typically near perfect up to around set size of 7, plus or minus 2.</p>
-  </div>
-  <div id="generalization-to-immediate-memory-span" class="slide section level2">
-  <h1>Generalization to immediate memory span?</h1>
-  <p>Do perceptual judgment limitations also apply to your ability to remember information over the short term?</p>
-  <p>Is there a relationship to <strong>immediate memory span</strong>?</p>
-  </div>
-  <div id="how-items-can-memory-hold" class="slide section level2">
-  <h1>How items can memory hold?</h1>
-  <p>Immediate memory span is a way to measure the ability to encode and recall an arbitrary list of items over a short period of time</p>
-  <p>People can often retain around 7, plus or minus two items</p>
-  </div>
-  <div id="immediate-memory-span-and-bits" class="slide section level2">
-  <h1>Immediate memory span and bits</h1>
-  <div class="row">
-  <div class="col-md-6">
-  <p>binary digits : 00010001101110</p>
-  <p>decimal digits: 17583285647390</p>
-  <p>letters: abhgkslhjbcksj</p>
-  <p>letters and digits: 4hsj3hd8fgj3h2g</p>
-  <p>1000 words: hello dolphin lamp tree plate car …</p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="../../textbook/imgs/Miller_im_span.jpg" width="80%" style="display: block; margin: auto;" /></p>
-  </div>
-  </div>
-  </div>
-  <div id="recoding-and-chunking" class="slide section level2">
-  <h1>Recoding and Chunking</h1>
-  <div class="row">
-  <div class="col-md-6">
-  <p>Miller suggests that people “recode” information into chunks, and that immediate memory is limited by number of chunks not amount of information in the chunks</p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="imgs/chunks.png" width="80%" style="display: block; margin: auto;" /></p>
-  </div>
-  </div>
-  </div>
-  <div id="multi-store-model-3" class="slide section level2">
-  <h1>Multi-store model</h1>
-  <h3 class="greyout" id="questions-about-memory-5">1. Questions about memory</h3>
-  <h3 class="greyout" id="early-memory-research-4">2. Early memory research</h3>
-  <h3 class="greyout" id="memory-as-information-processing-4">3. Memory as information processing</h3>
-  <h3 class="bolder" id="multi-store-model-4">4. Multi-store model</h3>
-  </div>
-  <div id="short-vs-long-term-memory" class="slide section level2">
-  <h1>Short vs long-term memory</h1>
-  <p>We have all forgotten something that just happened</p>
-  <p>We can all remember things from a long time ago</p>
-  <p>How do we explain the short and long term aspects of memory ability?</p>
-  </div>
-  <div id="multi-store-model-5" class="slide section level2">
-  <h1>Multi-store model</h1>
-  <div class="row">
-  <div class="col-md-6">
-  <p>Atkinson, R. C., &amp; Shiffrin, R. M. (1968). Human memory: A proposed system and its control processes. In Psychology of learning and motivation (Vol. 2, pp. 89–195). Elsevier.</p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="../../textbook/imgs/Multi_store_1.jpg" width="100%" style="display: block; margin: auto;" /></p>
-  </div>
-  </div>
-  </div>
-  <div id="rehearsal-buffer" class="slide section level2">
-  <h1>Rehearsal buffer</h1>
-  <div class="row">
-  <div class="col-md-6">
-  <p>According to the multi-store model, people can consciously rehearse items in a short term buffer</p>
-  <p>More rehearsal = more transfer to long-term memory</p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="../../textbook/imgs/Multi_store_2.jpg" width="80%" style="display: block; margin: auto;" /></p>
-  </div>
-  </div>
-  </div>
-  <div id="free-recall-task" class="slide section level2">
-  <h1>Free recall task</h1>
-  <p>A common memory task procedure</p>
-  <p>Encoding phase: read a list of words</p>
-  <p>Recall phase: write down as many as you recall on a blank sheet of paper</p>
-  </div>
-  <div id="serial-position-curve" class="slide section level2">
-  <h1>Serial position curve</h1>
-  <div class="row">
-  <div class="col-md-6">
-  <p>A common finding in free recall tasks</p>
-  <p><strong>Primacy effect</strong>: better memory for items presented early in the list</p>
-  <p><strong>Recency effect</strong>: better memory for items presented at the end of the list</p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="../../textbook/imgs/Serial_position_1.jpg" width="80%" style="display: block; margin: auto;" /></p>
-  <p>Deese, J., &amp; Kaufman, R. A. (1957). Serial effects in recall of unorganized and sequentially organized verbal material. Journal of Experimental Psychology, 54(3), 180. <a href="https://doi.org/drc265" class="uri">https://doi.org/drc265</a></p>
-  </div>
-  </div>
-  </div>
-  <div id="explaining-the-serial-position-curve" class="slide section level2">
-  <h1>Explaining the serial position curve</h1>
-  <p>How does the multi-store model explain the primacy effect?</p>
-  <p>How does the multi-store model explain the recency effect?</p>
-  </div>
-  <div id="testing-the-rehearsal-account" class="slide section level2">
-  <h1>Testing the rehearsal account</h1>
-  <p>How could we test the hypothesis that the rehearsal is causing the recency effect?</p>
-  </div>
-  <div id="manipulating-rehearsal" class="slide section level2">
-  <h1>Manipulating Rehearsal</h1>
-  <div class="row">
-  <div class="col-md-6">
-  <p>Postman &amp; Philips (1965) manipulated whether or not participants did arithmetic problems before a recall test…</p>
-  <p>Arithmetic problem-solving should make rehearsal difficult</p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="../../textbook/imgs/Serial_position_2.png" width="80%" style="display: block; margin: auto;" /></p>
-  </div>
-  </div>
-  </div>
-  <div id="tzeng-1973" class="slide section level2">
-  <h1>Tzeng 1973</h1>
-  <p>In 1973, Tzeng reported a standard free-recall experiment with a twist.</p>
-  <p>His subjects were given four lists of 10 words each. The twist was that after hearing each word, subjects spent 20 seconds counting backwards by 3s from a random starting digit.</p>
-  <p>Counting backwards by 3s was a very demanding task that should occupy and replace the contents of any short-term rehearsal buffer.</p>
-  </div>
-  <div id="long-term-recency" class="slide section level2">
-  <h1>Long-term recency</h1>
-  <div class="row">
-  <div class="col-md-6">
-  <p>According to the multi-store model, Tzeng should not have found recency effects in this experiment, but he did.</p>
-  </div>
-  <div class="col-md-6">
-  <p><img src="../../textbook/imgs/Tzeng_1973.jpg" width="80%" style="display: block; margin: auto;" /></p>
-  </div>
-  </div>
-  </div>
-  <div id="systems-vs-strategies" class="slide section level2">
-  <h1>Systems vs strategies</h1>
-  </div>
-  <div id="whats-next" class="slide section level2">
-  <h1>What’s next?</h1>
-  <p>Take the quiz and complete any assignments for the learning module by the due date.</p>
-  <p>The next learning module is Memory II.</p>
-  </div>
-  
-    <!-- dynamically load mathjax for compatibility with self-contained -->
+<section>
+    <h1 class="title">PSYC 2530: Memory I</h1>
+  <h1 class="subtitle">Early approaches</h1>
+    <h2 class="author">Matthew J. C. Crump</h2>
+    <h3 class="date">Last compiled 03/29/22</h3>
+</section>
+
+<section id="reminders" class="title-slide slide level1">
+<h1>Reminders</h1>
+<p>Reading is Chapter 8 on <a href="https://www.crumplab.com/cognition/textbook/memory-i.html">Memory I</a></p>
+</section>
+
+<section id="roadmap" class="title-slide slide level1">
+<h1>Roadmap</h1>
+<div class="pop_box_2">
+<p>1 Questions about memory</p>
+</div>
+<div class="grey_box">
+<p>2 Early memory research</p>
+</div>
+<div class="grey_box">
+<p>3 Memory as information processing</p>
+</div>
+<div class="grey_box">
+<p>4 Multi-store model</p>
+</div>
+</section>
+
+<section id="questions-about-memory" class="title-slide slide level1">
+<h1>Questions about memory</h1>
+<div class="smaller_50">
+<p>What is it like for you to remember something from your past?</p>
+<p>How many events from your experience can you remember?</p>
+<p>Why can you remember something from years ago, but forget new information from seconds ago?</p>
+<p>How do you preserve your experiences so that they can be remembered later on?</p>
+<p>Why is it sometimes hard to remember something, but later the answer pops in your head?</p>
+<p>How can you improve your memory?</p>
+<p>How can you forget things you don’t want to think about?</p>
+<p>What other animals besides humans have memories?</p>
+<p>How are memories encoded, stored, and retrieved in the brain?</p>
+<p>How do people use their environment to help them remember things?</p>
+</div>
+</section>
+
+<section id="roadmap-1" class="title-slide slide level1">
+<h1>Roadmap</h1>
+<div class="grey_box">
+<p>1 Questions about memory</p>
+</div>
+<div class="pop_box_2">
+<p>2 Early memory research</p>
+</div>
+<div class="grey_box">
+<p>3 Memory as information processing</p>
+</div>
+<div class="grey_box">
+<p>4 Multi-store model</p>
+</div>
+</section>
+
+<section id="early-memory-researchers" class="title-slide slide level1">
+<h1>Early memory researchers</h1>
+<p>Hermann Ebbinghaus</p>
+<p>Sir Frederick Bartlett</p>
+<p>Bluma Zeigarnik</p>
+<p>Hedwig von Restorff</p>
+</section>
+
+<section id="hermann-ebbinghaus-1850-1909" class="title-slide slide level1">
+<h1>Hermann Ebbinghaus (1850-1909)</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Conducted some of the first experimental investigations of human memory</p>
+<p>1885 - english translation from German, “<a href="https://archive.org/details/memorycontributi00ebbiuoft">Memory: A Contribution to Experimental Psychology</a>”</p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Ebbinghaus2.jpg" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="what-did-ebbinghaus-do" class="title-slide slide level1">
+<h1>What did Ebbinghaus do?</h1>
+<p>Systematically measured rates of learning and forgetting</p>
+<p>Conducted single-subject research on himself</p>
+<p>Invented use of nonsense material (CVC syllables)</p>
+</section>
+
+<section id="big-questions" class="title-slide slide level1">
+<h1>Big Questions</h1>
+<p>How do people learn new associations?</p>
+<p>What happens to new learning with delays between practice? (forgetting)</p>
+</section>
+
+<section id="issues" class="title-slide slide level1">
+<h1>Issues</h1>
+<p>People already have many existing associations from their experience…</p>
+<p>How to study learning of new associations?</p>
+</section>
+
+<section id="methodological-insight" class="title-slide slide level1">
+<h1>Methodological insight</h1>
+<p>Adopt a task with very little pre-existing familiarity</p>
+<p>Ebbinghaus devised a serial learning task to measure how long it took to recite of a list of items from memory.</p>
+<p>He used artificial stimuli so that pre-existing familiarity with the items would not interfere with the learning process.</p>
+</section>
+
+<section id="nonsense-syllables" class="title-slide slide level1">
+<h1>Nonsense syllables</h1>
+<p><img src="imgs/CVC_table.png" width="100%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="ebbinghauss-task" class="title-slide slide level1">
+<h1>Ebbinghaus’s task</h1>
+<p>Ebbinghaus’ task involved learning lists of nonsense syllables</p>
+<p>Two basic phases:</p>
+<ol type="1">
+<li class="fragment"><p>Learning phase</p></li>
+<li class="fragment"><p>Re-learning after a delay</p></li>
+</ol>
+</section>
+
+<section id="modern-replication" class="title-slide slide level1">
+<h1>Modern Replication</h1>
+<p>Murre, J. M. J., &amp; Dros, J. (2015). Replication and Analysis of Ebbinghaus’ Forgetting Curve. PLOS ONE, 10(7), e0120644. <a href="https://doi.org/f7vfcn" class="uri">https://doi.org/f7vfcn</a></p>
+</section>
+
+<section id="one-time-perfect" class="title-slide slide level1">
+<h1>one-time perfect</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Learning phase: practice reciting a row until it is recited perfectly one time, then move to next row</p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/CVC_table.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="re-learning-after-delay" class="title-slide slide level1">
+<h1>Re-learning after delay</h1>
+<p>In the second phase, each row was re-learned after a delay. The delays were 20 minutes, 1 hour, 9 hours, or 1, 2, 6, or 31 days.</p>
+<p>After each delay period, rows were shown again and relearned.</p>
+<p>The number of relearning attempts to get to another “one-time perfect” recitation was also measured.</p>
+</section>
+
+<section id="original-learning" class="title-slide slide level1">
+<h1>Original learning</h1>
+<div class="row">
+<div class="col-md-6">
+<p>How many practice attempts were necessary to memory a row of nonsense syllables?</p>
+<p>The blue line shows that an average of 30-32 practice attempts were needed to memorize each row</p>
+</div>
+<div class="col-md-6">
+<p><img src="../../textbook/imgs/Ebbinghaus_OL.png" width="100%" style="display: block; margin: auto;" /></p>
+<p>Data from Murre &amp; Dros, 2015</p>
+</div>
+</div>
+</section>
+
+<section id="savings-in-re-learning" class="title-slide slide level1">
+<h1>Savings in Re-learning</h1>
+<p>How many attempts were required to re-learn a list after different delays?</p>
+<p>The delays were 20 minutes, 1 hour, 9 hours, or 1, 2, 6, or 31 days.</p>
+</section>
+
+<section id="results" class="title-slide slide level1">
+<h1>Results</h1>
+<p><img src="imgs/murre_dros_2015.png" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="exponential-forgetting" class="title-slide slide level1">
+<h1>Exponential forgetting</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Ebbinghaus was the first show evidence for exponential forgetting across delays</p>
+<p>Most forgetting occurred immediately after learning, and the rate of forgetting slowed down as delay increased</p>
+<div class="smaller_50">
+<blockquote>
+<p>“Exponential forgetting is like going to Las Vegas and spending most of your money on the first day, and then losing the rest of it slowly over the next week.”</p>
+</blockquote>
+</div>
+</div>
+<div class="col-md-6">
+<p><img src="../../textbook/imgs/Ebbinghaus_exp.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="sir-frederick-bartlett-1886-1969" class="title-slide slide level1">
+<h1>Sir Frederick Bartlett (1886-1969)</h1>
+<div class="row">
+<div class="col-md-6">
+<p>British Psychologist</p>
+<p>Published book “Remembering” in 1932</p>
+<p>Reconstructionist view of memory</p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Bartlett.jpg" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="memory-metaphors" class="title-slide slide level1">
+<h1>Memory metaphors</h1>
+<ol type="1">
+<li class="fragment"><p>Memory is a file drawer</p></li>
+<li class="fragment"><p>Memory is a camera</p></li>
+<li class="fragment"><p>Memory is a bent-wire</p></li>
+</ol>
+</section>
+
+<section id="memory-as-re--membering" class="title-slide slide level1">
+<h1>Memory as “RE-” Membering</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Memory is “Humpty-Dumpty”</p>
+<p>Memory as a process of re-constructing, or actively putting back together</p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Humpty_dumpty.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="big-questions-1" class="title-slide slide level1">
+<h1>Big questions</h1>
+<p>How do people reconstruct a prior memory?</p>
+<p>How does memory change over successive re-memberings?</p>
+</section>
+
+<section id="method-of-serial-reproduction" class="title-slide slide level1">
+<h1>Method of Serial Reproduction</h1>
+<p>Bartlett conducted experiments that involves two general phases:</p>
+<ol type="1">
+<li class="fragment"><p>Encoding/learning of some information</p></li>
+<li class="fragment"><p>Reproduction phases: Had people reproduce the information from memory, many times over</p></li>
+</ol>
+</section>
+
+<section id="lportraite-dhomme" class="title-slide slide level1">
+<h1>L’Portraite D’homme</h1>
+<p><img src="../../textbook/imgs/Bartlett_homme.png" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="bartletts-schemas" class="title-slide slide level1">
+<h1>Bartlett’s Schemas</h1>
+<p>Bartlett suggested that remembering processes are guided by general schemas</p>
+<p>People may distort their original experiences toward a schema</p>
+</section>
+
+<section id="reproducing-bartlett" class="title-slide slide level1">
+<h1>Reproducing Bartlett</h1>
+<div class="smaller_75">
+<p>Carbon, C.-C., &amp; Albrecht, S. (2012). Bartlett’s schema theory: The unreplicated “portrait d’homme” series from 1932. Quarterly Journal of Experimental Psychology, 65(11), 2258–2270. <a href="https://doi.org/gjs5bh" class="uri">https://doi.org/gjs5bh</a></p>
+</div>
+<p><img src="imgs/Barteltt_replication.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="memory-distortions" class="title-slide slide level1">
+<h1>Memory distortions</h1>
+<p>Although some of Bartlett’s findings may not stand the test of time, there are many reproducible findings showing that memory can be distorted in interesting ways.</p>
+<p>So, even though memory reconstruction may not always head toward a schema, memory does appear to involve some kind of constructive process capable of returning accurate and distorted impressions of past experiences.</p>
+</section>
+
+<section id="bluma-zeigarnik-1901-1988" class="title-slide slide level1">
+<h1>Bluma Zeigarnik (1901-1988)</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Early memory researcher</p>
+<p>“to-do” list effect</p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Zeigarnick.jpg" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="phenomenon" class="title-slide slide level1">
+<h1>Phenomenon</h1>
+<p>Zeigarnik investigated an apparent phenomenon showing that uncompleted tasks are remembered better than completed tasks</p>
+</section>
+
+<section id="method" class="title-slide slide level1">
+<h1>Method</h1>
+<p>Participants were given a variety of tasks that took about 3- 5 minutes to complete (math, drawing, threading a needle).</p>
+<p>Manipulation:</p>
+<p>Partway through some of the tasks, she interrupted people and asked them to start on a new task.</p>
+<p>At the end of the experiment, the participants had completed some of the tasks, and others remained incomplete.</p>
+</section>
+
+<section id="results-1" class="title-slide slide level1">
+<h1>Results</h1>
+<p>Zeigarnik then had participants recall all of the tasks.</p>
+<p>Across several experiments she reliably found that people recalled more of the uncompleted tasks than the completed tasks.</p>
+<p>One explanation was the goal to a complete a task created psychological tension that could only be resolved by completing the task. This goal-based tension is not resolved when a task is interrupted, and leads to differences in memory completed and uncompleted tasks.</p>
+</section>
+
+<section id="replication-attempts" class="title-slide slide level1">
+<h1>Replication attempts</h1>
+<p>In 1968, Van Bergen published several replication attempts and found that her participants did not show systematic differences in their memory for completed and uncompleted tasks…</p>
+</section>
+
+<section id="hedwig-von-restorff-1906-1962" class="title-slide slide level1">
+<h1>Hedwig von Restorff (1906-1962)</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Applied Gestalt theory figure/ground concepts to memory</p>
+<p>Demonstrated role of distinctiveness in memory</p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/vonRestorff.jpg" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="big-questions-2" class="title-slide slide level1">
+<h1>Big Questions</h1>
+<p>What makes some information more memorable than others?</p>
+<p>Is memory better for things that “stand-out” from the background?</p>
+</section>
+
+<section id="method-1" class="title-slide slide level1">
+<h1>Method</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Tested recall memory for lists of paired items.</p>
+<p>Manipulated:</p>
+<p>“massed” items (CVC syllables) vs</p>
+<p>“isolated” items (unique pairs)</p>
+</div>
+<div class="col-md-6">
+<p><img src="../../textbook/imgs/Von_restorff_Stimuli.png" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="counterbalancing" class="title-slide slide level1">
+<h1>Counterbalancing</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Counterbalancing is an experimental technique used to control for the role of individual stimuli</p>
+<p>Von Restorff counterbalanced the massed and isolated items across lists</p>
+</div>
+<div class="col-md-6">
+<p><img src="../../textbook/imgs/Von_Restorff_counterbalance.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="results-2" class="title-slide slide level1">
+<h1>Results</h1>
+<p>Von Restorff found:</p>
+<p>Higher recall of isolated pairs compared to massed pairs…</p>
+<p>Regardless of type of material</p>
+<p>Important: particular stimuli were more or less memorable, not in and of themselves, but in relation to how distinct they were from other stimuli in the set.</p>
+</section>
+
+<section id="distinctiveness-effects" class="title-slide slide level1">
+<h1>Distinctiveness effects</h1>
+<p>..have been replicated many times in many ways since von Restorff</p>
+</section>
+
+<section id="roadmap-2" class="title-slide slide level1">
+<h1>Roadmap</h1>
+<div class="grey_box">
+<p>1 Questions about memory</p>
+</div>
+<div class="grey_box">
+<p>2 Early memory research</p>
+</div>
+<div class="pop_box_2">
+<p>3 Memory as information processing</p>
+</div>
+<div class="grey_box">
+<p>4 Multi-store model</p>
+</div>
+</section>
+
+<section id="george-miller-1920-2012" class="title-slide slide level1">
+<h1>George Miller (1920-2012)</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Often considered a “founder” of cognitive psychology</p>
+<p>Did early work on information processing limitations</p>
+<p>Later work on language</p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/George_Armitage_Miller.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="millers-magic-number-7" class="title-slide slide level1">
+<h1>Miller’s Magic Number 7</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Reviews evidence showing that absolute magnitude judgments in perception have similar information “channel” capacities</p>
+<p>Considers whether perceptual processing limitations apply to immediate memory</p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Miller_magic7.png" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="millers-big-question" class="title-slide slide level1">
+<h1>Miller’s Big Question</h1>
+<p>Are the information channels for perception and memory limited in the same way or different ways?</p>
+</section>
+
+<section id="absolute-perceptual-judgment" class="title-slide slide level1">
+<h1>Absolute Perceptual Judgment</h1>
+<p>A method from psychophysics</p>
+<p>People are presented with one stimulus at a time from a set of stimuli</p>
+<p>Task is to identify (by name or label) the stimulus</p>
+</section>
+
+<section id="absolute-pitch" class="title-slide slide level1">
+<h1>Absolute Pitch</h1>
+<p>Absolute pitch is a rare musical ability to identify or name individual pitches played on a musical instrument without a reference tone</p>
+<p>Most people are not able to name specific pitches</p>
+</section>
+
+<section id="pollacks-pitch-judgment-results" class="title-slide slide level1">
+<h1>Pollacks’ pitch judgment results</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Pollack presented people with sets of tones (from 2 to 14 different tones)</p>
+<p>Subjects had identify the specific tone presented with a number</p>
+<div class="smaller_50">
+<p>Pollack, I. (1952). The Information of Elementary Auditory Displays. The Journal of the Acoustical Society of America, 24, 745–749.</p>
+</div>
+</div>
+<div class="col-md-6">
+<p><img src="../../textbook/imgs/Pollack_tone.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="translation-to-channel-capacity" class="title-slide slide level1">
+<h1>Translation to Channel Capacity</h1>
+<p>Results from absolute magnitude judgment tasks can be translated from accuracy to amount of information transmitted</p>
+<div class="row">
+<div class="col-md-6">
+<p><img src="../../textbook/imgs/Pollack_tone.png" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+<div class="col-md-6">
+<p><img src="../../textbook/imgs/Miller_tone.png" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="generalization-across-perceptual-tasks" class="title-slide slide level1">
+<h1>Generalization across perceptual tasks</h1>
+<p><img src="imgs/abs_judg_multi.png" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="interim-summary" class="title-slide slide level1">
+<h1>Interim summary</h1>
+<p>Judgments of absolute magnitude appear to be limited by stimulus set-size, which could be translated to amount of information</p>
+<p>Performance was typically near perfect up to around set size of 7, plus or minus 2.</p>
+</section>
+
+<section id="generalization-to-immediate-memory-span" class="title-slide slide level1">
+<h1>Generalization to immediate memory span?</h1>
+<p>Do perceptual judgment limitations also apply to your ability to remember information over the short term?</p>
+<p>Is there a relationship to <strong>immediate memory span</strong>?</p>
+</section>
+
+<section id="how-items-can-memory-hold" class="title-slide slide level1">
+<h1>How items can memory hold?</h1>
+<p>Immediate memory span is a way to measure the ability to encode and recall an arbitrary list of items over a short period of time</p>
+<p>People can often retain around 7, plus or minus two items</p>
+</section>
+
+<section id="immediate-memory-span-and-bits" class="title-slide slide level1">
+<h1>Immediate memory span and bits</h1>
+<div class="row">
+<div class="col-md-6">
+<p>binary digits : 00010001101110</p>
+<p>decimal digits: 17583285647390</p>
+<p>letters: abhgkslhjbcksj</p>
+<p>letters and digits: 4hsj3hd8fgj3h2g</p>
+<p>1000 words: hello dolphin lamp tree plate car …</p>
+</div>
+<div class="col-md-6">
+<p><img src="../../textbook/imgs/Miller_im_span.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="recoding-and-chunking" class="title-slide slide level1">
+<h1>Recoding and Chunking</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Miller suggests that people “recode” information into chunks, and that immediate memory is limited by number of chunks not amount of information in the chunks</p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/chunks.png" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="roadmap-3" class="title-slide slide level1">
+<h1>Roadmap</h1>
+<div class="grey_box">
+<p>1 Questions about memory</p>
+</div>
+<div class="grey_box">
+<p>2 Early memory research</p>
+</div>
+<div class="grey_box">
+<p>3 Memory as information processing</p>
+</div>
+<div class="pop_box_2">
+<p>4 Multi-store model</p>
+</div>
+</section>
+
+<section id="short-vs-long-term-memory" class="title-slide slide level1">
+<h1>Short vs long-term memory</h1>
+<p>We have all forgotten something that just happened</p>
+<p>We can all remember things from a long time ago</p>
+<p>How do we explain the short and long term aspects of memory ability?</p>
+</section>
+
+<section id="multi-store-model" class="title-slide slide level1">
+<h1>Multi-store model</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Atkinson, R. C., &amp; Shiffrin, R. M. (1968). Human memory: A proposed system and its control processes. In Psychology of learning and motivation (Vol. 2, pp. 89–195). Elsevier.</p>
+</div>
+<div class="col-md-6">
+<p><img src="../../textbook/imgs/Multi_store_1.jpg" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="rehearsal-buffer" class="title-slide slide level1">
+<h1>Rehearsal buffer</h1>
+<div class="row">
+<div class="col-md-6">
+<p>According to the multi-store model, people can consciously rehearse items in a short term buffer</p>
+<p>More rehearsal = more transfer to long-term memory</p>
+</div>
+<div class="col-md-6">
+<p><img src="../../textbook/imgs/Multi_store_2.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="free-recall-task" class="title-slide slide level1">
+<h1>Free recall task</h1>
+<p>A common memory task procedure</p>
+<p>Encoding phase: read a list of words</p>
+<p>Recall phase: write down all the words you can recall on a blank sheet of paper</p>
+</section>
+
+<section id="serial-position-curve" class="title-slide slide level1">
+<h1>Serial position curve</h1>
+<div class="row">
+<div class="col-md-6">
+<p>A common finding in free recall tasks</p>
+<p><strong>Primacy effect</strong>: better memory for items presented early in the list</p>
+<p><strong>Recency effect</strong>: better memory for items presented at the end of the list</p>
+</div>
+<div class="col-md-6">
+<p><img src="../../textbook/imgs/Serial_position_1.jpg" width="80%" style="display: block; margin: auto;" /></p>
+<div class="smaller_50">
+<p>Deese, J., &amp; Kaufman, R. A. (1957). Serial effects in recall of unorganized and sequentially organized verbal material. Journal of Experimental Psychology, 54(3), 180. <a href="https://doi.org/drc265" class="uri">https://doi.org/drc265</a></p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="explaining-the-serial-position-curve" class="title-slide slide level1">
+<h1>Explaining the serial position curve</h1>
+<p>How does the multi-store model explain the primacy effect?</p>
+<p>How does the multi-store model explain the recency effect?</p>
+</section>
+
+<section id="testing-the-rehearsal-account" class="title-slide slide level1">
+<h1>Testing the rehearsal account</h1>
+<p>How could we test the hypothesis that the rehearsal is causing the recency effect?</p>
+</section>
+
+<section id="manipulating-rehearsal" class="title-slide slide level1">
+<h1>Manipulating Rehearsal</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Postman &amp; Philips (1965) manipulated whether or not participants did arithmetic problems before a recall test…</p>
+<p>Arithmetic problem-solving should make rehearsal difficult</p>
+</div>
+<div class="col-md-6">
+<p><img src="../../textbook/imgs/Serial_position_2.png" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="tzeng-1973" class="title-slide slide level1">
+<h1>Tzeng 1973</h1>
+<p>In 1973, Tzeng reported a standard free-recall experiment with a twist.</p>
+<p>His subjects were given four lists of 10 words each. The twist was that after hearing each word, subjects spent 20 seconds counting backwards by 3s from a random starting digit.</p>
+<p>Counting backwards by 3s was a very demanding task that should occupy and replace the contents of any short-term rehearsal buffer.</p>
+</section>
+
+<section id="long-term-recency" class="title-slide slide level1">
+<h1>Long-term recency</h1>
+<div class="row">
+<div class="col-md-6">
+<p>According to the multi-store model, Tzeng should not have found recency effects in this experiment, but he did.</p>
+</div>
+<div class="col-md-6">
+<p><img src="../../textbook/imgs/Tzeng_1973.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="systems-vs-strategies" class="title-slide slide level1">
+<h1>Systems vs strategies</h1>
+
+</section>
+
+<section id="whats-next" class="title-slide slide level1">
+<h1>What’s next?</h1>
+<p>Take the quiz and complete any assignments for the learning module by the due date.</p>
+<p>The next learning module is Memory II.</p>
+</section>
+    </div>
+  </div>
+
+  <script src="L10_Memory_1_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="L10_Memory_1_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
   <script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+        // Display a presentation progress bar
+        progress: true,
+        // Push each slide change to the browser history
+        history: true,
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+        // Enable the slide overview mode
+        overview: true,
+        // Vertical centering of slides
+        center: false,
+        // Enables touch navigation on devices with touch input
+        touch: true,
+        // Turns fragments on and off globally
+        fragments: true,
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+        // Transition style
+        transition: 'fade', // none/fade/slide/convex/concave/zoom
+        // Transition speed
+        transitionSpeed: 'default', // default/fast/slow
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+
+
+        // Optional reveal.js plugins
+        dependencies: [
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
   })();
 </script>
-  
+
+
   </body>
-  </html>
+</html>

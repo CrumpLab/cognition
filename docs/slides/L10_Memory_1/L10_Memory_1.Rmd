@@ -2,18 +2,17 @@
 title: 'PSYC 2530: Memory I'
 author: "Matthew J. C. Crump"
 date: "Last compiled `r format(Sys.time(), '%m/%d/%y')`"
+subtitle: Early approaches
 output:
-  slidy_presentation:
-    footer: written by Matt Crump
+  revealjs::revealjs_presentation:
     includes:
       in_header: header.html
-    self_contained: no
-    theme: yeti
-    incremental: yes
-    template: slidy_template.html
-logoimage: imgs/BC_logo.png
-css: style.css
-subtitle: Early approaches
+    self_contained: false
+    theme: white
+    transition: fade
+    center: false
+    incremental: true
+    css: style.css
 ---
 
 ```{r setup, include=FALSE}
@@ -23,19 +22,28 @@ knitr::opts_chunk$set(echo = FALSE,
 library(fontawesome)
 ```
 
-## Reminders
+# Reminders
 
 Reading is Chapter 8 on [Memory I](https://www.crumplab.com/cognition/textbook/memory-i.html)
 
-##  Questions about memory
+#  Roadmap
 
-### 1. Questions about memory {.bolder}
-### 2. Early memory research {.greyout}
-### 3. Memory as information processing {.greyout}
-### 4. Multi-store model {.greyout}
+::: {.pop_box_2} 
+1 Questions about memory
+:::
+::: {.grey_box} 
+2 Early memory research
+:::
+::: {.grey_box} 
+3 Memory as information processing
+:::
+::: {.grey_box} 
+4 Multi-store model
+:::
 
-##  Questions about memory
+#  Questions about memory
 
+::: {.smaller_50}
 What is it like for you to remember something from your past? 
 
 How many events from your experience can you remember? 
@@ -55,15 +63,24 @@ What other animals besides humans have memories?
 How are memories encoded, stored, and retrieved in the brain? 
 
 How do people use their environment to help them remember things?
+:::
 
-##  Early memory research
+#  Roadmap
 
-### 1. Questions about memory {.greyout}
-### 2. Early memory research {.bolder}
-### 3. Memory as information processing {.greyout}
-### 4. Multi-store model {.greyout}
+::: {.grey_box} 
+1 Questions about memory
+:::
+::: {.pop_box_2} 
+2 Early memory research
+:::
+::: {.grey_box} 
+3 Memory as information processing
+:::
+::: {.grey_box} 
+4 Multi-store model
+:::
 
-## Early memory researchers
+# Early memory researchers
 
 Hermann Ebbinghaus
 
@@ -73,7 +90,7 @@ Bluma Zeigarnik
 
 Hedwig von Restorff
 
-## Hermann Ebbinghaus (1850-1909)
+# Hermann Ebbinghaus (1850-1909)
 
 :::: {.row}
 ::: {.col-md-6}
@@ -93,7 +110,7 @@ knitr::include_graphics("imgs/Ebbinghaus2.jpg")
 :::
 ::::
 
-## What did Ebbinghaus do?
+# What did Ebbinghaus do?
 
 Systematically measured rates of learning and forgetting
 
@@ -101,19 +118,19 @@ Conducted single-subject research on himself
 
 Invented use of nonsense material (CVC syllables)
 
-## Big Questions
+# Big Questions
 
 How do people learn new associations?
 
 What happens to new learning with delays between practice? (forgetting)
 
-## Issues
+# Issues
 
 People already have many existing associations from their experience...
 
 How to study learning of new associations?
 
-## Methodological insight
+# Methodological insight
 
 Adopt a task with very little pre-existing familiarity
 
@@ -121,13 +138,13 @@ Ebbinghaus devised a serial learning task to measure how long it took to recite 
 
 He used artificial stimuli so that pre-existing familiarity with the items would not interfere with the learning process. 
 
-## Nonsense syllables
+# Nonsense syllables
 
 ```{r, out.width="100%"}
 knitr::include_graphics("imgs/CVC_table.png")
 ```
 
-## Ebbinghaus's task
+# Ebbinghaus's task
 
 Ebbinghaus' task involved learning lists of nonsense syllables
 
@@ -138,11 +155,11 @@ Two basic phases:
 2. Re-learning after a delay
 
 
-## Modern Replication
+# Modern Replication
 
 Murre, J. M. J., & Dros, J. (2015). Replication and Analysis of Ebbinghaus’ Forgetting Curve. PLOS ONE, 10(7), e0120644. https://doi.org/f7vfcn
 
-## one-time perfect
+# one-time perfect
 
 :::: {.row}
 ::: {.col-md-6}
@@ -160,7 +177,7 @@ knitr::include_graphics("imgs/CVC_table.png")
 :::
 ::::
 
-## Re-learning after delay
+# Re-learning after delay
 
 In the second phase, each row was re-learned after a delay. The delays were 20 minutes, 1 hour, 9 hours, or 1, 2, 6, or 31 days.
 
@@ -168,7 +185,7 @@ After each delay period, rows were shown again and relearned.
 
 The number of relearning attempts to get to another “one-time perfect” recitation was also measured.
 
-## Original learning
+# Original learning
 
 :::: {.row}
 ::: {.col-md-6}
@@ -190,19 +207,19 @@ Data from Murre & Dros, 2015
 :::
 ::::
 
-## Savings in Re-learning
+# Savings in Re-learning
 
 How many attempts were required to re-learn a list after different delays?
 
 The delays were 20 minutes, 1 hour, 9 hours, or 1, 2, 6, or 31 days.
 
-## Results
+# Results
 
 ```{r}
 knitr::include_graphics("imgs/murre_dros_2015.png")
 ```
 
-## Exponential forgetting
+# Exponential forgetting
 
 :::: {.row}
 ::: {.col-md-6}
@@ -211,7 +228,9 @@ Ebbinghaus was the first show evidence for exponential forgetting across delays
 
 Most forgetting occurred immediately after learning, and the rate of forgetting slowed down as delay increased
 
-"Exponential forgetting is like going to Las Vegas and spending most of your money on the first day, and then losing the rest of it slowly over the next week."
+::: {.smaller_50}
+> "Exponential forgetting is like going to Las Vegas and spending most of your money on the first day, and then losing the rest of it slowly over the next week."
+:::
 
 :::
 
@@ -224,7 +243,7 @@ knitr::include_graphics("../../textbook/imgs/Ebbinghaus_exp.jpg")
 :::
 ::::
 
-## Sir Frederick Bartlett (1886-1969)
+# Sir Frederick Bartlett (1886-1969)
 
 :::: {.row}
 ::: {.col-md-6}
@@ -246,7 +265,7 @@ knitr::include_graphics("imgs/Bartlett.jpg")
 :::
 ::::
 
-## Memory metaphors
+# Memory metaphors
 
 1. Memory is a file drawer
 
@@ -254,7 +273,7 @@ knitr::include_graphics("imgs/Bartlett.jpg")
 
 3. Memory is a bent-wire
 
-## Memory as "RE-" Membering
+# Memory as "RE-" Membering
 
 :::: {.row}
 ::: {.col-md-6}
@@ -274,13 +293,13 @@ knitr::include_graphics("imgs/Humpty_dumpty.jpg")
 :::
 ::::
 
-## Big questions
+# Big questions
 
 How do people reconstruct a prior memory?
 
 How does memory change over successive re-memberings?
 
-## Method of Serial Reproduction
+# Method of Serial Reproduction
 
 Bartlett conducted experiments that involves two general phases:
 
@@ -288,34 +307,36 @@ Bartlett conducted experiments that involves two general phases:
 
 2. Reproduction phases: Had people reproduce the information from memory, many times over
 
-## L'Portraite D'homme
+# L'Portraite D'homme
 
 ```{r}
 knitr::include_graphics("../../textbook/imgs/Bartlett_homme.png")
 ```
 
-## Bartlett's Schemas
+# Bartlett's Schemas
 
 Bartlett suggested that remembering processes are guided by general schemas
 
 People may distort their original experiences toward a schema
 
-## Reproducing Bartlett
+# Reproducing Bartlett
 
+::: {.smaller_75}
 Carbon, C.-C., & Albrecht, S. (2012). Bartlett’s schema theory: The unreplicated “portrait d’homme” series from 1932. Quarterly Journal of Experimental Psychology, 65(11), 2258–2270. https://doi.org/gjs5bh
+:::
 
 ```{r}
 knitr::include_graphics("imgs/Barteltt_replication.jpg")
 ```
 
-## Memory distortions
+# Memory distortions
 
 Although some of Bartlett’s findings may not stand the test of time, there are many reproducible findings showing that memory can be distorted in interesting ways. 
 
 So, even though memory reconstruction may not always head toward a schema, memory does appear to involve some kind of constructive process capable of returning accurate and distorted impressions of past experiences.
 
 
-## Bluma Zeigarnik (1901-1988)
+# Bluma Zeigarnik (1901-1988)
 
 :::: {.row}
 ::: {.col-md-6}
@@ -335,11 +356,11 @@ knitr::include_graphics("imgs/Zeigarnick.jpg")
 :::
 ::::
 
-## Phenomenon
+# Phenomenon
 
 Zeigarnik investigated an apparent phenomenon showing that uncompleted tasks are remembered better than completed tasks
 
-## Method
+# Method
 
 Participants were given a variety of tasks that took about 3- 5 minutes to complete (math, drawing, threading a needle).
 
@@ -349,7 +370,7 @@ Partway through some of the tasks, she interrupted people and asked them to star
 
 At the end of the experiment, the participants had completed some of the tasks, and others remained incomplete.
 
-## Results
+# Results
 
 Zeigarnik then had participants recall all of the tasks. 
 
@@ -357,12 +378,12 @@ Across several experiments she reliably found that people recalled more of the u
 
 One explanation was the goal to a complete a task created psychological tension that could only be resolved by completing the task. This goal-based tension is not resolved when a task is interrupted, and leads to differences in memory completed and uncompleted tasks.
 
-## Replication attempts
+# Replication attempts
 
 In 1968, Van Bergen published several replication attempts and found that her participants did not show systematic differences in their memory for completed and uncompleted tasks...
 
 
-## Hedwig von Restorff (1906-1962)
+# Hedwig von Restorff (1906-1962)
 
 :::: {.row}
 ::: {.col-md-6}
@@ -382,13 +403,13 @@ knitr::include_graphics("imgs/vonRestorff.jpg")
 :::
 ::::
 
-## Big Questions
+# Big Questions
 
 What makes some information more memorable than others?
 
 Is memory better for things that "stand-out" from the background?
 
-## Method
+# Method
 
 :::: {.row}
 ::: {.col-md-6}
@@ -412,7 +433,7 @@ knitr::include_graphics("../../textbook/imgs/Von_restorff_Stimuli.png")
 :::
 ::::
 
-## Counterbalancing
+# Counterbalancing
 
 :::: {.row}
 ::: {.col-md-6}
@@ -433,7 +454,7 @@ knitr::include_graphics("../../textbook/imgs/Von_Restorff_counterbalance.jpg")
 :::
 ::::
 
-## Results
+# Results
 
 Von Restorff found:
 
@@ -443,20 +464,28 @@ Regardless of type of material
 
 Important: particular stimuli were more or less memorable, not in and of themselves, but in relation to how distinct they were from other stimuli in the set.
 
-## Distinctiveness effects
+# Distinctiveness effects
 
 ..have been replicated many times in many ways since von Restorff
 
 
 
-##  Memory as information processing
+#  Roadmap
 
-### 1. Questions about memory {.greyout}
-### 2. Early memory research {.greyout}
-### 3. Memory as information processing {.bolder}
-### 4. Multi-store model {.greyout}
+::: {.grey_box} 
+1 Questions about memory
+:::
+::: {.grey_box} 
+2 Early memory research
+:::
+::: {.pop_box_2} 
+3 Memory as information processing
+:::
+::: {.grey_box} 
+4 Multi-store model
+:::
 
-## George Miller (1920-2012)
+# George Miller (1920-2012)
 
 :::: {.row}
 ::: {.col-md-6}
@@ -478,7 +507,7 @@ knitr::include_graphics("imgs/George_Armitage_Miller.jpg")
 :::
 ::::
 
-## Miller's Magic Number 7
+# Miller's Magic Number 7
 
 :::: {.row}
 ::: {.col-md-6}
@@ -498,11 +527,11 @@ knitr::include_graphics("imgs/Miller_magic7.png")
 :::
 ::::
 
-## Miller's Big Question
+# Miller's Big Question
 
 Are the information channels for perception and memory limited in the same way or different ways?
 
-## Absolute Perceptual Judgment
+# Absolute Perceptual Judgment
 
 A method from psychophysics
 
@@ -510,13 +539,13 @@ People are presented with one stimulus at a time from a set of stimuli
 
 Task is to identify (by name or label) the stimulus
 
-## Absolute Pitch
+# Absolute Pitch
 
 Absolute pitch is a rare musical ability to identify or name individual pitches played on a musical instrument without a reference tone
 
 Most people are not able to name specific pitches
 
-## Pollacks' pitch judgment results
+# Pollacks' pitch judgment results
 
 :::: {.row}
 ::: {.col-md-6}
@@ -524,6 +553,10 @@ Most people are not able to name specific pitches
 Pollack presented people with sets of tones (from 2 to 14 different tones)
 
 Subjects had identify the specific tone presented with a number
+
+::: {.smaller_50}
+Pollack, I. (1952). The Information of Elementary Auditory Displays. The Journal of the Acoustical Society of America, 24, 745–749.
+:::
 
 :::
 
@@ -533,12 +566,10 @@ Subjects had identify the specific tone presented with a number
 knitr::include_graphics("../../textbook/imgs/Pollack_tone.png")
 ```
 
-Pollack, I. (1952). The Information of Elementary Auditory Displays. The Journal of the Acoustical Society of America, 24, 745–749.
-
 :::
 ::::
 
-## Translation to Channel Capacity
+# Translation to Channel Capacity
 
 Results from absolute magnitude judgment tasks can be translated from accuracy to amount of information transmitted
 
@@ -561,31 +592,31 @@ knitr::include_graphics("../../textbook/imgs/Miller_tone.png")
 ::::
 
 
-## Generalization across perceptual tasks
+# Generalization across perceptual tasks
 
 ```{r}
 knitr::include_graphics("imgs/abs_judg_multi.png")
 ```
 
-## Interim summary
+# Interim summary
 
 Judgments of absolute magnitude appear to be limited by stimulus set-size, which could be translated to amount of information
 
 Performance was typically near perfect up to around set size of 7, plus or minus 2.
 
-## Generalization to immediate memory span?
+# Generalization to immediate memory span?
 
 Do perceptual judgment limitations also apply to your ability to remember information over the short term?
 
 Is there a relationship to **immediate memory span**?
 
-## How items can memory hold?
+# How items can memory hold?
 
 Immediate memory span is a way to measure the ability to encode and recall an arbitrary list of items over a short period of time
 
 People can often retain around 7, plus or minus two items
 
-## Immediate memory span and bits
+# Immediate memory span and bits
 
 :::: {.row}
 ::: {.col-md-6}
@@ -611,7 +642,7 @@ knitr::include_graphics("../../textbook/imgs/Miller_im_span.jpg")
 :::
 ::::
 
-## Recoding and Chunking
+# Recoding and Chunking
 
 :::: {.row}
 ::: {.col-md-6}
@@ -630,14 +661,22 @@ knitr::include_graphics("imgs/chunks.png")
 ::::
 
 
-##  Multi-store model
+#  Roadmap
 
-### 1. Questions about memory {.greyout}
-### 2. Early memory research {.greyout}
-### 3. Memory as information processing {.greyout}
-### 4. Multi-store model {.bolder}
+::: {.grey_box} 
+1 Questions about memory
+:::
+::: {.grey_box} 
+2 Early memory research
+:::
+::: {.grey_box} 
+3 Memory as information processing
+:::
+::: {.pop_box_2} 
+4 Multi-store model
+:::
 
-## Short vs long-term memory
+# Short vs long-term memory
 
 We have all forgotten something that just happened
 
@@ -645,7 +684,7 @@ We can all remember things from a long time ago
 
 How do we explain the short and long term aspects of memory ability?
 
-## Multi-store model
+# Multi-store model
 
 :::: {.row}
 ::: {.col-md-6}
@@ -663,7 +702,7 @@ knitr::include_graphics("../../textbook/imgs/Multi_store_1.jpg")
 :::
 ::::
 
-## Rehearsal buffer
+# Rehearsal buffer
 
 :::: {.row}
 ::: {.col-md-6}
@@ -683,15 +722,15 @@ knitr::include_graphics("../../textbook/imgs/Multi_store_2.jpg")
 :::
 ::::
 
-## Free recall task
+# Free recall task
 
 A common memory task procedure
 
 Encoding phase: read a list of words
 
-Recall phase: write down as many as you recall on a blank sheet of paper
+Recall phase: write down all the words you can recall on a blank sheet of paper
 
-## Serial position curve
+# Serial position curve
 
 :::: {.row}
 ::: {.col-md-6}
@@ -710,22 +749,24 @@ A common finding in free recall tasks
 knitr::include_graphics("../../textbook/imgs/Serial_position_1.jpg")
 ```
 
+::: {.smaller_50}
 Deese, J., & Kaufman, R. A. (1957). Serial effects in recall of unorganized and sequentially organized verbal material. Journal of Experimental Psychology, 54(3), 180. https://doi.org/drc265
+:::
 
 :::
 ::::
 
-## Explaining the serial position curve
+# Explaining the serial position curve
 
 How does the multi-store model explain the primacy effect?
 
 How does the multi-store model explain the recency effect?
 
-## Testing the rehearsal account
+# Testing the rehearsal account
 
 How could we test the hypothesis that the rehearsal is causing the recency effect?
 
-## Manipulating Rehearsal
+# Manipulating Rehearsal
 
 :::: {.row}
 ::: {.col-md-6}
@@ -746,7 +787,7 @@ knitr::include_graphics("../../textbook/imgs/Serial_position_2.png")
 ::::
 
 
-## Tzeng 1973
+# Tzeng 1973
 
 In 1973, Tzeng reported a standard free-recall experiment with a twist. 
 
@@ -755,7 +796,7 @@ The twist was that after hearing each word, subjects spent 20 seconds counting b
 
 Counting backwards by 3s was a very demanding task that should occupy and replace the contents of any short-term rehearsal buffer. 
 
-## Long-term recency
+# Long-term recency
 
 :::: {.row}
 ::: {.col-md-6}
@@ -773,11 +814,11 @@ knitr::include_graphics("../../textbook/imgs/Tzeng_1973.jpg")
 :::
 ::::
 
-## Systems vs strategies
+# Systems vs strategies
 
 
 
-## What's next?
+# What's next?
 
 Take the quiz and complete any assignments for the learning module by the due date. 
 

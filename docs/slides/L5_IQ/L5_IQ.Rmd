@@ -2,20 +2,17 @@
 title: 'PSYC 2530: Intelligence testing'
 author: "Matthew J. C. Crump"
 date: "Last compiled `r format(Sys.time(), '%m/%d/%y')`"
+subtitle: A short history of early cognitive testing
 output:
-  slidy_presentation:
-    footer: written by Matt Crump
+  revealjs::revealjs_presentation:
     includes:
       in_header: header.html
-    self_contained: no
-    theme: yeti
-    incremental: yes
-    template: slidy_template.html
-  beamer_presentation:
-    incremental: yes
-logoimage: imgs/BC_logo.png
-css: style.css
-subtitle: A short history of early cognitive testing
+    self_contained: false
+    theme: white
+    transition: fade
+    center: false
+    incremental: true
+    css: style.css
 ---
 
 ```{r setup, include=FALSE}
@@ -25,24 +22,31 @@ knitr::opts_chunk$set(echo = FALSE,
 library(fontawesome)
 ```
 
-## Reminders from last class
+# Reminders from last class
 
 Reading for today was chapter 4 [Intelligence testing](https://www.crumplab.com/cognition/textbook/intelligence-testing.html) from the textbook.
 
-##  Roadmap
+#  Roadmap
 
-### 1. The intelligence test race {.bolder}
-### 2. Binet-Simon Test {.greyout}
-### 3. Mental testing and Eugenics {.greyout}
-### 4. Critical responses {.greyout}
-
-## What is intelligence?
+::: {.pop_box_2} 
+1 The intelligence test race
+:::
+::: {.grey_box} 
+2 Binet-Simon Test
+:::
+::: {.grey_box} 
+3 Mental testing and Eugenics
+:::
+::: {.grey_box} 
+4 Critical responses
+:::
+# What is intelligence?
 
 
 :::: {.row}
 ::: {.col-md-6}
 
-### Everyone knows what that means
+## Everyone knows what that means
 
 ```{r}
 knitr::include_graphics("imgs/200.gif")
@@ -52,7 +56,7 @@ knitr::include_graphics("imgs/200.gif")
 
 ::: {.col-md-6}
 
-### Hmmm, the more I think about it...
+## Hmmm, the more I think about it...
 
 ```{r}
 knitr::include_graphics("imgs/200-1.gif")
@@ -61,7 +65,7 @@ knitr::include_graphics("imgs/200-1.gif")
 :::
 ::::
 
-## Questions to consider
+# Questions to consider
 
 1. What is intelligence?
 2. What are intelligence tests and what do they measure?
@@ -69,7 +73,7 @@ knitr::include_graphics("imgs/200-1.gif")
 4. Reasonable people have diverging opinions about the above questions
 5. This class explores the historical context and development of IQ tests
 
-## The intelligence test race
+# The intelligence test race
 
 - The eugenics movement desired "scientific" tests that could convincingly measure individual differences in mental ability
 
@@ -77,13 +81,13 @@ knitr::include_graphics("imgs/200-1.gif")
 
 - Psychologists committed to the eugenics movement "race" to develop suitable mental tests
 
-## Turn of the century (1900)
+# Turn of the century (1900)
 
 Psychologists around the world are developing tests to measure people on numerous dimensions (mental, physical, health, etc.)
 
 National governments (UK, Germany, France, USA) are beginning to use, or consider using tests in conjunction with social policy and decision-making.
 
-## James Mckeen Cattell (1860-1944)
+# James Mckeen Cattell (1860-1944)
 
 :::: {.row}
 ::: {.col-md-6}
@@ -107,7 +111,7 @@ knitr::include_graphics("imgs/Cattell.jpg")
 :::
 ::::
 
-## Cattell as Galton's acolyte
+# Cattell as Galton's acolyte
 
 Cattell visited Galton in UK, popularized Galton's psychological and eugenics mission in the USA
 
@@ -115,16 +119,16 @@ Cattell visited Galton in UK, popularized Galton's psychological and eugenics mi
 
 - Attempted to develop mental tests to measure individual differences in human quality
 
-## Men of science
+# Men of science
 
 Galton and Cattell both tried to demonstrate that "men of science" in England and the US had inherited superior traits
 
 :::: {.row}
 ::: {.col-md-6}
 
-### Galton
+**Galton**
 
-```{r}
+```{r,out.width="50%"}
 knitr::include_graphics("imgs/Galton_men_of_science.png")
 ```
 
@@ -132,31 +136,48 @@ knitr::include_graphics("imgs/Galton_men_of_science.png")
 
 ::: {.col-md-6}
 
-### Cattell
+**Cattell**
 
-```{r}
+```{r, out.width="50%"}
 knitr::include_graphics("imgs/Cattell_men_of_science.jpg")
 ```
 
 :::
 ::::
 
-## Cattell's mental tests
+# Cattell's mental tests
 
+:::: {.row}
+::: {.col-md-6}
+::: {.smaller_50}
 CATTELL, J. McK. (1890). V.—MENTAL TESTS AND MEASUREMENTS. Mind, os-XV(59), 373–381. https://doi.org/10/dhn9nc
+:::
 
-```{r}
+:::
+
+::: {.col-md-6}
+
+```{r,out.width="90%"}
 knitr::include_graphics("imgs/Cattell_mental_testing.jpg")
 ```
 
-## Testing Columbia students
+:::
+::::
 
+
+
+
+
+# Testing Columbia students
+
+::: {.smaller_50}
 Cattell, J. M., & Farrand, L. (1896). Physical and mental measurements of the students of Columbia University. Psychological Review, 3(6), 618. https://doi.org/10/ckms9q
+:::
 
 :::: {.row}
 ::: {.col-md-6}
 
-```{r,out.width="100%"}
+```{r,out.width="80%"}
 knitr::include_graphics("imgs/Cattell_form.png")
 ```
 
@@ -172,11 +193,11 @@ knitr::include_graphics("imgs/Cattell_conclusion.png")
 ::::
 
 
-## Cattell's tests weren't predictive
+# Cattell's tests weren't predictive
 
 Efforts to predict Columbia students grades (a potential measure of their intelligence) from Cattell's tests were not successful.
 
-## Binet's Critiques
+# Binet's Critiques
 
 As mentioned previously, several other psychologists around the world were attempting to develop their own versions of mental tests
 
@@ -184,14 +205,22 @@ As mentioned previously, several other psychologists around the world were attem
 
 - Binet argued that Cattell's tests weren't very mentally challenging...
 
-##  Binet-Simon Test
+#  Roadmap
 
-### 1. The intelligence test race {.greyout}
-### 2. Binet-Simon Test {.bolder}
-### 3. Mental testing and Eugenics {.greyout}
-### 4. Critical responses {.greyout}
+::: {.grey_box} 
+1 The intelligence test race
+:::
+::: {.pop_box_2} 
+2 Binet-Simon Test
+:::
+::: {.grey_box} 
+3 Mental testing and Eugenics
+:::
+::: {.grey_box} 
+4 Critical responses
+:::
 
-## Binet's Motivation
+# Binet's Motivation
 
 
 :::: {.row}
@@ -215,14 +244,14 @@ knitr::include_graphics("imgs/Binet.jpg")
 :::
 ::::
 
-## Translated to English in 1916
+# Translated to English in 1916
 
 Kite, E. S. (1916). The development of intelligence in children (The Binet-Simon Scale). Williams & Wilkins Company.
 
 You can read it all [here](https://archive.org/details/developmentofint00binerich)
 
 
-## Binet's testing method
+# Binet's testing method
 
 :::: {.row}
 ::: {.col-md-6}
@@ -244,7 +273,7 @@ knitr::include_graphics("imgs/Binet_items.jpg")
 :::
 ::::
 
-## Basic Results 1
+# Basic Results 1
 
 :::: {.row}
 ::: {.col-md-6}
@@ -264,7 +293,7 @@ knitr::include_graphics("imgs/Binet_results.jpg")
 :::
 ::::
 
-## Quantification problem
+# Quantification problem
 
 Binet had a large number of results from many children on many tests
 
@@ -272,7 +301,7 @@ And, he recognized that "intelligence" was a complex, multi-dimensional, fuzzy c
 
 He sought a method to distill his measurements into a convenient and simple scale...his solution was mental age.
 
-## Equating mental ability with Age
+# Equating mental ability with Age
 
 - Age was simple like a ruler, going up in increments of one year at a time. 
 
@@ -280,13 +309,13 @@ He sought a method to distill his measurements into a convenient and simple scal
 
 - Binet assumed that children’s mental abilities steadily increased ever year until they became adults. 
 
-## Linking Age to mini-test results
+# Linking Age to mini-test results
 
 > One test signifies nothing, let us emphatically repeat, but five or six tests signify something. And that is so true that one might almost say, 'It matters very little what the tests are so long as they are numerous.' - Binet
 
 No single mini-test indicates anything about your "mental age"...
 
-## Norm-based comparison
+# Norm-based comparison
 
 Binet's measurements had meaning through comparison to empirical norms.
 
@@ -294,7 +323,7 @@ Empirical norms are existing measurements of how other children performed on the
 
 The large empirical database allowed Binet to assess how anyone performs the mini-tests compared to the groups of children he measured.
 
-## Algorithms for computing mental age
+# Algorithms for computing mental age
 
 :::: {.row}
 ::: {.col-md-6}
@@ -314,13 +343,13 @@ knitr::include_graphics("imgs/Binet_rule2.jpg")
 :::
 ::::
 
-## Correlating mental age with school performance
+# Correlating mental age with school performance
 
 ```{r}
 knitr::include_graphics("imgs/Binet_school.png")
 ```
 
-## Meaning of modern IQ?
+# Meaning of modern IQ?
 
 Binet's scale was in "mental" years
 
@@ -328,14 +357,22 @@ Modern "intelligence tests" use a standardized scale, often termed IQ or intelli
 
 Binet died in 1911, and his strategy for mental testing was quickly adopted by American psychologists for the purposes of the eugenics movement.
 
-##  Mental testing and Eugenics
+#  Roadmap
 
-### 1. The intelligence test race {.greyout}
-### 2. Binet-Simon Test {.greyout}
-### 3. Mental testing and Eugenics {.bolder}
-### 4. Critical responses {.greyout}
+::: {.grey_box} 
+1 The intelligence test race
+:::
+::: {.grey_box} 
+2 Binet-Simon Test
+:::
+::: {.pop_box_2} 
+3 Mental testing and Eugenics
+:::
+::: {.grey_box} 
+4 Critical responses
+:::
 
-## Human Betterment Foundation
+# Human Betterment Foundation
 
 :::: {.row}
 ::: {.col-md-6}
@@ -354,13 +391,13 @@ knitr::include_graphics("imgs/HBF_ad.jpeg")
 :::
 ::::
 
-## Member List
+# Member List
 
-```{r}
+```{r, out.width="50%"}
 knitr::include_graphics("imgs/HBF_memberlist.jpg")
 ```
 
-## Lewis Terman
+# Lewis Terman
 
 :::: {.row}
 ::: {.col-md-6}
@@ -384,7 +421,7 @@ knitr::include_graphics("imgs/Terman-opener.jpg")
 :::
 ::::
 
-## Terman's Stanford-Binet revision
+# Terman's Stanford-Binet revision
 
 :::: {.row}
 ::: {.col-md-6}
@@ -397,20 +434,20 @@ Terman advocated for widespread intelligence testing across America
 
 ::: {.col-md-6}
 
-```{r, out.width="100%"}
+```{r, out.width="75%"}
 knitr::include_graphics("imgs/Terman_book.jpg")
 ```
 
 :::
 ::::
 
-## Terman's eugenic motivations
+# Terman's eugenic motivations
 
 > it is safe to predict that in the near future intelligence tests will bring tens of thousands of these high-grade defectives under the surveillance and protection of society. This will ultimately result in curtailing the reproduction of feeble-mindedness and in the elimination of an enormous amount of crime, pauperism, and industrial inefficiency.
 
 > The number of children with very superior ability is approximately as great as the number of feeble-minded. The future welfare of the country hinges, in no small degree, upon the right education of these superior children.
 
-## Eugenical concerns about war
+# Eugenical concerns about war
 
 World war I had broken out in 1914...
 
@@ -420,7 +457,7 @@ War could eliminate "unfit" people, but could be randomly killing "fit" and "unf
 
 Eugenicists were interested in using mental tests in the war effort
 
-## American Psychologists in WWI
+# American Psychologists in WWI
 
 Yerkes, R. M. (1918). Psychology in relation to the war. Psychological Review, 25(2), 85–115. https://doi.org/10/dhdj4j
 
@@ -428,7 +465,7 @@ APA created several committees to determine how psychologists could help the war
 
 Many of them were committed to the eugenics movement, and one-time APA presidents, including Robert Yerkes, Madison Bentley, Edward Thorndike, John B. Watson, Walter D. Scott, Robert Woodworth, and Carl Seashore
 
-## The Alpha-Beta Test
+# The Alpha-Beta Test
 
 :::: {.row}
 ::: {.col-md-6}
@@ -444,14 +481,14 @@ A "mental census" for the Army
 
 Psychologist Robert M Yearkes (1876-1956)
 
-```{r,out.width="100%"}
+```{r,out.width="80%"}
 knitr::include_graphics("imgs/yerkes_large.jpg")
 ```
 
 :::
 ::::
 
-## Examples
+# Examples
 
 :::: {.row}
 ::: {.col-md-6}
@@ -471,24 +508,24 @@ knitr::include_graphics("imgs/Yerkes_alpha_test.png")
 :::
 ::::
 
-## Racial bias
+# Racial bias
 
 Yearkes argued the results showed that whites had superior intelligence compared to blacks and immigrants
 
-## Application and Interpretation
+# Application and Interpretation
 
-```{r}
+```{r, out.width="65%"}
 knitr::include_graphics("imgs/Yearkes_explanation.png")
 ```
 
-## Scientific Racism
+# Scientific Racism
 
 :::: {.row}
 ::: {.col-md-6}
 
-Carl Brighman further reported on the alpha-beta army test results in his 1922 book
+Carl Brigham popularized the alpha-beta army test results in his 1922 book
 
-```{r}
+```{r, out.width="60%"}
 knitr::include_graphics("imgs/Brigham_1922.jpg")
 ```
 
@@ -496,26 +533,26 @@ knitr::include_graphics("imgs/Brigham_1922.jpg")
 
 ::: {.col-md-6}
 
-A major focus was to assess and further validate racist conceptions of intelligence
+He furthered racist conceptions of intelligence
 
-```{r}
+```{r, out.width="60%"}
 knitr::include_graphics("imgs/Yerkes_ruler.png")
 ```
 
 :::
 ::::
 
-## Continued racism
+# Continued racism
 
 - [Arthur Jensen](https://en.wikipedia.org/wiki/Arthur_Jensen)
 
 - [Herrnstein and Murray's 1994 book, The Bell Curve](https://en.wikipedia.org/wiki/The_Bell_Curve)
 
-## IQ testing and mental health
+# IQ testing and mental health
 
 Eugenics proponents advocated that IQ tests be used to identify "feeble-minded" people that should be institutionalized by the state and/or involuntarily sterilized
 
-## Goddard's "who is a moron?"
+# Goddard's "who is a moron?"
 
 :::: {.row}
 ::: {.col-md-6}
@@ -539,7 +576,7 @@ knitr::include_graphics("imgs/Goddard_whois.jpg")
 :::
 ::::
 
-## Goddard's problem
+# Goddard's problem
 
 Considers two general "solutions" to how society should deal with people identified as "morons" by IQ tests
 
@@ -561,19 +598,34 @@ knitr::include_graphics("imgs/Goddard_work.png")
 :::
 ::::
 
-##  Critical responses
+#  Roadmap
 
-### 1. The intelligence test race {.greyout}
-### 2. Binet-Simon Test {.greyout}
-### 3. Mental testing and Eugenics {.greyout}
-### 4. Critical responses {.bolder}
+::: {.grey_box} 
+1 The intelligence test race
+:::
+::: {.grey_box} 
+2 Binet-Simon Test
+:::
+::: {.grey_box} 
+3 Mental testing and Eugenics
+:::
+::: {.pop_box_2} 
+4 Critical responses
+:::
 
-## Critical Responses
+# Critical Responses
 
 :::: {.row}
 ::: {.col-md-6}
 
+::: {.smaller_50}
 Kamin, L. J. (1974). The science and politics of IQ. Psychology Press.
+:::
+
+::: {.smaller_50}
+Hilliard, A. G. (1976). A Review of Leon Kamin’s The Science and Politics of I.Q. Journal of Black Psychology, 2(2), 64–74. https://doi.org/10/gg3hr5
+:::
+
 
 ```{r, out.width="100%"}
 knitr::include_graphics("imgs/Kamin_quote.png")
@@ -583,7 +635,6 @@ knitr::include_graphics("imgs/Kamin_quote.png")
 
 ::: {.col-md-6}
 
-Hilliard, A. G. (1976). A Review of Leon Kamin’s The Science and Politics of I.Q. Journal of Black Psychology, 2(2), 64–74. https://doi.org/10/gg3hr5
 
 
 ```{r, out.width="100%"}
@@ -593,7 +644,7 @@ knitr::include_graphics("imgs/Hilliard_review.png")
 :::
 ::::
 
-## Black Psychologists in APA
+# Black Psychologists in APA
 
 :::: {.row}
 ::: {.col-md-6}
@@ -602,7 +653,9 @@ Up through the 1960s, the APA was overwhelmingly white
 
 In an APA meeting in 1968, a small group of Black Psychologists formed their own organization, [ABPsi](https://abpsi.org).
 
+::: {.smaller_50}
 Williams, R. (1974). A History of the Association of Black Psychologists: Early Formation and Development. Journal of Black Psychology, 1(1), 9–24. https://doi.org/10/gg3hq4
+:::
 
 :::
 
@@ -615,13 +668,13 @@ knitr::include_graphics("imgs/Williams_front.png")
 :::
 ::::
 
-## Moratorium on IQ testing of Black children
+# Moratorium on IQ testing of Black children
 
-```{r}
+```{r, out.width="40%"}
 knitr::include_graphics("imgs/Moratorium_on_testing.png")
 ```
 
-## Outcomes 
+# Outcomes 
 
 :::: {.row}
 ::: {.col-md-6}
@@ -630,7 +683,9 @@ Advocacy of Black psychologists led to a moratorium on intelligence testing of B
 
 There was also substantial pushback from groups with vested financial interests in intelligence testing
 
+::: {.smaller_50}
 Williams, R. L., & Mitchell, H. (1978). What Happened to ABPsi’s Moratorium on Testing: A 1968 to 1977 Reminder. Journal of Black Psychology, 4(1–2), 25–42. https://doi.org/10/gg6btt
+:::
 
 
 :::
@@ -644,12 +699,12 @@ knitr::include_graphics("imgs/What_happened_to_moratorium.png")
 :::
 ::::
 
-## Further reading
+# Further reading
 
 [The Journal of Black Psychology](https://journals.sagepub.com/home/jbp) has published many excellent articles on intelligence testing and its impacts on society
 
 
-## What's next
+# What's next
 
 This is the last lecture for the psychology, eugenics, and intelligence testing learning module. 
 

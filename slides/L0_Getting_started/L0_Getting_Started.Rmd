@@ -2,18 +2,17 @@
 title: 'PSYC 2530: Introduction to Cognitive Psychology'
 author: "Matthew J. C. Crump"
 date: "Last compiled `r format(Sys.time(), '%m/%d/%y')`"
+subtitle: Spring 2022, Welcome!
 output:
-  slidy_presentation:
-    footer: written by Matt Crump
+  revealjs::revealjs_presentation:
     includes:
       in_header: header.html
-    self_contained: no
-    theme: yeti
-    incremental: yes
-    template: slidy_template.html
-logoimage: imgs/BC_logo.png
-css: style.css
-subtitle: Spring 2022, Welcome!
+    self_contained: false
+    theme: white
+    transition: fade
+    center: false
+    incremental: true
+    css: style.css
 ---
 
 ```{r setup, include=FALSE}
@@ -21,18 +20,23 @@ knitr::opts_chunk$set(echo = FALSE)
 library(fontawesome)
 ```
 
-## Roadmap
+#  Roadmap
 
-### 1. What is this course about? {.bolder}
+::: {.pop_box_2} 
+1 What is this course about?
+:::
+::: {.grey_box} 
+2 Course Resources
+:::
+::: {.grey_box} 
+3 Syllabus and Logistics
+:::
+::: {.grey_box} 
+4 Questions
+:::
 
-### 2. Course Resources {.greyout}
 
-### 3. Syllabus and Logistics {.greyout}
-
-### 4. Questions {.greyout}
-
-
-## What is Cognition?
+# What is Cognition?
 
 ::: {.bigger}
 1. Questions
@@ -43,18 +47,23 @@ library(fontawesome)
 6. Implications
 :::
 
-## Roadmap
+#  Roadmap
 
-### 1. What is this course about? {.greyout}
+::: {.grey_box} 
+1 What is this course about?
+:::
+::: {.pop_box_2} 
+2 Course Resources
+:::
+::: {.grey_box} 
+3 Syllabus and Logistics
+:::
+::: {.grey_box} 
+4 Questions
+:::
 
-### 2. Course Resources {.bolder}
 
-### 3. Syllabus and Logistics {.greyout}
-
-### 4. Questions {.greyout}
-
-
-## Course Resources
+# Course Resources
 
 ::: {.bigger}
 1. Blackboard
@@ -62,7 +71,7 @@ library(fontawesome)
 3. Textbook
 :::
 
-## Blackboard
+# Blackboard
 
 We will use blackboard for:
 
@@ -72,7 +81,7 @@ We will use blackboard for:
 3. Links to material on course website
 4. Asking questions (use discussion forum)
 
-## Course Website
+# Course Website
 
 We will also use an external course website:
 
@@ -84,7 +93,9 @@ We will also use an external course website:
 4. Slide decks
 4. Other resources as needed
 
-## Course Textbook
+# Course Textbook
+
+<https://www.crumplab.com/cognition/textbook/>
 
 :::: {.row}
 ::: {.col-md-6}
@@ -94,13 +105,13 @@ The textbook is:
 1. A free open-educational resource
 2. Web-book, available as pdf and epub
 3. Still in progress...
-4. <https://www.crumplab.com/cognition/textbook/>
+
 
 :::
 
 ::: {.col-md-6}
 
-```{r, out.width="50%"}
+```{r, out.width="60%"}
 knitr::include_graphics("imgs/cover.png")
 ```
 
@@ -108,30 +119,35 @@ knitr::include_graphics("imgs/cover.png")
 :::
 ::::
 
-## Other resources
+# Other resources
 
 Throughout the semester additional reading material may be assigned. 
 
 Any additional material will be made available for free through blackboard or the course website
 
-## Roadmap
+#  Roadmap
 
-### 1. What is this course about? {.greyout}
+::: {.grey_box} 
+1 What is this course about?
+:::
+::: {.grey_box} 
+2 Course Resources
+:::
+::: {.pop_box_2} 
+3 Syllabus and Logistics
+:::
+::: {.grey_box} 
+4 Questions
+:::
 
-### 2. Course Resources {.greyout}
-
-### 3. Syllabus and Logistics {.bolder}
-
-### 4. Questions {.greyout}
-
-## Course Syllabus
+# Course Syllabus
 
 [Please read the syllabus](https://www.crumplab.com/cognition/articles/course_docs/Spring_2022_Psyc_2530_syllabus.html).
 
 The most current version of the syllabus is located on the course website.
 
 
-## Basic overview
+# Basic overview
 
 15 weeks in the semester
 
@@ -141,7 +157,7 @@ The most current version of the syllabus is located on the course website.
 
 [Schedule is posted on the syllabus](https://www.crumplab.com/cognition/articles/course_docs/Spring_2022_Psyc_2530_syllabus.html#course-schedule)
 
-## Assessments and grading
+# Assessments and grading
 
 There are 12 learning modules, and three exams. The grading rubric is below:
 
@@ -154,14 +170,14 @@ There are 12 learning modules, and three exams. The grading rubric is below:
 | Final Exam | 13.33  | 13.33|
 |||100|
 
-## Weekly learning modules
+# Weekly learning modules
 
 1. Posted weekly (or earlier) on Blackboard and Course Website
 2. Include readings, mini-lectures, and quizzes/assignments
 3. Complete the work within the week (submit by due date)
 4. Assignment choice (see next slide)
 
-## Assignment choice
+# Assignment choice
 
 - modules have multiple possible assignments, (e.g., quiz and writing assignment).
 
@@ -171,7 +187,7 @@ There are 12 learning modules, and three exams. The grading rubric is below:
 
 - If you miss an assignment that is OK, you can do an extra one in a future module
 
-## Extra-credit
+# Extra-credit
 
 - If you complete more than 60 points of assignments/quizzes, then your extra points will be converted to extra credit points ta a ratio of 5 to 1.
 
@@ -179,7 +195,7 @@ There are 12 learning modules, and three exams. The grading rubric is below:
 
 - maximum 10 extra credit points
 
-## Exams
+# Exams
 
 - There are three exams, 13.33 points each
 
@@ -189,32 +205,37 @@ There are 12 learning modules, and three exams. The grading rubric is below:
 
 - The questions are similar to the quiz questions. Quizzes are practice for the exams.
 
-## Academic Integrity
+# Academic Integrity
 
 It is your responsibility to understand [the CUNY academic integrity policy](https://www.cuny.edu/about/administration/offices/legal-affairs/policies-resources/academic-integrity-policy/) and conduct your behavior according to a high standard of academic integrity.
 
-## Roadmap
+#  Roadmap
 
-### 1. What is this course about? {.greyout}
+::: {.grey_box} 
+1 What is this course about?
+:::
+::: {.grey_box} 
+2 Course Resources
+:::
+::: {.grey_box} 
+3 Syllabus and Logistics
+:::
+::: {.pop_box_2} 
+4 Questions
+:::
 
-### 2. Course Resources {.greyout}
-
-### 3. Syllabus and Logistics {.greyout}
-
-### 4. Questions {.bolder}
-
-## Questions
+# Questions
 
 Use the discussion board on Blackboard to ask general questions about the course
 
-## Email
+# Email
 
 If you are running into issues, email me:
 
 1. Put PSYC 2530 in the subject line
 2. Email me at mcrump@brooklyn.cuny.edu 
 
-## Next Steps
+# Next Steps
 
 Finish the getting started module by taking the quiz on blackboard, or completing the writing assignment.
 

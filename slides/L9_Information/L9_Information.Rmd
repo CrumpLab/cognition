@@ -2,18 +2,17 @@
 title: 'PSYC 2530: Information Processing'
 author: "Matthew J. C. Crump"
 date: "Last compiled `r format(Sys.time(), '%m/%d/%y')`"
+subtitle: And metaphorical mechanisms
 output:
-  slidy_presentation:
-    footer: written by Matt Crump
+  revealjs::revealjs_presentation:
     includes:
       in_header: header.html
-    self_contained: no
-    theme: yeti
-    incremental: yes
-    template: slidy_template.html
-logoimage: imgs/BC_logo.png
-css: style.css
-subtitle: And metaphorical mechanisms
+    self_contained: false
+    theme: white
+    transition: fade
+    center: false
+    incremental: true
+    css: style.css
 ---
 
 ```{r setup, include=FALSE}
@@ -23,7 +22,7 @@ knitr::opts_chunk$set(echo = FALSE,
 library(fontawesome)
 ```
 
-## Reminders
+# Reminders
 
 Reading is Chapter 7 on [Information Processing](https://www.crumplab.com/cognition/textbook/information-processing.html)
 
@@ -32,14 +31,22 @@ Reading is Chapter 7 on [Information Processing](https://www.crumplab.com/cognit
 **Discussion Boards**
 
 
-##  Roadmap
+#  Roadmap
 
-### 1. Revolutions and Metaphors {.bolder}
-### 2. Donders and Processing stages {.greyout}
-### 3. Information Theory {.greyout}
-### 4. Hick-Hyman Law {.greyout}
+::: {.pop_box_2} 
+1 Revolutions and Metaphors
+:::
+::: {.grey_box} 
+2 Donders and Processing stages
+:::
+::: {.grey_box} 
+3 Information Theory
+:::
+::: {.grey_box} 
+4 Hick-Hyman Law
+:::
 
-## Metaphors and explanation
+# Metaphors and explanation
 
 :::: {.row}
 ::: {.col-md-6}
@@ -61,7 +68,7 @@ knitr::include_graphics("imgs/industrial_brain.gif")
 :::
 ::::
 
-## Revolutions and metaphors
+# Revolutions and metaphors
 
 Big metaphors in cognition roughly track technological revolutions
 
@@ -69,7 +76,7 @@ Big metaphors in cognition roughly track technological revolutions
 2. Technological Revolution
 3. Digital Revolution
 
-## Industrial Revolution
+# Industrial Revolution
 
 Cognition is like a factory assembly line
 
@@ -78,7 +85,7 @@ knitr::include_graphics("imgs/assembly_line.jpg")
 ```
 
 
-## Technological Revolution
+# Technological Revolution
 
 Cognition is like a telephone network
 
@@ -86,7 +93,7 @@ Cognition is like a telephone network
 knitr::include_graphics("imgs/telephone.jpg")
 ```
 
-## Digital Revolution
+# Digital Revolution
 
 Cognition is like a computer
 
@@ -94,14 +101,22 @@ Cognition is like a computer
 knitr::include_graphics("imgs/computer.gif")
 ```
 
-##  Donders and Processing stages
+#  Roadmap
 
-### 1. Revolutions and Metaphors {.greyout}
-### 2. Donders and Processing stages {.bolder}
-### 3. Information Theory {.greyout}
-### 4. Hick-Hyman Law {.greyout}
+::: {.grey_box} 
+1 Revolutions and Metaphors
+:::
+::: {.pop_box_2} 
+2 Donders and Processing stages
+:::
+::: {.grey_box} 
+3 Information Theory
+:::
+::: {.grey_box} 
+4 Hick-Hyman Law
+:::
 
-## Mental Chronometry
+# Mental Chronometry
 
 
 :::: {.row}
@@ -120,13 +135,13 @@ knitr::include_graphics("imgs/stopwatch.jpg")
 :::
 ::::
 
-## How fast can a nerve transmit a signal? 
+# How fast can a nerve transmit a signal? 
 
 Infinitely fast? 
 
 Or, with a certain speed?
 
-## Hermann von Helmholtz (1821-1894)
+# Hermann von Helmholtz (1821-1894)
 
 :::: {.row}
 ::: {.col-md-6}
@@ -147,7 +162,7 @@ knitr::include_graphics("imgs/Hermann_von_Helmholtz.jpg")
 :::
 ::::
 
-## FC Donders (1818-1889)
+# FC Donders (1818-1889)
 
 :::: {.row}
 ::: {.col-md-6}
@@ -167,7 +182,7 @@ knitr::include_graphics("imgs/donders4.jpg")
 :::
 ::::
 
-## Physiological Reaction time
+# Physiological Reaction time
 
 :::: {.row}
 ::: {.col-md-6}
@@ -189,11 +204,11 @@ knitr::include_graphics("imgs/telescope.jpg")
 :::
 ::::
 
-## Donders' idea
+# Donders' idea
 
 The time associated with unique stages of mental processing could be measured by systematically asking people to complete tasks of increasing complexity...
 
-## Donders' Tasks
+# Donders' Tasks
 
 Donders measured reaction times in increasingly complex tasks
 
@@ -203,7 +218,7 @@ Go-No Go
 
 Choice reaction time
 
-## Simple Reaction Time
+# Simple Reaction Time
 
 :::: {.row}
 ::: {.col-md-6}
@@ -227,7 +242,7 @@ knitr::include_graphics("../../textbook/imgs/Donders_simple.png")
 :::
 ::::
 
-## Go-No Go
+# Go-No Go
 
 :::: {.row}
 ::: {.col-md-6}
@@ -251,7 +266,7 @@ knitr::include_graphics("../../textbook/imgs/Donders_GoNoGo.png")
 :::
 ::::
 
-## Choice Reaction Time
+# Choice Reaction Time
 
 :::: {.row}
 ::: {.col-md-6}
@@ -273,19 +288,19 @@ knitr::include_graphics("../../textbook/imgs/Donders_Choice.png")
 :::
 ::::
 
-## Donder's processing stages
+# Donder's processing stages
 
 ```{r}
 knitr::include_graphics("../../textbook/imgs/Donders_assembly.png")
 ```
 
-## Assumed mental times
+# Assumed mental times
 
 ```{r}
 knitr::include_graphics("../../textbook/imgs/Donders_task_stages.jpg")
 ```
 
-## Donders subtractive logic
+# Donders subtractive logic
 
 Estimating identification time
 
@@ -293,7 +308,7 @@ Estimating identification time
 knitr::include_graphics("../../textbook/imgs/Donders_id_time.jpg")
 ```
 
-## Donders subtractive logic
+# Donders subtractive logic
 
 Estimating response selection time
 
@@ -301,23 +316,23 @@ Estimating response selection time
 knitr::include_graphics("../../textbook/imgs/Donders_RT_time.png")
 ```
 
-## Issues with subtractive logic
+# Issues with subtractive logic
 
 What happens if two processing stages can both occur in parallel at the same time?
 
-## 1950s and beyond
+# 1950s and beyond
 
 Interest in reaction time studies was revived in the 1950s
 
 And, the metaphor for explaining cognitive processes shifts from an assembly line metaphor to a telecommunications metaphor
 
-## PRP effect
+# PRP effect
 
 PRP stands for the Psychological Refractory Period (Welford, 1952)
 
 Theoretical debate about the PRP effect reflects the metaphorical shift
 
-## Basic PRP effect
+# Basic PRP effect
 
 :::: {.row}
 ::: {.col-md-6}
@@ -335,7 +350,7 @@ knitr::include_graphics("../../textbook/imgs/PRP_effect.jpg")
 :::
 ::::
 
-## Explanations of the PRP effect
+# Explanations of the PRP effect
 
 Welford described a few:
 
@@ -343,19 +358,29 @@ Welford described a few:
 2. Could reflect participants expectations...short delays might be more surprising, and the surprise lengthens the response
 3. *PRP reflects a central mechanism with a single-channel of limited capacity...*
 
-## A single channel decision mechanism
+# A single channel decision mechanism
 
+::: {.smaller_75}
 > In its bare essentials this theory assumes, firstly, a number of sensory input mechanisms each capable of receiving data and storing it for a limited period so that, for example, a short series of signals can be received as a unit. Secondly, it assumes a number of effector mechanisms containing both central and peripheral elements and capable of carrying out a series of actions such as the pressing and release of a key or a series of taps (Vince, 1949) as a single unit. Thirdly, between these two it postulates a single-channel decision mechanism. This is regarded as being of limited capacity in the sense that it takes a finite time to process information and can thus only deal with a limited amount of information in a given time
+:::
 
 
-##  Information Theory
+#  Roadmap
 
-### 1. Revolutions and Metaphors {.greyout}
-### 2. Donders and Processing stages {.greyout}
-### 3. Information Theory {.bolder}
-### 4. Hick-Hyman Law {.greyout}
+::: {.grey_box} 
+1 Revolutions and Metaphors
+:::
+::: {.grey_box} 
+2 Donders and Processing stages
+:::
+::: {.pop_box_2} 
+3 Information Theory
+:::
+::: {.grey_box} 
+4 Hick-Hyman Law
+:::
 
-## Claude Shannon (1916-2001)
+# Claude Shannon (1916-2001)
 
 :::: {.row}
 ::: {.col-md-6}
@@ -378,7 +403,7 @@ knitr::include_graphics("imgs/ClaudeShannon_MFO3807.jpg")
 :::
 ::::
 
-## Information theory intro
+# Information theory intro
 
 Information theory was NOT originally developed as a theory in psychology
 
@@ -386,7 +411,7 @@ It is a set of mathematical formalisms to describe communication systems
 
 Measurement tools from information theory became popular in Cognitive Psychology beginning around 1950
 
-## Information Channel
+# Information Channel
 
 :::: {.row}
 ::: {.col-md-6}
@@ -412,7 +437,7 @@ knitr::include_graphics("../../textbook/imgs/Shannon_info_channel.jpg")
 :::
 ::::
 
-## Example information channels
+# Example information channels
 
 Toy telephone (two cans and a wire)
 
@@ -420,19 +445,19 @@ Real telephone networks
 
 What about people talking to each other?
 
-## Channel Capacity
+# Channel Capacity
 
 Important concept from information theory
 
 The amount of information that can be transmitted and received through a communication channel
 
-## Measuring information: H
+# Measuring information: H
 
 Shannon proposed to measure information in terms of entropy, or the amount of uncertainty in a system of messages:
 
 $H(X) = -1*\sum_\text{i=1}^n P(x_i) * log_2 P(x_i)$
 
-## Why a formula is useful
+# Why a formula is useful
 
 Capacity limitations for information channels could be measured and assigned a value
 
@@ -442,7 +467,7 @@ Amount of information lost during transmission could be quantified
 
 Led to improvements in telecommunications systems and technology
 
-## Meaning of H?
+# Meaning of H?
 
 Shannon’s formula defines information in terms of the predictability of a sequence of messages.
 
@@ -450,7 +475,7 @@ More predictable sequences = Low information
 
 Less predictable sequences = High information
 
-## Consider three books
+# Consider three books
 
 A book that contained the letter A repeatedly
 
@@ -458,23 +483,23 @@ A book that you read, enjoyed, and found meaningful
 
 A book that contained completely random sequences of letters
 
-## Computing H
+# Computing H
 
 <https://www.crumplab.com/cognition/textbook/information-processing.html#computing-h>
 
-## Bits of information
+# Bits of information
 
 Shannon's formula uses a base 2 logarithm which produces a number in the unit of [bits](https://en.wikipedia.org/wiki/Bit).
 
 Bits can be used to measure the total number of discrete events in a system of messages
 
-## Bits and Unique events
+# Bits and Unique events
 
 ```{r}
 knitr::include_graphics("../../textbook/imgs/Shannon_bits.jpg")
 ```
 
-## A simple communication system
+# A simple communication system
 
 Let's review H, Bits, and Information together by examining a simple communication system involving four possible messages:
 
@@ -482,31 +507,38 @@ A B C D
 
 <https://www.crumplab.com/cognition/textbook/information-processing.html#h-bits-predictability-and-information>
 
-##  Hick-Hyman Law
+#  Roadmap
 
-### 1. Revolutions and Metaphors {.greyout}
-### 2. Donders and Processing stages {.greyout}
-### 3. Information Theory {.greyout}
-### 4. Hick-Hyman Law {.bolder}
-
-## Information theory and cognition
+::: {.grey_box} 
+1 Revolutions and Metaphors
+:::
+::: {.grey_box} 
+2 Donders and Processing stages
+:::
+::: {.grey_box} 
+3 Information Theory
+:::
+::: {.pop_box_2} 
+4 Hick-Hyman Law
+:::
+# Information theory and cognition
 
 Ideas from information theory were imported into cognitive psychology around the 1950s
 
-## Information processing capacity
+# Information processing capacity
 
 A big idea was to describe limitations in "information processing" abilities
 
 E.g., how much "information" can you process?
 
-## Hick-Hyman Law
+# Hick-Hyman Law
 
 A promising early demonstration suggesting that **choice reaction time** performance may be fundamentally governed by the amount of information in a set of choice stimuli.
 
 Specifically, choice reaction time increases a linear function of the information in the set of choice stimuli.
 
 
-## Choice Reaction Time Task
+# Choice Reaction Time Task
 
 :::: {.row}
 ::: {.col-md-6}
@@ -526,37 +558,37 @@ knitr::include_graphics("../../textbook/imgs/Donders_Choice.png")
 :::
 ::::
 
-## Set-size effects
+# Set-size effects
 
 Prior research had shown that choice reaction time increases with set-size 
 
 e.g., average response time to respond to any stimulus goes up and up, as the number of alternatives in the set increases
 
-## Explaining set-size effects...
+# Explaining set-size effects...
 
 Why does mean reaction time go up when the number of possible choices goes up?
 
-## Hick and Hyman's idea
+# Hick and Hyman's idea
 
 Perhaps people were responding to the amount of information in the choice set, and not simply the number of the alternatives.
 
 If people were responding to the amount information, then they should be sensitive to the predictability of individual alternatives.
 
-## Confounds
+# Confounds
 
 Choice stimuli were usually presented randomly to participants.
 
 This meant the number of alternatives and the amount of information in a set was confounded.
 
-## Deconfounding alternatives and information
+# Deconfounding alternatives and information
 
 Need to independently manipulate the number of alternatives, and the amount of information
 
-## Hyman (1953)
+# Hyman (1953)
 
 Hyman, R. (1953). Stimulus information as a determinant of reaction time. Journal of Experimental Psychology, 45(3), 188–196. https://doi.org/cq3kjd
 
-## Experiment 1
+# Experiment 1
 
 A choice-reaction time task with 8 different conditions, corresponding to the number of alternatives in a set, from 1 to 8. 
 
@@ -564,29 +596,29 @@ In each condition, all stimuli were presented randomly.
 
 Thus, the amount of bits in each condition was ranged from 0 to 3 (bits for 1 to 8 alternatives are: 0, 1, 1.58, 2, 2,32, 2,58, 2,81, and 3).
 
-## Experiment 1 results
+# Experiment 1 results
 
 Reaction time increased linearly with number of alternatives...
 
 BUT, the number of alternatives, was completely confounded with the amount of bits.
 
-## Experiment II
+# Experiment II
 
 ```{r}
 knitr::include_graphics("../../textbook/imgs/Hyman_e2.jpg")
 ```
 
-## Results
+# Results
 
-```{r}
+```{r, out.width="50%"}
 knitr::include_graphics("../../textbook/imgs/Hick_hyman_law.png")
 ```
 
-## Hick-Hyman Law
+# Hick-Hyman Law
 
 Choice reaction time increases linearly as a function of the information (bits) in the stimulus set
 
-## Implications for Behaviorism
+# Implications for Behaviorism
 
 - Behaviorists looked for lawful regularities connecting a stimulus with a subsequent response
 
@@ -594,13 +626,13 @@ Choice reaction time increases linearly as a function of the information (bits) 
 
 - People were not only responding to the stimulus in front of them, their performance was also determined by the relative predictability of other stimuli that were not presented.
 
-## Debate about Hick-Hyman Law
+# Debate about Hick-Hyman Law
 
 Information theory was not an explanation, it was just another way to describe the experimental manipulation
 
 Further research showed some violations to the Hick-Hyman Law (practiced subjects, non-linear trends)
 
-## Explanations
+# Explanations
 
 Why does choice reaction time mostly increase linearly as a function of information?
 
@@ -610,7 +642,7 @@ Hick's binary logic test hypothesis...
 
 Kornblum's priming explanations
 
-## What's next
+# What's next
 
 Complete the quiz for this learning module on Blackboard, and/or the writing assignments by the due date.
 

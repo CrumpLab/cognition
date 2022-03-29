@@ -119,7 +119,7 @@ navbar:
       - text: Lecture 10 - Memory I
         href: slides/L10_Memory_1/L10_Memory_1.html
       - text: Lecture 11 - Memory II
-        href: slides/L11_Memory_2_revealjs/L11_Memory_2.html
+        href: slides/L11_Memory_2/L11_Memory_2.html
       - text: Not yet updated for Spring 2022
     resources:
       text: Resources

@@ -1,19 +1,17 @@
 ---
 title: 'PSYC 2530: Mental Imagery'
 author: "Matthew J. C. Crump"
-date: "Last compiled `r format(Sys.time(), '%m/%d/%y')`"
+subtitle: From the 1880s to 2020s and back
 output:
-  slidy_presentation:
-    footer: written by Matt Crump
+  revealjs::revealjs_presentation:
     includes:
       in_header: header.html
-    self_contained: no
-    theme: yeti
-    incremental: yes
-    template: slidy_template.html
-logoimage: imgs/BC_logo.png
-css: style.css
-subtitle: From the 1880s to 2020s and back
+    self_contained: false
+    theme: white
+    transition: fade
+    center: false
+    incremental: true
+    css: style.css
 ---
 
 ```{r setup, include=FALSE}
@@ -23,18 +21,26 @@ knitr::opts_chunk$set(echo = FALSE,
 library(fontawesome)
 ```
 
-## Reminders
+# Reminders
 
 Readings are from chapter 2 on [Mental Imagery](https://www.crumplab.com/cognition/textbook/mental-imagery.html)
 
-##  Roadmap
+#  Roadmap
 
-### 1. Mental imagery and introspection {.bolder}
-### 2. Aphantasia and Hyperphantasia {.greyout}
-### 3. Imagery and Memory {.greyout}
-### 4. The imagery debate and mental scanning {.greyout}
+::: {.pop_box_2} 
+1 Mental imagery and introspection
+:::
+::: {.grey_box} 
+2 Aphantasia and Hyperphantasia
+:::
+::: {.grey_box} 
+3 Imagery and Memory
+:::
+::: {.grey_box} 
+4 Imagery debate
+:::
 
-## Mental imagery
+# Mental imagery
 
 Mental imagery is the subjective experience of internal perception-like sensations. Some examples include:
 
@@ -42,7 +48,7 @@ Mental imagery is the subjective experience of internal perception-like sensatio
 2. Auditory imagery, or  "hearing" sounds/music in your head
 3. Taste/smell imagery
 
-## Vividness of mental imagery
+# Vividness of mental imagery
 
 :::: {.row}
 ::: {.col-md-6}
@@ -62,19 +68,19 @@ knitr::include_graphics("../../textbook/imgs/Francis_Galton.jpg")
 :::
 ::::
 
-## Statistics of Mental Imagery
+# Statistics of Mental Imagery
 
 ```{r}
 knitr::include_graphics("imgs/Galton_statistics_book.jpg")
 ```
 
-## What Galton did...
+# What Galton did...
 
 Galton asked 100 "distinguished men" to describe the vividness of their mental imagery.
 
 He used a "Breakfast table task"...
 
-## Breakfast Table task
+# Breakfast Table task
 
 > Think of some definite object – suppose it is your breakfast-table as you sat down to it this morning – and consider carefully the picture that rises before your mind’s eye.
 
@@ -84,7 +90,7 @@ He used a "Breakfast table task"...
 
 3. Colouring – Are the colours of the china, of the toast, bread-crust, mustard, meat, parsley, or whatever may have been on the table, quite distinct and natural?
 
-## What would you say?
+# What would you say?
 
 Imagine what you last ate in your mind's eye. How would you rate the vividness of your mental imagery?
 
@@ -93,11 +99,11 @@ Imagine what you last ate in your mind's eye. How would you rate the vividness o
 3. Fuzzy, not really life-like, but you can remember it
 4. No imagery, not at all life-like, no mental pictures
 
-## What did Galton find?
+# What did Galton find?
 
 Galton found a wide range of individual differences in self-reported mental imagery abilities
 
-## Extremely vivid
+# Extremely vivid
 
 > Brilliant, distinct, never blotchy.
 
@@ -105,21 +111,21 @@ Galton found a wide range of individual differences in self-reported mental imag
 
 > In some instances quite as bright as an actual scene.
 
-## Medium vivid
+# Medium vivid
 
 > Fairly clear, not quite comparable to that of the actual scene. Some objects are more sharply defined than others, the more familiar objects coming more distinctly in my mind.
 
-## Not vivid
+# Not vivid
 
 > My powers are zero. To my consciousness there is almost no association of memory with objective visual impressions. I recollect the breakfast table, but do not see it.
 
-## Introspection
+# Introspection
 
 Galton employed the method of introspection.
 
 Introspection involves "inspecting" and describing the qualities of your own subjective mental experience.
 
-## Titchener's Introspectionism
+# Titchener's Introspectionism
 
 
 :::: {.row}
@@ -138,26 +144,40 @@ knitr::include_graphics("imgs/Titchener_Washburn.jpg")
 :::
 ::::
 
-## Replicating Galton's findings
+# Replicating Galton's findings
 
 In the early 1900s, several American psychologists also measured individual differences in mental imagery using Galton's task, and other kinds of questionnaires.
 
 - they generally found similar results as Galton
 
-## Titchener's questionnaire
+# Titchener's questionnaire
 
+:::: {.row}
+::: {.col-md-6}
 
+::: {.smaller_50}
 French, F. C. (1902). Mental imagery of students: A summary of the replies given to Titchener’s questionary by 118 juniors in Vassar college. Psychological Review, 9(1), 40. https://doi.org/10/cqj438
+:::
 
-```{r}
+:::
+
+::: {.col-md-6}
+
+```{r, out.width="80%"}
 knitr::include_graphics("imgs/French_quest.jpg")
 ```
 
-## Limitations of Introspectionism?
+:::
+::::
+
+
+
+
+# Limitations of Introspectionism?
 
 If you were trying to investigate cognitive abilities, what would be some limitations of introspection?
 
-## Some issues
+# Some issues
 
 Common complaints about introspection include:
 
@@ -167,20 +187,28 @@ Common complaints about introspection include:
 4. People might not be able to describe their own mental processes
 5. Different descriptions could actually refer to the same experience
 
-## The decline of introspectionism
+# The decline of introspectionism
 
 In American psychology, the method of introspectionism was heavily criticized by Behaviorists, and lost popularity across the early 1900s. 
 
 We discuss the Behaviorist period in chapter 6.
 
-##  Roadmap
+#  Roadmap
 
-### 1. Mental imagery and introspection {.greyout}
-### 2. Aphantasia and Hyperphantasia {.bolder}
-### 3. Imagery and Memory {.greyout}
-### 4. The imagery debate and mental scanning {.greyout}
+::: {.grey_box} 
+1 Mental imagery and introspection
+:::
+::: {.pop_box_2} 
+2 Aphantasia and Hyperphantasia
+:::
+::: {.grey_box} 
+3 Imagery and Memory
+:::
+::: {.grey_box} 
+4 Imagery debate
+:::
 
-## Back to the future
+# Back to the future
 
 Let's fast-forward to mental imagery in the 2010s...
 
@@ -188,13 +216,13 @@ Let's fast-forward to mental imagery in the 2010s...
 knitr::include_graphics("imgs/BTF.gif")
 ```
 
-## Zeman 2010
+# Zeman 2010
 
 ```{r}
 knitr::include_graphics("imgs/Zeman_2010.jpg")
 ```
 
-## Marks 1973
+# Marks 1973
 
 Zeman and colleagues used an updated questionnaire to measure vividness of mental imagery
 
@@ -202,47 +230,47 @@ Zeman and colleagues used an updated questionnaire to measure vividness of menta
 knitr::include_graphics("imgs/marks_scale.jpg")
 ```
 
-## VVIQ items
+# VVIQ items
 
-```{r}
+```{r, out.width="50%"}
 knitr::include_graphics("imgs/Marks_items.png")
 ```
 
-## Aphantasia
+# Aphantasia
 
 [In 2015, Zeman and colleagues](https://www.sciencedirect.com/science/article/abs/pii/S0010945215001781?via%3Dihub) described a small group of participants who reported essentially non-existent mental imagery on the VVIQ test.
 
 They coined the phrase "Aphantasia" to refer the condition of experiencing limited or no mental imagery.
 
-## Hyperphantasia
+# Hyperphantasia
 
 Hyperphantasia refers to the opposite extreme, where people report very vivid and life-like mental imagery
 
-## Media interest
+# Media interest
 
 In the past 10 years, Zeman's research is often picked up in the media, and generates popular interest
 
 For example, this work was recently featured in the New York Times <https://www.nytimes.com/2021/06/08/science/minds-eye-mental-pictures-psychology.html>
 
-## Extra-ordinary claims
+# Extra-ordinary claims
 
 From the NYT article, 
 
 > Joel Pearson, a cognitive neuroscientist at the University of New South Wales who has studied mental imagery since 2005, said hyperphantasia could go far beyond just having an active imagination. “It’s like having a very vivid dream and not being sure if it was real or not,” he said. “People watch a movie, and then they can watch it again in their mind, and it’s indistinguishable.”
 
-## Aphantasia.com
+# Aphantasia.com
 
 <https://aphantasia.com>
 
 A website and online community for people interested in aphantasia and hyperphantasia
 
-## Beyond introspection
+# Beyond introspection
 
 Questionnaires provide subjective report measurements based on introspection
 
 [Brain imaging techniques](https://en.wikipedia.org/wiki/Neuroimaging) have also been used to provide converging evidence about mental imagery
 
-## Visual imagery and the brain
+# Visual imagery and the brain
 
 :::: {.row}
 ::: {.col-md-6}
@@ -260,25 +288,33 @@ knitr::include_graphics("imgs/zeman_brain.jpg")
 :::
 ::::
 
-## Decoding dreams
+# Decoding dreams
 
 Horikawa, T., Tamaki, M., Miyawaki, Y., & Kamitani, Y. (2013). Neural decoding of visual imagery during sleep. Science, 340(6132), 639–642. https://doi.org/10.1126/science.1234330
 
 
-##  Roadmap
+#  Roadmap
 
-### 1. Mental imagery and introspection {.greyout}
-### 2. Aphantasia and Hyperphantasia {.greyout}
-### 3. Imagery and Memory {.bolder}
-### 4. The imagery debate and mental scanning {.greyout}
+::: {.grey_box} 
+1 Mental imagery and introspection
+:::
+::: {.grey_box} 
+2 Aphantasia and Hyperphantasia
+:::
+::: {.pop_box_2} 
+3 Imagery and Memory
+:::
+::: {.grey_box} 
+4 Imagery debate
+:::
 
-## Mnemonics
+# Mnemonics
 
 [Mnemonics](https://en.wikipedia.org/wiki/Mnemonic) are techniques known to help people retain information
 
 Mental imagery has been used as a mnemonic device
 
-## Method of Loci
+# Method of Loci
 
 
 :::: {.row}
@@ -300,15 +336,15 @@ knitr::include_graphics("imgs/memory_palace.jpg")
 :::
 ::::
 
-## Paivio 1963
+# Paivio 1963
 
 Paivio, A. (1963). Learning of adjective-noun paired associates as a function of adjective-noun word order and noun abstractness. Canadian Journal of Psychology/Revue Canadienne de Psychologie, 17(4), 370. https://doi.org/10/d2s523
 
-## Question
+# Question
 
 Are more imageable words easier to remember than less imageable words?
 
-## Memory task
+# Memory task
 
 Had participants learn adjective-noun pairs. 
 
@@ -322,38 +358,46 @@ Manipulated whether the nouns were more concrete or abstract
 | Subtle-Magician                         | Subtle-Prejudice         |
 | Profound-Philosopher                    | Profound-Analysis        |
 
-## Paivio's Procedure
+# Paivio's Procedure
 
 ```{r}
 knitr::include_graphics("imgs/Paivio_methods.jpg")
 ```
 
-## Results
+# Results
 
 ```{r}
 knitr::include_graphics("imgs/Paivio_results.jpg")
 ```
 
-## Explanation?
+# Explanation?
 
 What makes more "visualizable" words be easier to remember?
 
 Is mental imagery required to explain Paivio's results?
 
-##  Roadmap
+#  Roadmap
 
-### 1. Mental imagery and introspection {.greyout}
-### 2. Aphantasia and Hyperphantasia {.greyout}
-### 3. Imagery and Memory {.greyout}
-### 4. The imagery debate and mental scanning {.bolder}
+::: {.grey_box} 
+1 Mental imagery and introspection
+:::
+::: {.grey_box} 
+2 Aphantasia and Hyperphantasia
+:::
+::: {.grey_box} 
+3 Imagery and Memory
+:::
+::: {.pop_box_2} 
+4 Imagery debate
+:::
 
-## The imagery debate
+# The imagery debate
 
 In the 1960s, 70s and 80s mental imagery again became a topic of interest.
 
 There was a renewed debate about mental imagery, and the nature of cognitive representations
 
-## Cognitive representations
+# Cognitive representations
 
 A cognitive representation refers to the idea that our cognition has some type of format...
 
@@ -361,12 +405,12 @@ E.g., visual information can be stored digitally as pixels, on photographic film
 
 An ongoing question is what are the representations underlying our cognition?
 
-## Mental imagery representations
+# Mental imagery representations
 
 :::: {.row}
 ::: {.col-md-6}
 
-### Analog/pictorial
+## Analog/pictorial
 
 Image-like representation
 
@@ -376,7 +420,7 @@ Analogs of pictures
 
 ::: {.col-md-6}
 
-### Propositional
+## Propositional
 
 Representation based on symbols and rules
 
@@ -385,19 +429,19 @@ Not image-like
 :::
 ::::
 
-## Mental scanning experiments
+# Mental scanning experiments
 
 A creative attempt to investigate the format of cognitive representations for mental imagery.
 
 Kosslyn, S. M., Ball, T. M., & Reiser, B. J. (1978). Visual images preserve metric spatial information: Evidence from studies of image scanning. Journal of Experimental Psychology: Human Perception and Performance, 4(1), 47. https://doi.org/10/c8z6r3
 
-## Procedure
+# Procedure
 
 ```{r, out.width="50%"}
 knitr::include_graphics("../../textbook/imgs/KosslynEtAl1978Fig2.png")
 ```
 
-## Kosslyn's question
+# Kosslyn's question
 
 Imagine the island in your head...
 
@@ -405,25 +449,25 @@ How long will it take for people to mentally scan their attention from one locat
 
 Will mental scanning times depend on how far away the locations are...even though they are imagined distances?
 
-## Possible results
+# Possible results
 
 ```{r}
 knitr::include_graphics("imgs/Kosslyn_possible_results.jpg")
 ```
 
-## Results
+# Results
 
 ```{r, out.width="70%"}
 knitr::include_graphics("../../textbook/imgs/KosslynEtAl1978Fig3.png")
 ```
 
-## Inferences
+# Inferences
 
 The time to mentally scan an image appears to be influenced by spatial distances in the actual image
 
 What do these results mean for cognitive representations of mental imagery?
 
-## Kosslyn's pictures
+# Kosslyn's pictures
 
 The evidence is consistent with the pictorial or analog representation assumption.
 
@@ -431,7 +475,7 @@ It takes time to scan real images as a function of distance scanned.
 
 but..
 
-## Pylyshyn's Propositions
+# Pylyshyn's Propositions
 
 The evidence could be consistent with other accounts too. The island could be represented in terms of propositions, and it could take time to process relational information between locations.
 
@@ -446,13 +490,13 @@ The grass is on the north-west side of the island.
 The grass is south-west of the rock
 
 
-## Summary
+# Summary
 
 1. Since Galton, research has consistently suggested there are large individual differences in mental imagery
 2. Mental imagery is a debated construct in cognition, and has been used to consider questions of cognitive representation
 3. As we will learn next class, early mental imagery research was conducted for reasons you might find surprising
 
-## Back to Galton
+# Back to Galton
 
 In 1880, why was Galton so interested in mental imagery?
 
@@ -460,7 +504,7 @@ A quote from his paper:
 
 > The larger object of my inquiry is to elicit facts that shall define the natural varieties of mental disposition in the two sexes and in different races, and afford trustworthy data as to the relative frequency with which different faculties are inherited in different degrees.
 
-## What's next
+# What's next
 
 Continue working through the readings and mini-lectures for this learning module. Then complete quizzes/assignments by the deadline.
 
@@ -470,11 +514,11 @@ When you are finished move onto the next learning module where we will cover eug
 
 <!--
 
-## Extras
+# Extras
 
-## Mental Rotation
+# Mental Rotation
 
-## Where is my mind?
+# Where is my mind?
 
 -->
 

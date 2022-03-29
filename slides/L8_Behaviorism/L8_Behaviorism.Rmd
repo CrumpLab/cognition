@@ -2,18 +2,17 @@
 title: 'PSYC 2530: Behaviorism'
 author: "Matthew J. C. Crump"
 date: "Last compiled `r format(Sys.time(), '%m/%d/%y')`"
+subtitle: A positivist tradition
 output:
-  slidy_presentation:
-    footer: written by Matt Crump
+  revealjs::revealjs_presentation:
     includes:
       in_header: header.html
-    self_contained: no
-    theme: yeti
-    incremental: yes
-    template: slidy_template.html
-logoimage: imgs/BC_logo.png
-css: style.css
-subtitle: A positivist tradition
+    self_contained: false
+    theme: white
+    transition: fade
+    center: false
+    incremental: true
+    css: style.css
 ---
 
 ```{r setup, include=FALSE}
@@ -23,20 +22,30 @@ knitr::opts_chunk$set(echo = FALSE,
 library(fontawesome)
 ```
 
-## Reminders
+# Reminders
 
 This is the mini-lecture for learning module 5 on Behaviorism.
 
 
-##  Roadmap
+#  Roadmap
 
-### 1. Positivism {.bolder}
-### 2. Watson's Behaviorism {.greyout}
-### 3. Tolman's Behaviorism {.greyout}
-### 4. Hull's Behaviorism {.greyout}
-### 5. Skinner's Behaviorism {.greyout}
+::: {.pop_box_2} 
+1 Positivism
+:::
+::: {.grey_box} 
+2 Watson's Behaviorism
+:::
+::: {.grey_box} 
+3 Tolman's Behaviorism
+:::
+::: {.grey_box} 
+4 Hull's Behaviorism
+:::
+::: {.grey_box} 
+5 Skinner's Behaviorism
+:::
 
-## Explanation
+# Explanation
 
 - A goal of this course is to examine explanations of cognitive processes
 
@@ -44,7 +53,7 @@ This is the mini-lecture for learning module 5 on Behaviorism.
 
 - A major goal of behaviorism was to predict and control behavior
 
-## The Rabbit Hole
+# The Rabbit Hole
 
 A modern example of using big data for prediction and control over human behavior...
 
@@ -52,7 +61,7 @@ A modern example of using big data for prediction and control over human behavio
 
 Note: there is an assignment around this podcast if you are interested in listening to it
 
-## Let's rewind
+# Let's rewind
 
 We're going back to the period roughly between 1910s and 1940s, when the school of behaviorism was a dominant perspective in American psychology.
 
@@ -61,7 +70,7 @@ We're going back to the period roughly between 1910s and 1940s, when the school 
 ```
 
 
-## Comte's Positivism
+# Comte's Positivism
 
 :::: {.row}
 ::: {.col-md-6}
@@ -85,7 +94,7 @@ knitr::include_graphics("../../textbook/imgs/Auguste_Comte.jpg")
 :::
 ::::
 
-## Comte's stages of explanation
+# Comte's stages of explanation
 
 - *In the theological phase,* phenomena are explained by supernatural powers. For example, the mind is attributed to soul or spiritual forces.
 
@@ -93,7 +102,7 @@ knitr::include_graphics("../../textbook/imgs/Auguste_Comte.jpg")
 
 - *In the positive stage* a description system is achieved that can mathematically describe, predict, and control a process of interest
 
-## Scientific Utopianism
+# Scientific Utopianism
 
 :::: {.row}
 ::: {.col-md-6}
@@ -117,7 +126,7 @@ knitr::include_graphics("imgs/Templo_Positivista_em_Porto_Alegre.JPG")
 :::
 ::::
 
-## Positivism and Behaviorism
+# Positivism and Behaviorism
 
 - Behaviorism was a science in the tradition of positivism
 
@@ -126,15 +135,25 @@ knitr::include_graphics("imgs/Templo_Positivista_em_Porto_Alegre.JPG")
 - Behaviorism was not monolithic, and different behaviorists a variety of goals
 
 
-##  Watson's Behaviorism
+#  Roadmap
 
-### 1. Positivism {.greyout}
-### 2. Watson's Behaviorism {.bolder}
-### 3. Tolman's Behaviorism {.greyout}
-### 4. Hull's Behaviorism {.greyout}
-### 5. Skinner's Behaviorism {.greyout}
+::: {.grey_box} 
+1 Positivism
+:::
+::: {.pop_box_2} 
+2 Watson's Behaviorism
+:::
+::: {.grey_box} 
+3 Tolman's Behaviorism
+:::
+::: {.grey_box} 
+4 Hull's Behaviorism
+:::
+::: {.grey_box} 
+5 Skinner's Behaviorism
+:::
 
-## J. B. Watson (1878-1958)
+# J. B. Watson (1878-1958)
 
 :::: {.row}
 ::: {.col-md-6}
@@ -153,14 +172,14 @@ Early proponent of behaviorism
 
 [J. B. Watson](https://en.wikipedia.org/wiki/John_B._Watson)
 
-```{r,out.width="100%"}
+```{r,out.width="75%"}
 knitr::include_graphics("../../textbook/imgs/John_Broadus_Watson.jpg")
 ```
 
 :::
 ::::
 
-## Little Albert
+# Little Albert
 
 :::: {.row}
 ::: {.col-md-6}
@@ -168,8 +187,6 @@ knitr::include_graphics("../../textbook/imgs/John_Broadus_Watson.jpg")
 Watson attempted to generalize Pavlovian conditioning to humans by training an infant to show fear responses to many kinds of stimuli
 
 [Little Albert](https://en.wikipedia.org/wiki/Little_Albert_experiment) was exposed to objects (e.g., white rat, masks, burning newspapers) and sounds that caused traumatic reactions.
-
-Watson apparently planned to "de-sensitize" the infant, but the infant was removed before the experiment was finished
 
 :::
 
@@ -179,10 +196,12 @@ Watson apparently planned to "de-sensitize" the infant, but the infant was remov
 knitr::include_graphics("imgs/Little-albert.jpg")
 ```
 
+Watson apparently planned to "de-sensitize" the infant, but the infant was removed before the experiment was finished
+
 :::
 ::::
 
-## Watson's Behaviorism
+# Watson's Behaviorism
 
 :::: {.row}
 ::: {.col-md-6}
@@ -200,7 +219,7 @@ knitr::include_graphics("imgs/Watson_Behaviorism.png")
 :::
 ::::
 
-## S-R positivism
+# S-R positivism
 
 Watson follows Comte’s positivism to criticize psychology and replace it with behaviorism. 
 
@@ -210,7 +229,7 @@ Watson follows Comte’s positivism to criticize psychology and replace it with 
 
 - He then advanced behaviorism as the proper scientific discipline to study people and animals (the positive stage).
 
-## Watson's S-R system
+# Watson's S-R system
 
 :::: {.row}
 ::: {.col-md-6}
@@ -230,7 +249,7 @@ knitr::include_graphics("../../textbook/imgs/Watson_SR.png")
 :::
 ::::
 
-## Social engineering
+# Social engineering
 
 
 Watson envisioned how a science of behaviorism would enable social engineering at a broad scale..
@@ -253,7 +272,7 @@ knitr::include_graphics("../../textbook/imgs/Watson_society_R.png")
 :::
 ::::
 
-## Watson's Utopia
+# Watson's Utopia
 
 
 
@@ -273,15 +292,25 @@ knitr::include_graphics("../../textbook/imgs/Watson_sweep.png")
 :::
 ::::
 
-##  Tolman's Behaviorism
+#  Roadmap
 
-### 1. Positivism {.greyout}
-### 2. Watson's Behaviorism {.greyout}
-### 3. Tolman's Behaviorism {.bolder}
-### 4. Hull's Behaviorism {.greyout}
-### 5. Skinner's Behaviorism {.greyout}
+::: {.grey_box} 
+1 Positivism
+:::
+::: {.grey_box} 
+2 Watson's Behaviorism
+:::
+::: {.pop_box_2} 
+3 Tolman's Behaviorism
+:::
+::: {.grey_box} 
+4 Hull's Behaviorism
+:::
+::: {.grey_box} 
+5 Skinner's Behaviorism
+:::
 
-## E. C. Tolman (1886-1959)
+# E. C. Tolman (1886-1959)
 
 :::: {.row}
 ::: {.col-md-6}
@@ -294,30 +323,36 @@ Studied maze-learning abilities in rats
 
 ::: {.col-md-6}
 
-```{r, out.width="100%"}
+```{r, out.width="75%"}
 knitr::include_graphics("../../textbook/imgs/Tolman_portrait.jpg")
 ```
 
 :::
 ::::
 
-## Molar definition of Behavior
+# Molar definition of Behavior
 
 Behaviorists were attempting to carve out space between mentalistic psychology and physical physiology
 
 Tolman argues in favor of a molar definition of Behavior, that behaviors are things in and of themselves that could be studied, irrespective of their "molecular" units.
 
+>- scroll down for a few Tolman quotes
+
+## Tolman quote I
+
 > 'Behavior' has distinctive properties all its own. These are to be identified and described irrespective of whatever muscular, glandular, or neural processes underlie them. These new properties, thus distinctive of molar behavior, are presumably strictly correlated with and, if you will, dependent upon, physiological motions. But descriptively and per se they are other than these motions.
+
+## Tolman quote II
 
 > A rat running a maze, a cat getting out of a puzzle box, a man driving home to dinner, a child hifing from a stranger, a woman doing her washing or gossiping over the telephone, a pupil marking a mental test sheet, a psychologist reciting a list of nonsense syllables, my friend and I telling one another our thought and feelings– these are behaviors (qua molar). And it must be noted that in mentioning no one of them have we referred to, or, we blush to confess it, for the most part even known, what were the exact muscles and glands, sensory nerves, and motor nerves involved. For these responses somehow had other sufficiently identifying properties of their own.
 
-## Purposive and cognitive components
+# Purposive and cognitive components
 
 Tolman argued that a science of behaviorism should include description of goals, purposes, and cognitive aspects of behavior
 
 Early on he suggested that cognition was merely descriptive of a behavior, and later on he developed cognitive process explanations of maze running in rats
 
-## Maze learning
+# Maze learning
 
 :::: {.row}
 ::: {.col-md-6}
@@ -335,16 +370,18 @@ knitr::include_graphics("../../textbook/imgs/Tolman_AlleyMaze.png")
 :::
 ::::
 
-## Evidence for purposive behavior
+# Evidence for purposive behavior
 
 :::: {.row}
 ::: {.col-md-6}
 
 Tolman manipulated level of hunger, and whether or not rats received food reward at the end of a maze
 
-*Result:* The "Hungry-Reward" group learned the maze fastest over many days
+::: {.smaller_75}
+**Result:** The "Hungry-Reward" group learned the maze fastest over many days
 
-*Inference:* The "Hungry-Reward" rats had more "purpose", which drove them to learn the maze more efficiently
+**Inference:** The "Hungry-Reward" rats had more "purpose", which drove them to learn the maze more efficiently
+:::
 
 :::
 
@@ -357,16 +394,16 @@ knitr::include_graphics("../../textbook/imgs/Tolman_hunger.png")
 :::
 ::::
 
-## Evidence for cognitive behavior
+# Evidence for cognitive behavior
 
 :::: {.row}
 ::: {.col-md-6}
 
 Gingerelli's maze gave rats many options to get from start to finish
 
-*Results:* Rats learned to take the shortest paths
+**Result:** Rats learned to take the shortest paths
 
-*Inference:* Rats were showing adaptive optimization of their behavior
+**Inference:** Rats were showing adaptive optimization of their behavior
 
 :::
 
@@ -379,16 +416,16 @@ knitr::include_graphics("../../textbook/imgs/Tolman_Minima.png")
 :::
 ::::
 
-## Temporal discrimination
+# Temporal discrimination
 
 :::: {.row}
 ::: {.col-md-6}
 
 Tolman "detained" rats in a left or right chamber for long or short periods of time
 
-*Result:* Rats took the shorter route to the food
+**Result:** Rats took the shorter route to the food
 
-*Inference:* Rats could discriminate between different temporal intervals and use the information to guide their navigation decisions
+**Inference:** Rats could discriminate between different temporal intervals and use the information to guide their navigation decisions
 
 :::
 
@@ -401,29 +438,31 @@ knitr::include_graphics("../../textbook/imgs/Tolman_Temporal.png")
 :::
 ::::
 
-## Cognitive maps in Rats and Men
+# Cognitive maps in Rats and Men
 
 :::: {.row}
 ::: {.col-md-6}
 
+::: {.smaller_50}
 Tolman, E. C. (1948). Cognitive maps in rats and men. Psychological Review, 55(4), 189–208. https://doi.org/10.1037/h0061626
+:::
 
-Reviews much of his maze running research
+Reviews his maze running research
 
-Develops the idea that people and animal build "mental maps" of their environments, and then use them to navigate their surroundings
+Develops the idea that people and animals build "mental maps" of their environments to navigate their surroundings
 
 :::
 
 ::: {.col-md-6}
 
-```{r, out.width="100%"}
+```{r, out.width="75%"}
 knitr::include_graphics("imgs/Tolman_maps.png")
 ```
 
 :::
 ::::
 
-## Latent learning
+# Latent learning
 
 :::: {.row}
 ::: {.col-md-6}
@@ -432,9 +471,12 @@ Group I always got food at the end
 
 Group II and III did not get food until a specific day, marked by the X
 
-*Result:* Group II and III did not learn quickly until they started received food, then they learned very quickly
+::: {.smaller_50}
 
-*Inference:* Group II and III were building a map of the maze (latent learning) and could use this knowledge to quickly navigate the maze when they were motivated by food.
+**Result:** Group II and III did not learn quickly until they started received food, then they learned very quickly
+
+**Inference:** Group II and III were building a map of the maze (latent learning) and could use this knowledge to quickly navigate the maze when they were motivated by food.
+:::
 
 :::
 
@@ -447,23 +489,39 @@ knitr::include_graphics("../../textbook/imgs/Tolman_latentresults.png")
 :::
 ::::
 
-## Breeding Rats for "intelligence"
+# Breeding Rats for "intelligence"
 
+::: {.smaller_50}
 Tolman, E. C. (1924). The inheritance of maze-learning ability in rats. Journal of Comparative Psychology, 4(1), 1. https://doi.org/10/d737hx
+:::
+
+::: {.smaller_75}
 
 Like Thorndike, Tolman and his student Tryon analogized the maze-running procedure as a tool to measure individual differences in rat intelligence.
 
 They attempted to breed rats to perform better on mazes over generations. Tolman reported that selective breeding did show differences in maze performance in the first generation, but not in the second generation. His student Tryon repeated a selective breeding experiment over 11 years and many more generations and found similar results.
 
-##  Hull's Behaviorism
+:::
 
-### 1. Positivism {.greyout}
-### 2. Watson's Behaviorism {.greyout}
-### 3. Tolman's Behaviorism {.greyout}
-### 4. Hull's Behaviorism {.bolder}
-### 5. Skinner's Behaviorism {.greyout}
+#  Roadmap
 
-## Clark L. Hull
+::: {.grey_box} 
+1 Positivism
+:::
+::: {.grey_box} 
+2 Watson's Behaviorism
+:::
+::: {.grey_box} 
+3 Tolman's Behaviorism
+:::
+::: {.pop_box_2} 
+4 Hull's Behaviorism
+:::
+::: {.grey_box} 
+5 Skinner's Behaviorism
+:::
+
+# Clark L. Hull
 
 :::: {.row}
 ::: {.col-md-6}
@@ -483,31 +541,44 @@ knitr::include_graphics("../../textbook/imgs/clark-l-hull.jpg")
 :::
 ::::
 
-## Hull Example
+# Hull Example
 
 $_SE_R = _SH_R × D × V × K$
 
+::: {.smaller_50}
 Where:
 
-- $_SE_R$ is an excitatory potential (likelihood that the organism would produce response r to stimulus s),
+$_SE_R$ is an excitatory potential (likelihood that the organism would produce response r to stimulus s),
 
-- $_SH_R$ is the habit strength (derived from previous conditioning trials),
+$_SH_R$ is the habit strength (derived from previous conditioning trials),
 
-- $D$ is drive strength (determined by, e.g., the hours of deprivation of food, water, etc.),
+$D$ is drive strength (determined by, e.g., the hours of deprivation of food, water, etc.),
 
-- $V$ is stimulus intensity dynamism (some stimuli will have greater influences than others, such as the lighting of a situation)
+$V$ is stimulus intensity dynamism (some stimuli will have greater influences than others, such as the lighting of a situation)
 
-- $K$ is incentive (how appealing the result of the action is).
+$K$ is incentive (how appealing the result of the action is).
 
-##  Skinner's Behaviorism
+:::
 
-### 1. Positivism {.greyout}
-### 2. Watson's Behaviorism {.greyout}
-### 3. Tolman's Behaviorism {.greyout}
-### 4. Hull's Behaviorism {.greyout}
-### 5. Skinner's Behaviorism {.bolder}
+#  Roadmap
 
-## B. F. Skinner (1904-1990)
+::: {.grey_box} 
+1 Positivism
+:::
+::: {.grey_box} 
+2 Watson's Behaviorism
+:::
+::: {.grey_box} 
+3 Tolman's Behaviorism
+:::
+::: {.grey_box} 
+4 Hull's Behaviorism
+:::
+::: {.pop_box_2} 
+5 Skinner's Behaviorism
+:::
+
+# B. F. Skinner (1904-1990)
 
 :::: {.row}
 ::: {.col-md-6}
@@ -527,13 +598,13 @@ knitr::include_graphics("../../textbook/imgs/bf_skinner.jpg")
 :::
 ::::
 
-## The behavior of organisms (1938)
+# The behavior of organisms (1938)
 
 You can read Skinner's book where he develops and advances his behaviorism [here](https://archive.org/details/in.ernet.dli.2015.191112).
 
 
 
-## Operant Conditioning
+# Operant Conditioning
 
 Skinner distinguished between Type S and Type R learning
 
@@ -557,7 +628,7 @@ Type R learning involves gaining stimulus control over the behavior, so that som
 :::
 ::::
 
-## Lever pressing
+# Lever pressing
 
 :::: {.row}
 ::: {.col-md-6}
@@ -579,13 +650,13 @@ knitr::include_graphics("../../textbook/imgs/Skinner_Box.png")
 :::
 ::::
 
-## Simple Operant conditioning
+# Simple Operant conditioning
 
 ```{r}
 knitr::include_graphics("../../textbook/imgs/Skinner_Results.png")
 ```
 
-## Interpreting results
+# Interpreting results
 
 :::: {.row}
 ::: {.col-md-6}
@@ -605,7 +676,7 @@ knitr::include_graphics("../../textbook/imgs/Skinner_slope.png")
 :::
 ::::
 
-## Describing results
+# Describing results
 
 :::: {.row}
 ::: {.col-md-6}
@@ -625,7 +696,7 @@ knitr::include_graphics("../../textbook/imgs/Skinner_description.png")
 :::
 ::::
 
-## Skinner's System: Reflex Strength
+# Skinner's System: Reflex Strength
 
 Skinner's system involved his own set of terms and lawful relationships. The terms were intended as abstractions, and the laws were supposed to be empirically verified regularities in behavior. 
 
@@ -633,9 +704,15 @@ Reflexes were any operant behavior
 
 Reflex strength referred to probability of making a response
 
-## Skinner's principles
+# Skinner's principles
 
 One goal was to experimentally derive principles that seem to predict and control behaviors of interest
+
+>- scroll down for some of the principles he proposed
+
+## Example principles
+
+::: {.smaller_50}
 
 > **The Law of Threshold** The intensity of the stimulus must reach or exceed a certain critical value (called the threshold) in order to elicit a response. 
 
@@ -645,7 +722,9 @@ One goal was to experimentally derive principles that seem to predict and contro
  
 > **The Law of After-Discharge** The response may persist for some time after the cessation of the stimulus
 
-## Applications: Project Pigeon
+:::
+
+# Applications: Project Pigeon
 
 :::: {.row}
 ::: {.col-md-6}
@@ -663,7 +742,7 @@ knitr::include_graphics("imgs/pigeon.jpg")
 :::
 ::::
 
-## Walden two
+# Walden two
 
 :::: {.row}
 ::: {.col-md-6}
@@ -683,7 +762,7 @@ knitr::include_graphics("imgs/Walden_Two_cover.jpg")
 :::
 ::::
 
-## What's next
+# What's next
 
 Complete the quiz for this learning module on Blackboard, and/or the writing assignments by the due date.
 
