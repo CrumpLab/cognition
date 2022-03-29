@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Matthew J. C. Crump" />
+  <title>PSYC 2530: Intelligence testing</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="L5_IQ_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+
+<link rel="stylesheet" href="L5_IQ_files/reveal.js-3.3.0.1/css/theme/white.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+    <link rel="stylesheet" href="style.css"/>
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Cormorant+Garamond&family=EB+Garamond:wght@400;500&family=Lora&family=Merriweather:wght@300&family=PT+Serif&family=Raleway:wght@200;400;800&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href = "bootstrap/css/bootstrap_mod.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5CP3TXLQ3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-Q5CP3TXLQ3');
+    </script>
+    <script src="L5_IQ_files/header-attrs-2.11/header-attrs.js"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">PSYC 2530: Intelligence testing</h1>
+  <h1 class="subtitle">A short history of early cognitive testing</h1>
+    <h2 class="author">Matthew J. C. Crump</h2>
+    <h3 class="date">Last compiled 03/29/22</h3>
+</section>
+
+<section id="reminders-from-last-class" class="title-slide slide level1">
+<h1>Reminders from last class</h1>
+<p>Reading for today was chapter 4 <a href="https://www.crumplab.com/cognition/textbook/intelligence-testing.html">Intelligence testing</a> from the textbook.</p>
+</section>
+
+<section id="roadmap" class="title-slide slide level1">
+<h1>Roadmap</h1>
+<div class="pop_box_2">
+<p>1 The intelligence test race</p>
+</div>
+<div class="grey_box">
+<p>2 Binet-Simon Test</p>
+</div>
+<div class="grey_box">
+<p>3 Mental testing and Eugenics</p>
+</div>
+<div class="grey_box">
+<p>4 Critical responses</p>
+</div>
+</section>
+
+<section>
+<section id="what-is-intelligence" class="title-slide slide level1">
+<h1>What is intelligence?</h1>
+
+</section>
+<div class="row">
+<section id="everyone-knows-what-that-means" class="slide level2 col-md-6">
+<h2>Everyone knows what that means</h2>
+<p><img src="imgs/200.gif" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+<section id="hmmm-the-more-i-think-about-it" class="slide level2 col-md-6">
+<h2>Hmmm, the more I think about it…</h2>
+<p><img src="imgs/200-1.gif" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+</div></section>
+<section id="questions-to-consider" class="title-slide slide level1">
+<h1>Questions to consider</h1>
+<ol type="1">
+<li class="fragment">What is intelligence?</li>
+<li class="fragment">What are intelligence tests and what do they measure?</li>
+<li class="fragment">How have these tests been used in society?</li>
+<li class="fragment">Reasonable people have diverging opinions about the above questions</li>
+<li class="fragment">This class explores the historical context and development of IQ tests</li>
+</ol>
+</section>
+
+<section id="the-intelligence-test-race" class="title-slide slide level1">
+<h1>The intelligence test race</h1>
+<ul>
+<li class="fragment"><p>The eugenics movement desired “scientific” tests that could convincingly measure individual differences in mental ability</p></li>
+<li class="fragment"><p>A eugenics goal was to develop mental tests, test whole segments of society, then deploy positive and negative eugenic social policies on people depending on their test results</p></li>
+<li class="fragment"><p>Psychologists committed to the eugenics movement “race” to develop suitable mental tests</p></li>
+</ul>
+</section>
+
+<section id="turn-of-the-century-1900" class="title-slide slide level1">
+<h1>Turn of the century (1900)</h1>
+<p>Psychologists around the world are developing tests to measure people on numerous dimensions (mental, physical, health, etc.)</p>
+<p>National governments (UK, Germany, France, USA) are beginning to use, or consider using tests in conjunction with social policy and decision-making.</p>
+</section>
+
+<section id="james-mckeen-cattell-1860-1944" class="title-slide slide level1">
+<h1>James Mckeen Cattell (1860-1944)</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Founding Editor of Psychological Review (1894)</p>
+<p>APA president (1895)</p>
+<p>Bought the journal <a href="https://www.wikiwand.com/en/Science_(journal)">Science</a>, edited it for many years</p>
+<p>Removed from position at Columbia for expressing opposition to American involvement in World War I</p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Cattell.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="cattell-as-galtons-acolyte" class="title-slide slide level1">
+<h1>Cattell as Galton’s acolyte</h1>
+<p>Cattell visited Galton in UK, popularized Galton’s psychological and eugenics mission in the USA</p>
+<ul>
+<li class="fragment"><p>Conducted research in the style of Galton, motivated by eugenics</p></li>
+<li class="fragment"><p>Attempted to develop mental tests to measure individual differences in human quality</p></li>
+</ul>
+</section>
+
+<section id="men-of-science" class="title-slide slide level1">
+<h1>Men of science</h1>
+<p>Galton and Cattell both tried to demonstrate that “men of science” in England and the US had inherited superior traits</p>
+<div class="row">
+<div class="col-md-6">
+<p><strong>Galton</strong></p>
+<p><img src="imgs/Galton_men_of_science.png" width="50%" style="display: block; margin: auto;" /></p>
+</div>
+<div class="col-md-6">
+<p><strong>Cattell</strong></p>
+<p><img src="imgs/Cattell_men_of_science.jpg" width="50%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="cattells-mental-tests" class="title-slide slide level1">
+<h1>Cattell’s mental tests</h1>
+<div class="row">
+<div class="col-md-6">
+<div class="smaller_50">
+<p>CATTELL, J. McK. (1890). V.—MENTAL TESTS AND MEASUREMENTS. Mind, os-XV(59), 373–381. <a href="https://doi.org/10/dhn9nc" class="uri">https://doi.org/10/dhn9nc</a></p>
+</div>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Cattell_mental_testing.jpg" width="90%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="testing-columbia-students" class="title-slide slide level1">
+<h1>Testing Columbia students</h1>
+<div class="smaller_50">
+<p>Cattell, J. M., &amp; Farrand, L. (1896). Physical and mental measurements of the students of Columbia University. Psychological Review, 3(6), 618. <a href="https://doi.org/10/ckms9q" class="uri">https://doi.org/10/ckms9q</a></p>
+</div>
+<div class="row">
+<div class="col-md-6">
+<p><img src="imgs/Cattell_form.png" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Cattell_conclusion.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="cattells-tests-werent-predictive" class="title-slide slide level1">
+<h1>Cattell’s tests weren’t predictive</h1>
+<p>Efforts to predict Columbia students grades (a potential measure of their intelligence) from Cattell’s tests were not successful.</p>
+</section>
+
+<section id="binets-critiques" class="title-slide slide level1">
+<h1>Binet’s Critiques</h1>
+<p>As mentioned previously, several other psychologists around the world were attempting to develop their own versions of mental tests</p>
+<ul>
+<li class="fragment"><p>Alfred Binet was a French Psychologist who critiqued Cattell’s tests for lacking face-validity</p></li>
+<li class="fragment"><p>Binet argued that Cattell’s tests weren’t very mentally challenging…</p></li>
+</ul>
+</section>
+
+<section id="roadmap-1" class="title-slide slide level1">
+<h1>Roadmap</h1>
+<div class="grey_box">
+<p>1 The intelligence test race</p>
+</div>
+<div class="pop_box_2">
+<p>2 Binet-Simon Test</p>
+</div>
+<div class="grey_box">
+<p>3 Mental testing and Eugenics</p>
+</div>
+<div class="grey_box">
+<p>4 Critical responses</p>
+</div>
+</section>
+
+<section id="binets-motivation" class="title-slide slide level1">
+<h1>Binet’s Motivation</h1>
+<div class="row">
+<div class="col-md-6">
+<p>The French government was already enacting social policies to institutionalize “unfit” children</p>
+<p>Children were being sent-away on the basis of subjective judgments from teacher’s and parents.</p>
+<p>Binet thought objective mental tests would allow for a more rational decision-policy that could be used to optimize the process.</p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Binet.jpg" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="translated-to-english-in-1916" class="title-slide slide level1">
+<h1>Translated to English in 1916</h1>
+<p>Kite, E. S. (1916). The development of intelligence in children (The Binet-Simon Scale). Williams &amp; Wilkins Company.</p>
+<p>You can read it all <a href="https://archive.org/details/developmentofint00binerich">here</a></p>
+</section>
+
+<section id="binets-testing-method" class="title-slide slide level1">
+<h1>Binet’s testing method</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Binet created a variety puzzle-like tasks</p>
+<p>Chose tasks that he thought required mental processing</p>
+<p>Systematically measured how children of different ages perform on each tasks</p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Binet_items.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="basic-results-1" class="title-slide slide level1">
+<h1>Basic Results 1</h1>
+<div class="row">
+<div class="col-md-6">
+<p><img src="imgs/Binet_caption.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Binet_results.jpg" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="quantification-problem" class="title-slide slide level1">
+<h1>Quantification problem</h1>
+<p>Binet had a large number of results from many children on many tests</p>
+<p>And, he recognized that “intelligence” was a complex, multi-dimensional, fuzzy concept</p>
+<p>He sought a method to distill his measurements into a convenient and simple scale…his solution was mental age.</p>
+</section>
+
+<section id="equating-mental-ability-with-age" class="title-slide slide level1">
+<h1>Equating mental ability with Age</h1>
+<ul>
+<li class="fragment"><p>Age was simple like a ruler, going up in increments of one year at a time.</p></li>
+<li class="fragment"><p>Children develop physically and mentally as they grow, and this development is reflected in their age</p></li>
+<li class="fragment"><p>Binet assumed that children’s mental abilities steadily increased ever year until they became adults.</p></li>
+</ul>
+</section>
+
+<section id="linking-age-to-mini-test-results" class="title-slide slide level1">
+<h1>Linking Age to mini-test results</h1>
+<blockquote>
+<p>One test signifies nothing, let us emphatically repeat, but five or six tests signify something. And that is so true that one might almost say, ‘It matters very little what the tests are so long as they are numerous.’ - Binet</p>
+</blockquote>
+<p>No single mini-test indicates anything about your “mental age”…</p>
+</section>
+
+<section id="norm-based-comparison" class="title-slide slide level1">
+<h1>Norm-based comparison</h1>
+<p>Binet’s measurements had meaning through comparison to empirical norms.</p>
+<p>Empirical norms are existing measurements of how other children performed on the test</p>
+<p>The large empirical database allowed Binet to assess how anyone performs the mini-tests compared to the groups of children he measured.</p>
+</section>
+
+<section id="algorithms-for-computing-mental-age" class="title-slide slide level1">
+<h1>Algorithms for computing mental age</h1>
+<div class="row">
+<div class="col-md-6">
+<p><img src="imgs/Binet_rule1.jpg" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Binet_rule2.jpg" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="correlating-mental-age-with-school-performance" class="title-slide slide level1">
+<h1>Correlating mental age with school performance</h1>
+<p><img src="imgs/Binet_school.png" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="meaning-of-modern-iq" class="title-slide slide level1">
+<h1>Meaning of modern IQ?</h1>
+<p>Binet’s scale was in “mental” years</p>
+<p>Modern “intelligence tests” use a standardized scale, often termed IQ or intelligence quotient</p>
+<p>Binet died in 1911, and his strategy for mental testing was quickly adopted by American psychologists for the purposes of the eugenics movement.</p>
+</section>
+
+<section id="roadmap-2" class="title-slide slide level1">
+<h1>Roadmap</h1>
+<div class="grey_box">
+<p>1 The intelligence test race</p>
+</div>
+<div class="grey_box">
+<p>2 Binet-Simon Test</p>
+</div>
+<div class="pop_box_2">
+<p>3 Mental testing and Eugenics</p>
+</div>
+<div class="grey_box">
+<p>4 Critical responses</p>
+</div>
+</section>
+
+<section id="human-betterment-foundation" class="title-slide slide level1">
+<h1>Human Betterment Foundation</h1>
+<div class="row">
+<div class="col-md-6">
+<p><a href="https://en.wikipedia.org/wiki/Human_Betterment_Foundation">Human Betterment Foundation</a> was an American Eugenics organization on the west coast</p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/HBF_ad.jpeg" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="member-list" class="title-slide slide level1">
+<h1>Member List</h1>
+<p><img src="imgs/HBF_memberlist.jpg" width="50%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="lewis-terman" class="title-slide slide level1">
+<h1>Lewis Terman</h1>
+<div class="row">
+<div class="col-md-6">
+<p>American Psychologist (1877-1956) at Stanford University</p>
+<p>APA president (1923)</p>
+<p>Eugenics leader and advocate</p>
+<p>Popularized Binet-Simon test in USA as Stanford-Binet test</p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Terman-opener.jpg" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="termans-stanford-binet-revision" class="title-slide slide level1">
+<h1>Terman’s Stanford-Binet revision</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Terman advocated for widespread intelligence testing across America</p>
+<p>1916, published a revised version of Binet’s test for Americans.</p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Terman_book.jpg" width="75%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="termans-eugenic-motivations" class="title-slide slide level1">
+<h1>Terman’s eugenic motivations</h1>
+<blockquote>
+<p>it is safe to predict that in the near future intelligence tests will bring tens of thousands of these high-grade defectives under the surveillance and protection of society. This will ultimately result in curtailing the reproduction of feeble-mindedness and in the elimination of an enormous amount of crime, pauperism, and industrial inefficiency.</p>
+</blockquote>
+<blockquote>
+<p>The number of children with very superior ability is approximately as great as the number of feeble-minded. The future welfare of the country hinges, in no small degree, upon the right education of these superior children.</p>
+</blockquote>
+</section>
+
+<section id="eugenical-concerns-about-war" class="title-slide slide level1">
+<h1>Eugenical concerns about war</h1>
+<p>World war I had broken out in 1914…</p>
+<p>Eugenicists were debating whether war would help or hurt the causes of eugenics</p>
+<p>War could eliminate “unfit” people, but could be randomly killing “fit” and “unfit” people.</p>
+<p>Eugenicists were interested in using mental tests in the war effort</p>
+</section>
+
+<section id="american-psychologists-in-wwi" class="title-slide slide level1">
+<h1>American Psychologists in WWI</h1>
+<p>Yerkes, R. M. (1918). Psychology in relation to the war. Psychological Review, 25(2), 85–115. <a href="https://doi.org/10/dhdj4j" class="uri">https://doi.org/10/dhdj4j</a></p>
+<p>APA created several committees to determine how psychologists could help the war effort.</p>
+<p>Many of them were committed to the eugenics movement, and one-time APA presidents, including Robert Yerkes, Madison Bentley, Edward Thorndike, John B. Watson, Walter D. Scott, Robert Woodworth, and Carl Seashore</p>
+</section>
+
+<section id="the-alpha-beta-test" class="title-slide slide level1">
+<h1>The Alpha-Beta Test</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Alpha-Beta tests involved mass testing of 1.75 million Americans</p>
+<p>A “mental census” for the Army</p>
+</div>
+<div class="col-md-6">
+<p>Psychologist Robert M Yearkes (1876-1956)</p>
+<p><img src="imgs/yerkes_large.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="examples" class="title-slide slide level1">
+<h1>Examples</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Alpha test was for literate soldiers</p>
+<p>Beta test was for illiterate soldiers</p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Yerkes_alpha_test.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="racial-bias" class="title-slide slide level1">
+<h1>Racial bias</h1>
+<p>Yearkes argued the results showed that whites had superior intelligence compared to blacks and immigrants</p>
+</section>
+
+<section id="application-and-interpretation" class="title-slide slide level1">
+<h1>Application and Interpretation</h1>
+<p><img src="imgs/Yearkes_explanation.png" width="65%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="scientific-racism" class="title-slide slide level1">
+<h1>Scientific Racism</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Carl Brigham popularized the alpha-beta army test results in his 1922 book</p>
+<p><img src="imgs/Brigham_1922.jpg" width="60%" style="display: block; margin: auto;" /></p>
+</div>
+<div class="col-md-6">
+<p>He furthered racist conceptions of intelligence</p>
+<p><img src="imgs/Yerkes_ruler.png" width="60%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="continued-racism" class="title-slide slide level1">
+<h1>Continued racism</h1>
+<ul>
+<li class="fragment"><p><a href="https://en.wikipedia.org/wiki/Arthur_Jensen">Arthur Jensen</a></p></li>
+<li class="fragment"><p><a href="https://en.wikipedia.org/wiki/The_Bell_Curve">Herrnstein and Murray’s 1994 book, The Bell Curve</a></p></li>
+</ul>
+</section>
+
+<section id="iq-testing-and-mental-health" class="title-slide slide level1">
+<h1>IQ testing and mental health</h1>
+<p>Eugenics proponents advocated that IQ tests be used to identify “feeble-minded” people that should be institutionalized by the state and/or involuntarily sterilized</p>
+</section>
+
+<section id="goddards-who-is-a-moron" class="title-slide slide level1">
+<h1>Goddard’s “who is a moron?”</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Goddard describes how “feeble-mindedness” should be split into categories based on IQ</p>
+<p>idiot: mental age of two</p>
+<p>imbecile: mental age of 3 to 7</p>
+<p>moron: mental age of 8 to 12</p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Goddard_whois.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="goddards-problem" class="title-slide slide level1">
+<h1>Goddard’s problem</h1>
+<p>Considers two general “solutions” to how society should deal with people identified as “morons” by IQ tests</p>
+<div class="row">
+<div class="col-md-6">
+<p><img src="imgs/Goddard_remove.png" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Goddard_work.png" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="roadmap-3" class="title-slide slide level1">
+<h1>Roadmap</h1>
+<div class="grey_box">
+<p>1 The intelligence test race</p>
+</div>
+<div class="grey_box">
+<p>2 Binet-Simon Test</p>
+</div>
+<div class="grey_box">
+<p>3 Mental testing and Eugenics</p>
+</div>
+<div class="pop_box_2">
+<p>4 Critical responses</p>
+</div>
+</section>
+
+<section id="critical-responses" class="title-slide slide level1">
+<h1>Critical Responses</h1>
+<div class="row">
+<div class="col-md-6">
+<div class="smaller_50">
+<p>Kamin, L. J. (1974). The science and politics of IQ. Psychology Press.</p>
+</div>
+<div class="smaller_50">
+<p>Hilliard, A. G. (1976). A Review of Leon Kamin’s The Science and Politics of I.Q. Journal of Black Psychology, 2(2), 64–74. <a href="https://doi.org/10/gg3hr5" class="uri">https://doi.org/10/gg3hr5</a></p>
+</div>
+<p><img src="imgs/Kamin_quote.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Hilliard_review.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="black-psychologists-in-apa" class="title-slide slide level1">
+<h1>Black Psychologists in APA</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Up through the 1960s, the APA was overwhelmingly white</p>
+<p>In an APA meeting in 1968, a small group of Black Psychologists formed their own organization, <a href="https://abpsi.org">ABPsi</a>.</p>
+<div class="smaller_50">
+<p>Williams, R. (1974). A History of the Association of Black Psychologists: Early Formation and Development. Journal of Black Psychology, 1(1), 9–24. <a href="https://doi.org/10/gg3hq4" class="uri">https://doi.org/10/gg3hq4</a></p>
+</div>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Williams_front.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="moratorium-on-iq-testing-of-black-children" class="title-slide slide level1">
+<h1>Moratorium on IQ testing of Black children</h1>
+<p><img src="imgs/Moratorium_on_testing.png" width="40%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="outcomes" class="title-slide slide level1">
+<h1>Outcomes</h1>
+<div class="row">
+<div class="col-md-6">
+<p>Advocacy of Black psychologists led to a moratorium on intelligence testing of Black children in California (1979), still in effect</p>
+<p>There was also substantial pushback from groups with vested financial interests in intelligence testing</p>
+<div class="smaller_50">
+<p>Williams, R. L., &amp; Mitchell, H. (1978). What Happened to ABPsi’s Moratorium on Testing: A 1968 to 1977 Reminder. Journal of Black Psychology, 4(1–2), 25–42. <a href="https://doi.org/10/gg6btt" class="uri">https://doi.org/10/gg6btt</a></p>
+</div>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/What_happened_to_moratorium.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="further-reading" class="title-slide slide level1">
+<h1>Further reading</h1>
+<p><a href="https://journals.sagepub.com/home/jbp">The Journal of Black Psychology</a> has published many excellent articles on intelligence testing and its impacts on society</p>
+</section>
+
+<section id="whats-next" class="title-slide slide level1">
+<h1>What’s next</h1>
+<p>This is the last lecture for the psychology, eugenics, and intelligence testing learning module.</p>
+<p>Your next step is to complete a quiz or assignment by the due date posted on blackboard.</p>
+<p>The next learning module is on the topic of “associations”</p>
+</section>
+    </div>
+  </div>
+
+  <script src="L5_IQ_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="L5_IQ_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+        // Display a presentation progress bar
+        progress: true,
+        // Push each slide change to the browser history
+        history: true,
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+        // Enable the slide overview mode
+        overview: true,
+        // Vertical centering of slides
+        center: false,
+        // Enables touch navigation on devices with touch input
+        touch: true,
+        // Turns fragments on and off globally
+        fragments: true,
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+        // Transition style
+        transition: 'fade', // none/fade/slide/convex/concave/zoom
+        // Transition speed
+        transitionSpeed: 'default', // default/fast/slow
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+
+
+        // Optional reveal.js plugins
+        dependencies: [
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>

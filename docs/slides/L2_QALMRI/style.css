@@ -1,0 +1,310 @@
+:root{
+  --primary: #079fe0;
+  --first: #b3f2ff;
+  --secondary: #b3ffb3;
+  --third: #ffddab;
+  --fourth: #ba65a0;
+  --textbox: #f06cc8;
+}
+
+a:any-link {
+  color:var(--primary)!important;
+}
+
+a:link {
+  color:var(--primary)!important;
+}
+
+a:hover {
+  color:var(--textbox)!important;
+}
+
+a:visited {
+  color:var(--fourth)!important;
+}
+
+.frontlogo {
+  margin-top: 50px;
+  width: 200px;
+}
+
+#gohome {
+  position: fixed; z-index: 200;
+}
+
+.fas fa-home {
+  padding-top: 50px!important;
+}
+
+.center p {
+  text-align: center !important;
+}
+
+.middle p {
+  margin-top: 25% !important;
+  margin-bottom: 25% !important;
+  text-align: center;
+}
+
+.reveal section .bigger p{
+  font-size: 200% !important;
+}
+
+.reveal section .smaller_75 p{
+  font-size: 75% !important;
+}
+
+.reveal section .smaller_50 p{
+  font-size: 50% !important;
+}
+
+.reveal section .smaller_25 p{
+  font-size: 25% !important;
+}
+
+.reveal h1.title {
+  padding-left: 20pt;
+  padding-right: 0;
+  padding-top: 0pt;
+  padding-bottom: 4pt;
+  margin-top: 0pt!important;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 10px!important;
+  display: block;
+  font-size: 150%!important;
+  font-weight: 800;
+  line-height: 1.2em;
+  /*background: #E0E3FA; */
+  /*background: var(--primary);*/
+  background-image: linear-gradient(to right, #fff, var(--primary));
+  border-radius: 5px;
+  font-family: 'Montserrat Alternates', sans-serif!important;
+  text-transform: none;
+}
+
+
+.reveal h1.subtitle {
+  padding-left: 20pt;
+  padding-right: 0;
+  padding-top: 0pt;
+  padding-bottom: 4pt;
+  margin-top: 0pt!important;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 50px!important;
+  display: block;
+  font-size: 150%;
+  font-weight: 400;
+  line-height: 1.2em;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  text-transform: none;
+}
+
+.reveal h2.author,  .reveal h3.date{
+  padding-left: 20pt;
+  padding-right: 0;
+  padding-top: 0pt;
+  padding-bottom: 4pt;
+  margin-top: 0pt!important;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0px!important;
+  display: block;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.2em;
+  /*background: #E0E3FA; */
+  /*background: var(--primary);*/
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  text-transform: none;
+}
+
+.reveal .slide h2, .reveal .slide h1  {
+  padding-left: 0pt;
+  padding-right: 0;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+  margin-top: 0pt!important;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 40px!important;
+  display: block;
+  font-size: 150%!important;
+  font-weight: 800;
+  line-height: 1.2em;
+  /*background: #E0E3FA; */
+  /*background: var(--primary);*/
+  background-image: linear-gradient(to right, #fff, var(--primary));
+  border-radius: 5px;
+  font-family: 'Montserrat Alternates', sans-serif!important;
+  text-transform: none;
+  text-align: left;
+}
+
+.greyout {
+  background-image: linear-gradient(to right, #fff, grey)!important;
+}
+
+.nocolor h1 {
+  padding-left: 20pt;
+  padding-right: 0;
+  padding-top: 0pt;
+  padding-bottom: 4pt;
+  margin-top: 40pt!important;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 50px!important;
+  display: block;
+  font-size: 200%;
+  font-weight: 800;
+  line-height: 1.2em;
+  background: none!important;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+h3 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 150%;
+  font-weight: 500;
+}
+
+.col-md-6 {
+ /* width: 90%!important;*/
+ padding-right: 5%!important;
+  margin-left: 0%;
+  margin-right: 0%!important;
+
+}
+
+.reveal p {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  margin-bottom: 20px;
+  line-height: 1.35;
+  width: 100%;
+  height: 100%;
+  color: black;
+ /* background-color: white;*/
+  /*font-family: "Helvetica", sans-serif;*/
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25pt!important;
+  text-align: left;
+}
+
+.reveal section img {
+  border: 0px;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.0);
+}
+
+.reveal ol, .reveal ul {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  margin-left: 10%;
+  margin-bottom: 20px;
+  line-height: 1.35;
+  width: 90%;
+  height: 100%;
+  color: black;
+  /*font-family: "Helvetica", sans-serif;*/
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25pt!important;
+  text-align: left;
+}
+
+.centerparagraph {
+  text-align: left;
+  padding-top: 50px;
+  line-height: 1;
+  font-size: 150%;
+  font-weight: 300;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.reveal blockquote {
+  font-size: 100%!important;
+  padding-right: 0!important;
+  margin-right: 0!important;
+  width: 100%;
+  margin: 20px auto;
+  padding: 5px;
+  font-style: italic;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+table {
+  font-size: 100%!important;
+}
+
+.pop_box_1 p, .pop_span_1 {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  margin-bottom: 5%;
+  width: 90%;
+  color: black;
+  background-image: linear-gradient(to right, #fff, var(--primary));
+  /*font-family: "Helvetica", sans-serif;*/
+  font-weight: 400;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 150%!important;
+  text-align: left;
+}
+
+.pop_box_2 p, .pop_span_2 {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  margin-bottom: 5%;
+  width: 90%;
+  color: black;
+  background-image: linear-gradient(to right, #fff, var(--secondary));
+  /*font-family: "Helvetica", sans-serif;*/
+  font-weight: 400;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 150%!important;
+  text-align: left;
+}
+
+.pop_box_3 p, .pop_span_3 {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  margin-bottom: 5%;
+  width: 90%;
+  color: black;
+  background-image: linear-gradient(to right, #fff, var(--third));
+  /*font-family: "Helvetica", sans-serif;*/
+  font-weight: 400;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 150%!important;
+  text-align: left;
+}
+
+.grey_box p, .grey_span {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  margin-bottom: 5%;
+  width: 90%;
+  color: black;
+  background-image: linear-gradient(to right, #fff, grey)!important;
+  /*font-family: "Helvetica", sans-serif;*/
+  font-weight: 400;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 150%!important;
+  text-align: left;
+}
+
+.reveal strong, .reveal b {
+  font-weight: 800;
+}
