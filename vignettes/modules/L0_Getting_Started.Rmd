@@ -61,6 +61,56 @@ If you have questions about the syllabus, then please ask them on the blackboard
 ## Watch/Listen {.mt-5}
 
 :::::{.card .border .border-2 .border-info}
+
+:::: {.row}
+::: {.col-md-2}
+
+:::
+
+::: {.col-md-10}
+
+
+View the slides directly as a web page or pdf download.
+
+:::
+::::
+
+:::: {.row .g-0}
+
+
+::: {.col-md-2}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center', out.width="50%"}
+knitr::include_graphics("imgs/logo_slides.png")
+```
+
+::::
+:::
+
+::: {.col-md-5}
+:::: {.card-body}
+
+<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/slides/L0_Getting_started/L0_Getting_Started.html#/" role="button">
+Web slide deck
+</a>
+
+::::
+:::
+
+::: {.col-md-5}
+:::: {.card-body}
+<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/slides/L0_Getting_started/L0_Getting_Started.pdf" role="button">
+PDF slide deck
+</a>
+::::
+:::
+
+::::
+:::::
+
+
+:::::{.card .border .border-2 .border-info}
 :::: {.row .g-0}
 ::: {.col-md-2}
 :::: {.card-body}
@@ -90,7 +140,7 @@ Orientation video
 ::::
 :::::
 
-You can also view the slide deck under the slides tab on the course website. 
+
 
 ## Engage {.mt-5}
 

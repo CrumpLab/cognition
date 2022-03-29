@@ -36,6 +36,7 @@ reveal_to_pdf <- function(path_to_slides, output_file = "FALSE"){
   system(run_decktape)
 }
 
+reveal_to_pdf(path_to_slides = paste0(getwd(),"/","L0_Getting_started/L0_Getting_Started.html"))
 reveal_to_pdf(path_to_slides = paste0(getwd(),"/","L1_Instances/L1_Instances.html"))
 reveal_to_pdf(path_to_slides = paste0(getwd(),"/","L2_QALMRI/L2_QALMRI.html"))
 reveal_to_pdf(path_to_slides = paste0(getwd(),"/","L3_Imagery/L3_Imagery.html"))
