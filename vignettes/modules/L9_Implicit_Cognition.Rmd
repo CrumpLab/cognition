@@ -35,17 +35,21 @@ Work through each of the following sections: Read, Watch/listen, and Engage. You
 knitr::include_graphics("imgs/logo.png")
 ```
 
-TBD
-
 ::::
 :::
 
 ::: {.col-md-10}
 :::: {.card-body}
 
-TBD
+There are no textbook readings for this learning module. This paper is recommended background reading. It is available on blackboard.
 
-<a class="btn btn-outline-info" href="" role="button">Read</a>
+- Klinger, M. R., & Greenwald, A. G. (1994). Preferences Need No Inferences?: The Cognitive Basis of Unconscious Mere Exposure Effects. In The Heart’s Eye (pp. 67–85). Elsevier. https://doi.org/10.1016/B978-0-12-410560-7.50010-7
+
+The second midterm will contain questions about the following paper. You will be expected to read this paper before the midterm. One of the writing assignments is about this paper, so you could complete the writing assignment and study for this part of the midterm at the same time.
+
+- Goldinger, S. D., & Hansen, W. A. (2005). Remembering by the seat of your pants. Psychological Science, 16(7), 525–529. https://doi.org/10/dnnzx5
+
+
 ::::
 :::
 ::::
@@ -66,6 +70,10 @@ knitr::include_graphics("imgs/logo.png")
 ```
 
 Lecture 1
+
+[slides](https://www.crumplab.com/cognition/slides/L12_Implicit/L12_Implicit.html#/)
+
+[pdf](https://www.crumplab.com/cognition/slides/L12_Implicit/L12_Implicit.pdf)
 
 ::::
 :::
@@ -119,6 +127,23 @@ When you are ready complete any or all of the following assignments.
 2. Writing: (5 points, instructions below, submit on blackboard)
 
 Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
+
+### Remembering by the seat of your pants
+
+5 points
+
+- Goldinger, S. D., & Hansen, W. A. (2005). Remembering by the seat of your pants. Psychological Science, 16(7), 525–529. https://doi.org/10/dnnzx5
+
+Your assignment is to read the above paper. It is posted on blackboard, it is under 5 pages, and it is really interesting. This writing assignment is optional, but everyone will be tested on concepts from this paper on the midterm. If you choose to do this assignment, then you will be helping yourself study for the midterm.
+
+In 250 words or more, accomplish the following:
+
+1. Describe the discrepancy-attribution hypothesis with an example. Consider describing how it is different from making attributions on the basis of perceptual fluency alone. Your example could be similar to the one described in the introduction, but it should be different enough that I can tell that it reflects your own understanding.
+
+2. Describe how this study tested the discrepancy-attribution hypothesis. What was the method and main finding. Did they provide evidence for the discrepancy-attribution hypothesis?
+
+3. What was the purpose of the buzzing chair?
+
 
 
 

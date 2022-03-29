@@ -317,7 +317,7 @@ knitr::include_graphics("imgs/experimental2.png")
 
 # Mere exposure and pictures
 
-```{r}
+```{r, out.width="50%"}
 knitr::include_graphics("imgs/mere_pictures1.jpg")
 ```
 
