@@ -72,6 +72,10 @@ pt 1
 
 Early approaches
 
+[slides](https://www.crumplab.com/cognition/slides/L10_Memory_1/L10_Memory_1.html#/)
+
+[pdf](https://www.crumplab.com/cognition/slides/L10_Memory_1/L10_Memory_1.pdf)
+
 45 min
 
 ::::
@@ -103,6 +107,8 @@ pt ii
 
 Information processing
 
+same slides/pdf as above
+
 18 min
 
 ::::
@@ -132,6 +138,8 @@ knitr::include_graphics("imgs/logo.png")
 pt iii
 
 Multi-store model
+
+same slides/pdf as above
 
 18 min
 

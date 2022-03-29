@@ -70,6 +70,10 @@ Lecture 1
 
 Memory Measurement
 
+[slides](https://www.crumplab.com/cognition/slides/L11_Memory_2/L11_Memory_2.html#/)
+
+[pdf](https://www.crumplab.com/cognition/slides/L11_Memory_2/L11_Memory_2.pdf)
+
 16 min
 
 ::::

@@ -73,6 +73,10 @@ Part 1
 Donders
 PRP
 
+[slides](https://www.crumplab.com/cognition/slides/L9_Information/L9_Information.html#/)
+
+[pdf](fhttps://www.crumplab.com/cognition/slides/L9_Information/L9_Information.pdf)
+
 40 mins
 
 ::::
@@ -104,6 +108,8 @@ Lecture 2
 
 Information Theory
 Hick Hyman Law
+
+same slides and pdf as above
 
 50 mins
 

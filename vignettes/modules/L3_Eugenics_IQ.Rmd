@@ -100,7 +100,9 @@ Lecture 1
 
 Eugenics overview
 
-[slides](https://www.crumplab.com/cognition/slides/L4_Eugenics/L4_Eugenics.html#(1))
+[html slides](https://www.crumplab.com/cognition/slides/L4_Eugenics/L4_Eugenics.html#(1))
+
+[pdf](https://www.crumplab.com/cognition/slides/L4_Eugenics/L4_Eugenics.pdf)
 
 50 min
 
@@ -133,7 +135,9 @@ Lecture 2
 
 Intelligence 
 
-[slides](https://www.crumplab.com/cognition/slides/L5_IQ/L5_IQ.html#(1))
+[html slides](https://www.crumplab.com/cognition/slides/L5_IQ/L5_IQ.html#(1))
+
+[pdf](https://www.crumplab.com/cognition/slides/L5_IQ/L5_IQ.pdf)
 
 45 min
 
