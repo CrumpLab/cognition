@@ -120,7 +120,9 @@ navbar:
         href: slides/L10_Memory_1/L10_Memory_1.html
       - text: Lecture 11 - Memory II
         href: slides/L11_Memory_2/L11_Memory_2.html
-      - text: Not yet updated for Spring 2022
+      - text: Lecture 12 - Implicit Influences
+        href: slides/L12_Implicit/L12_Implicit.html
+
     resources:
       text: Resources
       href: articles/course_docs/resources.html

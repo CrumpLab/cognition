@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Matthew J. C. Crump" />
+  <title>PSYC 2530: Implicit influences</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="L12_Implicit_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+
+<link rel="stylesheet" href="L12_Implicit_files/reveal.js-3.3.0.1/css/theme/white.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+    <link rel="stylesheet" href="style.css"/>
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Cormorant+Garamond&family=EB+Garamond:wght@400;500&family=Lora&family=Merriweather:wght@300&family=PT+Serif&family=Raleway:wght@200;400;800&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href = "bootstrap/css/bootstrap_mod.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5CP3TXLQ3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-Q5CP3TXLQ3');
+    </script>
+    <script src="L12_Implicit_files/header-attrs-2.11/header-attrs.js"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">PSYC 2530: Implicit influences</h1>
+  <h1 class="subtitle">and the mere exposure effect</h1>
+    <h2 class="author">Matthew J. C. Crump</h2>
+    <h3 class="date">Last compiled 03/29/22</h3>
+</section>
+
+<section id="reminders-from-last-class" class="title-slide slide level1">
+<h1>Reminders from last class</h1>
+<p>There are no textbook chapter readings for this learning module.</p>
+<p>All readings are pdfs available on blackboard.</p>
+<p>This is the last learning module before midterm 2.</p>
+</section>
+
+<section id="roadmap" class="title-slide slide level1">
+<h1>Roadmap</h1>
+<div class="pop_box_2">
+<p>1 Implicit vs Explicit</p>
+</div>
+<div class="grey_box">
+<p>2 Mere exposure effect</p>
+</div>
+<div class="grey_box">
+<p>3 Testing Explanations</p>
+</div>
+</section>
+
+<section id="implicit-vs.-explicit-cognition" class="title-slide slide level1">
+<h1>Implicit vs. Explicit Cognition</h1>
+<p>Cognitive psychology often distinguishes between implicit and explicit processes.</p>
+<div class="row">
+<div class="col-md-6">
+<p><img src="imgs/implicit.gif" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/explicit.gif" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="implicit-vs.-explicit-cognition-1" class="title-slide slide level1">
+<h1>Implicit vs. Explicit Cognition</h1>
+<p>Here are some features commonly used to distinguish implicit from explicit processes</p>
+<div class="row">
+<div class="col-md-6">
+<p><strong>Implicit Processes</strong></p>
+<ul>
+<li>Unaware</li>
+<li>Automatic</li>
+<li>fast, effortless</li>
+</ul>
+</div>
+<div class="col-md-6">
+<p><strong>Explicit Processes</strong></p>
+<ul>
+<li>Aware</li>
+<li>Controlled</li>
+<li>slow, effortful</li>
+<li>Strategic, rule-based</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="how-is-the-distinction-used" class="title-slide slide level1">
+<h1>How is the distinction used?</h1>
+<ul>
+<li>The implicit/explicit distinction is used to help describe and classify particular cognitive abilities.</li>
+</ul>
+<ul>
+<li>Claims about implicit vs. explicit processing are often debated.</li>
+</ul>
+<ul>
+<li>Researchers gather evidence to determine whether a particular cognitive phenomena/ability reflects implicit or explicit processing.</li>
+</ul>
+</section>
+
+<section id="implicit-or-explicit" class="title-slide slide level1">
+<h1>Implicit or explicit?</h1>
+<p>Consider whether this situation requires implicit or explicit processes?</p>
+<blockquote>
+<p>A person listens to a song and says they like it.</p>
+</blockquote>
+<div class="row">
+<div class="col-md-6">
+<p><strong>Could be implicit</strong></p>
+<ul>
+<li>automatically get a gut feeling about the song</li>
+<li>didn’t have to “think about it”</li>
+<li>can’t explain why they like it</li>
+</ul>
+</div>
+<div class="col-md-6">
+<p><strong>Could be explicit</strong></p>
+<ul>
+<li>person could have deliberately analyzed the song</li>
+<li>can provide reasons they like it</li>
+<li>their preference is based on their reasons</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="implicit-or-explicit-1" class="title-slide slide level1">
+<h1>Implicit or explicit?</h1>
+<p>Consider whether this situation requires implicit or explicit processes?</p>
+<blockquote>
+<p>A person makes the next move in a chess match</p>
+</blockquote>
+<div class="row">
+<div class="col-md-6">
+<p><strong>Could be implicit</strong></p>
+<ul>
+<li>could be an expert</li>
+<li>lots of practice</li>
+<li>made the move without even thinking about it</li>
+</ul>
+</div>
+<div class="col-md-6">
+<p><strong>Could be explicit</strong></p>
+<ul>
+<li>person could have deliberated</li>
+<li>thought about the future moves</li>
+<li>made the move based on explicit reasoning process</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="implicit-and-explicit-processes" class="title-slide slide level1">
+<h1>Implicit and Explicit processes</h1>
+<p>Complex cognitive behavior/abilities can be a mixture of implicit and explicit processes</p>
+<p><img src="imgs/both.gif" width="50%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="implicit-influences" class="title-slide slide level1">
+<h1>Implicit influences</h1>
+<p>This module will focus on the mere exposure effect as an example of an implicit influence in cognition.</p>
+<p>There are <a href="https://en.wikipedia.org/wiki/Implicit_cognition">many others</a>, here is a short list:</p>
+<div class="row">
+<div class="col-md-6">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Implicit_learning">Implicit learning</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Implicit_learning#Artificial_grammar_learning">Artificial grammar learning</a></li>
+<li><a href="https://en.wikipedia.org/wiki/False_memory">False memory</a></li>
+</ul>
+</div>
+<div class="col-md-6">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Implicit_attitude">implicit attitudes</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Implicit_memory">implicit memory</a></li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="roadmap-1" class="title-slide slide level1">
+<h1>Roadmap</h1>
+<div class="grey_box">
+<p>1 Implicit vs Explicit</p>
+</div>
+<div class="pop_box_2">
+<p>2 Mere exposure effect</p>
+</div>
+<div class="grey_box">
+<p>3 Testing Explanations</p>
+</div>
+</section>
+
+<section id="mere-exposure-effect" class="title-slide slide level1">
+<h1>Mere exposure effect</h1>
+<div class="row">
+<div class="col-md-6">
+<blockquote>
+<p>Repeated exposure to a stimulus enhances positive attitude toward the stimulus</p>
+</blockquote>
+<ul>
+<li>The more you see something, the more you will like it</li>
+</ul>
+<ul>
+<li>Familiarity breeds….liking</li>
+</ul>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Zajonc_1968A.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="what-is-the-evidence-for-the-mere-exposure-effect" class="title-slide slide level1">
+<h1>What is the evidence for the mere-exposure effect?</h1>
+
+</section>
+
+<section id="preference-of-words-depends-on-their-frequencies" class="title-slide slide level1">
+<h1>Preference of words depends on their frequencies</h1>
+<div class="row">
+<div class="col-md-6">
+<ul>
+<li>Subjects shown antonym pairs</li>
+</ul>
+<ul>
+<li>Asked to choose more favorable word</li>
+</ul>
+<ul>
+<li>Choices were influenced by word-frequency</li>
+</ul>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/antonym.jpg" width="70%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="favorability-ratings-depend-on-word-frequency" class="title-slide slide level1">
+<h1>Favorability ratings depend on word frequency</h1>
+<div class="row">
+<div class="col-md-6">
+<ul>
+<li>Anderson (1964) showed people adjectives</li>
+<li>Rate “how much would you would like the person described by this word?”</li>
+</ul>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/Anderson_1964.jpg" width="80%" style="display: block; margin: auto;" /></p>
+<div class="smaller_75">
+<p>Ratings were influenced by word frequency (how often words appear in the language)</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="preference-ratings-and-frequency" class="title-slide slide level1">
+<h1>Preference ratings and frequency</h1>
+<p><img src="imgs/cities.jpg" width="50%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="preference-ratings-and-frequency-1" class="title-slide slide level1">
+<h1>Preference ratings and frequency</h1>
+<p><img src="imgs/trees.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section>
+<section id="experimental-evidence" class="title-slide slide level1">
+<h1>Experimental Evidence</h1>
+<div class="row">
+<div class="col-md-6">
+<ul>
+<li>Johnson, Thomson, &amp; Frincke (1960)</li>
+</ul>
+<div class="smaller_50">
+<ul>
+<li><strong>phase 1</strong>: participants rate pleasantness of nonsense words</li>
+<li><strong>phase 2</strong>: pronounce nonwords 1, 2, 5, or 10 times</li>
+<li><strong>phase 3</strong>: Re-rate pleasantness of nonsense words</li>
+</ul>
+</div>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/experimental1.jpg" width="80%" style="display: block; margin: auto;" /></p>
+<ul>
+<li>scroll down for additional results</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="more-results" class="slide level2">
+<h2>more results</h2>
+<p><img src="imgs/experimental2.png" width="80%" style="display: block; margin: auto;" /></p>
+</section></section>
+<section id="mere-exposure-and-pictures" class="title-slide slide level1">
+<h1>Mere exposure and pictures</h1>
+<p><img src="imgs/mere_pictures1.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="mere-exposure-and-pictures-1" class="title-slide slide level1">
+<h1>Mere exposure and pictures</h1>
+<p><img src="imgs/mere_faces.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section>
+<section id="preference-without-recognition" class="title-slide slide level1">
+<h1>Preference without recognition</h1>
+<p><img src="imgs/affective_recognition.png" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+<section id="questions" class="slide level2">
+<h2>Questions</h2>
+<ul>
+<li>Can the mere-exposure effect occur even for “subliminal” stimuli?</li>
+<li>If people can’t recognize the repeated stimuli, will they still show a preference for them?</li>
+</ul>
+</section>
+<section id="method" class="slide level2">
+<h2>Method</h2>
+<div class="row">
+<div class="col-md-6">
+<ul>
+<li><strong>Phase 1</strong>: Participants viewed a RSVP sequence geometric shapes</li>
+<li><strong>Phase 2</strong>:</li>
+<li><em>Recognition test</em>: Which stimulus was shown before?</li>
+<li><em>Preference test</em>: Which stimulus do you prefer?</li>
+</ul>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/kunst_methods.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+<section id="results" class="slide level2">
+<h2>Results</h2>
+<div class="row">
+<div class="col-md-6">
+<ul>
+<li>Recognition performance is at chance</li>
+</ul>
+<ul>
+<li>People prefer the repeated item above chance</li>
+</ul>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/kunst_results.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section></section>
+<section>
+<section id="timecourse-of-mere-exposure" class="title-slide slide level1">
+<h1>Timecourse of mere-exposure</h1>
+<p><img src="imgs/duration.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+<section id="results-1" class="slide level2">
+<h2>Results</h2>
+<p><img src="imgs/duration_results.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</section></section>
+<section id="explanations" class="title-slide slide level1">
+<h1>Explanations?</h1>
+<ul>
+<li>We have reviewed some evidence that the mere-exposure effect occurs</li>
+</ul>
+<ul>
+<li>What does this tell us about cognition?</li>
+</ul>
+<ul>
+<li>What cognitive processes give rise to the mere-exposure effect?</li>
+</ul>
+</section>
+
+<section id="roadmap-2" class="title-slide slide level1">
+<h1>Roadmap</h1>
+<div class="grey_box">
+<p>1 Implicit vs Explicit</p>
+</div>
+<div class="grey_box">
+<p>2 Mere exposure effect</p>
+</div>
+<div class="pop_box_2">
+<p>3 Testing Explanations</p>
+</div>
+</section>
+
+<section id="explanations-1" class="title-slide slide level1">
+<h1>Explanations?</h1>
+<ul>
+<li>We have reviewed some evidence that the mere-exposure effect occurs</li>
+</ul>
+<ul>
+<li>What does this tell us about cognition?</li>
+</ul>
+<ul>
+<li>What cognitive processes give rise to the mere-exposure effect?</li>
+</ul>
+</section>
+
+<section id="processing-debates" class="title-slide slide level1">
+<h1>Processing debates</h1>
+<p>Researchers have proposed multiple theories to explain the mere-exposure effect</p>
+<ul>
+<li>We will evaluate some of them</li>
+</ul>
+<ul>
+<li>They are all tentative working hypotheses</li>
+</ul>
+<ul>
+<li>Ideally, the theory should be clear enough to make predictions that can be evaluated and measured.</li>
+</ul>
+</section>
+
+<section id="zajoncs-two-system-account" class="title-slide slide level1">
+<h1>Zajonc’s two system account</h1>
+<div class="row">
+<div class="col-md-6">
+<ul>
+<li>Proposes two memory systems: regular and emotional</li>
+</ul>
+<ul>
+<li>Argues against the cognitive stage model (on right)</li>
+</ul>
+<ul>
+<li>The “emotion memory” system is very fast, and quickly extracts emotional information</li>
+</ul>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/zajonc_model.png" width="80%" style="display: block; margin: auto;" /></p>
+<div class="smaller_50">
+<p>Zajonc, R. B. (1980). Feeling and thinking: Preferences need no inferences. American psychologist, 35(2), 151. Chicago</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="explaining-results" class="title-slide slide level1">
+<h1>Explaining results</h1>
+<ul>
+<li>How does Zajonc’s two-system idea explain the pattern of results showing chance recognition performance, but above change preference for briefly presented shapes?</li>
+</ul>
+</section>
+
+<section id="familiarity-vs.-recollection" class="title-slide slide level1">
+<h1>Familiarity vs. recollection</h1>
+<p>A different two-system account.</p>
+<ul>
+<li>Mere-exposure might reflect familiarity-based processing</li>
+</ul>
+<div class="row">
+<div class="col-md-6">
+<p><strong>Familiarity-based</strong></p>
+<ul>
+<li>Relies on implicit knowledge</li>
+<li>Gut-feelings</li>
+<li>Feelings of fluency</li>
+</ul>
+</div>
+<div class="col-md-6">
+<p><strong>Recollection-based</strong></p>
+<ul>
+<li>Relies on explicit memories</li>
+<li>People can declare, the who, what, when, and where of memories</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="fluency-heuristic" class="title-slide slide level1">
+<h1>Fluency heuristic</h1>
+<ul>
+<li>Some cognitive operations are experienced as easier or more fluent than others</li>
+</ul>
+<ul>
+<li>People’s feeling of familiarity can be influence by <a href="https://en.wikipedia.org/wiki/Processing_fluency">processing fluency</a></li>
+</ul>
+<ul>
+<li>E.g., you might think you saw a word before because it is easy to read, and not because you saw it before</li>
+</ul>
+</section>
+
+<section>
+<section id="is-preference-just-familiarity" class="title-slide slide level1">
+<h1>Is preference just familiarity?</h1>
+<p><img src="imgs/familiarity_test.png" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+<section id="preference-familiarity-and-recognition" class="slide level2">
+<h2>Preference, Familiarity, and Recognition</h2>
+<ul>
+<li>Method: People were shown geometric shapes very rapidly (just like previous study)</li>
+</ul>
+<ul>
+<li>Preference task: Which shape do you prefer?</li>
+</ul>
+<ul>
+<li>Recognition task: Which shape did you see before?</li>
+</ul>
+<ul>
+<li>Familiarity: Which shape feels more familiar?</li>
+</ul>
+</section>
+<section id="results-2" class="slide level2">
+<h2>Results</h2>
+<p><img src="imgs/familiarity_results.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+<section id="inference" class="slide level2">
+<h2>Inference</h2>
+<ul>
+<li>Stimuli are presented too briefly to support recollection</li>
+<li>Repeated items are “easier” to process</li>
+<li>The processing fluency associated with the repeated items is mistaken for a feeling of familiarity</li>
+<li>People have limited familiarity-based access to the briefly presented information</li>
+</ul>
+</section></section>
+<section>
+<section id="a-puzzle" class="title-slide slide level1">
+<h1>A Puzzle?</h1>
+<div class="row">
+<div class="col-md-4">
+<ul>
+<li>Why don’t people use their feeling of familiarity when they are asked to recognize which item they saw?</li>
+</ul>
+</div>
+<div class="col-md-8">
+<p><img src="imgs/Whittlesea.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+<section id="quote-1" class="slide level2">
+<h2>Quote 1</h2>
+<p><img src="imgs/WhittleseaQ1.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+<section id="quote-2" class="slide level2">
+<h2>Quote 2</h2>
+<p><img src="imgs/WhittleseaQ2.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+<section id="experiment-1" class="slide level2">
+<h2>Experiment 1</h2>
+<div class="row">
+<div class="col-md-6">
+<p><img src="imgs/wp_methods.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div class="col-md-6">
+<p><img src="imgs/wp_results.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+<section id="inferences" class="slide level2">
+<h2>Inferences</h2>
+<ul>
+<li>Analytic mode can cause people to change how they use and evaluate sources of fluency</li>
+<li>Recognition task demands can prompt people to go into “analytic mode”, and search for “evidence” they saw the stimulus</li>
+<li>Preference judgment tasks encourage people to use “non-analytic mode” and rely on general feelings</li>
+</ul>
+<ul>
+<li>Mere-exposure effects do not require different kinds of memory systems</li>
+<li>Results reflect how task demands encourage people to rely on different sources of evidence while making decisions</li>
+</ul>
+</section></section>
+<section id="whats-next" class="title-slide slide level1">
+<h1>What’s next</h1>
+<p>Take the quiz and complete any additional assignments</p>
+<p>Next week is midterm 2</p>
+</section>
+    </div>
+  </div>
+
+  <script src="L12_Implicit_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="L12_Implicit_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+        // Display a presentation progress bar
+        progress: true,
+        // Push each slide change to the browser history
+        history: true,
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+        // Enable the slide overview mode
+        overview: true,
+        // Vertical centering of slides
+        center: false,
+        // Enables touch navigation on devices with touch input
+        touch: true,
+        // Turns fragments on and off globally
+        fragments: true,
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+        // Transition style
+        transition: 'fade', // none/fade/slide/convex/concave/zoom
+        // Transition speed
+        transitionSpeed: 'default', // default/fast/slow
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+
+
+        // Optional reveal.js plugins
+        dependencies: [
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>

@@ -1,7 +1,6 @@
-items <- c("What is this course about?",
-           "Course Resources",
-           "Syllabus and Logistics",
-           "Questions")
+items <- c("Implicit vs Explicit",
+           "Mere exposure effect",
+           "Testing Explanations")
 
 title <- "Roadmap"
 
@@ -47,5 +46,6 @@ reveal_to_pdf(path_to_slides = paste0(getwd(),"/","L8_Behaviorism/L8_Behaviorism
 reveal_to_pdf(path_to_slides = paste0(getwd(),"/","L9_Information/L9_Information.html"))
 reveal_to_pdf(path_to_slides = paste0(getwd(),"/","L10_Memory_1/L10_Memory_1.html"))
 reveal_to_pdf(path_to_slides = paste0(getwd(),"/","L11_Memory_2/L11_Memory_2.html"))
+reveal_to_pdf(path_to_slides = paste0(getwd(),"/","L12_Implicit/L12_Implicit.html"))
 
 
