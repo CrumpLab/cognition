@@ -1,0 +1,71 @@
+---
+title             : "EXAMPLE PSYC 2530 HONORS PROJECT: Testing the type-token individuation theory of repetition blindness"
+shorttitle        : "Repetition blindness"
+
+author: 
+  - name          : "Matthew J. C. Crump"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : ""
+    email         : "mcrump@brooklyn.cuny.edu"
+
+affiliation:
+  - id            : "1"
+    institution   : "Brooklyn College of the City University of New York"
+
+authornote: |
+  This is an experiment proposal submitted as an honors project for PSYC 2530, Spring 2022.
+
+abstract: |
+  Repetition blindness is the finding that people can have difficulty recalling repeated items [@kanwisher1987repetition]. The purpose of this experiment proposal is to test predictions of the type-token individuation account of the repetition blindness effect. The experiment proposes to manipulate whether people see repeated words or repeated nonsense strings of letters. Predictions for performance in each condition are considered in relation to the type-token individuation account.
+  
+  <!-- https://tinyurl.com/ybremelq -->
+  
+keywords          : "Repetition blindness, type-token"
+wordcount         : "X"
+
+bibliography      : ["references.bib"]
+
+floatsintext      : no
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+linenumbers       : yes
+mask              : no
+draft             : no
+
+documentclass     : "apa6"
+classoption       : "man"
+output            : papaja::apa6_pdf
+---
+
+```{r setup, include = FALSE}
+library("papaja")
+```
+
+```{r analysis-preferences}
+# Seed for random number generation
+set.seed(42)
+knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
+```
+
+# Repetition blindness phenomena
+
+# Type-token individuation theory
+
+# Proposed Experiment
+
+# Predicted Results
+
+# Discussion
+
+\newpage
+
+# References
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<div id="refs" custom-style="Bibliography"></div>
+\endgroup

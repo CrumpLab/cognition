@@ -1,0 +1,136 @@
+---
+title: "Honors project"
+description: ""
+author: "Matt Crump"
+date: '`r paste("Last edited: ", lubridate::today())`'
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Honors project}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This page explains the honors project for this course. Students who successfully complete this project can receive honors for this course. 
+
+## General info: Honors in a regular course
+
+Students can request to take a regular course for "honors". Students can [review the psychology department guidelines and process for receiving an honors designation in a regular course](http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/undergraduate/psychology/students/honors/coursework.php).
+
+Here are the general steps that a student needs to take:
+
+1. Contact the instructor of the course and ask if it is possible to take the course for honors credit.
+
+2. Complete an application that is signed by the instructor/faculty advisor (by the fifth week of the semester) [form available here](http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/undergraduate/psychology/students/honors/forms.php>)
+
+3. Complete all course requirements
+
+4. Receive an A or B in the course, where the letter grade assigned reflects the regular coursework submitted by the student.
+
+5. Complete an additional assignment (to be determined by the instructor) above and beyond the standard course requirements
+
+### What to expect?
+
+You should expect to complete an additional honors project that goes above and beyond the standard course requirements. This additional project does not count toward your grade. If you successfully complete the project (as determined by your instructor), AND if you get an A or B in the course, then you will receive an honors designation for the course on your transcript. Officially, this means there will be an "H" noted on your transcript for the course.
+
+## Honors project for PSYC 2530: An experiment proposal
+
+The honors project for PSYC 2530 is a written experiment proposal. The purpose of the project is to propose an experiment capable of testing the predictions of an existing theory in cognition. This project is an opportunity to engage with scientific thinking in the domain of cognition.
+
+More information is provided below.
+
+### Approval
+
+Students interested in completing the honors project need to seek approval from the instructor. Please email Matt Crump to express your interest and seek approval for your project.
+
+Please read the conceptual requirements of the project listed below. This provides a set of instructions and expectations for the project.
+
+To get approval for the honors project you will have to identify:
+
+1. The cognitive phenomena that you will be investigating with your experiment proposal
+2. The theory of the cognitive phenomena that you will be testing with your proposal
+3. A citation or pdf to a cognitive psychology research article that shows the cognitive phenomena, and gives an example of the theory being tested.
+
+### Due Date
+
+The honors project is due by May 24th, 2022. Submit your proposal on blackboard.
+
+### Proposal Length and Formatting Expectations
+
+The minimum length is five double-spaced pages for the main body of the paper, not including title page, abstract, and references. The paper should be in APA style. 
+
+### Conceptual Requirements
+
+The purpose of this project is to engage with the conceptual requirements for conducting research about cognitive abilities. For example, research in cognition involves investigations of particular cognitive abilities. Researchers propose theories about how cognitive abilities work, and then they design experiments to test the predictions of the theories. 
+
+This proposal requires the following conceptual components. These should be clearly identifiable in your paper.
+
+1. **Identify a cognitive phenomena**: your proposal must test explanations of an existing cognitive phenomena that has been described in the cognition literature.
+  - Establish what phenomena you are discussing at the beginning
+  - Give examples of the phenomena from the literature
+  - Cite your examples.
+  
+2. **Describe a testable theory of the phenomena**: your proposal will test an existing theoretical explanation of the cognitive phenomena you choose. 
+  - Identify the theory, with citations
+  - Explain how the theory works, along with how it has been used to explain aspects of the cognitive phenomena.
+  
+3. **Develop testable theoretical implications/predictions**: your proposal will describe an experiment that puts the theoretical explanation to the test. In order to do this, you need to consider the kinds of predictions that the theory does and does not make. What does the theory suggest would happen to the cognitive phenomena in scenario X? What does the theory suggest would happen in scenario Y? You should consider predictions that can be tested with an experiment.
+
+  - Describe the testable predictions or implications of theory
+  - Note: these are the predictions that you will be proposing to test with your experiment.
+
+4. **Propose an experimental manipulation to test the theoretical prediction**: Your proposal will describe an experimental manipulation to test the predictions of the theory.
+  - This is a mini methods section
+  - Describe your proposed methods, which should involve your proposed manipulation and your proposed measurement
+  
+5. **Make theoretical inferences about possible results**: This is where you describe possible results that could occur from your experiment, and how these results would relate to your theoretical predictions. 
+  - If the theoretical predictions from above are true, then what data pattern would be expected in your experiment? Make sure you describe what pattern of data would be expected given the theoretical predictions
+  - If the theoretical predictions are not true, then what data pattern would you expect to find? Make sure you also describe the kind of data pattern that would show the theoretical predictions to be incorrect
+  
+6. **Corroborate or Falsify?**: Your experiment proposal could be intended to corroborate the predictions of a theory, or to falsify predictions of a theory. Make sure you clarify what your proposal is aiming towards.
+  - **Corroborating**: You should identify a prediction or implication from the theory that suggests a particular data pattern should be observed under the conditions of your proposed experiment. If you ran the experiment, and the data pattern was found to be the same as the pattern predicted by the theory, then your data would corroborate the theoretical prediction. (note: corroborating means "confirm or give support to", and if the data pattern fits then it confirms the prediction.)
+  - **Falsifying**: Your experiment be intended to invalidate a theoretical prediction. For example, the theory could predict that a particular data pattern ought to occur in your experimental conditions; but, you may be interested in showing that the theoretically predicted pattern DOES NOT occur. If the pattern predicted by the theory does not occur, then your experiment may provide a means to disconfirm or falsify the theory.
+  - If you want to have extra fun, then come up with multiple experiment proposals. For example, create one proposal that should corroborate the predictions of the theory, and another experiment proposal to falsify the predictions of the theory.
+  
+## Example honors project
+
+This section provides an example of the steps to complete an honors project, including a complete example paper.
+
+### Ask for Approval
+
+If you have decided to attempt the honors project, then you first need to seek approval. If you have general questions please email the instructor. Otherwise, if you have an idea for an experiment proposal, then your email seeking approval might look like:
+
+Dear Professor X,
+
+I am interested in completing the honors project for PSYC 2530. I have read the honors project instructions, and I would like to get approval for my experiment proposal. 
+
+Cognitive phenomena: My experiment proposal will test explanations of the repetition blindness effect (Kanwisher, 1987).
+
+Theory: My experiment proposal will test the type-token individuation theory of the repetition blindness effect (Kanwisher, 1987).
+
+I am including a pdf of a paper (Kanwisher, 1987) that describes the repetition blindness effect and the type-token individuation theory of that effect.
+
+Citation: Kanwisher, N. G. (1987). Repetition blindness: Type recognition without token individuation. Cognition, 27(2), 117–143. https://doi.org/10.1016/0010-0277(87)90016-3
+
+
+### Getting approval
+
+I will communicate with you over email to let you know if you are approved to go ahead with the honors project. The goal of the approval process is to make sure you have identified a cognitive phenomena and a theory from the literature that you can test in your proposal.
+
+### Writing the proposal
+
+
+
+
+
+
+
+
+
+
