@@ -132,7 +132,7 @@ I will communicate with you over email to let you know if you are approved to go
 
 The next step is to write your proposal. To provide an example of what I am looking for I wrote a sample honors project that meets the conceptual requirements above.
 
-You can [download the example here](honors_example/honors_example.pdf).
+You can [download the example here](https://www.crumplab.com/cognition/honors_example/honors_example.pdf).
 
 ### Submitting your honors project
 
