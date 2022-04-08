@@ -17,31 +17,33 @@ knitr::opts_chunk$set(
 )
 ```
 
-This page explains the honors project for this course. Students who successfully complete this project can receive honors for this course. 
+This page explains the honors project for this course. Students who successfully complete this project, and meet the other requirements can receive honors for this course. 
+
+## Honors Project Overview
+
+1. The honors project involves writing an experiment proposal to test a theoretical account of a cognitive phenomena. This is great way to develop your scientific thinking and creativity skills.
+2. The honors project is due by the end of the Spring 2022 semester, May 24th.
+3. Students who successfully complete the honors project, and meet the other requirements (e.g., grade of B or higher in the course, see General info below), will receive an "H" designation on their transcript for PSYC 2530. This means you completed the course with honors.
+  - Any student who expects to meet the general requirements (listed below) could take the honors project. Students do not need to be in an honors academy to complete the honors project.
+  - The honors project is completely optional, and not required.
+  - The honors project is not graded and does not contribute toward your grade.
+  - The honors project requires substantial extra work above and beyond the regular course curriculum
+  - Honors projects either meet the conceptual requirements or they do not (listed below). Students who do not successfully complete an honors project will not be awarded the "H" designation for the course.
+  - There are no negative consequences in the course for attempting the honors project and then deciding not to complete it.
 
 ## General info: Honors in a regular course
 
-Students can request to take a regular course for "honors". Students can [review the psychology department guidelines and process for receiving an honors designation in a regular course](http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/undergraduate/psychology/students/honors/coursework.php).
+The 2021-2022 [undergraduate bulletin](http://www.brooklyn.cuny.edu/web/off_registrar/2021-2022_Undergraduate_Bulletin.pdf) describes that students can request to gain "Honors credit for regular course" (see page 62). The general bulletin information is reprinted below:
 
-Here are the general steps that a student needs to take:
+> Honors credit is earned by doing substantial supplementary work in an introductory or advanced course in the regular undergraduate curriculum. Students interested in honors credit must arrange with the instructor at the beginning of the semester to do an honors project in that course.
 
-1. Contact the instructor of the course and ask if it is possible to take the course for honors credit.
+> To apply to do an honors project, students should discuss thoroughly the nature of work to be done with their instructor.
 
-2. Complete an application that is signed by the instructor/faculty advisor (by the fifth week of the semester) [form available here](http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/undergraduate/psychology/students/honors/forms.php>)
-
-3. Complete all course requirements
-
-4. Receive an A or B in the course, where the letter grade assigned reflects the regular coursework submitted by the student.
-
-5. Complete an additional assignment (to be determined by the instructor) above and beyond the standard course requirements
-
-### What to expect?
-
-You should expect to complete an additional honors project that goes above and beyond the standard course requirements. This additional project does not count toward your grade. If you successfully complete the project (as determined by your instructor), AND if you get an A or B in the course, then you will receive an honors designation for the course on your transcript. Officially, this means there will be an "H" noted on your transcript for the course.
+> At the end of the semester, the instructor submits the honors grade through an application on the BC WebCentral portal. Honors credit will be allowed when the final grade in the course is A+, A, B+, B, or P. Honors credit is indicated on transcripts in the form of an official transcript note.
 
 ## Honors project for PSYC 2530: An experiment proposal
 
-The honors project for PSYC 2530 is a written experiment proposal. The purpose of the project is to propose an experiment capable of testing the predictions of an existing theory in cognition. This project is an opportunity to engage with scientific thinking in the domain of cognition.
+The honors project for PSYC 2530 is a written experiment proposal. The purpose of the project is to propose an experiment capable of testing the predictions of an existing explanation or theory of a cognitive phenomena. This project is an opportunity to engage with scientific thinking in the domain of cognition.
 
 More information is provided below.
 
@@ -63,11 +65,11 @@ The honors project is due by May 24th, 2022. Submit your proposal on blackboard.
 
 ### Proposal Length and Formatting Expectations
 
-The minimum length is five double-spaced pages for the main body of the paper, not including title page, abstract, and references. The paper should be in APA style. 
+The minimum length is five double-spaced pages for the main body of the paper, not including title page, abstract, and references. The paper should be in APA style (see example paper at the end). 
 
 ### Conceptual Requirements
 
-The purpose of this project is to engage with the conceptual requirements for conducting research about cognitive abilities. For example, research in cognition involves investigations of particular cognitive abilities. Researchers propose theories about how cognitive abilities work, and then they design experiments to test the predictions of the theories. 
+Research in cognition involves investigations of particular cognitive abilities. Researchers propose theories about how cognitive abilities work, and then they design experiments to test the predictions of the theories. 
 
 This proposal requires the following conceptual components. These should be clearly identifiable in your paper.
 
@@ -80,7 +82,7 @@ This proposal requires the following conceptual components. These should be clea
   - Identify the theory, with citations
   - Explain how the theory works, along with how it has been used to explain aspects of the cognitive phenomena.
   
-3. **Develop testable theoretical implications/predictions**: your proposal will describe an experiment that puts the theoretical explanation to the test. In order to do this, you need to consider the kinds of predictions that the theory does and does not make. What does the theory suggest would happen to the cognitive phenomena in scenario X? What does the theory suggest would happen in scenario Y? You should consider predictions that can be tested with an experiment.
+3. **Develop testable theoretical implications/predictions**: your proposal will describe an experiment that puts the theoretical explanation to the test. In order to do this, you need to consider the kinds of predictions that the theory does and does not make. What does the theory suggest would happen to the cognitive phenomena in scenario X? What does the theory suggest would happen in scenario Y? You should consider predictions that can be tested with scenarios you create with your experiment.
 
   - Describe the testable predictions or implications of theory
   - Note: these are the predictions that you will be proposing to test with your experiment.
@@ -106,7 +108,9 @@ This section provides an example of the steps to complete an honors project, inc
 
 If you have decided to attempt the honors project, then you first need to seek approval. If you have general questions please email the instructor. Otherwise, if you have an idea for an experiment proposal, then your email seeking approval might look like:
 
-Dear Professor X,
+:::::{.card .border .border-2 .border-info}
+:::: {.card-body}
+**Example email**
 
 I am interested in completing the honors project for PSYC 2530. I have read the honors project instructions, and I would like to get approval for my experiment proposal. 
 
@@ -117,13 +121,30 @@ Theory: My experiment proposal will test the type-token individuation theory of 
 I am including a pdf of a paper (Kanwisher, 1987) that describes the repetition blindness effect and the type-token individuation theory of that effect.
 
 Citation: Kanwisher, N. G. (1987). Repetition blindness: Type recognition without token individuation. Cognition, 27(2), 117–143. https://doi.org/10.1016/0010-0277(87)90016-3
-
+::::
+:::::
 
 ### Getting approval
 
 I will communicate with you over email to let you know if you are approved to go ahead with the honors project. The goal of the approval process is to make sure you have identified a cognitive phenomena and a theory from the literature that you can test in your proposal.
 
-### Writing the proposal
+### Example proposal
+
+The next step is to write your proposal. To provide an example of what I am looking for I wrote a sample honors project that meets the conceptual requirements above.
+
+You can [download the example here](honors_example/honors_example.pdf).
+
+### Submitting your honors project
+
+When you have completed your honors project, submit it on blackboard. Congrats!
+
+## Brainstorming
+
+This honors project allows you to choose a cognitive phenomena and theory that interests you. There are many to choose from. You could choose any phenomena and theory that has been discussed in the class so far, or you could find a new one by reading articles in [cognitive psychology journals](https://www.crumplab.com/cognition/articles/course_docs/resources.html). You should be able to download most articles you are interested in through the Brooklyn College library. Good luck and have fun! 
+
+
+
+
 
 
 

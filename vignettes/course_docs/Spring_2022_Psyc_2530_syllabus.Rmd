@@ -144,6 +144,10 @@ Percentage grades are converted to letter grades according to the following rubr
 |D-	|60-63.32|
 |F	|0-59.99|
 
+## Honors Projects
+
+It is possible to complete an honors project and receive honors credit for this course. Please see the [honors project page](https://crumplab.com/cognition/docs/articles/honors/honors.html) for more information.
+
 ## Course Policies
 
 ### Lateness and due dates

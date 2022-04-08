@@ -1,3 +1,7 @@
+# cognition 0.0.0.6
+
+- Add honors project tab
+
 # cognition 0.0.0.5
 
 - Creating asynchronous version for Spring 2022

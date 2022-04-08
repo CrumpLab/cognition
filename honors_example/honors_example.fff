@@ -1,0 +1,5 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\includegraphics[width=2in]{bird_in_the_the_hand} \caption{The sentence in contains a doubled word, *the*, which is printed twice. People commonly report failing to see the second instance of *the*, producing a feeling of repetition blindness.}\label{fig:bird}
+\end{figure*}

@@ -43,6 +43,7 @@ navbar:
     - articles
     - modules
     - slides
+    - honors
     - resources
     right:
     - github
@@ -126,6 +127,9 @@ navbar:
     resources:
       text: Resources
       href: articles/course_docs/resources.html
+    honors:
+      text: Honors
+      href: articles/honors/honors.html
     news:
       text: news
       href: news/index.html
