@@ -11,7 +11,7 @@ output:
 
 | Word Count|Reading Time |Last Compiled           |
 |----------:|:------------|:-----------------------|
-|       7732|38.7 minutes |2022-01-04 19:13:23 GMT |
+|       7732|38.7 minutes |2022-02-20 14:56:41 GMT |
 
 ## Chapter Overview
 

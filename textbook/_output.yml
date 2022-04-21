@@ -14,4 +14,4 @@ bookdown::pdf_book:
       in_header: "preamble.tex"
   pandoc_args: --top-level-division=chapter
 bookdown::epub_book:
-  cover_image: "imgs/cover.png"
+  cover_image: "imgs/cover.jpg"

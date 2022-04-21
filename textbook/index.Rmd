@@ -3,7 +3,7 @@ title: Instances of Cognition
 subtitle: Questions, Methods, Findings, Explanations, Applications, and Implications
 author: "Matthew J. C. Crump"
 site: bookdown::bookdown_site
-titlegraphic: "imgs/cover.png"
+titlegraphic: "imgs/cover.jpg"
 description: An introduction to cognitive psychology and open educational resource
 documentclass: crumpbook
 classoption:
@@ -20,7 +20,7 @@ link-citations: yes
 knitr::opts_chunk$set(cache=TRUE)
 ```
 
-<img class="cover" src="imgs/cover.png" width="50%"/> This is a free, open-educational textbook and set of course materials for an introductory undergraduate course in cognition. The materials are not yet complete, and I am continuing to develop them across the Fall 2021 semester. All of the materials are [CC BY-SA 4.0 creative-commons licensed](https://creativecommons.org/licenses/by-sa/4.0/) and free for others to use, copy, remix, re-use. 
+<img class="cover" src="imgs/cover.jpg" width="50%"/> This is a free, open-educational textbook and set of course materials for an introductory undergraduate course in cognition. The materials are not yet complete, and I am continuing to develop them across the Fall 2021 and Spring 2022 semesters. All of the materials are [CC BY-SA 4.0 creative-commons licensed](https://creativecommons.org/licenses/by-sa/4.0/) and free for others to use, copy, remix, re-use. 
 
 ```{r, eval=knitr::is_html_output(), echo=FALSE}
 knitr::asis_output('[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)')

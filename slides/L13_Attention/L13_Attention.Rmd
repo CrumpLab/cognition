@@ -1,0 +1,78 @@
+---
+title: 'PSYC 2530: Attention'
+subtitle: and the Stroop effect
+author: "Matthew J. C. Crump"
+date: "Last compiled `r format(Sys.time(), '%m/%d/%y')`"
+output:
+  revealjs::revealjs_presentation:
+    includes:
+      in_header: header.html
+    self_contained: false
+    theme: white
+    transition: fade
+    center: false
+    incremental: true
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      fig.align = "center",
+                      out.width = "80%")
+library(fontawesome)
+```
+
+# Reminders from last class
+
+There are no textbook chapter readings for this learning module.
+
+#  Roadmap
+
+::: {.pop_box_2} 
+1 Attentional Concepts
+:::
+::: {.grey_box} 
+2 Stroop Effect
+:::
+::: {.grey_box} 
+3 Class Experiment
+:::
+
+#  Roadmap
+
+::: {.grey_box} 
+1 Attentional Concepts
+:::
+::: {.pop_box_2} 
+2 Stroop Effect
+:::
+::: {.grey_box} 
+3 Class Experiment
+:::
+
+#  Roadmap
+
+::: {.grey_box} 
+1 Attentional Concepts
+:::
+::: {.grey_box} 
+2 Stroop Effect
+:::
+::: {.pop_box_2} 
+3 Class Experiment
+:::
+
+
+
+# What's next
+
+Take the quiz and complete any additional assignments
+
+Next week is midterm 2
+
+
+
+
+
+
+

@@ -1,6 +1,6 @@
-items <- c("Implicit vs Explicit",
-           "Mere exposure effect",
-           "Testing Explanations")
+items <- c("Attentional Concepts",
+           "Stroop Effect",
+           "Class Experiment")
 
 title <- "Roadmap"
 
