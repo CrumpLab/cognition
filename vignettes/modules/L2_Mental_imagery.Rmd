@@ -27,7 +27,7 @@ knitr::opts_chunk$set(
 
 ## Instructions 
 
-Work through each of the following sections: Read, Watch/listen, and Engage. You have the full week to complete any quizzes or assignments for this module.
+Work through each of the following Read, Watch/listen, and Engage sections. You have the full week to complete any quizzes or assignments for this module.
 
 ## Read 
 
