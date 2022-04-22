@@ -18,6 +18,19 @@ colnames(info) <- c("Word Count","Reading Time")
 knitr::kable(info)
 ```
 
+::: {.floatrightbox25 data-latex=""}
+
+
+```{r}
+knitr::include_graphics("imgs/learning_module_icons.png")
+```
+
+:::
+
+## [Learning module](https://www.crumplab.com/cognition/articles/modules/L6_Information_processing.html) {-}
+
+See the [learning module page](https://www.crumplab.com/cognition/articles/modules/L6_Information_processing.html) for video lectures, slide-decks and assignments.
+
 ## Overview
 
 This chapter overviews **information processing** as a concept in cognition. I mentioned at the beginning of this textbook, that Ulrich Neisser ^[who wrote the first textbook called *Cognitive Psychology* in 1967] defined cognition as "all processes by which the sensory input is transformed, reduced, elaborated, stored, recovered, and used" [@neisserCognitivePsychology1967]. Neisser's definition embraces the information processing tradition in cognition. Sensory input contains "information" about the world, and cognition is characterized as the "processing" of that information. However, just like there were many forms and ideas about behaviorism, there are different forms and ideas about information processing in cognition. We will examine the notions of *processing stages*, *information*, and *capacity limitations*, which became popular research topics around the 1950s and 60s.

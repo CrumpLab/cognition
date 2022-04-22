@@ -37,7 +37,7 @@ Work through each of the following sections: Read, Watch/listen, and Engage. You
 :::: {.card-body}
 
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics("imgs/logo.png")
+knitr::include_graphics("imgs/read.png")
 ```
 
 ::::
@@ -69,7 +69,7 @@ There are two mini-lectures for this module.
 :::: {.card-body}
 
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics("imgs/logo.png")
+knitr::include_graphics("imgs/watch.png")
 ```
 
 Lecture 1
@@ -104,7 +104,7 @@ Cognition Overview
 :::: {.card-body}
 
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics("imgs/logo.png")
+knitr::include_graphics("imgs/watch.png")
 ```
 
 Lecture 2
@@ -135,12 +135,35 @@ QALMRI
 
 ## Engage {.mt-5}
 
+:::::{.card .border .border-2 .border-info}
+:::: {.row .g-0}
+::: {.col-md-2}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/engage.png")
+```
+
+
+::::
+:::
+
+::: {.col-md-10}
+:::: {.card-body}
+
 When you are ready complete the assignments posted on Blackboard for this module. Each quiz or assignment is worth points. Remember that you can do as many quizzes and or assignments as you want throughout the semester, up to 60 points. After 60 points, your work will count for up to 10 points in extra credit (see syllabus).
 
 1. QUIZ: Complete the L1: What is Cognition quiz (5 points, on blackboard)
 2. Write a QALMRI for new research (5 points, see instructions below, submit on blackboard)
 
 Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
+::::
+:::
+::::
+:::::
+
+<br>
+
 
 ### Write a QALMRI for new research 
 
@@ -158,7 +181,7 @@ For a better idea of what I am looking for check out this tutorial video.
 :::: {.card-body}
 
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics("imgs/logo.png")
+knitr::include_graphics("imgs/engage.png")
 ```
 
 Assignment Tutorial

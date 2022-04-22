@@ -2,6 +2,21 @@
 
 # Attention and Working Memory
 
+::: {.floatrightbox25 data-latex=""}
+
+
+<img src="imgs/learning_module_icons.png" width="100%" />
+
+:::
+
+## [Learning module](https://www.crumplab.com/cognition/articles/modules/L10_Attention.html)
+
+See the [learning module page](https://www.crumplab.com/cognition/articles/modules/L10_Attention.html) for video lectures, slide-decks and assignments.
+
+
+
+
+
 
 
 <!--

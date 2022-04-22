@@ -32,7 +32,7 @@ Work through each of the following sections: Read, Watch/listen, and Engage. You
 :::: {.card-body}
 
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics("imgs/logo.png")
+knitr::include_graphics("imgs/read.png")
 ```
 
 60 minutes
@@ -64,7 +64,7 @@ There are two mini-lectures for this module.
 :::: {.card-body}
 
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics("imgs/logo.png")
+knitr::include_graphics("imgs/watch.png")
 ```
 
 Lecture 1
@@ -100,7 +100,7 @@ Watson
 :::: {.card-body}
 
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics("imgs/logo.png")
+knitr::include_graphics("imgs/watch.png")
 ```
 
 Lecture 2
@@ -132,12 +132,35 @@ Skinner
 
 ## Engage {.mt-5}
 
+:::::{.card .border .border-2 .border-info}
+:::: {.row .g-0}
+::: {.col-md-2}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/engage.png")
+```
+
+
+::::
+:::
+
+::: {.col-md-10}
+:::: {.card-body}
+
 When you are ready complete any or all of the following assignments.
 
 1. QUIZ: Complete the L5: Behaviorism quiz (5 points, on blackboard)
 2. Writing: Choose from any or all of the writing assignments below (5 points, instructions below, submit on blackboard)
 
 Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
+::::
+:::
+::::
+:::::
+
+<br>
+
 
 ### Rabbit Hole: listen and react
 

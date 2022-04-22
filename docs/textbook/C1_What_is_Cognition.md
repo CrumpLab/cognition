@@ -5,7 +5,19 @@
 
 | Word Count|Reading Time |Last Compiled           |
 |----------:|:------------|:-----------------------|
-|       6248|31.2 minutes |2022-02-20 14:56:41 GMT |
+|       6264|31.3 minutes |2022-02-20 14:56:41 GMT |
+
+::: {.floatrightbox25 data-latex=""}
+
+
+<img src="imgs/learning_module_icons.png" width="100%" />
+
+:::
+
+## [Learning module](https://www.crumplab.com/cognition/articles/modules/L1_What_is_cognition.html) {-}
+
+See the [learning module page](https://www.crumplab.com/cognition/articles/modules/L1_What_is_cognition.html) for video lectures, slide-decks and assignments.
+
 
 ## Chapter Overview
 

@@ -11,17 +11,18 @@ output:
 
 | Word Count|Reading Time |Last Compiled           |
 |----------:|:------------|:-----------------------|
-|       4575|22.9 minutes |2022-02-20 14:56:41 GMT |
+|       4591|23 minutes   |2022-02-20 14:56:41 GMT |
+
+::: {.floatrightbox25 data-latex=""}
 
 
-<!--
-Chapter goals
+<img src="imgs/learning_module_icons.png" width="100%" />
 
-1. Motivate the history lesson, why is it worth learning this history?
-2. Brief history of eugenics to explain scale
-3. Connection to psychology and cognition
+:::
 
--->
+## [Learning module](https://www.crumplab.com/cognition/articles/modules/L3_Eugenics_IQ.html) {-}
+
+See the [learning module page](https://www.crumplab.com/cognition/articles/modules/L3_Eugenics_IQ.html) for video lectures, slide-decks and assignments.
 
 ## Chapter Overview
 

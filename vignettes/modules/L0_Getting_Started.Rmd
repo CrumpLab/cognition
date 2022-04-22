@@ -38,7 +38,7 @@ Work through each of the following sections: Read, Watch/listen, and Engage. The
 :::: {.card-body}
 
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics("imgs/logo.png")
+knitr::include_graphics("imgs/read.png")
 ```
 
 ::::
@@ -60,7 +60,7 @@ If you have questions about the syllabus, then please ask them on the blackboard
 
 ## Watch/Listen {.mt-5}
 
-:::::{.card .border .border-2 .border-info}
+:::::{.card .border .border-2 .border-info .mb-3}
 
 :::: {.row}
 ::: {.col-md-2}
@@ -81,8 +81,8 @@ View the slides directly as a web page or pdf download.
 ::: {.col-md-2}
 :::: {.card-body}
 
-```{r, echo=FALSE,fig.align='center', out.width="50%"}
-knitr::include_graphics("imgs/logo_slides.png")
+```{r, echo=FALSE,fig.align='center', out.width="100%"}
+knitr::include_graphics("imgs/slides.png")
 ```
 
 ::::
@@ -116,7 +116,7 @@ PDF slide deck
 :::: {.card-body}
 
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics("imgs/logo.png")
+knitr::include_graphics("imgs/watch.png")
 ```
 
 Orientation video
@@ -144,9 +144,34 @@ Orientation video
 
 ## Engage {.mt-5}
 
+:::::{.card .border .border-2 .border-info}
+:::: {.row .g-0}
+::: {.col-md-2}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/engage.png")
+```
+
+
+
+::::
+:::
+
+::: {.col-md-10}
+:::: {.card-body}
+
+
 When you are ready complete the assignments in the getting started module on Blackboard. Both assignments are short and worth 2.5 points each (normally assignments will be worth 5 points each).
 
 1. Complete the getting started quiz (2.5 points)
 2. Complete the short writing assignment (2.5 points)
 
 Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
+
+
+::::
+:::
+::::
+:::::
+

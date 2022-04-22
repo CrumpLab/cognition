@@ -13,6 +13,19 @@ colnames(info) <- c("Word Count","Reading Time")
 knitr::kable(info)
 ```
 
+::: {.floatrightbox25 data-latex=""}
+
+
+```{r}
+knitr::include_graphics("imgs/learning_module_icons.png")
+```
+
+:::
+
+## [Learning module](https://www.crumplab.com/cognition/articles/modules/L8_Memory_II.html) {-}
+
+See the [learning module page](https://www.crumplab.com/cognition/articles/modules/L8_Memory_II.html) for video lectures, slide-decks and assignments.
+
 ## Chapter Overview
 
 This chapter continues to discuss memory research in cognition. In the last chapter we reviewed some early memory research that led into an information processing approach to memory in the 1960s. In this chapter we will pick up our discussion from this time period onward. I will also focus less on models of memory, and more on tasks, phenomena, and principles of memory. We will return to formal explanations in the computational modeling chapter.

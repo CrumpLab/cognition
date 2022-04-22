@@ -19,6 +19,19 @@ colnames(info) <- c("Word Count","Reading Time")
 knitr::kable(info)
 ```
 
+::: {.floatrightbox25 data-latex=""}
+
+
+```{r}
+knitr::include_graphics("imgs/learning_module_icons.png")
+```
+
+:::
+
+## [Learning module](https://www.crumplab.com/cognition/articles/modules/L7_Memory_I.html) {-}
+
+See the [learning module page](https://www.crumplab.com/cognition/articles/modules/L7_Memory_I.html) for video lectures, slide-decks and assignments.
+
 ## Chapter Overview
 
 The topic of memory occupies a large space in cognitive research, so it will be covered across two chapters. This chapter overviews the beginnings of memory research in cognition, covering a few early researchers, the emergence of different research traditions in the study of memory, and the information-processing approach to memory. 

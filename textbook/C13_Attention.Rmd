@@ -4,6 +4,23 @@ source("global_stuff.R")
 
 # Attention and Working Memory
 
+::: {.floatrightbox25 data-latex=""}
+
+
+```{r}
+knitr::include_graphics("imgs/learning_module_icons.png")
+```
+
+:::
+
+## [Learning module](https://www.crumplab.com/cognition/articles/modules/L10_Attention.html)
+
+See the [learning module page](https://www.crumplab.com/cognition/articles/modules/L10_Attention.html) for video lectures, slide-decks and assignments.
+
+
+
+
+
 
 
 <!--

@@ -16,7 +16,18 @@ colnames(info) <- c("Word Count","Reading Time","Last Compiled")
 knitr::kable(info)
 ```
 
+::: {.floatrightbox25 data-latex=""}
 
+
+```{r}
+knitr::include_graphics("imgs/learning_module_icons.png")
+```
+
+:::
+
+## [Learning module](https://www.crumplab.com/cognition/articles/modules/L4_Associations.html) {-}
+
+See the [learning module page](https://www.crumplab.com/cognition/articles/modules/L4_Associations.html) for video lectures, slide-decks and assignments.
 
 ## Chapter overview
 

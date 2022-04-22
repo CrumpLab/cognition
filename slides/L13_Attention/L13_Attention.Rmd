@@ -38,6 +38,96 @@ There are no textbook chapter readings for this learning module.
 3 Class Experiment
 :::
 
+# What is Attention?
+
+> Everybody knows what attention is... - William James
+
+# What is Attention?
+
+- How we prioritize our mental resources
+- How we select relevant from irrelevant information
+- How we focus
+- How we ignore
+
+# Metaphors of attention
+
+There are different perspectives on the kinds of processes that are involved in attention abilities
+
+Theories of attention use a variety of metaphors
+
+# Spotlight Metaphor
+
+:::: {.row}
+::: {.col-md-6}
+
+>- Attention acts like a spotlight
+
+>- Attention shines "extra" cognitive resources on selected information
+
+>- Attention highlights attended information
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("imgs/spotlight.png")
+```
+
+:::
+::::
+
+# Filter Metaphor
+
+:::: {.row}
+::: {.col-md-6}
+
+>- Attention acts like a filter
+
+>- Attention prevents unwanted information from further cognitive processing
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("imgs/filter.jpg")
+```
+
+:::
+::::
+
+# Attentional Distinctions
+
+:::: {.row}
+::: {.col-md-6}
+
+**Endogenous Attention**
+
+>- Internal "orienting" of attention
+>- Voluntary decision to attend to some information and not others
+
+:::
+
+::: {.col-md-6}
+
+**Exogenous Attention**
+
+>- External "orienting" of attention
+>- Some stimuli automatically cause people to attend to them (e.g., loud noises)
+
+:::
+::::
+
+
+# Controlled and automatic influences
+
+Attention researchers often distinguish between controlled and automatic influences
+
+
+
+
+
 #  Roadmap
 
 ::: {.grey_box} 

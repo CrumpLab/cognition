@@ -311,6 +311,7 @@ implicit-learning
 computational-modeling
 categorization
 attention-and-working-memory
+learning-module-9
 experimental-support-for-the-working-memory-hypothesis
 language-and-semantic-cognition
 judgment-and-decision-making

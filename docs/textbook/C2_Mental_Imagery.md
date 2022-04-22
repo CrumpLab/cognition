@@ -11,7 +11,18 @@ output:
 
 | Word Count|Reading Time |Last Compiled           |
 |----------:|:------------|:-----------------------|
-|       7732|38.7 minutes |2022-02-20 14:56:41 GMT |
+|       7748|38.7 minutes |2022-02-20 14:56:41 GMT |
+
+::: {.floatrightbox25 data-latex=""}
+
+
+<img src="imgs/learning_module_icons.png" width="100%" />
+
+:::
+
+## [Learning module](https://www.crumplab.com/cognition/articles/modules/L2_Mental_imagery.html) {-}
+
+See the [learning module page](https://www.crumplab.com/cognition/articles/modules/L2_Mental_imagery.html) for video lectures, slide-decks and assignments.
 
 ## Chapter Overview
 

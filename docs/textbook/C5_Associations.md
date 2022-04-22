@@ -5,9 +5,18 @@
 
 | Word Count|Reading Time |Last Compiled           |
 |----------:|:------------|:-----------------------|
-|       7659|38.3 minutes |2022-02-05 05:14:39 GMT |
+|       7675|38.4 minutes |2022-02-05 05:14:39 GMT |
+
+::: {.floatrightbox25 data-latex=""}
 
 
+<img src="imgs/learning_module_icons.png" width="100%" />
+
+:::
+
+## [Learning module](https://www.crumplab.com/cognition/articles/modules/L4_Associations.html) {-}
+
+See the [learning module page](https://www.crumplab.com/cognition/articles/modules/L4_Associations.html) for video lectures, slide-decks and assignments.
 
 ## Chapter overview
 

@@ -32,7 +32,7 @@ Work through each of the following sections: Read, Watch/listen, and Engage. You
 :::: {.card-body}
 
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics("imgs/logo.png")
+knitr::include_graphics("imgs/read.png")
 ```
 
 60 minutes
@@ -63,7 +63,7 @@ There are three mini-lectures for this module.
 :::: {.card-body}
 
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics("imgs/logo.png")
+knitr::include_graphics("imgs/watch.png")
 ```
 
 Memory I
@@ -94,13 +94,13 @@ Early approaches
 :::::
 
 
-:::::{.card .border .border-2 .border-info}
+:::::{.card .border .border-2 .border-info .mb-3}
 :::: {.row .g-0}
 ::: {.col-md-2}
 :::: {.card-body}
 
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics("imgs/logo.png")
+knitr::include_graphics("imgs/watch.png")
 ```
 
 pt ii
@@ -132,7 +132,7 @@ same slides/pdf as above
 :::: {.card-body}
 
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics("imgs/logo.png")
+knitr::include_graphics("imgs/watch.png")
 ```
 
 pt iii
@@ -160,12 +160,37 @@ same slides/pdf as above
 
 ## Engage {.mt-5}
 
+:::::{.card .border .border-2 .border-info}
+:::: {.row .g-0}
+::: {.col-md-2}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/engage.png")
+```
+
+
+::::
+:::
+
+::: {.col-md-10}
+:::: {.card-body}
+
+
 When you are ready complete any or all of the following assignments.
 
 1. QUIZ: Complete the L7: Memory I quiz (5 points, on blackboard)
 2. Writing: (5 points, instructions below, submit on blackboard)
 
 Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
+
+::::
+:::
+::::
+:::::
+
+<br>
+
 
 ### Incredible memory claims assignment
 

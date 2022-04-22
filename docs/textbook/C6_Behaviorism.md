@@ -5,7 +5,18 @@
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|      11995|60 minutes   |
+|      12011|60.1 minutes |
+
+::: {.floatrightbox25 data-latex=""}
+
+
+<img src="imgs/learning_module_icons.png" width="100%" />
+
+:::
+
+## [Learning module](https://www.crumplab.com/cognition/articles/modules/L5_Behaviorism.html) {-}
+
+See the [learning module page](https://www.crumplab.com/cognition/articles/modules/L5_Behaviorism.html) for video lectures, slide-decks and assignments.
 
 ## Overview
 

@@ -16,14 +16,19 @@ colnames(info) <- c("Word Count","Reading Time","Last Compiled")
 knitr::kable(info)
 ```
 
-<!--
-Chapter goals
+::: {.floatrightbox25 data-latex=""}
 
-1. Motivate the history lesson, why is it worth learning this history?
-2. Brief history of eugenics to explain scale
-3. Connection to psychology and cognition
 
--->
+```{r}
+knitr::include_graphics("imgs/learning_module_icons.png")
+```
+
+:::
+
+## [Learning module](https://www.crumplab.com/cognition/articles/modules/L3_Eugenics_IQ.html) {-}
+
+See the [learning module page](https://www.crumplab.com/cognition/articles/modules/L3_Eugenics_IQ.html) for video lectures, slide-decks and assignments.
+
 
 ## Chapter Overview
 

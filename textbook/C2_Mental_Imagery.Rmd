@@ -23,6 +23,19 @@ knitr::kable(info)
 
 ```
 
+::: {.floatrightbox25 data-latex=""}
+
+
+```{r}
+knitr::include_graphics("imgs/learning_module_icons.png")
+```
+
+:::
+
+## [Learning module](https://www.crumplab.com/cognition/articles/modules/L2_Mental_imagery.html) {-}
+
+See the [learning module page](https://www.crumplab.com/cognition/articles/modules/L2_Mental_imagery.html) for video lectures, slide-decks and assignments.
+
 ## Chapter Overview
 
 This chapter discusses historical and current research on [mental imagery](#gls-mentalimagery). Overarching questions include: What is mental imagery and how does it work? What kind of explanation would answer this question? How did prior researchers tackle these questions, and what has been learned about mental imagery? And, how has society been influenced by research into mental imagery? Two major topics include individual differences in mental imagery and the mental imagery debate.

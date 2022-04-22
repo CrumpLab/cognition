@@ -32,7 +32,7 @@ Work through each of the following sections: Read, Watch/listen, and Engage. You
 :::: {.card-body}
 
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics("imgs/logo.png")
+knitr::include_graphics("imgs/read.png")
 ```
 
 R1
@@ -61,7 +61,7 @@ Describes the eugenics movement and socio-historical context around early resear
 :::: {.card-body}
 
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics("imgs/logo.png")
+knitr::include_graphics("imgs/read.png")
 ```
 
 R2
@@ -93,7 +93,7 @@ There are two mini-lectures for this module.
 :::: {.card-body}
 
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics("imgs/logo.png")
+knitr::include_graphics("imgs/watch.png")
 ```
 
 Lecture 1
@@ -128,7 +128,7 @@ Eugenics overview
 :::: {.card-body}
 
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics("imgs/logo.png")
+knitr::include_graphics("imgs/watch.png")
 ```
 
 Lecture 2
@@ -158,12 +158,37 @@ Intelligence
 
 ## Engage {.mt-5}
 
+
+:::::{.card .border .border-2 .border-info}
+:::: {.row .g-0}
+::: {.col-md-2}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/engage.png")
+```
+
+
+::::
+:::
+
+::: {.col-md-10}
+:::: {.card-body}
+
 When you are ready complete any or all of the following assignments.
 
 1. QUIZ: Complete the L3: Eugenics, Psychology, and intelligence testing quiz (5 points, on blackboard)
 2. Writing: There are two reading/writing assignments to choose from (5 points, instructions below, submit on blackboard). You can choose to do both or neither.
 
 Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
+::::
+:::
+::::
+:::::
+
+<br>
+
+
 
 ### L3 Writing 1: The formation of ABPSi
 

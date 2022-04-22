@@ -5,7 +5,18 @@
 
 | Word Count|Reading Time |
 |----------:|:------------|
-|       8049|40.2 minutes |
+|       8065|40.3 minutes |
+
+::: {.floatrightbox25 data-latex=""}
+
+
+<img src="imgs/learning_module_icons.png" width="100%" />
+
+:::
+
+## [Learning module](https://www.crumplab.com/cognition/articles/modules/L8_Memory_II.html) {-}
+
+See the [learning module page](https://www.crumplab.com/cognition/articles/modules/L8_Memory_II.html) for video lectures, slide-decks and assignments.
 
 ## Chapter Overview
 
@@ -142,7 +153,7 @@ Anderson demonstrated fan effects in a memory test for propositional sentences [
 
 During the memory test subjects were shown original sentences that they had studied (target probes), or re-arranged sentences (foil probes) containing new pairings of the same people in different locations. Anderson showed that participants recognition time to accept target sentences, and to reject foil sentences increased as the fan for each word in the test sentence increased. A reproduction of the data reported by Anderson is shown in the figure below. 
 
-<img src="C9_Memory_II_files/figure-epub3/unnamed-chunk-7-1.png" width="100%" />
+<img src="C9_Memory_II_files/figure-epub3/unnamed-chunk-8-1.png" width="100%" />
 
 All of the target sentences were studied during the encoding phase. It took longer to recognize a target sentence as the "person" and/or location "words" in the sentence had more facts associated with them. In general it took longer to reject the foil sentences, but it also took longer as a function of the number facts associated with each word in the sentence. So, a "fan effect" was observed for both studied sentences and re-arranged (foil) sentences.
 
