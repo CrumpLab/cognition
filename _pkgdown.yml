@@ -123,6 +123,8 @@ navbar:
         href: slides/L11_Memory_2/L11_Memory_2.html
       - text: Lecture 12 - Implicit Influences
         href: slides/L12_Implicit/L12_Implicit.html
+      - text: Lecture 13 - Attention
+        href: slides/L13_Attention/L13_Attention.html
 
     resources:
       text: Resources
