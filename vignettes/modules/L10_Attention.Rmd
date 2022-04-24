@@ -64,10 +64,16 @@ There are two mini-lectures for this module.
 :::: {.card-body}
 
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics("imgs/logo.png")
+knitr::include_graphics("imgs/watch.png")
 ```
 
-Lecture 1
+Part 1
+
+[slides](https://www.crumplab.com/cognition/slides/L13_Attention/L13_Attention.html#/)
+
+[pdf](https://www.crumplab.com/cognition/slides/L13_Attention/L13_Attention.pdf)
+
+36 minutes
 
 ::::
 :::
@@ -76,7 +82,7 @@ Lecture 1
 :::: {.card-body}
 
 ::: {.ratio .ratio-16x9}
-<iframe class="embed-responsive-item" src="" style="width:100%; height: 100%;" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5U__1ODH8CU" style="width:100%; height: 100%;" allowfullscreen></iframe>
 :::
 
 ::::
@@ -94,9 +100,9 @@ Lecture 1
 knitr::include_graphics("imgs/logo.png")
 ```
 
-Lecture 2
+Part 2
 
-TBD
+35 Min
 
 ::::
 :::
@@ -105,7 +111,7 @@ TBD
 :::: {.card-body}
 
 ::: {.ratio .ratio-16x9}
-<iframe class="embed-responsive-item" src="" style="width:100%; height: 100%;" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kjIpOB2MzeE" style="width:100%; height: 100%;" allowfullscreen></iframe>
 :::
 
 ::::
@@ -140,7 +146,7 @@ Your assignment has two parts:
 
 2. Describe the predictions for performance in this task from lecture, and then report whether or not your own data followed the predicted pattern. Specifically, describe whether or not you found a bigger or smaller Stroop effect when you were ignoring the words compared to when you were focusing on the words.
 
-#### Brainstorm a Stroop Experiment
+### Brainstorm a Stroop Experiment
 
 This assignment does not involved participation in a Stroop experiment, but it does involve brainstorming a new manipulation capable of changing the size of the Stroop effect. Your proposed manipulation should be different from the one described in the lecture.
 

@@ -47,5 +47,6 @@ reveal_to_pdf(path_to_slides = paste0(getwd(),"/","L9_Information/L9_Information
 reveal_to_pdf(path_to_slides = paste0(getwd(),"/","L10_Memory_1/L10_Memory_1.html"))
 reveal_to_pdf(path_to_slides = paste0(getwd(),"/","L11_Memory_2/L11_Memory_2.html"))
 reveal_to_pdf(path_to_slides = paste0(getwd(),"/","L12_Implicit/L12_Implicit.html"))
+reveal_to_pdf(path_to_slides = paste0(getwd(),"/","L13_Attention/L13_Attention.html"))
 
 
