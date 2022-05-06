@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Matthew J. C. Crump" />
+  <title>PSYC 2530: Judgment and Decision-making</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="L15_JDM_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+
+<link rel="stylesheet" href="L15_JDM_files/reveal.js-3.3.0.1/css/theme/white.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+    <link rel="stylesheet" href="style.css"/>
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Cormorant+Garamond&family=EB+Garamond:wght@400;500&family=Lora&family=Merriweather:wght@300&family=PT+Serif&family=Raleway:wght@200;400;800&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href = "bootstrap/css/bootstrap_mod.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5CP3TXLQ3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-Q5CP3TXLQ3');
+    </script>
+    <script src="L15_JDM_files/header-attrs-2.13/header-attrs.js"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">PSYC 2530: Judgment and Decision-making</h1>
+  <h1 class="subtitle">and cognitive biases</h1>
+    <h2 class="author">Matthew J. C. Crump</h2>
+    <h3 class="date">Last compiled 05/06/22</h3>
+</section>
+
+<section id="reminders-from-last-class" class="title-slide slide level1">
+<h1>Reminders from last class</h1>
+<p>There are no textbook chapter readings for this learning module.</p>
+<p>Assigned empirical article is on blackboard</p>
+<ul>
+<li>Shen, O., Rabinowitz, R., Geist, R. R., &amp; Shafir, E. (2010). Effect of Background Case Characteristics on Decisions in the Delivery Room. Medical Decision Making, 30(4), 518–522. <a href="https://doi.org/10.1177/0272989X09353451" class="uri">https://doi.org/10.1177/0272989X09353451</a></li>
+</ul>
+</section>
+
+<section id="section" class="title-slide slide level1" data-background-image="imgs/JDM.jpg">
+<h1 data-background-image="imgs/JDM.jpg"></h1>
+
+</section>
+
+<section id="judgment-and-decision-making-questions" class="title-slide slide level1">
+<h1>Judgment and Decision-making questions</h1>
+<ul>
+<li>How do people judge, evaluate, and assess information in their environment?</li>
+<li>How do people make choices?</li>
+<li>What influences peoples judgments and decisions?</li>
+</ul>
+</section>
+
+<section id="everyday-examples" class="title-slide slide level1">
+<h1>Everyday examples</h1>
+<p>How do you go about making judgments and decision in everyday life?</p>
+<div class="row">
+<div class="col-md-6">
+<div class="fragment">
+<p><strong>Buying a new X</strong></p>
+<ul>
+<li>Research options on the web</li>
+<li>Watch informative youtube videos</li>
+<li>Ask friends</li>
+<li>list pros and cons</li>
+<li>buy the one that is right for you</li>
+</ul>
+</div>
+</div>
+<div class="col-md-6">
+<div class="fragment">
+<p><strong>Buying a new Y</strong></p>
+<ul>
+<li>had a spur of the moment feeling</li>
+<li>liked the thing</li>
+<li>bought it for no good reason</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<section id="distinctions" class="title-slide slide level1">
+<h1>Distinctions</h1>
+<p>Judgments and decisions can be made in more or less controlled ways</p>
+<div class="row">
+<div class="col-md-6">
+<p><strong>Controlled</strong></p>
+<ul>
+<li>Slow, effortful</li>
+<li>Deliberate</li>
+<li>Employs a reasoning process</li>
+</ul>
+</div>
+<div class="col-md-6">
+<p><strong>Automatic</strong></p>
+<ul>
+<li>Fast, easy</li>
+<li>potentially unconscious</li>
+<li>habitual</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="cognitive-biases" class="title-slide slide level1">
+<h1>Cognitive Biases</h1>
+<p>There are many biases that shape our judgments and decisions</p>
+<ul>
+<li>Check out the wikipedia <a href="https://en.wikipedia.org/wiki/List_of_cognitive_biases">list of cognitive biases</a></li>
+</ul>
+</section>
+
+<section id="issues-with-cognitive-biases" class="title-slide slide level1">
+<h1>Issues with Cognitive Biases</h1>
+<ul>
+<li>Useful to be aware of potential biases to our personal judgment and decision making processes</li>
+<li>Biases are not necessarily bad or wrong</li>
+<li>Biases can reflect the operation of basic cognitive processes</li>
+</ul>
+</section>
+
+<section id="heuristics" class="title-slide slide level1">
+<h1>Heuristics</h1>
+<ul>
+<li>Rules of thumb that give close approximations</li>
+</ul>
+<ul>
+<li>Availability Heuristic</li>
+<li>Representativeness Heuristic</li>
+</ul>
+</section>
+
+<section id="a-tale-of-two-papers" class="title-slide slide level1">
+<h1>A tale of two papers</h1>
+<ul>
+<li>Kahneman, D., &amp; Tversky, A. (1972). Subjective probability: A judgment of representativeness. Cognitive Psychology, 3(3), 430–454. <a href="https://doi.org/10.1016/0010-0285(72)90016-3" class="uri">https://doi.org/10.1016/0010-0285(72)90016-3</a></li>
+</ul>
+<ul>
+<li>Tversky, A., &amp; Kahneman, D. (1973). Availability: A heuristic for judging frequency and probability. Cognitive Psychology, 5(2), 207–232. <a href="https://doi.org/10.1016/0010-0285(73)90033-9" class="uri">https://doi.org/10.1016/0010-0285(73)90033-9</a></li>
+</ul>
+</section>
+
+<section id="kahneman-tversky" class="title-slide slide level1">
+<h1>Kahneman &amp; Tversky</h1>
+<div class="row">
+<div class="col-md-4">
+<p><img src="imgs/TverskyKahneman.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+<div class="col-md-4">
+<p><img src="imgs/fast_slow.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+<div class="col-md-4">
+<p><img src="imgs/undoing.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</section>
+
+<section id="judgments-of-frequency-and-probability" class="title-slide slide level1">
+<h1>Judgments of frequency and probability</h1>
+<ul>
+<li>How many words do you know?</li>
+<li>What are the chances you will receive more than two calls from a telemarketer today?</li>
+</ul>
+<ul>
+<li>How do people make judgments of frequency and probability?</li>
+</ul>
+</section>
+
+<section id="kahneman-and-tversky-1972" class="title-slide slide level1">
+<h1>Kahneman and Tversky (1972)</h1>
+<p><img src="imgs/KT1972.png" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="big-question-and-idea" class="title-slide slide level1">
+<h1>Big Question and Idea</h1>
+<ul>
+<li><strong>Question:</strong> How do people judge frequencies and probabilities?</li>
+</ul>
+<ul>
+<li><strong>Idea:</strong> People use heuristics that are usually good approximations</li>
+</ul>
+<ul>
+<li><strong>Representativeness heuristic</strong>: People judge frequencies and probabilities of events, or sample, based on:</li>
+<li>similarity to parent population</li>
+<li>whether the event has salient stereotypical features</li>
+</ul>
+</section>
+
+<section id="logical-implications" class="title-slide slide level1">
+<h1>Logical implications</h1>
+<ul>
+<li>If people use the representativeness heuristic, then decisions about frequency and probability should be biased by representative examples</li>
+</ul>
+</section>
+
+<section id="empirical-demonstrations" class="title-slide slide level1">
+<h1>Empirical Demonstrations</h1>
+<ul>
+<li>Kahneman and Tversky (1972) presented several examples where simple judgments about frequency and probability were biased by representativeness</li>
+</ul>
+</section>
+
+<section id="similarity-of-sample-to-population" class="title-slide slide level1">
+<h1>Similarity of Sample to Population</h1>
+<p><img src="imgs/sim_sample.png" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="looking-more-random" class="title-slide slide level1">
+<h1>Looking more random</h1>
+<p><img src="imgs/looking_random.png" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="tversky-kahneman-1973" class="title-slide slide level1">
+<h1>Tversky &amp; Kahneman (1973)</h1>
+<p><img src="imgs/TK1973.png" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="big-question-and-idea-1" class="title-slide slide level1">
+<h1>Big Question and Idea</h1>
+<ul>
+<li><strong>Question:</strong> How do people judge frequencies and probabilities?</li>
+</ul>
+<ul>
+<li><strong>Idea:</strong> People use heuristics that are usually good approximations</li>
+</ul>
+<ul>
+<li><strong>Availability heuristic</strong>: People judge frequencies and probabilities of events, or sample, based on:</li>
+<li>how easy particular examples can be brought to mind</li>
+<li>more available instances are thought to be more likely</li>
+</ul>
+</section>
+
+<section id="logical-implications-1" class="title-slide slide level1">
+<h1>Logical implications</h1>
+<ul>
+<li>If people use the availability heuristic, then decisions about frequency and probability should be biased by availability</li>
+<li>people should also be sensitive to self-assessments of availability</li>
+</ul>
+</section>
+
+<section id="empirical-demonstrations-1" class="title-slide slide level1">
+<h1>Empirical Demonstrations</h1>
+<ul>
+<li>Tversky and Kahneman (1973) presented several examples where people were sensitive to availability, and where availability biased judgments of frequency and probability</li>
+</ul>
+</section>
+
+<section id="assessments-of-availability-1" class="title-slide slide level1">
+<h1>Assessments of Availability 1</h1>
+<p><strong>Question</strong>: Are people sensitive to their own ability to generate examples?</p>
+<p><strong>Method</strong>: Show participants 9 letters (TAPCERHOB or XUZONLCJM)</p>
+<ul>
+<li><strong>Estimate condition:</strong> How many words can you make in 2 minutes</li>
+<li><strong>Construct condition:</strong> Make as words as you can in 2 minutes</li>
+</ul>
+<p><strong>Result</strong>: Very high positive correlation between estimate and actual number of words generated</p>
+</section>
+
+<section id="assessments-of-availability-2" class="title-slide slide level1">
+<h1>Assessments of Availability 2</h1>
+<p><strong>Question</strong>: Are people sensitive to their own ability to generate examples?</p>
+<p><strong>Method</strong>: Generate items from categories (flowers, Russian novelists)</p>
+<ul>
+<li><strong>Estimate condition:</strong> How many examples can you generate in 2 minutes</li>
+<li><strong>Construct condition:</strong> Generate as many examples as you can in 2 minutes</li>
+</ul>
+<p><strong>Result</strong>: Very high positive correlation between estimate and actual number of examples generated</p>
+</section>
+
+<section id="inference-so-far" class="title-slide slide level1">
+<h1>Inference so far</h1>
+<ul>
+<li>People appear to be sensitive to example availability</li>
+</ul>
+<ul>
+<li>People can quickly estimate whether they can produce many or few examples</li>
+</ul>
+<ul>
+<li>Estimates of availability correlated well with how many examples people actually produced</li>
+</ul>
+</section>
+
+<section id="judgment-of-word-frequency" class="title-slide slide level1">
+<h1>Judgment of Word Frequency</h1>
+<p><img src="imgs/J_word_freq.png" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="results" class="title-slide slide level1">
+<h1>Results</h1>
+<p><img src="imgs/J_word_freq_results.png" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="fame-frequency-and-recall" class="title-slide slide level1">
+<h1>Fame, Frequency and Recall</h1>
+<p><img src="imgs/fame.png" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="results-1" class="title-slide slide level1">
+<h1>Results</h1>
+<p><img src="imgs/fame_results.png" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="general-takeaway" class="title-slide slide level1">
+<h1>General Takeaway</h1>
+<ul>
+<li>Cognitive processes such as learning and memory can influence judgment and decision-making</li>
+<li>Basic memory processes make some examples easier to bring to mind, and people can be biased by the examples they are thinking about</li>
+</ul>
+</section>
+
+<section id="cognitive-biases-1" class="title-slide slide level1">
+<h1>Cognitive Biases</h1>
+<p>Try the optional writing assignment for this learning module as a way to explore more cognitive biases</p>
+<ul>
+<li>Check out the wikipedia <a href="https://en.wikipedia.org/wiki/List_of_cognitive_biases">list of cognitive biases</a></li>
+</ul>
+</section>
+
+<section id="read-the-empirical-paper" class="title-slide slide level1">
+<h1>Read the empirical paper</h1>
+<ul>
+<li>Shen, O., Rabinowitz, R., Geist, R. R., &amp; Shafir, E. (2010). Effect of Background Case Characteristics on Decisions in the Delivery Room. Medical Decision Making, 30(4), 518–522. <a href="https://doi.org/10.1177/0272989X09353451" class="uri">https://doi.org/10.1177/0272989X09353451</a></li>
+</ul>
+</section>
+
+<section id="whats-next" class="title-slide slide level1">
+<h1>What’s next</h1>
+<p>Take the quiz and complete any additional assignments</p>
+<p>This is the last learning module of the semester!</p>
+<p>The final exam will occur during final exam week, see blackboard for more information</p>
+</section>
+
+<section id="congratulations" class="title-slide slide level1">
+<h1>Congratulations</h1>
+<p>First, give yourself a congrats for getting this far in the course:</p>
+<p><img src="imgs/congrats.gif" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="clapping-for-you" class="title-slide slide level1">
+<h1>Clapping for you</h1>
+<p>I was really impressed with your hard work and thoughtful reactions to the writing assignments</p>
+<p><img src="imgs/proud.gif" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="last-words" class="title-slide slide level1">
+<h1>Last Words</h1>
+<p>I hope to meet y’all in person, keep up the hard work, and all the best in your future endeavors!!</p>
+<p><img src="imgs/good_luck.gif" width="80%" style="display: block; margin: auto;" /></p>
+</section>
+    </div>
+  </div>
+
+  <script src="L15_JDM_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="L15_JDM_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+        // Display a presentation progress bar
+        progress: true,
+        // Push each slide change to the browser history
+        history: true,
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+        // Enable the slide overview mode
+        overview: true,
+        // Vertical centering of slides
+        center: false,
+        // Enables touch navigation on devices with touch input
+        touch: true,
+        // Turns fragments on and off globally
+        fragments: true,
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+        // Transition style
+        transition: 'fade', // none/fade/slide/convex/concave/zoom
+        // Transition speed
+        transitionSpeed: 'default', // default/fast/slow
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+
+
+        // Optional reveal.js plugins
+        dependencies: [
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>

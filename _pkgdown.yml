@@ -93,7 +93,6 @@ navbar:
         href: articles/modules/L10_Attention.html
       - text: L11 Language
         href: articles/modules/L11_Language.html
-      - text: Not yet updated for Spring 2022
       - text: L12 Judgment and Decision-making
         href: articles/modules/L12_JDM.html
     slides:
@@ -127,6 +126,8 @@ navbar:
         href: slides/L13_Attention/L13_Attention.html
       - text: Lecture 14 - Language
         href: slides/L14_Language/L14_Language.html
+      - text: Lecture 15 - Judgment and Decision-making
+        href: slides/L15_JDM/L15_JDM.html
 
     resources:
       text: Resources
