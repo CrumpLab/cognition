@@ -114,7 +114,7 @@ There are many biases that shape our judgments and decisions
 
 # Heuristics
 
->- Rules of thumb that often work well
+>- Rules of thumb that give close approximations
 
 >- Availability Heuristic
 >- Representativeness Heuristic
@@ -231,7 +231,7 @@ knitr::include_graphics("imgs/TK1973.png")
 >- **Estimate condition:** How many words can you make in 2 minutes
 >- **Construct condition:** Make as words as you can in 2 minutes
 
-**Result**: Very high correlation between estimate and actual number of words generated
+**Result**: Very high positive correlation between estimate and actual number of words generated
 
 # Assessments of Availability 2
 
@@ -242,7 +242,7 @@ knitr::include_graphics("imgs/TK1973.png")
 >- **Estimate condition:** How many examples can you generate in 2 minutes
 >- **Construct condition:** Generate as many examples as you can in 2 minutes
 
-**Result**: Very high correlation between estimate and actual number of examples generated
+**Result**: Very high positive correlation between estimate and actual number of examples generated
 
 # Inference so far
 
