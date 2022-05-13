@@ -1,5 +1,5 @@
 # see https://pkgdown.r-lib.org/articles/pkgdown.html for yml help
-url: https://crumplab.github.io/cognition
+url: https://crumplab.com/cognition
 
 template:
   bootstrap: 5
@@ -15,10 +15,11 @@ template:
     h4-font-size:  1.25rem
   opengraph:
     image:
-      src: logo.png
+      src: cognition_twitter.jpg
     twitter:
-      creator: "@matt_jc_crump"
-      card: summary
+      creator: "@MattCrumpLab"
+      card: summary_large_image
+      image: cognition_twitter.jpg
   params:
     ganalytics: G-Q5CP3TXLQ3
 
