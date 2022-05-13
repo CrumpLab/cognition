@@ -15,11 +15,11 @@ template:
     h4-font-size:  1.25rem
   opengraph:
     image:
-      src: cognition_twitter.jpg
+      src: man/figures/cognition_twitter.jpg
+      alt: "An OER resource for introductory cognitive psychology"
     twitter:
       creator: "@MattCrumpLab"
       card: summary_large_image
-      image: reference/figures/cognition_twitter.jpg
   params:
     ganalytics: G-Q5CP3TXLQ3
 
