@@ -1,6 +1,6 @@
 ---
 title: "Getting Started"
-description: "This is a general orientation for PSYC 2530, Spring 2020. Start here to learn more about how this course will work."
+description: "This is a general orientation for PSYC 2530, Spring 2022. Start here to learn more about how this course will work."
 author: "Matt Crump"
 date: "1/7/2022"
 output: rmarkdown::html_vignette
@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-This is the orientation learning module for PSYC 2530. There will be 12 learning modules throughout the course, each on a different domains in cognition. Each module will contain a similar structure and give you multiple ways to engage with the content.
+Welcome to the orientation learning module for PSYC 2530. There will be 12 learning modules throughout the course, each on a different domains in cognition. Each module will contain a similar structure and give you multiple ways to engage with the content.
 
 ## Goals
 
