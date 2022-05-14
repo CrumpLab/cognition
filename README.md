@@ -23,7 +23,7 @@ If you have questions please email me. If you think other students have the same
 
 ### Open-educational resource
 
-All of the course material is an open-educational resource that is free to use, share, copy, edit, and remix.
+This is an open-educational resource that is free to use, share, copy, edit, and remix.
 
 The suite is developed using open-source software (R, RStudio, Bookdown). The source code for this project is available at <https://github.com/CrumpLab/cognition>. These materials are being actively developed. 
 
