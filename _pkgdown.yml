@@ -15,11 +15,11 @@ template:
     h4-font-size:  1.25rem
   opengraph:
     image:
-      src: man/figures/cognition_social.jpg
+      src: logo.png
       alt: "An OER resource for introductory cognitive psychology"
     twitter:
       creator: "@MattCrumpLab"
-      card: summary_large_image
+      card: summary
   params:
     ganalytics: G-Q5CP3TXLQ3
 
