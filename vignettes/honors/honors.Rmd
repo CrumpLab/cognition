@@ -4,7 +4,7 @@ description: "Info and guidelines for obtaining honors credit in PSYC 2530."
 author: "Matt Crump"
 opengraph:
   image: 
-    src: logo.png
+    src: "https://www.crumplab.com/cognition/logo.png"
     alt: "Logo for cognition website"
   twitter:
     card: summary
