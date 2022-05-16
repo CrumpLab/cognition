@@ -2,6 +2,13 @@
 title: "Getting Started"
 description: "This is a general orientation for PSYC 2530, Spring 2022. Start here to learn more about how this course will work."
 author: "Matt Crump"
+opengraph:
+  image: 
+    src: man/figures/logo.png
+    alt: "Logo for cognition website"
+  twitter:
+    card: summary
+    creator: "@MattCrumpLab"
 date: "1/7/2022"
 output: rmarkdown::html_vignette
 vignette: >

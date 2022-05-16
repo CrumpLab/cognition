@@ -1,5 +1,14 @@
 ---
 title: "Additional resources"
+description: "Additional resources for PSYC 2530."
+author: "Matt Crump"
+opengraph:
+  image: 
+    src: "https://www.crumplab.com/cognition/logo.png"
+    alt: "Logo for cognition website"
+  twitter:
+    card: summary
+    creator: "@MattCrumpLab"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Additional resources}

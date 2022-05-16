@@ -5,6 +5,7 @@ author: "Matt Crump"
 opengraph:
   image: 
     src: logo.png
+    alt: "Logo for cognition website"
   twitter:
     card: summary
     creator: "@MattCrumpLab"
