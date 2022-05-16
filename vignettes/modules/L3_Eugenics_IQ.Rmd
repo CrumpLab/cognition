@@ -1,6 +1,6 @@
 ---
 title: "Learning Module 3: Eugenics, Psychology, and intelligence testing"
-description: ""
+description: "This module describes the eugenics movement and socio-historical context around early research into cognitive abilities and psychology."
 author: "Matt Crump"
 date: '`r paste("Last edited: ", lubridate::today())`'
 output: rmarkdown::html_vignette

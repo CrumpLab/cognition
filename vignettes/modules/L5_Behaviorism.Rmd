@@ -1,6 +1,6 @@
 ---
 title: "Learning Module 5: Behaviorism"
-description: ""
+description: "This module discusses the school of behaviorism and how it legitimized behavior as a topic of scientific inquiry. The core claims and goals of behaviorism continue to have implications for the cognitive sciences and society in general."
 author: "Matt Crump"
 date: '`r paste("Last edited: ", lubridate::today())`'
 output: rmarkdown::html_vignette

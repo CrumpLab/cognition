@@ -1,6 +1,6 @@
 ---
 title: "Learning Module 7: Memory I"
-description: ""
+description: "This module overviews the beginnings of memory research in cognition, covering a few early researchers, the emergence of different research traditions in the study of memory, and the information-processing approach to memory."
 author: "Matt Crump"
 date: '`r paste("Last edited: ", lubridate::today())`'
 output: rmarkdown::html_vignette

@@ -1,6 +1,6 @@
 ---
 title: "Learning Module 8: Memory II"
-description: ""
+description: "This module reviews memory research beyond the 1960s, including a focus on tasks, phenomena, and principles of memory."
 author: "Matt Crump"
 date: '`r paste("Last edited: ", lubridate::today())`'
 output: rmarkdown::html_vignette

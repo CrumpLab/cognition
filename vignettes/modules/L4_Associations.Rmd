@@ -1,6 +1,6 @@
 ---
 title: "Learning Module 4: Associations"
-description: ""
+description: "This module discusses associationism and formative philosophical and empirical work on associative learning processes in humans and non-human animals."
 author: "Matt Crump"
 date: '`r paste("Last edited: ", lubridate::today())`'
 output: rmarkdown::html_vignette
