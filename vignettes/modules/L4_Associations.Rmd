@@ -3,6 +3,13 @@ title: "Learning Module 4: Associations"
 description: "This module discusses associationism and formative philosophical and empirical work on associative learning processes in humans and non-human animals."
 author: "Matt Crump"
 date: '`r paste("Last edited: ", lubridate::today())`'
+opengraph:
+  image: 
+    src: "https://www.crumplab.com/cognition/reference/figures/L4_associations.jpg"
+    alt: "Learning Module 4: Associations"
+  twitter:
+    card: summary
+    creator: "@MattCrumpLab"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Learning Module 4: Associations}

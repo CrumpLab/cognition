@@ -3,6 +3,13 @@ title: "Learning Module 6: Information Processing"
 description: "This module discusses cognition from the information processing tradition including processing stages, information, and capacity limitations, which became popular research topics around the 1950s and 60s."
 author: "Matt Crump"
 date: '`r paste("Last edited: ", lubridate::today())`'
+opengraph:
+  image: 
+    src: "https://www.crumplab.com/cognition/reference/figures/L6_information.jpg"
+    alt: "Learning Module 6: Information Processing"
+  twitter:
+    card: summary
+    creator: "@MattCrumpLab"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Learning Module 6: Information Processing}

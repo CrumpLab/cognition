@@ -19,6 +19,7 @@ template:
       alt: "An OER resource for introductory cognitive psychology"
     twitter:
       creator: "@MattCrumpLab"
+      site: "@MattCrumpLab"
       card: summary
   params:
     ganalytics: G-Q5CP3TXLQ3
