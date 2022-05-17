@@ -8,7 +8,7 @@ opengraph:
     src: "https://www.crumplab.com/cognition/reference/figures/L5_behaviorism.jpg"
     alt: "Learning Module 5: Behaviorism"
   twitter:
-    card: summary
+    card: summary_large_image
     creator: "@MattCrumpLab"
 output: rmarkdown::html_vignette
 vignette: >

@@ -8,7 +8,7 @@ opengraph:
     src: "https://www.crumplab.com/cognition/reference/figures/L1_cognition.jpg"
     alt: "Learning module 1: What is Cognition?"
   twitter:
-    card: summary
+    card: summary_large_image
     creator: "@MattCrumpLab"
 output: rmarkdown::html_vignette
 vignette: >

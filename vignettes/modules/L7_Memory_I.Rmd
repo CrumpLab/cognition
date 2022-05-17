@@ -8,7 +8,7 @@ opengraph:
     src: "https://www.crumplab.com/cognition/reference/figures/L7_memory_1.jpg"
     alt: "Learning Module 7: Memory I"
   twitter:
-    card: summary
+    card: summary_large_image
     creator: "@MattCrumpLab"
 output: rmarkdown::html_vignette
 vignette: >

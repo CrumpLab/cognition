@@ -8,7 +8,7 @@ opengraph:
     src: "https://www.crumplab.com/cognition/reference/figures/L3_eugenics.jpg"
     alt: "Learning Module 3: Eugenics, Psychology, and intelligence testing"
   twitter:
-    card: summary
+    card: summary_large_image
     creator: "@MattCrumpLab"
 output: rmarkdown::html_vignette
 vignette: >
