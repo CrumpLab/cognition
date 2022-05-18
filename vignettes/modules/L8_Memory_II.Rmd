@@ -3,6 +3,13 @@ title: "Learning Module 8: Memory II"
 description: "This module reviews memory research beyond the 1960s, including a focus on tasks, phenomena, and principles of memory."
 author: "Matt Crump"
 date: '`r paste("Last edited: ", lubridate::today())`'
+opengraph:
+  image: 
+    src: "https://www.crumplab.com/cognition/reference/figures/L8_memory_II.jpg"
+    alt: "Learning Module 8: Memory II"
+  twitter:
+    card: summary_large_image
+    creator: "@MattCrumpLab"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Learning Module 8: Memory II}

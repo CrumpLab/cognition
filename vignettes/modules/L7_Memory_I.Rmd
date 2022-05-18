@@ -5,7 +5,7 @@ author: "Matt Crump"
 date: '`r paste("Last edited: ", lubridate::today())`'
 opengraph:
   image: 
-    src: "https://www.crumplab.com/cognition/reference/figures/L7_memory_1.jpg"
+    src: "https://www.crumplab.com/cognition/reference/figures/L7_memory_I.jpg"
     alt: "Learning Module 7: Memory I"
   twitter:
     card: summary_large_image
