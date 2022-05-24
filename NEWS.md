@@ -1,3 +1,7 @@
+# cognition 0.0.0.7
+
+Add general assignments document, and OER development info
+
 # cognition 0.0.0.6
 
 - Add honors project tab

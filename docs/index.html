@@ -19,9 +19,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- bootstrap-toc --><script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="An open educational resource for Introductory Undergraduate Cognition">
 <meta property="og:description" content="A set of creative commons licensed resources for teaching introductory cognition, including a textbook, course webpage, slide decks, example experiments, and instructor materials.">
-<meta property="og:image" content="https://crumplab.com/cognition/cognition_social.jpg">
+<meta property="og:image" content="https://crumplab.com/cognition/logo.png">
 <meta property="og:image:alt" content="An OER resource for introductory cognitive psychology">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 <meta name="twitter:creator" content="@MattCrumpLab">
 <meta name="twitter:site" content="@MattCrumpLab">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
@@ -43,7 +43,7 @@
     
     <a class="navbar-brand me-2" href="index.html">cognition</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unreleased version">0.0.0.6</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unreleased version">0.0.0.7</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,17 +58,11 @@
      
   </a>
 </li>
-<li class="nav-item dropdown">
-  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-syllabus">Syllabus</a>
-  <div class="dropdown-menu" aria-labelledby="dropdown-syllabus">
-    <a class="dropdown-item" href="articles/course_docs/Spring_2022_Psyc_2530_syllabus.html">Spring 2022</a>
-  </div>
+<li class="nav-item">
+  <a class="nav-link" href="articles/course_docs/Spring_2022_Psyc_2530_syllabus.html">Syllabus</a>
 </li>
-<li class="nav-item dropdown">
-  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-textbook">Textbook</a>
-  <div class="dropdown-menu" aria-labelledby="dropdown-textbook">
-    <a class="dropdown-item" href="textbook/index.html">Instances of Cognition</a>
-  </div>
+<li class="nav-item">
+  <a class="nav-link" href="textbook/index.html">Textbook</a>
 </li>
 <li class="nav-item dropdown">
   <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-learning-modules">Learning Modules</a>
@@ -86,6 +80,7 @@
     <a class="dropdown-item" href="articles/modules/L10_Attention.html">L10 Attention</a>
     <a class="dropdown-item" href="articles/modules/L11_Language.html">L11 Language</a>
     <a class="dropdown-item" href="articles/modules/L12_JDM.html">L12 Judgment and Decision-making</a>
+    <a class="dropdown-item" href="articles/modules/General_Assignments.html">General Assignments</a>
   </div>
 </li>
 <li class="nav-item dropdown">
@@ -145,7 +140,7 @@
 <a class="anchor" aria-label="anchor" href="#cognition-"></a>
 </h1>
 </div>
-<!-- badges: start -->
+<!-- badges: start --><p><a href="https://www.tidyverse.org/lifecycle/#experimental" class="external-link"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental"></a> <!-- badges: end --></p>
 <div class="section level2">
 <h2 id="psyc-2530-introductory-cognitive-psychology">PSYC 2530 Introductory Cognitive Psychology<a class="anchor" aria-label="anchor" href="#psyc-2530-introductory-cognitive-psychology"></a>
 </h2>
@@ -161,25 +156,24 @@
 <div class="section level3">
 <h3 id="open-educational-resource">Open-educational resource<a class="anchor" aria-label="anchor" href="#open-educational-resource"></a>
 </h3>
-<p>This is an open-educational resource that is free to use, share, copy, edit, and remix.</p>
-<p>The suite is developed using open-source software (R, RStudio, Bookdown). The source code for this project is available at <a href="https://github.com/CrumpLab/cognition" class="external-link uri">https://github.com/CrumpLab/cognition</a>. These materials are being actively developed.</p>
+<p>This is an open-educational resource that is free to use, share, copy, edit, and remix, with attribution and following this license.</p>
 <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link"><img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg" alt="License: CC BY-SA 4.0"></a></p>
+<p>The suite is developed using open-source software (R, RStudio, Bookdown). The source code for this project is available at <a href="https://github.com/CrumpLab/cognition" class="external-link uri">https://github.com/CrumpLab/cognition</a>. These materials are being actively developed. See the <a href="articles/oer/oer.html">OER development page</a></p>
 </div>
 </div>
 </div>
-  </main><aside class="col-md-3"><div class="license">
+  </main><aside class="col-md-3"><div class="links">
+<h2 data-toc-skip>Links</h2>
+<ul class="list-unstyled">
+<li><a href="articles/oer/oer.html">OER usage info</a></li>
+</ul>
+</div>
+
+<div class="license">
 <h2 data-toc-skip>License</h2>
 <ul class="list-unstyled">
 <li><a href="LICENSE.html">Full license</a></li>
 <li><small><a href="https://creativecommons.org/licenses/by/4.0" class="external-link">CC BY 4.0</a></small></li>
-</ul>
-</div>
-
-
-<div class="citation">
-<h2 data-toc-skip>Citation</h2>
-<ul class="list-unstyled">
-<li><a href="authors.html#citation">Citing cognition</a></li>
 </ul>
 </div>
 
@@ -188,13 +182,6 @@
 <ul class="list-unstyled">
 <li>
 <a href="https://crumplab.github.io" class="external-link">Matthew Crump</a> <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0002-5612-0090" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
-</ul>
-</div>
-
-<div class="dev-status">
-<h2 data-toc-skip>Dev status</h2>
-<ul class="list-unstyled">
-<li><a href="https://www.tidyverse.org/lifecycle/#experimental" class="external-link"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental"></a></li>
 </ul>
 </div>
 
