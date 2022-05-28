@@ -24,7 +24,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-Welcome to the orientation learning module for PSYC 2530. There will be 12 learning modules throughout the course, each on a different domains in cognition. Each module will contain a similar structure and give you multiple ways to engage with the content.
+Welcome to the orientation learning module for PSYC 2530. There will be 12 learning modules throughout the course, each on a different domain in cognition. Each module will contain a similar structure and give you multiple ways to engage with the content.
 
 ## Goals
 
