@@ -146,7 +146,7 @@ Percentage grades are converted to letter grades according to the following rubr
 
 ## Honors Projects
 
-It is possible to complete an honors project and receive honors credit for this course. Please see the [honors project page](https://crumplab.com/cognition/docs/articles/honors/honors.html) for more information.
+It is possible to complete an honors project and receive honors credit for this course. Please see the [honors project page](https://crumplab.com/cognition/articles/honors/honors.html) for more information.
 
 ## Course Policies
 
