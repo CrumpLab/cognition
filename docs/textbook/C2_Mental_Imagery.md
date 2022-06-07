@@ -11,7 +11,7 @@ output:
 
 | Word Count|Reading Time |Last Compiled           |
 |----------:|:------------|:-----------------------|
-|       7748|38.7 minutes |2022-02-20 14:56:41 GMT |
+|       7748|38.7 minutes |2022-04-22 14:26:07 GMT |
 
 ::: {.floatrightbox25 data-latex=""}
 

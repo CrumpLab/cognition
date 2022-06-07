@@ -11,7 +11,7 @@ output:
 
 | Word Count|Reading Time |Last Compiled           |
 |----------:|:------------|:-----------------------|
-|       4591|23 minutes   |2022-02-20 14:56:41 GMT |
+|       4814|24.1 minutes |2022-04-22 14:26:07 GMT |
 
 ::: {.floatrightbox25 data-latex=""}
 
@@ -169,6 +169,73 @@ There are many ways to explore connections between psychology and eugenics. For 
 On October 29, 2021, the American Psychological Association council of representatives released a resolution titled, "Apology to People of Color for APA’s Role in Promoting, Perpetuating, and Failing to Challenge Racism, Racial Discrimination, and Human Hierarchy in U.S.". The link to the statement can be viewed here: <https://www.apa.org/about/policy/racism-apology>.
 
 This webpage contains additional links relevant to the content of this chapter, including a historical chronology examining psychology's contributions to the belief in racial hierarchy and perpetuation of inequality of color in the U.S. The chronology can be viewed here: <https://www.apa.org/about/apa/addressing-racism/historical-chronology>
+
+## Additional Reading
+
+
+
+
+<div style = "text-indent:-10px;padding-left: 10px;">
+
+Kamin, L. J. (1974). *The Science and Politics of IQ*. Psychology Press.
+
+---
+
+Kühl, S. (2013). *For the Betterment of the Race - The Rise and Fall of
+the International Movement for Eugenics and Racial Hygiene*. Palgrave
+Macmillan.
+
+An excellent resource establishing the scope and scale of eugenics movements across the world.
+
+---
+
+Selden, S. (1999). *Inheriting Shame: The Story of Eugenics and Racism
+in America*. Teachers College Press.
+
+---
+
+*The Eugenics Archives*. https://eugenicsarchive.ca/.
+
+A deep and well organized web-based resource about the history of eugenics and its influences on society, with a Canadian focus.
+
+---
+
+The Oxford Handbook of the History of Eugenics. (2010). In A. Bashford &
+P. Levine (Eds.), *The Oxford Handbook of the History of Eugenics*.
+Oxford University Press.
+<https://doi.org/10.1093/oxfordhb/9780195373141.001.0001>
+
+A comprehensive resource.
+
+---
+
+Tucker, W. H. (2002). *The Funding of Scientific Racism: Wickliffe
+Draper and the Pioneer Fund.* University of Illinois Press.
+
+Includes discussion of funding scientific racism within psychology.
+
+---
+
+Williams, R. (1974). A History of the Association of Black
+Psychologists: Early Formation and Development. *Journal of Black
+Psychology*, *1*(1), 9–24. <https://doi.org/gg3hq4>
+
+---
+
+Wilson, R. A. (2017). *The Eugenic Mind Project*. MIT Press.
+
+---
+
+Yakushko, O. (2019). Eugenics and its evolution in the history of western psychology: A critical archival review. *Psychotherapy and Politics International*, *17*. <https://doi.org/10/gg3hsf>
+
+Yakushko, O. (2019). *Scientific Pollyannaism: From Inquisition to
+Positive Psychology*. Springer International Publishing.
+<https://doi.org/10.1007/978-3-030-15982-5>
+
+Exemplary and highly informative works.
+
+<div>
+
 
 
 

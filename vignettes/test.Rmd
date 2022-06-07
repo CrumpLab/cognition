@@ -1,0 +1,41 @@
+---
+title: "test"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{test}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(cognition)
+```
+
+
+## Suggested Readings
+
+```{r}
+load_bib <- bib2df::bib2df(file="../textbook/CogPsyTextbook.bib")
+
+selected_bib <- load_bib %>%
+  filter(BIBTEXKEY %in% c(
+    "yakushkoScientificPollyannaismInquisition2019",
+    "wilsonEugenicMindProject2017",
+    "bashfordOxfordHandbookHistory2010",
+    "tuckerFundingScientificRacism2002",
+    "seldenInheritingShameStory1999",
+    "williamsHistoryAssociationBlack1974",
+    "kaminSciencePoliticsIQ1974"))
+
+bib2df::df2bib(selected_bib,file = "temp.bib")
+
+stevemisc::print_refs("temp.bib",csl="apa.csl")
+```
+

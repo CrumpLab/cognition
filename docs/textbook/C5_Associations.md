@@ -5,7 +5,7 @@
 
 | Word Count|Reading Time |Last Compiled           |
 |----------:|:------------|:-----------------------|
-|       7675|38.4 minutes |2022-02-05 05:14:39 GMT |
+|       7675|38.4 minutes |2022-04-22 14:26:07 GMT |
 
 ::: {.floatrightbox25 data-latex=""}
 
