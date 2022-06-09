@@ -1,3 +1,9 @@
+# cognition 0.0.0.8
+
+- begin new course construction for Fall 2022
+- Spring 2022 version is now contained in the Spring2022 branch
+- The main branch will be subject to ongoing incremental change in preparation for Fall 2022.
+
 # cognition 0.0.0.7
 
 Add general assignments document, and OER development info

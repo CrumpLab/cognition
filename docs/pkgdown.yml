@@ -1,7 +1,8 @@
-pandoc: '2.16'
+pandoc: 2.17.1.1
 pkgdown: 2.0.3
 pkgdown_sha: ~
 articles:
+  Fall_2022_Psyc_2530_syllabus: course_docs/Fall_2022_Psyc_2530_syllabus.html
   Spring_2022_Psyc_2530_syllabus: course_docs/Spring_2022_Psyc_2530_syllabus.html
   contribute: course_docs/contribute.html
   resources: course_docs/resources.html
@@ -21,7 +22,7 @@ articles:
   L8_Memory_II: modules/L8_Memory_II.html
   L9_Implicit_Cognition: modules/L9_Implicit_Cognition.html
   oer: oer/oer.html
-last_built: 2022-05-28T17:05Z
+last_built: 2022-06-09T11:38Z
 urls:
   reference: https://crumplab.com/cognition/reference
   article: https://crumplab.com/cognition/articles

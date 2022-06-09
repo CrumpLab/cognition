@@ -5,18 +5,20 @@
 <!-- badges: end -->
 
 
+**This course website is under development until the beginning of Fall 2022 classes at Brooklyn College of CUNY. Prior versions of this courses are archived in the branches of this repository.**
+
 ## PSYC 2530 Introductory Cognitive Psychology
 
-This is the course website for Psyc 2530: Introductory Cognitive Psychology (Spring 2022, Asynchronous Online), taught by Dr. Matthew Crump, at the Department of Psychology, Brooklyn College of CUNY. 
+This is the course website for Psyc 2530: Introductory Cognitive Psychology (Fall 2022), taught by Dr. Matthew Crump, at the Department of Psychology, Brooklyn College of CUNY. 
 
 Instructor: [Matthew Crump](https://www.crumplab.com)
 Email: [mcrump@brooklyn.cuny.edu](mcrump@brooklyn.cuny.edu) (students please put PSYC 2530 in the subject line)
 
 ### For students in my class
 
-If you are a student in my class, then we will be using the resources on this website along with blackboard throughout the semester. This website will always contain the most up-to-date syllabus. The syllabus, textbook, and learning modules, slides, and other resources can all be accessed using the tabs at the top of the page.
+We will use the resources on this website along with blackboard throughout the semester. This website will always contain the most up-to-date syllabus. The syllabus, textbook, and learning modules, slides, and other resources can all be accessed using the tabs at the top of the page.
 
-Begin with the [getting started learning module](https://www.crumplab.com/cognition/articles/modules/L0_Getting_Started.html).
+Looking forward to meeting you in class!
 
 If you have questions please email me. If you think other students have the same question, then please ask your question on the blackboard discussion board for this course.
 
