@@ -1,4 +1,4 @@
-# cognition <a href='https:/crumplab.github.io/cognition'><img src='man/figures/logo.png' align="right" height="120.5" /></a>
+# PSYC 2530 Introductory Cognitive Psychology <a href='https:/crumplab.github.io/cognition'><img src='man/figures/logo.png' align="right" height="120.5" /></a>
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
@@ -6,8 +6,6 @@
 
 
 **This course website is under development until the beginning of Fall 2022 classes at Brooklyn College of CUNY. Prior versions of this courses are archived in the branches of this repository.**
-
-## PSYC 2530 Introductory Cognitive Psychology
 
 This is the course website for Psyc 2530: Introductory Cognitive Psychology (Fall 2022), taught by Dr. Matthew Crump, at the Department of Psychology, Brooklyn College of CUNY. 
 

@@ -67,7 +67,7 @@ navbar:
       href: index.html
     syllabus:
       text: Syllabus
-      href: articles/course_docs/Spring_2022_Psyc_2530_syllabus.html
+      href: articles/course_docs/Fall_2022_Psyc_2530_syllabus.html
     textbook:
       text: Textbook
       href: textbook/index.html
@@ -152,7 +152,7 @@ articles:
 - title: Course info
   desc: ~
   contents:
-  - '`course_docs/Spring_2022_Psyc_2530_syllabus`'
+  - '`course_docs/Fall_2022_Psyc_2530_syllabus`'
   - '`honors/honors`'
   - '`course_docs/resources`'
 - title: Learning Modules
