@@ -105,40 +105,6 @@ Cognition Overview
 :::::
 
 
-:::::{.card .border .border-2 .border-info}
-:::: {.row .g-0}
-::: {.col-md-2}
-:::: {.card-body}
-
-```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics("imgs/watch.png")
-```
-
-Lecture 2
-
-Reading articles
-QALMRI
-
-[html slides](https://www.crumplab.com/cognition/slides/L2_QALMRI/L2_QALMRI.html#(1))
-
-[pdf](https://www.crumplab.com/cognition/slides/L2_QALMRI/L2_QALMRI.pdf)
-
-25 mins
-
-::::
-:::
-
-::: {.col-md-10}
-:::: {.card-body}
-
-::: {.ratio .ratio-16x9}
-<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eWi6k8Wdl-w" style="width:100%; height: 100%;" allowfullscreen></iframe>
-:::
-
-::::
-:::
-::::
-:::::
 
 ## Engage {.mt-5}
 
@@ -161,9 +127,9 @@ knitr::include_graphics("imgs/engage.png")
 When you are ready complete the assignments posted on Blackboard for this module. Each quiz or assignment is worth points. Remember that you can do as many quizzes and or assignments as you want throughout the semester, up to 60 points. After 60 points, your work will count for up to 10 points in extra credit (see syllabus).
 
 1. QUIZ: Complete the L1: What is Cognition quiz (5 points, on blackboard)
-2. Write a QALMRI for new research (5 points, see instructions below, submit on blackboard)
+2. React to a very short article about what Cognitive Science can do for people (5 points, see instructions below, submit on blackboard)
 
-Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
+Submit your work on blackboard. Then, move on to the next learning module.
 ::::
 :::
 ::::
@@ -171,58 +137,30 @@ Submit your work before the due date posted on blackboard. Then, move on to the 
 
 <br>
 
+## What can cognitive science do for people?
 
-### Write a QALMRI for new research 
+Your assignment is to read a short article, and then write down your thoughts and reactions to the ideas expressed in the paper. Your written reaction should be at least 250 words. 
 
-Your assignment is to find a new research article published in a cognitive journal (must be published since 2020), download the article, read it, and then write a short QALMRI assignment. Review the [QALMRI method here](https://www.crumplab.com/cognition/textbook/what-is-cognition.html#the-qalmri-method).
+Your assigned reading is:
 
-Time to complete: 20-30 minutes
+Prather, R. W. et al. (2022). What can Cognitive Science do for people?. Cognitive Science, 46(6), e13167.
 
-Submit a written QALMRI assignment and a copy of the paper you downloaded on blackboard
+[Link to paper](https://onlinelibrary.wiley.com/doi/pdf/10.1111/cogs.13167?casa_token=XC48zQK9oPcAAAAA:472tZE-VaUrvXaLOWDOEhGSwgHozh9ny9mPNldn5wvtNTFYYeba4vwHtIJx7s1AtbKWTmjcTzFP6Gqo)
 
-For a better idea of what I am looking for check out this tutorial video. 
+This paper is also available on blackboard. You can find it in the assignment for learning module 1.
 
-:::::{.card .border .border-2 .border-info .mb-5}
-:::: {.row .g-0}
-::: {.col-md-2}
-:::: {.card-body}
+**Instructions:**
 
-```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics("imgs/engage.png")
-```
+1. Download and read the paper
+2. Write down your reactions to the ideas in the papers in at least 250 words. Your reaction could include questions you had as you read the article, identifying and discussing topics you found interesting, your point view on the topics, and how these issues might relate yourself and society in general. These are only suggestions, feel free to explore writing what it means to react to this paper.
+3. At the end of your assignment, provide a recommendation and explanation for how many points out of 5 you should receive for completing this assignment.
+4. Submit your written work to this assignment posted on Blackboard.
 
-Assignment Tutorial
+This assignment is worth up to 5 points. 
 
-5 mins
 
-::::
-:::
 
-::: {.col-md-10}
-:::: {.card-body}
 
-::: {.ratio .ratio-16x9}
-<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vP77pqOoXVw" style="width:100%; height: 100%;" allowfullscreen></iframe>
-:::
-
-::::
-:::
-::::
-:::::
-
-1. **Find an article**: You can search [Google Scholar](https://scholar.google.com) for new papers, or you can read the table of contents of journals online. Check out this [list of cognitive journals from the course website](https://www.crumplab.com/cognition/articles/course_docs/resources.html). Choose any article that is about cognition and looks interesting to you.
-2. **Obtain the article**: You should be able to download most journal articles through the Brooklyn College library. You may also be able to find copies online.
-3. **Read the article**: Scan the article to see what it is about. Your goal will be to write a QALMRI to help you make sense of the article
-4. **Write a QALMRI**: Using [the QALMRI method](https://www.crumplab.com/cognition/textbook/what-is-cognition.html#the-qalmri-method), write a one-page QALMRI (point form is OK) of the paper you chose.
-
-- Question: Identify the big and specific question
-- Alternatives: What are the alternative hypotheses or explanations
-- Logic: What are the logical implications of the hypotheses
-- Method: Describe the Methods
-- Results: What was the main result
-- Inference: What inferences about the hypothesis are made from the results?
-
-It is OK if you find the research article confusing. The purpose of this exercise is to try as best as you can, and get a general sense of what it is like to search for and read articles in cognition.
 
 
 
