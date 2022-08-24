@@ -14,11 +14,11 @@ Section: MW3 7066
 
 Time: 3:40pm - 4:55pm, Monday and Wednesday
 
-Location: TBA
+Location: 1127 IH (Ingersoll Hall)
 
 Office Hours: TBA (zoom link posted on Blackboard)
 
-Instructor:  Matthew Crump
+Instructor:  Dr. Matthew Crump
 
 Email: mcrump@brooklyn.cuny.edu (please put PSYC 2530 in subject line)
 
@@ -51,17 +51,19 @@ Link to the course website:
 
 ## Course Structure
 
-There are 15 total weeks including 12 learning module weeks, and 3 exam weeks (two midterms and one final exam). Students are expected to complete the learning modules and exams. Each module and exam will provide opportunities to earn up to 100 points toward your final grade.
+There are 15 total weeks. Weekly learning modules cover different topics in cognitive psychology. Assessment weeks are interspersed across the semester. Students are expected to complete the learning modules and assessments which provide opportunities to earn up to 100 points toward a final grade.
+
+This is an **in-person** class, and students are expected to attend class sessions on a routine basis.
 
 ### Learning module structure
 
-Each weekly learning module includes three major components to engage with the domain of cognitive psychology in different ways.
+Weekly learning modules include three components to encourage engagement with the domain of cognitive psychology in different ways.
 
-**READ**: Each module will have assigned readings from textbook chapters, or primary research articles. All of the readings will be freely available and posted on blackboard or the course website
+**READ**: Modules have assigned readings from textbook chapters or primary research articles. Readings are freely available and posted on blackboard or the course website. Student are strongly encouraged to read assigned material before classes where the material is discussed.
 
-**WATCH/LISTEN**: Modules will have mini-lecture videos with overviews of the readings. The videos and slides will be posted on the course website.
+**CLASS and WATCH/LISTEN**: Modules usually involve two class meetings designed to engage students in the module topic. Classes will involve a mixture of lectures and other activities. *Note: a previous version of this course was taught asynchronously online which involved the creation of mini-lecture videos for each module. These videos will remain on the course website for students to use as supplemental resource. Slide decks used in the lecture will be posted on the course website.*
 
-**ENGAGE**: Modules will include assignments for students to actively engage with course material. Assignments for each module will vary, and there will be some flexibility for students to choose the assignments they complete. Weekly assignment options will include a quiz and/or a writing assignment(s).
+**ENGAGE**: Modules include assignments for students to engage with course material. Assignments for each module will vary, and there will be some flexibility for students to choose the assignments they complete.
 
 
 ## Course Schedule
@@ -69,7 +71,7 @@ Each weekly learning module includes three major components to engage with the d
 ```{r, message=FALSE, warning=FALSE, echo=FALSE, eval=TRUE}
 #library(data.table)
 library(readxl)
-Lectures <- read_excel("Spring_2022_schedule.xlsx", sheet = 1, col_names = TRUE, col_types = NULL, na = "", skip = 0)
+Lectures <- read_excel("Fall_2022_schedule.xlsx", sheet = 1, col_names = TRUE, col_types = NULL, na = "", skip = 0)
 Lectures$Week <- as.character(Lectures$Week)
 Lectures[is.na(Lectures)] <- " "
 #Lectures <- fread("Lectures.csv")
@@ -77,56 +79,35 @@ knitr::kable(Lectures)
 
 ```
 
-## Course Assessments
+## Assignments, Assessments, and Grading
 
-There are multiple ways for students to engage with course materials and achieve their desired grade. **All assignments are conducted and/or submitted via blackboard by the due dates set on blackboard**.
+There are multiple ways for students to engage with course materials and achieve their desired grade. Students are encouraged to choose the assignments that work best for them. Major course assessments that occur throughout the semester are designed to help students set and achieve their own goals for engaging in course content.
 
-Each weekly module will contain two or more assignment opportunities. In general, each assignment will be worth 5 points. For example, the first module has a quiz worth 5 points, and a writing assignment worth 5 points. **Students should complete at least one assignment per module**. 
-Students can complete as many quizzes or assignments as they want, for a maximum of 60 points toward their final grade. Any points over 60 count toward extra-credit using the following rules.
+### Assignments
 
-### Extra-credit
+Each weekly module will contain two or more assignment opportunities. In general, quizzes are worth 2.5 points and other assignments are worth 5 points. **Students are strongly encouraged to complete at least one assignment per module**. Students can complete as many quizzes or assignments as they want, for a maximum of 75 points toward their final grade.
 
-Once you have reached 60 points worth of assignments, you begin earning extra-credit points if you complete additional assignments. Any additional assignment that you complete will be added to your total points using a 5 to 1 formula:
+In collaboration with the instructor, students follow a process of self-assessment to recommend how many points should be awarded for their own assignments (not including quizzes). The self-assessment process is used as a guide toward goal setting and achievement in the course.
 
-1 assignment (5 regular points) =  1 extra credit (1 point).
+In addition to the weekly assignments, which focus on the details of module content, there are opportunities to complete more general assignments. These are listed on their own tab within blackboard.
 
-You can earn up to 10 extra credit points in the course.
+### Discussion Boards
 
-#### Extra-credit super bonus level (NEW 3/17/22)
+There will be opportunity to gain points through participation in discussion boards on Blackboard. See instructions on blackboard for individual discussion boards.
 
-If you max out your extra-credit by getting 60 regular points, and 10 extra points (see above), then congratulations! You have engaged deeply in course content and you have unlocked the new rules that could give you a higher grade. The new rules mean more of your grade can come from extra credit, and less of your grade can come from the exams. You still have to take the exams, but they will be low stress because your grade will not depend heavily on how you perform on the exams.
+### Assessments
 
-Here is what happens when you reach 60 regular points, plus 10 extra credit points in this course:
+There are three major assessments throughout the semester culminating in a final assessment conducted during final exam week. These assessments are used as an aid toward goal-setting and achievement in the course. The first two assessments focus on goal-setting and goal refinement with respect to engaging in course material. The final assessment focuses on goal-achievement, and feedback with respect to engaging in course material. Unless otherwise stated all major course assessments are conducted in person during regular class time (or during the scheduled final exam period). Bring a pen or pencil.
 
-1. NEW RATIO: All of your existing extra-credit is recomputed using a 2.5 to 1 ratio. For example, if you had accrued 50 regular points converted to 10 extra credits at a 5 to 1 ratio (50/5 = 10), then those points will now be converted at a 2.5 to 1 ratio (50/2.5 = 20). This means your extra credits just increased from 10 to 20.
-
-2. HIGHER MAX: Your extra credit total is increased from 10 points to a maximum of 40 points. This means that 100% of your whole course grade can come from quizzes/assignments/discussion board etc. You need to do at least 60 points worth, plus enough additional assignments to get 40 points of extra credit.
-
-3. NEW EXAM REQUIREMENT: To get the super bonus credit you are required to take the midterms and final. These exams will now be low stress and will not prevent you from getting your desired grade.
-
-### Exams
-
-There are two midterms and a final exam. All exams are worth 13.33 points each, for a total of 40 points toward the final grade. The exam format will be similar to the quizzes. **Taking the quizzes is practice for the exams**. The exams are NOT cumulative. Each exam covers the material from the preceding weeks.
-
-### Discussion Boards (NEW 2/18/22)
-
-There will be opportunity to gain points through participation in discussion boards on Blackboard. Points gained through discussion board participation will count toward the 60 point maximum for quizzes and assignments, or will add toward the 10 point extra credit maximum if you have already reached 60 points. See instructions on blackboard for individual discussion boards.
-
-### Grading
-
-There are 12 learning modules and three exams. The grading rubric is below:
+### Points and letter grades
 
 | Assignment |  Points| Total|
 |:----------|--------:|-------:|
-| 12 Weekly Modules | 5+ | up to 60|
-| Extra Credit | see above rules | up to 10*|
-| SUPER BONUS  |see above rules | up to 40*|
-| Midterm 1 | 13.33 | 13.33 |
-| Midterm 2 | 13.33 | 13.33 |
-| Final Exam | 13.33  | 13.33|
+| 12 Weekly Modules | 5+ | up to 75|
+| Assessment 1 | 5 | 5 |
+| Assessment 2 | 10 | 10 |
+| Final Assessment | 10  | 10|
 |||100|
-
-* See the rules for extra credit and super bonus that appear in the previous sections.
 
 Percentage grades are converted to letter grades according to the following rubric.
 
@@ -152,13 +133,11 @@ It is possible to complete an honors project and receive honors credit for this 
 
 ## Course Policies
 
-### Lateness and due dates
+### Due dates
 
-This is an asynchronous course that allows you some flexibility to work on the material according to your own schedule. However, there are also due dates, and expectations that you will be completing coursework on a weekly basis. You may be able to work ahead, but you are not encouraged to fall behind.
+Due dates are suggestions for completing coursework on a weekly basis. You may be able to work ahead, but you are not encouraged to fall behind.
 
-Each of the assignments, quizzes, and exams will be posted with a due date. A quiz or assignment will be open for a week-long period, and the work is expected to be completed within the assigned time frame. Late assignments may not be graded.
-
-Each exam will take place within a week-long period. This should allow everyone enough flexibility to take each exam during the exam week. You should email me if you have an exceptional circumstance preventing you from taking an exam during an exam week.
+You should email me if you have an exceptional circumstance preventing you from taking an assessment during an assessment week.
 
 ### Changes to the syllabus
 
@@ -166,7 +145,7 @@ The syllabus may be updated for clarity or to make adjustments for pedagogical p
 
 ### Individual versus group work
 
-**The default assumption is that all assigned work is individual work. Therefore, you should complete all course assignments, quizzes, midterms, and exams by yourself.** Make sure you understand the University's policy on Academic Integrity, described below. Any assignment that is not an individual assignment will be clearly labeled.
+**The default assumption is that all assigned work is individual work. Therefore, you should complete all coursework by yourself.** Make sure you understand the University's policy on Academic Integrity, described below. Any assignment that is not an individual assignment will be clearly labeled.
 
 ### Missing an Exam
 
@@ -176,7 +155,7 @@ In the event of an emergency, contact me as soon as possible. If you are missing
 
 ### Accessibility
 
-It is important to me that the course be accessible to all students. In order to receive disability-related academic accommodations students must first be registered with the Center for Student Disability Services. Students who have a documented disability or suspect they may have a disability are invited to set up an appointment with the Director of the Center for Student Disability Services, at 718-951-5538. If you have already registered with the Center for Student Disability Services please provide your professor with the course accommodation form and discuss your specific accommodation with him/her.
+In order to receive disability-related academic accommodations students must first be registered with the Center for Student Disability Services. Students who have a documented disability or suspect they may have a disability are invited to set up an appointment with the Director of the Center for Student Disability Services, at 718-951-5538. If you have already registered with the Center for Student Disability Services, please provide your professor with the course accommodation form and discuss your specific accommodation with him/her.
 
 ---
 
@@ -201,7 +180,7 @@ It is the responsibility of each student to understand and act in accordance wit
 
 ### University’s policy on Academic Integrity
 
-The faculty and administration of Brooklyn College support an environment free from cheating and plagiarism. Each student is responsible for being aware of what constitutes cheating and plagiarism and for avoiding both. The complete text of the CUNY Academic Integrity Policy and the Brooklyn College procedure for policy implementation can be found at <http://www.brooklyn.cuny.edu/bc/policies>. 
+The faculty and administration of Brooklyn College support an environment free from cheating and plagiarism. Each student is responsible for being aware of what constitutes cheating and plagiarism and for avoiding both. The complete text of the CUNY Academic Integrity Policy and the Brooklyn College procedure for implementing that policy can be found at [this site](http://www.brooklyn.cuny.edu/web/about/initiatives.php). If a faculty member suspects a violation of academic integrity and, upon investigation, confirms that violation, or if the student admits the violation, the faculty member MUST report the violation.
 
 ### FYI on cheating etc.
 
@@ -213,7 +192,7 @@ The above link lists many examples of cheating and plagiarism that are not allow
 - Do not give other students answers during an exam or quiz, or any other assignment that is an individual assignment
 - Do not copy work from another source and submit it as your own
 - Do not copy and paste text from the internet and submit it as your own words
-- Do not copy and paste text and slightly alter wording so that you think I will not notice that you copied the words
+- Do not copy and paste text and slightly alter wording to pass the work off as your own
 - Do not hire someone else to do the coursework for you
 - Do not copy and paste text into a paraphrasing app, and then submit the output of the paraphrasing app as your own work
 - Do not copy random words from the internet that have nothing to do with the assignment and submit them as your own work.
@@ -228,20 +207,6 @@ There is no excuse for cheating. Students who are caught cheating may receive a 
 
 ## FAQ
 
-If you have questions about the syllabus, please create a thread on the discussion board for this course on Blackboard. I will update this space with frequently asked questions
-
-## Grading Example
-
-A student completes many assignments and quizzes to accrue 100 assignment/quiz points. The same student scores 70% on all three exams. This is how their grade would be calculated, including extra credits. The student only receives 60 points for the 12 weekly modules, but the extra 40 points is converted to extra credit (40/5 = 8 extra credits). Their final grade goes from a B+ to an A.
-
-| Assignment |  Points| Total|
-|:----------|--------:|-------:|
-| 12 Weekly Modules | 100 | up to 60|
-| Midterm 1 | .7*13.33 = 9.331 | 9.331 |
-| Midterm 2 | .7*13.33 = 9.331 | 9.331 |
-| Final Exam | .7*13.33 = 9.331 | 9.331 |
-| Total |60+(9.331*3)|87.993 = B+|
-| Extra Credit | 100-60 = 40/5 | 8 extra credit|
-| Final Grade | 87.993 + 8 | 95.993 = A |
+If you have questions about the syllabus, please create a thread on the discussion board for this course on Blackboard.
 
 

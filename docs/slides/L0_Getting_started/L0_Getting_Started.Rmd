@@ -2,7 +2,7 @@
 title: 'PSYC 2530: Introduction to Cognitive Psychology'
 author: "Matthew J. C. Crump"
 date: "Last compiled `r format(Sys.time(), '%m/%d/%y')`"
-subtitle: Spring 2022, Welcome!
+subtitle: Fall 2022, Welcome!
 output:
   revealjs::revealjs_presentation:
     includes:
@@ -77,7 +77,7 @@ We will use blackboard for:
 
 1. Course Announcements
     - Make sure your email is up to date
-2. Weekly learning modules, quizzes, assignments, and exams
+2. Weekly learning modules, quizzes, assignments, and assessments
 3. Links to material on course website
 4. Asking questions (use discussion forum)
 
@@ -104,8 +104,7 @@ The textbook is:
 
 1. A free open-educational resource
 2. Web-book, available as pdf and epub
-3. Still in progress...
-
+3. Still in progress.
 
 :::
 
@@ -142,7 +141,7 @@ Any additional material will be made available for free through blackboard or th
 
 # Course Syllabus
 
-[Please read the syllabus](https://www.crumplab.com/cognition/articles/course_docs/Spring_2022_Psyc_2530_syllabus.html).
+[Please read the syllabus](https://www.crumplab.com/cognition/articles/course_docs/Fall_2022_Psyc_2530_syllabus.html).
 
 The most current version of the syllabus is located on the course website.
 
@@ -153,9 +152,9 @@ The most current version of the syllabus is located on the course website.
 
 12 Learning module weeks
 
-3 exam weeks (2 midterms, one final)
+3 assessments (including final)
 
-[Schedule is posted on the syllabus](https://www.crumplab.com/cognition/articles/course_docs/Spring_2022_Psyc_2530_syllabus.html#course-schedule)
+[Schedule is posted on the syllabus](https://www.crumplab.com/cognition/articles/course_docs/Fall_2022_Psyc_2530_syllabus.html#course-schedule)
 
 # Assessments and grading
 
@@ -163,47 +162,44 @@ There are 12 learning modules, and three exams. The grading rubric is below:
 
 | Assignment |  Points| Total|
 |:----------|--------:|-------:|
-| 12 Weekly Modules | 5+ | up to 60|
-| Extra Credit | Over 60/5 | up to 10|
-| Midterm 1 | 13.33 | 13.33 |
-| Midterm 2 | 13.33 | 13.33 |
-| Final Exam | 13.33  | 13.33|
+| 12 Weekly Modules | 5+ | up to 75|
+| Assessment 1 | 5 | 5 |
+| Assessment 2 | 10 | 10 |
+| Final Assessment | 10  | 10|
 |||100|
 
 # Weekly learning modules
 
 1. Posted weekly (or earlier) on Blackboard and Course Website
-2. Include readings, mini-lectures, and quizzes/assignments
-3. Complete the work within the week (submit by due date)
-4. Assignment choice (see next slide)
+2. Include readings, quizzes/assignments, supplementary lectures
+3. Complete the work within the week (submit by suggested due date)
+4. Lots of assignment choice (see next slide)
 
 # Assignment choice
 
-- modules have multiple possible assignments, (e.g., quiz and writing assignment).
+- modules have multiple possible assignments, (e.g., quiz and/or writing assignment).
 
 - you choose which assignments to complete.
 
-- Complete as many as you want, max 60 points toward final grade
+- Complete as many as you want, max 75 points toward final grade
 
 - If you miss an assignment that is OK, you can do an extra one in a future module
 
-# Extra-credit
+# Assessments
 
-- If you complete more than 60 points of assignments/quizzes, then your extra points will be converted to extra credit points ta a ratio of 5 to 1.
+- There are three major assessments, worth, 5, 10, and 10 points each.
 
-- 100 - 60 = 40/5 = 8 extra credit points
+- Assessments are conducted in-person during regular class time
 
-- maximum 10 extra credit points
+- Assessments are self-reflective and used to collaboratively set and achieve goals for engaging with the course material.
 
-# Exams
+# Grading/Ungrading
 
-- There are three exams, 13.33 points each
+- Except for the optional weekly quizzes, all assignments and major assessments are self-assessed. 
 
-- Exams will be open for a whole week
+- Students submit their assignment and recommend their own grades/points for the assignment
 
-- Exams are multiple choice, around 45+ questions, test content from preceding learning modules.
-
-- The questions are similar to the quiz questions. Quizzes are practice for the exams.
+- Upon submission of the final assessment, students give a recommendation for their final course grade
 
 # Academic Integrity
 
@@ -237,7 +233,7 @@ If you are running into issues, email me:
 
 # Next Steps
 
-Finish the getting started module by taking the quiz on blackboard, or completing the writing assignment.
+Finish the getting started module by taking the quiz on blackboard and completing the writing assignment.
 
 Then, you can begin the first official learning module:
 

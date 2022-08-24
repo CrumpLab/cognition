@@ -1,6 +1,6 @@
 ---
 title: "Getting Started"
-description: "This is a general orientation for PSYC 2530, Spring 2022. Start here to learn more about how this course will work."
+description: "This is a general orientation for PSYC 2530, Fall 2022. Start here to learn more about how this course will work."
 author: "Matt Crump"
 opengraph:
   image: 
@@ -9,7 +9,7 @@ opengraph:
   twitter:
     card: summary
     creator: "@MattCrumpLab"
-date: "1/7/2022"
+date: "8/24/2022"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Getting Started}
@@ -24,17 +24,13 @@ knitr::opts_chunk$set(
 )
 ```
 
-Welcome to the orientation learning module for PSYC 2530. There will be 12 learning modules throughout the course, each on a different domain in cognition. Each module will contain a similar structure and give you multiple ways to engage with the content.
+Welcome to the orientation learning module for PSYC 2530. We will cover everything here and more on the first day of class. See you there.
 
 ## Goals
 
 - quick course orientation
 - show you how learning modules will work
 - get you ready for the first week
-
-## Instructions
-
-Work through each of the following sections: Read, Watch/listen, and Engage. There will be a short quiz on blackboard as a part of the React section. This should take 15-30 minutes.
 
 ## Read
 
@@ -55,11 +51,11 @@ knitr::include_graphics("imgs/read.png")
 :::: {.card-body}
 ### Read the Syllabus
 
-Read the [syllabus for this course](https://www.crumplab.com/cognition/articles/course_docs/Spring_2022_Psyc_2530_syllabus.html).
+Read the [syllabus for this course](https://www.crumplab.com/cognition/articles/course_docs/Fall_2022_Psyc_2530_syllabus.html).
 
 If you have questions about the syllabus, then please ask them on the blackboard discussion forum.
 
-<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/articles/course_docs/Spring_2022_Psyc_2530_syllabus.html" role="button">Read</a>
+<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/articles/course_docs/Fall_2022_Psyc_2530_syllabus.html" role="button">Read</a>
 ::::
 :::
 ::::
@@ -77,7 +73,7 @@ If you have questions about the syllabus, then please ask them on the blackboard
 ::: {.col-md-10}
 
 
-View the slides directly as a web page or pdf download.
+View the slides.
 
 :::
 ::::
@@ -105,18 +101,11 @@ Web slide deck
 ::::
 :::
 
-::: {.col-md-5}
-:::: {.card-body}
-<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/slides/L0_Getting_started/L0_Getting_Started.pdf" role="button">
-PDF slide deck
-</a>
-::::
-:::
 
 ::::
 :::::
 
-
+<!--
 :::::{.card .border .border-2 .border-info}
 :::: {.row .g-0}
 ::: {.col-md-2}
@@ -146,6 +135,8 @@ Orientation video
 :::
 ::::
 :::::
+
+-->
 
 
 
