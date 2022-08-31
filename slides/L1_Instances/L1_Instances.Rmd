@@ -540,9 +540,12 @@ For example, what are the goals of reading processes?
 
 # Representational level
 
-The representational/algorithmic level refers to the inputs to a process, the transformations that modify the inputs (algorithm), and the outputs of the process.
+The representational/algorithmic level refers to the:
 
-For example, what kind of perceptual information is received for reading purposes, and how is transformed into semantic knowledge?
+1. inputs to a process, 
+2. the transformations that modify the inputs (algorithm), and 3. the outputs of the process.
+
+For example, what kind of perceptual information is received for reading purposes, and how perception transformed into semantic knowledge?
 
 # Hardware level
 
@@ -712,7 +715,11 @@ How should society decide whether or not to proceed with different kinds of rese
 
 # What's next?
 
-Continue by reviewing the QALMRI section in chapter 1, and watching the associated mini-lecture. Then complete the assignments for the first module posted on blackboard before the posted due date.
+Complete the quiz and/or assignment for this module by the suggested due date
+
+No class Monday (Labor Day)
+
+Next class is our first course assessment (Wednesday, September 7th)
 
 
 

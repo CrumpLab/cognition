@@ -1,4 +1,4 @@
-pandoc: 2.17.1.1
+pandoc: '2.18'
 pkgdown: 2.0.3
 pkgdown_sha: ~
 articles:
@@ -22,7 +22,7 @@ articles:
   L8_Memory_II: modules/L8_Memory_II.html
   L9_Implicit_Cognition: modules/L9_Implicit_Cognition.html
   oer: oer/oer.html
-last_built: 2022-06-09T11:57Z
+last_built: 2022-08-31T12:32Z
 urls:
   reference: https://crumplab.com/cognition/reference
   article: https://crumplab.com/cognition/articles

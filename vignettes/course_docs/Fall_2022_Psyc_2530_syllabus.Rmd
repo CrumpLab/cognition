@@ -127,6 +127,10 @@ Percentage grades are converted to letter grades according to the following rubr
 |D-	|60-63.32|
 |F	|0-59.99|
 
+## Attendance
+
+Students are expected to attend and participate in each class. An attendance record will be taken each class. Although there are no specific points for attendance, students will use their attendance and participation record to justify their self-assessments and final grade in the course.
+
 ## Honors Projects
 
 It is possible to complete an honors project and receive honors credit for this course. Please see the [honors project page](https://crumplab.com/cognition/articles/honors/honors.html) for more information.

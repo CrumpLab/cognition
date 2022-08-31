@@ -5,7 +5,7 @@
 <!-- badges: end -->
 
 
-**This course website is under development until the beginning of Fall 2022 classes at Brooklyn College of CUNY. Prior versions of this courses are archived in the branches of this repository.**
+**Updated for Fall 2022. Prior versions of this courses are archived in the branches of this repository.**
 
 This is the course website for Psyc 2530: Introductory Cognitive Psychology (Fall 2022), taught by Dr. Matthew Crump, at the Department of Psychology, Brooklyn College of CUNY. 
 
