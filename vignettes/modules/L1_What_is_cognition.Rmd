@@ -2,7 +2,7 @@
 title: "Learning Module 1: What is Cognition?"
 description: "This module presents an overview of Cognitive Psychology along with a tutorial on reading primary research articles. Read Chapter 1 from the textbook, watch the mini-lectures, and complete the quiz and/or writing assignment by the due date."
 author: "Matt Crump"
-date: "1/7/2022"
+date: "8/30/2022"
 opengraph:
   image: 
     src: "https://www.crumplab.com/cognition/reference/figures/L1_cognition.jpg"
