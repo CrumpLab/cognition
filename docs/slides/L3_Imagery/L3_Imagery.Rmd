@@ -410,21 +410,19 @@ An ongoing question is what are the representations underlying our cognition?
 :::: {.row}
 ::: {.col-md-6}
 
-## Analog/pictorial
+**Analog/pictorial**
 
-Image-like representation
-
-Analogs of pictures
+- Image-like representation
+- Analogs of pictures
 
 :::
 
 ::: {.col-md-6}
 
-## Propositional
+**Propositional**
 
-Representation based on symbols and rules
-
-Not image-like
+- Representation based on symbols and rules
+- Not image-like
 
 :::
 ::::
@@ -506,9 +504,9 @@ A quote from his paper:
 
 # What's next
 
-Continue working through the readings and mini-lectures for this learning module. Then complete quizzes/assignments by the deadline.
+Complete the quiz and/or writing assignment for the mental imagery module (suggested due date is Sunday, September 18th)
 
-When you are finished move onto the next learning module where we will cover eugenics, psychology, and intelligence testing.
+Read Chapters 3 and 4 on Eugenics, Psychology, and Intelligence testing, which we discuss next week.
 
 
 
