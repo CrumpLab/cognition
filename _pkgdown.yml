@@ -102,6 +102,8 @@ navbar:
         href: articles/modules/L12_JDM.html
       - text: General Assignments
         href: articles/modules/General_Assignments.html
+      - text: Assessments
+        href: articles/modules/Assessments.html
     slides:
       text: Slides
       menu:
@@ -172,6 +174,7 @@ articles:
   - '`modules/L11_Language`'
   - '`modules/L12_JDM`'
   - '`modules/General_Assignments`'
+  - '`modules/Assessments`'
 - title: Open-educational Resource Development
   desc: ~
   contents:
