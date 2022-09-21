@@ -46,7 +46,7 @@ Reading for today was chapter 4 [Intelligence testing](https://www.crumplab.com/
 :::: {.row}
 ::: {.col-md-6}
 
-## Everyone knows what that means
+**Everyone knows what that means**
 
 ```{r}
 knitr::include_graphics("imgs/200.gif")
@@ -56,7 +56,7 @@ knitr::include_graphics("imgs/200.gif")
 
 ::: {.col-md-6}
 
-## Hmmm, the more I think about it...
+**Hmmm, the more I think about it...**
 
 ```{r}
 knitr::include_graphics("imgs/200-1.gif")
@@ -79,13 +79,13 @@ knitr::include_graphics("imgs/200-1.gif")
 
 - A eugenics goal was to develop mental tests, test whole segments of society, then deploy positive and negative eugenic social policies on people depending on their test results
 
-- Psychologists committed to the eugenics movement "race" to develop suitable mental tests
+- Psychologists committed to the eugenics movement "raced" to develop suitable mental tests during the turn of the century
 
 # Turn of the century (1900)
 
-Psychologists around the world are developing tests to measure people on numerous dimensions (mental, physical, health, etc.)
+- Psychologists around the world are developing tests to measure people on numerous dimensions (mental, physical, health, etc.)
 
-National governments (UK, Germany, France, USA) are beginning to use, or consider using tests in conjunction with social policy and decision-making.
+- National governments (UK, Germany, France, USA) are beginning to use, or consider using tests in conjunction with social policy and decision-making.
 
 # James Mckeen Cattell (1860-1944)
 
@@ -113,7 +113,7 @@ knitr::include_graphics("imgs/Cattell.jpg")
 
 # Cattell as Galton's acolyte
 
-Cattell visited Galton in UK, popularized Galton's psychological and eugenics mission in the USA
+Cattell visited Galton in the UK and popularized Galton's psychological and eugenics mission in the USA
 
 - Conducted research in the style of Galton, motivated by eugenics
 
@@ -228,7 +228,7 @@ As mentioned previously, several other psychologists around the world were attem
 
 The French government was already enacting social policies to institutionalize "unfit" children
 
-Children were being sent-away on the basis of subjective judgments from teacher's and parents.
+Children were being sent away on the basis of subjective judgments from teachers and parents.
 
 Binet thought objective mental tests would allow for a more rational decision-policy that could be used to optimize the process.
 
@@ -256,11 +256,11 @@ You can read it all [here](https://archive.org/details/developmentofint00bineric
 :::: {.row}
 ::: {.col-md-6}
 
-Binet created a variety puzzle-like tasks
+Binet created a variety of puzzle-like tasks
 
 Chose tasks that he thought required mental processing
 
-Systematically measured how children of different ages perform on each tasks
+Systematically measured how children of different ages perform on each task
 
 :::
 
@@ -307,7 +307,7 @@ He sought a method to distill his measurements into a convenient and simple scal
 
 - Children develop physically and mentally as they grow, and this development is reflected in their age
 
-- Binet assumed that children’s mental abilities steadily increased ever year until they became adults. 
+- Binet assumed that mental abilities steadily increased every year until adulthood. 
 
 # Linking Age to mini-test results
 
@@ -317,11 +317,11 @@ No single mini-test indicates anything about your "mental age"...
 
 # Norm-based comparison
 
-Binet's measurements had meaning through comparison to empirical norms.
+- Binet's measurements had meaning through comparison to empirical norms.
 
-Empirical norms are existing measurements of how other children performed on the test
+- Empirical norms are existing measurements of how other children performed on the test
 
-The large empirical database allowed Binet to assess how anyone performs the mini-tests compared to the groups of children he measured.
+- The large empirical database allowed Binet to assess how anyone performs the mini-tests compared to the groups of children he measured.
 
 # Algorithms for computing mental age
 
@@ -351,11 +351,11 @@ knitr::include_graphics("imgs/Binet_school.png")
 
 # Meaning of modern IQ?
 
-Binet's scale was in "mental" years
+- Binet's scale was in "mental" years
 
-Modern "intelligence tests" use a standardized scale, often termed IQ or intelligence quotient
+- Modern "intelligence tests" use a standardized scale, often termed IQ or intelligence quotient
 
-Binet died in 1911, and his strategy for mental testing was quickly adopted by American psychologists for the purposes of the eugenics movement.
+- Binet died in 1911, and his strategy for mental testing was quickly adopted by American psychologists for the purposes of the eugenics movement.
 
 #  Roadmap
 
@@ -461,9 +461,9 @@ Eugenicists were interested in using mental tests in the war effort
 
 Yerkes, R. M. (1918). Psychology in relation to the war. Psychological Review, 25(2), 85–115. https://doi.org/10/dhdj4j
 
-APA created several committees to determine how psychologists could help the war effort.
+- APA created several committees to determine how psychologists could help the war effort.
 
-Many of them were committed to the eugenics movement, and one-time APA presidents, including Robert Yerkes, Madison Bentley, Edward Thorndike, John B. Watson, Walter D. Scott, Robert Woodworth, and Carl Seashore
+- Many of them were committed to the eugenics movement, and one-time APA presidents, including Robert Yerkes, Madison Bentley, Edward Thorndike, John B. Watson, Walter D. Scott, Robert Woodworth, and Carl Seashore
 
 # The Alpha-Beta Test
 
@@ -507,6 +507,28 @@ knitr::include_graphics("imgs/Yerkes_alpha_test.png")
 
 :::
 ::::
+
+# More Examples
+
+:::: {.row}
+::: {.col-md-6}
+
+```{r, out.width="100%"}
+knitr::include_graphics("imgs/beta_example.png")
+```
+
+:::
+
+::: {.col-md-6}
+
+```{r, out.width="100%"}
+knitr::include_graphics("imgs/alpha_example.png")
+```
+
+:::
+::::
+
+
 
 # Racial bias
 
@@ -702,6 +724,8 @@ knitr::include_graphics("imgs/What_happened_to_moratorium.png")
 # Further reading
 
 [The Journal of Black Psychology](https://journals.sagepub.com/home/jbp) has published many excellent articles on intelligence testing and its impacts on society
+
+Guthrie, Robert V. (1976, 2004 2nd ed.) "Even the Rat was White" A Historical View of Psychology.
 
 
 # What's next
