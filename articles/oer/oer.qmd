@@ -52,7 +52,11 @@ You can fork, clone, or download the repository to your local computer
 
 ### Overarching Structure
 
-The cognition repository is structured as a [vertical](https://wwww.crumplab.com/vertical) project. This means that it is an R studio project with a file structure consistent with the R package syntax. As a result, the contents is a 'pretend' R package. In fact, the repository does contain some R functions that can be installed as an R package.
+The cognition repository is structured as a [quarto](https://quarto.org) project. 
+
+A previous version structured as a vertical project, and the remaining part of this document needs to be updated ASAP. 
+
+This means that it is an R studio project with a file structure consistent with the R package syntax. As a result, the contents is a 'pretend' R package. In fact, the repository does contain some R functions that can be installed as an R package.
 
 Adopting the R package syntax provides some structure for organizing the assets, and it allows use of the [pkgdown](https://pkgdown.r-lib.org) to compile the course website.
 
