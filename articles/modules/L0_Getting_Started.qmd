@@ -4,7 +4,7 @@ description: "This is a general orientation for PSYC 2530, Fall 2022. Start here
 author: "Matt Crump"
 opengraph:
   image: 
-    src: man/figures/logo.png
+    src: imgs/logo.png
     alt: "Logo for cognition website"
   twitter:
     card: summary

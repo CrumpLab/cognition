@@ -3,10 +3,9 @@ title: "L1: What is Cognition?"
 description: "This module presents an overview of Cognitive Psychology along with a tutorial on reading primary research articles. Read Chapter 1 from the textbook, watch the mini-lectures, and complete the quiz and/or writing assignment by the due date."
 author: "Matt Crump"
 date: "8/30/2022"
+image: '../../images/L1_cognition.jpg'
+image-alt: "Learning module 1: What is Cognition?"
 opengraph:
-  image: 
-    src: "https://www.crumplab.com/cognition/reference/figures/L1_cognition.jpg"
-    alt: "Learning module 1: What is Cognition?"
   twitter:
     card: summary_large_image
     creator: "@MattCrumpLab"

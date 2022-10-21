@@ -3,10 +3,9 @@ title: "L8: Memory II"
 description: "This module reviews memory research beyond the 1960s, including a focus on tasks, phenomena, and principles of memory."
 author: "Matt Crump"
 date-modified: last-modified
+image: '../../images/L8_memory_II.jpg'
+image-alt: "Learning Module 8: Memory II"
 opengraph:
-  image: 
-    src: "https://www.crumplab.com/cognition/reference/figures/L8_memory_II.jpg"
-    alt: "Learning Module 8: Memory II"
   twitter:
     card: summary_large_image
     creator: "@MattCrumpLab"

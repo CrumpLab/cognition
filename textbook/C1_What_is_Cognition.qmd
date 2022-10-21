@@ -10,6 +10,7 @@ shift-heading-level-by: 1
 number-sections: true
 reading-time: true
 bibliography: 'CogPsyTextbook.bib'
+image: "imgs/cover.jpg"
 css: custom.css
 csl: apa.csl
 toc-depth: 4

@@ -1,6 +1,14 @@
 ---
 title: "PSYC 2530 Introductory Cognitive Psychology"
+description: "A free course and open-educational resourse for introductory cognitive psychology"
+image: 'images/cognition_social.jpg'
+image-alt: "A free course and open-educational resourse for introductory cognitive psychology"
+opengraph:
+  twitter:
+    card: summary_large_image
+    creator: "@MattCrumpLab"
 editor: source
+title-block-style: none
 ---
 
 **Updated for Fall 2022. Prior versions of this courses are archived in the branches of this repository.**

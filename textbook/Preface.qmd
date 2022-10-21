@@ -1,6 +1,7 @@
 ---
 title: "Preface"
 author: "Matthew J. C. Crump"
+image: "imgs/cover.jpg"
 ---
 
 Still under development for Fall 2021, but in draft and in-use.

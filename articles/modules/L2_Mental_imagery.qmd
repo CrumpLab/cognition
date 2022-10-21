@@ -3,10 +3,9 @@ title: "L2: Mental Imagery"
 description: "This module overviews research on mental imagery spanning three centuries. Read Chapter 2 from the textbook, watch the mini-lectures, and complete the quiz and/or writing assignment by the due date."
 author: "Matt Crump"
 date-modified: last-modified
+image: '../../images/L2_imagery.jpg'
+image-alt: "Learning Module 2: Mental Imagery"
 opengraph:
-  image: 
-    src: "https://www.crumplab.com/cognition/reference/figures/L2_imagery.jpg"
-    alt: "Learning Module 2: Mental Imagery"
   twitter:
     card: summary_large_image
     creator: "@MattCrumpLab"

@@ -3,10 +3,9 @@ title: "L6: Information Processing"
 description: "This module discusses cognition from the information processing tradition including processing stages, information, and capacity limitations, which became popular research topics around the 1950s and 60s."
 author: "Matt Crump"
 date-modified: last-modified
+image: '../../images/L6_information.jpg'
+image-alt: "Learning Module 6: Information Processing"
 opengraph:
-  image: 
-    src: "https://www.crumplab.com/cognition/reference/figures/L6_information.jpg"
-    alt: "Learning Module 6: Information Processing"
   twitter:
     card: summary_large_image
     creator: "@MattCrumpLab"

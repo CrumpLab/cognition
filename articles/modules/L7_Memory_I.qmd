@@ -3,10 +3,9 @@ title: "L7: Memory I"
 description: "This module overviews the beginnings of memory research in cognition, covering a few early researchers, the emergence of different research traditions in the study of memory, and the information-processing approach to memory."
 author: "Matt Crump"
 date-modified: last-modified
+image: '../../images/L7_memory_I.jpg'
+image-alt: "Learning Module 7: Memory I"
 opengraph:
-  image: 
-    src: "https://www.crumplab.com/cognition/reference/figures/L7_memory_I.jpg"
-    alt: "Learning Module 7: Memory I"
   twitter:
     card: summary_large_image
     creator: "@MattCrumpLab"

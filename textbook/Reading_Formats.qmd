@@ -1,6 +1,7 @@
 ---
 title: "Reading Formats"
 author: "Matthew J. C. Crump"
+image: "imgs/cover.jpg"
 ---
 
 This book is currently readable on the web and as a downloadable .pdf. The web version has better formatting and additional content.

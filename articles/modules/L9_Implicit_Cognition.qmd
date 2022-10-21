@@ -1,6 +1,6 @@
 ---
 title: "L9: Implicit Cognition"
-description: ""
+description: "A learning module on implicit cognition for Psyc 2530."
 author: "Matt Crump"
 date-modified: last-modified
 order: 9

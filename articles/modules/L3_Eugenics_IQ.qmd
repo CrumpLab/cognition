@@ -3,10 +3,9 @@ title: "L3: Eugenics, Psychology, and intelligence testing"
 description: "This module describes the eugenics movement and socio-historical context around early research into cognitive abilities and psychology."
 author: "Matt Crump"
 date-modified: last-modified
+image: '../../images/L3_eugenics.jpg'
+image-alt: "Learning Module 3: Eugenics, Psychology, and intelligence testing"
 opengraph:
-  image: 
-    src: "https://www.crumplab.com/cognition/reference/figures/L3_eugenics.jpg"
-    alt: "Learning Module 3: Eugenics, Psychology, and intelligence testing"
   twitter:
     card: summary_large_image
     creator: "@MattCrumpLab"

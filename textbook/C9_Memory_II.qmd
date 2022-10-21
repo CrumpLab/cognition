@@ -11,6 +11,7 @@ number-sections: true
 reading-time: true
 css: custom.css
 bibliography: 'CogPsyTextbook.bib'
+image: "imgs/cover.jpg"
 csl: apa.csl
 toc-depth: 4
 citation:

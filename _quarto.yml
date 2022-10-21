@@ -20,7 +20,6 @@ website:
   open-graph: true
   twitter-card:
     creator: "@MattCrumpLab"
-    image: "/images/cognition_social.jpg"
   
   title: "cognition"
   navbar:
