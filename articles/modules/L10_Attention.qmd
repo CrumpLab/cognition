@@ -1,0 +1,158 @@
+---
+title: "L10: Attention"
+description: ""
+author: "Matt Crump"
+date-modified: last-modified
+order: 10
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Goals
+
+
+## Instructions 
+
+Work through each of the following Read, Watch/listen, and Engage sections. You have the full week to complete any quizzes or assignments for this module.
+
+## Read 
+
+:::::{.card .border .border-2 .border-info .mb-3}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/read.png")
+```
+
+(Optional)
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+The following book chapter is assigned as an optional reading. This reading is posted as a pdf on blackboard. It provides an overview of many areas of research in attention beyond the scope of the mini-lectures
+
+Strayer, D. A., & Drews, F. A. (2007). Attention. In F. T. Durso (Ed.), Handbook of Applied Cognition (2nd Edition, p. 26). John Wiley & Sons, Ltd.
+
+
+::::
+:::
+::::
+:::::
+
+
+## Watch/Listen {.mt-5}
+
+There are two mini-lectures for this module. 
+
+:::::{.card .border .border-2 .border-info .mb-3}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/watch.png")
+```
+
+Part 1
+
+[slides](https://www.crumplab.com/cognition/slides/L13_Attention/L13_Attention.html#/)
+
+[pdf](https://www.crumplab.com/cognition/slides/L13_Attention/L13_Attention.pdf)
+
+36 minutes
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5U__1ODH8CU" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
+
+:::::{.card .border .border-2 .border-info}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/logo.png")
+```
+
+Part 2
+
+35 Min
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kjIpOB2MzeE" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
+## Engage {.mt-5}
+
+When you are ready complete any or all of the following assignments.
+
+1. QUIZ: Complete the L10: Attention quiz (5 points, on blackboard)
+2. Experiment participation and writing: (5 points, instructions below, submit on blackboard)
+
+Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
+
+### Participate in a short Stroop experiment
+
+5 points
+
+This assignment involves participating in an online Stroop experiment, and relating your own results to the predictions described in lecture. 
+
+The last part of the lecture describes a Stroop experiment designed to test whether people can deliberately control their attention toward word information. This involves performing the Stroop task while deliberately ignoring word information or  deliberately focusing on word information.
+
+Your assignment has two parts:
+
+1. Try the Stroop experiment yourself and **record your results** that are displayed at the end of the experiment. The experiment takes about 5 minutes and can be completed through your browser (you need a keyboard).
+
+<https://experiments.crumplab.com/publix/3/start?batchId=32&generalMultiple>
+
+**Important:** Participation is completely voluntary and anonymous. If you agree to participate and complete the experiment, then your anonymous data will be recorded and analyzed. Although this is mainly a classroom demo, it is possible that the results could be useful to the scientific community, and they may be shared or published in the future. 
+
+2. Describe the predictions for performance in this task from lecture, and then report whether or not your own data followed the predicted pattern. Specifically, describe whether or not you found a bigger or smaller Stroop effect when you were ignoring the words compared to when you were focusing on the words.
+
+### Brainstorm a Stroop Experiment
+
+This assignment does not involved participation in a Stroop experiment, but it does involve brainstorming a new manipulation capable of changing the size of the Stroop effect. Your proposed manipulation should be different from the one described in the lecture.
+
+Your assignment has three components.
+
+1. Propose an experimental manipulation with two groups or conditions. One group or condition should cause the color-word Stroop effect to become smaller, and the other group or condition should cause the color-word Stroop effect to become larger. Describe your manipulation for each group/condition
+
+2. Explain why you think the manipulation would cause an increase or decrease in the Stroop effect for each group/condition.
+
+3. Create a graph of the predicted results for your proposed manipulation. This graph should show predicted means for congruent and incongruent items in both groups, and it should correctly show which group/condition you expect to have an increased Stroop effect, and which group you expect to show a decreased Stroop effect.
+
+This assignment is worth 5 points.
+

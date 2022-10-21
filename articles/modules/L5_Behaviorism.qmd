@@ -1,0 +1,190 @@
+---
+title: "L5: Behaviorism"
+description: "This module discusses the school of behaviorism and how it legitimized behavior as a topic of scientific inquiry. The core claims and goals of behaviorism continue to have implications for the cognitive sciences and society in general."
+author: "Matt Crump"
+date-modified: last-modified
+opengraph:
+  image: 
+    src: "https://www.crumplab.com/cognition/reference/figures/L5_behaviorism.jpg"
+    alt: "Learning Module 5: Behaviorism"
+  twitter:
+    card: summary_large_image
+    creator: "@MattCrumpLab"
+order: 5
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Goals
+
+
+## Instructions 
+
+Work through each of the following Read, Watch/listen, and Engage sections. You have the full week to complete any quizzes or assignments for this module.
+
+## Read 
+
+:::::{.card .border .border-2 .border-info .mb-3}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/read.png")
+```
+
+60 minutes
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+### Chapter 6: Behaviorism
+
+Describes the school of behaviorism and how it legitimized behavior as a topic of scientific inquiry. The core claims and goals of behaviorism continue to have implications for the cognitive sciences and society in general.
+
+<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/textbook/behaviorism.html" role="button">Read</a>
+::::
+:::
+::::
+:::::
+
+
+## Watch/Listen {.mt-5}
+
+There are two mini-lectures for this module. 
+
+:::::{.card .border .border-2 .border-info .mb-3}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/watch.png")
+```
+
+Lecture 1
+
+Positivism
+Watson
+
+[slides](https://www.crumplab.com/cognition/slides/L8_Behaviorism/L8_Behaviorism.html#/)
+
+[pdf](https://www.crumplab.com/cognition/slides/L8_Behaviorism/L8_Behaviorism.pdf)
+
+25 minutes
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8dwLY11CEtw" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
+
+:::::{.card .border .border-2 .border-info}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/watch.png")
+```
+
+Lecture 2
+
+Tolman
+Hull
+Skinner
+
+[slides](https://www.crumplab.com/cognition/slides/L8_Behaviorism/L8_Behaviorism.html#/)
+
+[pdf](https://www.crumplab.com/cognition/slides/L8_Behaviorism/L8_Behaviorism.pdf)
+
+50 minutes
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hqxjn28HGwE" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
+## Engage {.mt-5}
+
+:::::{.card .border .border-2 .border-info}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/engage.png")
+```
+
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+When you are ready complete any or all of the following assignments.
+
+1. QUIZ: Complete the L5: Behaviorism quiz (5 points, on blackboard)
+2. Writing: Choose from any or all of the writing assignments below (5 points, instructions below, submit on blackboard)
+
+Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
+::::
+:::
+::::
+:::::
+
+<br>
+
+
+### Rabbit Hole: listen and react
+
+5 points
+
+Listen to the Rabbit hole podcast by the New York Times. You should listen to the "Start here" podcast (5 minute overview), and then the first act "One: Wonderland" (26 minutes). Feel free to listen to more.
+
+<https://www.nytimes.com/2020/04/22/podcasts/rabbit-hole-prologue.html>
+<https://www.nytimes.com/2020/04/16/podcasts/rabbit-hole-internet-youtube-virus.html>
+
+In at least 250 words, describe connections between the behaviorist goals of predicting and controlling behavior for the purposes of social engineering, with the issues discussed in the podcast. Is the youtube algorithm a successful modern example of the ideas of behaviorism? Are there potential positive and/or negative implications for society?
+
+
+### Watson: A controversial behaviorist
+
+5 points
+
+I suggested that J.B. Watson was a controversial researcher who promoted behaviorism. If you would like to learn more about why J.B. Watson was a controversial figure, then this assignment is for you. Your task is to read Oksana Yakushko's chapter 5, "From the Science of Human Betterment to the Science of Behavioral Control" (available on blackboard). This chapter makes useful connections between eugenics and behaviorism, with a focus on J. B. Watson as a controversial figure.
+
+
+In 250 words, write a reflection on what you learned from this chapter. 
+
+
+

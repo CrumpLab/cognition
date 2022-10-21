@@ -1,0 +1,169 @@
+---
+title: "L0: Getting Started"
+description: "This is a general orientation for PSYC 2530, Fall 2022. Start here to learn more about how this course will work."
+author: "Matt Crump"
+opengraph:
+  image: 
+    src: man/figures/logo.png
+    alt: "Logo for cognition website"
+  twitter:
+    card: summary
+    creator: "@MattCrumpLab"
+date: "8/24/2022"
+order: 0 
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Welcome to the orientation learning module for PSYC 2530. We will cover everything here and more on the first day of class. See you there.
+
+## Goals
+
+- quick course orientation
+- show you how learning modules will work
+- get you ready for the first week
+
+## Read
+
+
+:::::{.card .border .border-2 .border-info}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/read.png")
+```
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+### Read the Syllabus
+
+Read the [syllabus for this course](https://www.crumplab.com/cognition/articles/course_docs/Fall_2022_Psyc_2530_syllabus.html).
+
+If you have questions about the syllabus, then please ask them on the blackboard discussion forum.
+
+<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/articles/course_docs/Fall_2022_Psyc_2530_syllabus.html" role="button">Read</a>
+::::
+:::
+::::
+:::::
+
+## Watch/Listen {.mt-5}
+
+:::::{.card .border .border-2 .border-info .mb-3}
+
+:::: {.grid}
+::: {.g-col-3}
+
+:::
+
+::: {.g-col-9}
+
+
+View the slides.
+
+:::
+::::
+
+:::: {.grid .g-0}
+
+
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center', out.width="100%"}
+knitr::include_graphics("imgs/slides.png")
+```
+
+::::
+:::
+
+::: {.g-col-5}
+:::: {.card-body}
+
+<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/slides/L0_Getting_started/L0_Getting_Started.html#/" role="button">
+Web slide deck
+</a>
+
+::::
+:::
+
+
+::::
+:::::
+
+<!--
+:::::{.card .border .border-2 .border-info}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/watch.png")
+```
+
+Orientation video
+
+[slides](https://www.crumplab.com/cognition/slides/L0_Getting_started/L0_Getting_Started.html#(1))
+
+15 mins
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nZsAg8RzFd4" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
+-->
+
+
+
+## Engage {.mt-5}
+
+:::::{.card .border .border-2 .border-info}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/engage.png")
+```
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+
+When you are ready complete the assignments in the getting started module on Blackboard. Both assignments are short and worth 2.5 points each (normally assignments will be worth 5 points each).
+
+1. Complete the getting started quiz (2.5 points)
+2. Complete the short writing assignment (2.5 points)
+
+Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
+
+
+::::
+:::
+::::
+:::::
+

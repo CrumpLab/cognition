@@ -1,7 +1,0 @@
-# currently overrides _pkgdown.yml when building index.html
-template:
-  opengraph:
-    image:
-      src: cognition_social.jpg
-    twitter:
-      card: summary_large_image

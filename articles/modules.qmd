@@ -1,0 +1,10 @@
+---
+title: "Learning Modules"
+listing:
+  contents: modules
+  type: table
+  categories: false
+  sort-ui: false
+  filter-ui: false
+---
+

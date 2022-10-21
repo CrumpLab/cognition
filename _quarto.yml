@@ -1,0 +1,110 @@
+project:
+  type: website
+  render: 
+    - "*.qmd"
+    - "!*.rmd"
+  output-dir: docs
+  resources:
+    - "images/"
+    - "slides/"
+  
+
+website:
+  site-url: "https://crumplab.com/cognition/"
+  
+  google-analytics: "G-0PT8LKEC0K"
+  
+  repo-url: https://github.com/CrumpLab/cognition
+  repo-actions: [edit, issue]
+  
+  open-graph: true
+  twitter-card:
+    creator: "@MattCrumpLab"
+    image: "/images/cognition_social.jpg"
+  
+  title: "cognition"
+  navbar:
+    logo: "images/logo.png"
+    title: false
+    align: center
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Syllabus"
+        file: articles/course_docs/Fall_2022_Psyc_2530_syllabus.qmd
+      - text: "Textbook"
+        file: textbook/index.qmd
+      - text: "Learning Modules"
+        file: articles/modules.qmd
+      - text: "Slides"
+        menu:
+          - text: Lecture 0 - Getting Started
+            href: slides/L0_Getting_started/L0_Getting_Started.html
+          - text: Lecture 1 - What is Cognition?
+            href: slides/L1_Instances/L1_Instances.html
+          - text: Lecture 2 - Reading Research
+            href: slides/L2_QALMRI/L2_QALMRI.html
+          - text: Lecture 3 - Mental Imagery
+            href: slides/L3_Imagery/L3_Imagery.html
+          - text: Lecture 4 - Psychology and Eugenics
+            href: slides/L4_Eugenics/L4_Eugenics.html
+          - text: Lecture 5 - Intelligence Testing
+            href: slides/L5_IQ/L5_IQ.html
+          - text: Lecture 6 - Associations
+            href: slides/L6_Associations/L6_Associations.html
+          - text: Lecture 8 - Behaviorism
+            href: slides/L8_Behaviorism/L8_Behaviorism.html
+          - text: Lecture 9 - Information Processing
+            href: slides/L9_Information/L9_Information.html
+          - text: Lecture 10 - Memory I
+            href: slides/L10_Memory_1/L10_Memory_1.html
+          - text: Lecture 11 - Memory II
+            href: slides/L11_Memory_2/L11_Memory_2.html
+          - text: Lecture 12 - Implicit Influences
+            href: slides/L12_Implicit/L12_Implicit.html
+          - text: Lecture 13 - Attention
+            href: slides/L13_Attention/L13_Attention.html
+          - text: Lecture 14 - Language
+            href: slides/L14_Language/L14_Language.html
+          - text: Lecture 15 - Judgment and Decision-making
+            href: slides/L15_JDM/L15_JDM.html
+      - text: "Honors"
+        file: articles/honors/honors.qmd
+      - text: "Additional Resources"
+        file: articles/course_docs/resources.qmd
+    right: 
+      - text: "OER"
+        file: articles/oer/oer.qmd
+      - icon: github
+        href: https://github.com/CrumpLab/cognition
+        aria-label: GitHub
+  sidebar:
+    - title: "Textbook"
+      logo: images/logo.png
+      contents:
+        - textbook/index.qmd
+        - textbook/Preface.qmd
+        - textbook/Reading_Formats.qmd
+        - textbook/C1_What_is_Cognition.qmd
+        - textbook/C2_Mental_Imagery.qmd
+        - textbook/C3_Eugenics.qmd
+        - textbook/C4_Intelligence_testing.qmd
+        - textbook/C5_Associations.qmd
+        - textbook/C6_Behaviorism.qmd
+        - textbook/C7_Information_Processing.qmd
+        - textbook/C8_Memory_I.qmd
+        - textbook/C9_Memory_II.qmd
+    - title: "Learning Modules"
+      logo: images/logo.png
+      contents: articles/modules/*
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - custom.scss
+    css: styles.css
+    toc: true
+
+editor: source
+

@@ -1,0 +1,226 @@
+---
+title: "L3: Eugenics, Psychology, and intelligence testing"
+description: "This module describes the eugenics movement and socio-historical context around early research into cognitive abilities and psychology."
+author: "Matt Crump"
+date-modified: last-modified
+opengraph:
+  image: 
+    src: "https://www.crumplab.com/cognition/reference/figures/L3_eugenics.jpg"
+    alt: "Learning Module 3: Eugenics, Psychology, and intelligence testing"
+  twitter:
+    card: summary_large_image
+    creator: "@MattCrumpLab"
+order: 3
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Goals
+
+
+## Instructions 
+
+Work through each of the following Read, Watch/listen, and Engage sections. You have the full week to complete any quizzes or assignments for this module.
+
+## Read 
+
+:::::{.card .border .border-2 .border-info .mb-3}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/read.png")
+```
+
+R1
+
+25 minutes
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+### Chapter 3: Eugenics and Psychology
+
+Describes the eugenics movement and socio-historical context around early research into cognitive abilities and psychology.
+
+<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/textbook/eugenics-and-psychology.html" role="button">Read</a>
+::::
+:::
+::::
+:::::
+
+
+:::::{.card .border .border-2 .border-info}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/read.png")
+```
+
+R2
+
+30 minutes
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+### Chapter 4: Intelligence testing
+
+Discusses early intelligence tests and historical examples of how the tests were used in the context of the eugenics movement.
+
+<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/textbook/intelligence-testing.html" role="button">Read</a>
+::::
+:::
+::::
+:::::
+
+## Watch/Listen {.mt-5}
+
+There are two mini-lectures for this module. 
+
+:::::{.card .border .border-2 .border-info .mb-3}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/watch.png")
+```
+
+Lecture 1
+
+Eugenics overview
+
+[html slides](https://www.crumplab.com/cognition/slides/L4_Eugenics/L4_Eugenics.html#(1))
+
+[pdf](https://www.crumplab.com/cognition/slides/L4_Eugenics/L4_Eugenics.pdf)
+
+50 min
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-r8LfxCLSzs" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
+
+:::::{.card .border .border-2 .border-info}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/watch.png")
+```
+
+Lecture 2
+
+Intelligence 
+
+[html slides](https://www.crumplab.com/cognition/slides/L5_IQ/L5_IQ.html#(1))
+
+[pdf](https://www.crumplab.com/cognition/slides/L5_IQ/L5_IQ.pdf)
+
+45 min
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ej_MZ2KKoo4" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
+## Engage {.mt-5}
+
+
+:::::{.card .border .border-2 .border-info}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/engage.png")
+```
+
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+When you are ready complete any or all of the following assignments.
+
+1. QUIZ: Complete the L3: Eugenics, Psychology, and intelligence testing quiz (5 points, on blackboard)
+2. Writing: There are two reading/writing assignments to choose from (5 points, instructions below, submit on blackboard). You can choose to do both or neither.
+
+Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
+::::
+:::
+::::
+:::::
+
+<br>
+
+
+
+### L3 Writing 1: The formation of ABPSi
+
+This assignment involves reading a paper about the formation of the Association of Black Psychologists, and then completing a writing activity. The citation for the paper is:
+
+Williams, R. (1974). A History of the Association of Black Psychologists: Early Formation and Development. Journal of Black Psychology, 1(1), 9–24. https://doi.org/10/gg3hq4
+
+You can obtain the paper through the library, or download it from this assignment on blackboard.
+
+This is a fairly open-ended writing assignment. Your task is to read the paper, and then describe what you learned from the paper in at least 200 words using full sentences (feel free to write more if you want). Submit your writing to this assignment posted on blackboard.
+
+5 points
+
+This assignment will be graded pass/fail, with a possibility of partial points. I am looking for evidence that you engaged in the reading and writing process.
+
+
+### L3 Writing 2: APA's apology
+
+In October 2021, the American Psychological Association issued an apology to People of Color for APA’s Role in Promoting, Perpetuating, and Failing to Challenge Racism, Racial Discrimination, and Human Hierarchy in U.S.
+
+<https://www.apa.org/about/policy/racism-apology>
+
+The above website contains the apology, and additional information providing context for the apology. 
+
+This is a fairly open-ended writing assignment. Your task is to visit and read through the above website. Then describe what you learned from this process in at least 200 words using full sentences (feel free to write more if you want). Submit your writing to this assignment posted on blackboard.
+
+5 points
+
+This assignment will be graded pass/fail, with a possibility of partial points. I am looking for evidence that you engaged in the reading and writing process. I am not expecting you to read and memorize the entire website. Use your own discretion on how much time you put into reviewing the material, and direct your own reading towards points of interest that you may want to write about.
+
+
+

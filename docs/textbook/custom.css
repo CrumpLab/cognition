@@ -9,17 +9,19 @@
   --textbox: #f06cc8;
 }
 
+
 p {
  /* font-family: 'Work Sans' !important;*/
  /* font-family: 'EB Garamond', serif; */
-  font-family: 'Baskervville';
-  font-weight: 500;
-  font-size: 1.15em !important;
-  max-width: 62ch !important;
-  letter-spacing: 0em;
-  line-height: 1.425em;
-  word-spacing: 0.05em;
+  /* font-family: 'Baskervville';*/
+ /*  font-weight: 500;*/
+ /*  font-size: 1.15em !important;*/
+ /*  max-width: 62ch !important;*/
+ /*  letter-spacing: 0em;*/
+ /*  line-height: 1.425em;*/
+ /*  word-spacing: 0.05em;*/
 }
+
 
  h1 {
   font-size: 400;
@@ -87,11 +89,13 @@ p {
   height: 100%;
 }
 
+/*
 .csl-entry {
   padding-left: 20px!important;
   text-indent: -20px!important;
   padding-bottom: 10px;
 }
+*/
 
 @media (max-width: 767.98px) {
   .floatright50 {

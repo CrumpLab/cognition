@@ -1,0 +1,84 @@
+---
+title: "Using and contributing to this open-educational resource"
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This is a "how-to" page for adopters and contributors interested in using and modifying this resource.
+
+This is an open-educational resource that is free to use, share, copy, edit, and remix, with attribution and following this license.
+
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+## Cognition suite contents
+
+The project repository at <https://github.com/CrumpLab/cognition> currently houses all of the source code necessary to build all of the major content resources. There are plans to add a cognitive psychology experiment lab platform, but that will likely be packaged separately.
+
+The major contents include a [course website](https://www.crumplab.com/cognition), [textbook](https://www.crumplab.com/cognition/textbook), slide decks (see slide decks tab on course website), weekly learning modules (see website), and a growing test bank (email mcrump\@brooklyn.cuny.edu to request access).
+
+The suite is developed using open-source software, relying heavily on R and RStudio and libraries from the open-source R community.
+
+## Warning about active development
+
+These materials are being actively developed and the contents is subject to incremental change. I am using these materials to teach this course at Brooklyn College of CUNY, and I continuously update this repository as I modify the course over each semester. I plan to save snapshots of the repository at the end of each semester. These are currently saved as branches in the GitHub repository. I will likely switch to using Github releases to preserve prior versions.
+
+## Contributing
+
+I am sharing these materials in case they are useful for other students and teachers of cognition. I will be attempting to improve and expand the materials over time. If you are interested in suggesting changes or adding new content here are two ways to do so:
+
+1.  Post an issue here <https://github.com/CrumpLab/cognition/issues>
+2.  Fork the repository and make a pull request.
+
+## Build your own course
+
+In principle anyone should be able to download the [repository](https://github.com/CrumpLab/cognition) and compile the resource. This would allow you modify the contents of this course to suit your own needs. Compiling this repository requires some expertise in the R environment. The remaining sections are intended as a very brief guide to getting started. This guide is currently very bare bones, and I hope to add more details here in the future.
+
+### Install R and R Studio and Github Desktop
+
+Here's some tips on getting the open-source software tools you will need:
+
+<https://crumplab.com/rstatsforpsych/r-rstudio-github.html>
+
+### Get the repo
+
+You can fork, clone, or download the repository to your local computer
+
+<https://github.com/CrumpLab/cognition/>
+
+### Overarching Structure
+
+The cognition repository is structured as a [vertical](https://wwww.crumplab.com/vertical) project. This means that it is an R studio project with a file structure consistent with the R package syntax. As a result, the contents is a 'pretend' R package. In fact, the repository does contain some R functions that can be installed as an R package.
+
+Adopting the R package syntax provides some structure for organizing the assets, and it allows use of the [pkgdown](https://pkgdown.r-lib.org) to compile the course website.
+
+### Course Website
+
+1.  Load `cognition.Rproj` in Rstudio
+2.  `pkgdown::build_site()` will build the entire site
+
+It is highly recommended to learn more about pkgdown from the [pkgdown documentation](https://pkgdown.r-lib.org)
+
+`_pkgdown.yml` configures the navbar, and other sitewide information.
+
+`readme.md` contains content for the langind page
+
+Individual pages are written as R Markdown documents in the `vignettes` folder. `pkgdown` automatically renders `.Rmd` documents in `vignettes`. For example, the syllabus and learning modules pages are all written as `.Rmds` in `vignettes`.
+
+All website assets are compiled into the `docs` folder, which is used to serve the assets to the web from the github repository using github pages.
+
+### Textbook
+
+The textbook is contained inside the `textbook` folder. This can be loaded as a separate R studio project by opening `cognitiontextbook.Rproj`. The textbook requires the `bookdown` package. Individual chapters are written as `.Rmd` files. `_bookdown.yml` controls which `.Rmds` are included in the book. `_output.yml` controls output formats, such as `html`, `epub`, and `pdf`. The book is compiled from the build tab in R studio.
+
+### Slides
+
+The `slides` folder contains slide decks for each learning module. Slide decks are again `.Rmds` that compile to web-based slide decks using revealjs. Requires the `revealjs` R package.
+
+### Test bank
+
+The test bank is not included in the public repository. It is written using the R package `exams`.

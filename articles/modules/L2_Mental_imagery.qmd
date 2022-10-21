@@ -1,0 +1,211 @@
+---
+title: "L2: Mental Imagery"
+description: "This module overviews research on mental imagery spanning three centuries. Read Chapter 2 from the textbook, watch the mini-lectures, and complete the quiz and/or writing assignment by the due date."
+author: "Matt Crump"
+date-modified: last-modified
+opengraph:
+  image: 
+    src: "https://www.crumplab.com/cognition/reference/figures/L2_imagery.jpg"
+    alt: "Learning Module 2: Mental Imagery"
+  twitter:
+    card: summary_large_image
+    creator: "@MattCrumpLab"
+order: 2
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Goals
+
+- Introduce research on mental imagery 
+  - historical and current perspectives
+  - Individual differences in mental imagery
+  - The mental imagery debate
+- Read a classic paper on mental imagery and memory
+
+## Instructions 
+
+Work through each of the following Read, Watch/listen, and Engage sections. You have the full week to complete any quizzes or assignments for this module.
+
+## Read 
+
+:::::{.card .border .border-2 .border-info}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/read.png")
+```
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+### Chapter 2: Mental Imagery
+
+Discusses historical and current research on mental imagery. 
+
+What is mental imagery and how does it work? Two major topics include individual differences in mental imagery and the mental imagery debate.
+
+Reading time: 35-40 minutes
+
+<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/textbook/mental-imagery.html" role="button">Read</a>
+::::
+:::
+::::
+:::::
+
+## Watch/Listen {.mt-5}
+
+There are two mini-lectures for this module, and a tutorial on reading a paper.
+
+:::::{.card .border .border-2 .border-info .mb-3}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/watch.png")
+```
+
+Lecture 1
+
+Mental imagery pt 1
+
+[slides](file:///Users/mattcrump/Github/cognition/docs/slides/L3_Imagery/L3_Imagery.html#(1))
+
+30 mins
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kPDcOyXcuHU" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
+
+:::::{.card .border .border-2 .border-info .mb-3}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/watch.png")
+```
+
+Lecture 2
+
+Mental imagery pt 2
+
+[slides](https://www.crumplab.com/cognition/slides/L3_Imagery/L3_Imagery.html#(34))
+
+45 mins
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/naNEa28I3y4" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
+
+:::::{.card .border .border-2 .border-info}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/watch.png")
+```
+
+Tutorial
+
+Read a paper
+Marks (1973)
+
+25 mins
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/X4aaRlbpJ9g" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
+## Engage {.mt-5}
+
+
+:::::{.card .border .border-2 .border-info}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/engage.png")
+```
+
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+
+
+When you are ready complete any or all of the following assignments.
+
+1. QUIZ: Complete the L2: Mental Imagery quiz (5 points, on blackboard)
+2. Writing: Introspect on your own mental imagery (5 points, instructions below, submit on blackboard)
+
+Submit your work by the due date posted on blackboard. Then, move on to the next learning module.
+
+::::
+:::
+::::
+:::::
+
+<br>
+
+
+### Introspect on your own mental imagery
+
+This assignment engages you in the process of introspection. Your task is to use introspection to evaluate and describe your own mental imagery abilities. Attempt to answer the following kinds of questions. What is your mental imagery like? Do you have mental imagery for different kinds of senses? Is your mental imagery vivid and life-like or very different from normal perception? How would you describe your mental imagery?
+
+You should write a **minimum of 250 words**, but feel free to write more. Submit your document on blackboard by the due date.
+
+
+
+
+

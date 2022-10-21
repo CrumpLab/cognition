@@ -1,0 +1,214 @@
+---
+title: "L7: Memory I"
+description: "This module overviews the beginnings of memory research in cognition, covering a few early researchers, the emergence of different research traditions in the study of memory, and the information-processing approach to memory."
+author: "Matt Crump"
+date-modified: last-modified
+opengraph:
+  image: 
+    src: "https://www.crumplab.com/cognition/reference/figures/L7_memory_I.jpg"
+    alt: "Learning Module 7: Memory I"
+  twitter:
+    card: summary_large_image
+    creator: "@MattCrumpLab"
+order: 7
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Goals
+
+
+## Instructions 
+
+Work through each of the following Read, Watch/listen, and Engage sections. You have the full week to complete any quizzes or assignments for this module.
+
+## Read 
+
+:::::{.card .border .border-2 .border-info .mb-3}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/read.png")
+```
+
+60 minutes
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+### Chapter 7: Memory I
+This chapter overviews the beginnings of memory research in cognition, covering a few early researchers, the emergence of different research traditions in the study of memory, and the information-processing approach to memory.
+
+<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/textbook/memory-i.html" role="button">Read</a>
+::::
+:::
+::::
+:::::
+
+
+## Watch/Listen {.mt-5}
+
+There are three mini-lectures for this module. 
+
+:::::{.card .border .border-2 .border-info .mb-3}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/watch.png")
+```
+
+Memory I
+
+pt 1 
+
+Early approaches
+
+[slides](https://www.crumplab.com/cognition/slides/L10_Memory_1/L10_Memory_1.html#/)
+
+[pdf](https://www.crumplab.com/cognition/slides/L10_Memory_1/L10_Memory_1.pdf)
+
+45 min
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rP11-LdNBcc" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
+
+:::::{.card .border .border-2 .border-info .mb-3}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/watch.png")
+```
+
+pt ii
+
+Information processing
+
+same slides/pdf as above
+
+18 min
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PI-jZOqXh-8" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
+:::::{.card .border .border-2 .border-info}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/watch.png")
+```
+
+pt iii
+
+Multi-store model
+
+same slides/pdf as above
+
+18 min
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GS1DE0PH9q0" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
+## Engage {.mt-5}
+
+:::::{.card .border .border-2 .border-info}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/engage.png")
+```
+
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+
+When you are ready complete any or all of the following assignments.
+
+1. QUIZ: Complete the L7: Memory I quiz (5 points, on blackboard)
+2. Writing: (5 points, instructions below, submit on blackboard)
+
+Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
+
+::::
+:::
+::::
+:::::
+
+<br>
+
+
+### Incredible memory claims assignment
+
+This assignment asks you to do a little bit of research on incredible memory claims. For example, some people claim to have a photographic memory. Other people have performed astounding feats of memory like memorizing tens of thousands of digits of the number pi, and then reciting them perfectly in a row (e.g., look up Daniel Tammet). Your assignment is to find and evaluate an extraordinary claim about memory. It could be any claim you have heard before about memory, or you could research a bit and potentially discover claims being made about memory that are new to you.
+
+1. State the claim about memory, and if possible where you found it.
+
+2. Find evidence for the claim. Try to find some evidence for or against the claim and describe it.
+
+3. Critically evaluate the claim and the evidence. Does the claim seem plausible to you? Does the evidence seem credible? If you couldn't find any evidence of the claim, what kind of evidence would you want to have to evaluate the claim.
+
+Your assignment should be at least 150 words.
+
+5 points.
+
+
+
+

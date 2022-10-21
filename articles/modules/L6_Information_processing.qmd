@@ -1,0 +1,179 @@
+---
+title: "L6: Information Processing"
+description: "This module discusses cognition from the information processing tradition including processing stages, information, and capacity limitations, which became popular research topics around the 1950s and 60s."
+author: "Matt Crump"
+date-modified: last-modified
+opengraph:
+  image: 
+    src: "https://www.crumplab.com/cognition/reference/figures/L6_information.jpg"
+    alt: "Learning Module 6: Information Processing"
+  twitter:
+    card: summary_large_image
+    creator: "@MattCrumpLab"
+order: 6
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Goals
+
+
+## Instructions 
+
+Work through each of the following Read, Watch/listen, and Engage sections. You have the full week to complete any quizzes or assignments for this module.
+
+## Read 
+
+:::::{.card .border .border-2 .border-info .mb-3}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/read.png")
+```
+
+60 minutes
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+### Chapter 7: Information Processing
+Describes cognition from the information processing tradition including processing stages, information, and capacity limitations, which became popular research topics around the 1950s and 60s.
+
+<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/textbook/information-processing.html" role="button">Read</a>
+::::
+:::
+::::
+:::::
+
+
+## Watch/Listen {.mt-5}
+
+There are two mini-lectures for this module. 
+
+:::::{.card .border .border-2 .border-info .mb-3}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/watch.png")
+```
+
+Lecture 1
+
+Part 1
+
+Donders
+PRP
+
+[slides](https://www.crumplab.com/cognition/slides/L9_Information/L9_Information.html#/)
+
+[pdf](fhttps://www.crumplab.com/cognition/slides/L9_Information/L9_Information.pdf)
+
+40 mins
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/F1U5vVuDPXo" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
+
+:::::{.card .border .border-2 .border-info}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/watch.png")
+```
+
+Lecture 2
+
+Information Theory
+Hick Hyman Law
+
+same slides and pdf as above
+
+50 mins
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7eybB0tY3KY" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
+## Engage {.mt-5}
+
+:::::{.card .border .border-2 .border-info}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/engage.png")
+```
+
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+When you are ready complete any or all of the following assignments.
+
+1. QUIZ: Complete the L6: Information Processing quiz (5 points, on blackboard)
+2. Writing: (5 points, instructions below, submit on blackboard)
+
+Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
+::::
+:::
+::::
+:::::
+
+<br>
+
+
+
+### Hick-Hyman law
+
+The textbook chapter discussed choice reaction time experiments and the Hick-Hyman law. Your writing assignment is to explain the following:
+
+1. Describe what the set-size effect refers to in a choice-reaction time experiment.
+
+2. Describe what the Hick-Hyman law refers to.
+
+3. Explain the repetition priming confound, and describe how repetition priming could explain performance in choice-reaction time tasks showing evidence of the Hick-Hyman law. (Hint review section 7.8.7.4 in the textbook)
+
+5 points
+
+
