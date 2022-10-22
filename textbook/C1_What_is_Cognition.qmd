@@ -86,11 +86,13 @@ This textbook will mostly survey experimental or quasi-experimental research met
 
 The research cycle involves a variety of methods--such as the [scientific method](https://en.wikipedia.org/wiki/Scientific_method)-- used to generate knowledge about cognition. The research process is represented as a cycle because the final outputs of a research project often fuel the inputs of the next project. In general, the process of generating knowledge from the research cycle is incremental and involves many iterations, repetitions, and revisions.
 
-::: {.floatright50 data-latex=""}
 ```{r}
+#| label: fig-1scimeth
+#| fig-cap: "The scientific method illustrated as a research cycle."
+#| column: margin
+
 knitr::include_graphics("imgs/The_Scientific_Method.png")
 ```
-:::
 
 A researcher today might begin with an **observation**--like, why are some tastes delicious and others repulsive-- or, a **question**-- like, how can someone learn to read faster? Given that cognition has already been studied for well over a hundred years, a next step is often to review any existing literature on the topic or question. Literature reviews involve finding and then reading primary research articles that have asked similar questions. There are several internet search engines for primary research, such as [Google Scholar](https://scholar.google.com) or [Semantic Scholar](https://www.semanticscholar.org/).
 
@@ -135,17 +137,17 @@ Finally, the development of measurement tools can be a creative process. A perso
 
 The research cycle in cognition has produced numerous findings, effects, and phenomena. A **finding** refers very generally to results from the research cycle. For example, Rabbitt found that typists press keys a little bit more softly for some of the errors that they committed. Another general word for *finding* is observation, and we could say that Rabbitt observed soft responses during error production in his study. I'll reserve the word **effect** for findings that are the result of an experimental manipulation, especially where the manipulation has an effect on the measurement. Finally, phenomena refers to classes of related findings or effects.
 
-::: {.floatright50 data-latex=""}
 ```{r}
+#| label: fig-1Stroop
+#| fig-cap: "Example Stroop stimuli. Congruent stimuli display the word in a matching ink color. Incongruent stimuli display display the word in a mismatching ink color. "
+#| column: margin
+
 knitr::include_graphics("imgs/Stroop_stim.png")
 ```
-:::
 
-The Stroop effect [@Stroop1935] provides a useful example. In a Stroop task, subjects are shown stimuli like in the example to the right, and asked to name the ink-color of the stimulus on each trial. For congruent stimuli, the ink-color matches the name of the word, like the color blue in the word BLUE. The correct answer for this stimulus is *blue*. For incongruent stimuli, the ink-color does not match the name of the word, like color red in the word GREEN. The correct answer for this stimulus is *red*. The typical finding is that participants are faster and more accurate to identify congruent than incongruent stimuli. This difference is termed the Stroop effect [^1], which refers to the effect of the congruency manipulation on the reaction time or accuracy measure. Stroop effects can be obtained with many different combinations of stimuli that involve manipulations of matching and mismatching target and distractor dimensions, they have been the subject of many investigations for various reasons [^2], and are collectively referred to as Stroop phenomena [^3].
+The Stroop effect [@Stroop1935] provides a useful example. In a Stroop task, subjects are shown stimuli like in the example to the right, and asked to name the ink-color of the stimulus on each trial. For congruent stimuli, the ink-color matches the name of the word, like the color blue in the word BLUE. The correct answer for this stimulus is *blue*. For incongruent stimuli, the ink-color does not match the name of the word, like color red in the word GREEN. The correct answer for this stimulus is *red*. The typical finding is that participants are faster and more accurate to identify congruent than incongruent stimuli. This difference is termed the Stroop effect [^1], which refers to the effect of the congruency manipulation on the reaction time or accuracy measure. Stroop effects can be obtained with many different combinations of stimuli that involve manipulations of matching and mismatching target and distractor dimensions, they have been the subject of many investigations, and are collectively referred to as Stroop phenomena [^3].
 
 [^1]: named after psychologist J. R. Stroop who invented the procedure
-
-[^2]: see the chapter on Attention
 
 [^3]: or congruency phenomena, compatibility phenomena, interference phenomena, and cognitive control phenomena
 

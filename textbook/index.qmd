@@ -23,6 +23,7 @@ citation:
 knitr::opts_chunk$set(cache=TRUE)
 ```
 
+:::: {.content-visible when-format="html"}
 ::: {.column-margin}
 
 ```{r, echo=FALSE}
@@ -30,6 +31,7 @@ knitr::include_graphics("imgs/cover.jpg")
 ```
 
 :::
+::::
 
 
 

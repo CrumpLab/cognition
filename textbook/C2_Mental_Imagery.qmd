@@ -44,8 +44,12 @@ knitr::kable(info)
 
 Mental imagery is about the subjective experience of being in your own mind, especially while you are in the process of using your imagination. What can you *see* in your "mind's eye" when you use your imagination? Can you visualize a picture, scene, or movie in your mind? If so, how would you describe the quality of the mental image? Is it vivid and life-like? If not, how would you describe your experience of using your imagination?
 
-::: floatrightbox50
-[Mental imagery](#gls-mentalimagery) refers to the experience of imagined sensations of any type, including seeing pictures in your mind's eye, hearing a song in your head, using your inner voice, and others like imagined smell, touch, or sense of space.
+::: {.callout-note icon=false}
+
+## Mental imagery
+
+Imagined sensations of any type, including seeing pictures in your mind's eye, hearing a song in your head, using your inner voice, and others like imagined smell, touch, or sense of space.
+
 :::
 
 When I close my eyes I have some limited visualization ability. I can imagine visual scenes, especially familiar places like my kitchen. My imagery seems to be more spatial than visual. I can feel the layout of the scene more easily than seeing visual features of the mental picture. Occasionally my mental imagery is vivid and life-like, especially in dreams that can appear just as visually compelling as real life. So, according to me, my mental imagery ranges from fairly fuzzy to occasionally extremely vivid and life-like.
@@ -62,13 +66,13 @@ The method of introspection involves self-reflecting upon or scrutinizing aspect
 
 ### Galton's Statistics of mental imagery
 
-::: {.floatrightbox25 data-latex=""}
-**Sir Francis Galton**
-
 ```{r}
+#| label: fig-2Galton
+#| fig-cap: "[Sir Francis Galton](https://en.wikipedia.org/wiki/Francis_Galton) (1822-1911) "
+#| column: margin
+
 knitr::include_graphics("imgs/Francis_Galton.jpg")
 ```
-:::
 
 [Sir Francis Galton](https://en.wikipedia.org/wiki/Francis_Galton) (1822-1911) was a British psychologist who was one of the first to systematically study mental imagery. To quote from his 1880 paper titled, *Statistics of mental imagery* [@galtonStatisticsMentalImagery1880], Galton set out to:
 
@@ -80,36 +84,45 @@ The next section reviews Galton's methods and major findings. His original manus
 
 Galton devised the "Breakfast table task" involving a series of structured questions about mental imagery, and sent letters to 100 people asking them to reply with answers to his questions. The questions are reprinted below:
 
-::: blockquote
+::: {.callout-note icon=false}
+
+#### Galton's Breakfast table task questions:
+
 "Before addressing yourself to any of the Questions on the opposite page, think of some definite object -- suppose it is your breakfast-table as you sat down to it this morning -- and consider carefully the picture that rises before your mind's eye. \[p. 302\]
 
 1.  Illumination. -- Is the image dim or fairly clear? Is its brightness comparable to that of the actual scene ?
 2.  Definition. -- Are all the objects pretty well defined at the same time, or is the place of sharpest definition at any one moment more contracted than it is in a real scene?
 3.  Colouring. -- Are the colours of the china, of the toast, bread-crust, mustard, meat, parsley, or whatever may have been on the table, quite distinct and natural?"
+
 :::
+
 
 #### Galton's results
 
 Here are some of the answers from "100 men, at least half of whom are distinguished in science or in other fields of intellectual work." (reprinted from his original manuscript):
 
-::: blockquote
-*Cases where the faculty is very high.*
+::: {.callout-note icon=false}
+#### Cases where the faculty is very high
 
 1.  Brilliant, distinct, never blotchy.
 
 2.  Quite comparable to the real object. I feel as though I was dazzled, e.g., when recalling the sun to my mental vision.
 
 3.  In some instances quite as bright as an actual scene.
+:::
 
-*Cases where the faculty is mediocre.*
+::: {.callout-note icon=false}
+#### Cases where the faculty is mediocre
 
 46. Fairly clear and not incomparable in illumination with that of the real scene, especially when I first catch it. Apt to become fainter when more particularly attended to.
 
 47. Fairly clear, not quite comparable to that of the actual scene. Some objects are more sharply defined than others, the more familiar objects coming more distinctly in my mind.
 
 48. Fairly clear as a general image; details rather misty.
+:::
 
-*Cases where the faculty is at the lowest.*
+::: {.callout-note icon=false}
+#### Cases where the faculty is at the lowest
 
 89. Dim and indistinct, yet I can give an account of this morning's breakfast table; -- split herrings, broiled chickens, bacon, rolls, rather light coloured marmalade, faint green plates with stiff pink flowers, the girls' dresses, &c., &c. I can also tell where all the dishes were, and where the people sat (I was on a visit). But my imagination is seldom pictorial except between sleeping and waking, when I sometimes see rather vivid forms.
 
@@ -231,19 +244,24 @@ The pictorial and propositional ideas about cognitive representation are two ver
 
 In 1978, Stephen Kosslyn and colleagues [@kosslynVisualImagesPreserve1978] did some clever experiments on scanning of mental images. Here's the quick and dirty version. Imagine a map of the USA, now zoom in on New York City and imagine a little black dot hovering over the city. Whenever you are ready, zoom that little black dot all the way over to Los Angeles. How long it did it take you to mentally scan across your mental image of the map? Mental chronometry refers to measuring how long it takes to perform mental operations like scanning a mental image.
 
-Instead of a map of the USA, participants were shown the map below, and were given practice mentally imaging the map and drawing it from memory until they could reproduce it to a high degree of accuracy. The map shows an island with a hut, tree, rock, well, lake, sand, and grass, all spread about the island.
+Instead of a map of the USA, participants were shown the map in @fig-2Kosslyn and given practice mentally imaging the map and drawing it from memory until they could reproduce it to a high degree of accuracy. The map shows an island with a hut, tree, rock, well, lake, sand, and grass, all spread about the island.
 
-::: floatright50
-```{r out.width="100%"}
+
+```{r}
+#| label: fig-2Kosslyn
+#| fig-cap: "Kosslyn's participants used cartoon maps like this in his mental scanning experiments."
+#| column: margin
+
 knitr::include_graphics("imgs/KosslynEtAl1978Fig2.png")
 ```
-:::
 
 The map was taken away and participants were asked to mentally image the map in their mind's eye. Then, the main task began. The task was split up into individual trials where the participant was asked to focus on one of the depicted locations on their mental image of the map (by imagining a black dot on top of it), and then mentally scan to a different location by moving their imagined black dot to the new location. For example, you might focus on the tree and the scan to the grass (a longer distance); or focus on the hut and scan to the lake (a shorter distance). Importantly, the researchers measured the time taken to make each scan. The empirical question was whether or not the amount of time to mentally scan from one imagined location to another would depend on the distance between the imagined locations.
 
-Before we look at the actual data, let's consider three ways the experiment could have turned out. First, let's assume that people can scan between different locations immediately without taking any time at all, I will call this the "no-time" hypothesis. Second, let's assume that people will take some random amount of time to scan between the locations, the "random-time" hypothesis. And third, let's assume that people's scanning times will increase with the distance between the imagined locations, the "distance-time" hypothesis. Each of the these hypotheses makes a different prediction about how the results might turn out. Consider the three graphs below which show predictions for each hypothesis. These are examples of how the results could have turned out according to each hypothesis
+Before we look at the actual data, let's consider three ways the experiment could have turned out. First, let's assume that people can scan between different locations immediately without taking any time at all, I will call this the "no-time" hypothesis. Second, let's assume that people will take some random amount of time to scan between the locations, the "random-time" hypothesis. And third, let's assume that people's scanning times will increase with the distance between the imagined locations, the "distance-time" hypothesis. Each of the these hypotheses makes a different prediction about how the results might turn out. Consider the three graphs in @fig-2predictScanning showing predictions for each hypothesis. These are examples of how the results could have turned out according to each hypothesis
 
-```{r predictScanning, fig.cap="Hypothetical results of the mental scanning task for the no-time, random-time, and distance-time hypotheses"}
+```{r}
+#| label: fig-2predictScanning
+#| fig.cap: "Hypothetical results of the mental scanning task for the no-time, random-time, and distance-time hypotheses"
 library(ggplot2)
 
 distance <- rep(1:18,3)
@@ -276,7 +294,10 @@ Finally, the "distance-time" plot shows dots in a tilted line (going from the bo
 
 What were the results of the study, and did they look like any of the hypothetical results that we just discussed? The original results are shown below:
 
-```{r kosslynOrigResults}
+```{r}
+#| label: fig-2kosslynOrigResults
+#| fig-cap: "A screenshot of Kosslyn's results."
+
 knitr::include_graphics("imgs/KosslynEtAl1978Fig3.png")
 ```
 

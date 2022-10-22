@@ -98,9 +98,12 @@ We have already discussed some of Binet's motivations for creating an intelligen
 
 Binet created sets of psychological, pedagogical, and medical tests that he used to measure individual differences in children. On the whole, the approach was very similar to Cattell, in the sense that both were measuring as many physical and mental features of children and adults they could feasibly fit into a session where the measurements occurred. The major difference was that Binet had innovated on his psychological questions. Binet had many more than Cattell's 10 questions, they covered a wider variety of tasks presumed to involve higher order mental abilities, and the questions were tailored for children at different ages, from 3 to 13, in yearly increments of difficulty.
 
-The figure below shows individual tasks that were determined to be appropriate to children in each year, from 3 to 13. Binet describes the individual tasks in great detail, along with instructions for administering each test, and scoring of each test.
+@fig-4Binet1 shows individual tasks that were determined to be appropriate to children in each year, from 3 to 13. Binet describes the individual tasks in great detail, along with instructions for administering each test, and scoring of each test.
 
 ```{r}
+#| label: fig-4Binet1
+#| fig-cap: "Examples of questions and results from Binet's mental testing procedure."
+
 knitr::include_graphics("imgs/Binet_1905.png")
 ```
 
