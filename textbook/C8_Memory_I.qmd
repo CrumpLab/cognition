@@ -109,23 +109,29 @@ In the second phase, each row was re-learned after a delay. The delays were 20 m
 
 Ebbinghaus considered the feat of reciting a single row of nonsense syllables by memory an example of learning new associations. Before associations were established he was unable to recite all of the syllables from memory. However, practicing was assumed to establish associative connections between syllables. After enough practice attempts it became possible to recite a row of 13 nonsense syllables, at least one time from memory. Some kind of new learning must have happened to enable the recitation.
 
-::: {.floatright50 data-latex=""}
 ```{r}
+#| label: fig-8Ebbinghaus_OL
+#| fig-cap: "Reproduced results from phase one of @murreReplicationAnalysisEbbinghaus2015."
+#| column: margin
+
 knitr::include_graphics("imgs/Ebbinghaus_OL.png")
 ```
-:::
 
-The first phase of the experiment measured the number of practice attempts needed to learn a row of 13 nonsense syllables. The results from the 2015 replication ^[reported in their table 1] are shown in the figure. The blue line shows that an average of 30-32 practice attempts were needed to memorize each row. ^[Each dot represents practice attempts for sets of rows that would be paired with delays to test forgetting and relearning]
+
+The first phase of the experiment measured the number of practice attempts needed to learn a row of 13 nonsense syllables. The results from the 2015 replication ^[reported in their table 1] are shown in @fig-8Ebbinghaus_OL. The blue line shows that an average of 30-32 practice attempts were needed to memorize each row. ^[Each dot represents practice attempts for sets of rows that would be paired with delays to test forgetting and relearning]
 
 #### Savings in Relearning
 
 Ebbinghaus was more interested in results from the second phase. For example, what would happen to his ability to recite a row of nonsense syllables if he waited 20 minutes, 1 hour, 9 hours, or up to 1, 2, 6, and 31 days before trying to recite the list over again? He measured savings in re-learning to find out.
 
-If memory for a learned row was not perfect after a delay, then it would have to be relearned. The question was how many relearning attempts would be needed to reach the same criterion as before...one-time perfect. If it took 30 practice attempts in the original learning phase, would there be any savings in relearning? That is, would the number of relearning attempts be less than 30? The data from the original and re-learning phases are shown below.
+If memory for a learned row was not perfect after a delay, then it would have to be relearned. The question was how many relearning attempts would be needed to reach the same criterion as before...one-time perfect. If it took 30 practice attempts in the original learning phase, would there be any savings in relearning? That is, would the number of relearning attempts be less than 30? The data from the original and re-learning phases are shown in @fig-8Ebbinghaus_Allresults.
 
 The blue line always shows the number of attempts needed during original learning. The black line shows the number of attempts needed during re-learning. The y-axis shows the number of attempts, and the x-axis shows the temporal delay between original learning and re-learning.
 
 ```{r, echo=FALSE}
+#| label: fig-8Ebbinghaus_Allresults
+#| fig-cap: "Reproduced results from @murreReplicationAnalysisEbbinghaus2015."
+
 library(tibble)
 library(ggplot2)
 library(patchwork)
@@ -186,13 +192,15 @@ Specifically, the rate of forgetting was very high after initial learning, but t
 
 #### Exponential Forgetting
 
-::: {.floatright50 data-latex=""}
 ```{r}
+#| label: fig-8Ebbinghaus_exp
+#| fig-cap: "Depiction of an exponential forgetting curve."
+#| column: margin
+
 knitr::include_graphics("imgs/Ebbinghaus_exp.jpg")
 ```
-:::
 
-In other words, Ebbinghaus found an exponential forgetting curve. Early on after learning there was fast forgetting. Lots of forgetting occurred in a short period of time. Later on, the rate of forgetting slowed down, and there was less forgetting extended over longer periods of time. Exponential forgetting is like going to Las Vegas and spending most of your money on the first day, and then losing the rest of it slowly over the next week.
+In other words, Ebbinghaus found an exponential forgetting curve. Exponential forgetting is like going to Las Vegas and spending most of your money on the first day, and then losing the rest of it slowly over the next week. @fig-8Ebbinghaus_exp depicts an exponential forgetting curve. The rate of forgetting is not constant across time. Instead, the rate of forgetting is very high after initial learning but then slows down across time. 
 
 #### Spacing effects
 
@@ -246,13 +254,13 @@ As people kept reproducing the story from memory, they introduced new details, a
 
 #### L'Portraite D'homme
 
-Another example of serial reproduction involved drawing faces. He gave people a picture of a mask. Then he took the picture away, and asked his participants to draw the it from memory. Over days and months, he had the same people attempt to draw the picture from memory many more times. The astonishing finding was that as people re-drew the picture, it became less and less mask-like, and more and more face-like.
+Another example of serial reproduction involved drawing faces. He gave people a picture of a mask. Then he took the picture away, and asked his participants to draw the it from memory. Over days and months, he had the same people attempt to draw the picture from memory many more times. The astonishing finding shown in @fig-8Bartlett_homme was that as people re-drew the picture, it became less and less mask-like, and more and more face-like.
 
-```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
-knitr::include_graphics("imgs/Bartlett_homme.png")
-```
+```{r}
+#| label: fig-8Bartlett_homme
+#| fig-cap: "Example of serial reproductions becoming less mask-like, and more face-like."
+#| out-width: "100%"
 
-```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
 knitr::include_graphics("imgs/Bartlett_homme.png")
 ```
 
@@ -286,31 +294,30 @@ I bring up this example because it reflects several broader issues in memory res
 
 A historical review of Hedwig von Restorff and her now famous demonstrations that distinctiveness influences memory [@vonrestorffUberWirkungBereichsbildungen1933] is also provided by Macleod [@macleodZeigarnikRestorffMemory2020]. Von Restorff applied the figure/ground concept from Gestalt theory to memory domain. A basic idea from Gestalt theory was that representations of individual experiences are holistic, involving  objects (figure) and their surrounding context (ground). Von Restorff took this idea and asked how memory might depend on factors that isolate figure from ground. In perception a chameleon can be camouflaged and difficult to isolate from its surrounding. Or, a bright and conspicuous flower can stand out in a distinctive way, against dull colorless backgrounds. Would the same principles of distinctiveness apply to memory? It turns out, they do, and unlike the Zeigarnik effect, Von Restorff's findings have been reproduced many times, and in different ways. Here is what she did. 
 
-::: {.floatright50 data-latex=""}
-
-
 ```{r}
+#| label: fig-8Von_restorff_Stimuli
+#| fig-cap: "Example pairs used by Von Restorff."
+#| column: margin
+
 knitr::include_graphics("imgs/Von_restorff_Stimuli.png")
 ```
 
-:::
-
-Participants were tested on their memory for 5 lists. Each list had 8 pairs of items. An example of a list is presented to the right. Each list had four pairs that were similar. These were called "massed" pairs. Think of them as providing a dull grey background. The other four pairs were all different. These were called "isolates". They are like a colorful flower, in that they stand out from the massed pairs. The "massed" pairs in the list below were the four pairs of nonsense-syllables. The "isolates" were the remaining four pairs.
+Participants were tested on their memory for 5 lists. Each list had 8 pairs of items. An example of a list is presented in @fig-8Von_restorff_Stimuli. Each list had four pairs that were similar. These were called "massed" pairs. Think of them as providing a dull grey background. The other four pairs were all different. These were called "isolates". They are like a colorful flower, in that they stand out from the massed pairs. The "massed" pairs in the list below were the four pairs of nonsense-syllables. The "isolates" were the remaining four pairs.
 
 #### Counterbalancing
 
 Von Restorff used a technique called *counter-balancing* in her experiment. Counter-balancing can be used to reduce the concern that the outcome of the experiment was due to a stimulus confound. For example, Von Restorff would show participants her lists, have a conversation brief conversation with them, and then ask the participants to recall each pair from the list. Her question was whether the "isolated" pairs would be recalled with greater accuracy than the "massed" pairs. In the list above, this would mean better recall for "# -- +, 89 -- 46, red square -- green square, and S -- B", compared to the other four pairs that were all nonsense-syllables. This is what Von Restorff found, but you might be concerned that there was a stimulus confound. For example, maybe nonsense syllables are hard to remember compared to these other pairs. 
 
-::: {.floatright50 data-latex=""}
-
-
 ```{r}
+#| label: fig-8Von_Restorff_counterbalance
+#| fig-cap: "An example of how Von Restorff counterbalanced lists to control for possible stimulus confounds."
+#| out-width: "75%"
+
 knitr::include_graphics("imgs/Von_Restorff_counterbalance.jpg")
 ```
 
-:::
 
-Von Restorff guarded against the stimulus confound interpretation by *counter-balancing*. This is why there were 5 lists in total. In the first list, the massed pairs were nonsense syllables, but the "isolated" pairs were used for the massed pairs in the other four lists. For example, the second list could have four massed symbol pairs (like # -- +), and the remaining four pairs would be "isolates" from the kinds of pairs. The third list could have four massed number pairs, and so on. The counterbalancing scheme is illustrated in the figure for further clarity.
+Von Restorff guarded against the stimulus confound interpretation by *counter-balancing*. This is why there were 5 lists in total. In the first list, the massed pairs were nonsense syllables, but the "isolated" pairs were used for the massed pairs in the other four lists. For example, the second list could have four massed symbol pairs (like # -- +), and the remaining four pairs would be "isolates" from the kinds of pairs. The third list could have four massed number pairs, and so on. The counterbalancing scheme is illustrated in @fig-8Von_Restorff_counterbalance.
 
 #### Memory and Distinctiveness
 
@@ -368,7 +375,7 @@ After Miller, we head into a discussion of memory models relying on computer met
 
 ### Miller's Magic Number 7
 
-[George Miller](https://en.wikipedia.org/wiki/George_Armitage_Miller) (1920-2012) was American psychologist, who is often associated with leading the transition from behaviorism to cognitivism. In 1956, he wrote an influential paper called, "The magical number seven, plus or minus two: Some limits on our capacity for processing information". This paper probably introduced many psychologists to concepts from information theory. I think the contribution of this paper is often highly compressed to ideas implied by the title. For example, you may have heard of this paper before, and perhaps were told that your short-term memory can hold about 7 things...plus or minus two. Indeed, after the Miller paper, many researchers have spent time invoking similar ideas, and attempting to measure the "capacity" of one kind of memory system or another. We will get to short-term memory in the section. In this section, the focus is not on how many things short-term memory may or may not be able to "hold". It is instead on Miller's attempt to use information theory to establish common principles between perceptual judgment and memory.
+[George Miller](https://en.wikipedia.org/wiki/George_Armitage_Miller) (1920-2012) was American psychologist, who is often associated with leading the transition from behaviorism to cognitivism. In 1956, he wrote an influential paper called, "The magical number seven, plus or minus two: Some limits on our capacity for processing information" [@millerMagicalNumberSeven1956]. This paper probably introduced many psychologists to concepts from information theory. I think the contribution of this paper is often highly compressed to ideas implied by the title. For example, you may have heard of this paper before, and perhaps were told that your short-term memory can hold about 7 things...plus or minus two. Indeed, after the Miller paper, many researchers have spent time invoking similar ideas, and attempting to measure the "capacity" of one kind of memory system or another. We will get to short-term memory in the section. In this section, the focus is not on how many things short-term memory may or may not be able to "hold". It is instead on Miller's attempt to use information theory to establish common principles between perceptual judgment and memory.
 
 #### Absolute Perceptual Judgment
 
@@ -390,32 +397,29 @@ Let's imagine people would have 100% accuracy on this very simple pitch judgment
 
 Miller cited work by Pollack[@pollackInformationElementaryAuditory1952a], who had applied information theory measurements to absolute pitch judgment. Pollack ran an experiment very similar to the thought-experiment described above. He gave people a tone judgment task, and varied the number of tones in the set. He had sets of 2, 3, 4, 5, 6, 7, 8, 10 and 14 tones. Subjects were given tones from one set. On each trial they heard a tone, then they had to identify with a number, (e.g., "this is tone number 7"). This general task is also called the "method of absolute judgment" in [psychophysics](https://en.wikipedia.org/wiki/Psychophysics). 
 
-::: {.floatright50 data-latex=""}
-
-
 ```{r}
+#| label: fig-8Pollack_tone
+#| fig-cap: "Data from @pollackInformationElementaryAuditory1952a."
+#| column: margin
+
 knitr::include_graphics("imgs/Pollack_tone.png")
 ```
 
-:::
-
-
-The data from Pollack's task is shown on the right. This figure shows the data in a conventional way, plotting accuracy against set-size. The three dots in green show examples of perfect performance in the task. People are able to absolutely identify a tone with perfect accuracy when there were 2, 3, or 4 tones in the set (this is like a toy piano with 2, 3, or 4 total keys). However, the dots in red show what happens as the number of tones increases past 5. Accuracy gets worse and worse. The percentage of correct responses goes down and down. The experiment only went up to set-size 14, and the rest of line is a statistical estimate of what would happen to accuracy if the set-size was increased further.
+@fig-8Pollack_tone shows the data from Pollack's task in a conventional way, plotting accuracy against set-size. The three dots in green show examples of perfect performance in the task. People are able to absolutely identify a tone with perfect accuracy when there were 2, 3, or 4 tones in the set (this is like a toy piano with 2, 3, or 4 total keys). However, the dots in red show what happens as the number of tones increases past 5. Accuracy gets worse and worse. The percentage of correct responses goes down and down. The experiment only went up to set-size 14, and the rest of line is a statistical estimate of what would happen to accuracy if the set-size was increased further.
 
 #### Translation to Channel capacity
 
 Miller was reviewing work by Pollack and others who had the insight to interpret their findings from the point of view of information theory. This involved applying Shannon's mathematical formulas to the data and re-plotting it. Instead of plotting how accuracy changed as set-size increased. It was possible to plot the very same data in terms of the amount of information in the stimulus set, and the amount of information transmitted across a channel. Remember, we can convert the number of unique elements in set into the number of bits necessary to represent all the unique elements. 2 elements require bit, four elements require 2 bits, 8 elements require 3 bits, and so on. 
 
-::: {.floatright50 data-latex=""}
-
-
 ```{r}
+#| label: fig-8Miller_tone
+#| fig-cap: "Data from @pollackInformationElementaryAuditory1952a replotted in @millerMagicalNumberSeven1956."
+#| column: margin
+
 knitr::include_graphics("imgs/Miller_tone.png")
 ```
 
-:::
-
-When the same data from the task above are replotted using information theory, it looks like the figure on the right. Notice, the first three dots fall exactly on the line, this is the same as perfect performance for set-sizes 2, 3, and 4. However, set-size is now called "input information" and expressed in bits (2 = 1 bit, 3 = 1.58 bits, 4 = 2 bits). The y-axis converts accuracy into a measure of bits called "transmitted information". Although the data is exactly the same as before, the metaphor is different. Looking at the graph in terms of information theory, it looks like performance hits a plateau. As the amount of information in the input (e.g., set-size) increases, the amount of transmitted inforamtion levels off. The set-size can be increased to any number of options, but it seems that people are hitting an upper bound of around 2.5 bits in this task. This upper bound is called the channel capacity in information theory.
+@fig-8Miller_tone shows same data from the task above replotted using information theory. Notice, the first three dots fall exactly on the line, this is the same as perfect performance for set-sizes 2, 3, and 4. However, set-size is now called "input information" and expressed in bits (2 = 1 bit, 3 = 1.58 bits, 4 = 2 bits). The y-axis converts accuracy into a measure of bits called "transmitted information". Although the data is exactly the same as before, the metaphor is different. Looking at the graph in terms of information theory, it looks like performance hits a plateau. As the amount of information in the input (e.g., set-size) increases, the amount of transmitted inforamtion levels off. The set-size can be increased to any number of options, but it seems that people are hitting an upper bound of around 2.5 bits in this task. This upper bound is called the channel capacity in information theory.
 
 #### Generalization across perceptual tasks
 
@@ -455,16 +459,15 @@ Here is the first take-home message of Miller's information theory analysis of t
 
 So, what happened in Hayes immediate memory span experiment? Remember, he measured immediate memory span for lists from the different stimulus sets I just described. Does immediate memory span depend on the amount of information in the stimuli? The answer is, not really, no, not so much.
 
-::: {.floatright50 data-latex=""}
-
-
 ```{r}
+#| label: fig-8Miller_im_span
+#| fig-cap: "Immediate memory span for sets of symbols with different amounts of information."
+#| column: margin
+
 knitr::include_graphics("imgs/Miller_im_span.jpg")
 ```
 
-:::
-
-The immediate memory span data is shown to the right. The y-axis shows the average immediate memory span, and the x-axis is the amount of bits needed for each kind symbol. The take-home message that immediate memory span was about 7 items for all of the stimulus sets. It was a little bit higher for binary digits, compared to words, but nowhere near as high as it should be. If people could handle 7 words just fine, then they should have an immediate memory span closer to 40 for binary digits (which required fewer bits than words). Instead, the spans were pretty similar across stimuli.
+The immediate memory span data is shown in @fig-8Miller_im_span. The y-axis shows the average immediate memory span, and the x-axis is the amount of bits needed for each kind symbol. The take-home message that immediate memory span was about 7 items for all of the stimulus sets. It was a little bit higher for binary digits, compared to words, but nowhere near as high as it should be. If people could handle 7 words just fine, then they should have an immediate memory span closer to 40 for binary digits (which required fewer bits than words). Instead, the spans were pretty similar across stimuli.
 
 Miller suggested that immediate memory escapes capacity limitations imposed by information at the level of stimulus sets through a recoding process. He called this process chunking. 
 
@@ -505,27 +508,25 @@ Several memory models distinguish between short and long-term memory systems. Th
 
 Atkinson and Shiffrin's multi-store model (also called the modal model) from 1968 [@atkinsonHumanMemoryProposed1968] is an excellent example of an early cognitive process explanation. I will describe the model in general terms; however, the original model was also more formally presented in mathematical terms as well. This allowed the theory to generate quantitative predictions that closely matched data patterns in a variety of memory tasks. The next two figures depict how the model envisions encoding, storage and retrieval in memory.
 
-::: {.floatright50 data-latex=""}
-
-
 ```{r}
+#| label: fig-8Multi_store_1
+#| fig-cap: "Storage locations in @atkinsonHumanMemoryProposed1968's multi-store model."
+#| out-width: "50%"
+
 knitr::include_graphics("imgs/Multi_store_1.jpg")
 ```
 
-:::
-
-The first figure shows an information flow diagram between storage locations in the multi-store model. First, environmental stimuli (external inputs to the model) are converted into representations and briefly stored in sensory registrars. The sensory register is assumed to hold onto perceptual information for a very limited time. The information in the sensory register will be lost, unless it gets transferred to the short-term or long-term store. Notice, that information from the sensory register could go either to the short-term store or directly to the long-term store. As implied by the name, the short-term store is limited in capacity and can only store a small number of items. The long-term store has a much larger capacity, and can store many items over a very long time. Finally, the model describes control operations for passing information between the short and long-term stores. These operations are described next.
-
-::: {.floatright50 data-latex=""}
-
+@fig-8Multi_store_1 shows an information flow diagram between storage locations in the multi-store model. First, environmental stimuli (external inputs to the model) are converted into representations and briefly stored in sensory registrars. The sensory register is assumed to hold onto perceptual information for a very limited time. The information in the sensory register will be lost, unless it gets transferred to the short-term or long-term store. Notice, that information from the sensory register could go either to the short-term store or directly to the long-term store. As implied by the name, the short-term store is limited in capacity and can only store a small number of items. The long-term store has a much larger capacity, and can store many items over a very long time. Finally, the model describes control operations for passing information between the short and long-term stores. These operations are described next.
 
 ```{r}
+#| label: fig-8Multi_store_2
+#| fig-cap: "Illustration of properties of the short-term store, such as a limited number of slots to rehearse items."
+#| out-width: "50%"
+
 knitr::include_graphics("imgs/Multi_store_2.jpg")
 ```
 
-:::
-
-In general, the short-term store is described as a temporary buffer that keeps a memory representation "alive", and is capable of transferring a representation from the sensory registrar to the long-term store for more permanent storage. The model likens the short-term store to a rehearsal buffer. For example, have you ever tried to remember something, like a phone number, by saying it over and over to yourself? This is called a rehearsal strategy. The model suggests that the short-term store is the place where rehearsal takes place, and further suggests that the buffer has a limited number of slots, which means that only a few items may be in the rehearsal loop at any given time. The model also suggests that items in the short-term store are gradually transferred to the long-terms store. So, items that stay longer in the rehearsal are more likely to be fully preserved in long-term memory, because they had more time to be transferred to the long-term store. The long-term store was still vulnerable to information loss, and memory traces could decay over time, or interfere with one another during memory retrieval.
+@fig-8Multi_store_2 shows the short-term store in more detail. In general, the short-term store is a temporary buffer where memory representations are kept "alive", and subsequently transferred to the long-term store for more permanent storage. The model likens the short-term store to a rehearsal buffer. For example, have you ever tried to remember something, like a phone number, by saying it over and over to yourself? This is called a rehearsal strategy. The model suggests that the short-term store is where rehearsal takes place, and further suggests that the buffer has a limited number of slots, which means that only a few items may be in the rehearsal loop at any given time. The model also suggests that items in the short-term store are gradually transferred to the long-terms store. So, items that stay longer in the rehearsal are more likely to be fully preserved in long-term memory, because they had more time to be transferred to the long-term store. The long-term store was still vulnerable to information loss, and memory traces could decay over time, or interfere with one another during memory retrieval.
 
 Although less clear from the figures, the model also described potential rules for retrieving information from long-term memory. For example, retrieving a representation from memory could involve a search process where a person "looks" through things in their memory until they find what they are looking for. Additionally, the search process relies on cues to aid the search. For example, if you were searching your memory for names of American presidents, at some point you might run out names, even if you felt you could name few more. In this case, you might use a cuing strategy. For example, the letters of the alphabet could help focus your memory search. Thinking about the letter "A", could help you remember "Abraham Lincoln"; or, the letter "B" might help you remember "Lyndon B. Johnson". Finally, the short-term system was involved in remembering information from the long-term system. For example, the short-term system could be rehearsing the cue "B", while the search of long-term memory is conducted.
 
@@ -535,16 +536,16 @@ The operations of the multi-store model explained performance in an impressive r
 
 I mentioned earlier that Ebbinghaus had shown examples of the serial position effect. Since Ebbinghaus, many researchers noticed serial-position effects in experiments where participants tried to learn a list of items.
 
-::: {.floatright50 data-latex=""}
-
-
 ```{r}
+#| label: fig-8Serial_position_1
+#| fig-cap: "A graph showing the serial position effect, where memory is better for items presented at the beginning and end of a list compared to items in the middle."
+#| out-width: "50%"
+
 knitr::include_graphics("imgs/Serial_position_1.jpg")
 ```
 
-:::
 
-The graph shows the serial position effect from Deese & Kaufman [@deeseSerialEffectsRecall1957a], obtained from a free recall memory task [see also, @murdockjrSerialPositionEffect1962]. In this task, subjects heard a list of unrelated words (either 10 words or 32 words), and then they had to recall as many words as they could. In a free recall task, a subject can write any word they want in any order. After the subjects wrote down the words they recalled, the researchers analyzed which words were most likely to be recalled as a function of original position in the list. The graph shows primacy and recency effects. Subjects were more likely to recall words from the beginning (primacy) and ending (recency) of the list, compared to the words from the middle.
+@fig-8Serial_position_1 shows the serial position effect from Deese & Kaufman [@deeseSerialEffectsRecall1957a], obtained from a free recall memory task [see also, @murdockjrSerialPositionEffect1962]. In this task, subjects heard a list of unrelated words (either 10 words or 32 words), and then they had to recall as many words as they could. In a free recall task, a subject can write any word they want in any order. After the subjects wrote down the words they recalled, the researchers analyzed which words were most likely to be recalled as a function of original position in the list. The graph shows primacy and recency effects. Subjects were more likely to recall words from the beginning (primacy) and ending (recency) of the list, compared to the words from the middle.
 
 #### Explaining the serial position effect
 
@@ -566,16 +567,15 @@ What kind of experimental manipulation could you come up with to test the multi-
 
 The above describes how a rehearsal strategy  could lead someone to preferentially recall words at the end of a list. What would happen to the recent effect if people were prevented from rehearsing words at the end of the experiment? According to the multi-store model, the recency effect should be eliminated. 
 
-::: {.floatright50 data-latex=""}
-
-
 ```{r}
+#| label: fig-8Serial_position_2
+#| fig-cap: "Results from @postmanShorttermTemporalChanges1965 showing the recency effect is eliminated when participants perform arithmetic problems immediately after encoding a list."
+#| out-width: "75%"
+
 knitr::include_graphics("imgs/Serial_position_2.png")
 ```
 
-:::
-
-Postman & Philips already had data consistent with multi-store model explanation [@postmanShorttermTemporalChanges1965]. They manipulated whether or not subjects completed arithmetic problems before recalling words from a list. In the 0 second condition, subjects heard a list of words and tried to recall all of the words right away. That group shows clear primacy and recency effects, for all three list lengths. In the 30 second condition, subjects heard a list of words and then had to perform arithmetic for 30 seconds before recalling the items. The recency effect portion of the curve disappeared for all of the lists. The multi-store model explains that the arithmetic task disrupted the rehearsal process. Subjects were solving arithmetic problems rather than rehearsing the last few words from the list. According to the model, the short-term rehearsal buffer would no longer have any words in it. Therefore, only long-term memory could be used to recall words; and, recall from long-term memory would produce a primacy effect, but not a recency effect.
+Postman & Philips already had data consistent with multi-store model explanation [@postmanShorttermTemporalChanges1965]. They manipulated whether or not subjects completed arithmetic problems before recalling words from a list. @fig-8Serial_position_2 shows the results from their experiment. In the 0 second condition, subjects heard a list of words and tried to recall all of the words right away. That group shows clear primacy and recency effects, for all three list lengths. In the 30 second condition, subjects heard a list of words and then had to perform arithmetic for 30 seconds before recalling the items. The recency effect portion of the curve disappeared for all of the lists. The multi-store model explains that the arithmetic task disrupted the rehearsal process. Subjects were solving arithmetic problems rather than rehearsing the last few words from the list. According to the model, the short-term rehearsal buffer would no longer have any words in it. Therefore, only long-term memory could be used to recall words; and, recall from long-term memory would produce a primacy effect, but not a recency effect.
 
 #### Long-term recency
 
@@ -583,18 +583,18 @@ The multi-store model explained recency effects in terms of a short-term rehears
 
 There are several examples of long-term recency effects. In general, they involve experimental conditions that compromise a short-term rehearsal buffer, but nevertheless produce recency effects in a free-recall task. Here are two examples. 
 
-In 1973, Tzeng reported a standard free-recall experiment with a twist. His subjects were given four lists of 10 words each. The twist was that after hearing each word, subjects spent 20 seconds counting backwards by 3s from a random starting digit. This was similar to the Postman & Philips manipulation, but the arithmetic was performed after every word, and not just at the end of the list. Counting backwards by 3s was a very demanding task that should occupy and replace the contents of any short-term rehearsal buffer. According to the multi-store model, Tzeng should not have found recency effects in this experiment, but he did.
-
-::: {.floatright50 data-latex=""}
-
+In 1973, Tzeng reported a standard free-recall experiment with a twist [@tzengPositiveRecencyEffect1973]. His subjects were given four lists of 10 words each. The twist was that after hearing each word, subjects spent 20 seconds counting backwards by 3s from a random starting digit. This was similar to the Postman & Philips manipulation, but the arithmetic was performed after every word, and not just at the end of the list. Counting backwards by 3s was a very demanding task that should occupy and replace the contents of any short-term rehearsal buffer. According to the multi-store model, Tzeng should not have found recency effects in this experiment, but he did.
 
 ```{r}
+#| label: fig-8Tzeng_1973
+#| fig-cap: "Results from @tzengPositiveRecencyEffect1973 showing evidence of long-term recency effects."
+#| out-width: "50%"
+
 knitr::include_graphics("imgs/Tzeng_1973.jpg")
 ```
 
-:::
 
-The data to the right show Tzeng's results for initial and final recall. Initial recall is the solid line, and refers to the results of free recall tests performed right after encoding each list of 10 words (with 20 seconds of backwards counting for each word). There were four initial recall tests, one after each list. At the end of all four tests, there was a surprise final recall test, where subjects were asked to recall as many words as they could from all the lists. Final recall is the dashed line. Recency effects were obtained in both initial and final recall tests. 
+@fig-8Tzeng_1973 shows Tzeng's results for initial and final recall. Initial recall is the solid line, and refers to the results of free recall tests performed right after encoding each list of 10 words (with 20 seconds of backwards counting for each word). There were four initial recall tests, one after each list. At the end of all four tests, there was a surprise final recall test, where subjects were asked to recall as many words as they could from all the lists. Final recall is the dashed line. Recency effects were obtained in both initial and final recall tests. 
 
 In 1977, Baddeley and Hitch [@baddeleyRecencyReexamined1977] reviewed several  additional examples of recency effects that were not easily explained by a short-term rehearsal buffer. One example was from naturalistic data they collected from rugby players. Near the end of a season, rugby players were asked to recall the names of teams they had played in previous games. The data showed a prominent recency effect, roughly as a function of number of intervening games. The players were more likely to recall teams from more recent games than more remote games. These kinds of findings suggested a role for long-term memory to produce recency effects, and that short-term rehearsal was not the sole explanation for recency effects.
 
