@@ -7,7 +7,7 @@ project:
   resources:
     - "images/"
     - "slides/"
-    - "textbook/_book/"
+    - "textbook/book/"
   
 
 website:

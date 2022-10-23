@@ -1,8 +1,10 @@
 project:
   type: book
+  output-dir: book
   
 book:
-  title: "Instances of Cognition: Questions, Methods, Findings, Explanations, Applications, and Implications"
+  title: "Instances of Cognition"
+  subtitle: "Questions, Methods, Findings, Explanations, Applications, and Implications"
   author: "Matthew J. C. Crump"
   date: "9/01/2021"
   chapters:
@@ -25,7 +27,7 @@ format:
   pdf:
     documentclass: scrbook
   epub:
-    cover-image: cover.png
+    cover: imgs/cover.jpg
  
 editor: source
 
