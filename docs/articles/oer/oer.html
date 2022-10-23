@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Matthew J. C. Crump">
 
 <title>cognition - Using and contributing to this open-educational resource</title>
 <style>
@@ -71,15 +72,15 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="cognition - Using and contributing to this open-educational resource">
-<meta property="og:description" content="This is a “how-to” page for adopters and contributors interested in using and modifying this resource.">
+<meta property="og:description" content="This is a “how-to” page for adopters and contributors interested in using and modifying this open-educational resource, which is free to use, share, copy, edit, and remix, with attribution following…">
 <meta property="og:site-name" content="cognition">
 <meta name="twitter:title" content="cognition - Using and contributing to this open-educational resource">
-<meta name="twitter:description" content="This is a “how-to” page for adopters and contributors interested in using and modifying this resource.">
+<meta name="twitter:description" content="This is a “how-to” page for adopters and contributors interested in using and modifying this open-educational resource, which is free to use, share, copy, edit, and remix, with attribution following…">
 <meta name="twitter:creator" content="@MattCrumpLab">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -189,7 +190,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../../articles/oer/oer.html" aria-current="page">
+    <a class="nav-link active" href="../../articles/oer/OER.html" aria-current="page">
  <span class="menu-text">OER</span></a>
   </li>  
   <li class="nav-item compact">
@@ -202,10 +203,39 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Using and contributing to this open-educational resource</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="../../" class="sidebar-logo-link">
+      <img src="../../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../articles/oer/OER.html" class="sidebar-item-text sidebar-link active">Using and contributing to this open-educational resource</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../articles/oer/dev_notes.html" class="sidebar-item-text sidebar-link">Version Notes</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -215,14 +245,16 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
   <li><a href="#cognition-suite-contents" id="toc-cognition-suite-contents" class="nav-link active" data-scroll-target="#cognition-suite-contents">Cognition suite contents</a></li>
   <li><a href="#warning-about-active-development" id="toc-warning-about-active-development" class="nav-link" data-scroll-target="#warning-about-active-development">Warning about active development</a></li>
   <li><a href="#contributing" id="toc-contributing" class="nav-link" data-scroll-target="#contributing">Contributing</a></li>
-  <li><a href="#build-your-own-course" id="toc-build-your-own-course" class="nav-link" data-scroll-target="#build-your-own-course">Build your own course</a>
+  <li><a href="#build-your-own-course" id="toc-build-your-own-course" class="nav-link" data-scroll-target="#build-your-own-course">Build your own course</a></li>
+  <li><a href="#compiling-the-repo" id="toc-compiling-the-repo" class="nav-link" data-scroll-target="#compiling-the-repo">Compiling the repo</a>
   <ul class="collapse">
-  <li><a href="#install-r-and-r-studio-and-github-desktop" id="toc-install-r-and-r-studio-and-github-desktop" class="nav-link" data-scroll-target="#install-r-and-r-studio-and-github-desktop">Install R and R Studio and Github Desktop</a></li>
+  <li><a href="#get-the-software-you-need" id="toc-get-the-software-you-need" class="nav-link" data-scroll-target="#get-the-software-you-need">Get the software you need</a></li>
   <li><a href="#get-the-repo" id="toc-get-the-repo" class="nav-link" data-scroll-target="#get-the-repo">Get the repo</a></li>
-  <li><a href="#overarching-structure" id="toc-overarching-structure" class="nav-link" data-scroll-target="#overarching-structure">Overarching Structure</a></li>
+  <li><a href="#render-the-project" id="toc-render-the-project" class="nav-link" data-scroll-target="#render-the-project">Render the project</a></li>
   <li><a href="#course-website" id="toc-course-website" class="nav-link" data-scroll-target="#course-website">Course Website</a></li>
   <li><a href="#textbook" id="toc-textbook" class="nav-link" data-scroll-target="#textbook">Textbook</a></li>
   <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#course-docs" id="toc-course-docs" class="nav-link" data-scroll-target="#course-docs">Course docs</a></li>
   <li><a href="#test-bank" id="toc-test-bank" class="nav-link" data-scroll-target="#test-bank">Test bank</a></li>
   </ul></li>
   </ul>
@@ -233,38 +265,43 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Using and contributing to this open-educational resource</h1>
+<h1 class="title d-none d-lg-block">Using and contributing to this open-educational resource</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Matthew J. C. Crump </p>
+          </div>
+  </div>
     
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">October 23, 2022</p>
+    </div>
+  </div>
     
   </div>
   
 
 </header>
 
-<p>This is a “how-to” page for adopters and contributors interested in using and modifying this resource.</p>
-<p>This is an open-educational resource that is free to use, share, copy, edit, and remix, with attribution and following this license.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg" class="img-fluid figure-img"></a></p>
-<p></p><figcaption class="figure-caption">License: CC BY-SA 4.0</figcaption><p></p>
-</figure>
-</div>
+<p>This is a “how-to” page for adopters and contributors interested in using and modifying this open-educational resource, which is free to use, share, copy, edit, and remix, with attribution following the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 creative-commons license</a>.</p>
 <section id="cognition-suite-contents" class="level2">
 <h2 class="anchored" data-anchor-id="cognition-suite-contents">Cognition suite contents</h2>
-<p>The project repository at <a href="https://github.com/CrumpLab/cognition" class="uri">https://github.com/CrumpLab/cognition</a> currently houses all of the source code necessary to build all of the major content resources. There are plans to add a cognitive psychology experiment lab platform, but that will likely be packaged separately.</p>
-<p>The major contents include a <a href="https://www.crumplab.com/cognition">course website</a>, <a href="https://www.crumplab.com/cognition/textbook">textbook</a>, slide decks (see slide decks tab on course website), weekly learning modules (see website), and a growing test bank (email mcrump@brooklyn.cuny.edu to request access).</p>
-<p>The suite is developed using open-source software, relying heavily on R and RStudio and libraries from the open-source R community.</p>
+<p>The project repository at <a href="https://github.com/CrumpLab/cognition" class="uri">https://github.com/CrumpLab/cognition</a> contains the source code to build the website, textbook, and slide decks.</p>
+<p>The major components include a <a href="https://www.crumplab.com/cognition">course website</a>, <a href="https://www.crumplab.com/cognition/textbook">textbook</a>, slide decks (see slide decks tab on course website), weekly learning modules (see website), and a growing test bank (email mcrump@brooklyn.cuny.edu to request access).</p>
+<p>The suite is developed using open-source software, relying heavily on quarto, R, RStudio and libraries from the open-source R community.</p>
 </section>
 <section id="warning-about-active-development" class="level2">
 <h2 class="anchored" data-anchor-id="warning-about-active-development">Warning about active development</h2>
-<p>These materials are being actively developed and the contents is subject to incremental change. I am using these materials to teach this course at Brooklyn College of CUNY, and I continuously update this repository as I modify the course over each semester. I plan to save snapshots of the repository at the end of each semester. These are currently saved as branches in the GitHub repository. I will likely switch to using Github releases to preserve prior versions.</p>
+<p>These materials are being actively developed and the contents is subject to incremental change. I am using these materials to teach this course at Brooklyn College of CUNY, and I continuously update this repository as I modify the course over each semester. Snapshots of the repository at various stages are currently saved as branches in the GitHub repository. I will likely switch to using Github releases to preserve prior versions.</p>
 </section>
 <section id="contributing" class="level2">
 <h2 class="anchored" data-anchor-id="contributing">Contributing</h2>
@@ -276,43 +313,51 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 </section>
 <section id="build-your-own-course" class="level2">
 <h2 class="anchored" data-anchor-id="build-your-own-course">Build your own course</h2>
-<p>In principle anyone should be able to download the <a href="https://github.com/CrumpLab/cognition">repository</a> and compile the resource. This would allow you modify the contents of this course to suit your own needs. Compiling this repository requires some expertise in the R environment. The remaining sections are intended as a very brief guide to getting started. This guide is currently very bare bones, and I hope to add more details here in the future.</p>
-<section id="install-r-and-r-studio-and-github-desktop" class="level3">
-<h3 class="anchored" data-anchor-id="install-r-and-r-studio-and-github-desktop">Install R and R Studio and Github Desktop</h3>
-<p>Here’s some tips on getting the open-source software tools you will need:</p>
-<p><a href="https://crumplab.com/rstatsforpsych/r-rstudio-github.html" class="uri">https://crumplab.com/rstatsforpsych/r-rstudio-github.html</a></p>
+<p>In principle anyone should be able to download the <a href="https://github.com/CrumpLab/cognition">repository</a> and compile the resource. This would allow you to modify the contents of this course to suit your own needs.</p>
+</section>
+<section id="compiling-the-repo" class="level2">
+<h2 class="anchored" data-anchor-id="compiling-the-repo">Compiling the repo</h2>
+<p>Compiling this repository requires some expertise in the R environment. The remaining sections are intended as a brief guide to getting started. This guide is currently very bare bones, and I hope to add more details here in the future.</p>
+<section id="get-the-software-you-need" class="level3">
+<h3 class="anchored" data-anchor-id="get-the-software-you-need">Get the software you need</h3>
+<ol type="1">
+<li>Sign up for a free account at <a href="https://github.com" class="uri">https://github.com</a>. This a website for sharing open-source software, but it can also be used to serve your blog as a website for free.</li>
+<li><a href="https://desktop.github.com">Download Github Desktop</a> and install it on your machine. This should install the version control software git on your system, and you can use Github Desktop to easily push your blog from your local computer so that it can be viewed on Github.com.</li>
+<li><a href="https://cran.rstudio.com">Download R</a> and install it on your machine. R is a programming language capable of many things, and it needs to be on your machine before you can run R Studio.</li>
+<li><a href="https://www.rstudio.com/products/rstudio/download/#download">Download R Studio Desktop</a> and install it on your machine. R Studio is called an “IDE” or integrated development environment, that you can use to write your blog with quarto.</li>
+<li><a href="https://quarto.org/docs/download/prerelease.html">Download quarto 1.2 or later</a>. Rstudio ships with quarto, but at the time of this writing this repository uses quarto features from pre-release build 1.2.</li>
+</ol>
 </section>
 <section id="get-the-repo" class="level3">
 <h3 class="anchored" data-anchor-id="get-the-repo">Get the repo</h3>
-<p>You can fork, clone, or download the repository to your local computer</p>
+<p>Fork, clone, or download the repository to your local computer</p>
 <p><a href="https://github.com/CrumpLab/cognition/" class="uri">https://github.com/CrumpLab/cognition/</a></p>
 </section>
-<section id="overarching-structure" class="level3">
-<h3 class="anchored" data-anchor-id="overarching-structure">Overarching Structure</h3>
-<p>The cognition repository is structured as a <a href="https://quarto.org">quarto</a> project.</p>
-<p>A previous version structured as a vertical project, and the remaining part of this document needs to be updated ASAP.</p>
-<p>This means that it is an R studio project with a file structure consistent with the R package syntax. As a result, the contents is a ‘pretend’ R package. In fact, the repository does contain some R functions that can be installed as an R package.</p>
-<p>Adopting the R package syntax provides some structure for organizing the assets, and it allows use of the <a href="https://pkgdown.r-lib.org">pkgdown</a> to compile the course website.</p>
+<section id="render-the-project" class="level3">
+<h3 class="anchored" data-anchor-id="render-the-project">Render the project</h3>
+<p>The cognition repository is a <a href="https://quarto.org">quarto</a> project. See the <a href="https://quarto.org">quarto</a> documentation for more information on using quarto.</p>
+<ol type="1">
+<li>Open the cognition project file <code>cognition.Rproj</code> in Rstudio.</li>
+<li>Go to the Build tab, click Render Website.</li>
+<li>Preview the website in the Viewer pane (or in a browser) after rendering is complete.</li>
+</ol>
 </section>
 <section id="course-website" class="level3">
 <h3 class="anchored" data-anchor-id="course-website">Course Website</h3>
-<ol type="1">
-<li>Load <code>cognition.Rproj</code> in Rstudio</li>
-<li><code>pkgdown::build_site()</code> will build the entire site</li>
-</ol>
-<p>It is highly recommended to learn more about pkgdown from the <a href="https://pkgdown.r-lib.org">pkgdown documentation</a></p>
-<p><code>_pkgdown.yml</code> configures the navbar, and other sitewide information.</p>
-<p><code>readme.md</code> contains content for the langind page</p>
-<p>Individual pages are written as R Markdown documents in the <code>vignettes</code> folder. <code>pkgdown</code> automatically renders <code>.Rmd</code> documents in <code>vignettes</code>. For example, the syllabus and learning modules pages are all written as <code>.Rmds</code> in <code>vignettes</code>.</p>
-<p>All website assets are compiled into the <code>docs</code> folder, which is used to serve the assets to the web from the github repository using github pages.</p>
+<p>The <code>_quarto.yml</code> file in the main directory controls website rendering,. Modifying this file will change which <code>.qmds</code> are rendered and displayed on the website.</p>
 </section>
 <section id="textbook" class="level3">
 <h3 class="anchored" data-anchor-id="textbook">Textbook</h3>
-<p>The textbook is contained inside the <code>textbook</code> folder. This can be loaded as a separate R studio project by opening <code>cognitiontextbook.Rproj</code>. The textbook requires the <code>bookdown</code> package. Individual chapters are written as <code>.Rmd</code> files. <code>_bookdown.yml</code> controls which <code>.Rmds</code> are included in the book. <code>_output.yml</code> controls output formats, such as <code>html</code>, <code>epub</code>, and <code>pdf</code>. The book is compiled from the build tab in R studio.</p>
+<p>The <code>textbook</code> folder contains <code>.qmd</code>s for each chapter that are rendered to the website from the main <code>_quarto.yml</code> file. As a result, the website version of textbook is rendered from the Build tab, at the same time as all other website pages are rendered.</p>
+<p>PDF and epub versions of the textbook are rendered separately by ’textbook/_quarto.yml’, using <code>quarto::quarto_render("textbook/")</code>.</p>
 </section>
 <section id="slides" class="level3">
 <h3 class="anchored" data-anchor-id="slides">Slides</h3>
-<p>The <code>slides</code> folder contains slide decks for each learning module. Slide decks are again <code>.Rmds</code> that compile to web-based slide decks using revealjs. Requires the <code>revealjs</code> R package.</p>
+<p>The <code>slides</code> folder contains slide decks for each learning module. Slide decks are<code>.Rmds</code> that compile to web-based slide decks using revealjs. Requires the <code>revealjs</code> R package.</p>
+</section>
+<section id="course-docs" class="level3">
+<h3 class="anchored" data-anchor-id="course-docs">Course docs</h3>
+<p>The <code>articles</code> folder contains <code>.qmds</code> for other course documents, such as the syllabus, learning module pages, OER page, developement notes page, etc.</p>
 </section>
 <section id="test-bank" class="level3">
 <h3 class="anchored" data-anchor-id="test-bank">Test bank</h3>
@@ -322,7 +367,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 </section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -457,6 +502,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">This page is built with <a href="https://quarto.org/">Quarto</a>.</div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../LICENSE.md">License</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 

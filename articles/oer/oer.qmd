@@ -1,5 +1,8 @@
 ---
 title: "Using and contributing to this open-educational resource"
+author: "Matthew J. C. Crump"
+license: 'CC BY-SA'
+date-modified: last-modified
 ---
 
 ```{r, include = FALSE}
@@ -9,23 +12,19 @@ knitr::opts_chunk$set(
 )
 ```
 
-This is a "how-to" page for adopters and contributors interested in using and modifying this resource.
-
-This is an open-educational resource that is free to use, share, copy, edit, and remix, with attribution and following this license.
-
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+This is a "how-to" page for adopters and contributors interested in using and modifying this open-educational resource, which is free to use, share, copy, edit, and remix, with attribution following the [CC BY-SA 4.0 creative-commons license](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Cognition suite contents
 
-The project repository at <https://github.com/CrumpLab/cognition> currently houses all of the source code necessary to build all of the major content resources. There are plans to add a cognitive psychology experiment lab platform, but that will likely be packaged separately.
+The project repository at <https://github.com/CrumpLab/cognition> contains the source code to build the website, textbook, and slide decks. 
 
-The major contents include a [course website](https://www.crumplab.com/cognition), [textbook](https://www.crumplab.com/cognition/textbook), slide decks (see slide decks tab on course website), weekly learning modules (see website), and a growing test bank (email mcrump\@brooklyn.cuny.edu to request access).
+The major components include a [course website](https://www.crumplab.com/cognition), [textbook](https://www.crumplab.com/cognition/textbook), slide decks (see slide decks tab on course website), weekly learning modules (see website), and a growing test bank (email mcrump\@brooklyn.cuny.edu to request access).
 
-The suite is developed using open-source software, relying heavily on R and RStudio and libraries from the open-source R community.
+The suite is developed using open-source software, relying heavily on quarto, R, RStudio and libraries from the open-source R community.
 
 ## Warning about active development
 
-These materials are being actively developed and the contents is subject to incremental change. I am using these materials to teach this course at Brooklyn College of CUNY, and I continuously update this repository as I modify the course over each semester. I plan to save snapshots of the repository at the end of each semester. These are currently saved as branches in the GitHub repository. I will likely switch to using Github releases to preserve prior versions.
+These materials are being actively developed and the contents is subject to incremental change. I am using these materials to teach this course at Brooklyn College of CUNY, and I continuously update this repository as I modify the course over each semester. Snapshots of the repository at various stages are currently saved as branches in the GitHub repository. I will likely switch to using Github releases to preserve prior versions.
 
 ## Contributing
 
@@ -36,52 +35,51 @@ I am sharing these materials in case they are useful for other students and teac
 
 ## Build your own course
 
-In principle anyone should be able to download the [repository](https://github.com/CrumpLab/cognition) and compile the resource. This would allow you modify the contents of this course to suit your own needs. Compiling this repository requires some expertise in the R environment. The remaining sections are intended as a very brief guide to getting started. This guide is currently very bare bones, and I hope to add more details here in the future.
+In principle anyone should be able to download the [repository](https://github.com/CrumpLab/cognition) and compile the resource. This would allow you to modify the contents of this course to suit your own needs. 
 
-### Install R and R Studio and Github Desktop
+## Compiling the repo
 
-Here's some tips on getting the open-source software tools you will need:
+Compiling this repository requires some expertise in the R environment. The remaining sections are intended as a brief guide to getting started. This guide is currently very bare bones, and I hope to add more details here in the future.
 
-<https://crumplab.com/rstatsforpsych/r-rstudio-github.html>
+### Get the software you need
+
+1.  Sign up for a free account at <https://github.com>. This a website for sharing open-source software, but it can also be used to serve your blog as a website for free.
+2.  [Download Github Desktop](https://desktop.github.com) and install it on your machine. This should install the version control software git on your system, and you can use Github Desktop to easily push your blog from your local computer so that it can be viewed on Github.com.
+3.  [Download R](https://cran.rstudio.com) and install it on your machine. R is a programming language capable of many things, and it needs to be on your machine before you can run R Studio.
+4.  [Download R Studio Desktop](https://www.rstudio.com/products/rstudio/download/#download) and install it on your machine. R Studio is called an "IDE" or integrated development environment, that you can use to write your blog with quarto.
+5. [Download quarto 1.2 or later](https://quarto.org/docs/download/prerelease.html). Rstudio ships with quarto, but at the time of this writing this repository uses quarto features from pre-release build 1.2.
 
 ### Get the repo
 
-You can fork, clone, or download the repository to your local computer
+Fork, clone, or download the repository to your local computer
 
 <https://github.com/CrumpLab/cognition/>
 
-### Overarching Structure
+### Render the project
 
-The cognition repository is structured as a [quarto](https://quarto.org) project. 
+The cognition repository is a [quarto](https://quarto.org) project. See the [quarto](https://quarto.org) documentation for more information on using quarto.
 
-A previous version structured as a vertical project, and the remaining part of this document needs to be updated ASAP. 
-
-This means that it is an R studio project with a file structure consistent with the R package syntax. As a result, the contents is a 'pretend' R package. In fact, the repository does contain some R functions that can be installed as an R package.
-
-Adopting the R package syntax provides some structure for organizing the assets, and it allows use of the [pkgdown](https://pkgdown.r-lib.org) to compile the course website.
+1. Open the cognition project file `cognition.Rproj` in Rstudio.
+2. Go to the Build tab, click Render Website.
+3. Preview the website in the Viewer pane (or in a browser) after rendering is complete.
 
 ### Course Website
 
-1.  Load `cognition.Rproj` in Rstudio
-2.  `pkgdown::build_site()` will build the entire site
-
-It is highly recommended to learn more about pkgdown from the [pkgdown documentation](https://pkgdown.r-lib.org)
-
-`_pkgdown.yml` configures the navbar, and other sitewide information.
-
-`readme.md` contains content for the langind page
-
-Individual pages are written as R Markdown documents in the `vignettes` folder. `pkgdown` automatically renders `.Rmd` documents in `vignettes`. For example, the syllabus and learning modules pages are all written as `.Rmds` in `vignettes`.
-
-All website assets are compiled into the `docs` folder, which is used to serve the assets to the web from the github repository using github pages.
+The `_quarto.yml` file in the main directory controls website rendering,. Modifying this file will change which `.qmds` are rendered and displayed on the website.
 
 ### Textbook
 
-The textbook is contained inside the `textbook` folder. This can be loaded as a separate R studio project by opening `cognitiontextbook.Rproj`. The textbook requires the `bookdown` package. Individual chapters are written as `.Rmd` files. `_bookdown.yml` controls which `.Rmds` are included in the book. `_output.yml` controls output formats, such as `html`, `epub`, and `pdf`. The book is compiled from the build tab in R studio.
+The `textbook` folder contains `.qmd`s for each chapter that are rendered to the website from the main `_quarto.yml` file. As a result, the website version of textbook is rendered from the Build tab, at the same time as all other website pages are rendered.
+
+PDF and epub versions of the textbook are rendered separately by 'textbook/_quarto.yml', using `quarto::quarto_render("textbook/")`. 
 
 ### Slides
 
-The `slides` folder contains slide decks for each learning module. Slide decks are again `.Rmds` that compile to web-based slide decks using revealjs. Requires the `revealjs` R package.
+The `slides` folder contains slide decks for each learning module. Slide decks are`.Rmds` that compile to web-based slide decks using revealjs. Requires the `revealjs` R package.
+
+### Course docs
+
+The `articles` folder contains `.qmds` for other course documents, such as the syllabus, learning module pages, OER page, developement notes page, etc.
 
 ### Test bank
 

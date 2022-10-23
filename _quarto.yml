@@ -17,6 +17,12 @@ website:
   repo-url: https://github.com/CrumpLab/cognition
   repo-actions: [edit, issue]
   
+  page-footer:
+    left: "This page is built with [Quarto](https://quarto.org/)."
+    right:
+    - text: "License"
+      href: LICENSE.md
+  
   open-graph: true
   twitter-card:
     creator: "@MattCrumpLab"
@@ -96,6 +102,11 @@ website:
     - title: "Learning Modules"
       logo: images/logo.png
       contents: articles/modules/*
+    - title: "OER"
+      logo: images/logo.png
+      contents:
+        - articles/oer/OER.qmd
+        - articles/oer/dev_notes.qmd
 
 format:
   html:
