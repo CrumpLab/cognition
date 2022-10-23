@@ -16,10 +16,12 @@ This book was written with the web in mind, and may contain additional features 
 
 The pdf version of this book is available, but may be missing some features not available in hard copy (e.g., videos, audio, animations etc.). Also, the pdf has some remaining formatting issues. Nevertheless, it is available here:
 
-<https://github.com/CrumpLab/cognition/raw/main/docs/textbook/instances_of_cognition_Crump.pdf>
+<https://github.com/CrumpLab/cognition/raw/main/docs/textbook/_book/Instances-of-Cognition--Questions,-Methods,-Findings,-Explanations,-Applications,-and-Implications.pdf>
+
+Instances-of-Cognition--Questions,-Methods,-Findings,-Explanations,-Applications,-and-Implications.pdf
 
 ## EPUB version
 
 The epub version of this book is available, but may be missing some features not available in hard copy (e.g., videos, audio, animations etc.). The epub version may also have unexpected formatting issues. Nevertheless, it is available here:
 
-<https://github.com/CrumpLab/cognition/raw/main/docs/textbook/instances_of_cognition_Crump.epub>
+<https://github.com/CrumpLab/cognition/raw/main/docs/textbook/_book/Instances-of-Cognition--Questions,-Methods,-Findings,-Explanations,-Applications,-and-Implications.epub>

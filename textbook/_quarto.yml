@@ -1,0 +1,31 @@
+project:
+  type: book
+  
+book:
+  title: "Instances of Cognition: Questions, Methods, Findings, Explanations, Applications, and Implications"
+  author: "Matthew J. C. Crump"
+  date: "9/01/2021"
+  chapters:
+    - index.qmd
+    - Preface.qmd
+    - Reading_Formats.qmd
+    - C1_What_is_Cognition.qmd
+    - C2_Mental_Imagery.qmd
+    - C3_Eugenics.qmd
+    - C4_Intelligence_testing.qmd
+    - C5_Associations.qmd
+    - C6_Behaviorism.qmd
+    - C7_Information_Processing.qmd
+    - C8_Memory_I.qmd
+    - C9_Memory_II.qmd
+
+bibliography: CogPsyTextbook.bib
+
+format:
+  pdf:
+    documentclass: scrbook
+  epub:
+    cover-image: cover.png
+ 
+editor: source
+

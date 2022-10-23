@@ -5,6 +5,7 @@ author: "Matthew J. C. Crump"
 date: 09/01/2021
 license: 'CC BY-SA'
 date-modified: last-modified
+cover-image: "imgs/cover.jpg"
 image: "imgs/cover.jpg"
 description: An introduction to cognitive psychology and open educational resource
 bibliography: CogPsyTextbook.bib
