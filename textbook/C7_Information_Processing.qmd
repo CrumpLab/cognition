@@ -38,7 +38,7 @@ colnames(info) <- c("Word Count","Reading Time")
 knitr::kable(info)
 ```
 
-This chapter overviews **information processing** as a concept in cognition. I mentioned at the beginning of this textbook, that Ulrich Neisser ^[who wrote the first textbook called *Cognitive Psychology* in 1967] defined cognition as "all processes by which the sensory input is transformed, reduced, elaborated, stored, recovered, and used" [@neisserCognitivePsychology1967]. Neisser's definition embraces the information processing tradition in cognition. Sensory input contains "information" about the world, and cognition is characterized as the "processing" of that information. However, just like there were many forms and ideas about behaviorism, there are different forms and ideas about information processing in cognition. We will examine the notions of *processing stages*, *information*, and *capacity limitations*, which became popular research topics around the 1950s and 60s.
+This chapter overviews **information processing** as a concept in cognition. As mentioned in chapter 1, Ulrich Neisser defined cognition as "all processes by which the sensory input is transformed, reduced, elaborated, stored, recovered, and used" [@neisserCognitivePsychology1967]. Neisser's definition embraces the information processing tradition in cognition. Sensory input contains "information" about the world, and cognition is characterized as the "processing" of that information. However, just like there were many forms and ideas about behaviorism, there are different forms and ideas about information processing in cognition. We will examine the notions of *processing stages*, *information*, and *capacity limitations*, which became popular research topics around the 1950s and 60s.
 
 Some alliterative themes about cognitive research are also introduced. For example, we begin the chapter with the *four Rs*, referring to the industrial, technological, digital and "cognitive" revolutions. The first three revolutions introduced many new machines that changed the course of human history. Some of these machines also had an influence on explanation of cognition. In particular, over the decades, mechanistic explanations of cognitive phenomena have been closely inspired by the working elements of machines modern for the time. In this chapter, we introduce the "assembly-line", "telephone", and "computer" metaphors of cognition, and examine how the first two technologies shaped the concept of information processing. The computer metaphor will be expanded upon in later chapters.
 
@@ -46,26 +46,13 @@ Some alliterative themes about cognitive research are also introduced. For examp
 
 "Revolution" is used to describe periods in history where some innovation led to dramatic changes in society. For example, the [industrial revolution](https://en.wikipedia.org/wiki/Industrial_Revolution) in Western Europe and America involved creating large-scale machines, factories and *assembly-lines* to mechanize the means of production; and, is credited with launching the world into an unprecedented period of sustained growth (e.g., population growth, socio-economic growth). The [second industrial revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution) (AKA technological revolution), brought the introduction of electricity, *telephones for communication*, planes, trains, and automobiles for transportation, and new systems for infrastructure like sewage and water supply networks. Eras associated with the introduction of technology are also described in terms of ages, like the [machine age](https://en.wikipedia.org/wiki/Machine_Age), [atomic age](https://en.wikipedia.org/wiki/Atomic_Age), [jet age](https://en.wikipedia.org/wiki/Jet_Age), [space age](https://en.wikipedia.org/wiki/Space_Age). A more recent revolution was the [digital revolution](https://en.wikipedia.org/wiki/Digital_Revolution) involving introduction of *computer technology*, which led into the [information age](https://en.wikipedia.org/wiki/Information_Age). According to wikipedia, the next age could be the [imagination age](https://en.wikipedia.org/wiki/Imagination_age) involving immersive virtual reality experiences and an economy primarily driven by "imagination work" ^[hmmm...].
 
-Psychologists have also used "revolutionary" terms to describe historical periods of research in psychology. For example, the "cognitive revolution" generally refers to the period of experimental psychology following "radical behaviorism". The figurative imagery implies that "cognitive psychologists" rebelled and overthrew the "behaviorist orthodoxy". However, the transition between the two schools of thought was very gradual, and several aspects of behaviorism were retained as a part of modern cognition [for additional descriptions of the "cognitive revolution" see, @millerCognitiveRevolutionHistorical2003;@greenwoodUnderstandingCognitiveRevolution1999;@sperryImpactPromiseCognitive1993]. In this sense, "revolution" is not a great metaphor for the emergence of cognitive psychology . For example, cognitive psychologist [George Mandler](https://en.wikipedia.org/wiki/George_Mandler) notes, "The term 'revolution' is probably inappropriate—there were no cataclysmic events, the change occurred slowly in different sub-fields over some 10 to 15 years, there was no identifiable flash-point or leader, and there were no Jacobins" [@mandlerOriginsCognitiveEvolution23].
+Psychologists have also used "revolutionary" terms to describe historical periods of research in psychology. For example, the "cognitive revolution" generally refers to the period of experimental psychology following "radical behaviorism". The figurative imagery implies that "cognitive psychologists" rebelled and overthrew the "behaviorist orthodoxy". However, the transition between the two schools of thought was very gradual, and several aspects of behaviorism were retained as a part of modern cognition [for additional descriptions of the "cognitive revolution" see, @millerCognitiveRevolutionHistorical2003;@greenwoodUnderstandingCognitiveRevolution1999;@sperryImpactPromiseCognitive1993]. In this sense, "revolution" is not a great metaphor for the emergence of cognitive psychology . For example, cognitive psychologist [George Mandler](https://en.wikipedia.org/wiki/George_Mandler) notes, "The term 'revolution' is probably inappropriate--there were no cataclysmic events, the change occurred slowly in different sub-fields over some 10 to 15 years, there was no identifiable flash-point or leader, and there were no Jacobins" [@mandlerOriginsCognitiveEvolution23].
 
 It is no secret that people use metaphors all of the time. And, in later chapter we will discuss a central role for metaphors as a process in cognition. For example, metaphors can shape how people think of one thing in terms of another. The "cognitive revolution" could lead you to imagine a fight against the ruling behaviorists. In this case, the revolution metaphor is not very fitting or insightful. The metaphor does not illuminate important historical aspects of the behaviorism-cognitive transition. Using the metaphor could exaggerate the importance of some historical elements over others by highlighting attention toward elements that fit the metaphor, and misdirecting examination of elements that do not fit the metaphor. However, in other cases a metaphorical relationship can fit very well, be useful for explanation, and even generate insights. 
 
-As I will describe briefly in the next section, metaphors are very commonly used to describe how cognition works. We will use technological revolutions as metaphors to describe concepts of "information processing" in cognition. The introduction of "information processing" concepts occurred during the transition from behaviorism to cognitivism, and involved mechanistic metaphors from the industrial revolution (the factory and assembly line), and the technological revolution (the telephone).
+Metaphors are commonly used to describe how cognition works. We will use technological revolutions as metaphors to describe concepts of "information processing" in cognition. The introduction of "information processing" concepts occurred during the transition from behaviorism to cognitivism, and involved mechanistic metaphors from the industrial revolution (the factory and assembly line), and the technological revolution (the telephone).
 
 ### Assembly-line metaphor of cognition
-
-::: {.floatright50 data-latex=""} 
-
-**A crayon assembly line**
-
-```{r}
-if (knitr::is_html_output(excludes="epub")){
-  cat('<iframe src="https://www.youtube.com/embed/ZQ_MEFVx5jM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"')
-}
-```
-
-:::
-
 
 A major innovation of the industrial revolution was the introduction of machines and factories to automate production. These are physical devices that process and transform raw materials into other refined states, that are further transformed and or assembled into goods or final products. For example, a factory assembly-line for making crayons involves successive processing stages, such as: heating wax in vat, coloring and stirring the liquid, filtering, pouring and drying and forming the wax into malleable rolls, extruding the rolls of colored wax through perforated metal plates (with holes the size of crayons), drying the newly formed crayons, and placing them in machines to wrap and package them. The assembly-line metaphor is also used in cognition, and refers to the idea that there are separate stages of processing that transform the "raw materials" of sensation into the "final products" of cognition and action. We examine this metaphor in the section on Donders and his use of mental chronometry to measure assumed stages of processing.
 
@@ -96,9 +83,9 @@ Machines set a compelling standard for explanation, especially if the standard i
 
 At the same time, psychology does not always have the goal of achieving a machine-based explanation. For example, some of the behaviorists in the previous chapter deliberately side-stepped mechanistic explanations as a goal. For example, Skinner acknowledged that behavior was ultimately rooted in physical mechanisms, but he argued that behavior itself could also be studied at a macroscopic level, without referring to it's microscopic mechanisms. He sometimes used terms that loosely referred to mechanisms. For example, a "reflexes" had "strength", and were emitted after some "impulse" reached a "threshold". All of these terms could refer to various physical mechanisms; however, Skinner was careful to say that none of them were intended to refer to any real mechanism. They were simply abstract and arbitrary terms in his system that he could have chosen different names for. As a result, many components of Skinner's theory were not intended to be explained at a lower-level. 
 
-For example, you might ask, how does an impulse surpass a threshold and trigger a reflex, what is the mechanism? In Skinner's system this question could be viewed as incoherent by definition. He defined those terms not to have any reference to physical mechanisms. Of course, it is possible to wonder about what physiological mechanisms do give rise to the behaviors in Skinner's descriptive system, but the investigation of such mechanisms was not in the same domain as behaviorism.
+For example, how does an impulse surpass a threshold and trigger a reflex, what is the mechanism? In Skinner's system this question could be viewed as incoherent by definition. He defined those terms not to have any reference to physical mechanisms. Of course, it is possible to wonder about what physiological mechanisms do give rise to the behaviors in Skinner's descriptive system, but the investigation of such mechanisms was not in the same domain as behaviorism.
 
-In my view, behaviorists had an awkward relationship with mechanistic explanations. They were critical of domains that lacked mechanisms, such as mentalistic and introspectionist psychology; but, also carefully avoided having to describe mechanisms for their domain of psychology. Instead, they were content with terms that had metaphorical connotations of mechanisms, as long as the terms were operationally defined and useful for a descriptive system of behavior.
+Behaviorists had an awkward relationship with mechanistic explanations. They were critical of domains that lacked mechanisms, such as mentalistic and introspectionist psychology; but, also carefully avoided having to describe mechanisms for their domain of psychology. Instead, they were content with terms that had metaphorical connotations of mechanisms, as long as the terms were operationally defined and useful for a descriptive system of behavior.
 
 As we step past the behaviorist era in to the cognitive one, we will see a shift in explanatory style from purely descriptive systems to a greater emphasis on mechanistic lines of questioning and mechanistic accounts of cognitive processes. This shift sometimes involves actual physical mechanisms in the brain, body, and environments; but, the shift also involves usage of metaphorical mechanisms. Metaphorical mechanisms may sound like an oxymoron, but they are very common in science. The general strategy is first to find a simple model system that is "like" a more complicated system under investigation; and then use the simple model as a "metaphor" to describe or generate insights about the more complicated system. In the next section we look at the concept of mental processing stages and the assembly-line metaphor from the industrial revolution.
 
@@ -122,88 +109,99 @@ Imagine you were an astronomer about to look at a star through a telescope. As s
 
 ### Donders mental reaction times
 
-Donders conducted many human reaction time experiments using tactile, visual and auditory stimuli. All of the experiments used a similar method. A subject was presented with a stimulus, and they responded to the stimulus as quickly and accurately as possible. Donders measured reaction times, which was defined as the amount of time between the onset of the stimulus and a subsequent response. Note, reaction times continue to be used in cognitive psychology, and their definition remains the same.
+Donders conducted many human reaction time experiments using tactile, visual and auditory stimuli. All of the experiments used a similar method. A subject was presented with a stimulus and they responded to the stimulus as quickly and accurately as possible. Donders measured reaction time, which was defined as the amount of time between the onset of the stimulus and a subsequent response. Reaction times are still commonly used as measurements in modern cognitive psychology.
 
-A basic question was whether different sense organs had different physiological reaction times. But, Donders was more interested in the additional "mental" time it might take to perform increasingly complex tasks before making a response to the stimuli. The tasks that Donders used to increase complexity are still widely used. In the remaining description of Donders work, I will use the modern terms for the tasks, and present a generic summary of Donders findings and conclusions. 
+A basic question was whether different sense organs had different physiological reaction times. But, Donders was more interested in the additional "mental" time it might take to perform increasingly complex tasks before making a response to the stimuli.
 
-::: {.floatright25 data-latex=""} 
 ```{r}
+#| label: fig-7Donders_simple
+#| fig-cap: "A simple reaction time task involves detecting any stimulus as fast as possible."
+#| out.width: "75%"
+#| column: margin
+
 knitr::include_graphics("imgs/Donders_simple.png")
 ```
-:::
 
-The most basic reaction time task is called a *simple reaction time task*. In this task, subjects are presented with a stimulus, and asked to respond to as quickly as possible, as soon as they detect it. Donders would consider the reaction times from this task as "physiological reaction times".
 
-::: {.floatright25 data-latex=""} 
+@fig-7Donders_simple shows the most basic *simple reaction time task*. This task measures how long it takes for a person to detect that a stimulus has been presented. Participants would wait for a stimulus, like a light, to be presented and then they would make a response as quickly as possible to, as soon as the stimulus was detected.
+Donders would consider performance in this task as measure of "physiological reaction time".
+
 ```{r}
+#| label: fig-7Donders_GONoGo
+#| fig-cap: "A Go-NoGo task involves detecting a specific 'go' stimulus (aqua light) as fast as possible, and witholding responses to 'no-go' stimuli (red light)."
+#| out.width: "75%"
+#| column: margin
+
 knitr::include_graphics("imgs/Donders_GoNoGo.png")
 ```
-:::
 
-Donders invented the idea of having subjects perform a slightly more complicated task that is now referred to as the *GO-NO GO* task. In this task, subjects are presented with a stimulus, but they only make a response if the stimulus is the target stimulus. For example, one might see a blue or red stimulus, and the response would be required only if the stimulus was blue (a GO response). No response would be required if the stimulus was red (a NO GO trial).
 
-::: {.floatright25 data-latex=""} 
+Donders invented the idea of having subjects perform a slightly more complicated task shown in @fig-7Donders_GONoGo, now referred to as the *GO-NO GO* task. Participants are presented with a stimulus, but they are instructed to only make a response when the stimulus is the target "go" stimulus. For example, one might see a blue or red stimulus, and the response would be required only if the stimulus was blue (a GO response). No response would be required if the stimulus was red (a NO GO trial).
+
 ```{r}
+#| label: fig-7Donders_Choice
+#| fig-cap: "A choice reaction time task presents one of many stimuli, each requiring their own specific response."
+#| out.width: "75%"
+#| column: margin
+
 knitr::include_graphics("imgs/Donders_Choice.png")
 ```
-:::
 
-An even more complicated version of the task is referred to as an *alternative forced-choice task*. For example, a subject could be asked to respond to a blue stimulus by pressing a left button, and to respond to a red stimulus by pressing a right button. This would be called a 2-AFC (two-alternative forced choice) task, or a choice reaction time task.
+
+@fig-7Donders_Choice depicts a more complicated *alternative forced-choice task*. Here, Participants are shown one of many stimuli and are required to respond to each with a specific response. For example, a subject could be asked to respond to a blue stimulus by pressing a left button, and to respond to a red stimulus by pressing a right button. This would be called a 2-AFC (two-alternative forced choice) task.
 
 ### Donders subtractive stage logic
 
-Donders used subtraction of reaction times between tasks to estimate the speed of mental operations. He assumed that mental operations occurred in successive stages like an assembly line, and that each stage took an average amount time. 
+Donders used the subtraction of reaction times between tasks to estimate the speed of specific mental operations. He assumed that mental operations occurred in successive stages like an assembly line (shown in @fig-7Donders_Assembly), and that each stage took an average amount time. 
 
-```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+```{r}
+#| label: fig-7Donders_Assembly
+#| fig-cap: "A cartoon depiction of a cognitive assembly line. A stimulus enters the assembly line as raw ingredients for cognition. The stimulus is transformed across cognitive processing stages to produce a response."
+#| out.width: "75%"
+
 knitr::include_graphics("imgs/Donders_Assembly.png")
 ```
 
-```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
-knitr::include_graphics("imgs/Donders_Assembly.png")
-```
+According to Donders, the amount of time taken to respond to a stimulus should depend on how many processing stages were required for the task at hand. More simple tasks have fewer processing stages and can be performed more quickly than more complicated tasks that have more required processing stages. These ideas are illustrated in @fig-7Donders_task_stages.
 
+```{r}
+#| label: fig-7Donders_task_stages
+#| fig-cap: "Illustration showing how reaction times should increase as a function of task complexity."
+#| out.width: "75%"
 
-The fastest reaction time should be the physiological time given by the simple reaction time task. This one involved a minimum of mental processing. Reaction times should increase in length if mental processing had to occur before a response was made. 
-
-```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
 knitr::include_graphics("imgs/Donders_task_stages.jpg")
 ```
 
-```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
-knitr::include_graphics("imgs/Donders_task_stages.jpg")
-```
+The fastest reaction time should be the physiological time given by the simple reaction time task. Reaction times should increase in length if additional mental processing had to occur before a response was made. 
 
+For example, the GO-NO GO task should produce a longer reaction time than the simple reaction time task. This is because the task requires an additional mental operation of stimulus identification. In the GO-NO GO task, the stimulus must be identified as the target stimulus before a response is made. @fig-7Donders_id_time shows how Donders used subtractive logic to infer the time taken to complete mental operations like stimulus identification.
 
-For example, the GO-NO GO task should produce a longer reaction time than the simple reaction time task. This is because the task requires an additional mental operation of stimulus identification. In the GO-NO GO task, the stimulus must be identified as the target stimulus before a response is made. 
+```{r}
+#| label: fig-7Donders_id_time
+#| fig-cap: "Employing subtractive logic to estimate stimulus identification time."
+#| out.width: "75%"
 
-```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
 knitr::include_graphics("imgs/Donders_id_time.jpg")
 ```
 
-```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
-knitr::include_graphics("imgs/Donders_id_time.jpg")
-```
+For example, if it took 170 milliseconds to make a response in the GO-NO GO task, and 150 milliseconds to make a response in the simple reaction time task, then Donders took the difference of 20 milliseconds (by subtraction 170-150 = 20) to indicate stimulus identification time.
 
+Subtraction logic could be applied to infer the times associated with subsequent stages of processing. For example, reaction times in the choice task (2AFC) are longer than in a GO-NO GO task. Following Donders logic, a 2AFC task involves yet another mental operation, *response selection*. For example, in a choice task a stimulus must be identified, and then the correct response (e.g., right or left) must be selected before the final response is made.
 
-If it took 170 milliseconds to make a response in the GO - NO GO task, and 150 milliseconds to make a response in the simple reaction time task, Donders took the difference of 20 milliseconds (by subtraction 170-150 = 20) to indicate the time taken by the mental operation. In this example, Donders might say the mental process of identification takes 20 milliseconds. 
+```{r}
+#| label: fig-7Donders_RT_time
+#| fig-cap: "Employing subtractive logic to estimate response selection time."
+#| out.width: "75%"
 
-
-The subtraction logic could be applied to infer the times associated with subsequent stages of processing. For example, reaction times in a two alternative forced choice task (2AFC) are longer than in a GO-NO GO task. Following Donders logic, a 2AFC task involves yet another mental operation, *response selection*. For example, in this task the stimulus must be identified before a response is made, and then the correct response (e.g., right or left) must be selected before the final response is made. The stage of stimulus identification is assumed to occur before the subsequent stage of response selection.
-
-```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
-knitr::include_graphics("imgs/Donders_RT_time.png")
-```
-
-```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
 knitr::include_graphics("imgs/Donders_RT_time.png")
 ```
 
 
-But, by subtracting the reaction time in the 2AFC task, from the reaction time in the GO-NO GO task, Donders argued that the amount of time for response selection could be separated from the amount of time for stimulus identification.
+@fig-7Donders_RT_time shows that response selection time could be measured by subtracting the reaction time in the 2AFC task, from the reaction time in the GO-NO GO task.
 
 ## Beyond Donders
 
-It has been $2021 - 1865 = 156$ years since Donders proposed subtraction logic to measure stages of mental processing time. What happened to his subtraction logic, research on human reaction times, and the concept of processing stages?
+What happened to Donders subtraction logic, research on human reaction times, and the concept of processing stages since he proposed them in 1865?
 
 ### Subtractive logic
 
@@ -223,20 +221,20 @@ The concept of processing stages came back in different ways, and we will see mo
 
 #### PRP: Psychological Refractory Period
 
-British psychologist A. T. Welford drew attention to the *Psychological Refractory Period* in a 1952 paper [@welfordPsychologicalRefractoryPeriod1952, see also @welfordEvidenceSinglechannelDecision1959]. In the preceding war years a great deal of basic research on human reaction times was conducted for the war effort. For example, the ability to make a quick reaction could be important for a pilot. As a result, empirical studies were conducted to identify useful information about human reaction times. Useful information could include how to make reactions more efficient, or to discover limitations in reaction times that could be addressed. For example, if people are pressing buttons or flicking switches in a cockpit, how should the cockpit be designed to improve the speed and accuracy of the responses?
+British psychologist A. T. Welford drew attention to the *Psychological Refractory Period* in a 1952 paper [@welfordPsychologicalRefractoryPeriod1952; see also @welfordEvidenceSinglechannelDecision1959]. In the preceding war years a great deal of basic research on human reaction times was conducted for the war effort. For example, the ability to make a quick reaction could be important for a pilot. As a result, empirical studies were conducted to identify useful information about human reaction times. Useful information could include how to make reactions more efficient, or to discover limitations in reaction times that could be addressed. For example, if people are pressing buttons or flicking switches in a cockpit, how should the cockpit be designed to improve the speed and accuracy of the responses?
 
 
 Welford observed the psychological refractory period from existing reaction time research, and discussed possible explanations of the finding in terms of processing stages. The basic PRP effect was that responding to one stimulus can sometimes delay a response to second stimulus, especially if they are presented quickly, one after the other. 
 
-::: {.floatright50 data-latex=""} 
-
 ```{r}
+#| label: fig-7PRP_effect
+#| fig-cap: "Illustration of the psychological refractory period. A response to a second stimulus is slowed when the second stimulus is presented quickly after the first."
+#| column: margin
+
 knitr::include_graphics("imgs/PRP_effect.jpg")
 ```
 
-:::
-
-The conditions to observe the PRP effect are depicted on the right. In the task, participants are presented with stimuli (S) one after the other, and they asked to response (R) as fast as possible to each of them (e.g., by pressing a button). The long-delay  condition highlights an important difference between two successive stimuli. In this case, the second stimulus ($S_2$) appears after a long temporal delay following the response ($R_1$) to the first stimulus $S_1$. When this delay is long enough, the average reaction time to the first and second stimulus are generally the same ($RT_1 = RT_2$). However, when the delay is shortened, the PRP effect is observed. What happens in performance is that the average reaction time to the second stimulus is longer than the average reaction time to the first stimulus ($RT_1 < RT_2$). This lengthening of the second response time is an example of the so-called "psychological refractory period".
+The conditions to observe the PRP effect are depicted in @fig-7PRP_effect. In the task, participants are presented with stimuli (S) one after the other, and they asked to response (R) as fast as possible to each of them (e.g., by pressing a button). The long-delay  condition highlights an important difference between two successive stimuli. In this case, the second stimulus ($S_2$) appears after a long temporal delay following the response ($R_1$) to the first stimulus $S_1$. When this delay is long enough, the average reaction time to the first and second stimulus are generally the same ($RT_1 = RT_2$). However, when the delay is shortened, the PRP effect is observed. What happens in performance is that the average reaction time to the second stimulus is longer than the average reaction time to the first stimulus ($RT_1 < RT_2$). This lengthening of the second response time is an example of the so-called "psychological refractory period".
 
 The PRP effect is a reliable finding in reaction time research, and since Welford hundreds of papers have been published on the phenomena. Note, as we move forward, we will discuss many findings like the PRP effect that have inspired large numbers of research papers. The term *paradigm* is commonly used to refer to collections of research activity that are relatively focused on specific phenomena or tasks. For example, we could refer to the maze-running research discussed last chapter as a paradigm using the task of maze-running. The PRP paradigm is full of papers testing explanations of the PRP phenomena. My purpose in bringing up the PRP literature is not for us to become experts in this one phenomena; instead, the PRP effect provides a clear example of the metaphorical use of processing stages to provide a quasi-mechanical explanation of the phenomena.
 
@@ -281,16 +279,16 @@ Information Theory was not developed as a theory for cognition or psychology. It
 
 An information channel has three major parts-- a sender, a channel, and a receiver--and two big questions, how much information was sent? And, how much was received?
 
-```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+```{r}
+#| label: fig-7Shannon_info_channel
+#| fig-cap: "Illustration of a toy telephone as a metaphor for an information channel."
+#| out.width: "75%"
+
+
 knitr::include_graphics("imgs/Shannon_info_channel.jpg")
 ```
 
-```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
-knitr::include_graphics("imgs/Shannon_info_channel.jpg")
-```
-
-
-A toy telephone system made out of tin cans and string is a great example of a simple information channel. In this system, one person speaks into a tin-can on one end. There is a hole in the bottom of the can, and a knot is securely blocking the hole so that the remaining length of string can be unrolled for a distance and connected to another tin can. The person on the other end is holding the second can up to their ears, and listening to the message from the sender. If you have never made this toy, it's just that simple, and it works. 
+The toy telephone system made out of tin cans and string in @fig-7Shannon_info_channel is a simple information channel. In this system, one person speaks into a tin-can on one end. There is a hole in the bottom of the can, and a knot is securely blocking the hole so that the remaining length of string can be unrolled for a distance and connected to another tin can. The person on the other end is holding the second can up to their ears, and listening to the message from the sender. 
 
 The speaker's vocal chords push air through their mouth creating air-waves in the range of audible frequencies. The waves project into the can and through a process of physical resonance the wave pattern in the air is transferred to the can, which begins to wave with similar frequencies. The can is connected to the string which starts waving in the same way, carrying the wave across the string to the other can. Now the other can starts to wave too, which shapes the air in the can and causes new-air waves to be emitted. These air-waves travel through the air into the ear canal of the person listening on the other end. The outer, middle, and inner then begin vibrating as well and transduce the mechanical waves into nerve impulses, and eventually the receiver listens to the message, and maybe says something back, repeating the process. 
 
@@ -383,19 +381,20 @@ Finally to convert to a positive number, the sum is multiplied by a -1, (-1 * -1
 
 Shannon's formula uses a base 2 logarithm which produces a number in the unit of [bits](https://en.wikipedia.org/wiki/Bit). If you are not familiar with bits, they are the building blocks of modern digital computers. One bit represents a single binary operator that can take on one of two possible states. For example, a coin could represent a bit. If we stipulated that a coin could only land heads or tails, then it would function the same as a binary operator with two possible states. Other kinds of binary operators include logic, where a logical statement can be either TRUE or FALSE. It is also possible to express numbers using binary symbols. In this case, numbers are represented with only two symbols 0 or 1.
 
-Bits can be used to measure the total number of discrete events in a system of messages. Let's see how.
+Bits measure the total number of discrete events in a system of messages. Let's see how.
 
 A single bit has two states, 0 or 1. So, we could use a single bit to represent two unique states, like heads or tails.
 
-How many states can two bits represent? This would involve counting all of the unique ways of combining the states from two bits, for example, the first and second bit could be 0 (00), the first bit could be zero and the second a one (01), and so on. All of four possibilities are: 00, 01, 10, and 11. The figure below shows the relationship between number of bits, and the number of unique events that can be represented by combining bits together. 
+How many states can two bits represent? This would involve counting all of the unique ways of combining the states from two bits, for example, the first and second bit could be 0 (00), the first bit could be zero and the second a one (01), and so on. All of four possibilities are: 00, 01, 10, and 11. @fig-7Shannon_bits shows the relationship between number of bits, and the number of unique events that can be represented by combining bits together. 
 
-```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+```{r}
+#| label: fig-7Shannon_bits
+#| fig-cap: "Illustration of how bits translate to representing indvidudal events."
+#| out.width: "75%"
+
 knitr::include_graphics("imgs/Shannon_bits.jpg")
 ```
 
-```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
-knitr::include_graphics("imgs/Shannon_bits.jpg")
-```
 
 The relationship between number of bits and number of unique events they can code is defined by raising 2 to the number of $Bits$:
 
@@ -607,13 +606,13 @@ The first experiment was a choice-reaction time task with 8 different conditions
 
 #### Experiment II (Hyman 1953)
 
-The second experiment varied the amount information in bits and the number of alternatives separately, again across 8 conditions. A table showing the design of each of the 8 conditions is shown below, along with some mark-up to highlight important features of the design.
+The second experiment varied the amount information in bits and the number of alternatives separately across 8 conditions. @fig-7Hyman_e2 shows the design.
 
-```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
-knitr::include_graphics("imgs/Hyman_e2.jpg")
-```
+```{r}
+#| label: fig-7Hyman_e2
+#| fig-cap: "The design of the second experiment from @hymanStimulusInformationDeterminant1953."
+#| out.width: "100%"
 
-```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
 knitr::include_graphics("imgs/Hyman_e2.jpg")
 ```
 
@@ -623,22 +622,23 @@ The table shows six other conditions. Hyman constructed similar conditions for f
 
 #### The results
 
-Hyman reported results from four subjects, the graph below shows original results from two of his participants. Note, Hyman had conducted a third experiment where he manipulated the amount of information separately from the number of alternatives in a slightly different way. All told, his subjects had completed three experiments worth of choice reaction time experiments. All of them had different numbers of alternatives, and separately manipulated amounts of information measured in bits. The big finding can be stated by the Hick-Hyman Law: choice-reaction time increased as a linear function of the information (measured in bits) in the stimulus set. Critically, it was not the number of number alternatives that was making people slower, it seemed to the amount of information in the stimulus set.
+@fig-7Hick_hyman_law shows the results for two (of four) subjects reported by Hyman. Hyman had conducted a third experiment where he manipulated the amount of information separately from the number of alternatives in a slightly different way; and these results are also included in the plot. 
 
-```{r, eval=knitr::is_html_output(), echo=FALSE,out.extra="class = 'centerfigureshadow'", fig.align="center"}
+```{r}
+#| label: fig-7Hick_hyman_law
+#| fig-cap: "The design of the second experiment from @hymanStimulusInformationDeterminant1953."
+#| out.width: "75%"
+
 knitr::include_graphics("imgs/Hick_hyman_law.png")
 ```
 
-```{r, eval=knitr::is_latex_output(), echo=FALSE, fig.align="center"}
-knitr::include_graphics("imgs/Hick_hyman_law.png")
-```
-
+All told, his subjects completed three experiments worth of choice reaction time experiments. Each experiment had different numbers of alternatives, and separately manipulated amounts of information measured in bits. The big finding can be stated by the Hick-Hyman Law: choice-reaction time increased as a linear function of the information (measured in bits) in the stimulus set. Critically, it was not simply the number of number alternatives that was making people slower. Instead, people were apparently responding to the amount of information in the stimulus set.
 
 ### Implications for Behaviorism
 
-I could imagine some behaviorists being disturbed by the results of Hick and Hyman's findings. On the one hand, they should have been very impressed because the results appeared so orderly and lawful. Hick and Hyman might have discovered a natural law about humans and stimulus-response processes. Not only were behaviorists interested in stimulus-response processes, the discovery of behavioral laws was of paramount importance to the enterprise of behaviorism. 
+I could imagine some behaviorists being disturbed by the results of Hick and Hyman's findings. On the one hand, they should have been very impressed because the results appeared so orderly and lawful. On the other hand, the problem with the Hick-Hyman law was that it violated ideological aspects of behaviorist assumptions. For example, behaviorists were interested in understanding the lawful regularities connecting a stimulus with a subsequent response. But, consider what Hick and Hyman had shown. Their finding was that a response to a stimulus **did not depend on the stimulus that was presented**; instead, the speed of responding to the presented stimulus apparently depended **on the predictability of the other stimuli that could have been presented instead**. 
 
-On the other hand, the problem with the Hick-Hyman law was that it violated ideological aspects of behaviorist assumptions. For example, behaviorists were interested in understanding the lawful regularities connecting a stimulus with a subsequent response. But, consider what Hick and Hyman had shown. Their finding was that a response to a stimulus **did not depend on the stimulus that was presented**; instead, the speed of responding to the presented stimulus apparently depended **on the predictability of the other stimuli that could have been presented instead**. In other words, people were not only responding to a stimulus, they were also responding to all the other stimuli that were not presented. Or, we could say that responses to one stimulus were being influenced by expectations about other stimuli in the set of possible stimuli. Thus, the Hick-Hyman law was a complicating factor for theories of behaviorism that were not acknowledging a role for non-presented stimuli and/or expectations about stimuli to influence behavior. Furthermore, the whole information processing metaphor was a step away from behaviorism, because it implied the existence of intervening mental operations between a stimulus and response--and, it came along with a mathematical system in Shannon's communication theory, that could potentially be useful for describing the nature of the mental operations.
+In other words, people were not only responding to a stimulus, they were also responding to all the other stimuli that were not presented. Or, we could say that responses to one stimulus were being influenced by expectations about other stimuli in the set of possible stimuli. Thus, the Hick-Hyman law was a complicating factor for theories of behaviorism that were not acknowledging a role for non-presented stimuli and/or expectations about stimuli to influence behavior. Furthermore, the whole information processing metaphor was a step away from behaviorism, because it implied the existence of intervening mental operations between a stimulus and response--and, it came along with a mathematical system in Shannon's communication theory, that could potentially be useful for describing the nature of the mental operations.
 
 ### Debate about interpretation
 
