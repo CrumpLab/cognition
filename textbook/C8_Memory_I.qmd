@@ -39,11 +39,9 @@ knitr::kable(info)
 
 ## Some questions about memory
 
-What is it like for you to remember something from your past? How many events from your experience can you remember? Why can you remember something from years ago, but forget new information from seconds ago? How do you preserve your experiences so that they can be remembered later on? Why is it sometimes hard to remember something, but later the answer pops in your head? How can you improve your memory? How can you forget things you don't want to think about? What other animals besides humans have memories? How are memories encoded, stored, and retrieved in the brain? How do people use their environment to help them remember things?
+What is it like to remember something from your past? How many events can you remember? Why can you remember something from years ago, but forget new information from seconds ago? How do you preserve your experiences so they can be remembered later on? Why is it sometimes hard to remember something, but later the answer pops into mind? How can you improve your memory? How can you forget things you don't want to think about? What other animals besides humans have memories? How are memories encoded, stored, and retrieved in the brain? How do people use their environment to help them remember things?
 
 I could keep this list of questions going and I'm sure you could too. I find all of these questions about memory very interesting, and even though memory research hasn't solved all of the mysteries, research on memory systems has yielded some answers about these questions and more.
-
-Memory research has been central in cognitive psychology and often refers to mental processing intervening between a stimulus and response. The invocation of mental processing led Behaviorists to neglect memory and re-frame it in terms of learning processes. However, psychologists in other countries were still interested and made numerous contributions to memory research. As a result, memory research occurred before, during, and after the period of behaviorism in American psychology.
 
 ## Early Memory Research
 
@@ -53,7 +51,7 @@ The second pair is Bluma Zeigarnik from Lithuania, and Hedwig von Restorff from 
 
 ### Ebbinghaus's Forgetting
 
-[Hermann Ebbinghaus](https://en.wikipedia.org/wiki/Hermann_Ebbinghaus) (1850 -- 1909) is credited with the first experimental investigations of human memory. His methods still resemble many aspects of modern memory research. Working in Berlin, in 1885, he published "Über das Gedächtnis. Untersuchungen zur experimentellen Psychologie", which was later translated to English as "[Memory: A Contribution to Experimental Psychology](https://archive.org/details/memorycontributi00ebbiuoft)"[@ebbinghausUberGedachtnisUntersuchungen1885].
+[Hermann Ebbinghaus](https://en.wikipedia.org/wiki/Hermann_Ebbinghaus) (1850 -- 1909) is credited with the first experimental investigations of human memory. His methods still resemble many aspects of modern memory research. Working in Berlin, in 1885, he published "Über das Gedächtnis. Untersuchungen zur experimentellen Psychologie", later translated to English as "[Memory: A Contribution to Experimental Psychology](https://archive.org/details/memorycontributi00ebbiuoft)"[@ebbinghausUberGedachtnisUntersuchungen1885].
 
 #### What did Ebbinghaus do?
 
@@ -61,13 +59,15 @@ Remember the chapter on associationism and the philosophers who explained the mi
 
 #### Methods
 
-Ebbinghaus devised a serial learning task to measure how long it took to recite of a list of items from memory. He used artificial stimuli so that pre-existing familiarity with the items would not interfere with the learning process. His stimuli were nonsense syllables [^c8_memory-1] with a CVC structure (consonant-vowel-consonant, see table below). Ebbinghaus noted making over 2300 syllables. He was also a remarkable subject and conducted all of his experiments on himself.
+Ebbinghaus devised a serial learning task to measure how much practice was required to recite of a list of items from memory. He used artificial stimuli so that pre-existing familiarity with the items would not interfere with the learning process. His stimuli were nonsense syllables [^c8_memory-1] with a CVC structure (consonant-vowel-consonant), like the ones in @tbl-c8-CVC below. Ebbinghaus noted making over 2300 syllables for his experiments. He was also a remarkable subject and conducted all of his experiments on himself.
 
 [^c8_memory-1]: sometimes still used today
 
-In 2015, another pair of researchers from Amsterdam attempted to replicate Ebbinghaus' procedure and results [@murreReplicationAnalysisEbbinghaus2015]. They followed the original procedure closely and found similar results to Ebbinghaus. I'll use the replication to describe Ebbinghaus' task and findings. A first point to mention is that the task is very laborious. It involves a single person learning many long lists of nonsense syllables. If you have ever suffered to memorize something, the Ebbinghaus procedure could be your worst nightmare.
+In 2015, a pair of researchers from Amsterdam attempted to replicate Ebbinghaus' procedure and results [@murreReplicationAnalysisEbbinghaus2015]. They followed the original procedure closely and found similar results, so let's use their results to take a closer look at Ebbinghaus's forgetting work.
 
-To give you a better sense, here is a single list of nonsense syllables similar to the ones used by Ebbinghaus, and in the replication study. Each nonsense syllable was created by randomly choosing triplets of consonants, vowels, and consonants [^c8_memory-2]. Ebbinghaus, and one of the authors from the replication, learned to recite whole lists, just like this, one row at a time, perfectly from memory.
+First, the task is very laborious. It involves a single person learning many long lists of nonsense syllables. If you have ever suffered to memorize something like a long poem, or piece of music, the Ebbinghaus procedure could be your worst nightmare.
+
+@tbl-c8-CVC shows a single list of nonsense syllables similar to the ones used by Ebbinghaus, and in the replication study. Each nonsense syllable was created by randomly choosing triplets of consonants, vowels, and consonants [^c8_memory-2]. Ebbinghaus, and one of the authors from the replication, learned to recite whole lists, just like this, one row at a time, perfectly from memory.
 
 [^c8_memory-2]: Note, these nonsense syllables are generated by a script
     in the programming language R, which is also used to write this
@@ -80,6 +80,10 @@ To give you a better sense, here is a single list of nonsense syllables similar 
     each syllable
 
 ```{r}
+#| label: tbl-c8-CVC
+#| tbl-cap: "Example nonsense syllables. Each row contains 13 syllables. The task is to practice reciting each row until the whole list can be recited perfectly by memory."
+#| tbl-cap-location: bottom
+
 library(kableExtra)
 three_letter <- scan(file="resources/3_letter_words.txt",what = character(),sep = "\n")
 
@@ -101,13 +105,13 @@ knitr::kable(list_one) %>%
   kable_styling(font_size = 9)
 ```
 
-In the first phase, lists containing 8 rows of 13 nonsense syllables were learned to a criterion called "one-time perfect". One-time perfect meant to recite a whole row, in order from memory, one time perfectly. To get to "one-time perfect", the syllables were practiced by reading a row out loud in order, one at a time. Practice attempts were repeated as many times as necessary. After one perfect recitation, the next row was learned and so on. There was a rigorous learning schedule spread over many days so that 70 lists could be learned. In the first phase, a primary measure of interest was the number of practice attempts used before the first "one-time perfect" recitation.
+In the first phase, lists containing 8 rows of 13 nonsense syllables were learned to a criterion called "one-time perfect". One-time perfect meant to recite a whole row, in correct order, without aid and from memory, one time perfectly. To get to "one-time perfect", the syllables were practiced by reading a row out loud in order, one at a time. Practice attempts were repeated as many times as necessary. After one perfect recitation, the next row was learned and so on. There was a rigorous learning schedule spread over many days so that a total of 70 lists could be learned. For each list, the number of practice attempts necessary to achieve the first "one-time perfect" recitation were measured.
 
-In the second phase, each row was re-learned after a delay. The delays were 20 minutes, 1 hour, 9 hours, or 1, 2, 6, or 31 days. After each delay period, rows were shown again and relearned. The number of relearning attempts to get to another "one-time perfect" recitation was also measured.
+In the second phase, each row was re-learned after a delay. The delays were 20 minutes, 1 hour, 9 hours, or 1, 2, 6, or 31 days. After each delay period, rows were shown again and relearned. The number of relearning attempts to  get to "one-time perfect" again were measured.
 
 #### Original Learning
 
-Ebbinghaus considered the feat of reciting a single row of nonsense syllables by memory an example of learning new associations. Before associations were established he was unable to recite all of the syllables from memory. However, practicing was assumed to establish associative connections between syllables. After enough practice attempts it became possible to recite a row of 13 nonsense syllables, at least one time from memory. Some kind of new learning must have happened to enable the recitation.
+Ebbinghaus assumed that a process of learning new associations was necessary for him to accomplish the feat of reciting a single row of nonsense syllables by memory. Prior to establishing new associations he was unable to recite all of the syllables from memory. However, practicing was assumed to establish associative connections between syllables. After enough practice attempts it became possible to recite a row of 13 nonsense syllables, at least one time from memory. Some kind of new learning must have happened to enable the recitation.
 
 ```{r}
 #| label: fig-8Ebbinghaus_OL
@@ -118,15 +122,15 @@ knitr::include_graphics("imgs/Ebbinghaus_OL.png")
 ```
 
 
-The first phase of the experiment measured the number of practice attempts needed to learn a row of 13 nonsense syllables. The results from the 2015 replication ^[reported in their table 1] are shown in @fig-8Ebbinghaus_OL. The blue line shows that an average of 30-32 practice attempts were needed to memorize each row. ^[Each dot represents practice attempts for sets of rows that would be paired with delays to test forgetting and relearning]
+The first phase of the experiment measured the number of practice attempts needed to learn a row of 13 nonsense syllables. Reproduced results from phase one of @murreReplicationAnalysisEbbinghaus2015 are shown in @fig-8Ebbinghaus_OL. The blue line indicates that an average of 30-32 practice attempts were needed to memorize each row of nonsense syllables. ^[Each dot represents practice attempts for sets of rows that would be paired with delays to test forgetting and relearning]
 
 #### Savings in Relearning
 
-Ebbinghaus was more interested in results from the second phase. For example, what would happen to his ability to recite a row of nonsense syllables if he waited 20 minutes, 1 hour, 9 hours, or up to 1, 2, 6, and 31 days before trying to recite the list over again? He measured savings in re-learning to find out.
+Ebbinghaus was more interested in results from the second phase that would provide a measure of forgetting. For example, what would happen to his ability to recite a row of nonsense syllables if he waited 20 minutes, 1 hour, 9 hours, or up to 1, 2, 6, and 31 days before trying to recite the list over again? He measured savings in re-learning to find out.
 
-If memory for a learned row was not perfect after a delay, then it would have to be relearned. The question was how many relearning attempts would be needed to reach the same criterion as before...one-time perfect. If it took 30 practice attempts in the original learning phase, would there be any savings in relearning? That is, would the number of relearning attempts be less than 30? The data from the original and re-learning phases are shown in @fig-8Ebbinghaus_Allresults.
+If memory for a learned row was not perfect after a delay, then it would have to be relearned. The question was how many relearning attempts would be needed to reach the same criterion as before (one-time perfect). If it took 30 practice attempts in the original learning phase, would there be any savings in relearning? That is, would the number of relearning attempts be less than 30? The data from the original and re-learning phases are shown in @fig-8Ebbinghaus_Allresults.
 
-The blue line always shows the number of attempts needed during original learning. The black line shows the number of attempts needed during re-learning. The y-axis shows the number of attempts, and the x-axis shows the temporal delay between original learning and re-learning.
+The blue line shows the number of attempts needed during original learning. The black line shows the number of attempts needed during re-learning. The y-axis shows the number of attempts, and the x-axis shows the temporal delay between original learning and re-learning.
 
 ```{r, echo=FALSE}
 #| label: fig-8Ebbinghaus_Allresults
@@ -181,12 +185,12 @@ relearning+original/relearning_log
 
 ```
 
-What happened after a 20 minute delay? First, memory for a learned row was not perfect. Instead, about 16 re-learning attempts were needed to reach the once-time perfect criterion. However, even though a row could not be remembered perfectly after a 20 minute delay, the savings in re-learning showed that the original learning was "gone, but not completely forgotten". The savings in relearning was computed as the difference between original learning and relearning, or
+What happened after a 20 minute delay? First, memory for a learned row was not perfect. Instead, about 16 re-learning attempts were needed to recite the list again one-time perfectly. However, even though a row could not be remembered perfectly after a 20 minute delay, the savings in re-learning showed that the original learning was "gone, but not completely forgotten". Savings in relearning was computed as the difference between original learning and relearning, or
 $30.77-16.26 = 14.51$. In other words, 14.5 practice attempts were saved, or not necessary, in getting back to the same level of performance. Re-learning the lists wasn't like riding a bike ^[an expression referring to skills that are supposedly learned once and not forgotten], but it wasn't like starting from scratch either.
 
-What happened as the delays got longer and longer, up to 31 days? There are two ways to look at this. First, the larger plot on the left shows the number of relearning attempts go up from 16 to 28 as the delay increases from 20 minutes to 31 days. This shows a decrease in savings. As the delay increased, re-learning was more like starting from scratch. This suggested that the ability to recite a row was degrading more and more over time. However, even by 31 days there was still some small amount of savings in relearning, suggesting the ability had not degraded entirely.
+What happened as the delays increased up to 31 days? There are two ways to look at this. First, the larger plot on the left shows the number of relearning attempts go up from 16 to 28 as the delay increases from 20 minutes to 31 days. This shows a decrease in savings. As the delay increased, re-learning was more like starting from scratch. This suggests the ability to recite a row was degrading more and more over time. However, even by 31 days there was still some small amount of savings in relearning, suggesting the ability had not degraded entirely.
 
-Second, the smaller plot on the bottom right shows the same findings, except the x-axis expresses delay in minutes. Here, the x-axis goes from 20 minutes to 44640 minutes (the number of minutes in 31 days). This way of plotting the data makes it easier to see the exponential trend in the number of re-learning attempts. The exponential trend suggests that forgetting, or the learning associated with this ability degraded at different rates over time.
+Second, the smaller plot on the bottom right shows the same findings, except the x-axis expresses delay in minutes. Here, the x-axis goes from 20 minutes to 44640 minutes (the number of minutes in 31 days). This way of plotting the data makes it easier to see the exponential trend in the number of re-learning attempts. The *exponential trend* suggests that forgetting, or the learning associated with this ability degraded at *different rates over time*.
 
 Specifically, the rate of forgetting was very high after initial learning, but the rate slowed down over time. For example, between 0 and 20 minutes from original learning the number of relearning attempts went from 0 to 16. By two days, the number of relearning attempts went to 24. However, the rate of forgetting was greatly reduced as the delay became longer. Between 2 and 31 days, the number of re-learning attempts went from 24 to 28. Taking re-learning attempts as a measure of forgetting, there was a big increase from 0 to 24 in the first 2 days, but a much smaller increase from 24 to 28 over the next 29 days.
 
@@ -200,29 +204,30 @@ Specifically, the rate of forgetting was very high after initial learning, but t
 knitr::include_graphics("imgs/Ebbinghaus_exp.jpg")
 ```
 
-In other words, Ebbinghaus found an exponential forgetting curve. Exponential forgetting is like going to Las Vegas and spending most of your money on the first day, and then losing the rest of it slowly over the next week. @fig-8Ebbinghaus_exp depicts an exponential forgetting curve. The rate of forgetting is not constant across time. Instead, the rate of forgetting is very high after initial learning but then slows down across time. 
+In other words, Ebbinghaus found an exponential forgetting curve. Exponential forgetting is like going to Las Vegas and spending most of your money on the first day, and then losing the rest of it slowly over a week. @fig-8Ebbinghaus_exp depicts an exponential forgetting curve. The rate of forgetting is not constant across time. Instead, the rate of forgetting is very high after initial learning but then slows down across time. 
 
 #### Spacing effects
 
-Ebbinghaus also demonstrated the effects of spacing out practice on learning and memory performance. Two ways to practice a new skill, like learning a series of nonsense syllables, are to mass or space practice attempts. Massing practice attempts mean to lump attempts together and take few breaks between attempts. Spacing refers to adding breaks between practice attempts. Ebbinghaus showed that adding spacing between practice attempts improved his memory performance.
+Ebbinghaus also demonstrated the effects of *spaced vs. massed practice* on learning and memory performance. Spacing refers to adding breaks between practice attempts. Massing practice means to lump attempts together and take few breaks between attempts. Ebbinghaus showed that spacing practice attempts improved his memory performance.
 
-If you search [Google Scholar](https://scholar.google.com/) with terms like "massed practice", "spaced vs massed practice", and "distributed practice" you will find many papers examining how the schedule of practice attempts influences learning and memory in many different tasks. In general, the practice schedule does matter, it can change how fast you learn something and how long you retain information. For example, a meta-analysis in 1999 looked at evidence for spacing effects in 63 studies, which used a wide range of different tasks [@donovanMetaanalyticReviewDistribution1999]. Overall they found that spaced practice benefited learning compared to massed practice. So, should you always space practice to improve your learning? Well, they also found the size of the benefit depended on the task. So, before you space all of your practice, try searching Google scholar to see if there is any research on the skill you are trying to learn. There may be recommendations for "best-practice" schedules to help you optimize your skill acquisition. 
+If you search [Google Scholar](https://scholar.google.com/) with terms like "massed practice", "spaced vs massed practice", and "distributed practice", you will find many papers on practice schedule effects. In general, a practice schedule can change how fast you learn something and how long you retain information. For example, a meta-analysis in 1999 looked at evidence for spacing effects in 63 studies covering a wide range of different tasks [@donovanMetaanalyticReviewDistribution1999]. Overall, they found that spaced practice benefited learning compared to massed practice. So, should you always space practice to improve your learning? Well, they also found the size of the benefit depended on the task. So, before you space all of your practice, try searching Google scholar for the skill you are trying to learn, and see if there are recommendations for optimal practice schedules. You might find evidence-based suggestions for making your skill learning process more efficient.
+
 
 #### Serial Position effect
 
-Ebbinghaus also showed early evidence of serial position effects in memory. If you search "serial position effect" in Google scholar, you will again find hundreds of papers on the phenomena. The basic finding is that your memory for items in a list can depend on the order in which you received the items. In many cases there are primacy and recency effects. Memory is often better for the first (primacy) and last items (recency) compared to the items in the middle.
+Ebbinghaus also showed early evidence of serial position effects in memory. If you search "serial position effect" in Google Scholar, you will again find hundreds of papers on the phenomena. The basic finding is that memory for items in a list can depend on the order of the items in the list. In many cases there are primacy and recency effects. Memory is often better for the first (primacy) and last items (recency) compared to the items in the middle.
 
 #### Process explanations
 
-It is worth flipping through Ebbinghaus' book on his memory research. It is available [here from the internet archive](https://archive.org/details/memorycontributi00ebbiuoft). He ran many experiments and tested ideas about the underlying operations of memory processes. In particular, I will refer you for additional reading to his chapter VII, called "Retention and obliviscence as a function of the time". Here, Ebbinghaus considers four explanations about how a memory process may hold onto knowledge over time ("retention") and/or lose knowledge over time ("obliviscence"). In his discussion, he anticipates the concept of memory traces which is important in many modern theories.
+It is worth flipping through Ebbinghaus' book on his memory research, available [here from the internet archive](https://archive.org/details/memorycontributi00ebbiuoft). He ran many experiments to test ideas about the underlying operations of memory processes. For extra reading, check out his chapter VII, called "Retention and obliviscence as a function of the time". Here, Ebbinghaus considers four explanations about how a memory process may hold onto knowledge over time ("retention") and/or lose knowledge over time ("obliviscence"). In his discussion, he anticipates the concept of memory traces which is important in many modern memory theories.
 
 ### Bartlett's Remembering
 
-[Sir Frederic Bartlett](https://en.wikipedia.org/wiki/Frederic_Bartlett) (1886 - 1969) was British psychologist, and is well-known for his book "Remembering" published in 1932 [@bartlettRemembering1932] recounting his extensive experiments on remembering, imaging, and perceiving. Bartlett took the word **remembering** very literally and played a prominent role in establishing a reconstruction based view of human memory. Before discussing the reconstruction idea, and Bartlett's experiments that supported it, let's begin with a few simple, but wrong physical metaphors of memory.
+[Sir Frederic Bartlett](https://en.wikipedia.org/wiki/Frederic_Bartlett) (1886 - 1969) was a British psychologist, and is well-known for his book "Remembering" published in 1932 [@bartlettRemembering1932] covering his extensive experiments on remembering, imaging, and perceiving. Bartlett took the word **remembering** very literally and his research helped establish a reconstructionist view of human memory. Before discussing the reconstructionist view and Bartlett's experiments that supported it, let's begin with a few simple-- but, wrong --physical metaphors of memory.
 
 #### Memory is a file drawer
 
-File drawers a physical systems for storing and retrieving information. Information on paper is placed into files and stored in cabinets. The files could be tagged for ease of later retrieval. Information is retrieved by looking up the correct file and taking it out of the file drawer. The only contents that get saved in memory are what goes into the file system. Failures of memory could include, 1) not getting placed into the drawer, 2) getting misfiled, 3) destruction of information due to some outside source (e.g., water, fire), and so on.
+File drawers are physical systems for storing and retrieving information, so they are a kind of "memory" system. Information on paper is placed into folders and stored in cabinets. The files could be tagged for ease of later retrieval. Information is retrieved by looking up the correct file and taking it out of the file drawer. The only contents saved in memory are what goes into the file system. Failures of memory could include, 1) not getting placed into the drawer, 2) getting misfiled, and 3) destruction of information due to some outside source (e.g., water, fire), or physical decay of the files over very long periods of time.
 
 #### Memory is a camera
 
@@ -230,27 +235,27 @@ Cameras, like the ones on modern cell phones, can record and save streams of vis
 
 #### Memory is a bent-wire
 
-One more quick metaphor, memory as a bent-wire. Consider a brand new metal wire that is completely straight. It get's bent into a clothes hanger, then it get's bent into a hook for reaching something, then it get's thrown out, and bent in the trash, and so on. The wire doesn't have a hard-drive where it can store pictures of times it got bent. Instead, those memories are imprinted on the wire. The bends in the wire reflect the history of experiences.
+One more quick metaphor: memory as a bent-wire. Consider a brand new metal wire that is completely straight. The wire is bent into a clothes hanger, then bent into a hook for reaching something, then it is thrown out, and bent in the trash, and so on. The wire doesn't have a hard drive where it can store pictures of times it got bent. Nevertheless, the bends in the wire preserve aspects of the wire's history of experiences. In this sense, the wire is a memory system whose shape represents imprints from prior experiences.
 
 #### Memory is none of these things
 
-The above physical metaphors for memory have some properties in common with human memory. The file drawer and camera can encode, store, and retrieve information, and make errors and mistakes. However, people display many more interesting memory failures than the physical metaphors. The physical memory devices do not produce memory distortion. They do not remember new information that was not in the file, or on the hard-drive. Importantly, people produce memory distortions all of the time. Two examples of memory distortions are claiming to remember events that did not occur, or exaggerating events that did occur. Bartlett's work is important for demonstrating evidence of memory distortions as fundamental to the process of remembering.
+The above physical metaphors for memory have some properties in common with human memory. The file drawer and camera can encode, store, and retrieve information, and make errors and mistakes. However, people display many more interesting memory failures than the physical metaphors for memory. The physical memory devices do not produce interesting memory distortions. They do not remember new information that was not in the file, or on the hard-drive. Importantly, people produce memory distortions all of the time. Two examples of memory distortions are claiming to remember events that did not occur, or exaggerating events that did occur. Bartlett's work is important for demonstrating evidence that memory distortions are fundamental to the process of remembering.
 
 #### Memory is re-membering
 
 The word re-member literally means to take pieces (members) that were previously together, and put them back together again. Bartlett imagines memory as a [humpty-dumpty](https://en.wikipedia.org/wiki/Humpty_Dumpty) process, where the broken up parts of previous experiences are put back together again by memory. On this reconstructive view, memories are not like replaying a video from a past experience. Instead, the memory process reconstructs elements of prior experiences into a whole. These reconstructed experiences **feel like** events from the past, but they are approximated reconstructions of those events. Some modern memory theories take this stance even further and claim that people do not really have "memories" that are stored or retrieve at all. Instead, we have the mental ability to construct experiences, both new ones (as in dreaming or imagination) that feel new, and new ones that convincingly feel like they occurred in the past.
 
-Bartlett assumed that re-membering is guided by an overarching schema, or someone's general understanding. He assumed it was possible for memory to become distorted during reconstruction, and that reconstructed events could become shifted toward the schema used to aid reconstruction. If some information was missing during reconstruction, then those features of the reconstructed memory would be substituted by the schema, thus rendering the recreated memory more similar to the general schema than the peculiar details of an original experience.
+Bartlett assumed that remembering is guided by an overarching schema, or general knowledge about to-be-remembered events. He assumed it was possible for memory to become distorted during reconstruction, and that reconstructed events could become shifted toward the schema used to aid reconstruction. If some information was missing during reconstruction, then those features of the reconstructed memory would be substituted by the schema, thus rendering the recreated memory more similar to the general schema than the peculiar details of an original experience.
 
 #### Method of Serial Reproduction
 
-Bartlett's reconstructionist view of memory was informed by his "method of serial reproduction". This was similar to Ebbinghaus' method of learning lists by practicing them over and over. The major difference was that Bartlett gave his subjects something to remember, then he had them remember it over-and-over again. He measured how the content of each remembering attempt changed over time. We will look briefly at two of his examples, the war of the ghosts, and l'portrait d'homme.
+Bartlett's reconstructionist view of memory was informed by his "method of serial reproduction". This was similar to Ebbinghaus' method of learning lists by practicing them over and over. The major difference was that Bartlett gave his subjects something to remember over-and-over again. He measured how the content of each remembering attempt changed over time. We look at two examples: the war of the ghosts, and l'portrait d'homme.
 
 #### War of the Ghosts
 
-Bartlett had subjects (who were also British) read a story called the "War of the Ghosts", which was a folk-lore story about indigenous Americans. Then, he asked his subjects to write down the story from memory. After they were finished, he had them write it down again from memory. Then, again, and again. It's a little bit like the [game of telephone](https://en.wikipedia.org/wiki/Chinese_whispers), where a message is passed from one child to another. What happens to the message at the end? It is usually morphed into something very different from the first message. Bartlett found similar results in his serial reproduction task, where subjects were essentially playing telephone with their own memory of a story.
+Bartlett had subjects read a story called the "War of the Ghosts", which was a folk-lore story about indigenous Americans. Then, he asked his subjects to write down the story from memory. After they were finished, he had them write it down again from memory. Then, again, and again. It's a little bit like the [game of telephone](https://en.wikipedia.org/wiki/Chinese_whispers), where a message is passed from one child to another, and the final message is very different from the first message. Bartlett found similar results in his serial reproduction task, where subjects were playing telephone with their own memory of a story.
 
-As people kept reproducing the story from memory, they introduced new details, and left out original details. Additionally, the retold story seemed to head toward a common direction. It was as if his subjects pre-existing biases and general notions about the characters and situations in the story were guiding how they retold the story. Bartlett used these observations to suggest that memory reconstruction was being guided by "schemas". Schemas are scripts that are supposed to guide how memory reconstructs information. Bartlett's schemas often referred to central tendencies or stereotypical generalizations about the content he showed his subjects.
+As people kept reproducing the story from memory, they introduced new details and left out original details. Additionally, the retold story seemed to head toward a common direction. It was as if his subjects pre-existing biases and general notions about the characters and situations in the story were guiding how they retold the story. Bartlett used these observations to suggest that memory reconstruction was being guided by "schemas". Schemas are scripts that are supposed to guide how memory reconstructs information. Bartlett's schemas often referred to central tendencies or stereotypical generalizations about the content he showed his subjects.
 
 #### L'Portraite D'homme
 

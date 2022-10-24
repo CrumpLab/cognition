@@ -60,7 +60,13 @@ Let's tackle two different sorts of questions. First, what is cognition? Second,
 
 An everyday definition of cognition involves anything to do with how your mind works. We will explore cognition from this everyday perspective, and from the more formal angles of the cognitive sciences.
 
-In the first textbook to coin the phrase "Cognitive Psychology" [@neisserCognitivePsychology1967], [Ulric Neisser](https://en.wikipedia.org/wiki/Ulric_Neisser) defined cognition as:
+::: {.column-margin}
+
+I previously credited Neisser with coining the term "Cognitive Psychology" in 1967; however, Thomas V. Moore published a lesser known textbook called "Cognitive Psychology" in 1939 [@mooreCognitivePsychology1939].  Thanks to a twitter thread by Steve Most for pointing this out, and see @surprenantMoore1939Cognitive1997 for a review of Moore's ideas.
+
+:::
+
+[Ulric Neisser](https://en.wikipedia.org/wiki/Ulric_Neisser) is credited with popularizing "Cognitive Psychology" in his 1967 textbook of the same name [@neisserCognitivePsychology1967]. He defined cognition as:
 
 > "...all processes by which the sensory input is transformed, reduced, elaborated, stored, recovered, and used".
 
@@ -72,11 +78,11 @@ Neisser's criticism also remains current. Among the rooms of the cognitive museu
 
 ### Research questions
 
-If you have ever wondered about your mind, then you probably asked a question that cognitive science is interested in answering. Cognitive research can be viewed as a growing list of topics and questions about how cognitive abilities work. To give concrete examples, the next paragraph is a long list of questions of cognition. As you peruse the list any question (on the list or not) about cognition that you find interesting--there is room for those questions in cognition too.
+If you have ever wondered about your mind, then you probably asked a question that cognitive science is interested in answering. Cognitive research can be viewed as a growing list of topics and questions about how cognitive abilities work. To give concrete examples, the next paragraph is a list of questions about cognition.
 
 How do you remember what you ate for breakfast? How do you remember something that happened when you were a kid? How do you learn a language? How do you know how to say a sentence? How do you think your next thought? How do you imagine things? How do you learn new skills, like walking, riding a bike, playing a musical instrument, playing a sport, or a game? How do you learn new information, and how can you study more efficiently? How do you recognize peoples faces? How do you know a tree is a tree and not some other object? How do you make plans for the future? Do you have an inner voice and if so how do you use it? How do you make decisions in your daily life? What makes you prefer some music and not others? How do you control all of your body movements, from moving your fingers to subtle facial expressions? How do you pay attention to some things while ignoring others? Why are some thing easy to forget and others hard to forget? How do you learn to read? How do you know the meaning of words? Can you train your brain to get better at something? How many memories can a person have? What does it mean to be smart? Can anyone learn anything to a high degree of skill? How do all of these cognitive abilities develop over the lifespan? How do people understand their own cognition? How do people understand other people's cognition? What about non-human animals, what kind of cognitive abilities do they have?
 
-This was just a very short list of questions. Most of them were *how* questions, and *how* questions are about explaining how things work. One of the goals of asking research questions about cognitive abilities is to generate explanations about how the abilities work. The process of generating working explanations involves a research cycle. The research cycle uses a variety of research methods to generate insight into the questions by establishing new findings and testing potential explanations of the cognitive abilities under examination.
+This was a short list of questions, and there are room for many more. Most of them were *how* questions, and *how* questions are about explaining how things work. One of the goals of asking research questions about cognitive abilities is to generate explanations about how the abilities work. The process of generating working explanations involves a research cycle. The research cycle uses a variety of research methods to generate insight into the questions by establishing new findings and testing potential explanations of the cognitive abilities under examination.
 
 ## Methods
 
@@ -151,7 +157,7 @@ The Stroop effect [@Stroop1935] provides a useful example. In a Stroop task, sub
 
 [^3]: or congruency phenomena, compatibility phenomena, interference phenomena, and cognitive control phenomena
 
-There are too many findings in cognition to discuss in a single book. This textbook will aim mostly for breadth to give readers a high level overview of many findings and phenomena. On occasion we will also inspect particular findings and phenomena with additional depth to examine how experiments are used to evaluate process-based explanations of findings and phenomena.
+There are too many findings in cognition to discuss in a single book. This textbook aims mostly for breadth to give readers a high level overview of many findings and phenomena. On occasion we also inspect particular findings and phenomena with additional depth to examine how experiments are used to evaluate process-based explanations of findings and phenomena.
 
 ## Explanations, Theories, and Models
 
@@ -199,7 +205,7 @@ To simplify some of the preceding discussion up to this point, the research cycl
 
 ## Implications
 
-Cognitive research spans a few centuries and has already produced many theories, findings, and applications. However, cognitive research has not always had uniformly positive implications for society, and there are examples where research applications negatively impacted specific groups of people. Issues of equality and justice are important when discussing cognitive research and its applications. To address these issues, the textbook will occasionally discuss socio-historical context around the research and researchers that we discuss. To take one example, we will examine how research on mental imagery ability and the early development of intelligence testing were influenced by the widespread eugenics movement of the time. This era of psychology made a deep impression on subsequent cognitive research, and raises important questions about how psychological can and should be applied in society.
+Cognitive research spans a few centuries and has already produced many theories, findings, and applications. However, cognitive research has not always had uniformly positive implications for society, and there are examples where research applications negatively impacted specific groups of people [@pratherWhatCanCognitive2022]. Issues of equality and justice are important when discussing cognitive research and its applications. To address these issues, the textbook will occasionally discuss socio-historical context around the research and researchers that we discuss. To take one example, we will examine how research on mental imagery ability and the early development of intelligence testing were influenced by the widespread eugenics movement of the time. This era of psychology made a deep impression on subsequent cognitive research, and raises important questions about how psychological research should be applied in society.
 
 ### Questions to keep in mind as you learn about cognition
 
