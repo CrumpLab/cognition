@@ -16,6 +16,30 @@ knitr::opts_chunk$set(
 
 The following assignments are not associated with a specific learning module. Instead, these more general assignments that engage you in various aspects of cognitive psychology. See the general assignment section on Blackboard for information about submitting and due dates.
 
+## Blog this course
+
+This is a very general assignment to create a blog and use it to engage with the course. You can take this assignment in many different directions. A big goal is for you to gain digital communication skills and engage with course material at the same time.
+
+### Basic instructions:
+
+1. Create a blog (any way you want, or use quarto see next section)
+2. Write blog posts to engage with course material
+  - Each week you could complete one of the suggested writing assignments for a learning module and post it on your blog.
+  - You could write a blog post that digs more deeply into an issue we are discussing in class, and you could submit that as your writing assignment for a related module.
+3. Submit the URL (link) to your blog to this blog assignment on blackboard.
+4. If you use your blog to complete other assignments, then you can submit the link to your blog post for those assignments.
+
+At the end of the course you will have a blog full of posts that doubles as a course-portfolio showcasing examples of your work. You can use your blog to provide evidence of how you engaged in the course for the final assessment.
+
+### Quarto blog instructions
+
+This course website, textbook, and slide decks are all created using open-source software. You can use the same tools to make a blog. Learning these tools will help you gain skills for digital content creation in general.
+
+Follow these instructions and video walk-through to set up your own quarto blog.
+
+<https://crumplab.com/blog/post_887_8_25_22_quartoblog/>.
+
+
 ## Write a QALMRI for new research 
 
 Your assignment is to find a new research article published in a cognitive journal (must be published since 2020), download the article, read it, and then write a short QALMRI assignment. Review the [QALMRI method here](https://www.crumplab.com/cognition/textbook/what-is-cognition.html#the-qalmri-method).
