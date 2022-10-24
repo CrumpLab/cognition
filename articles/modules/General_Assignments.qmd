@@ -39,6 +39,14 @@ Follow these instructions and video walk-through to set up your own [quarto](htt
 
 <https://crumplab.com/blog/post_887_8_25_22_quartoblog/>.
 
+I am also making a template to help you get a quarto blog started quickly. The instructions for the template will be improved ASAP, but for now, you can access the template file here (scroll down to the readme for instructions):
+
+<https://github.com/CrumpLab/quartoCourseBlog>
+
+and, see what the blog would like here:
+
+<https://crumplab.com/quartoCourseBlog/>
+
 ## Write a QALMRI for new research 
 
 Your assignment is to find a new research article published in a cognitive journal (must be published since 2020), download the article, read it, and then write a short QALMRI assignment. Review the [QALMRI method here](https://www.crumplab.com/cognition/textbook/what-is-cognition.html#the-qalmri-method).
