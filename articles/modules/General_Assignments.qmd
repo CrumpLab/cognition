@@ -35,10 +35,9 @@ At the end of the course you will have a blog full of posts that doubles as a co
 
 This course website, textbook, and slide decks are all created using open-source software. You can use the same tools to make a blog. Learning these tools will help you gain skills for digital content creation in general.
 
-Follow these instructions and video walk-through to set up your own quarto blog.
+Follow these instructions and video walk-through to set up your own [quarto](https://quarto.org) blog.
 
 <https://crumplab.com/blog/post_887_8_25_22_quartoblog/>.
-
 
 ## Write a QALMRI for new research 
 
