@@ -48,7 +48,7 @@ knitr::include_graphics("imgs/read.png")
 
 Describes associationism and formative philosophical and empirical work on associative learning processes in humans and non-human animals.
 
-<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/textbook/associations.html" role="button">Read</a>
+<a class="btn btn-outline-info" href="https://crumplab.com/cognition/textbook/C5_Associations.html" role="button">Read</a>
 ::::
 :::
 ::::
@@ -204,7 +204,7 @@ Your assignment is to write a QALMRI summary for the following paper. A video le
 
 Siegel, S., Hinson, R. E., Krank, M. D., & McCully, J. (1982). Heroin "overdose" death: contribution of drug-associated environmental cues. Science, 216(4544), 436-437.
 
-Using [the QALMRI method](https://www.crumplab.com/cognition/textbook/what-is-cognition.html#the-qalmri-method), write a one-page QALMRI (point form is OK) of the assigned paper.
+Using [the QALMRI method](https://crumplab.com/cognition/textbook/C1_What_is_Cognition.html#the-qalmri-method), write a one-page QALMRI (point form is OK) of the assigned paper.
 
 - Question: Identify the big and specific question
 - Alternatives: What are the alternative hypotheses or explanations

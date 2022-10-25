@@ -47,7 +47,7 @@ knitr::include_graphics("imgs/read.png")
 ### Chapter 9: Memory II
 Memory research beyond the 1960s, including a focus on tasks, phenomena, and principles of memory.
 
-<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/textbook/memory-ii.html" role="button">Read</a>
+<a class="btn btn-outline-info" href="https://crumplab.com/cognition/textbook/C9_Memory_II.html" role="button">Read</a>
 ::::
 :::
 ::::

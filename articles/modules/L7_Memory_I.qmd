@@ -48,7 +48,7 @@ knitr::include_graphics("imgs/read.png")
 ### Chapter 7: Memory I
 This chapter overviews the beginnings of memory research in cognition, covering a few early researchers, the emergence of different research traditions in the study of memory, and the information-processing approach to memory.
 
-<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/textbook/memory-i.html" role="button">Read</a>
+<a class="btn btn-outline-info" href="https://crumplab.com/cognition/textbook/C8_Memory_I.html" role="button">Read</a>
 ::::
 :::
 ::::

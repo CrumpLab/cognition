@@ -48,7 +48,7 @@ knitr::include_graphics("imgs/read.png")
 ### Chapter 7: Information Processing
 Describes cognition from the information processing tradition including processing stages, information, and capacity limitations, which became popular research topics around the 1950s and 60s.
 
-<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/textbook/information-processing.html" role="button">Read</a>
+<a class="btn btn-outline-info" href="https://crumplab.com/cognition/textbook/C7_Information_Processing.html" role="button">Read</a>
 ::::
 :::
 ::::

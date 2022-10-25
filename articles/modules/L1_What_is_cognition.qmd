@@ -55,7 +55,7 @@ QALMRI method for reading primary research articles in cognitive psychology.
 
 Reading time: 30 minutes
 
-<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/textbook/what-is-cognition.html" role="button">Read</a>
+<a class="btn btn-outline-info" href="https://crumplab.com/cognition/textbook/C1_What_is_Cognition.html" role="button">Read</a>
 ::::
 :::
 ::::

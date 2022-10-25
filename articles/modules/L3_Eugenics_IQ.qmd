@@ -50,7 +50,7 @@ R1
 
 Describes the eugenics movement and socio-historical context around early research into cognitive abilities and psychology.
 
-<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/textbook/eugenics-and-psychology.html" role="button">Read</a>
+<a class="btn btn-outline-info" href="https://crumplab.com/cognition/textbook/C3_Eugenics.html" role="button">Read</a>
 ::::
 :::
 ::::
@@ -79,7 +79,7 @@ R2
 
 Discusses early intelligence tests and historical examples of how the tests were used in the context of the eugenics movement.
 
-<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/textbook/intelligence-testing.html" role="button">Read</a>
+<a class="btn btn-outline-info" href="https://crumplab.com/cognition/textbook/C4_Intelligence_testing.html" role="button">Read</a>
 ::::
 :::
 ::::

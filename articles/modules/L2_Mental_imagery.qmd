@@ -55,7 +55,7 @@ What is mental imagery and how does it work? Two major topics include individual
 
 Reading time: 35-40 minutes
 
-<a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/textbook/mental-imagery.html" role="button">Read</a>
+<a class="btn btn-outline-info" href="https://crumplab.com/cognition/textbook/C2_Mental_Imagery.html" role="button">Read</a>
 ::::
 :::
 ::::
@@ -78,7 +78,7 @@ Lecture 1
 
 Mental imagery pt 1
 
-[slides](file:///Users/mattcrump/Github/cognition/docs/slides/L3_Imagery/L3_Imagery.html#(1))
+[slides](https://crumplab.com/cognition/slides/L3_Imagery/L3_Imagery.html#/)
 
 30 mins
 
