@@ -27,7 +27,6 @@ citation:
 source("global_stuff.R")
 ```
 
-# Behaviorism
 
 ```{r, eval=FALSE, cache=FALSE}
 word_count <- wordcountaddin::word_count("C6_Behaviorism.Rmd")
@@ -60,7 +59,9 @@ YouTube used the behavioral data they collected to generate predictions about wh
 
 For some YouTube users, like the man in the podcast, the recommendation algorithm has deeply impacted their belief systems and behavior. For example, this user spent hours per day watching YouTube videos, many of which were selected by the recommendation algorithm. Initially, his viewing habits included searches for quirky music videos, but over time the algorithm suggested new content that increased his viewing time. This new content happened to politically polarizing content that became increasingly extreme on the far-right of the political spectrum. The user credits watching YouTube videos with his life decisions to become interested in and affiliated with white nationalist movements. Interestingly, the YouTube algorithm may also be involved in taking him in and out of this rabbit hole. For example, after becoming involved in far-right movements he continued to watch YouTube, which continued to suggest videos that would increase his viewing time. At this point in his viewing history, he became slightly more engaged by videos on the left-side of the political spectrum, and credits watching those videos with his decision to cease his involvement in far-right politics.
 
-Although the cognitive sciences have been around for quite some time, there is no widely agreed upon theory or explanation of cognition that can be used to systematically control and manipulate behavior. Nevertheless, YouTube's algorithms that predict future viewing behavior from large databases of past viewing behavior appear highly successful in manipulating video watching times. In addition to the above anecdote, in 2017, the Wall Street Journal reported YouTube hit a new milestone--1 billion hours of YouTube had been watched in a single day ^[that's 41.6 million days worth of videos, or 114,155 years worth of video]. Viewing time had increased ten times from 2012, thanks to the introduction of predictive algorithms credited with driving the behavioral change. At the close of this chapter, we will return to the YouTube example to examine their algorithm as a modern case of implementing behavioral principles at massive scale. Next, we will examine the behaviorist approach to asking and answering questions about cognition.
+Although the cognitive sciences have been around for quite some time, there is no widely agreed upon theory or explanation of cognition that can be used to systematically control and manipulate behavior. Nevertheless, YouTube's algorithms that predict future viewing behavior from large databases of past viewing behavior appear highly successful in manipulating video watching times. In addition to the above anecdote, in 2017, the Wall Street Journal reported YouTube hit a new milestone--1 billion hours of YouTube had been watched in a single day ^[that's 41.6 million days worth of videos, or 114,155 years worth of video]. Viewing time had increased ten times from 2012, thanks to the introduction of predictive algorithms credited with driving the behavioral change. 
+
+In the learning module for this chapter, students are invited to listen to the Rabbit hole podcast and then consider connections between YouTube's algorithm and the behaviorist methods and goals discussed in the remainder of this chapter. 
 
 ## Enter Behaviorism
 

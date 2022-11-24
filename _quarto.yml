@@ -70,6 +70,8 @@ website:
             href: slides/L12_Implicit/L12_Implicit.html
           - text: Lecture 13 - Attention
             href: slides/L13_Attention/L13_Attention.html
+          - text: Lecture 13.5 - Instance Theory
+            href: slides/Extra_Minerva/Extra_Minerva.html
           - text: Lecture 14 - Language
             href: slides/L14_Language/L14_Language.html
           - text: Lecture 15 - Judgment and Decision-making

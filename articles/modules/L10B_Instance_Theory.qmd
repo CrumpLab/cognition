@@ -1,0 +1,82 @@
+---
+title: "L10B: Instance theory"
+description: "A learning module on attention for Psyc 2530."
+author: "Matt Crump"
+date-modified: last-modified
+order: 10
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+## Instructions 
+
+This module is under development. It currently contains suggested readings and the beginnings of a slide deck.
+
+## Read 
+
+:::::{.card .border .border-2 .border-info .mb-3}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/read.png")
+```
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+This reading is posted as a pdf on blackboard. 
+
+Jamieson, R. K., Johns, B. T., Vokey, J. R., & Jones, M. N. (2022). Instance theory as a domain-general framework for cognitive psychology. Nature Reviews Psychology. https://doi.org/10/gpd7zt
+
+
+::::
+:::
+::::
+:::::
+
+
+## Watch/Listen {.mt-5}
+
+There are no recorded lectures for this module.
+
+:::::{.card .border .border-2 .border-info .mb-3}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/watch.png")
+```
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+[slides](https://www.crumplab.com/cognition/slides/Extra_Minerva/Extra_Minerva.html#/)
+
+::::
+:::
+::::
+:::::
+
+
+
+## Engage {.mt-5}
+
+There are no quizzes or specific writing assignments for this module yet. This module is being developed in class during Fall 2022. This section will be updated ASAP.
+
+
+

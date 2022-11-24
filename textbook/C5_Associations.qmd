@@ -28,7 +28,6 @@ citation:
 source("global_stuff.R")
 ```
 
-# Associations
 
 ```{r, eval= FALSE, cache=FALSE}
 library(git2r)

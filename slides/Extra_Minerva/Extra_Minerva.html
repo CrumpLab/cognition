@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Matthew J. C. Crump" />
+  <title>PSYC 2530: Instance theory and Minerva</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="Extra_Minerva_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+
+<link rel="stylesheet" href="Extra_Minerva_files/reveal.js-3.3.0.1/css/theme/white.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+    <link rel="stylesheet" href="style.css"/>
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Cormorant+Garamond&family=EB+Garamond:wght@400;500&family=Lora&family=Merriweather:wght@300&family=PT+Serif&family=Raleway:wght@200;400;800&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href = "bootstrap/css/bootstrap_mod.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5CP3TXLQ3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-Q5CP3TXLQ3');
+    </script>
+    <script src="Extra_Minerva_files/header-attrs-2.13/header-attrs.js"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">PSYC 2530: Instance theory and Minerva</h1>
+  <h1 class="subtitle">An example of computational modelling in
+cognition</h1>
+    <h2 class="author">Matthew J. C. Crump</h2>
+    <h3 class="date">Last compiled 11/22/22</h3>
+</section>
+
+<section id="overview" class="title-slide slide level1">
+<h1>Overview</h1>
+<ol type="1">
+<li class="fragment">A poetic process theory</li>
+<li class="fragment">Principles of instance theory</li>
+<li class="fragment">Implementing the principles computationally</li>
+<li class="fragment">Examining the model</li>
+</ol>
+</section>
+
+<section id="mnemic-psychology" class="title-slide slide level1">
+<h1>Mnemic Psychology</h1>
+<p><strong>Historical Sidenote</strong></p>
+<ul>
+<li class="fragment">Modern instance theory is broadly consistent with
+Richard Semon’s theory of memory developed in Mnemic Psychology
+(1923)</li>
+<li class="fragment">Semon was a German theorist whose ideas were
+largely forgotten until they were translated to English
+(mid-century)</li>
+<li class="fragment">See Schacter, D. L., Eich, J. E., &amp; Tulving, E.
+(1978). Richard Semon’s theory of memory. Journal of Verbal Learning and
+Verbal Behavior, 17(6), 721-743.</li>
+<li class="fragment">Semon’s ideas inspired Hintzman’s MINERVA 2</li>
+</ul>
+</section>
+
+<section id="instance-theory-primers" class="title-slide slide level1">
+<h1>Instance theory primers</h1>
+<ul>
+<li class="fragment">A collection of related process theories of memory
+and cognition</li>
+<li class="fragment">Different researchers have different versions
+(broadly similar)</li>
+<li class="fragment">Instance theories range in specificity from verbal
+theories to computational models</li>
+</ul>
+</section>
+
+<section id="example-verbal-instance-theories"
+class="title-slide slide level1">
+<h1>Example verbal instance theories</h1>
+<ul>
+<li class="fragment"><p>Jacoby, L. L., &amp; Brooks, L. R. (1984).
+Nonanalytic cognition: Memory, perception, and concept learning. The
+Psychology of Learning and Motivation, 18, 1–47. <a
+href="https://doi.org/10/d7z8js"
+class="uri">https://doi.org/10/d7z8js</a></p></li>
+<li class="fragment"><p>Kolers, P. A., &amp; Roediger, H. L. (1984).
+Procedures of mind. Journal of Verbal Learning and Verbal Behavior,
+23(4), 425–449. <a href="https://doi.org/10/b7gfkh"
+class="uri">https://doi.org/10/b7gfkh</a></p></li>
+</ul>
+</section>
+
+<section id="big-ideas-from-instance-theory"
+class="title-slide slide level1">
+<h1>Big ideas from Instance theory</h1>
+<ol type="1">
+<li class="fragment">Offers testable processing explanations for how
+memory works:</li>
+</ol>
+<ul>
+<li class="fragment">not a simple stage model</li>
+<li class="fragment">does not invoke special processing</li>
+<li class="fragment">representations are defined</li>
+<li class="fragment">encoding and retrieval operations are defined</li>
+</ul>
+<ol start="2" type="1">
+<li class="fragment">Shows how memory processes can do more than just
+remember, and may be responsible for many other cognitive
+abilities.</li>
+</ol>
+</section>
+
+<section id="minerva-2" class="title-slide slide level1">
+<h1>Minerva 2</h1>
+<ul>
+<li class="fragment"><p>MINERVA 2 is a global-matching model of memory
+(Hintzman, 1984,86,88)</p></li>
+<li class="fragment"><p>applied across numerous domains</p>
+<ul>
+<li class="fragment">Frequency judgments (Hintzman, 1988)</li>
+<li class="fragment">False Memory (Arndt, 1998)</li>
+<li class="fragment">Selective memory deficits (Curtis &amp; Jamieson,
+2019)</li>
+<li class="fragment">Age-related memory decline (DRYAD, Benjamin,
+2012)</li>
+<li class="fragment">Prototype abstraction (Hintzman, 1986)</li>
+<li class="fragment">Artificial Grammar Learning (Jamieson &amp;
+Mewhort, 2009)</li>
+</ul></li>
+</ul>
+</section>
+
+<section id="minerva-2-continued" class="title-slide slide level1">
+<h1>Minerva 2 continued</h1>
+<ul>
+<li class="fragment">Implicit Sequence Learning (Jamieson &amp; Mewhort,
+2009b)</li>
+<li class="fragment">Judgments of Likelihoods (Doughert, 1999)</li>
+<li class="fragment">Eyewitness identification (Clark, 2003)</li>
+<li class="fragment">lexical access (Goldinger, 1998)</li>
+<li class="fragment">Associative Learning (MINERVA-AL, Jamieson et al.,
+2010)</li>
+<li class="fragment">Semantic memory (ITS, Jamieson et al, 2018)</li>
+</ul>
+</section>
+
+<section id="general-encoding-assumption"
+class="title-slide slide level1">
+<h1>General Encoding Assumption</h1>
+<p>People encode the details of their experiences in memory traces</p>
+<ul>
+<li class="fragment">Instance theory assumes very high/limitless
+capacity for traces</li>
+<li class="fragment">Every experience is potentially encoded as a
+trace</li>
+<li class="fragment">lifetime of experiences potentially available from
+memory, although maybe not accessible.</li>
+</ul>
+</section>
+
+<section id="individual-experiences-are-full-of-features"
+class="title-slide slide level1">
+<h1>Individual experiences are full of features</h1>
+<ul>
+<li class="fragment"><p>What properties are in a slice of
+experience?</p>
+<ul>
+<li class="fragment">Sensory details of the environment (visual, audio,
+haptic, smell, etc.)</li>
+<li class="fragment">Sense of space, time</li>
+<li class="fragment">Co-occurring thoughts and feelings</li>
+<li class="fragment">Co-occurring cognitive processes</li>
+<li class="fragment">Co-occurring physiological processes</li>
+</ul></li>
+<li class="fragment"><p>A single memory trace could theoretically
+contain all of the features inherent to a single experience</p></li>
+</ul>
+</section>
+
+<section id="general-retrieval-assumption"
+class="title-slide slide level1">
+<h1>General Retrieval Assumption</h1>
+<ul>
+<li class="fragment"><p>Similarity between present and past drives
+memory retrieval</p></li>
+<li class="fragment"><p>The present moment is a pattern of current
+experience</p></li>
+<li class="fragment"><p>Memory contains many traces of experiences</p>
+<ul>
+<li class="fragment">each trace is the pattern of a past experience</li>
+</ul></li>
+<li class="fragment"><p>Similar experiences have similar
+patterns</p></li>
+<li class="fragment"><p>The pattern of current experience causes
+retrieval of past experiences that have similar patterns.</p></li>
+</ul>
+</section>
+
+<section id="recap" class="title-slide slide level1">
+<h1>Recap</h1>
+<ol type="1">
+<li class="fragment">People encode the details of all their individual
+experiences</li>
+<li class="fragment">Single experience are full of co-occuring
+features</li>
+<li class="fragment">Retrieval is similarity driven.</li>
+</ol>
+<ul>
+<li class="fragment"><p>the pattern in the present moment retrieves
+experiences with similar patterns from the past</p></li>
+<li class="fragment"><p>These assumptions could have interesting and
+testable implications for cognition.</p></li>
+</ul>
+</section>
+
+<section id="theoretical-strategy" class="title-slide slide level1">
+<h1>Theoretical strategy</h1>
+<p>The instance theory approach is to:</p>
+<ol type="1">
+<li class="fragment">Clarify the meaning of the assumptions</li>
+<li class="fragment">Postulate algorithms about how representations
+(traces) and processes (retrieval by similarity) may work together</li>
+<li class="fragment">Determine whether a cognitive ability or phenomenon
+of interest could emerge from the working assumptions of instance
+theory</li>
+<li class="fragment">When instance theory works, it offers a candidate
+explanation of the cognitive phenomena in question.</li>
+</ol>
+</section>
+
+<section id="minerva" class="title-slide slide level1">
+<h1>MINERVA</h1>
+<ul>
+<li class="fragment">MINERVA is a computational model</li>
+<li class="fragment">It implements some assumptions of instance
+theory</li>
+<li class="fragment">The model stores and retrieves patterns</li>
+<li class="fragment">The model can be trained on patterns that people
+respond to in cognitive psychology experiments</li>
+<li class="fragment">The model can produce measurable responses</li>
+<li class="fragment">Model performance can be compared to human/animal
+performance</li>
+</ul>
+</section>
+
+<section id="explaining-minerva" class="title-slide slide level1">
+<h1>Explaining MINERVA</h1>
+<p>We will use the rest of class to explain MINERVA in various ways.</p>
+</section>
+
+<section id="physical-resonance" class="title-slide slide level1">
+<h1>Physical Resonance</h1>
+<p><img src="images/Screen%20Shot%202022-11-22%20at%204.12.03%20PM.png" width="75%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="memory-as-experiential-resonance"
+class="title-slide slide level1">
+<h1>Memory as experiential resonance</h1>
+<p><img src="images/Screen%20Shot%202022-11-22%20at%205.00.20%20PM.png" width="75%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="hintzman-1986" class="title-slide slide level1">
+<h1>Hintzman (1986)</h1>
+<p><img src="images/Screen%20Shot%202022-11-22%20at%203.41.21%20PM.png" width="75%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section id="hintzman-1988" class="title-slide slide level1">
+<h1>Hintzman (1988)</h1>
+<p><img src="images/Screen%20Shot%202022-11-22%20at%203.51.45%20PM.png" width="75%" style="display: block; margin: auto;" /></p>
+</section>
+
+<section>
+<section id="jamieson-et-al.-2022" class="title-slide slide level1">
+<h1>Jamieson et al. (2022)</h1>
+<p><img src="images/Screen%20Shot%202022-11-22%20at%203.53.26%20PM.png" width="75%" style="display: block; margin: auto;" /></p>
+</section>
+<section id="jamieson-et-al.-2022-1" class="slide level2">
+<h2>Jamieson et al. (2022)</h2>
+<p><img src="images/Screen%20Shot%202022-11-22%20at%203.54.13%20PM.png" width="75%" style="display: block; margin: auto;" /></p>
+</section></section>
+    </div>
+  </div>
+
+  <script src="Extra_Minerva_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="Extra_Minerva_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+        // Display a presentation progress bar
+        progress: true,
+        // Push each slide change to the browser history
+        history: true,
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+        // Enable the slide overview mode
+        overview: true,
+        // Vertical centering of slides
+        center: false,
+        // Enables touch navigation on devices with touch input
+        touch: true,
+        // Turns fragments on and off globally
+        fragments: true,
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+        // Transition style
+        transition: 'fade', // none/fade/slide/convex/concave/zoom
+        // Transition speed
+        transitionSpeed: 'default', // default/fast/slow
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+
+
+        // Optional reveal.js plugins
+        dependencies: [
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>
