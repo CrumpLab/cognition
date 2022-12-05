@@ -76,7 +76,22 @@ knitr::include_graphics("imgs/watch.png")
 
 ## Engage {.mt-5}
 
-There are no quizzes or specific writing assignments for this module yet. This module is being developed in class during Fall 2022. This section will be updated ASAP.
+When you are ready complete any or all of the following assignments.
+
+### Read and React to an instance theory classic paper
+
+5 points
+
+Your assignment is to read and react to any of the following four papers. Your reaction statement could take the form of notes that you make as you read the paper, ideas you thought about, questions for clarification, new concepts about memory and cognition that you hadn't thought about before, and/or a summary or critical analysis of the ideas presented in the papers. (These are available for download in the Instance theory module on Blackboard).
+
+Jacoby, L. L., & Brooks, L. R. (1984). Nonanalytic cognition: Memory, perception, and concept learning. The Psychology of Learning and Motivation, 18, 1–47. 
+
+Kolers, P. A., & Roediger, H. L. (1984). Procedures of mind. Journal of Verbal Learning and Verbal Behavior, 23(4), 425–449. 
+
+Schacter, D. L., Eich, J. E., & Tulving, E. (1978). Richard Semon’s theory of memory. Journal of Verbal Learning and Verbal Behavior, 17(6), 721–743.
+
+Hintzman, D. L. (1986). "Schema Abstraction" in a Multiple-Trace Memory Model. Psychological Review, 93, 411–428. 
+
 
 
 
