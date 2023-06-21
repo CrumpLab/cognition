@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.210">
+<meta name="generator" content="quarto-1.3.258">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,14 +19,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -40,8 +41,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -89,16 +89,17 @@ gtag('js', new Date());
 gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="custom.css">
 <meta property="og:title" content="cognition - 7 Information Processing">
-<meta property="og:description" content="This chapter covers notions of *processing stages*, *information*, and *capacity limitations*, which became popular research topics around the 1950s and 60s.">
+<meta property="og:description" content="This chapter covers notions of processing stages, information, and capacity limitations, which became popular research topics around the 1950s and 60s.">
 <meta property="og:image" content="https://crumplab.com/cognition/textbook/imgs/cover.jpg">
 <meta property="og:site-name" content="cognition">
 <meta name="twitter:title" content="cognition - 7 Information Processing">
-<meta name="twitter:description" content="This chapter covers notions of *processing stages*, *information*, and *capacity limitations*, which became popular research topics around the 1950s and 60s.">
+<meta name="twitter:description" content="This chapter covers notions of processing stages, information, and capacity limitations, which became popular research topics around the 1950s and 60s.">
 <meta name="twitter:image" content="https://crumplab.com/cognition/textbook/imgs/cover.jpg">
 <meta name="twitter:creator" content="@MattCrumpLab">
 <meta name="twitter:card" content="summary_large_image">
@@ -115,137 +116,141 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <img src="../images/logo.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">
+    <a class="nav-link active" href="../index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/course_docs/Fall_2022_Psyc_2530_syllabus.html">
+    <a class="nav-link" href="../articles/course_docs/Fall_2022_Psyc_2530_syllabus.html" rel="" target="">
  <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../textbook/index.html" aria-current="page">
+    <a class="nav-link" href="../textbook/index.html" rel="" target="">
  <span class="menu-text">Textbook</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/modules.html">
+    <a class="nav-link" href="../articles/modules.html" rel="" target="">
  <span class="menu-text">Learning Modules</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Slides</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-slides">    
         <li>
-    <a class="dropdown-item" href="../slides/L0_Getting_started/L0_Getting_Started.html">
+    <a class="dropdown-item" href="../slides/L0_Getting_started/L0_Getting_Started.html" rel="" target="">
  <span class="dropdown-text">Lecture 0 - Getting Started</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L1_Instances/L1_Instances.html">
+    <a class="dropdown-item" href="../slides/L1_Instances/L1_Instances.html" rel="" target="">
  <span class="dropdown-text">Lecture 1 - What is Cognition?</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L2_QALMRI/L2_QALMRI.html">
+    <a class="dropdown-item" href="../slides/L2_QALMRI/L2_QALMRI.html" rel="" target="">
  <span class="dropdown-text">Lecture 2 - Reading Research</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L3_Imagery/L3_Imagery.html">
+    <a class="dropdown-item" href="../slides/L3_Imagery/L3_Imagery.html" rel="" target="">
  <span class="dropdown-text">Lecture 3 - Mental Imagery</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L4_Eugenics/L4_Eugenics.html">
+    <a class="dropdown-item" href="../slides/L4_Eugenics/L4_Eugenics.html" rel="" target="">
  <span class="dropdown-text">Lecture 4 - Psychology and Eugenics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L5_IQ/L5_IQ.html">
+    <a class="dropdown-item" href="../slides/L5_IQ/L5_IQ.html" rel="" target="">
  <span class="dropdown-text">Lecture 5 - Intelligence Testing</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L6_Associations/L6_Associations.html">
+    <a class="dropdown-item" href="../slides/L6_Associations/L6_Associations.html" rel="" target="">
  <span class="dropdown-text">Lecture 6 - Associations</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L8_Behaviorism/L8_Behaviorism.html">
+    <a class="dropdown-item" href="../slides/L8_Behaviorism/L8_Behaviorism.html" rel="" target="">
  <span class="dropdown-text">Lecture 8 - Behaviorism</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L9_Information/L9_Information.html">
+    <a class="dropdown-item" href="../slides/L9_Information/L9_Information.html" rel="" target="">
  <span class="dropdown-text">Lecture 9 - Information Processing</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L10_Memory_1/L10_Memory_1.html">
+    <a class="dropdown-item" href="../slides/L10_Memory_1/L10_Memory_1.html" rel="" target="">
  <span class="dropdown-text">Lecture 10 - Memory I</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L11_Memory_2/L11_Memory_2.html">
+    <a class="dropdown-item" href="../slides/L11_Memory_2/L11_Memory_2.html" rel="" target="">
  <span class="dropdown-text">Lecture 11 - Memory II</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L12_Implicit/L12_Implicit.html">
+    <a class="dropdown-item" href="../slides/L12_Implicit/L12_Implicit.html" rel="" target="">
  <span class="dropdown-text">Lecture 12 - Implicit Influences</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L13_Attention/L13_Attention.html">
+    <a class="dropdown-item" href="../slides/L13_Attention/L13_Attention.html" rel="" target="">
  <span class="dropdown-text">Lecture 13 - Attention</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/Extra_Minerva/Extra_Minerva.html">
+    <a class="dropdown-item" href="../slides/Extra_Minerva/Extra_Minerva.html" rel="" target="">
  <span class="dropdown-text">Lecture 13.5 - Instance Theory</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L14_Language/L14_Language.html">
+    <a class="dropdown-item" href="../slides/L14_Language/L14_Language.html" rel="" target="">
  <span class="dropdown-text">Lecture 14 - Language</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L15_JDM/L15_JDM.html">
+    <a class="dropdown-item" href="../slides/L15_JDM/L15_JDM.html" rel="" target="">
  <span class="dropdown-text">Lecture 15 - Judgment and Decision-making</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../articles/honors/honors.html">
+    <a class="nav-link" href="../articles/honors/honors.html" rel="" target="">
  <span class="menu-text">Honors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/course_docs/resources.html">
+    <a class="nav-link" href="../articles/course_docs/resources.html" rel="" target="">
  <span class="menu-text">Additional Resources</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../articles/oer/OER.html">
+    <a class="nav-link" href="../articles/oer/oer.html" rel="" target="">
  <span class="menu-text">OER</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/CrumpLab/cognition"><i class="bi bi-github" role="img" aria-label="GitHub">
+    <a class="nav-link" href="https://github.com/CrumpLab/cognition" rel="" target=""><i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">7 Information Processing</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../textbook/C7_Information_Processing.html">7 Information Processing</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../" class="sidebar-logo-link">
+      <a href="../index.html" class="sidebar-logo-link">
       <img src="../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
@@ -253,117 +258,130 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/index.html" class="sidebar-item-text sidebar-link">Instances of Cognition</a>
+  <a href="../textbook/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Instances of Cognition</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/Preface.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="../textbook/Preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/Reading_Formats.html" class="sidebar-item-text sidebar-link">Reading Formats</a>
+  <a href="../textbook/Reading_Formats.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reading Formats</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C1_What_is_Cognition.html" class="sidebar-item-text sidebar-link">1 What is Cognition?</a>
+  <a href="../textbook/C1_What_is_Cognition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1 What is Cognition?</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C2_Mental_Imagery.html" class="sidebar-item-text sidebar-link">2 Mental Imagery</a>
+  <a href="../textbook/C2_Mental_Imagery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2 Mental Imagery</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C3_Eugenics.html" class="sidebar-item-text sidebar-link">3 Eugenics and Psychology</a>
+  <a href="../textbook/C3_Eugenics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3 Eugenics and Psychology</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C4_Intelligence_testing.html" class="sidebar-item-text sidebar-link">4 Intelligence Testing</a>
+  <a href="../textbook/C4_Intelligence_testing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4 Intelligence Testing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C5_Associations.html" class="sidebar-item-text sidebar-link">5 Associations</a>
+  <a href="../textbook/C5_Associations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5 Associations</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C6_Behaviorism.html" class="sidebar-item-text sidebar-link">6 Behaviorism</a>
+  <a href="../textbook/C6_Behaviorism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6 Behaviorism</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C7_Information_Processing.html" class="sidebar-item-text sidebar-link active">7 Information Processing</a>
+  <a href="../textbook/C7_Information_Processing.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">7 Information Processing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C8_Memory_I.html" class="sidebar-item-text sidebar-link">8 Memory I</a>
+  <a href="../textbook/C8_Memory_I.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8 Memory I</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C9_Memory_II.html" class="sidebar-item-text sidebar-link">9 Memory II</a>
+  <a href="../textbook/C9_Memory_II.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9 Memory II</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#four-revolutions-industrial-technological-digital-and-cognitive" id="toc-four-revolutions-industrial-technological-digital-and-cognitive" class="nav-link active" data-scroll-target="#four-revolutions-industrial-technological-digital-and-cognitive"><span class="toc-section-number">7.1</span>  Four Revolutions: Industrial, Technological, Digital, and “Cognitive”</a>
+  <li><a href="#four-revolutions-industrial-technological-digital-and-cognitive" id="toc-four-revolutions-industrial-technological-digital-and-cognitive" class="nav-link active" data-scroll-target="#four-revolutions-industrial-technological-digital-and-cognitive"><span class="header-section-number">7.1</span> Four Revolutions: Industrial, Technological, Digital, and “Cognitive”</a>
   <ul>
-  <li><a href="#assembly-line-metaphor-of-cognition" id="toc-assembly-line-metaphor-of-cognition" class="nav-link" data-scroll-target="#assembly-line-metaphor-of-cognition"><span class="toc-section-number">7.1.1</span>  Assembly-line metaphor of cognition</a></li>
-  <li><a href="#telephone-metaphor-of-cognition" id="toc-telephone-metaphor-of-cognition" class="nav-link" data-scroll-target="#telephone-metaphor-of-cognition"><span class="toc-section-number">7.1.2</span>  Telephone metaphor of cognition</a></li>
-  <li><a href="#computer-metaphor-of-cognition" id="toc-computer-metaphor-of-cognition" class="nav-link" data-scroll-target="#computer-metaphor-of-cognition"><span class="toc-section-number">7.1.3</span>  Computer metaphor of cognition</a></li>
+  <li><a href="#assembly-line-metaphor-of-cognition" id="toc-assembly-line-metaphor-of-cognition" class="nav-link" data-scroll-target="#assembly-line-metaphor-of-cognition"><span class="header-section-number">7.1.1</span> Assembly-line metaphor of cognition</a></li>
+  <li><a href="#telephone-metaphor-of-cognition" id="toc-telephone-metaphor-of-cognition" class="nav-link" data-scroll-target="#telephone-metaphor-of-cognition"><span class="header-section-number">7.1.2</span> Telephone metaphor of cognition</a></li>
+  <li><a href="#computer-metaphor-of-cognition" id="toc-computer-metaphor-of-cognition" class="nav-link" data-scroll-target="#computer-metaphor-of-cognition"><span class="header-section-number">7.1.3</span> Computer metaphor of cognition</a></li>
   </ul></li>
-  <li><a href="#the-mechanization-of-cognition" id="toc-the-mechanization-of-cognition" class="nav-link" data-scroll-target="#the-mechanization-of-cognition"><span class="toc-section-number">7.2</span>  The mechanization of cognition</a></li>
-  <li><a href="#donders-processing-stages" id="toc-donders-processing-stages" class="nav-link" data-scroll-target="#donders-processing-stages"><span class="toc-section-number">7.3</span>  Donders’ Processing Stages</a>
+  <li><a href="#the-mechanization-of-cognition" id="toc-the-mechanization-of-cognition" class="nav-link" data-scroll-target="#the-mechanization-of-cognition"><span class="header-section-number">7.2</span> The mechanization of cognition</a></li>
+  <li><a href="#donders-processing-stages" id="toc-donders-processing-stages" class="nav-link" data-scroll-target="#donders-processing-stages"><span class="header-section-number">7.3</span> Donders’ Processing Stages</a>
   <ul>
-  <li><a href="#donders-mental-chronometry-and-processing-stages" id="toc-donders-mental-chronometry-and-processing-stages" class="nav-link" data-scroll-target="#donders-mental-chronometry-and-processing-stages"><span class="toc-section-number">7.3.1</span>  Donders mental chronometry and processing stages</a></li>
-  <li><a href="#physiological-reaction-time" id="toc-physiological-reaction-time" class="nav-link" data-scroll-target="#physiological-reaction-time"><span class="toc-section-number">7.3.2</span>  Physiological reaction time</a></li>
-  <li><a href="#donders-mental-reaction-times" id="toc-donders-mental-reaction-times" class="nav-link" data-scroll-target="#donders-mental-reaction-times"><span class="toc-section-number">7.3.3</span>  Donders mental reaction times</a></li>
-  <li><a href="#donders-subtractive-stage-logic" id="toc-donders-subtractive-stage-logic" class="nav-link" data-scroll-target="#donders-subtractive-stage-logic"><span class="toc-section-number">7.3.4</span>  Donders subtractive stage logic</a></li>
+  <li><a href="#donders-mental-chronometry-and-processing-stages" id="toc-donders-mental-chronometry-and-processing-stages" class="nav-link" data-scroll-target="#donders-mental-chronometry-and-processing-stages"><span class="header-section-number">7.3.1</span> Donders mental chronometry and processing stages</a></li>
+  <li><a href="#physiological-reaction-time" id="toc-physiological-reaction-time" class="nav-link" data-scroll-target="#physiological-reaction-time"><span class="header-section-number">7.3.2</span> Physiological reaction time</a></li>
+  <li><a href="#donders-mental-reaction-times" id="toc-donders-mental-reaction-times" class="nav-link" data-scroll-target="#donders-mental-reaction-times"><span class="header-section-number">7.3.3</span> Donders mental reaction times</a></li>
+  <li><a href="#donders-subtractive-stage-logic" id="toc-donders-subtractive-stage-logic" class="nav-link" data-scroll-target="#donders-subtractive-stage-logic"><span class="header-section-number">7.3.4</span> Donders subtractive stage logic</a></li>
   </ul></li>
-  <li><a href="#beyond-donders" id="toc-beyond-donders" class="nav-link" data-scroll-target="#beyond-donders"><span class="toc-section-number">7.4</span>  Beyond Donders</a>
+  <li><a href="#beyond-donders" id="toc-beyond-donders" class="nav-link" data-scroll-target="#beyond-donders"><span class="header-section-number">7.4</span> Beyond Donders</a>
   <ul>
-  <li><a href="#subtractive-logic" id="toc-subtractive-logic" class="nav-link" data-scroll-target="#subtractive-logic"><span class="toc-section-number">7.4.1</span>  Subtractive logic</a></li>
-  <li><a href="#reaction-time-research" id="toc-reaction-time-research" class="nav-link" data-scroll-target="#reaction-time-research"><span class="toc-section-number">7.4.2</span>  Reaction time research</a></li>
-  <li><a href="#processing-stages" id="toc-processing-stages" class="nav-link" data-scroll-target="#processing-stages"><span class="toc-section-number">7.4.3</span>  Processing Stages</a></li>
+  <li><a href="#subtractive-logic" id="toc-subtractive-logic" class="nav-link" data-scroll-target="#subtractive-logic"><span class="header-section-number">7.4.1</span> Subtractive logic</a></li>
+  <li><a href="#reaction-time-research" id="toc-reaction-time-research" class="nav-link" data-scroll-target="#reaction-time-research"><span class="header-section-number">7.4.2</span> Reaction time research</a></li>
+  <li><a href="#processing-stages" id="toc-processing-stages" class="nav-link" data-scroll-target="#processing-stages"><span class="header-section-number">7.4.3</span> Processing Stages</a></li>
   </ul></li>
-  <li><a href="#cybernetics-and-the-macy-conferences" id="toc-cybernetics-and-the-macy-conferences" class="nav-link" data-scroll-target="#cybernetics-and-the-macy-conferences"><span class="toc-section-number">7.5</span>  Cybernetics and the Macy Conferences</a></li>
-  <li><a href="#shannons-information-theory" id="toc-shannons-information-theory" class="nav-link" data-scroll-target="#shannons-information-theory"><span class="toc-section-number">7.6</span>  Shannon’s Information Theory</a>
+  <li><a href="#cybernetics-and-the-macy-conferences" id="toc-cybernetics-and-the-macy-conferences" class="nav-link" data-scroll-target="#cybernetics-and-the-macy-conferences"><span class="header-section-number">7.5</span> Cybernetics and the Macy Conferences</a></li>
+  <li><a href="#shannons-information-theory" id="toc-shannons-information-theory" class="nav-link" data-scroll-target="#shannons-information-theory"><span class="header-section-number">7.6</span> Shannon’s Information Theory</a>
   <ul>
-  <li><a href="#information-channels" id="toc-information-channels" class="nav-link" data-scroll-target="#information-channels"><span class="toc-section-number">7.6.1</span>  Information channels</a></li>
-  <li><a href="#measuring-information-h" id="toc-measuring-information-h" class="nav-link" data-scroll-target="#measuring-information-h"><span class="toc-section-number">7.6.2</span>  Measuring Information: H</a></li>
-  <li><a href="#computing-h" id="toc-computing-h" class="nav-link" data-scroll-target="#computing-h"><span class="toc-section-number">7.6.3</span>  Computing H</a></li>
-  <li><a href="#bits-of-information" id="toc-bits-of-information" class="nav-link" data-scroll-target="#bits-of-information"><span class="toc-section-number">7.6.4</span>  Bits of information</a></li>
-  <li><a href="#h-bits-predictability-and-information" id="toc-h-bits-predictability-and-information" class="nav-link" data-scroll-target="#h-bits-predictability-and-information"><span class="toc-section-number">7.6.5</span>  H, Bits, predictability and Information</a></li>
-  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="toc-section-number">7.6.6</span>  Summary</a></li>
+  <li><a href="#information-channels" id="toc-information-channels" class="nav-link" data-scroll-target="#information-channels"><span class="header-section-number">7.6.1</span> Information channels</a></li>
+  <li><a href="#measuring-information-h" id="toc-measuring-information-h" class="nav-link" data-scroll-target="#measuring-information-h"><span class="header-section-number">7.6.2</span> Measuring Information: H</a></li>
+  <li><a href="#computing-h" id="toc-computing-h" class="nav-link" data-scroll-target="#computing-h"><span class="header-section-number">7.6.3</span> Computing H</a></li>
+  <li><a href="#bits-of-information" id="toc-bits-of-information" class="nav-link" data-scroll-target="#bits-of-information"><span class="header-section-number">7.6.4</span> Bits of information</a></li>
+  <li><a href="#h-bits-predictability-and-information" id="toc-h-bits-predictability-and-information" class="nav-link" data-scroll-target="#h-bits-predictability-and-information"><span class="header-section-number">7.6.5</span> H, Bits, predictability and Information</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">7.6.6</span> Summary</a></li>
   </ul></li>
-  <li><a href="#hick-hyman-law" id="toc-hick-hyman-law" class="nav-link" data-scroll-target="#hick-hyman-law"><span class="toc-section-number">7.7</span>  Hick-Hyman “Law”</a>
+  <li><a href="#hick-hyman-law" id="toc-hick-hyman-law" class="nav-link" data-scroll-target="#hick-hyman-law"><span class="header-section-number">7.7</span> Hick-Hyman “Law”</a>
   <ul>
-  <li><a href="#choice-reaction-time" id="toc-choice-reaction-time" class="nav-link" data-scroll-target="#choice-reaction-time"><span class="toc-section-number">7.7.1</span>  Choice Reaction time</a></li>
-  <li><a href="#the-number-of-alternatives-increases-choice-rt" id="toc-the-number-of-alternatives-increases-choice-rt" class="nav-link" data-scroll-target="#the-number-of-alternatives-increases-choice-rt"><span class="toc-section-number">7.7.2</span>  The number of alternatives increases choice-RT</a></li>
-  <li><a href="#number-of-alternatives-or-information-in-the-message" id="toc-number-of-alternatives-or-information-in-the-message" class="nav-link" data-scroll-target="#number-of-alternatives-or-information-in-the-message"><span class="toc-section-number">7.7.3</span>  Number of alternatives or “Information” in the message?</a></li>
-  <li><a href="#deconfounding-alternatives-from-information" id="toc-deconfounding-alternatives-from-information" class="nav-link" data-scroll-target="#deconfounding-alternatives-from-information"><span class="toc-section-number">7.7.4</span>  Deconfounding alternatives from information</a></li>
-  <li><a href="#the-experiments" id="toc-the-experiments" class="nav-link" data-scroll-target="#the-experiments"><span class="toc-section-number">7.7.5</span>  The experiments</a></li>
-  <li><a href="#implications-for-behaviorism" id="toc-implications-for-behaviorism" class="nav-link" data-scroll-target="#implications-for-behaviorism"><span class="toc-section-number">7.7.6</span>  Implications for Behaviorism</a></li>
-  <li><a href="#debate-about-interpretation" id="toc-debate-about-interpretation" class="nav-link" data-scroll-target="#debate-about-interpretation"><span class="toc-section-number">7.7.7</span>  Debate about interpretation</a></li>
+  <li><a href="#choice-reaction-time" id="toc-choice-reaction-time" class="nav-link" data-scroll-target="#choice-reaction-time"><span class="header-section-number">7.7.1</span> Choice Reaction time</a></li>
+  <li><a href="#the-number-of-alternatives-increases-choice-rt" id="toc-the-number-of-alternatives-increases-choice-rt" class="nav-link" data-scroll-target="#the-number-of-alternatives-increases-choice-rt"><span class="header-section-number">7.7.2</span> The number of alternatives increases choice-RT</a></li>
+  <li><a href="#number-of-alternatives-or-information-in-the-message" id="toc-number-of-alternatives-or-information-in-the-message" class="nav-link" data-scroll-target="#number-of-alternatives-or-information-in-the-message"><span class="header-section-number">7.7.3</span> Number of alternatives or “Information” in the message?</a></li>
+  <li><a href="#deconfounding-alternatives-from-information" id="toc-deconfounding-alternatives-from-information" class="nav-link" data-scroll-target="#deconfounding-alternatives-from-information"><span class="header-section-number">7.7.4</span> Deconfounding alternatives from information</a></li>
+  <li><a href="#the-experiments" id="toc-the-experiments" class="nav-link" data-scroll-target="#the-experiments"><span class="header-section-number">7.7.5</span> The experiments</a></li>
+  <li><a href="#implications-for-behaviorism" id="toc-implications-for-behaviorism" class="nav-link" data-scroll-target="#implications-for-behaviorism"><span class="header-section-number">7.7.6</span> Implications for Behaviorism</a></li>
+  <li><a href="#debate-about-interpretation" id="toc-debate-about-interpretation" class="nav-link" data-scroll-target="#debate-about-interpretation"><span class="header-section-number">7.7.7</span> Debate about interpretation</a></li>
   </ul></li>
-  <li><a href="#information-theory-and-beyond" id="toc-information-theory-and-beyond" class="nav-link" data-scroll-target="#information-theory-and-beyond"><span class="toc-section-number">7.8</span>  Information theory and beyond</a></li>
-  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix"><span class="toc-section-number">7.9</span>  Appendix</a>
+  <li><a href="#information-theory-and-beyond" id="toc-information-theory-and-beyond" class="nav-link" data-scroll-target="#information-theory-and-beyond"><span class="header-section-number">7.8</span> Information theory and beyond</a></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix"><span class="header-section-number">7.9</span> Appendix</a>
   <ul>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="toc-section-number">7.9.1</span>  References</a></li>
+  
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/CrumpLab/cognition/edit/main/textbook/C7_Information_Processing.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/CrumpLab/cognition/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -373,7 +391,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">7 Information Processing</h1>
+<h1 class="title">7 Information Processing</h1>
 </div>
 
 
@@ -397,7 +415,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">October 23, 2022</p>
+      <p class="date-modified">March 20, 2023</p>
     </div>
   </div>
     
@@ -412,9 +430,6 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 </header>
 
-<div class="cell">
-
-</div>
 <p>This chapter overviews <strong>information processing</strong> as a concept in cognition. As mentioned in chapter 1, Ulrich Neisser defined cognition as “all processes by which the sensory input is transformed, reduced, elaborated, stored, recovered, and used” <span class="citation" data-cites="neisserCognitivePsychology1967">(<a href="#ref-neisserCognitivePsychology1967" role="doc-biblioref">Neisser, 1967</a>)</span>. Neisser’s definition embraces the information processing tradition in cognition. Sensory input contains “information” about the world, and cognition is characterized as the “processing” of that information. However, just like there were many forms and ideas about behaviorism, there are different forms and ideas about information processing in cognition. We will examine the notions of <em>processing stages</em>, <em>information</em>, and <em>capacity limitations</em>, which became popular research topics around the 1950s and 60s.</p>
 <p>Some alliterative themes about cognitive research are also introduced. For example, we begin the chapter with the <em>four Rs</em>, referring to the industrial, technological, digital and “cognitive” revolutions. The first three revolutions introduced many new machines that changed the course of human history. Some of these machines also had an influence on explanation of cognition. In particular, over the decades, mechanistic explanations of cognitive phenomena have been closely inspired by the working elements of machines modern for the time. In this chapter, we introduce the “assembly-line”, “telephone”, and “computer” metaphors of cognition, and examine how the first two technologies shaped the concept of information processing. The computer metaphor will be expanded upon in later chapters.</p>
 <section id="four-revolutions-industrial-technological-digital-and-cognitive" class="level3" data-number="7.1">
@@ -478,7 +493,7 @@ The behaviorists we just finished reading about successfully squeezed in the stu
 <div class="no-row-height column-margin column-container"><div class="cell-output-display">
 <div id="fig-7Donders_simple" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="imgs/Donders_simple.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<p><img src="imgs/Donders_simple.png" class="quarto-discovered-preview-image img-fluid figure-img" style="width:75.0%"></p>
 <p></p><figcaption class="figure-caption">Figure&nbsp;1: A simple reaction time task involves detecting any stimulus as fast as possible.</figcaption><p></p>
 </figure>
 </div>
@@ -1116,104 +1131,104 @@ At the end of the chapter I introduce the *four Ms*: Metaphor, Mechanism, Method
 
 
 
-</div></section><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">7.9.1 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
-<div id="ref-alexanderDondersDeadCortical2015" class="csl-entry" role="doc-biblioentry">
+</div></section><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">7.9.1 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-alexanderDondersDeadCortical2015" class="csl-entry" role="listitem">
 Alexander, D. M., Trengove, C., &amp; van Leeuwen, C. (2015). Donders is dead: Cortical traveling waves and the limits of mental chronometry in cognitive neuroscience. <em>Cognitive Processing</em>, <em>16</em>(4), 365–375. <a href="https://doi.org/f7zgts">https://doi.org/f7zgts</a>
 </div>
-<div id="ref-borelMecaniqueStatiqueIrreversibilite1913" class="csl-entry" role="doc-biblioentry">
+<div id="ref-borelMecaniqueStatiqueIrreversibilite1913" class="csl-entry" role="listitem">
 Borel, É. (1913). La mécanique statique et l’irréversibilité. <em>J. Phys. Theor. Appl.</em>, <em>3</em>(1), 189–196. <a href="https://doi.org/c9nnbz">https://doi.org/c9nnbz</a>
 </div>
-<div id="ref-broadbentMechanicalModelHuman1957" class="csl-entry" role="doc-biblioentry">
+<div id="ref-broadbentMechanicalModelHuman1957" class="csl-entry" role="listitem">
 Broadbent, D. E. (1957). A mechanical model for human attention and immediate memory. <em>Psychological Review</em>, <em>64</em>(3), 205. <a href="https://doi.org/d5srnr">https://doi.org/d5srnr</a>
 </div>
-<div id="ref-broadbentPerceptionCommunication1958" class="csl-entry" role="doc-biblioentry">
+<div id="ref-broadbentPerceptionCommunication1958" class="csl-entry" role="listitem">
 Broadbent, D. E. (1958). <em>Perception and communication</em>. <span>Elsevier</span>.
 </div>
-<div id="ref-canalesExitFrogEnter2001" class="csl-entry" role="doc-biblioentry">
+<div id="ref-canalesExitFrogEnter2001" class="csl-entry" role="listitem">
 Canales, J. (2001). Exit the frog, enter the human: Physiology and experimental psychology in nineteenth-century astronomy. <em>The British Journal for the History of Science</em>, <em>34</em>(2), 173–197. <a href="https://doi.org/cs2z26">https://doi.org/cs2z26</a>
 </div>
-<div id="ref-craikTheoryHumanOperator1948" class="csl-entry" role="doc-biblioentry">
+<div id="ref-craikTheoryHumanOperator1948" class="csl-entry" role="listitem">
 Craik, K. J. W. (1948). Theory of the human operator in control systems <span>II</span>. <span>Man</span> as an element in a control system. <em>British Journal of Psychology</em>, <em>38</em>, 142–148.
 </div>
-<div id="ref-davisHumanOperatorSingle1957" class="csl-entry" role="doc-biblioentry">
+<div id="ref-davisHumanOperatorSingle1957" class="csl-entry" role="listitem">
 Davis, R. (1957). The human operator as a single channel information system. <em>Quarterly Journal of Experimental Psychology</em>, <em>9</em>(3), 119–129. <a href="https://doi.org/d2n3mw">https://doi.org/d2n3mw</a>
 </div>
-<div id="ref-dondersSpeedMentalProcesses1868" class="csl-entry" role="doc-biblioentry">
+<div id="ref-dondersSpeedMentalProcesses1868" class="csl-entry" role="listitem">
 Donders, F. C. (1868–1969). On the speed of mental processes. In W. G. Koster (Ed.), <em>Attention and <span>Performance II</span></em>. <span>North-Holland Publishing Company</span>.
 </div>
-<div id="ref-fraissePeriodeRefractairePsychologique1957" class="csl-entry" role="doc-biblioentry">
+<div id="ref-fraissePeriodeRefractairePsychologique1957" class="csl-entry" role="listitem">
 Fraisse, P. (1957). La période réfractaire psychologique. <em>L’Année Psychologique</em>, <em>57</em>(2), 315–328. <a href="https://doi.org/dtnd4s">https://doi.org/dtnd4s</a>
 </div>
-<div id="ref-greenwoodUnderstandingCognitiveRevolution1999" class="csl-entry" role="doc-biblioentry">
+<div id="ref-greenwoodUnderstandingCognitiveRevolution1999" class="csl-entry" role="listitem">
 Greenwood, J. D. (1999). Understanding the <span>“cognitive revolution”</span> in psychology. <em>Journal of the History of the Behavioral Sciences</em>, <em>35</em>(1), 1–22. <a href="https://doi.org/ffh4k7">https://doi.org/ffh4k7</a>
 </div>
-<div id="ref-hickDiscontinuousFunctioningHuman1948" class="csl-entry" role="doc-biblioentry">
+<div id="ref-hickDiscontinuousFunctioningHuman1948" class="csl-entry" role="listitem">
 Hick, W. E. (1948). The discontinuous functioning of the human operator in pursuit tasks. <em>Quarterly Journal of Experimental Psychology</em>, <em>1</em>(1), 36–51. <a href="https://doi.org/d4pnsh">https://doi.org/d4pnsh</a>
 </div>
-<div id="ref-hickRateGainInformation1952" class="csl-entry" role="doc-biblioentry">
+<div id="ref-hickRateGainInformation1952" class="csl-entry" role="listitem">
 Hick, W. E. (1952). On the rate of gain of information. <em>Quarterly Journal of Experimental Psychology</em>, <em>4</em>(1), 11–26. <a href="https://doi.org/10.1080/17470215208416600">https://doi.org/10.1080/17470215208416600</a>
 </div>
-<div id="ref-hillgendorfInformationInputResponse1966" class="csl-entry" role="doc-biblioentry">
+<div id="ref-hillgendorfInformationInputResponse1966" class="csl-entry" role="listitem">
 Hillgendorf, L. (1966). Information input and response time. <em>Ergonomics</em>, <em>9</em>(1), 31–37. <a href="https://doi.org/dd5k9b">https://doi.org/dd5k9b</a>
 </div>
-<div id="ref-hollandOriginsBritishCybernetics2011" class="csl-entry" role="doc-biblioentry">
+<div id="ref-hollandOriginsBritishCybernetics2011" class="csl-entry" role="listitem">
 Holland, O., &amp; Husbands, P. (2011). The origins of <span>British</span> cybernetics: The <span>Ratio Club</span>. <em>Kybernetes</em>, <em>40</em>(1/2), 110–123. <a href="https://doi.org/dn98st">https://doi.org/dn98st</a>
 </div>
-<div id="ref-hymanStimulusInformationDeterminant1953" class="csl-entry" role="doc-biblioentry">
+<div id="ref-hymanStimulusInformationDeterminant1953" class="csl-entry" role="listitem">
 Hyman, R. (1953). Stimulus information as a determinant of reaction time. <em>Journal of Experimental Psychology</em>, <em>45</em>(3), 188–196. <a href="https://doi.org/cq3kjd">https://doi.org/cq3kjd</a>
 </div>
-<div id="ref-jastrowTimerelationsMentalPhenomena1890" class="csl-entry" role="doc-biblioentry">
+<div id="ref-jastrowTimerelationsMentalPhenomena1890" class="csl-entry" role="listitem">
 Jastrow, J. (1890). <em>The time-relations of mental phenomena</em>. <span>NDC Hodges</span>.
 </div>
-<div id="ref-kornblumChoiceReactionTime1967" class="csl-entry" role="doc-biblioentry">
+<div id="ref-kornblumChoiceReactionTime1967" class="csl-entry" role="listitem">
 Kornblum, S. (1967). Choice reaction time for repetitions and non-repetitions: <span>A</span> re-examination of the information hypothesis. <em>Acta Psychologica</em>, <em>27</em>, 178–187. <a href="https://doi.org/dqkb2g">https://doi.org/dqkb2g</a>
 </div>
-<div id="ref-kosterPreface1969" class="csl-entry" role="doc-biblioentry">
+<div id="ref-kosterPreface1969" class="csl-entry" role="listitem">
 Koster, W. G. (1969). Preface. In W. G. Koster (Ed.), <em>Attention and <span>Performance II</span>: Proceedings of the donders centenary symposium on reaction time</em>. <span>North-Holland Publishing Company</span>.
 </div>
-<div id="ref-mandlerOriginsCognitiveEvolution23" class="csl-entry" role="doc-biblioentry">
+<div id="ref-mandlerOriginsCognitiveEvolution23" class="csl-entry" role="listitem">
 Mandler, G. (2002). Origins of the cognitive (r)evolution. <em>Journal of the History of the Behavioral Sciences</em>, <em>38</em>(4), 339–353. <a href="https://doi.org/d4grcn">https://doi.org/d4grcn</a>
 </div>
-<div id="ref-millerCognitiveRevolutionHistorical2003" class="csl-entry" role="doc-biblioentry">
+<div id="ref-millerCognitiveRevolutionHistorical2003" class="csl-entry" role="listitem">
 Miller, G. A. (2003). The cognitive revolution: A historical perspective. <em>Trends in Cognitive Sciences</em>, <em>7</em>(3), 141–144. <a href="https://doi.org/b7wqdk">https://doi.org/b7wqdk</a>
 </div>
-<div id="ref-neisserCognitivePsychology1967" class="csl-entry" role="doc-biblioentry">
+<div id="ref-neisserCognitivePsychology1967" class="csl-entry" role="listitem">
 Neisser, U. (1967). <em>Cognitive psychology</em>. <span>Meredith Publishing Company</span>.
 </div>
-<div id="ref-proctorHickLawChoice2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-proctorHickLawChoice2018" class="csl-entry" role="listitem">
 Proctor, R. W., &amp; Schneider, D. W. (2018). Hick’s law for choice reaction time: <span>A</span> review. <em>Quarterly Journal of Experimental Psychology</em>, <em>71</em>(6), 1281–1299. <a href="https://doi.org/gfs37w">https://doi.org/gfs37w</a>
 </div>
-<div id="ref-seibelDiscriminationReactionTime1962" class="csl-entry" role="doc-biblioentry">
+<div id="ref-seibelDiscriminationReactionTime1962" class="csl-entry" role="listitem">
 Seibel, R. (1962). Discrimination reaction time as a function of the number of stimulus-response pairs and the self-pacing adjustment of the subject. <em>Psychological Monographs: General and Applied</em>, <em>76</em>(42), 1. <a href="https://doi.org/b9gnjk">https://doi.org/b9gnjk</a>
 </div>
-<div id="ref-shannonSymbolicAnalysisRelay1938" class="csl-entry" role="doc-biblioentry">
+<div id="ref-shannonSymbolicAnalysisRelay1938" class="csl-entry" role="listitem">
 Shannon, C. E. (1938). A symbolic analysis of relay and switching circuits. <em>Electrical Engineering</em>, <em>57</em>(12), 713–723. <a href="https://doi.org/ggztcn">https://doi.org/ggztcn</a>
 </div>
-<div id="ref-shannonAlgebraTheoreticalGenetics1940" class="csl-entry" role="doc-biblioentry">
+<div id="ref-shannonAlgebraTheoreticalGenetics1940" class="csl-entry" role="listitem">
 Shannon, C. E. (1940). <em>An algebra for theoretical genetics</em> [PhD thesis]. <span>Massachusetts Institute of Technology</span>.
 </div>
-<div id="ref-shannonMathematicalTheoryCommunication1949" class="csl-entry" role="doc-biblioentry">
+<div id="ref-shannonMathematicalTheoryCommunication1949" class="csl-entry" role="listitem">
 Shannon, C. E., &amp; Weaver, W. (1949). <em>The mathematical theory of communication</em>. <span>University of Illinois press</span>. <a href="https://books.google.com/books?hl=en&amp;lr=&amp;id=IZ77BwAAQBAJ&amp;oi=fnd&amp;pg=PP1&amp;dq=related:neNAI2dkLQcJ:scholar.google.com/&amp;ots=hknDdVuK4v&amp;sig=8pbhXsHmouktq7OVKrUO4KLT2NQ">https://books.google.com/books?hl=en&amp;lr=&amp;id=IZ77BwAAQBAJ&amp;oi=fnd&amp;pg=PP1&amp;dq=related:neNAI2dkLQcJ:scholar.google.com/&amp;ots=hknDdVuK4v&amp;sig=8pbhXsHmouktq7OVKrUO4KLT2NQ</a>
 </div>
-<div id="ref-sperryImpactPromiseCognitive1993" class="csl-entry" role="doc-biblioentry">
+<div id="ref-sperryImpactPromiseCognitive1993" class="csl-entry" role="listitem">
 Sperry, R. W. (1993). The impact and promise of the cognitive revolution. <em>American Psychologist</em>, <em>48</em>(8), 878. <a href="https://doi.org/cr7svp">https://doi.org/cr7svp</a>
 </div>
-<div id="ref-sternbergDiscoveryProcessingStages1969a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-sternbergDiscoveryProcessingStages1969a" class="csl-entry" role="listitem">
 Sternberg, S. (1969). The discovery of processing stages: <span>Extensions</span> of <span>Donders</span>’ method. <em>Acta Psychologica</em>, <em>30</em>, 276–315. <a href="https://doi.org/ftg756">https://doi.org/ftg756</a>
 </div>
-<div id="ref-teichnerLawsVisualChoice1974" class="csl-entry" role="doc-biblioentry">
+<div id="ref-teichnerLawsVisualChoice1974" class="csl-entry" role="listitem">
 Teichner, W. H., &amp; Krebs, M. J. (1974). Laws of visual choice reaction time. <em>Psychological Review</em>, <em>81</em>(1), 75. <a href="https://doi.org/br3tcg">https://doi.org/br3tcg</a>
 </div>
-<div id="ref-umplebyDefinitionsCybernetics2008" class="csl-entry" role="doc-biblioentry">
+<div id="ref-umplebyDefinitionsCybernetics2008" class="csl-entry" role="listitem">
 Umpleby, S. (2008). Definitions of cybernetics. <em>The Larry Richards Reader 1997–2007</em>, 9–11.
 </div>
-<div id="ref-welfordPsychologicalRefractoryPeriod1952" class="csl-entry" role="doc-biblioentry">
+<div id="ref-welfordPsychologicalRefractoryPeriod1952" class="csl-entry" role="listitem">
 Welford, A. T. (1952). The ‘psychological refractory period’and the timing of high-speed performance—a review and a theory. <em>British Journal of Psychology. General Section</em>, <em>43</em>(1), 2–19. <a href="https://doi.org/c7jfrb">https://doi.org/c7jfrb</a>
 </div>
-<div id="ref-welfordEvidenceSinglechannelDecision1959" class="csl-entry" role="doc-biblioentry">
+<div id="ref-welfordEvidenceSinglechannelDecision1959" class="csl-entry" role="listitem">
 Welford, A. T. (1959). Evidence of a single-channel decision mechanism limiting performance in a serial reaction task. <em>Quarterly Journal of Experimental Psychology</em>, <em>11</em>(4), 193–210. <a href="https://doi.org/dx8xfc">https://doi.org/dx8xfc</a>
 </div>
-<div id="ref-wienerCyberneticsControlCommunication1948" class="csl-entry" role="doc-biblioentry">
+<div id="ref-wienerCyberneticsControlCommunication1948" class="csl-entry" role="listitem">
 Wiener, N. (1948). <em>Cybernetics or <span>Control</span> and <span>Communication</span> in the <span>Animal</span> and the <span>Machine</span></em>. <span>MIT press</span>.
 </div>
 </div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
@@ -1224,9 +1239,9 @@ Wiener, N. (1948). <em>Cybernetics or <span>Control</span> and <span>Communicati
 <li id="fn3"><p>as in Borges <a href="https://en.wikipedia.org/wiki/The_Library_of_Babel">Library of Babel</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn4"><p>the choice-RT task is also called an N-AFC task, where N specifies the number of alternatives (A) in the forced choice (FC) task.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@incollection{j.c.crump2021,
-  author = {Matthew J. C. Crump},
-  editor = {Matthew J. C. Crump},
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@incollection{j.c.crump2021,
+  author = {J.C.Crump, Matthew},
+  editor = {J.C.Crump, Matthew},
   title = {Information {Processing}},
   booktitle = {Instances of Cognition: Questions, Methods, Findings,
     Explanations, Applications, and Implications},
@@ -1237,10 +1252,10 @@ Wiener, N. (1948). <em>Cybernetics or <span>Control</span> and <span>Communicati
     *information*, and *capacity limitations*, which became popular
     research topics around the 1950s and 60s.}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-j.c.crump2021" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-Matthew J. C. Crump. (2021). Information Processing. In Matthew J. C.
-Crump (Ed.), <em>Instances of Cognition: Questions, Methods, Findings,
-Explanations, Applications, and Implications</em>. <a href="https://crumplab.com/cognition/textbook">https://crumplab.com/cognition/textbook</a>
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-j.c.crump2021" class="csl-entry quarto-appendix-citeas" role="listitem">
+J.C.Crump, M. (2021). Information Processing. In M. J.C.Crump (Ed.),
+<em>Instances of Cognition: Questions, Methods, Findings, Explanations,
+Applications, and Implications</em>. <a href="https://crumplab.com/cognition/textbook">https://crumplab.com/cognition/textbook</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -1269,9 +1284,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1336,6 +1365,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -1379,6 +1494,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">This page is built with <a href="https://quarto.org/">Quarto</a>.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

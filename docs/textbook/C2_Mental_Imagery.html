@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.210">
+<meta name="generator" content="quarto-1.3.258">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,14 +19,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -40,8 +41,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -93,11 +93,11 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="custom.css">
 <meta property="og:title" content="cognition - 2 Mental Imagery">
-<meta property="og:description" content="This chapter discusses historical and current research on mental imagery. Overarching questions include: What is mental imagery and how does it work?">
+<meta property="og:description" content="This chapter discusses historical and current research on mental imagery. Overarching questions include: What is mental imagery and how does it work? What kind of explanation would answer this question? How did prior researchers tackle these questions, and what has been learned about mental imagery? And, how has society been influenced by research into mental imagery? Two major topics include individual differences in mental imagery and the mental imagery debate.">
 <meta property="og:image" content="https://crumplab.com/cognition/textbook/imgs/cover.jpg">
 <meta property="og:site-name" content="cognition">
 <meta name="twitter:title" content="cognition - 2 Mental Imagery">
-<meta name="twitter:description" content="This chapter discusses historical and current research on mental imagery. Overarching questions include: What is mental imagery and how does it work?">
+<meta name="twitter:description" content="This chapter discusses historical and current research on mental imagery. Overarching questions include: What is mental imagery and how does it work? What kind of explanation would answer this question? How did prior researchers tackle these questions, and what has been learned about mental imagery? And, how has society been influenced by research into mental imagery? Two major topics include individual differences in mental imagery and the mental imagery debate.">
 <meta name="twitter:image" content="https://crumplab.com/cognition/textbook/imgs/cover.jpg">
 <meta name="twitter:creator" content="@MattCrumpLab">
 <meta name="twitter:card" content="summary_large_image">
@@ -114,137 +114,141 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <img src="../images/logo.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">
+    <a class="nav-link active" href="../index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/course_docs/Fall_2022_Psyc_2530_syllabus.html">
+    <a class="nav-link" href="../articles/course_docs/Fall_2022_Psyc_2530_syllabus.html" rel="" target="">
  <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../textbook/index.html" aria-current="page">
+    <a class="nav-link" href="../textbook/index.html" rel="" target="">
  <span class="menu-text">Textbook</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/modules.html">
+    <a class="nav-link" href="../articles/modules.html" rel="" target="">
  <span class="menu-text">Learning Modules</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Slides</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-slides">    
         <li>
-    <a class="dropdown-item" href="../slides/L0_Getting_started/L0_Getting_Started.html">
+    <a class="dropdown-item" href="../slides/L0_Getting_started/L0_Getting_Started.html" rel="" target="">
  <span class="dropdown-text">Lecture 0 - Getting Started</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L1_Instances/L1_Instances.html">
+    <a class="dropdown-item" href="../slides/L1_Instances/L1_Instances.html" rel="" target="">
  <span class="dropdown-text">Lecture 1 - What is Cognition?</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L2_QALMRI/L2_QALMRI.html">
+    <a class="dropdown-item" href="../slides/L2_QALMRI/L2_QALMRI.html" rel="" target="">
  <span class="dropdown-text">Lecture 2 - Reading Research</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L3_Imagery/L3_Imagery.html">
+    <a class="dropdown-item" href="../slides/L3_Imagery/L3_Imagery.html" rel="" target="">
  <span class="dropdown-text">Lecture 3 - Mental Imagery</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L4_Eugenics/L4_Eugenics.html">
+    <a class="dropdown-item" href="../slides/L4_Eugenics/L4_Eugenics.html" rel="" target="">
  <span class="dropdown-text">Lecture 4 - Psychology and Eugenics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L5_IQ/L5_IQ.html">
+    <a class="dropdown-item" href="../slides/L5_IQ/L5_IQ.html" rel="" target="">
  <span class="dropdown-text">Lecture 5 - Intelligence Testing</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L6_Associations/L6_Associations.html">
+    <a class="dropdown-item" href="../slides/L6_Associations/L6_Associations.html" rel="" target="">
  <span class="dropdown-text">Lecture 6 - Associations</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L8_Behaviorism/L8_Behaviorism.html">
+    <a class="dropdown-item" href="../slides/L8_Behaviorism/L8_Behaviorism.html" rel="" target="">
  <span class="dropdown-text">Lecture 8 - Behaviorism</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L9_Information/L9_Information.html">
+    <a class="dropdown-item" href="../slides/L9_Information/L9_Information.html" rel="" target="">
  <span class="dropdown-text">Lecture 9 - Information Processing</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L10_Memory_1/L10_Memory_1.html">
+    <a class="dropdown-item" href="../slides/L10_Memory_1/L10_Memory_1.html" rel="" target="">
  <span class="dropdown-text">Lecture 10 - Memory I</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L11_Memory_2/L11_Memory_2.html">
+    <a class="dropdown-item" href="../slides/L11_Memory_2/L11_Memory_2.html" rel="" target="">
  <span class="dropdown-text">Lecture 11 - Memory II</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L12_Implicit/L12_Implicit.html">
+    <a class="dropdown-item" href="../slides/L12_Implicit/L12_Implicit.html" rel="" target="">
  <span class="dropdown-text">Lecture 12 - Implicit Influences</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L13_Attention/L13_Attention.html">
+    <a class="dropdown-item" href="../slides/L13_Attention/L13_Attention.html" rel="" target="">
  <span class="dropdown-text">Lecture 13 - Attention</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/Extra_Minerva/Extra_Minerva.html">
+    <a class="dropdown-item" href="../slides/Extra_Minerva/Extra_Minerva.html" rel="" target="">
  <span class="dropdown-text">Lecture 13.5 - Instance Theory</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L14_Language/L14_Language.html">
+    <a class="dropdown-item" href="../slides/L14_Language/L14_Language.html" rel="" target="">
  <span class="dropdown-text">Lecture 14 - Language</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L15_JDM/L15_JDM.html">
+    <a class="dropdown-item" href="../slides/L15_JDM/L15_JDM.html" rel="" target="">
  <span class="dropdown-text">Lecture 15 - Judgment and Decision-making</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../articles/honors/honors.html">
+    <a class="nav-link" href="../articles/honors/honors.html" rel="" target="">
  <span class="menu-text">Honors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/course_docs/resources.html">
+    <a class="nav-link" href="../articles/course_docs/resources.html" rel="" target="">
  <span class="menu-text">Additional Resources</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../articles/oer/OER.html">
+    <a class="nav-link" href="../articles/oer/oer.html" rel="" target="">
  <span class="menu-text">OER</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/CrumpLab/cognition"><i class="bi bi-github" role="img" aria-label="GitHub">
+    <a class="nav-link" href="https://github.com/CrumpLab/cognition" rel="" target=""><i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">2 Mental Imagery</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../textbook/C2_Mental_Imagery.html">2 Mental Imagery</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../" class="sidebar-logo-link">
+      <a href="../index.html" class="sidebar-logo-link">
       <img src="../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
@@ -252,94 +256,107 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/index.html" class="sidebar-item-text sidebar-link">Instances of Cognition</a>
+  <a href="../textbook/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Instances of Cognition</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/Preface.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="../textbook/Preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/Reading_Formats.html" class="sidebar-item-text sidebar-link">Reading Formats</a>
+  <a href="../textbook/Reading_Formats.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reading Formats</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C1_What_is_Cognition.html" class="sidebar-item-text sidebar-link">1 What is Cognition?</a>
+  <a href="../textbook/C1_What_is_Cognition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1 What is Cognition?</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C2_Mental_Imagery.html" class="sidebar-item-text sidebar-link active">2 Mental Imagery</a>
+  <a href="../textbook/C2_Mental_Imagery.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">2 Mental Imagery</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C3_Eugenics.html" class="sidebar-item-text sidebar-link">3 Eugenics and Psychology</a>
+  <a href="../textbook/C3_Eugenics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3 Eugenics and Psychology</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C4_Intelligence_testing.html" class="sidebar-item-text sidebar-link">4 Intelligence Testing</a>
+  <a href="../textbook/C4_Intelligence_testing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4 Intelligence Testing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C5_Associations.html" class="sidebar-item-text sidebar-link">5 Associations</a>
+  <a href="../textbook/C5_Associations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5 Associations</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C6_Behaviorism.html" class="sidebar-item-text sidebar-link">6 Behaviorism</a>
+  <a href="../textbook/C6_Behaviorism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6 Behaviorism</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C7_Information_Processing.html" class="sidebar-item-text sidebar-link">7 Information Processing</a>
+  <a href="../textbook/C7_Information_Processing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7 Information Processing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C8_Memory_I.html" class="sidebar-item-text sidebar-link">8 Memory I</a>
+  <a href="../textbook/C8_Memory_I.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8 Memory I</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C9_Memory_II.html" class="sidebar-item-text sidebar-link">9 Memory II</a>
+  <a href="../textbook/C9_Memory_II.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9 Memory II</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-is-mental-imagery" id="toc-what-is-mental-imagery" class="nav-link active" data-scroll-target="#what-is-mental-imagery"><span class="toc-section-number">2.1</span>  What is mental imagery?</a></li>
-  <li><a href="#generating-facts-about-mental-imagery" id="toc-generating-facts-about-mental-imagery" class="nav-link" data-scroll-target="#generating-facts-about-mental-imagery"><span class="toc-section-number">2.2</span>  Generating facts about mental imagery</a>
+  <li><a href="#what-is-mental-imagery" id="toc-what-is-mental-imagery" class="nav-link active" data-scroll-target="#what-is-mental-imagery"><span class="header-section-number">2.1</span> What is mental imagery?</a></li>
+  <li><a href="#generating-facts-about-mental-imagery" id="toc-generating-facts-about-mental-imagery" class="nav-link" data-scroll-target="#generating-facts-about-mental-imagery"><span class="header-section-number">2.2</span> Generating facts about mental imagery</a>
   <ul>
-  <li><a href="#methods-of-introspection-and-subjective-report" id="toc-methods-of-introspection-and-subjective-report" class="nav-link" data-scroll-target="#methods-of-introspection-and-subjective-report"><span class="toc-section-number">2.2.1</span>  Methods of Introspection and Subjective report</a></li>
-  <li><a href="#galtons-statistics-of-mental-imagery" id="toc-galtons-statistics-of-mental-imagery" class="nav-link" data-scroll-target="#galtons-statistics-of-mental-imagery"><span class="toc-section-number">2.2.2</span>  Galton’s Statistics of mental imagery</a></li>
-  <li><a href="#reproducing-galtons-mental-imagery-work" id="toc-reproducing-galtons-mental-imagery-work" class="nav-link" data-scroll-target="#reproducing-galtons-mental-imagery-work"><span class="toc-section-number">2.2.3</span>  Reproducing Galton’s mental imagery work</a></li>
-  <li><a href="#aphantasia-and-hyperphantasia" id="toc-aphantasia-and-hyperphantasia" class="nav-link" data-scroll-target="#aphantasia-and-hyperphantasia"><span class="toc-section-number">2.2.4</span>  Aphantasia and Hyperphantasia</a></li>
-  <li><a href="#taking-stock-of-the-facts-so-far" id="toc-taking-stock-of-the-facts-so-far" class="nav-link" data-scroll-target="#taking-stock-of-the-facts-so-far"><span class="toc-section-number">2.2.5</span>  Taking stock of the facts so far</a></li>
+  <li><a href="#methods-of-introspection-and-subjective-report" id="toc-methods-of-introspection-and-subjective-report" class="nav-link" data-scroll-target="#methods-of-introspection-and-subjective-report"><span class="header-section-number">2.2.1</span> Methods of Introspection and Subjective report</a></li>
+  <li><a href="#galtons-statistics-of-mental-imagery" id="toc-galtons-statistics-of-mental-imagery" class="nav-link" data-scroll-target="#galtons-statistics-of-mental-imagery"><span class="header-section-number">2.2.2</span> Galton’s Statistics of mental imagery</a></li>
+  <li><a href="#reproducing-galtons-mental-imagery-work" id="toc-reproducing-galtons-mental-imagery-work" class="nav-link" data-scroll-target="#reproducing-galtons-mental-imagery-work"><span class="header-section-number">2.2.3</span> Reproducing Galton’s mental imagery work</a></li>
+  <li><a href="#aphantasia-and-hyperphantasia" id="toc-aphantasia-and-hyperphantasia" class="nav-link" data-scroll-target="#aphantasia-and-hyperphantasia"><span class="header-section-number">2.2.4</span> Aphantasia and Hyperphantasia</a></li>
+  <li><a href="#taking-stock-of-the-facts-so-far" id="toc-taking-stock-of-the-facts-so-far" class="nav-link" data-scroll-target="#taking-stock-of-the-facts-so-far"><span class="header-section-number">2.2.5</span> Taking stock of the facts so far</a></li>
   </ul></li>
-  <li><a href="#theories-explanation-and-mental-imagery" id="toc-theories-explanation-and-mental-imagery" class="nav-link" data-scroll-target="#theories-explanation-and-mental-imagery"><span class="toc-section-number">2.3</span>  Theories, explanation and mental imagery</a>
+  <li><a href="#theories-explanation-and-mental-imagery" id="toc-theories-explanation-and-mental-imagery" class="nav-link" data-scroll-target="#theories-explanation-and-mental-imagery"><span class="header-section-number">2.3</span> Theories, explanation and mental imagery</a>
   <ul>
-  <li><a href="#mental-imagery-as-explanation" id="toc-mental-imagery-as-explanation" class="nav-link" data-scroll-target="#mental-imagery-as-explanation"><span class="toc-section-number">2.3.1</span>  Mental Imagery as explanation</a></li>
-  <li><a href="#paivios-concrete-versus-abstract-memory-task" id="toc-paivios-concrete-versus-abstract-memory-task" class="nav-link" data-scroll-target="#paivios-concrete-versus-abstract-memory-task"><span class="toc-section-number">2.3.2</span>  Paivio’s concrete versus abstract memory task</a></li>
-  <li><a href="#theories-of-mental-representation" id="toc-theories-of-mental-representation" class="nav-link" data-scroll-target="#theories-of-mental-representation"><span class="toc-section-number">2.3.3</span>  Theories of Mental Representation</a></li>
-  <li><a href="#explaining-mental-scanning-times" id="toc-explaining-mental-scanning-times" class="nav-link" data-scroll-target="#explaining-mental-scanning-times"><span class="toc-section-number">2.3.4</span>  Explaining mental scanning times</a></li>
+  <li><a href="#mental-imagery-as-explanation" id="toc-mental-imagery-as-explanation" class="nav-link" data-scroll-target="#mental-imagery-as-explanation"><span class="header-section-number">2.3.1</span> Mental Imagery as explanation</a></li>
+  <li><a href="#paivios-concrete-versus-abstract-memory-task" id="toc-paivios-concrete-versus-abstract-memory-task" class="nav-link" data-scroll-target="#paivios-concrete-versus-abstract-memory-task"><span class="header-section-number">2.3.2</span> Paivio’s concrete versus abstract memory task</a></li>
+  <li><a href="#theories-of-mental-representation" id="toc-theories-of-mental-representation" class="nav-link" data-scroll-target="#theories-of-mental-representation"><span class="header-section-number">2.3.3</span> Theories of Mental Representation</a></li>
+  <li><a href="#explaining-mental-scanning-times" id="toc-explaining-mental-scanning-times" class="nav-link" data-scroll-target="#explaining-mental-scanning-times"><span class="header-section-number">2.3.4</span> Explaining mental scanning times</a></li>
   </ul></li>
-  <li><a href="#society-and-historical-context" id="toc-society-and-historical-context" class="nav-link" data-scroll-target="#society-and-historical-context"><span class="toc-section-number">2.4</span>  Society and Historical context</a></li>
-  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix"><span class="toc-section-number">2.5</span>  Appendix</a>
+  <li><a href="#society-and-historical-context" id="toc-society-and-historical-context" class="nav-link" data-scroll-target="#society-and-historical-context"><span class="header-section-number">2.4</span> Society and Historical context</a></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix"><span class="header-section-number">2.5</span> Appendix</a>
   <ul>
-  <li><a href="#glossary" id="toc-glossary" class="nav-link" data-scroll-target="#glossary"><span class="toc-section-number">2.5.1</span>  Glossary</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="toc-section-number">2.5.2</span>  References</a></li>
+  
+  
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/CrumpLab/cognition/edit/main/textbook/C2_Mental_Imagery.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/CrumpLab/cognition/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -349,7 +366,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">2 Mental Imagery</h1>
+<h1 class="title">2 Mental Imagery</h1>
 </div>
 
 
@@ -373,7 +390,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">October 22, 2022</p>
+      <p class="date-modified">March 20, 2023</p>
     </div>
   </div>
     
@@ -388,18 +405,15 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 </header>
 
-<div class="cell">
-
-</div>
 <section id="what-is-mental-imagery" class="level3" data-number="2.1">
 <h3 data-number="2.1" class="anchored" data-anchor-id="what-is-mental-imagery"><span class="header-section-number">2.1</span> What is mental imagery?</h3>
 <p>Mental imagery is about the subjective experience of being in your own mind, especially while you are in the process of using your imagination. What can you <em>see</em> in your “mind’s eye” when you use your imagination? Can you visualize a picture, scene, or movie in your mind? If so, how would you describe the quality of the mental image? Is it vivid and life-like? If not, how would you describe your experience of using your imagination?</p>
-<div class="callout-note callout callout-style-default no-icon callout-captioned">
+<div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Mental imagery
 </div>
 </div>
@@ -424,7 +438,7 @@ Mental imagery
 <div class="no-row-height column-margin column-container"><div class="cell-output-display">
 <div id="fig-2Galton" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="imgs/Francis_Galton.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><img src="imgs/Francis_Galton.jpg" class="quarto-discovered-preview-image img-fluid figure-img" style="width:100.0%"></p>
 <p></p><figcaption class="figure-caption">Figure&nbsp;1: <a href="https://en.wikipedia.org/wiki/Francis_Galton">Sir Francis Galton</a> (1822-1911)</figcaption><p></p>
 </figure>
 </div>
@@ -437,12 +451,12 @@ Mental imagery
 <section id="galtons-method-of-subjective-report" class="level5" data-number="2.2.2.1">
 <h5 data-number="2.2.2.1" class="anchored" data-anchor-id="galtons-method-of-subjective-report"><span class="header-section-number">2.2.2.1</span> Galton’s Method of Subjective Report</h5>
 <p>Galton devised the “Breakfast table task” involving a series of structured questions about mental imagery, and sent letters to 100 people asking them to reply with answers to his questions. The questions are reprinted below:</p>
-<div class="callout-note callout callout-style-default no-icon callout-captioned">
+<div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Galton’s Breakfast table task questions:
 </div>
 </div>
@@ -459,12 +473,12 @@ Galton’s Breakfast table task questions:
 <section id="galtons-results" class="level5" data-number="2.2.2.2">
 <h5 data-number="2.2.2.2" class="anchored" data-anchor-id="galtons-results"><span class="header-section-number">2.2.2.2</span> Galton’s results</h5>
 <p>Here are some of the answers from “100 men, at least half of whom are distinguished in science or in other fields of intellectual work.” (reprinted from his original manuscript):</p>
-<div class="callout-note callout callout-style-default no-icon callout-captioned">
+<div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Cases where the faculty is very high
 </div>
 </div>
@@ -476,12 +490,12 @@ Cases where the faculty is very high
 </ol>
 </div>
 </div>
-<div class="callout-note callout callout-style-default no-icon callout-captioned">
+<div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Cases where the faculty is mediocre
 </div>
 </div>
@@ -493,12 +507,12 @@ Cases where the faculty is mediocre
 </ol>
 </div>
 </div>
-<div class="callout-note callout callout-style-default no-icon callout-captioned">
+<div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Cases where the faculty is at the lowest
 </div>
 </div>
@@ -744,7 +758,7 @@ Cases where the faculty is at the lowest
 
 </section>
 
-<div id="quarto-appendix" class="default"><section id="glossary" class="level4 appendix" data-number="2.5.1"><h2 class="quarto-appendix-heading"><span class="header-section-number">2.5.1</span> Glossary</h2><div class="quarto-appendix-contents">
+<div id="quarto-appendix" class="default"><section id="glossary" class="level4 appendix" data-number="2.5.1"><h2 class="anchored quarto-appendix-heading"><span class="header-section-number">2.5.1</span> Glossary</h2><div class="quarto-appendix-contents">
 
 <section id="gls-aphantasia" class="level5 unnumbered">
 <h5 class="unnumbered anchored" data-anchor-id="gls-aphantasia">Aphantasia</h5>
@@ -768,70 +782,70 @@ Cases where the faculty is at the lowest
 
 
 
-</div></section><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">2.5.2 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
-<div id="ref-armstrongjrImageryAmericanStudents1894" class="csl-entry" role="doc-biblioentry">
+</div></section><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">2.5.2 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-armstrongjrImageryAmericanStudents1894" class="csl-entry" role="listitem">
 Armstrong Jr, A. C. (1894). The imagery of <span>American</span> students. <em>Psychological Review</em>, <em>1</em>(5), 496. <a href="https://doi.org/dkhdx2">https://doi.org/dkhdx2</a>
 </div>
-<div id="ref-DanielTammet2021" class="csl-entry" role="doc-biblioentry">
+<div id="ref-DanielTammet2021" class="csl-entry" role="listitem">
 Daniel <span>Tammet</span>. (2021). In <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Daniel_Tammet&amp;oldid=1027943120">https://en.wikipedia.org/w/index.php?title=Daniel_Tammet&amp;oldid=1027943120</a>
 </div>
-<div id="ref-frenchMentalImageryStudents1902" class="csl-entry" role="doc-biblioentry">
+<div id="ref-frenchMentalImageryStudents1902" class="csl-entry" role="listitem">
 French, F. C. (1902). Mental imagery of students: <span>A</span> summary of the replies given to <span>Titchener</span>’s questionary by 118 juniors in <span>Vassar</span> college. <em>Psychological Review</em>, <em>9</em>(1), 40. <a href="https://doi.org/cqj438">https://doi.org/cqj438</a>
 </div>
-<div id="ref-galtonHereditaryTalentCharacter1865" class="csl-entry" role="doc-biblioentry">
+<div id="ref-galtonHereditaryTalentCharacter1865" class="csl-entry" role="listitem">
 Galton, F. (1865). Hereditary talent and character. <em>Macmillan’s Magazine</em>, <em>12</em>(157-166), 318–327.
 </div>
-<div id="ref-galtonHereditaryGenius1869" class="csl-entry" role="doc-biblioentry">
+<div id="ref-galtonHereditaryGenius1869" class="csl-entry" role="listitem">
 Galton, F. (1869). <em>Hereditary genius</em>. <span>Macmillan</span>.
 </div>
-<div id="ref-galtonStatisticsMentalImagery1880" class="csl-entry" role="doc-biblioentry">
+<div id="ref-galtonStatisticsMentalImagery1880" class="csl-entry" role="listitem">
 Galton, F. (1880). Statistics of <span>Mental Imagery</span>. <em>Mind</em>, <em>5</em>, 301–318. <a href="https://doi.org/gg5vkv">https://doi.org/gg5vkv</a>
 </div>
-<div id="ref-galtonCorelationsTheirMeasurement1889" class="csl-entry" role="doc-biblioentry">
+<div id="ref-galtonCorelationsTheirMeasurement1889" class="csl-entry" role="listitem">
 Galton, F. (1889). I. <span class="nocase">Co-relations</span> and their measurement, chiefly from anthropometric data. <em>Proceedings of the Royal Society of London</em>, <em>45</em>(273-279), 135–145. <a href="https://doi.org/dz5sd6">https://doi.org/dz5sd6</a>
 </div>
-<div id="ref-galtonKinshipCorrelation1890" class="csl-entry" role="doc-biblioentry">
+<div id="ref-galtonKinshipCorrelation1890" class="csl-entry" role="listitem">
 Galton, F. (1890). Kinship and correlation. <em>The North American Review</em>, <em>150</em>(401), 419–431.
 </div>
-<div id="ref-kosslynVisualImagesPreserve1978" class="csl-entry" role="doc-biblioentry">
+<div id="ref-kosslynVisualImagesPreserve1978" class="csl-entry" role="listitem">
 Kosslyn, S. M., Ball, T. M., &amp; Reiser, B. J. (1978). Visual images preserve metric spatial information: Evidence from studies of image scanning. <em>Journal of Experimental Psychology: Human Perception and Performance</em>, <em>4</em>(1), 47. <a href="https://doi.org/c8z6r3">https://doi.org/c8z6r3</a>
 </div>
-<div id="ref-marksVisualImageryDifferences1973" class="csl-entry" role="doc-biblioentry">
+<div id="ref-marksVisualImageryDifferences1973" class="csl-entry" role="listitem">
 Marks, D. F. (1973). Visual imagery differences in the recall of pictures. <em>British Journal of Psychology</em>, <em>64</em>(1), 17–24. <a href="https://doi.org/b6v5wv">https://doi.org/b6v5wv</a>
 </div>
-<div id="ref-millerPlansStructureBehavior1960" class="csl-entry" role="doc-biblioentry">
+<div id="ref-millerPlansStructureBehavior1960" class="csl-entry" role="listitem">
 Miller, G. A., Galanter, E., &amp; Pribram, K. H. (1960). <em>Plans and the structure of behavior</em>. <span>Adams-Bannister-Cox</span>.
 </div>
-<div id="ref-paivioLearningAdjectivenounPaired1963" class="csl-entry" role="doc-biblioentry">
+<div id="ref-paivioLearningAdjectivenounPaired1963" class="csl-entry" role="listitem">
 Paivio, A. (1963). Learning of adjective-noun paired associates as a function of adjective-noun word order and noun abstractness. <em>Canadian Journal of Psychology/Revue Canadienne de Psychologie</em>, <em>17</em>(4), 370. <a href="https://doi.org/d2s523">https://doi.org/d2s523</a>
 </div>
-<div id="ref-popperLogicScientificDiscovery1959" class="csl-entry" role="doc-biblioentry">
+<div id="ref-popperLogicScientificDiscovery1959" class="csl-entry" role="listitem">
 Popper, K. (1959). <em>The logic of scientific discovery</em>. <span>(First English Edition) Hutchinson &amp; Co</span>.
 </div>
-<div id="ref-pylyshynWhatMindEye1973" class="csl-entry" role="doc-biblioentry">
+<div id="ref-pylyshynWhatMindEye1973" class="csl-entry" role="listitem">
 Pylyshyn, Z. W. (1973). What the mind’s eye tells the mind’s brain: <span>A</span> critique of mental imagery. <em>Psychological Bulletin</em>, <em>80</em>(1), 1. <a href="https://doi.org/dbrvzx">https://doi.org/dbrvzx</a>
 </div>
-<div id="ref-stiglerFrancisGaltonAccount1989" class="csl-entry" role="doc-biblioentry">
+<div id="ref-stiglerFrancisGaltonAccount1989" class="csl-entry" role="listitem">
 Stigler, S. M. (1989). Francis <span>Galton</span>’s account of the invention of correlation. <em>Statistical Science</em>, 73–79. <a href="https://doi.org/dg8nxj">https://doi.org/dg8nxj</a>
 </div>
-<div id="ref-titchenerExperimentalPsychologyManual1905" class="csl-entry" role="doc-biblioentry">
+<div id="ref-titchenerExperimentalPsychologyManual1905" class="csl-entry" role="listitem">
 Titchener, E. B. (1905). <em>Experimental psychology: <span>A</span> manual of laboratory practice</em> (Vol. 2). <span>Johnson Reprint Company</span>.
 </div>
-<div id="ref-zemanLossImageryPhenomenology2010" class="csl-entry" role="doc-biblioentry">
+<div id="ref-zemanLossImageryPhenomenology2010" class="csl-entry" role="listitem">
 Zeman, A. Z., Della Sala, S., Torrens, L. A., Gountouna, V.-E., McGonigle, D. J., &amp; Logie, R. H. (2010). Loss of imagery phenomenology with intact visuo-spatial task performance: <span>A</span> case of <span>“blind imagination.”</span> <em>Neuropsychologia</em>, <em>48</em>(1), 145–155. <a href="https://doi.org/cmfgxv">https://doi.org/cmfgxv</a>
 </div>
-<div id="ref-zemanLivesImageryCongenital2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-zemanLivesImageryCongenital2015" class="csl-entry" role="listitem">
 Zeman, A., Dewar, M., &amp; Della Sala, S. (2015). Lives without imagery - <span>Congenital</span> aphantasia. <em>Cortex; a Journal Devoted to the Study of the Nervous System and Behavior</em>, <em>73</em>, 378–380. <a href="https://doi.org/gdf5hc">https://doi.org/gdf5hc</a>
 </div>
-<div id="ref-zemanPhantasiaPsychologicalSignificance2020" class="csl-entry" role="doc-biblioentry">
+<div id="ref-zemanPhantasiaPsychologicalSignificance2020" class="csl-entry" role="listitem">
 Zeman, A., Milton, F., Della Sala, S., Dewar, M., Frayling, T., Gaddum, J., Hattersley, A., Heuerman-Williamson, B., Jones, K., &amp; MacKisack, M. (2020). Phantasia–the psychological significance of lifelong visual imagery vividness extremes. <em>Cortex</em>, <em>130</em>, 426–440. <a href="https://doi.org/ghdxvf">https://doi.org/ghdxvf</a>
 </div>
-<div id="ref-zimmerManyPeopleHave2021" class="csl-entry" role="doc-biblioentry">
+<div id="ref-zimmerManyPeopleHave2021" class="csl-entry" role="listitem">
 Zimmer, C. (2021, June 8). Many <span>People Have</span> a <span>Vivid</span> <span>“<span>Mind</span>’s <span>Eye</span>,”</span> <span>While Others Have None</span> at <span>All</span>. <em>The New York Times: Science</em>. <a href="https://www.nytimes.com/2021/06/08/science/minds-eye-mental-pictures-psychology.html">https://www.nytimes.com/2021/06/08/science/minds-eye-mental-pictures-psychology.html</a>
 </div>
-</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@incollection{j.c.crump2021,
-  author = {Matthew J. C. Crump},
-  editor = {Matthew J. C. Crump},
+</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@incollection{j.c.crump2021,
+  author = {J.C.Crump, Matthew},
+  editor = {J.C.Crump, Matthew},
   title = {Mental {Imagery}},
   booktitle = {Instances of Cognition: Questions, Methods, Findings,
     Explanations, Applications, and Implications},
@@ -847,10 +861,10 @@ Zimmer, C. (2021, June 8). Many <span>People Have</span> a <span>Vivid</span> <s
     include individual differences in mental imagery and the mental
     imagery debate.}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-j.c.crump2021" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-Matthew J. C. Crump. (2021). Mental Imagery. In Matthew J. C. Crump
-(Ed.), <em>Instances of Cognition: Questions, Methods, Findings,
-Explanations, Applications, and Implications</em>. <a href="https://crumplab.com/cognition/textbook">https://crumplab.com/cognition/textbook</a>
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-j.c.crump2021" class="csl-entry quarto-appendix-citeas" role="listitem">
+J.C.Crump, M. (2021). Mental Imagery. In M. J.C.Crump (Ed.),
+<em>Instances of Cognition: Questions, Methods, Findings, Explanations,
+Applications, and Implications</em>. <a href="https://crumplab.com/cognition/textbook">https://crumplab.com/cognition/textbook</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -879,9 +893,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -946,6 +974,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -989,6 +1103,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">This page is built with <a href="https://quarto.org/">Quarto</a>.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

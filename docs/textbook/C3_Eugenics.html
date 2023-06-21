@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.210">
+<meta name="generator" content="quarto-1.3.258">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,14 +19,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -40,8 +41,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -93,11 +93,11 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="custom.css">
 <meta property="og:title" content="cognition - 3 Eugenics and Psychology">
-<meta property="og:description" content="This chapter describes the eugenics movement and develops connections between the larger discipline of psychology and research into cognition.">
+<meta property="og:description" content="This chapter describes the eugenics movement and develops connections between the larger discipline of psychology and research into cognition. Some of these connections are expanded upon in later chapters, including the next chapter on mental testing.">
 <meta property="og:image" content="https://crumplab.com/cognition/textbook/imgs/cover.jpg">
 <meta property="og:site-name" content="cognition">
 <meta name="twitter:title" content="cognition - 3 Eugenics and Psychology">
-<meta name="twitter:description" content="This chapter describes the eugenics movement and develops connections between the larger discipline of psychology and research into cognition.">
+<meta name="twitter:description" content="This chapter describes the eugenics movement and develops connections between the larger discipline of psychology and research into cognition. Some of these connections are expanded upon in later chapters, including the next chapter on mental testing.">
 <meta name="twitter:image" content="https://crumplab.com/cognition/textbook/imgs/cover.jpg">
 <meta name="twitter:creator" content="@MattCrumpLab">
 <meta name="twitter:card" content="summary_large_image">
@@ -114,137 +114,141 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <img src="../images/logo.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">
+    <a class="nav-link active" href="../index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/course_docs/Fall_2022_Psyc_2530_syllabus.html">
+    <a class="nav-link" href="../articles/course_docs/Fall_2022_Psyc_2530_syllabus.html" rel="" target="">
  <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../textbook/index.html" aria-current="page">
+    <a class="nav-link" href="../textbook/index.html" rel="" target="">
  <span class="menu-text">Textbook</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/modules.html">
+    <a class="nav-link" href="../articles/modules.html" rel="" target="">
  <span class="menu-text">Learning Modules</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Slides</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-slides">    
         <li>
-    <a class="dropdown-item" href="../slides/L0_Getting_started/L0_Getting_Started.html">
+    <a class="dropdown-item" href="../slides/L0_Getting_started/L0_Getting_Started.html" rel="" target="">
  <span class="dropdown-text">Lecture 0 - Getting Started</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L1_Instances/L1_Instances.html">
+    <a class="dropdown-item" href="../slides/L1_Instances/L1_Instances.html" rel="" target="">
  <span class="dropdown-text">Lecture 1 - What is Cognition?</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L2_QALMRI/L2_QALMRI.html">
+    <a class="dropdown-item" href="../slides/L2_QALMRI/L2_QALMRI.html" rel="" target="">
  <span class="dropdown-text">Lecture 2 - Reading Research</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L3_Imagery/L3_Imagery.html">
+    <a class="dropdown-item" href="../slides/L3_Imagery/L3_Imagery.html" rel="" target="">
  <span class="dropdown-text">Lecture 3 - Mental Imagery</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L4_Eugenics/L4_Eugenics.html">
+    <a class="dropdown-item" href="../slides/L4_Eugenics/L4_Eugenics.html" rel="" target="">
  <span class="dropdown-text">Lecture 4 - Psychology and Eugenics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L5_IQ/L5_IQ.html">
+    <a class="dropdown-item" href="../slides/L5_IQ/L5_IQ.html" rel="" target="">
  <span class="dropdown-text">Lecture 5 - Intelligence Testing</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L6_Associations/L6_Associations.html">
+    <a class="dropdown-item" href="../slides/L6_Associations/L6_Associations.html" rel="" target="">
  <span class="dropdown-text">Lecture 6 - Associations</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L8_Behaviorism/L8_Behaviorism.html">
+    <a class="dropdown-item" href="../slides/L8_Behaviorism/L8_Behaviorism.html" rel="" target="">
  <span class="dropdown-text">Lecture 8 - Behaviorism</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L9_Information/L9_Information.html">
+    <a class="dropdown-item" href="../slides/L9_Information/L9_Information.html" rel="" target="">
  <span class="dropdown-text">Lecture 9 - Information Processing</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L10_Memory_1/L10_Memory_1.html">
+    <a class="dropdown-item" href="../slides/L10_Memory_1/L10_Memory_1.html" rel="" target="">
  <span class="dropdown-text">Lecture 10 - Memory I</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L11_Memory_2/L11_Memory_2.html">
+    <a class="dropdown-item" href="../slides/L11_Memory_2/L11_Memory_2.html" rel="" target="">
  <span class="dropdown-text">Lecture 11 - Memory II</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L12_Implicit/L12_Implicit.html">
+    <a class="dropdown-item" href="../slides/L12_Implicit/L12_Implicit.html" rel="" target="">
  <span class="dropdown-text">Lecture 12 - Implicit Influences</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L13_Attention/L13_Attention.html">
+    <a class="dropdown-item" href="../slides/L13_Attention/L13_Attention.html" rel="" target="">
  <span class="dropdown-text">Lecture 13 - Attention</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/Extra_Minerva/Extra_Minerva.html">
+    <a class="dropdown-item" href="../slides/Extra_Minerva/Extra_Minerva.html" rel="" target="">
  <span class="dropdown-text">Lecture 13.5 - Instance Theory</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L14_Language/L14_Language.html">
+    <a class="dropdown-item" href="../slides/L14_Language/L14_Language.html" rel="" target="">
  <span class="dropdown-text">Lecture 14 - Language</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L15_JDM/L15_JDM.html">
+    <a class="dropdown-item" href="../slides/L15_JDM/L15_JDM.html" rel="" target="">
  <span class="dropdown-text">Lecture 15 - Judgment and Decision-making</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../articles/honors/honors.html">
+    <a class="nav-link" href="../articles/honors/honors.html" rel="" target="">
  <span class="menu-text">Honors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/course_docs/resources.html">
+    <a class="nav-link" href="../articles/course_docs/resources.html" rel="" target="">
  <span class="menu-text">Additional Resources</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../articles/oer/OER.html">
+    <a class="nav-link" href="../articles/oer/oer.html" rel="" target="">
  <span class="menu-text">OER</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/CrumpLab/cognition"><i class="bi bi-github" role="img" aria-label="GitHub">
+    <a class="nav-link" href="https://github.com/CrumpLab/cognition" rel="" target=""><i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">3 Eugenics and Psychology</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../textbook/C3_Eugenics.html">3 Eugenics and Psychology</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../" class="sidebar-logo-link">
+      <a href="../index.html" class="sidebar-logo-link">
       <img src="../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
@@ -252,103 +256,116 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/index.html" class="sidebar-item-text sidebar-link">Instances of Cognition</a>
+  <a href="../textbook/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Instances of Cognition</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/Preface.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="../textbook/Preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/Reading_Formats.html" class="sidebar-item-text sidebar-link">Reading Formats</a>
+  <a href="../textbook/Reading_Formats.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reading Formats</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C1_What_is_Cognition.html" class="sidebar-item-text sidebar-link">1 What is Cognition?</a>
+  <a href="../textbook/C1_What_is_Cognition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1 What is Cognition?</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C2_Mental_Imagery.html" class="sidebar-item-text sidebar-link">2 Mental Imagery</a>
+  <a href="../textbook/C2_Mental_Imagery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2 Mental Imagery</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C3_Eugenics.html" class="sidebar-item-text sidebar-link active">3 Eugenics and Psychology</a>
+  <a href="../textbook/C3_Eugenics.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">3 Eugenics and Psychology</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C4_Intelligence_testing.html" class="sidebar-item-text sidebar-link">4 Intelligence Testing</a>
+  <a href="../textbook/C4_Intelligence_testing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4 Intelligence Testing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C5_Associations.html" class="sidebar-item-text sidebar-link">5 Associations</a>
+  <a href="../textbook/C5_Associations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5 Associations</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C6_Behaviorism.html" class="sidebar-item-text sidebar-link">6 Behaviorism</a>
+  <a href="../textbook/C6_Behaviorism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6 Behaviorism</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C7_Information_Processing.html" class="sidebar-item-text sidebar-link">7 Information Processing</a>
+  <a href="../textbook/C7_Information_Processing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7 Information Processing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C8_Memory_I.html" class="sidebar-item-text sidebar-link">8 Memory I</a>
+  <a href="../textbook/C8_Memory_I.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8 Memory I</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C9_Memory_II.html" class="sidebar-item-text sidebar-link">9 Memory II</a>
+  <a href="../textbook/C9_Memory_II.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9 Memory II</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#eugenics-psychology-and-the-cognitive-sciences" id="toc-eugenics-psychology-and-the-cognitive-sciences" class="nav-link active" data-scroll-target="#eugenics-psychology-and-the-cognitive-sciences"><span class="toc-section-number">3.1</span>  Eugenics, psychology and the cognitive sciences</a></li>
-  <li><a href="#eugenics-an-overview" id="toc-eugenics-an-overview" class="nav-link" data-scroll-target="#eugenics-an-overview"><span class="toc-section-number">3.2</span>  Eugenics: an overview</a></li>
-  <li><a href="#galtons-eugenics" id="toc-galtons-eugenics" class="nav-link" data-scroll-target="#galtons-eugenics"><span class="toc-section-number">3.3</span>  Galton’s Eugenics</a></li>
-  <li><a href="#the-eugenics-movement" id="toc-the-eugenics-movement" class="nav-link" data-scroll-target="#the-eugenics-movement"><span class="toc-section-number">3.4</span>  The Eugenics movement</a>
+  <li><a href="#eugenics-psychology-and-the-cognitive-sciences" id="toc-eugenics-psychology-and-the-cognitive-sciences" class="nav-link active" data-scroll-target="#eugenics-psychology-and-the-cognitive-sciences"><span class="header-section-number">3.1</span> Eugenics, psychology and the cognitive sciences</a></li>
+  <li><a href="#eugenics-an-overview" id="toc-eugenics-an-overview" class="nav-link" data-scroll-target="#eugenics-an-overview"><span class="header-section-number">3.2</span> Eugenics: an overview</a></li>
+  <li><a href="#galtons-eugenics" id="toc-galtons-eugenics" class="nav-link" data-scroll-target="#galtons-eugenics"><span class="header-section-number">3.3</span> Galton’s Eugenics</a></li>
+  <li><a href="#the-eugenics-movement" id="toc-the-eugenics-movement" class="nav-link" data-scroll-target="#the-eugenics-movement"><span class="header-section-number">3.4</span> The Eugenics movement</a>
   <ul>
-  <li><a href="#a-timeline" id="toc-a-timeline" class="nav-link" data-scroll-target="#a-timeline"><span class="toc-section-number">3.4.1</span>  A Timeline</a></li>
-  <li><a href="#from-ideas-to-internationalization" id="toc-from-ideas-to-internationalization" class="nav-link" data-scroll-target="#from-ideas-to-internationalization"><span class="toc-section-number">3.4.2</span>  From ideas to internationalization</a></li>
-  <li><a href="#conferences-and-popularity" id="toc-conferences-and-popularity" class="nav-link" data-scroll-target="#conferences-and-popularity"><span class="toc-section-number">3.4.3</span>  Conferences and popularity</a></li>
-  <li><a href="#eugenics-journals" id="toc-eugenics-journals" class="nav-link" data-scroll-target="#eugenics-journals"><span class="toc-section-number">3.4.4</span>  Eugenics Journals</a></li>
-  <li><a href="#eugenics-fears" id="toc-eugenics-fears" class="nav-link" data-scroll-target="#eugenics-fears"><span class="toc-section-number">3.4.5</span>  Eugenics Fears</a></li>
-  <li><a href="#positive-and-negative-eugenics" id="toc-positive-and-negative-eugenics" class="nav-link" data-scroll-target="#positive-and-negative-eugenics"><span class="toc-section-number">3.4.6</span>  Positive and Negative Eugenics</a></li>
+  <li><a href="#a-timeline" id="toc-a-timeline" class="nav-link" data-scroll-target="#a-timeline"><span class="header-section-number">3.4.1</span> A Timeline</a></li>
+  <li><a href="#from-ideas-to-internationalization" id="toc-from-ideas-to-internationalization" class="nav-link" data-scroll-target="#from-ideas-to-internationalization"><span class="header-section-number">3.4.2</span> From ideas to internationalization</a></li>
+  <li><a href="#conferences-and-popularity" id="toc-conferences-and-popularity" class="nav-link" data-scroll-target="#conferences-and-popularity"><span class="header-section-number">3.4.3</span> Conferences and popularity</a></li>
+  <li><a href="#eugenics-journals" id="toc-eugenics-journals" class="nav-link" data-scroll-target="#eugenics-journals"><span class="header-section-number">3.4.4</span> Eugenics Journals</a></li>
+  <li><a href="#eugenics-fears" id="toc-eugenics-fears" class="nav-link" data-scroll-target="#eugenics-fears"><span class="header-section-number">3.4.5</span> Eugenics Fears</a></li>
+  <li><a href="#positive-and-negative-eugenics" id="toc-positive-and-negative-eugenics" class="nav-link" data-scroll-target="#positive-and-negative-eugenics"><span class="header-section-number">3.4.6</span> Positive and Negative Eugenics</a></li>
   </ul></li>
-  <li><a href="#influences-on-society" id="toc-influences-on-society" class="nav-link" data-scroll-target="#influences-on-society"><span class="toc-section-number">3.5</span>  Influences on society</a>
+  <li><a href="#influences-on-society" id="toc-influences-on-society" class="nav-link" data-scroll-target="#influences-on-society"><span class="header-section-number">3.5</span> Influences on society</a>
   <ul>
-  <li><a href="#eugenics-and-mental-health" id="toc-eugenics-and-mental-health" class="nav-link" data-scroll-target="#eugenics-and-mental-health"><span class="toc-section-number">3.5.1</span>  Eugenics and Mental health</a></li>
-  <li><a href="#eugenics-and-racism" id="toc-eugenics-and-racism" class="nav-link" data-scroll-target="#eugenics-and-racism"><span class="toc-section-number">3.5.2</span>  Eugenics and Racism</a></li>
-  <li><a href="#eugenics-and-fertility-control" id="toc-eugenics-and-fertility-control" class="nav-link" data-scroll-target="#eugenics-and-fertility-control"><span class="toc-section-number">3.5.3</span>  Eugenics and Fertility control</a></li>
-  <li><a href="#eugenics-and-education" id="toc-eugenics-and-education" class="nav-link" data-scroll-target="#eugenics-and-education"><span class="toc-section-number">3.5.4</span>  Eugenics and Education</a></li>
-  <li><a href="#eugenics-and-genocide" id="toc-eugenics-and-genocide" class="nav-link" data-scroll-target="#eugenics-and-genocide"><span class="toc-section-number">3.5.5</span>  Eugenics and Genocide</a></li>
+  <li><a href="#eugenics-and-mental-health" id="toc-eugenics-and-mental-health" class="nav-link" data-scroll-target="#eugenics-and-mental-health"><span class="header-section-number">3.5.1</span> Eugenics and Mental health</a></li>
+  <li><a href="#eugenics-and-racism" id="toc-eugenics-and-racism" class="nav-link" data-scroll-target="#eugenics-and-racism"><span class="header-section-number">3.5.2</span> Eugenics and Racism</a></li>
+  <li><a href="#eugenics-and-fertility-control" id="toc-eugenics-and-fertility-control" class="nav-link" data-scroll-target="#eugenics-and-fertility-control"><span class="header-section-number">3.5.3</span> Eugenics and Fertility control</a></li>
+  <li><a href="#eugenics-and-education" id="toc-eugenics-and-education" class="nav-link" data-scroll-target="#eugenics-and-education"><span class="header-section-number">3.5.4</span> Eugenics and Education</a></li>
+  <li><a href="#eugenics-and-genocide" id="toc-eugenics-and-genocide" class="nav-link" data-scroll-target="#eugenics-and-genocide"><span class="header-section-number">3.5.5</span> Eugenics and Genocide</a></li>
   </ul></li>
-  <li><a href="#psychology-and-eugenics" id="toc-psychology-and-eugenics" class="nav-link" data-scroll-target="#psychology-and-eugenics"><span class="toc-section-number">3.6</span>  Psychology and Eugenics</a>
+  <li><a href="#psychology-and-eugenics" id="toc-psychology-and-eugenics" class="nav-link" data-scroll-target="#psychology-and-eugenics"><span class="header-section-number">3.6</span> Psychology and Eugenics</a>
   <ul>
-  <li><a href="#emergence-of-psychology" id="toc-emergence-of-psychology" class="nav-link" data-scroll-target="#emergence-of-psychology"><span class="toc-section-number">3.6.1</span>  Emergence of Psychology</a></li>
-  <li><a href="#leadership-by-eugenicists" id="toc-leadership-by-eugenicists" class="nav-link" data-scroll-target="#leadership-by-eugenicists"><span class="toc-section-number">3.6.2</span>  Leadership by eugenicists</a></li>
-  <li><a href="#addendum-apas-apology-to-people-of-color" id="toc-addendum-apas-apology-to-people-of-color" class="nav-link" data-scroll-target="#addendum-apas-apology-to-people-of-color"><span class="toc-section-number">3.6.3</span>  Addendum: APA’s apology to People of Color</a></li>
+  <li><a href="#emergence-of-psychology" id="toc-emergence-of-psychology" class="nav-link" data-scroll-target="#emergence-of-psychology"><span class="header-section-number">3.6.1</span> Emergence of Psychology</a></li>
+  <li><a href="#leadership-by-eugenicists" id="toc-leadership-by-eugenicists" class="nav-link" data-scroll-target="#leadership-by-eugenicists"><span class="header-section-number">3.6.2</span> Leadership by eugenicists</a></li>
+  <li><a href="#addendum-apas-apology-to-people-of-color" id="toc-addendum-apas-apology-to-people-of-color" class="nav-link" data-scroll-target="#addendum-apas-apology-to-people-of-color"><span class="header-section-number">3.6.3</span> Addendum: APA’s apology to People of Color</a></li>
   </ul></li>
-  <li><a href="#additional-reading" id="toc-additional-reading" class="nav-link" data-scroll-target="#additional-reading"><span class="toc-section-number">3.7</span>  Additional Reading</a></li>
-  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix"><span class="toc-section-number">3.8</span>  Appendix</a>
+  <li><a href="#additional-reading" id="toc-additional-reading" class="nav-link" data-scroll-target="#additional-reading"><span class="header-section-number">3.7</span> Additional Reading</a></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix"><span class="header-section-number">3.8</span> Appendix</a>
   <ul>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="toc-section-number">3.8.1</span>  References</a></li>
+  
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/CrumpLab/cognition/edit/main/textbook/C3_Eugenics.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/CrumpLab/cognition/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -358,7 +375,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">3 Eugenics and Psychology</h1>
+<h1 class="title">3 Eugenics and Psychology</h1>
 </div>
 
 
@@ -382,7 +399,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">October 24, 2022</p>
+      <p class="date-modified">March 20, 2023</p>
     </div>
   </div>
     
@@ -397,9 +414,6 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 </header>
 
-<div class="cell">
-
-</div>
 <p>As an editorial note, throughout this chapter we will encounter descriptions of people from the perspective of eugenics. For example, eugenics differentiated people on the basis of human characteristics that eugenicists decided were desirable or undesirable. As a result, people who had eugenically desired traits were labelled as “high-quality” or “superior” compared to people who had eugenically undesired traits, who were labelled as “low-quality” or “inferior”. These and other similar descriptors of human beings will sometimes be used in this chapter for the purpose of describing dehumanizing aspects of eugenics ideology.</p>
 <section id="eugenics-psychology-and-the-cognitive-sciences" class="level3 page-columns page-full" data-number="3.1">
 <h3 data-number="3.1" class="anchored" data-anchor-id="eugenics-psychology-and-the-cognitive-sciences"><span class="header-section-number">3.1</span> Eugenics, psychology and the cognitive sciences</h3>
@@ -448,7 +462,7 @@ My training in psychology sometimes referenced the eugenics movement, but only f
 <div class="no-row-height column-margin column-container"><div class="cell-output-display">
 <div id="fig-3EugenicsTree" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="imgs/Eugenics_tree.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><img src="imgs/Eugenics_tree.jpg" class="quarto-discovered-preview-image img-fluid figure-img" style="width:100.0%"></p>
 <p></p><figcaption class="figure-caption">Figure&nbsp;1: The tree of eugenics was created as a conference logo.</figcaption><p></p>
 </figure>
 </div>
@@ -526,9 +540,6 @@ My training in psychology sometimes referenced the eugenics movement, but only f
 </section>
 <section id="additional-reading" class="level3" data-number="3.7">
 <h3 data-number="3.7" class="anchored" data-anchor-id="additional-reading"><span class="header-section-number">3.7</span> Additional Reading</h3>
-<div class="cell">
-
-</div>
 <div style="text-indent:-10px;padding-left: 10px;">
 
 <p>Kamin, L. J. (1974). <em>The Science and Politics of IQ</em>. Psychology Press.</p>
@@ -884,86 +895,86 @@ Intelligence testing and its impacts
 
 
 
-</div></section><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">3.8.1 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
-<div id="ref-allenEugenicsRecordOffice1986" class="csl-entry" role="doc-biblioentry">
+</div></section><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">3.8.1 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-allenEugenicsRecordOffice1986" class="csl-entry" role="listitem">
 Allen, G. E. (1986). The eugenics record office at <span>Cold Spring Harbor</span>, 1910-1940: An essay in institutional history. <em>Osiris</em>, <em>2</em>, 225–264. <a href="https://doi.org/fqthgg">https://doi.org/fqthgg</a>
 </div>
-<div id="ref-bashfordOxfordHandbookHistory2010" class="csl-entry" role="doc-biblioentry">
+<div id="ref-bashfordOxfordHandbookHistory2010" class="csl-entry" role="listitem">
 Bashford, A., &amp; Levine, P. (Eds.). (2010). <em>The <span>Oxford Handbook</span> of the <span>History</span> of <span>Eugenics</span></em>. <span>Oxford University Press</span>. <a href="https://doi.org/10.1093/oxfordhb/9780195373141.001.0001">https://doi.org/10.1093/oxfordhb/9780195373141.001.0001</a>
 </div>
-<div id="ref-bayntonDefectivesLandDisability2005" class="csl-entry" role="doc-biblioentry">
+<div id="ref-bayntonDefectivesLandDisability2005" class="csl-entry" role="listitem">
 Baynton, D. C. (2005). Defectives in the land: <span>Disability</span> and <span>American</span> immigration policy, 1882-1924. <em>Journal of American Ethnic History</em>, <em>24</em>(3), 31–44.
 </div>
-<div id="ref-chapmanColonialismDisabilityPossible2012" class="csl-entry" role="doc-biblioentry">
+<div id="ref-chapmanColonialismDisabilityPossible2012" class="csl-entry" role="listitem">
 Chapman, C. (2012). Colonialism, disability, and possible lives: <span>The</span> residential treatment of children whose parents survived <span>Indian Residential Schools</span>. <em>Journal of Progressive Human Services</em>, <em>23</em>(2), 127–158. <a href="https://doi.org/gmq2n5">https://doi.org/gmq2n5</a>
 </div>
-<div id="ref-chenFitCitizenshipEugenics2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-chenFitCitizenshipEugenics2015" class="csl-entry" role="listitem">
 Chen, M. (2015). Fit for <span>Citizenship</span>?: <span>The Eugenics Movement</span> and <span>Immigration Policy</span>. <em>Dissent</em>, <em>62</em>(2), 73–86. <a href="https://doi.org/gmqz7d">https://doi.org/gmqz7d</a>
 </div>
-<div id="ref-darwinOriginSpecies1859" class="csl-entry" role="doc-biblioentry">
+<div id="ref-darwinOriginSpecies1859" class="csl-entry" role="listitem">
 Darwin, C. (1859). <em>The origin of species</em>. <span>John Murray, Albemarle Street</span>.
 </div>
-<div id="ref-dowbigginKeepingAmericaSane1997" class="csl-entry" role="doc-biblioentry">
+<div id="ref-dowbigginKeepingAmericaSane1997" class="csl-entry" role="listitem">
 Dowbiggin, I. R. (1997). <em>Keeping <span>America Sane</span>: <span>Psychiatry</span> and <span>Eugenics</span> in the <span>United States</span> and <span>Canada</span>, 1880-1940</em>. <span>Cornell University Press</span>. <a href="https://books.google.com?id=tMTJG0E4PPMC">https://books.google.com?id=tMTJG0E4PPMC</a>
 </div>
-<div id="ref-EugenicsCompulsorySterilization" class="csl-entry" role="doc-biblioentry">
+<div id="ref-EugenicsCompulsorySterilization" class="csl-entry" role="listitem">
 <em>Eugenics: <span>Compulsory Sterilization</span> in 50 <span>American States</span></em>. (n.d.). Retrieved September 8, 2021, from <a href="https://www.uvm.edu/~lkaelber/eugenics/">https://www.uvm.edu/~lkaelber/eugenics/</a>
 </div>
-<div id="ref-fischerMaltreatmentPeopleSerious2012" class="csl-entry" role="doc-biblioentry">
+<div id="ref-fischerMaltreatmentPeopleSerious2012" class="csl-entry" role="listitem">
 Fischer, B. A. (2012). Maltreatment of people with serious mental illness in the early 20th century: A focus on <span>Nazi Germany</span> and eugenics in <span>America</span>. <em>The Journal of Nervous and Mental Disease</em>, <em>200</em>(12), 1096–1100. <a href="https://doi.org/f4f3pz">https://doi.org/f4f3pz</a>
 </div>
-<div id="ref-galtonHereditaryTalentCharacter1865" class="csl-entry" role="doc-biblioentry">
+<div id="ref-galtonHereditaryTalentCharacter1865" class="csl-entry" role="listitem">
 Galton, F. (1865). Hereditary talent and character. <em>Macmillan’s Magazine</em>, <em>12</em>(157-166), 318–327.
 </div>
-<div id="ref-galtonHereditaryGenius1869" class="csl-entry" role="doc-biblioentry">
+<div id="ref-galtonHereditaryGenius1869" class="csl-entry" role="listitem">
 Galton, F. (1869). <em>Hereditary genius</em>. <span>Macmillan</span>.
 </div>
-<div id="ref-galtonInquiriesHumanFaculty1883" class="csl-entry" role="doc-biblioentry">
+<div id="ref-galtonInquiriesHumanFaculty1883" class="csl-entry" role="listitem">
 Galton, F. (1883). <em>Inquiries into human faculty and its development</em>. <span>Macmillan</span>.
 </div>
-<div id="ref-guthrieEvenRatWas2004" class="csl-entry" role="doc-biblioentry">
+<div id="ref-guthrieEvenRatWas2004" class="csl-entry" role="listitem">
 Guthrie, R. V. (2004). <em>Even the rat was white: A historical view of psychology</em> (Classic ed.). <span>Pearson Allyn and Bacon</span>. <a href="https://archive.org/details/evenratwaswhiteh0000guth">https://archive.org/details/evenratwaswhiteh0000guth</a>
 </div>
-<div id="ref-johnsonOpinionHeadPlanned2021" class="csl-entry" role="doc-biblioentry">
+<div id="ref-johnsonOpinionHeadPlanned2021" class="csl-entry" role="listitem">
 Johnson, A. M. (2021, April 17). Opinion | <span>I</span>’m the <span>Head</span> of <span>Planned Parenthood</span>. <span>We</span>’re <span>Done Making Excuses</span> for <span>Our Founder</span>. <em>The New York Times: Opinion</em>. <a href="https://www.nytimes.com/2021/04/17/opinion/planned-parenthood-margaret-sanger.html">https://www.nytimes.com/2021/04/17/opinion/planned-parenthood-margaret-sanger.html</a>
 </div>
-<div id="ref-kuhlBettermentRaceRise2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-kuhlBettermentRaceRise2013" class="csl-entry" role="listitem">
 Kühl, S. (2013). <em>For the <span>Betterment</span> of the <span>Race</span> - <span>The Rise</span> and <span>Fall</span> of the <span>International Movement</span> for <span>Eugenics</span> and <span>Racial Hygiene</span></em>. <span>Palgrave Macmillan</span>. <a href="https://www.palgrave.com/gp/book/9781137286116">https://www.palgrave.com/gp/book/9781137286116</a>
 </div>
-<div id="ref-lombardoMiscegenationEugenicsRacism1987" class="csl-entry" role="doc-biblioentry">
+<div id="ref-lombardoMiscegenationEugenicsRacism1987" class="csl-entry" role="listitem">
 Lombardo, P. A. (1987). Miscegenation, eugenics, and racism: <span>Historical</span> footnotes to <span>Loving</span> v. <span>Virginia</span>. <em>UC Davis L. Rev.</em>, <em>21</em>, 421.
 </div>
-<div id="ref-mansfieldGiftednessPropertyTroubling2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-mansfieldGiftednessPropertyTroubling2015" class="csl-entry" role="listitem">
 Mansfield, K. C. (2015). Giftedness as property: <span>Troubling</span> whiteness, wealth, and gifted education in the <span>US</span>. <em>International Journal of Multicultural Education</em>, <em>17</em>(1), 121. <a href="https://doi.org/gg47h8">https://doi.org/gg47h8</a>
 </div>
-<div id="ref-mobilyEugenicsPlaygroundMovement2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-mobilyEugenicsPlaygroundMovement2018" class="csl-entry" role="listitem">
 Mobily, K. E. (2018). Eugenics and the playground movement. <em>Annals of Leisure Research</em>, <em>21</em>(2), 145–160. <a href="https://doi.org/gg4652">https://doi.org/gg4652</a>
 </div>
-<div id="ref-plannedparenthoodStatementMargaretSanger2020" class="csl-entry" role="doc-biblioentry">
+<div id="ref-plannedparenthoodStatementMargaretSanger2020" class="csl-entry" role="listitem">
 Parenthood, P. (2020). <em>Statement about <span>Margaret Sanger</span> and <span>Planned Parenthood</span>’s mission</em>. <a href="https://www.plannedparenthood.org/planned-parenthood-north-central-states/about-ppncs/media-relations/statement-about-margaret-sanger-and-planned-parenthoods-mission">https://www.plannedparenthood.org/planned-parenthood-north-central-states/about-ppncs/media-relations/statement-about-margaret-sanger-and-planned-parenthoods-mission</a>
 </div>
-<div id="ref-pearsonProblemAlienImmigration1925" class="csl-entry" role="doc-biblioentry">
+<div id="ref-pearsonProblemAlienImmigration1925" class="csl-entry" role="listitem">
 Pearson, K., &amp; Moul, M. (1925). The problem of alien immigration into <span>Great Britain</span>, illustrated by an examination of <span>Russian</span> and <span>Polish Jewish</span> children. <em>Annals of Eugenics</em>, <em>1</em>(1), 5–54. <a href="https://doi.org/cvn6gq">https://doi.org/cvn6gq</a>
 </div>
-<div id="ref-pegoraroSecondrateVictimsForced2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-pegoraroSecondrateVictimsForced2015" class="csl-entry" role="listitem">
 Pegoraro, L. (2015). Second-rate victims: <span>The</span> forced sterilization of <span>Indigenous</span> peoples in the <span>USA</span> and <span>Canada</span>. <em>Settler Colonial Studies</em>, <em>5</em>(2), 161–173. <a href="https://doi.org/gmq2pm">https://doi.org/gmq2pm</a>
 </div>
-<div id="ref-seldenInheritingShameStory1999" class="csl-entry" role="doc-biblioentry">
+<div id="ref-seldenInheritingShameStory1999" class="csl-entry" role="listitem">
 Selden, S. (1999). <em>Inheriting <span>Shame</span>: <span>The Story</span> of <span>Eugenics</span> and <span>Racism</span> in <span>America</span></em>. <span>Teachers College Press</span>.
 </div>
-<div id="ref-seldenTransformingBetterBabies2005" class="csl-entry" role="doc-biblioentry">
+<div id="ref-seldenTransformingBetterBabies2005" class="csl-entry" role="listitem">
 Selden, S. (2005). Transforming better babies into fitter families: <span>Archival</span> resources and the history of the <span>American</span> eugenics movement, 1908-1930. <em>Proceedings of the American Philosophical Society</em>, 199–225.
 </div>
-<div id="ref-thomsonDisabilityPsychiatryEugenics2010" class="csl-entry" role="doc-biblioentry">
+<div id="ref-thomsonDisabilityPsychiatryEugenics2010" class="csl-entry" role="listitem">
 Thomson, M. (2010). Disability, psychiatry, and eugenics. <em>The Oxford Handbook of the History of Eugenics</em>, 116–133.
 </div>
-<div id="ref-wilsonEugenicThinking2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-wilsonEugenicThinking2018" class="csl-entry" role="listitem">
 Wilson, R. A. (2018). Eugenic <span>Thinking</span>. <em>Philosophy, Theory, and Practice in Biology</em>, <em>10</em>(20200624). <a href="https://doi.org/gg386w">https://doi.org/gg386w</a>
 </div>
-<div id="ref-yakushkoEugenicsItsEvolution2019" class="csl-entry" role="doc-biblioentry">
+<div id="ref-yakushkoEugenicsItsEvolution2019" class="csl-entry" role="listitem">
 Yakushko, O. (2019). Eugenics and its evolution in the history of western psychology: <span>A</span> critical archival review. <em>Psychotherapy and Politics International</em>, <em>17</em>(2). <a href="https://doi.org/gg3hsf">https://doi.org/gg3hsf</a>
 </div>
-<div id="ref-yudellTakingRaceOut2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-yudellTakingRaceOut2016" class="csl-entry" role="listitem">
 Yudell, M., Roberts, D., DeSalle, R., &amp; Tishkoff, S. (2016). Taking race out of human genetics. <em>Science</em>, <em>351</em>(6273), 564–565. <a href="https://doi.org/gfkndx">https://doi.org/gfkndx</a>
 </div>
 </div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
@@ -975,9 +986,9 @@ Yudell, M., Roberts, D., DeSalle, R., &amp; Tishkoff, S. (2016). Taking race out
 <li id="fn4"><p>for example, the serial podcast nice white parents discusses a modern history and concerns of bias in gifted school programs in New York City <a href="https://www.nytimes.com/2020/07/23/podcasts/nice-white-parents-serial.html" class="uri">https://www.nytimes.com/2020/07/23/podcasts/nice-white-parents-serial.html</a><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn5"><p>and I will update this section to the extent that this information becomes available<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@incollection{j.c.crump2021,
-  author = {Matthew J. C. Crump},
-  editor = {Matthew J. C. Crump},
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@incollection{j.c.crump2021,
+  author = {J.C.Crump, Matthew},
+  editor = {J.C.Crump, Matthew},
   title = {Eugenics and {Psychology}},
   booktitle = {Instances of Cognition: Questions, Methods, Findings,
     Explanations, Applications, and Implications},
@@ -989,10 +1000,10 @@ Yudell, M., Roberts, D., DeSalle, R., &amp; Tishkoff, S. (2016). Taking race out
     into cognition. Some of these connections are expanded upon in later
     chapters, including the next chapter on mental testing.}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-j.c.crump2021" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-Matthew J. C. Crump. (2021). Eugenics and Psychology. In Matthew J. C.
-Crump (Ed.), <em>Instances of Cognition: Questions, Methods, Findings,
-Explanations, Applications, and Implications</em>. <a href="https://crumplab.com/cognition/textbook">https://crumplab.com/cognition/textbook</a>
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-j.c.crump2021" class="csl-entry quarto-appendix-citeas" role="listitem">
+J.C.Crump, M. (2021). Eugenics and Psychology. In M. J.C.Crump (Ed.),
+<em>Instances of Cognition: Questions, Methods, Findings, Explanations,
+Applications, and Implications</em>. <a href="https://crumplab.com/cognition/textbook">https://crumplab.com/cognition/textbook</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -1021,9 +1032,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1088,6 +1113,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -1131,6 +1242,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">This page is built with <a href="https://quarto.org/">Quarto</a>.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

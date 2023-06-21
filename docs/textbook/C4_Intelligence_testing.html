@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.210">
+<meta name="generator" content="quarto-1.3.258">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,14 +19,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -40,8 +41,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -93,11 +93,11 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="custom.css">
 <meta property="og:title" content="cognition - 4 Intelligence Testing">
-<meta property="og:description" content="This chapter covers the development of intelligence tests, a look at examples of early intelligence tests and how the tests work, some discussion of the concept of intelligence in relation to these…">
+<meta property="og:description" content="This chapter covers the development of intelligence tests, a look at examples of early intelligence tests and how the tests work, some discussion of the concept of intelligence in relation to these tests, and some historical examples of how the tests were used in the context of the eugenics movement.">
 <meta property="og:image" content="https://crumplab.com/cognition/textbook/imgs/cover.jpg">
 <meta property="og:site-name" content="cognition">
 <meta name="twitter:title" content="cognition - 4 Intelligence Testing">
-<meta name="twitter:description" content="This chapter covers the development of intelligence tests, a look at examples of early intelligence tests and how the tests work, some discussion of the concept of intelligence in relation to these…">
+<meta name="twitter:description" content="This chapter covers the development of intelligence tests, a look at examples of early intelligence tests and how the tests work, some discussion of the concept of intelligence in relation to these tests, and some historical examples of how the tests were used in the context of the eugenics movement.">
 <meta name="twitter:image" content="https://crumplab.com/cognition/textbook/imgs/cover.jpg">
 <meta name="twitter:creator" content="@MattCrumpLab">
 <meta name="twitter:card" content="summary_large_image">
@@ -114,137 +114,141 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <img src="../images/logo.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">
+    <a class="nav-link active" href="../index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/course_docs/Fall_2022_Psyc_2530_syllabus.html">
+    <a class="nav-link" href="../articles/course_docs/Fall_2022_Psyc_2530_syllabus.html" rel="" target="">
  <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../textbook/index.html" aria-current="page">
+    <a class="nav-link" href="../textbook/index.html" rel="" target="">
  <span class="menu-text">Textbook</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/modules.html">
+    <a class="nav-link" href="../articles/modules.html" rel="" target="">
  <span class="menu-text">Learning Modules</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Slides</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-slides">    
         <li>
-    <a class="dropdown-item" href="../slides/L0_Getting_started/L0_Getting_Started.html">
+    <a class="dropdown-item" href="../slides/L0_Getting_started/L0_Getting_Started.html" rel="" target="">
  <span class="dropdown-text">Lecture 0 - Getting Started</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L1_Instances/L1_Instances.html">
+    <a class="dropdown-item" href="../slides/L1_Instances/L1_Instances.html" rel="" target="">
  <span class="dropdown-text">Lecture 1 - What is Cognition?</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L2_QALMRI/L2_QALMRI.html">
+    <a class="dropdown-item" href="../slides/L2_QALMRI/L2_QALMRI.html" rel="" target="">
  <span class="dropdown-text">Lecture 2 - Reading Research</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L3_Imagery/L3_Imagery.html">
+    <a class="dropdown-item" href="../slides/L3_Imagery/L3_Imagery.html" rel="" target="">
  <span class="dropdown-text">Lecture 3 - Mental Imagery</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L4_Eugenics/L4_Eugenics.html">
+    <a class="dropdown-item" href="../slides/L4_Eugenics/L4_Eugenics.html" rel="" target="">
  <span class="dropdown-text">Lecture 4 - Psychology and Eugenics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L5_IQ/L5_IQ.html">
+    <a class="dropdown-item" href="../slides/L5_IQ/L5_IQ.html" rel="" target="">
  <span class="dropdown-text">Lecture 5 - Intelligence Testing</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L6_Associations/L6_Associations.html">
+    <a class="dropdown-item" href="../slides/L6_Associations/L6_Associations.html" rel="" target="">
  <span class="dropdown-text">Lecture 6 - Associations</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L8_Behaviorism/L8_Behaviorism.html">
+    <a class="dropdown-item" href="../slides/L8_Behaviorism/L8_Behaviorism.html" rel="" target="">
  <span class="dropdown-text">Lecture 8 - Behaviorism</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L9_Information/L9_Information.html">
+    <a class="dropdown-item" href="../slides/L9_Information/L9_Information.html" rel="" target="">
  <span class="dropdown-text">Lecture 9 - Information Processing</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L10_Memory_1/L10_Memory_1.html">
+    <a class="dropdown-item" href="../slides/L10_Memory_1/L10_Memory_1.html" rel="" target="">
  <span class="dropdown-text">Lecture 10 - Memory I</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L11_Memory_2/L11_Memory_2.html">
+    <a class="dropdown-item" href="../slides/L11_Memory_2/L11_Memory_2.html" rel="" target="">
  <span class="dropdown-text">Lecture 11 - Memory II</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L12_Implicit/L12_Implicit.html">
+    <a class="dropdown-item" href="../slides/L12_Implicit/L12_Implicit.html" rel="" target="">
  <span class="dropdown-text">Lecture 12 - Implicit Influences</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L13_Attention/L13_Attention.html">
+    <a class="dropdown-item" href="../slides/L13_Attention/L13_Attention.html" rel="" target="">
  <span class="dropdown-text">Lecture 13 - Attention</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/Extra_Minerva/Extra_Minerva.html">
+    <a class="dropdown-item" href="../slides/Extra_Minerva/Extra_Minerva.html" rel="" target="">
  <span class="dropdown-text">Lecture 13.5 - Instance Theory</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L14_Language/L14_Language.html">
+    <a class="dropdown-item" href="../slides/L14_Language/L14_Language.html" rel="" target="">
  <span class="dropdown-text">Lecture 14 - Language</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L15_JDM/L15_JDM.html">
+    <a class="dropdown-item" href="../slides/L15_JDM/L15_JDM.html" rel="" target="">
  <span class="dropdown-text">Lecture 15 - Judgment and Decision-making</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../articles/honors/honors.html">
+    <a class="nav-link" href="../articles/honors/honors.html" rel="" target="">
  <span class="menu-text">Honors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/course_docs/resources.html">
+    <a class="nav-link" href="../articles/course_docs/resources.html" rel="" target="">
  <span class="menu-text">Additional Resources</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../articles/oer/OER.html">
+    <a class="nav-link" href="../articles/oer/oer.html" rel="" target="">
  <span class="menu-text">OER</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/CrumpLab/cognition"><i class="bi bi-github" role="img" aria-label="GitHub">
+    <a class="nav-link" href="https://github.com/CrumpLab/cognition" rel="" target=""><i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">4 Intelligence Testing</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../textbook/C4_Intelligence_testing.html">4 Intelligence Testing</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../" class="sidebar-logo-link">
+      <a href="../index.html" class="sidebar-logo-link">
       <img src="../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
@@ -252,99 +256,112 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/index.html" class="sidebar-item-text sidebar-link">Instances of Cognition</a>
+  <a href="../textbook/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Instances of Cognition</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/Preface.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="../textbook/Preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/Reading_Formats.html" class="sidebar-item-text sidebar-link">Reading Formats</a>
+  <a href="../textbook/Reading_Formats.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reading Formats</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C1_What_is_Cognition.html" class="sidebar-item-text sidebar-link">1 What is Cognition?</a>
+  <a href="../textbook/C1_What_is_Cognition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1 What is Cognition?</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C2_Mental_Imagery.html" class="sidebar-item-text sidebar-link">2 Mental Imagery</a>
+  <a href="../textbook/C2_Mental_Imagery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2 Mental Imagery</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C3_Eugenics.html" class="sidebar-item-text sidebar-link">3 Eugenics and Psychology</a>
+  <a href="../textbook/C3_Eugenics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3 Eugenics and Psychology</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C4_Intelligence_testing.html" class="sidebar-item-text sidebar-link active">4 Intelligence Testing</a>
+  <a href="../textbook/C4_Intelligence_testing.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">4 Intelligence Testing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C5_Associations.html" class="sidebar-item-text sidebar-link">5 Associations</a>
+  <a href="../textbook/C5_Associations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5 Associations</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C6_Behaviorism.html" class="sidebar-item-text sidebar-link">6 Behaviorism</a>
+  <a href="../textbook/C6_Behaviorism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6 Behaviorism</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C7_Information_Processing.html" class="sidebar-item-text sidebar-link">7 Information Processing</a>
+  <a href="../textbook/C7_Information_Processing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7 Information Processing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C8_Memory_I.html" class="sidebar-item-text sidebar-link">8 Memory I</a>
+  <a href="../textbook/C8_Memory_I.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8 Memory I</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C9_Memory_II.html" class="sidebar-item-text sidebar-link">9 Memory II</a>
+  <a href="../textbook/C9_Memory_II.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9 Memory II</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-intelligence-test-race" id="toc-the-intelligence-test-race" class="nav-link active" data-scroll-target="#the-intelligence-test-race"><span class="toc-section-number">4.1</span>  The intelligence test race</a>
+  <li><a href="#the-intelligence-test-race" id="toc-the-intelligence-test-race" class="nav-link active" data-scroll-target="#the-intelligence-test-race"><span class="header-section-number">4.1</span> The intelligence test race</a>
   <ul>
-  <li><a href="#cattells-mental-tests" id="toc-cattells-mental-tests" class="nav-link" data-scroll-target="#cattells-mental-tests"><span class="toc-section-number">4.1.1</span>  Cattell’s mental tests</a></li>
-  <li><a href="#binets-critiques" id="toc-binets-critiques" class="nav-link" data-scroll-target="#binets-critiques"><span class="toc-section-number">4.1.2</span>  Binet’s critiques</a></li>
+  <li><a href="#cattells-mental-tests" id="toc-cattells-mental-tests" class="nav-link" data-scroll-target="#cattells-mental-tests"><span class="header-section-number">4.1.1</span> Cattell’s mental tests</a></li>
+  <li><a href="#binets-critiques" id="toc-binets-critiques" class="nav-link" data-scroll-target="#binets-critiques"><span class="header-section-number">4.1.2</span> Binet’s critiques</a></li>
   </ul></li>
-  <li><a href="#binet-simon-test-1905-1911" id="toc-binet-simon-test-1905-1911" class="nav-link" data-scroll-target="#binet-simon-test-1905-1911"><span class="toc-section-number">4.2</span>  Binet-Simon Test (1905-1911)</a>
+  <li><a href="#binet-simon-test-1905-1911" id="toc-binet-simon-test-1905-1911" class="nav-link" data-scroll-target="#binet-simon-test-1905-1911"><span class="header-section-number">4.2</span> Binet-Simon Test (1905-1911)</a>
   <ul>
-  <li><a href="#motivation" id="toc-motivation" class="nav-link" data-scroll-target="#motivation"><span class="toc-section-number">4.2.1</span>  Motivation</a></li>
-  <li><a href="#method" id="toc-method" class="nav-link" data-scroll-target="#method"><span class="toc-section-number">4.2.2</span>  Method</a></li>
-  <li><a href="#quantifying-mental-ability-with-age" id="toc-quantifying-mental-ability-with-age" class="nav-link" data-scroll-target="#quantifying-mental-ability-with-age"><span class="toc-section-number">4.2.3</span>  Quantifying mental ability with Age</a></li>
-  <li><a href="#comparison-to-norms" id="toc-comparison-to-norms" class="nav-link" data-scroll-target="#comparison-to-norms"><span class="toc-section-number">4.2.4</span>  Comparison to Norms</a></li>
-  <li><a href="#computing-intelligence-scores" id="toc-computing-intelligence-scores" class="nav-link" data-scroll-target="#computing-intelligence-scores"><span class="toc-section-number">4.2.5</span>  Computing intelligence scores</a></li>
-  <li><a href="#binets-use-cases" id="toc-binets-use-cases" class="nav-link" data-scroll-target="#binets-use-cases"><span class="toc-section-number">4.2.6</span>  Binet’s use cases</a></li>
-  <li><a href="#meaning-of-the-measure" id="toc-meaning-of-the-measure" class="nav-link" data-scroll-target="#meaning-of-the-measure"><span class="toc-section-number">4.2.7</span>  Meaning of the measure</a></li>
+  <li><a href="#motivation" id="toc-motivation" class="nav-link" data-scroll-target="#motivation"><span class="header-section-number">4.2.1</span> Motivation</a></li>
+  <li><a href="#method" id="toc-method" class="nav-link" data-scroll-target="#method"><span class="header-section-number">4.2.2</span> Method</a></li>
+  <li><a href="#quantifying-mental-ability-with-age" id="toc-quantifying-mental-ability-with-age" class="nav-link" data-scroll-target="#quantifying-mental-ability-with-age"><span class="header-section-number">4.2.3</span> Quantifying mental ability with Age</a></li>
+  <li><a href="#comparison-to-norms" id="toc-comparison-to-norms" class="nav-link" data-scroll-target="#comparison-to-norms"><span class="header-section-number">4.2.4</span> Comparison to Norms</a></li>
+  <li><a href="#computing-intelligence-scores" id="toc-computing-intelligence-scores" class="nav-link" data-scroll-target="#computing-intelligence-scores"><span class="header-section-number">4.2.5</span> Computing intelligence scores</a></li>
+  <li><a href="#binets-use-cases" id="toc-binets-use-cases" class="nav-link" data-scroll-target="#binets-use-cases"><span class="header-section-number">4.2.6</span> Binet’s use cases</a></li>
+  <li><a href="#meaning-of-the-measure" id="toc-meaning-of-the-measure" class="nav-link" data-scroll-target="#meaning-of-the-measure"><span class="header-section-number">4.2.7</span> Meaning of the measure</a></li>
   </ul></li>
-  <li><a href="#mental-testing-and-eugenics-in-america" id="toc-mental-testing-and-eugenics-in-america" class="nav-link" data-scroll-target="#mental-testing-and-eugenics-in-america"><span class="toc-section-number">4.3</span>  Mental testing and eugenics in America</a>
+  <li><a href="#mental-testing-and-eugenics-in-america" id="toc-mental-testing-and-eugenics-in-america" class="nav-link" data-scroll-target="#mental-testing-and-eugenics-in-america"><span class="header-section-number">4.3</span> Mental testing and eugenics in America</a>
   <ul>
-  <li><a href="#the-alpha-beta-test" id="toc-the-alpha-beta-test" class="nav-link" data-scroll-target="#the-alpha-beta-test"><span class="toc-section-number">4.3.1</span>  The Alpha-Beta test</a></li>
-  <li><a href="#scientific-racism" id="toc-scientific-racism" class="nav-link" data-scroll-target="#scientific-racism"><span class="toc-section-number">4.3.2</span>  Scientific Racism</a></li>
-  <li><a href="#mental-health" id="toc-mental-health" class="nav-link" data-scroll-target="#mental-health"><span class="toc-section-number">4.3.3</span>  Mental health</a></li>
-  <li><a href="#education-and-the-black-psychologists" id="toc-education-and-the-black-psychologists" class="nav-link" data-scroll-target="#education-and-the-black-psychologists"><span class="toc-section-number">4.3.4</span>  Education and The Black Psychologists</a></li>
+  <li><a href="#the-alpha-beta-test" id="toc-the-alpha-beta-test" class="nav-link" data-scroll-target="#the-alpha-beta-test"><span class="header-section-number">4.3.1</span> The Alpha-Beta test</a></li>
+  <li><a href="#scientific-racism" id="toc-scientific-racism" class="nav-link" data-scroll-target="#scientific-racism"><span class="header-section-number">4.3.2</span> Scientific Racism</a></li>
+  <li><a href="#mental-health" id="toc-mental-health" class="nav-link" data-scroll-target="#mental-health"><span class="header-section-number">4.3.3</span> Mental health</a></li>
+  <li><a href="#education-and-the-black-psychologists" id="toc-education-and-the-black-psychologists" class="nav-link" data-scroll-target="#education-and-the-black-psychologists"><span class="header-section-number">4.3.4</span> Education and The Black Psychologists</a></li>
   </ul></li>
-  <li><a href="#cognition-testing-abilities-vs.-testing-theories" id="toc-cognition-testing-abilities-vs.-testing-theories" class="nav-link" data-scroll-target="#cognition-testing-abilities-vs.-testing-theories"><span class="toc-section-number">4.4</span>  Cognition: Testing abilities vs.&nbsp;testing theories</a></li>
-  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix"><span class="toc-section-number">4.5</span>  Appendix</a>
+  <li><a href="#cognition-testing-abilities-vs.-testing-theories" id="toc-cognition-testing-abilities-vs.-testing-theories" class="nav-link" data-scroll-target="#cognition-testing-abilities-vs.-testing-theories"><span class="header-section-number">4.4</span> Cognition: Testing abilities vs.&nbsp;testing theories</a></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix"><span class="header-section-number">4.5</span> Appendix</a>
   <ul>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="toc-section-number">4.5.1</span>  References</a></li>
+  
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/CrumpLab/cognition/edit/main/textbook/C4_Intelligence_testing.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/CrumpLab/cognition/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -354,7 +371,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">4 Intelligence Testing</h1>
+<h1 class="title">4 Intelligence Testing</h1>
 </div>
 
 
@@ -378,7 +395,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">October 22, 2022</p>
+      <p class="date-modified">March 20, 2023</p>
     </div>
   </div>
     
@@ -393,9 +410,6 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 </header>
 
-<div class="cell">
-
-</div>
 <p>Note: my training as a cognitive psychologist mostly skipped over the topic of mental testing, especially the history and development of intelligence tests. This is chapter is an ongoing attempt to organize some of that history and connect it with issues in cognition. I have found the history to be complex and often extremely fraught. Although mental testing is widespread and has many proponents and use cases; mental testing is also intertwined with the eugenics movement, and the practice of mental testing has negatively impacted marginalized groups. The scientific and social merits/pitfalls of intelligence testing have been continuously debated in domains where mental testing has been introduced.</p>
 <section id="the-intelligence-test-race" class="level3" data-number="4.1">
 <h3 data-number="4.1" class="anchored" data-anchor-id="the-intelligence-test-race"><span class="header-section-number">4.1</span> The intelligence test race</h3>
@@ -449,7 +463,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 <div class="cell-output-display">
 <div id="fig-4Binet1" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="imgs/Binet_1905.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><img src="imgs/Binet_1905.png" class="quarto-discovered-preview-image img-fluid figure-img" style="width:100.0%"></p>
 <p></p><figcaption class="figure-caption">Figure&nbsp;1: Examples of questions and results from Binet’s mental testing procedure.</figcaption><p></p>
 </figure>
 </div>
@@ -555,82 +569,82 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 
 
-</div></section><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">4.5.1 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
-<div id="ref-binetApplicationNewMethods1905" class="csl-entry" role="doc-biblioentry">
+</div></section><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">4.5.1 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-binetApplicationNewMethods1905" class="csl-entry" role="listitem">
 Binet, A., &amp; Simon, T. (1905a). Application of the <span>New Methods</span> to the <span>Diagnosis</span> of the <span>Intellectual Level</span> among <span>Normal</span> and <span>Subnormal Children</span> in <span>Institutions</span> and in the <span>Primary Schools</span>. <em>L’Année Psychologique</em>, <em>12</em>, 245–336.
 </div>
-<div id="ref-binetNewMethodsDiagnosis1905" class="csl-entry" role="doc-biblioentry">
+<div id="ref-binetNewMethodsDiagnosis1905" class="csl-entry" role="listitem">
 Binet, A., &amp; Simon, T. (1905b). New methods for the diagnosis of the intellectual level of subnormals. <em>L’Année Psychologique</em>, <em>12</em>, 191–244.
 </div>
-<div id="ref-binetNecessityEstablishingScientific1905" class="csl-entry" role="doc-biblioentry">
+<div id="ref-binetNecessityEstablishingScientific1905" class="csl-entry" role="listitem">
 Binet, A., &amp; Simon, T. (1905c). Upon the <span>Necessity</span> of <span>Establishing</span> a <span>Scientific Diagnosis</span> of <span>Inferior States</span> of <span>Intelligence</span>. <em>L’Année Psychologique</em>, <em>12</em>, 163–191.
 </div>
-<div id="ref-binetDevelopmentIntelligenceChild1908" class="csl-entry" role="doc-biblioentry">
+<div id="ref-binetDevelopmentIntelligenceChild1908" class="csl-entry" role="listitem">
 Binet, A., &amp; Simon, T. (1908). The <span>Development</span> of <span>Intelligence</span> in the <span>Child</span>. <em>L’Année Psychologique</em>, 1–90.
 </div>
-<div id="ref-binetNewInvestigationsMeasure1911" class="csl-entry" role="doc-biblioentry">
+<div id="ref-binetNewInvestigationsMeasure1911" class="csl-entry" role="listitem">
 Binet, A., &amp; Simon, T. (1911). New investigations upon the measure of the intellectual level among school children. <em>L’Année Psychologique</em>, 145–201. <a href="https://doi.org/c4b7b9">https://doi.org/c4b7b9</a>
 </div>
-<div id="ref-brighamStudyAmericanIntelligence1922" class="csl-entry" role="doc-biblioentry">
+<div id="ref-brighamStudyAmericanIntelligence1922" class="csl-entry" role="listitem">
 Brigham, C. C. (1922). <em>A study of <span>American</span> intelligence</em>. <span>Princeton: Princeton University Press; London: Oxford University Press …</span>.
 </div>
-<div id="ref-cattellMENTALTESTSMEASUREMENTS1890" class="csl-entry" role="doc-biblioentry">
+<div id="ref-cattellMENTALTESTSMEASUREMENTS1890" class="csl-entry" role="listitem">
 CATTELL, J. McK. (1890). V.—<span>MENTAL TESTS AND MEASUREMENTS</span>. <em>Mind</em>, <em>os-XV</em>(59), 373–381. <a href="https://doi.org/dhn9nc">https://doi.org/dhn9nc</a>
 </div>
-<div id="ref-cattellPhysicalMentalMeasurements1896" class="csl-entry" role="doc-biblioentry">
+<div id="ref-cattellPhysicalMentalMeasurements1896" class="csl-entry" role="listitem">
 Cattell, J. M., &amp; Farrand, L. (1896). Physical and mental measurements of the students of <span>Columbia University</span>. <em>Psychological Review</em>, <em>3</em>(6), 618. <a href="https://doi.org/ckms9q">https://doi.org/ckms9q</a>
 </div>
-<div id="ref-frisbySciencePoliticsBest2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-frisbySciencePoliticsBest2016" class="csl-entry" role="listitem">
 Frisby, C. L., &amp; Henry, B. (2016). Science, <span>Politics</span>, and <span>Best Practice</span>: 35 <span>Years After Larry P</span>. <em>Contemporary School Psychology</em>, <em>20</em>(1), 46–62. <a href="https://doi.org/gkzfj6">https://doi.org/gkzfj6</a>
 </div>
-<div id="ref-gilbertMENTALPHYSICALDEVELOPMENT1895" class="csl-entry" role="doc-biblioentry">
+<div id="ref-gilbertMENTALPHYSICALDEVELOPMENT1895" class="csl-entry" role="listitem">
 Gilbert, J. A. (1895). <span>THE MENTAL AND PHYSICAL DEVELOPMENT OF SCHOOL CHILDREN</span>.—(<span>I</span>). <em>The Journal of Education</em>, <em>42</em>, 291–292.
 </div>
-<div id="ref-goddardWhoMoron1927" class="csl-entry" role="doc-biblioentry">
+<div id="ref-goddardWhoMoron1927" class="csl-entry" role="listitem">
 Goddard, H. H. (1927). Who is a moron? <em>The Scientific Monthly</em>, <em>24</em>(1), 41–46.
 </div>
-<div id="ref-gravesMoratoriumAfricanAmerican2011" class="csl-entry" role="doc-biblioentry">
+<div id="ref-gravesMoratoriumAfricanAmerican2011" class="csl-entry" role="listitem">
 Graves, S., &amp; Mitchell, A. (2011). Is the <span>Moratorium Over</span>? <span>African American Psychology Professionals</span>’ <span>Views</span> on <span>Intelligence Testing</span> in <span>Response</span> to <span>Changes</span> to <span>Federal Policy</span>. <em>Journal of Black Psychology</em>, <em>37</em>(4), 407–425. <a href="https://doi.org/d56z38">https://doi.org/d56z38</a>
 </div>
-<div id="ref-kiteDevelopmentIntelligenceChildren1916" class="csl-entry" role="doc-biblioentry">
+<div id="ref-kiteDevelopmentIntelligenceChildren1916" class="csl-entry" role="listitem">
 Kite, E. S. (1916). <em>The development of intelligence in children (<span>The Binet-Simon Scale</span>)</em>. <span>Williams &amp; Wilkins Company</span>.
 </div>
-<div id="ref-kraepelinPsychologischeVersuchPsychiatre1895" class="csl-entry" role="doc-biblioentry">
+<div id="ref-kraepelinPsychologischeVersuchPsychiatre1895" class="csl-entry" role="listitem">
 Kraepelin, E. (1895). Der psychologische <span>Versuch</span> in der <span>Psychiatre</span>. <em>Psychologische Arbeiten</em>, <em>1</em>, 1–92.
 </div>
-<div id="ref-kuhlBettermentRaceRise2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-kuhlBettermentRaceRise2013" class="csl-entry" role="listitem">
 Kühl, S. (2013). <em>For the <span>Betterment</span> of the <span>Race</span> - <span>The Rise</span> and <span>Fall</span> of the <span>International Movement</span> for <span>Eugenics</span> and <span>Racial Hygiene</span></em>. <span>Palgrave Macmillan</span>. <a href="https://www.palgrave.com/gp/book/9781137286116">https://www.palgrave.com/gp/book/9781137286116</a>
 </div>
-<div id="ref-munsterbergZurIndividualPscyhologie1891" class="csl-entry" role="doc-biblioentry">
+<div id="ref-munsterbergZurIndividualPscyhologie1891" class="csl-entry" role="listitem">
 Munsterberg, H. (1891). Zur individual <span>Pscyhologie</span>. <em>Centralblatt Fur Nervenheilkund Und Psychiatrie</em>, <em>2</em>, 196–198.
 </div>
-<div id="ref-nicolasProgramIndividualPsychology2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-nicolasProgramIndividualPsychology2014" class="csl-entry" role="listitem">
 Nicolas, S., Coubart, A., &amp; Lubart, T. (2014). The program of individual psychology (1895-1896) by <span>Alfred Binet</span> and <span>Victor Henri</span>. <em>LAnnee Psychologique</em>, <em>Vol. 114</em>(1), 5–60. <a href="https://www.cairn.info/revue-l-annee-psychologique1-2014-1-page-5.htm">https://www.cairn.info/revue-l-annee-psychologique1-2014-1-page-5.htm</a>
 </div>
-<div id="ref-termanMeasurementIntelligenceExplanation1916" class="csl-entry" role="doc-biblioentry">
+<div id="ref-termanMeasurementIntelligenceExplanation1916" class="csl-entry" role="listitem">
 Terman, L. M. (1916). <em>The <span>Measurement</span> of intelligence: <span>An</span> explanation of and complete guide for the use of the stanford revision and extension of the <span>Binet-Simon Intelligence Scale</span></em>. <span>Houghton Mifflin</span>. <a href="https://books.google.com?id=qtmdqoFx55YC">https://books.google.com?id=qtmdqoFx55YC</a>
 </div>
-<div id="ref-turdaRaceScienceEugenics2010" class="csl-entry" role="doc-biblioentry">
+<div id="ref-turdaRaceScienceEugenics2010" class="csl-entry" role="listitem">
 Turda, M. (2010). Race, science, and eugenics in the twentieth century. <em>The Oxford Handbook of the History of Eugenics</em>, 62–79.
 </div>
-<div id="ref-williamsHistoryAssociationBlack1974" class="csl-entry" role="doc-biblioentry">
+<div id="ref-williamsHistoryAssociationBlack1974" class="csl-entry" role="listitem">
 Williams, R. (1974). A <span>History</span> of the <span>Association</span> of <span>Black Psychologists</span>: <span>Early Formation</span> and <span>Development</span>. <em>Journal of Black Psychology</em>, <em>1</em>(1), 9–24. <a href="https://doi.org/gg3hq4">https://doi.org/gg3hq4</a>
 </div>
-<div id="ref-williamsWhatHappenedABPsi1978" class="csl-entry" role="doc-biblioentry">
+<div id="ref-williamsWhatHappenedABPsi1978" class="csl-entry" role="listitem">
 Williams, R. L., &amp; Mitchell, H. (1978). What <span>Happened</span> to <span>ABPsi</span>’s <span>Moratorium</span> on <span>Testing</span>: <span>A</span> 1968 to 1977 <span>Reminder</span>. <em>Journal of Black Psychology</em>, <em>4</em>(1-2), 25–42. <a href="https://doi.org/gg6btt">https://doi.org/gg6btt</a>
 </div>
-<div id="ref-yerkesPsychologyRelationWar1918" class="csl-entry" role="doc-biblioentry">
+<div id="ref-yerkesPsychologyRelationWar1918" class="csl-entry" role="listitem">
 Yerkes, R. M. (1918). Psychology in relation to the war. <em>Psychological Review</em>, <em>25</em>(2), 85–115. <a href="https://doi.org/dhdj4j">https://doi.org/dhdj4j</a>
 </div>
-<div id="ref-yerkesEugenicBearingMeasurements1923" class="csl-entry" role="doc-biblioentry">
+<div id="ref-yerkesEugenicBearingMeasurements1923" class="csl-entry" role="listitem">
 Yerkes, R. M. (1923). Eugenic <span>Bearing</span> of <span>Measurements</span> of <span>Intelligence</span> in the <span>United States Army</span>. <em>The Eugenics Review</em>, <em>14</em>(4), 225–245.
 </div>
-<div id="ref-yoakumArmyMentalTests1920" class="csl-entry" role="doc-biblioentry">
+<div id="ref-yoakumArmyMentalTests1920" class="csl-entry" role="listitem">
 Yoakum, C. S., &amp; Yerkes, R. M. (1920). <em>Army mental tests</em>. <span>H. Holt</span>.
 </div>
-</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@incollection{j.c.crump2021,
-  author = {Matthew J. C. Crump},
-  editor = {Matthew J. C. Crump},
+</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@incollection{j.c.crump2021,
+  author = {J.C.Crump, Matthew},
+  editor = {J.C.Crump, Matthew},
   title = {Intelligence Testing},
   booktitle = {Instances of Cognition: Questions, Methods, Findings,
     Explanations, Applications, and Implications},
@@ -643,10 +657,10 @@ Yoakum, C. S., &amp; Yerkes, R. M. (1920). <em>Army mental tests</em>. <span>H. 
     these tests, and some historical examples of how the tests were used
     in the context of the eugenics movement.}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-j.c.crump2021" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-Matthew J. C. Crump. (2021). Intelligence testing. In Matthew J. C.
-Crump (Ed.), <em>Instances of Cognition: Questions, Methods, Findings,
-Explanations, Applications, and Implications</em>. <a href="https://crumplab.com/cognition/textbook">https://crumplab.com/cognition/textbook</a>
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-j.c.crump2021" class="csl-entry quarto-appendix-citeas" role="listitem">
+J.C.Crump, M. (2021). Intelligence testing. In M. J.C.Crump (Ed.),
+<em>Instances of Cognition: Questions, Methods, Findings, Explanations,
+Applications, and Implications</em>. <a href="https://crumplab.com/cognition/textbook">https://crumplab.com/cognition/textbook</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -675,9 +689,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -742,6 +770,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -785,6 +899,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">This page is built with <a href="https://quarto.org/">Quarto</a>.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

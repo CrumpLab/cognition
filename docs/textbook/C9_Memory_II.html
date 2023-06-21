@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.210">
+<meta name="generator" content="quarto-1.3.258">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,14 +19,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -40,8 +41,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -93,11 +93,11 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="custom.css">
 <meta property="og:title" content="cognition - 9 Memory II">
-<meta property="og:description" content="This chapter continues to discuss memory research in cognition. In the last chapter we reviewed some early memory research that led into an information processing approach to memory in the 1960s.">
+<meta property="og:description" content="This chapter continues to discuss memory research in cognition. In the last chapter we reviewed some early memory research that led into an information processing approach to memory in the 1960s. In this chapter we will pick up our discussion from this time period onward. I will also focus less on models of memory, and more on tasks, phenomena, and principles of memory.">
 <meta property="og:image" content="https://crumplab.com/cognition/textbook/imgs/cover.jpg">
 <meta property="og:site-name" content="cognition">
 <meta name="twitter:title" content="cognition - 9 Memory II">
-<meta name="twitter:description" content="This chapter continues to discuss memory research in cognition. In the last chapter we reviewed some early memory research that led into an information processing approach to memory in the 1960s.">
+<meta name="twitter:description" content="This chapter continues to discuss memory research in cognition. In the last chapter we reviewed some early memory research that led into an information processing approach to memory in the 1960s. In this chapter we will pick up our discussion from this time period onward. I will also focus less on models of memory, and more on tasks, phenomena, and principles of memory.">
 <meta name="twitter:image" content="https://crumplab.com/cognition/textbook/imgs/cover.jpg">
 <meta name="twitter:creator" content="@MattCrumpLab">
 <meta name="twitter:card" content="summary_large_image">
@@ -114,137 +114,141 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <img src="../images/logo.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">
+    <a class="nav-link active" href="../index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/course_docs/Fall_2022_Psyc_2530_syllabus.html">
+    <a class="nav-link" href="../articles/course_docs/Fall_2022_Psyc_2530_syllabus.html" rel="" target="">
  <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../textbook/index.html" aria-current="page">
+    <a class="nav-link" href="../textbook/index.html" rel="" target="">
  <span class="menu-text">Textbook</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/modules.html">
+    <a class="nav-link" href="../articles/modules.html" rel="" target="">
  <span class="menu-text">Learning Modules</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Slides</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-slides">    
         <li>
-    <a class="dropdown-item" href="../slides/L0_Getting_started/L0_Getting_Started.html">
+    <a class="dropdown-item" href="../slides/L0_Getting_started/L0_Getting_Started.html" rel="" target="">
  <span class="dropdown-text">Lecture 0 - Getting Started</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L1_Instances/L1_Instances.html">
+    <a class="dropdown-item" href="../slides/L1_Instances/L1_Instances.html" rel="" target="">
  <span class="dropdown-text">Lecture 1 - What is Cognition?</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L2_QALMRI/L2_QALMRI.html">
+    <a class="dropdown-item" href="../slides/L2_QALMRI/L2_QALMRI.html" rel="" target="">
  <span class="dropdown-text">Lecture 2 - Reading Research</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L3_Imagery/L3_Imagery.html">
+    <a class="dropdown-item" href="../slides/L3_Imagery/L3_Imagery.html" rel="" target="">
  <span class="dropdown-text">Lecture 3 - Mental Imagery</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L4_Eugenics/L4_Eugenics.html">
+    <a class="dropdown-item" href="../slides/L4_Eugenics/L4_Eugenics.html" rel="" target="">
  <span class="dropdown-text">Lecture 4 - Psychology and Eugenics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L5_IQ/L5_IQ.html">
+    <a class="dropdown-item" href="../slides/L5_IQ/L5_IQ.html" rel="" target="">
  <span class="dropdown-text">Lecture 5 - Intelligence Testing</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L6_Associations/L6_Associations.html">
+    <a class="dropdown-item" href="../slides/L6_Associations/L6_Associations.html" rel="" target="">
  <span class="dropdown-text">Lecture 6 - Associations</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L8_Behaviorism/L8_Behaviorism.html">
+    <a class="dropdown-item" href="../slides/L8_Behaviorism/L8_Behaviorism.html" rel="" target="">
  <span class="dropdown-text">Lecture 8 - Behaviorism</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L9_Information/L9_Information.html">
+    <a class="dropdown-item" href="../slides/L9_Information/L9_Information.html" rel="" target="">
  <span class="dropdown-text">Lecture 9 - Information Processing</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L10_Memory_1/L10_Memory_1.html">
+    <a class="dropdown-item" href="../slides/L10_Memory_1/L10_Memory_1.html" rel="" target="">
  <span class="dropdown-text">Lecture 10 - Memory I</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L11_Memory_2/L11_Memory_2.html">
+    <a class="dropdown-item" href="../slides/L11_Memory_2/L11_Memory_2.html" rel="" target="">
  <span class="dropdown-text">Lecture 11 - Memory II</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L12_Implicit/L12_Implicit.html">
+    <a class="dropdown-item" href="../slides/L12_Implicit/L12_Implicit.html" rel="" target="">
  <span class="dropdown-text">Lecture 12 - Implicit Influences</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L13_Attention/L13_Attention.html">
+    <a class="dropdown-item" href="../slides/L13_Attention/L13_Attention.html" rel="" target="">
  <span class="dropdown-text">Lecture 13 - Attention</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/Extra_Minerva/Extra_Minerva.html">
+    <a class="dropdown-item" href="../slides/Extra_Minerva/Extra_Minerva.html" rel="" target="">
  <span class="dropdown-text">Lecture 13.5 - Instance Theory</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L14_Language/L14_Language.html">
+    <a class="dropdown-item" href="../slides/L14_Language/L14_Language.html" rel="" target="">
  <span class="dropdown-text">Lecture 14 - Language</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L15_JDM/L15_JDM.html">
+    <a class="dropdown-item" href="../slides/L15_JDM/L15_JDM.html" rel="" target="">
  <span class="dropdown-text">Lecture 15 - Judgment and Decision-making</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../articles/honors/honors.html">
+    <a class="nav-link" href="../articles/honors/honors.html" rel="" target="">
  <span class="menu-text">Honors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/course_docs/resources.html">
+    <a class="nav-link" href="../articles/course_docs/resources.html" rel="" target="">
  <span class="menu-text">Additional Resources</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../articles/oer/OER.html">
+    <a class="nav-link" href="../articles/oer/oer.html" rel="" target="">
  <span class="menu-text">OER</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/CrumpLab/cognition"><i class="bi bi-github" role="img" aria-label="GitHub">
+    <a class="nav-link" href="https://github.com/CrumpLab/cognition" rel="" target=""><i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">9 Memory II</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../textbook/C9_Memory_II.html">9 Memory II</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../" class="sidebar-logo-link">
+      <a href="../index.html" class="sidebar-logo-link">
       <img src="../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
@@ -252,110 +256,123 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/index.html" class="sidebar-item-text sidebar-link">Instances of Cognition</a>
+  <a href="../textbook/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Instances of Cognition</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/Preface.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="../textbook/Preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/Reading_Formats.html" class="sidebar-item-text sidebar-link">Reading Formats</a>
+  <a href="../textbook/Reading_Formats.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reading Formats</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C1_What_is_Cognition.html" class="sidebar-item-text sidebar-link">1 What is Cognition?</a>
+  <a href="../textbook/C1_What_is_Cognition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1 What is Cognition?</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C2_Mental_Imagery.html" class="sidebar-item-text sidebar-link">2 Mental Imagery</a>
+  <a href="../textbook/C2_Mental_Imagery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2 Mental Imagery</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C3_Eugenics.html" class="sidebar-item-text sidebar-link">3 Eugenics and Psychology</a>
+  <a href="../textbook/C3_Eugenics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3 Eugenics and Psychology</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C4_Intelligence_testing.html" class="sidebar-item-text sidebar-link">4 Intelligence Testing</a>
+  <a href="../textbook/C4_Intelligence_testing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4 Intelligence Testing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C5_Associations.html" class="sidebar-item-text sidebar-link">5 Associations</a>
+  <a href="../textbook/C5_Associations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5 Associations</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C6_Behaviorism.html" class="sidebar-item-text sidebar-link">6 Behaviorism</a>
+  <a href="../textbook/C6_Behaviorism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6 Behaviorism</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C7_Information_Processing.html" class="sidebar-item-text sidebar-link">7 Information Processing</a>
+  <a href="../textbook/C7_Information_Processing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7 Information Processing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C8_Memory_I.html" class="sidebar-item-text sidebar-link">8 Memory I</a>
+  <a href="../textbook/C8_Memory_I.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8 Memory I</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C9_Memory_II.html" class="sidebar-item-text sidebar-link active">9 Memory II</a>
+  <a href="../textbook/C9_Memory_II.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">9 Memory II</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#verbal-learning-and-verbal-behavior" id="toc-verbal-learning-and-verbal-behavior" class="nav-link active" data-scroll-target="#verbal-learning-and-verbal-behavior"><span class="toc-section-number">9.1</span>  Verbal Learning and Verbal Behavior</a></li>
-  <li><a href="#memory-methodology" id="toc-memory-methodology" class="nav-link" data-scroll-target="#memory-methodology"><span class="toc-section-number">9.2</span>  Memory Methodology</a>
+  <li><a href="#verbal-learning-and-verbal-behavior" id="toc-verbal-learning-and-verbal-behavior" class="nav-link active" data-scroll-target="#verbal-learning-and-verbal-behavior"><span class="header-section-number">9.1</span> Verbal Learning and Verbal Behavior</a></li>
+  <li><a href="#memory-methodology" id="toc-memory-methodology" class="nav-link" data-scroll-target="#memory-methodology"><span class="header-section-number">9.2</span> Memory Methodology</a>
   <ul>
-  <li><a href="#issues-with-measuring-memory-the-case-of-recognition" id="toc-issues-with-measuring-memory-the-case-of-recognition" class="nav-link" data-scroll-target="#issues-with-measuring-memory-the-case-of-recognition"><span class="toc-section-number">9.2.1</span>  Issues with measuring memory: the case of recognition</a></li>
+  <li><a href="#issues-with-measuring-memory-the-case-of-recognition" id="toc-issues-with-measuring-memory-the-case-of-recognition" class="nav-link" data-scroll-target="#issues-with-measuring-memory-the-case-of-recognition"><span class="header-section-number">9.2.1</span> Issues with measuring memory: the case of recognition</a></li>
   </ul></li>
-  <li><a href="#memory-phenomena" id="toc-memory-phenomena" class="nav-link" data-scroll-target="#memory-phenomena"><span class="toc-section-number">9.3</span>  Memory Phenomena</a>
+  <li><a href="#memory-phenomena" id="toc-memory-phenomena" class="nav-link" data-scroll-target="#memory-phenomena"><span class="header-section-number">9.3</span> Memory Phenomena</a>
   <ul>
-  <li><a href="#temporal-delay" id="toc-temporal-delay" class="nav-link" data-scroll-target="#temporal-delay"><span class="toc-section-number">9.3.1</span>  Temporal Delay</a></li>
-  <li><a href="#distinctiveness" id="toc-distinctiveness" class="nav-link" data-scroll-target="#distinctiveness"><span class="toc-section-number">9.3.2</span>  Distinctiveness</a></li>
-  <li><a href="#serial-position" id="toc-serial-position" class="nav-link" data-scroll-target="#serial-position"><span class="toc-section-number">9.3.3</span>  Serial Position</a></li>
-  <li><a href="#mental-imagery" id="toc-mental-imagery" class="nav-link" data-scroll-target="#mental-imagery"><span class="toc-section-number">9.3.4</span>  Mental Imagery</a></li>
-  <li><a href="#stimulus-effects-picture-superiority" id="toc-stimulus-effects-picture-superiority" class="nav-link" data-scroll-target="#stimulus-effects-picture-superiority"><span class="toc-section-number">9.3.5</span>  Stimulus effects: Picture Superiority</a></li>
-  <li><a href="#frequency-effects" id="toc-frequency-effects" class="nav-link" data-scroll-target="#frequency-effects"><span class="toc-section-number">9.3.6</span>  Frequency effects</a></li>
-  <li><a href="#presentation-rate-and-spacing" id="toc-presentation-rate-and-spacing" class="nav-link" data-scroll-target="#presentation-rate-and-spacing"><span class="toc-section-number">9.3.7</span>  Presentation rate and spacing</a></li>
-  <li><a href="#retro-active-and-pro-active-interference" id="toc-retro-active-and-pro-active-interference" class="nav-link" data-scroll-target="#retro-active-and-pro-active-interference"><span class="toc-section-number">9.3.8</span>  Retro-active and pro-active interference</a></li>
-  <li><a href="#number-of-associates-and-the-fan-effect" id="toc-number-of-associates-and-the-fan-effect" class="nav-link" data-scroll-target="#number-of-associates-and-the-fan-effect"><span class="toc-section-number">9.3.9</span>  Number of associates and the Fan effect</a></li>
-  <li><a href="#meaningfulness" id="toc-meaningfulness" class="nav-link" data-scroll-target="#meaningfulness"><span class="toc-section-number">9.3.10</span>  Meaningfulness</a></li>
-  <li><a href="#context-effects" id="toc-context-effects" class="nav-link" data-scroll-target="#context-effects"><span class="toc-section-number">9.3.11</span>  Context effects</a></li>
-  <li><a href="#generation-effect" id="toc-generation-effect" class="nav-link" data-scroll-target="#generation-effect"><span class="toc-section-number">9.3.12</span>  Generation Effect</a></li>
-  <li><a href="#testing-effect-retrieval-practice" id="toc-testing-effect-retrieval-practice" class="nav-link" data-scroll-target="#testing-effect-retrieval-practice"><span class="toc-section-number">9.3.13</span>  Testing effect (Retrieval practice)</a></li>
-  <li><a href="#directed-forgetting" id="toc-directed-forgetting" class="nav-link" data-scroll-target="#directed-forgetting"><span class="toc-section-number">9.3.14</span>  Directed forgetting</a></li>
-  <li><a href="#summary-memory-effects" id="toc-summary-memory-effects" class="nav-link" data-scroll-target="#summary-memory-effects"><span class="toc-section-number">9.3.15</span>  Summary: Memory Effects</a></li>
+  <li><a href="#temporal-delay" id="toc-temporal-delay" class="nav-link" data-scroll-target="#temporal-delay"><span class="header-section-number">9.3.1</span> Temporal Delay</a></li>
+  <li><a href="#distinctiveness" id="toc-distinctiveness" class="nav-link" data-scroll-target="#distinctiveness"><span class="header-section-number">9.3.2</span> Distinctiveness</a></li>
+  <li><a href="#serial-position" id="toc-serial-position" class="nav-link" data-scroll-target="#serial-position"><span class="header-section-number">9.3.3</span> Serial Position</a></li>
+  <li><a href="#mental-imagery" id="toc-mental-imagery" class="nav-link" data-scroll-target="#mental-imagery"><span class="header-section-number">9.3.4</span> Mental Imagery</a></li>
+  <li><a href="#stimulus-effects-picture-superiority" id="toc-stimulus-effects-picture-superiority" class="nav-link" data-scroll-target="#stimulus-effects-picture-superiority"><span class="header-section-number">9.3.5</span> Stimulus effects: Picture Superiority</a></li>
+  <li><a href="#frequency-effects" id="toc-frequency-effects" class="nav-link" data-scroll-target="#frequency-effects"><span class="header-section-number">9.3.6</span> Frequency effects</a></li>
+  <li><a href="#presentation-rate-and-spacing" id="toc-presentation-rate-and-spacing" class="nav-link" data-scroll-target="#presentation-rate-and-spacing"><span class="header-section-number">9.3.7</span> Presentation rate and spacing</a></li>
+  <li><a href="#retro-active-and-pro-active-interference" id="toc-retro-active-and-pro-active-interference" class="nav-link" data-scroll-target="#retro-active-and-pro-active-interference"><span class="header-section-number">9.3.8</span> Retro-active and pro-active interference</a></li>
+  <li><a href="#number-of-associates-and-the-fan-effect" id="toc-number-of-associates-and-the-fan-effect" class="nav-link" data-scroll-target="#number-of-associates-and-the-fan-effect"><span class="header-section-number">9.3.9</span> Number of associates and the Fan effect</a></li>
+  <li><a href="#meaningfulness" id="toc-meaningfulness" class="nav-link" data-scroll-target="#meaningfulness"><span class="header-section-number">9.3.10</span> Meaningfulness</a></li>
+  <li><a href="#context-effects" id="toc-context-effects" class="nav-link" data-scroll-target="#context-effects"><span class="header-section-number">9.3.11</span> Context effects</a></li>
+  <li><a href="#generation-effect" id="toc-generation-effect" class="nav-link" data-scroll-target="#generation-effect"><span class="header-section-number">9.3.12</span> Generation Effect</a></li>
+  <li><a href="#testing-effect-retrieval-practice" id="toc-testing-effect-retrieval-practice" class="nav-link" data-scroll-target="#testing-effect-retrieval-practice"><span class="header-section-number">9.3.13</span> Testing effect (Retrieval practice)</a></li>
+  <li><a href="#directed-forgetting" id="toc-directed-forgetting" class="nav-link" data-scroll-target="#directed-forgetting"><span class="header-section-number">9.3.14</span> Directed forgetting</a></li>
+  <li><a href="#summary-memory-effects" id="toc-summary-memory-effects" class="nav-link" data-scroll-target="#summary-memory-effects"><span class="header-section-number">9.3.15</span> Summary: Memory Effects</a></li>
   </ul></li>
-  <li><a href="#memory-processing-principles" id="toc-memory-processing-principles" class="nav-link" data-scroll-target="#memory-processing-principles"><span class="toc-section-number">9.4</span>  Memory processing principles</a>
+  <li><a href="#memory-processing-principles" id="toc-memory-processing-principles" class="nav-link" data-scroll-target="#memory-processing-principles"><span class="header-section-number">9.4</span> Memory processing principles</a>
   <ul>
-  <li><a href="#the-levels-of-processing-principle" id="toc-the-levels-of-processing-principle" class="nav-link" data-scroll-target="#the-levels-of-processing-principle"><span class="toc-section-number">9.4.1</span>  The levels of processing principle</a></li>
-  <li><a href="#context-dependent-and-cue-dependent-memory" id="toc-context-dependent-and-cue-dependent-memory" class="nav-link" data-scroll-target="#context-dependent-and-cue-dependent-memory"><span class="toc-section-number">9.4.2</span>  Context-dependent and Cue-dependent memory</a></li>
-  <li><a href="#encoding-specificity-principle" id="toc-encoding-specificity-principle" class="nav-link" data-scroll-target="#encoding-specificity-principle"><span class="toc-section-number">9.4.3</span>  Encoding specificity principle</a></li>
-  <li><a href="#tiptap-transfer-inappropriate-and-transfer-appropriate-processing" id="toc-tiptap-transfer-inappropriate-and-transfer-appropriate-processing" class="nav-link" data-scroll-target="#tiptap-transfer-inappropriate-and-transfer-appropriate-processing"><span class="toc-section-number">9.4.4</span>  TIP/TAP: Transfer-inappropriate and transfer-appropriate processing</a></li>
+  <li><a href="#the-levels-of-processing-principle" id="toc-the-levels-of-processing-principle" class="nav-link" data-scroll-target="#the-levels-of-processing-principle"><span class="header-section-number">9.4.1</span> The levels of processing principle</a></li>
+  <li><a href="#context-dependent-and-cue-dependent-memory" id="toc-context-dependent-and-cue-dependent-memory" class="nav-link" data-scroll-target="#context-dependent-and-cue-dependent-memory"><span class="header-section-number">9.4.2</span> Context-dependent and Cue-dependent memory</a></li>
+  <li><a href="#encoding-specificity-principle" id="toc-encoding-specificity-principle" class="nav-link" data-scroll-target="#encoding-specificity-principle"><span class="header-section-number">9.4.3</span> Encoding specificity principle</a></li>
+  <li><a href="#tiptap-transfer-inappropriate-and-transfer-appropriate-processing" id="toc-tiptap-transfer-inappropriate-and-transfer-appropriate-processing" class="nav-link" data-scroll-target="#tiptap-transfer-inappropriate-and-transfer-appropriate-processing"><span class="header-section-number">9.4.4</span> TIP/TAP: Transfer-inappropriate and transfer-appropriate processing</a></li>
   </ul></li>
-  <li><a href="#procedures-of-mind" id="toc-procedures-of-mind" class="nav-link" data-scroll-target="#procedures-of-mind"><span class="toc-section-number">9.5</span>  Procedures of Mind</a>
+  <li><a href="#procedures-of-mind" id="toc-procedures-of-mind" class="nav-link" data-scroll-target="#procedures-of-mind"><span class="header-section-number">9.5</span> Procedures of Mind</a>
   <ul>
-  <li><a href="#kolerian-reading" id="toc-kolerian-reading" class="nav-link" data-scroll-target="#kolerian-reading"><span class="toc-section-number">9.5.1</span>  Kolerian Reading</a></li>
+  <li><a href="#kolerian-reading" id="toc-kolerian-reading" class="nav-link" data-scroll-target="#kolerian-reading"><span class="header-section-number">9.5.1</span> Kolerian Reading</a></li>
   </ul></li>
-  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix"><span class="toc-section-number">9.6</span>  Appendix</a>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix"><span class="header-section-number">9.6</span> Appendix</a>
   <ul>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="toc-section-number">9.6.1</span>  References</a></li>
+  
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/CrumpLab/cognition/edit/main/textbook/C9_Memory_II.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/CrumpLab/cognition/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -365,7 +382,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">9 Memory II</h1>
+<h1 class="title">9 Memory II</h1>
 </div>
 
 
@@ -389,7 +406,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">October 23, 2022</p>
+      <p class="date-modified">March 20, 2023</p>
     </div>
   </div>
     
@@ -404,9 +421,6 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 </header>
 
-<div class="cell">
-
-</div>
 <section id="verbal-learning-and-verbal-behavior" class="level3" data-number="9.1">
 <h3 data-number="9.1" class="anchored" data-anchor-id="verbal-learning-and-verbal-behavior"><span class="header-section-number">9.1</span> Verbal Learning and Verbal Behavior</h3>
 <p>The period of behaviorism in American psychology had a sizeable influence on the character of memory research that would follow in the 1950s, 60s, and 70s. And, it is worth mentioning one of the transitional points between behaviorism and cognitive approaches to explain why so much of this chapter will be about memory for words.</p>
@@ -501,7 +515,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 <div class="cell-output-display">
 <div id="fig-9Melton_1970" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="imgs/Melton_1970.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
+<p><img src="imgs/Melton_1970.jpg" class="quarto-discovered-preview-image img-fluid figure-img" style="width:50.0%"></p>
 <p></p><figcaption class="figure-caption">Figure&nbsp;1: Results from <span class="citation" data-cites="meltonSituationRespectSpacing1970">Melton (<a href="#ref-meltonSituationRespectSpacing1970" role="doc-biblioref">1970</a>)</span>.</figcaption><p></p>
 </figure>
 </div>
@@ -751,7 +765,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 </div>
 </div>
 </div>
-<p>Kolers ran many kinds of experiments where people practiced the skill of reading geometrically transformed text <span class="citation" data-cites="kolersPatternanalyzingMemory1976 kolersReadingYearLater1976">(<a href="#ref-kolersReadingYearLater1976" role="doc-biblioref">Kolers, 1976a</a>, <a href="#ref-kolersPatternanalyzingMemory1976" role="doc-biblioref">1976b</a>)</span>. Several of his important findings are illustrated by the learning and transfer curves in the next graph. In this experiment <span class="citation" data-cites="kolersSpecificityPatternanalyzingSkills1978">(<a href="#ref-kolersSpecificityPatternanalyzingSkills1978" role="doc-biblioref">Kolers &amp; Magee, 1978</a>)</span>, participants practiced reading text for up to 7 one hour long sessions. They all received the exact same text, however one group practiced reading words out loud, and the other group practiced naming the letters in each word out loud.</p>
+<p>Kolers ran many kinds of experiments where people practiced the skill of reading geometrically transformed text <span class="citation" data-cites="kolersPatternanalyzingMemory1976 kolersReadingYearLater1976">(<a href="#ref-kolersPatternanalyzingMemory1976" role="doc-biblioref">Kolers, 1976a</a>, <a href="#ref-kolersReadingYearLater1976" role="doc-biblioref">1976b</a>)</span>. Several of his important findings are illustrated by the learning and transfer curves in the next graph. In this experiment <span class="citation" data-cites="kolersSpecificityPatternanalyzingSkills1978">(<a href="#ref-kolersSpecificityPatternanalyzingSkills1978" role="doc-biblioref">Kolers &amp; Magee, 1978</a>)</span>, participants practiced reading text for up to 7 one hour long sessions. They all received the exact same text, however one group practiced reading words out loud, and the other group practiced naming the letters in each word out loud.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div id="fig-9Procedures_transfer" class="quarto-figure quarto-figure-center anchored">
@@ -793,130 +807,130 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 
 
-</div></section><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">9.6.1 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
-<div id="ref-andersonRetrievalPropositionalInformation1974" class="csl-entry" role="doc-biblioentry">
+</div></section><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">9.6.1 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-andersonRetrievalPropositionalInformation1974" class="csl-entry" role="listitem">
 Anderson, J. R. (1974). Retrieval of propositional information from long-term memory. <em>Cognitive Psychology</em>, <em>6</em>(4), 451–474. <a href="https://doi.org/ch3zb4">https://doi.org/ch3zb4</a>
 </div>
-<div id="ref-andersonFanEffectNew1999" class="csl-entry" role="doc-biblioentry">
+<div id="ref-andersonFanEffectNew1999" class="csl-entry" role="listitem">
 Anderson, J. R., &amp; Reder, L. M. (1999). The fan effect: <span>New</span> results and new theories. <em>Journal of Experimental Psychology: General</em>, <em>128</em>(2), 186. <a href="https://doi.org/b86f7v">https://doi.org/b86f7v</a>
 </div>
-<div id="ref-balotaTestexpectancyWordfrequencyEffects1980" class="csl-entry" role="doc-biblioentry">
+<div id="ref-balotaTestexpectancyWordfrequencyEffects1980" class="csl-entry" role="listitem">
 Balota, D. A., &amp; Neely, J. H. (1980). Test-expectancy and word-frequency effects in recall and recognition. <em>Journal of Experimental Psychology: Human Learning and Memory</em>, <em>6</em>(5), 576. <a href="https://doi.org/b27sc5">https://doi.org/b27sc5</a>
 </div>
-<div id="ref-basdenDirectedForgettingContrast2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-basdenDirectedForgettingContrast2013" class="csl-entry" role="listitem">
 Basden, B. H., &amp; Basden, D. R. (2013). Directed forgetting: <span>A</span> contrast of methods and interpretations. In <em>Intentional forgetting</em> (pp. 151–184). <span>Psychology Press</span>.
 </div>
-<div id="ref-bertschGenerationEffectMetaanalytic2007" class="csl-entry" role="doc-biblioentry">
+<div id="ref-bertschGenerationEffectMetaanalytic2007" class="csl-entry" role="listitem">
 Bertsch, S., Pesta, B. J., Wiscott, R., &amp; McDaniel, M. A. (2007). The generation effect: <span>A</span> meta-analytic review. <em>Memory &amp; Cognition</em>, <em>35</em>(2), 201–210. <a href="https://doi.org/b92hb5">https://doi.org/b92hb5</a>
 </div>
-<div id="ref-bransfordContextualPrerequisitesUnderstanding1972" class="csl-entry" role="doc-biblioentry">
+<div id="ref-bransfordContextualPrerequisitesUnderstanding1972" class="csl-entry" role="listitem">
 Bransford, J. D., &amp; Johnson, M. K. (1972). Contextual prerequisites for understanding: <span>Some</span> investigations of comprehension and recall. <em>Journal of Verbal Learning and Verbal Behavior</em>, <em>11</em>(6), 717–726. <a href="https://doi.org/ftzpx9">https://doi.org/ftzpx9</a>
 </div>
-<div id="ref-brittRetroactiveInhibitionReview1935" class="csl-entry" role="doc-biblioentry">
+<div id="ref-brittRetroactiveInhibitionReview1935" class="csl-entry" role="listitem">
 Britt, S. H. (1935). Retroactive inhibition: A review of the literature. <em>Psychological Bulletin</em>, <em>32</em>(6), 381. <a href="https://doi.org/c2nk86">https://doi.org/c2nk86</a>
 </div>
-<div id="ref-chomskyReviewVerbalBehavior1959" class="csl-entry" role="doc-biblioentry">
+<div id="ref-chomskyReviewVerbalBehavior1959" class="csl-entry" role="listitem">
 Chomsky, N. (1959). Review of <span>Verbal</span> behavior. <em>Language</em>, <em>35</em>(1), 26–58. <a href="https://doi.org/cs73sr">https://doi.org/cs73sr</a>
 </div>
-<div id="ref-coferOriginsJournalVerbal1978" class="csl-entry" role="doc-biblioentry">
+<div id="ref-coferOriginsJournalVerbal1978" class="csl-entry" role="listitem">
 Cofer, C. N. (1978). Origins of the journal of verbal learning and verbal behavior. <em>Journal of Verbal Learning and Verbal Behavior</em>, <em>17</em>(1), 113–126. <a href="https://doi.org/bg5nfj">https://doi.org/bg5nfj</a>
 </div>
-<div id="ref-donovanMetaanalyticReviewDistribution1999" class="csl-entry" role="doc-biblioentry">
+<div id="ref-donovanMetaanalyticReviewDistribution1999" class="csl-entry" role="listitem">
 Donovan, J. J., &amp; Radosevich, D. J. (1999). A meta-analytic review of the distribution of practice effect: <span>Now</span> you see it, now you don’t. <em>Journal of Applied Psychology</em>, <em>84</em>(5), 795. <a href="https://doi.org/bq4f8b">https://doi.org/bq4f8b</a>
 </div>
-<div id="ref-engelkampMemorySelfperformedTasks1994" class="csl-entry" role="doc-biblioentry">
+<div id="ref-engelkampMemorySelfperformedTasks1994" class="csl-entry" role="listitem">
 Engelkamp, J., Zimmer, H. D., Mohr, G., &amp; Sellen, O. (1994). Memory of self-performed tasks: <span class="nocase">Self-performing</span> during recognition. <em>Memory &amp; Cognition</em>, <em>22</em>(1), 34–39. <a href="https://doi.org/cf5jdc">https://doi.org/cf5jdc</a>
 </div>
-<div id="ref-eshlemanQuantifiedTrendsHistory1991" class="csl-entry" role="doc-biblioentry">
+<div id="ref-eshlemanQuantifiedTrendsHistory1991" class="csl-entry" role="listitem">
 Eshleman, J. W. (1991). Quantified trends in the history of verbal behavior research. <em>The Analysis of Verbal Behavior</em>, <em>9</em>(1), 61–80. <a href="https://doi.org/gmghtf">https://doi.org/gmghtf</a>
 </div>
-<div id="ref-gehringRecognitionMemoryWords1976" class="csl-entry" role="doc-biblioentry">
+<div id="ref-gehringRecognitionMemoryWords1976" class="csl-entry" role="listitem">
 Gehring, R. E., Toglia, M. P., &amp; Kimble, G. A. (1976). Recognition memory for words and pictures at short and long retention intervals. <em>Memory &amp; Cognition</em>, <em>4</em>(3), 256–260. <a href="https://doi.org/bmxw8f">https://doi.org/bmxw8f</a>
 </div>
-<div id="ref-geiselmanPositiveForgettingSentence1974" class="csl-entry" role="doc-biblioentry">
+<div id="ref-geiselmanPositiveForgettingSentence1974" class="csl-entry" role="listitem">
 Geiselman, R. E. (1974). Positive forgetting of sentence material. <em>Memory &amp; Cognition</em>, <em>2</em>(4), 677–682. <a href="https://doi.org/cw8gm4">https://doi.org/cw8gm4</a>
 </div>
-<div id="ref-goddenContextdependentMemoryTwo1975" class="csl-entry" role="doc-biblioentry">
+<div id="ref-goddenContextdependentMemoryTwo1975" class="csl-entry" role="listitem">
 Godden, D. R., &amp; Baddeley, A. D. (1975). Context-dependent memory in two natural environments: <span>On</span> land and underwater. <em>British Journal of Psychology</em>, <em>66</em>(3), 325–331. <a href="https://doi.org/10.1111/j.2044-8295.1975.tb01468.x">https://doi.org/10.1111/j.2044-8295.1975.tb01468.x</a>
 </div>
-<div id="ref-greenSignalDetectionTheory1966" class="csl-entry" role="doc-biblioentry">
+<div id="ref-greenSignalDetectionTheory1966" class="csl-entry" role="listitem">
 Green, D. M., &amp; Swets, J. A. (1966). <em>Signal detection theory and psychophysics</em> (Vol. 1). <span>Wiley New York</span>.
 </div>
-<div id="ref-greggWordFrequencyRecognition1976" class="csl-entry" role="doc-biblioentry">
+<div id="ref-greggWordFrequencyRecognition1976" class="csl-entry" role="listitem">
 Gregg, V. (1976). <em>Word frequency, recognition and recall.</em>
 </div>
-<div id="ref-hintzmanRecognitionTimeEffects1969" class="csl-entry" role="doc-biblioentry">
+<div id="ref-hintzmanRecognitionTimeEffects1969" class="csl-entry" role="listitem">
 Hintzman, D. L. (1969). Recognition time: <span>Effects</span> of recency, frequency and the spacing of repetitions. <em>Journal of Experimental Psychology</em>, <em>79</em>, 192–194. <a href="https://doi.org/ff46mx">https://doi.org/ff46mx</a>
 </div>
-<div id="ref-hockleyPictureSuperiorityEffect2008" class="csl-entry" role="doc-biblioentry">
+<div id="ref-hockleyPictureSuperiorityEffect2008" class="csl-entry" role="listitem">
 Hockley, W. E. (2008). The picture superiority effect in associative recognition. <em>Memory &amp; Cognition</em>, <em>36</em>(7), 1351–1359. <a href="https://doi.org/dn8pxw">https://doi.org/dn8pxw</a>
 </div>
-<div id="ref-kolersReadingYearLater1976" class="csl-entry" role="doc-biblioentry">
-Kolers, P. A. (1976a). Reading a year later. <em>Journal of Experimental Psychology: Human Learning and Memory</em>, <em>2</em>(5), 554–565. <a href="https://doi.org/bkd9qf">https://doi.org/bkd9qf</a>
+<div id="ref-kolersPatternanalyzingMemory1976" class="csl-entry" role="listitem">
+Kolers, P. A. (1976a). Pattern-analyzing memory. <em>Science</em>, <em>191</em>(4233), 1280–1281. <a href="https://doi.org/brptrd">https://doi.org/brptrd</a>
 </div>
-<div id="ref-kolersPatternanalyzingMemory1976" class="csl-entry" role="doc-biblioentry">
-Kolers, P. A. (1976b). Pattern-analyzing memory. <em>Science</em>, <em>191</em>(4233), 1280–1281. <a href="https://doi.org/brptrd">https://doi.org/brptrd</a>
+<div id="ref-kolersReadingYearLater1976" class="csl-entry" role="listitem">
+Kolers, P. A. (1976b). Reading a year later. <em>Journal of Experimental Psychology: Human Learning and Memory</em>, <em>2</em>(5), 554–565. <a href="https://doi.org/bkd9qf">https://doi.org/bkd9qf</a>
 </div>
-<div id="ref-kolersSpecificityPatternanalyzingSkills1978" class="csl-entry" role="doc-biblioentry">
+<div id="ref-kolersSpecificityPatternanalyzingSkills1978" class="csl-entry" role="listitem">
 Kolers, P. A., &amp; Magee, L. E. (1978). Specificity of pattern-analyzing skills in reading. <em>Canadian Journal of Psychology/Revue Canadienne de Psychologie</em>, <em>32</em>(1), 43–51. <a href="https://doi.org/b8q4w6">https://doi.org/b8q4w6</a>
 </div>
-<div id="ref-kolersProceduresMind1984" class="csl-entry" role="doc-biblioentry">
+<div id="ref-kolersProceduresMind1984" class="csl-entry" role="listitem">
 Kolers, P. A., &amp; Roediger, H. L. (1984). Procedures of mind. <em>Journal of Verbal Learning and Verbal Behavior</em>, <em>23</em>(4), 425–449. <a href="https://doi.org/b7gfkh">https://doi.org/b7gfkh</a>
 </div>
-<div id="ref-macleodProductionEffectDelineation2010" class="csl-entry" role="doc-biblioentry">
+<div id="ref-macleodProductionEffectDelineation2010" class="csl-entry" role="listitem">
 MacLeod, C. M., Gopie, N., Hourihan, K. L., Neary, K. R., &amp; Ozubko, J. D. (2010). The production effect: Delineation of a phenomenon. <em>Journal of Experimental Psychology: Learning, Memory, and Cognition</em>, <em>36</em>(3), 671. <a href="https://doi.org/b24f36">https://doi.org/b24f36</a>
 </div>
-<div id="ref-meltonSituationRespectSpacing1970" class="csl-entry" role="doc-biblioentry">
+<div id="ref-meltonSituationRespectSpacing1970" class="csl-entry" role="listitem">
 Melton, A. W. (1970). The situation with respect to the spacing of repetitions and memory. <em>Journal of Verbal Learning and Verbal Behavior</em>, <em>9</em>(5), 596–606. <a href="https://doi.org/cpd74k">https://doi.org/cpd74k</a>
 </div>
-<div id="ref-morrisLevelsProcessingTransfer1977" class="csl-entry" role="doc-biblioentry">
+<div id="ref-morrisLevelsProcessingTransfer1977" class="csl-entry" role="listitem">
 Morris, C. D., Bransford, J. D., &amp; Franks, J. J. (1977). Levels of processing versus transfer appropriate processing. <em>Journal of Verbal Learning and Verbal Behavior</em>, <em>16</em>(5), 519–533. <a href="https://doi.org/cjf38v">https://doi.org/cjf38v</a>
 </div>
-<div id="ref-oberauerUnderstandingSerialPosition2003" class="csl-entry" role="doc-biblioentry">
+<div id="ref-oberauerUnderstandingSerialPosition2003" class="csl-entry" role="listitem">
 Oberauer, K. (2003). Understanding serial position curves in short-term recognition and recall. <em>Journal of Memory and Language</em>, <em>49</em>(4), 469–483. <a href="https://doi.org/b9d2t6">https://doi.org/b9d2t6</a>
 </div>
-<div id="ref-paivioWhyArePictures1968" class="csl-entry" role="doc-biblioentry">
+<div id="ref-paivioWhyArePictures1968" class="csl-entry" role="listitem">
 Paivio, A., Rogers, T. B., &amp; Smythe, P. C. (1968). Why are pictures easier to recall than words? <em>Psychonomic Science</em>, <em>11</em>(4), 137–138. <a href="https://doi.org/ggh75r">https://doi.org/ggh75r</a>
 </div>
-<div id="ref-petersonShorttermVerbalMemory1966" class="csl-entry" role="doc-biblioentry">
+<div id="ref-petersonShorttermVerbalMemory1966" class="csl-entry" role="listitem">
 Peterson, L. R. (1966). Short-term verbal memory and learning. <em>Psychological Review</em>, <em>73</em>(3), 193–207. <a href="https://doi.org/d33h6s">https://doi.org/d33h6s</a>
 </div>
-<div id="ref-petersonRecencyFrequencyPairedassociate1962" class="csl-entry" role="doc-biblioentry">
+<div id="ref-petersonRecencyFrequencyPairedassociate1962" class="csl-entry" role="listitem">
 Peterson, L. R., Saltzman, D., Hillner, K., &amp; Land, V. (1962). Recency and frequency in paired-associate learning. <em>Journal of Experimental Psychology</em>, <em>63</em>(4), 396–403. <a href="https://doi.org/bz3d84">https://doi.org/bz3d84</a>
 </div>
-<div id="ref-postmanRetroactiveInhibitionRecall1952" class="csl-entry" role="doc-biblioentry">
+<div id="ref-postmanRetroactiveInhibitionRecall1952" class="csl-entry" role="listitem">
 Postman, L. (1952). Retroactive inhibition in recall and recognition. <em>Journal of Experimental Psychology</em>, <em>44</em>(3), 165–169. <a href="https://doi.org/fxd9qq">https://doi.org/fxd9qq</a>
 </div>
-<div id="ref-roedigeriiiCriticalRoleRetrieval2011" class="csl-entry" role="doc-biblioentry">
+<div id="ref-roedigeriiiCriticalRoleRetrieval2011" class="csl-entry" role="listitem">
 Roediger III, H. L., &amp; Butler, A. C. (2011). The critical role of retrieval practice in long-term retention. <em>Trends in Cognitive Sciences</em>, <em>15</em>(1), 20–27. <a href="https://doi.org/fh5t8r">https://doi.org/fh5t8r</a>
 </div>
-<div id="ref-roedigeriiiPaulKolers19261987" class="csl-entry" role="doc-biblioentry">
+<div id="ref-roedigeriiiPaulKolers19261987" class="csl-entry" role="listitem">
 Roediger III, H. L., &amp; Craik, F. I. (1987). <em>Paul <span>A</span>. <span>Kolers</span> (1926–1986).</em> <a href="https://doi.org/dx7dcm">https://doi.org/dx7dcm</a>
 </div>
-<div id="ref-roedigeriiiTestenhancedLearningTaking2006" class="csl-entry" role="doc-biblioentry">
+<div id="ref-roedigeriiiTestenhancedLearningTaking2006" class="csl-entry" role="listitem">
 Roediger III, H. L., &amp; Karpicke, J. D. (2006). Test-enhanced learning: <span>Taking</span> memory tests improves long-term retention. <em>Psychological Science</em>, <em>17</em>(3), 249–255. <a href="https://doi.org/cp47ms">https://doi.org/cp47ms</a>
 </div>
-<div id="ref-rogersSelfreferenceEncodingPersonal1977" class="csl-entry" role="doc-biblioentry">
+<div id="ref-rogersSelfreferenceEncodingPersonal1977" class="csl-entry" role="listitem">
 Rogers, T. B., Kuiper, N. A., &amp; Kirker, W. S. (1977). Self-reference and the encoding of personal information. <em>Journal of Personality and Social Psychology</em>, <em>35</em>(9), 677. <a href="https://doi.org/cfzwx7">https://doi.org/cfzwx7</a>
 </div>
-<div id="ref-skinnerVerbalBehavior1957" class="csl-entry" role="doc-biblioentry">
+<div id="ref-skinnerVerbalBehavior1957" class="csl-entry" role="listitem">
 Skinner, B. F. (1957). <em>Verbal behavior</em>. <span>New York: Appleton-Century-Crofts</span>.
 </div>
-<div id="ref-slameckaGenerationEffectDelineation1978a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-slameckaGenerationEffectDelineation1978a" class="csl-entry" role="listitem">
 Slamecka, N. J., &amp; Graf, P. (1978). The generation effect: <span>Delineation</span> of a phenomenon. <em>Journal of Experimental Psychology: Human Learning and Memory</em>, <em>4</em>(6), 592. <a href="https://doi.org/ctgqkf">https://doi.org/ctgqkf</a>
 </div>
-<div id="ref-smithTheoreticalPrinciplesContextdependent1994" class="csl-entry" role="doc-biblioentry">
+<div id="ref-smithTheoreticalPrinciplesContextdependent1994" class="csl-entry" role="listitem">
 Smith, S. M. (1994). Theoretical principles of context-dependent memory. <em>Theoretical Aspects of Memory</em>, <em>2</em>, 168–195.
 </div>
-<div id="ref-tulvingEncodingSpecificityRetrieval1973" class="csl-entry" role="doc-biblioentry">
+<div id="ref-tulvingEncodingSpecificityRetrieval1973" class="csl-entry" role="listitem">
 Tulving, E., &amp; Thomson, D. M. (1973). Encoding specificity and retrieval processes in episodic memory. <em>Psychological Review</em>, <em>80</em>(5), 352. <a href="https://doi.org/cgj2rr">https://doi.org/cgj2rr</a>
 </div>
-<div id="ref-underwoodInterferenceForgetting1957" class="csl-entry" role="doc-biblioentry">
+<div id="ref-underwoodInterferenceForgetting1957" class="csl-entry" role="listitem">
 Underwood, B. J. (1957). Interference and forgetting. <em>Psychological Review</em>, <em>64</em>(1), 49–60. <a href="https://doi.org/c3vqj9">https://doi.org/c3vqj9</a>
 </div>
-</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@incollection{j.c.crump2021,
-  author = {Matthew J. C. Crump},
-  editor = {Matthew J. C. Crump},
+</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@incollection{j.c.crump2021,
+  author = {J.C.Crump, Matthew},
+  editor = {J.C.Crump, Matthew},
   title = {Memory {II}},
   booktitle = {Instances of Cognition: Questions, Methods, Findings,
     Explanations, Applications, and Implications},
@@ -930,10 +944,10 @@ Underwood, B. J. (1957). Interference and forgetting. <em>Psychological Review</
     this time period onward. I will also focus less on models of memory,
     and more on tasks, phenomena, and principles of memory.}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-j.c.crump2021" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-Matthew J. C. Crump. (2021). Memory II. In Matthew J. C. Crump (Ed.),
-<em>Instances of Cognition: Questions, Methods, Findings, Explanations,
-Applications, and Implications</em>. <a href="https://crumplab.com/cognition/textbook">https://crumplab.com/cognition/textbook</a>
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-j.c.crump2021" class="csl-entry quarto-appendix-citeas" role="listitem">
+J.C.Crump, M. (2021). Memory II. In M. J.C.Crump (Ed.), <em>Instances of
+Cognition: Questions, Methods, Findings, Explanations, Applications, and
+Implications</em>. <a href="https://crumplab.com/cognition/textbook">https://crumplab.com/cognition/textbook</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -962,9 +976,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1029,6 +1057,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -1072,6 +1186,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">This page is built with <a href="https://quarto.org/">Quarto</a>.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

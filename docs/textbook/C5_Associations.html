@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.210">
+<meta name="generator" content="quarto-1.3.258">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,14 +19,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -40,8 +41,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -93,11 +93,11 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="custom.css">
 <meta property="og:title" content="cognition - 5 Associations">
-<meta property="og:description" content="This chapter covers associationism and early empirical work on associative learning processes in humans and  non-human animals.">
+<meta property="og:description" content="This chapter covers associationism and early empirical work on associative learning processes in humans and non-human animals.">
 <meta property="og:image" content="https://crumplab.com/cognition/textbook/imgs/cover.jpg">
 <meta property="og:site-name" content="cognition">
 <meta name="twitter:title" content="cognition - 5 Associations">
-<meta name="twitter:description" content="This chapter covers associationism and early empirical work on associative learning processes in humans and  non-human animals.">
+<meta name="twitter:description" content="This chapter covers associationism and early empirical work on associative learning processes in humans and non-human animals.">
 <meta name="twitter:image" content="https://crumplab.com/cognition/textbook/imgs/cover.jpg">
 <meta name="twitter:creator" content="@MattCrumpLab">
 <meta name="twitter:card" content="summary_large_image">
@@ -114,137 +114,141 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <img src="../images/logo.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">
+    <a class="nav-link active" href="../index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/course_docs/Fall_2022_Psyc_2530_syllabus.html">
+    <a class="nav-link" href="../articles/course_docs/Fall_2022_Psyc_2530_syllabus.html" rel="" target="">
  <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../textbook/index.html" aria-current="page">
+    <a class="nav-link" href="../textbook/index.html" rel="" target="">
  <span class="menu-text">Textbook</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/modules.html">
+    <a class="nav-link" href="../articles/modules.html" rel="" target="">
  <span class="menu-text">Learning Modules</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Slides</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-slides">    
         <li>
-    <a class="dropdown-item" href="../slides/L0_Getting_started/L0_Getting_Started.html">
+    <a class="dropdown-item" href="../slides/L0_Getting_started/L0_Getting_Started.html" rel="" target="">
  <span class="dropdown-text">Lecture 0 - Getting Started</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L1_Instances/L1_Instances.html">
+    <a class="dropdown-item" href="../slides/L1_Instances/L1_Instances.html" rel="" target="">
  <span class="dropdown-text">Lecture 1 - What is Cognition?</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L2_QALMRI/L2_QALMRI.html">
+    <a class="dropdown-item" href="../slides/L2_QALMRI/L2_QALMRI.html" rel="" target="">
  <span class="dropdown-text">Lecture 2 - Reading Research</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L3_Imagery/L3_Imagery.html">
+    <a class="dropdown-item" href="../slides/L3_Imagery/L3_Imagery.html" rel="" target="">
  <span class="dropdown-text">Lecture 3 - Mental Imagery</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L4_Eugenics/L4_Eugenics.html">
+    <a class="dropdown-item" href="../slides/L4_Eugenics/L4_Eugenics.html" rel="" target="">
  <span class="dropdown-text">Lecture 4 - Psychology and Eugenics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L5_IQ/L5_IQ.html">
+    <a class="dropdown-item" href="../slides/L5_IQ/L5_IQ.html" rel="" target="">
  <span class="dropdown-text">Lecture 5 - Intelligence Testing</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L6_Associations/L6_Associations.html">
+    <a class="dropdown-item" href="../slides/L6_Associations/L6_Associations.html" rel="" target="">
  <span class="dropdown-text">Lecture 6 - Associations</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L8_Behaviorism/L8_Behaviorism.html">
+    <a class="dropdown-item" href="../slides/L8_Behaviorism/L8_Behaviorism.html" rel="" target="">
  <span class="dropdown-text">Lecture 8 - Behaviorism</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L9_Information/L9_Information.html">
+    <a class="dropdown-item" href="../slides/L9_Information/L9_Information.html" rel="" target="">
  <span class="dropdown-text">Lecture 9 - Information Processing</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L10_Memory_1/L10_Memory_1.html">
+    <a class="dropdown-item" href="../slides/L10_Memory_1/L10_Memory_1.html" rel="" target="">
  <span class="dropdown-text">Lecture 10 - Memory I</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L11_Memory_2/L11_Memory_2.html">
+    <a class="dropdown-item" href="../slides/L11_Memory_2/L11_Memory_2.html" rel="" target="">
  <span class="dropdown-text">Lecture 11 - Memory II</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L12_Implicit/L12_Implicit.html">
+    <a class="dropdown-item" href="../slides/L12_Implicit/L12_Implicit.html" rel="" target="">
  <span class="dropdown-text">Lecture 12 - Implicit Influences</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L13_Attention/L13_Attention.html">
+    <a class="dropdown-item" href="../slides/L13_Attention/L13_Attention.html" rel="" target="">
  <span class="dropdown-text">Lecture 13 - Attention</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/Extra_Minerva/Extra_Minerva.html">
+    <a class="dropdown-item" href="../slides/Extra_Minerva/Extra_Minerva.html" rel="" target="">
  <span class="dropdown-text">Lecture 13.5 - Instance Theory</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L14_Language/L14_Language.html">
+    <a class="dropdown-item" href="../slides/L14_Language/L14_Language.html" rel="" target="">
  <span class="dropdown-text">Lecture 14 - Language</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L15_JDM/L15_JDM.html">
+    <a class="dropdown-item" href="../slides/L15_JDM/L15_JDM.html" rel="" target="">
  <span class="dropdown-text">Lecture 15 - Judgment and Decision-making</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../articles/honors/honors.html">
+    <a class="nav-link" href="../articles/honors/honors.html" rel="" target="">
  <span class="menu-text">Honors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/course_docs/resources.html">
+    <a class="nav-link" href="../articles/course_docs/resources.html" rel="" target="">
  <span class="menu-text">Additional Resources</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../articles/oer/OER.html">
+    <a class="nav-link" href="../articles/oer/oer.html" rel="" target="">
  <span class="menu-text">OER</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/CrumpLab/cognition"><i class="bi bi-github" role="img" aria-label="GitHub">
+    <a class="nav-link" href="https://github.com/CrumpLab/cognition" rel="" target=""><i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">5 Associations</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../textbook/C5_Associations.html">5 Associations</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../" class="sidebar-logo-link">
+      <a href="../index.html" class="sidebar-logo-link">
       <img src="../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
@@ -252,105 +256,118 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/index.html" class="sidebar-item-text sidebar-link">Instances of Cognition</a>
+  <a href="../textbook/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Instances of Cognition</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/Preface.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="../textbook/Preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/Reading_Formats.html" class="sidebar-item-text sidebar-link">Reading Formats</a>
+  <a href="../textbook/Reading_Formats.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reading Formats</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C1_What_is_Cognition.html" class="sidebar-item-text sidebar-link">1 What is Cognition?</a>
+  <a href="../textbook/C1_What_is_Cognition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1 What is Cognition?</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C2_Mental_Imagery.html" class="sidebar-item-text sidebar-link">2 Mental Imagery</a>
+  <a href="../textbook/C2_Mental_Imagery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2 Mental Imagery</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C3_Eugenics.html" class="sidebar-item-text sidebar-link">3 Eugenics and Psychology</a>
+  <a href="../textbook/C3_Eugenics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3 Eugenics and Psychology</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C4_Intelligence_testing.html" class="sidebar-item-text sidebar-link">4 Intelligence Testing</a>
+  <a href="../textbook/C4_Intelligence_testing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4 Intelligence Testing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C5_Associations.html" class="sidebar-item-text sidebar-link active">5 Associations</a>
+  <a href="../textbook/C5_Associations.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">5 Associations</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C6_Behaviorism.html" class="sidebar-item-text sidebar-link">6 Behaviorism</a>
+  <a href="../textbook/C6_Behaviorism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6 Behaviorism</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C7_Information_Processing.html" class="sidebar-item-text sidebar-link">7 Information Processing</a>
+  <a href="../textbook/C7_Information_Processing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7 Information Processing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C8_Memory_I.html" class="sidebar-item-text sidebar-link">8 Memory I</a>
+  <a href="../textbook/C8_Memory_I.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8 Memory I</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C9_Memory_II.html" class="sidebar-item-text sidebar-link">9 Memory II</a>
+  <a href="../textbook/C9_Memory_II.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9 Memory II</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#evolving-ideas-on-cognition" id="toc-evolving-ideas-on-cognition" class="nav-link active" data-scroll-target="#evolving-ideas-on-cognition"><span class="toc-section-number">5.1</span>  Evolving ideas on cognition</a>
+  <li><a href="#evolving-ideas-on-cognition" id="toc-evolving-ideas-on-cognition" class="nav-link active" data-scroll-target="#evolving-ideas-on-cognition"><span class="header-section-number">5.1</span> Evolving ideas on cognition</a>
   <ul>
-  <li><a href="#humans-and-animals" id="toc-humans-and-animals" class="nav-link" data-scroll-target="#humans-and-animals"><span class="toc-section-number">5.1.1</span>  Humans and animals</a></li>
-  <li><a href="#philosophy" id="toc-philosophy" class="nav-link" data-scroll-target="#philosophy"><span class="toc-section-number">5.1.2</span>  Philosophy</a></li>
-  <li><a href="#natural-science" id="toc-natural-science" class="nav-link" data-scroll-target="#natural-science"><span class="toc-section-number">5.1.3</span>  Natural Science</a></li>
-  <li><a href="#evolution" id="toc-evolution" class="nav-link" data-scroll-target="#evolution"><span class="toc-section-number">5.1.4</span>  Evolution</a></li>
-  <li><a href="#associative-claims" id="toc-associative-claims" class="nav-link" data-scroll-target="#associative-claims"><span class="toc-section-number">5.1.5</span>  Associative Claims</a></li>
+  <li><a href="#humans-and-animals" id="toc-humans-and-animals" class="nav-link" data-scroll-target="#humans-and-animals"><span class="header-section-number">5.1.1</span> Humans and animals</a></li>
+  <li><a href="#philosophy" id="toc-philosophy" class="nav-link" data-scroll-target="#philosophy"><span class="header-section-number">5.1.2</span> Philosophy</a></li>
+  <li><a href="#natural-science" id="toc-natural-science" class="nav-link" data-scroll-target="#natural-science"><span class="header-section-number">5.1.3</span> Natural Science</a></li>
+  <li><a href="#evolution" id="toc-evolution" class="nav-link" data-scroll-target="#evolution"><span class="header-section-number">5.1.4</span> Evolution</a></li>
+  <li><a href="#associative-claims" id="toc-associative-claims" class="nav-link" data-scroll-target="#associative-claims"><span class="header-section-number">5.1.5</span> Associative Claims</a></li>
   </ul></li>
-  <li><a href="#cattells-associative-reaction-times" id="toc-cattells-associative-reaction-times" class="nav-link" data-scroll-target="#cattells-associative-reaction-times"><span class="toc-section-number">5.2</span>  Cattell’s Associative Reaction times</a>
+  <li><a href="#cattells-associative-reaction-times" id="toc-cattells-associative-reaction-times" class="nav-link" data-scroll-target="#cattells-associative-reaction-times"><span class="header-section-number">5.2</span> Cattell’s Associative Reaction times</a>
   <ul>
-  <li><a href="#naming-times" id="toc-naming-times" class="nav-link" data-scroll-target="#naming-times"><span class="toc-section-number">5.2.1</span>  Naming times</a></li>
-  <li><a href="#association-reaction-times" id="toc-association-reaction-times" class="nav-link" data-scroll-target="#association-reaction-times"><span class="toc-section-number">5.2.2</span>  Association reaction times</a></li>
+  <li><a href="#naming-times" id="toc-naming-times" class="nav-link" data-scroll-target="#naming-times"><span class="header-section-number">5.2.1</span> Naming times</a></li>
+  <li><a href="#association-reaction-times" id="toc-association-reaction-times" class="nav-link" data-scroll-target="#association-reaction-times"><span class="header-section-number">5.2.2</span> Association reaction times</a></li>
   </ul></li>
-  <li><a href="#thorndikes-puzzle-boxes" id="toc-thorndikes-puzzle-boxes" class="nav-link" data-scroll-target="#thorndikes-puzzle-boxes"><span class="toc-section-number">5.3</span>  Thorndike’s puzzle boxes</a>
+  <li><a href="#thorndikes-puzzle-boxes" id="toc-thorndikes-puzzle-boxes" class="nav-link" data-scroll-target="#thorndikes-puzzle-boxes"><span class="header-section-number">5.3</span> Thorndike’s puzzle boxes</a>
   <ul>
-  <li><a href="#thornikes-basic-methodology" id="toc-thornikes-basic-methodology" class="nav-link" data-scroll-target="#thornikes-basic-methodology"><span class="toc-section-number">5.3.1</span>  Thornike’s basic methodology</a></li>
-  <li><a href="#putative-mental-components-of-association" id="toc-putative-mental-components-of-association" class="nav-link" data-scroll-target="#putative-mental-components-of-association"><span class="toc-section-number">5.3.2</span>  Putative Mental Components of Association</a></li>
-  <li><a href="#experimental-questions-about-associative-processes" id="toc-experimental-questions-about-associative-processes" class="nav-link" data-scroll-target="#experimental-questions-about-associative-processes"><span class="toc-section-number">5.3.3</span>  Experimental questions about associative processes</a></li>
-  <li><a href="#further-associative-questions" id="toc-further-associative-questions" class="nav-link" data-scroll-target="#further-associative-questions"><span class="toc-section-number">5.3.4</span>  Further associative questions</a></li>
+  <li><a href="#thornikes-basic-methodology" id="toc-thornikes-basic-methodology" class="nav-link" data-scroll-target="#thornikes-basic-methodology"><span class="header-section-number">5.3.1</span> Thornike’s basic methodology</a></li>
+  <li><a href="#putative-mental-components-of-association" id="toc-putative-mental-components-of-association" class="nav-link" data-scroll-target="#putative-mental-components-of-association"><span class="header-section-number">5.3.2</span> Putative Mental Components of Association</a></li>
+  <li><a href="#experimental-questions-about-associative-processes" id="toc-experimental-questions-about-associative-processes" class="nav-link" data-scroll-target="#experimental-questions-about-associative-processes"><span class="header-section-number">5.3.3</span> Experimental questions about associative processes</a></li>
+  <li><a href="#further-associative-questions" id="toc-further-associative-questions" class="nav-link" data-scroll-target="#further-associative-questions"><span class="header-section-number">5.3.4</span> Further associative questions</a></li>
   </ul></li>
-  <li><a href="#pavlovs-classical-conditioning" id="toc-pavlovs-classical-conditioning" class="nav-link" data-scroll-target="#pavlovs-classical-conditioning"><span class="toc-section-number">5.4</span>  Pavlov’s Classical Conditioning</a>
+  <li><a href="#pavlovs-classical-conditioning" id="toc-pavlovs-classical-conditioning" class="nav-link" data-scroll-target="#pavlovs-classical-conditioning"><span class="header-section-number">5.4</span> Pavlov’s Classical Conditioning</a>
   <ul>
-  <li><a href="#descartes-reflex" id="toc-descartes-reflex" class="nav-link" data-scroll-target="#descartes-reflex"><span class="toc-section-number">5.4.1</span>  Descartes’ reflex</a></li>
-  <li><a href="#pavlovs-liquid" id="toc-pavlovs-liquid" class="nav-link" data-scroll-target="#pavlovs-liquid"><span class="toc-section-number">5.4.2</span>  Pavlov’s liquid</a></li>
-  <li><a href="#simple-acquisition-and-conditioning-terminology" id="toc-simple-acquisition-and-conditioning-terminology" class="nav-link" data-scroll-target="#simple-acquisition-and-conditioning-terminology"><span class="toc-section-number">5.4.3</span>  Simple acquisition and conditioning terminology</a></li>
-  <li><a href="#extinction" id="toc-extinction" class="nav-link" data-scroll-target="#extinction"><span class="toc-section-number">5.4.4</span>  Extinction</a></li>
-  <li><a href="#spontaneous-recovery" id="toc-spontaneous-recovery" class="nav-link" data-scroll-target="#spontaneous-recovery"><span class="toc-section-number">5.4.5</span>  Spontaneous Recovery</a></li>
+  <li><a href="#descartes-reflex" id="toc-descartes-reflex" class="nav-link" data-scroll-target="#descartes-reflex"><span class="header-section-number">5.4.1</span> Descartes’ reflex</a></li>
+  <li><a href="#pavlovs-liquid" id="toc-pavlovs-liquid" class="nav-link" data-scroll-target="#pavlovs-liquid"><span class="header-section-number">5.4.2</span> Pavlov’s liquid</a></li>
+  <li><a href="#simple-acquisition-and-conditioning-terminology" id="toc-simple-acquisition-and-conditioning-terminology" class="nav-link" data-scroll-target="#simple-acquisition-and-conditioning-terminology"><span class="header-section-number">5.4.3</span> Simple acquisition and conditioning terminology</a></li>
+  <li><a href="#extinction" id="toc-extinction" class="nav-link" data-scroll-target="#extinction"><span class="header-section-number">5.4.4</span> Extinction</a></li>
+  <li><a href="#spontaneous-recovery" id="toc-spontaneous-recovery" class="nav-link" data-scroll-target="#spontaneous-recovery"><span class="header-section-number">5.4.5</span> Spontaneous Recovery</a></li>
   </ul></li>
-  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions"><span class="toc-section-number">5.5</span>  Conclusions</a></li>
-  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix"><span class="toc-section-number">5.6</span>  Appendix</a>
+  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions"><span class="header-section-number">5.5</span> Conclusions</a></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix"><span class="header-section-number">5.6</span> Appendix</a>
   <ul>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="toc-section-number">5.6.1</span>  References</a></li>
+  
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/CrumpLab/cognition/edit/main/textbook/C5_Associations.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/CrumpLab/cognition/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -360,7 +377,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">5 Associations</h1>
+<h1 class="title">5 Associations</h1>
 </div>
 
 
@@ -384,7 +401,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">November 24, 2022</p>
+      <p class="date-modified">March 20, 2023</p>
     </div>
   </div>
     
@@ -399,9 +416,6 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 </header>
 
-<div class="cell">
-
-</div>
 <p>The previous chapter covered research on cognitive abilities spanning roughly from the 1860s to the 1960s from the perspective of individual differences psychology. For example, in addition to developing mental tests, Alfred Binet wrote more broadly about his school of “Individual Psychology” <span class="citation" data-cites="nicolasProgramIndividualPsychology2014">(<a href="#ref-nicolasProgramIndividualPsychology2014" role="doc-biblioref">Nicolas et al., 2014</a>)</span> that was aimed at using measurements of variation in human attributes to make society more efficient. However, the Individual Differences school of psychology was not the only approach to studying cognitive abilities. Instead, the methods of experimental psychology were also used to ask and answer questions about cognitive abilities. Experimental psychologists also developed tests, but they more often took the form of experimental manipulations. And, the results of the experiments were used to evaluate theories about how cognitive processes work. This chapter will focus on associationism and early empirical work on associative learning processes in humans and non-human animals.</p>
 <!--
 As a sidenote, this chapter will proceed with a greater focus on individual findings and theories, and less description of historical context (although some of that will be provided to). As an overview, we will cover a few important findings from the learning literature, including Pavlov's discovery of classical conditioning, and Tolman's work on the ability of rat's to learn how to navigate mazes. And, two important findings from the early information theory literature, including the Hick-Hyman Law, and George Miller's Magical Number Seven. For each set of findings, we will discuss explanations in terms of associations and information theory.
@@ -454,14 +468,14 @@ As a sidenote, this chapter will proceed with a greater focus on individual find
 <p>We met James McKeen Cattell in the last chapter, as he was an early proponent of mental ability testing before Binet. Cattell also used experimental psychology methods to ask gather evidence about associative processes in people.</p>
 <section id="naming-times" class="level4" data-number="5.2.1">
 <h4 data-number="5.2.1" class="anchored" data-anchor-id="naming-times"><span class="header-section-number">5.2.1</span> Naming times</h4>
-<p>In one set of studies he measured how long it took people to see and name objects <span class="citation" data-cites="cattellTimeItTakes1886 cattellTIMETAKENCEREBRAL1886">(<a href="#ref-cattellTIMETAKENCEREBRAL1886" role="doc-biblioref">CATTELL, 1886</a>; <a href="#ref-cattellTimeItTakes1886" role="doc-biblioref">Cattell, 1886</a>)</span>. The ability to identify an object by naming it out loud was presumed to involve an association between perceiving the object and the action needed to utter the object’s name. One of Cattell’s findings was that people take twice as long to read words that “have no connexion”, compared to words that are in a sentence; and, twice as long to read letters that are not in order, compared to letters that are in words.</p>
+<p>In one set of studies he measured how long it took people to see and name objects <span class="citation" data-cites="cattellTimeItTakes1886 cattellTIMETAKENCEREBRAL1886">(<a href="#ref-cattellTimeItTakes1886" role="doc-biblioref">Cattell, 1886</a>; <a href="#ref-cattellTIMETAKENCEREBRAL1886" role="doc-biblioref">CATTELL, 1886</a>)</span>. The ability to identify an object by naming it out loud was presumed to involve an association between perceiving the object and the action needed to utter the object’s name. One of Cattell’s findings was that people take twice as long to read words that “have no connexion”, compared to words that are in a sentence; and, twice as long to read letters that are not in order, compared to letters that are in words.</p>
 <p>For example, Cattell’s subjects were twice as fast to read a regular versus scrambled sentence <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
-<div class="callout-note callout callout-style-default no-icon callout-captioned">
+<div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read each of the WORDS below as fast as you can
 </div>
 </div>
@@ -472,12 +486,12 @@ Read each of the WORDS below as fast as you can
 </div>
 </div>
 <p>Similarly, if the task was to read individual letters one a time, Cattell’s subjects were twice as fast to read letters when they occurred in words compared to when they did not. This general finding was later re-discovered, and termed the word-superiority effect in 1969 <span class="citation" data-cites="reicherPerceptualRecognitionFunction1969">(<a href="#ref-reicherPerceptualRecognitionFunction1969" role="doc-biblioref">Reicher, 1969</a>)</span>.</p>
-<div class="callout-note callout callout-style-default no-icon callout-captioned">
+<div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read each of the LETTERS as fast as you can
 </div>
 </div>
@@ -508,7 +522,7 @@ Read each of the LETTERS as fast as you can
 <div class="no-row-height column-margin column-container"><div class="cell-output-display">
 <div id="fig-5Thorndike" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="imgs/Edward_thorndike.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><img src="imgs/Edward_thorndike.png" class="quarto-discovered-preview-image img-fluid figure-img" style="width:100.0%"></p>
 <p></p><figcaption class="figure-caption">Figure&nbsp;1: Edward Thorndike (1874-1979).</figcaption><p></p>
 </figure>
 </div>
@@ -828,41 +842,41 @@ In the next sections, we look at examples of basic claims made by an association
 
 
 
-</div></section><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">5.6.1 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
-<div id="ref-cattellTIMETAKENCEREBRAL1886" class="csl-entry" role="doc-biblioentry">
-CATTELL, J. M. (1886). <span>THE TIME TAKEN UP BY CEREBRAL OPERATIONS</span>. <em>Mind</em>, <em>os-XI</em>(42), 220–242. <a href="https://doi.org/c5z6fm">https://doi.org/c5z6fm</a>
-</div>
-<div id="ref-cattellTimeItTakes1886" class="csl-entry" role="doc-biblioentry">
+</div></section><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">5.6.1 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-cattellTimeItTakes1886" class="csl-entry" role="listitem">
 Cattell, J. M. (1886). The time it takes to see and name objects. <em>Mind</em>, <em>11</em>(41), 63–65. <a href="https://doi.org/b6fr5r">https://doi.org/b6fr5r</a>
 </div>
-<div id="ref-cattellExperimentsAssociationIdeas1887" class="csl-entry" role="doc-biblioentry">
+<div id="ref-cattellTIMETAKENCEREBRAL1886" class="csl-entry" role="listitem">
+CATTELL, J. M. (1886). <span>THE TIME TAKEN UP BY CEREBRAL OPERATIONS</span>. <em>Mind</em>, <em>os-XI</em>(42), 220–242. <a href="https://doi.org/c5z6fm">https://doi.org/c5z6fm</a>
+</div>
+<div id="ref-cattellExperimentsAssociationIdeas1887" class="csl-entry" role="listitem">
 Cattell, J. M. (1887). Experiments on the association of ideas. <em>Mind</em>, <em>12</em>(45), 68–74. <a href="https://doi.org/d9bv2m">https://doi.org/d9bv2m</a>
 </div>
-<div id="ref-fearingReneDescartesStudy1929" class="csl-entry" role="doc-biblioentry">
+<div id="ref-fearingReneDescartesStudy1929" class="csl-entry" role="listitem">
 Fearing, F. (1929). René <span>Descartes</span>. <span>A</span> study in the history of the theories of reflex action. <em>Psychological Review</em>, <em>36</em>(5), 375–388. <a href="https://doi.org/cwgz2m">https://doi.org/cwgz2m</a>
 </div>
-<div id="ref-goltzHundOhneGrosshirn1892" class="csl-entry" role="doc-biblioentry">
+<div id="ref-goltzHundOhneGrosshirn1892" class="csl-entry" role="listitem">
 Goltz, F. (1892). Der hund ohne grosshirn (<span>The</span> dog without a cerebrum). <em>Archiv Für Die Gesamte Physiologie Des Menschen Und Der Tiere</em>, <em>51</em>(11), 570–614.
 </div>
-<div id="ref-hintzmanRobertHookeModel2003" class="csl-entry" role="doc-biblioentry">
+<div id="ref-hintzmanRobertHookeModel2003" class="csl-entry" role="listitem">
 Hintzman, D. L. (2003). Robert <span>Hooke</span>’s model of memory. <em>Psychonomic Bulletin &amp; Review</em>, <em>10</em>(1), 3–14. <a href="https://doi.org/fd9wxx">https://doi.org/fd9wxx</a>
 </div>
-<div id="ref-hookePosthumousWorksRobert1705" class="csl-entry" role="doc-biblioentry">
+<div id="ref-hookePosthumousWorksRobert1705" class="csl-entry" role="listitem">
 Hooke, R. (1705). <em>The posthumous works of <span>Robert Hooke</span>: <span>With</span> a new introduction by <span>Richard S</span>. <span>Westfall</span></em>. <span>New York: Johnson Reprint Corp</span>.
 </div>
-<div id="ref-nicolasProgramIndividualPsychology2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-nicolasProgramIndividualPsychology2014" class="csl-entry" role="listitem">
 Nicolas, S., Coubart, A., &amp; Lubart, T. (2014). The program of individual psychology (1895-1896) by <span>Alfred Binet</span> and <span>Victor Henri</span>. <em>LAnnee Psychologique</em>, <em>Vol. 114</em>(1), 5–60. <a href="https://www.cairn.info/revue-l-annee-psychologique1-2014-1-page-5.htm">https://www.cairn.info/revue-l-annee-psychologique1-2014-1-page-5.htm</a>
 </div>
-<div id="ref-pavlovConditionedReflexesInvestigation1927" class="csl-entry" role="doc-biblioentry">
+<div id="ref-pavlovConditionedReflexesInvestigation1927" class="csl-entry" role="listitem">
 Pavlov, I. P. (1927). <em>Conditioned reflexes: <span>An</span> investigation of the physiological activity of the cerebral cortex</em> (A. G. V., Ed.). <span>London: Oxford University Press</span>. <a href="http://books.google.com/books?hl=en&amp;lr=&amp;id=cknrYDqAClkC&amp;oi=fnd&amp;pg=PA1&amp;dq=pavlov&amp;ots=KAnkq8Z5Jb&amp;sig=9io8iEUzHMM3wDB0J7cMjT-bEcY">http://books.google.com/books?hl=en&amp;lr=&amp;id=cknrYDqAClkC&amp;oi=fnd&amp;pg=PA1&amp;dq=pavlov&amp;ots=KAnkq8Z5Jb&amp;sig=9io8iEUzHMM3wDB0J7cMjT-bEcY</a>
 </div>
-<div id="ref-reicherPerceptualRecognitionFunction1969" class="csl-entry" role="doc-biblioentry">
+<div id="ref-reicherPerceptualRecognitionFunction1969" class="csl-entry" role="listitem">
 Reicher, G. M. (1969). Perceptual recognition as a function of meaningfulness of stimulus material. <em>Journal of Experimental Psychology</em>, <em>81</em>(2), 275. <a href="https://doi.org/dq8xp9">https://doi.org/dq8xp9</a>
 </div>
-<div id="ref-thorndikeAnimalIntelligenceExperimental1898" class="csl-entry" role="doc-biblioentry">
+<div id="ref-thorndikeAnimalIntelligenceExperimental1898" class="csl-entry" role="listitem">
 Thorndike, E. L. (1898). Animal intelligence: <span>An</span> experimental study of the associative processes in animals. <em>The Psychological Review: Monograph Supplements</em>, <em>2</em>(4), i–109. <a href="https://doi.org/bk48z2">https://doi.org/bk48z2</a>
 </div>
-<div id="ref-vaccariDissolvingNatureHow2012" class="csl-entry" role="doc-biblioentry">
+<div id="ref-vaccariDissolvingNatureHow2012" class="csl-entry" role="listitem">
 Vaccari, A., &amp; Philosophy Documentation Center. (2012). Dissolving <span>Nature</span>: <span>How Descartes Made Us Posthuman</span>. <em>Techné: Research in Philosophy and Technology</em>, <em>16</em>(2), 138–186. <a href="https://doi.org/fz97nk">https://doi.org/fz97nk</a>
 </div>
 </div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
@@ -872,9 +886,9 @@ Vaccari, A., &amp; Philosophy Documentation Center. (2012). Dissolving <span>Nat
 <li id="fn2"><p>These are not original stimuli used by Cattell<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p>Thorndike also followed Cattell in becoming a strong proponent and public figure in the American eugenics movement<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@incollection{j.c.crump2021,
-  author = {Matthew J. C. Crump},
-  editor = {Matthew J. C. Crump},
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@incollection{j.c.crump2021,
+  author = {J.C.Crump, Matthew},
+  editor = {J.C.Crump, Matthew},
   title = {Associations},
   booktitle = {Instances of Cognition: Questions, Methods, Findings,
     Explanations, Applications, and Implications},
@@ -885,10 +899,10 @@ Vaccari, A., &amp; Philosophy Documentation Center. (2012). Dissolving <span>Nat
     work on associative learning processes in humans and non-human
     animals.}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-j.c.crump2021" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-Matthew J. C. Crump. (2021). Associations. In Matthew J. C. Crump (Ed.),
-<em>Instances of Cognition: Questions, Methods, Findings, Explanations,
-Applications, and Implications</em>. <a href="https://crumplab.com/cognition/textbook">https://crumplab.com/cognition/textbook</a>
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-j.c.crump2021" class="csl-entry quarto-appendix-citeas" role="listitem">
+J.C.Crump, M. (2021). Associations. In M. J.C.Crump (Ed.), <em>Instances
+of Cognition: Questions, Methods, Findings, Explanations, Applications,
+and Implications</em>. <a href="https://crumplab.com/cognition/textbook">https://crumplab.com/cognition/textbook</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -917,9 +931,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -984,6 +1012,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -1027,6 +1141,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">This page is built with <a href="https://quarto.org/">Quarto</a>.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

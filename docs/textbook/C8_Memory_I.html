@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.210">
+<meta name="generator" content="quarto-1.3.258">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,14 +19,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -40,8 +41,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -92,16 +92,17 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 <script src="../site_libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="custom.css">
 <meta property="og:title" content="cognition - 8 Memory I">
-<meta property="og:description" content="This chapter overviews the beginnings of memory research in cognition, covering a few early researchers, the emergence of different research traditions in the study of memory, and the…">
+<meta property="og:description" content="This chapter overviews the beginnings of memory research in cognition, covering a few early researchers, the emergence of different research traditions in the study of memory, and the information-processing approach to memory.">
 <meta property="og:image" content="https://crumplab.com/cognition/textbook/imgs/cover.jpg">
 <meta property="og:site-name" content="cognition">
 <meta name="twitter:title" content="cognition - 8 Memory I">
-<meta name="twitter:description" content="This chapter overviews the beginnings of memory research in cognition, covering a few early researchers, the emergence of different research traditions in the study of memory, and the…">
+<meta name="twitter:description" content="This chapter overviews the beginnings of memory research in cognition, covering a few early researchers, the emergence of different research traditions in the study of memory, and the information-processing approach to memory.">
 <meta name="twitter:image" content="https://crumplab.com/cognition/textbook/imgs/cover.jpg">
 <meta name="twitter:creator" content="@MattCrumpLab">
 <meta name="twitter:card" content="summary_large_image">
@@ -118,137 +119,141 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <img src="../images/logo.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">
+    <a class="nav-link active" href="../index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/course_docs/Fall_2022_Psyc_2530_syllabus.html">
+    <a class="nav-link" href="../articles/course_docs/Fall_2022_Psyc_2530_syllabus.html" rel="" target="">
  <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../textbook/index.html" aria-current="page">
+    <a class="nav-link" href="../textbook/index.html" rel="" target="">
  <span class="menu-text">Textbook</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/modules.html">
+    <a class="nav-link" href="../articles/modules.html" rel="" target="">
  <span class="menu-text">Learning Modules</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Slides</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-slides">    
         <li>
-    <a class="dropdown-item" href="../slides/L0_Getting_started/L0_Getting_Started.html">
+    <a class="dropdown-item" href="../slides/L0_Getting_started/L0_Getting_Started.html" rel="" target="">
  <span class="dropdown-text">Lecture 0 - Getting Started</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L1_Instances/L1_Instances.html">
+    <a class="dropdown-item" href="../slides/L1_Instances/L1_Instances.html" rel="" target="">
  <span class="dropdown-text">Lecture 1 - What is Cognition?</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L2_QALMRI/L2_QALMRI.html">
+    <a class="dropdown-item" href="../slides/L2_QALMRI/L2_QALMRI.html" rel="" target="">
  <span class="dropdown-text">Lecture 2 - Reading Research</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L3_Imagery/L3_Imagery.html">
+    <a class="dropdown-item" href="../slides/L3_Imagery/L3_Imagery.html" rel="" target="">
  <span class="dropdown-text">Lecture 3 - Mental Imagery</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L4_Eugenics/L4_Eugenics.html">
+    <a class="dropdown-item" href="../slides/L4_Eugenics/L4_Eugenics.html" rel="" target="">
  <span class="dropdown-text">Lecture 4 - Psychology and Eugenics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L5_IQ/L5_IQ.html">
+    <a class="dropdown-item" href="../slides/L5_IQ/L5_IQ.html" rel="" target="">
  <span class="dropdown-text">Lecture 5 - Intelligence Testing</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L6_Associations/L6_Associations.html">
+    <a class="dropdown-item" href="../slides/L6_Associations/L6_Associations.html" rel="" target="">
  <span class="dropdown-text">Lecture 6 - Associations</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L8_Behaviorism/L8_Behaviorism.html">
+    <a class="dropdown-item" href="../slides/L8_Behaviorism/L8_Behaviorism.html" rel="" target="">
  <span class="dropdown-text">Lecture 8 - Behaviorism</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L9_Information/L9_Information.html">
+    <a class="dropdown-item" href="../slides/L9_Information/L9_Information.html" rel="" target="">
  <span class="dropdown-text">Lecture 9 - Information Processing</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L10_Memory_1/L10_Memory_1.html">
+    <a class="dropdown-item" href="../slides/L10_Memory_1/L10_Memory_1.html" rel="" target="">
  <span class="dropdown-text">Lecture 10 - Memory I</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L11_Memory_2/L11_Memory_2.html">
+    <a class="dropdown-item" href="../slides/L11_Memory_2/L11_Memory_2.html" rel="" target="">
  <span class="dropdown-text">Lecture 11 - Memory II</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L12_Implicit/L12_Implicit.html">
+    <a class="dropdown-item" href="../slides/L12_Implicit/L12_Implicit.html" rel="" target="">
  <span class="dropdown-text">Lecture 12 - Implicit Influences</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L13_Attention/L13_Attention.html">
+    <a class="dropdown-item" href="../slides/L13_Attention/L13_Attention.html" rel="" target="">
  <span class="dropdown-text">Lecture 13 - Attention</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/Extra_Minerva/Extra_Minerva.html">
+    <a class="dropdown-item" href="../slides/Extra_Minerva/Extra_Minerva.html" rel="" target="">
  <span class="dropdown-text">Lecture 13.5 - Instance Theory</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L14_Language/L14_Language.html">
+    <a class="dropdown-item" href="../slides/L14_Language/L14_Language.html" rel="" target="">
  <span class="dropdown-text">Lecture 14 - Language</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L15_JDM/L15_JDM.html">
+    <a class="dropdown-item" href="../slides/L15_JDM/L15_JDM.html" rel="" target="">
  <span class="dropdown-text">Lecture 15 - Judgment and Decision-making</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../articles/honors/honors.html">
+    <a class="nav-link" href="../articles/honors/honors.html" rel="" target="">
  <span class="menu-text">Honors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/course_docs/resources.html">
+    <a class="nav-link" href="../articles/course_docs/resources.html" rel="" target="">
  <span class="menu-text">Additional Resources</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../articles/oer/OER.html">
+    <a class="nav-link" href="../articles/oer/oer.html" rel="" target="">
  <span class="menu-text">OER</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/CrumpLab/cognition"><i class="bi bi-github" role="img" aria-label="GitHub">
+    <a class="nav-link" href="https://github.com/CrumpLab/cognition" rel="" target=""><i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">8 Memory I</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../textbook/C8_Memory_I.html">8 Memory I</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../" class="sidebar-logo-link">
+      <a href="../index.html" class="sidebar-logo-link">
       <img src="../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
@@ -256,102 +261,115 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/index.html" class="sidebar-item-text sidebar-link">Instances of Cognition</a>
+  <a href="../textbook/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Instances of Cognition</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/Preface.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="../textbook/Preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/Reading_Formats.html" class="sidebar-item-text sidebar-link">Reading Formats</a>
+  <a href="../textbook/Reading_Formats.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reading Formats</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C1_What_is_Cognition.html" class="sidebar-item-text sidebar-link">1 What is Cognition?</a>
+  <a href="../textbook/C1_What_is_Cognition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1 What is Cognition?</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C2_Mental_Imagery.html" class="sidebar-item-text sidebar-link">2 Mental Imagery</a>
+  <a href="../textbook/C2_Mental_Imagery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2 Mental Imagery</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C3_Eugenics.html" class="sidebar-item-text sidebar-link">3 Eugenics and Psychology</a>
+  <a href="../textbook/C3_Eugenics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3 Eugenics and Psychology</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C4_Intelligence_testing.html" class="sidebar-item-text sidebar-link">4 Intelligence Testing</a>
+  <a href="../textbook/C4_Intelligence_testing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4 Intelligence Testing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C5_Associations.html" class="sidebar-item-text sidebar-link">5 Associations</a>
+  <a href="../textbook/C5_Associations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5 Associations</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C6_Behaviorism.html" class="sidebar-item-text sidebar-link">6 Behaviorism</a>
+  <a href="../textbook/C6_Behaviorism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6 Behaviorism</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C7_Information_Processing.html" class="sidebar-item-text sidebar-link">7 Information Processing</a>
+  <a href="../textbook/C7_Information_Processing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7 Information Processing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C8_Memory_I.html" class="sidebar-item-text sidebar-link active">8 Memory I</a>
+  <a href="../textbook/C8_Memory_I.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">8 Memory I</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C9_Memory_II.html" class="sidebar-item-text sidebar-link">9 Memory II</a>
+  <a href="../textbook/C9_Memory_II.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9 Memory II</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#some-questions-about-memory" id="toc-some-questions-about-memory" class="nav-link active" data-scroll-target="#some-questions-about-memory"><span class="toc-section-number">8.1</span>  Some questions about memory</a></li>
-  <li><a href="#early-memory-research" id="toc-early-memory-research" class="nav-link" data-scroll-target="#early-memory-research"><span class="toc-section-number">8.2</span>  Early Memory Research</a>
+  <li><a href="#some-questions-about-memory" id="toc-some-questions-about-memory" class="nav-link active" data-scroll-target="#some-questions-about-memory"><span class="header-section-number">8.1</span> Some questions about memory</a></li>
+  <li><a href="#early-memory-research" id="toc-early-memory-research" class="nav-link" data-scroll-target="#early-memory-research"><span class="header-section-number">8.2</span> Early Memory Research</a>
   <ul>
-  <li><a href="#ebbinghauss-forgetting" id="toc-ebbinghauss-forgetting" class="nav-link" data-scroll-target="#ebbinghauss-forgetting"><span class="toc-section-number">8.2.1</span>  Ebbinghaus’s Forgetting</a></li>
-  <li><a href="#bartletts-remembering" id="toc-bartletts-remembering" class="nav-link" data-scroll-target="#bartletts-remembering"><span class="toc-section-number">8.2.2</span>  Bartlett’s Remembering</a></li>
-  <li><a href="#the-zeigarnik-effect" id="toc-the-zeigarnik-effect" class="nav-link" data-scroll-target="#the-zeigarnik-effect"><span class="toc-section-number">8.2.3</span>  The Zeigarnik effect</a></li>
-  <li><a href="#the-von-restorff-effect" id="toc-the-von-restorff-effect" class="nav-link" data-scroll-target="#the-von-restorff-effect"><span class="toc-section-number">8.2.4</span>  The von Restorff effect</a></li>
+  <li><a href="#ebbinghauss-forgetting" id="toc-ebbinghauss-forgetting" class="nav-link" data-scroll-target="#ebbinghauss-forgetting"><span class="header-section-number">8.2.1</span> Ebbinghaus’s Forgetting</a></li>
+  <li><a href="#bartletts-remembering" id="toc-bartletts-remembering" class="nav-link" data-scroll-target="#bartletts-remembering"><span class="header-section-number">8.2.2</span> Bartlett’s Remembering</a></li>
+  <li><a href="#the-zeigarnik-effect" id="toc-the-zeigarnik-effect" class="nav-link" data-scroll-target="#the-zeigarnik-effect"><span class="header-section-number">8.2.3</span> The Zeigarnik effect</a></li>
+  <li><a href="#the-von-restorff-effect" id="toc-the-von-restorff-effect" class="nav-link" data-scroll-target="#the-von-restorff-effect"><span class="header-section-number">8.2.4</span> The von Restorff effect</a></li>
   </ul></li>
-  <li><a href="#multiple-memory-systems" id="toc-multiple-memory-systems" class="nav-link" data-scroll-target="#multiple-memory-systems"><span class="toc-section-number">8.3</span>  Multiple Memory Systems</a></li>
-  <li><a href="#memory-as-information-processing" id="toc-memory-as-information-processing" class="nav-link" data-scroll-target="#memory-as-information-processing"><span class="toc-section-number">8.4</span>  Memory as information processing</a>
+  <li><a href="#multiple-memory-systems" id="toc-multiple-memory-systems" class="nav-link" data-scroll-target="#multiple-memory-systems"><span class="header-section-number">8.3</span> Multiple Memory Systems</a></li>
+  <li><a href="#memory-as-information-processing" id="toc-memory-as-information-processing" class="nav-link" data-scroll-target="#memory-as-information-processing"><span class="header-section-number">8.4</span> Memory as information processing</a>
   <ul>
-  <li><a href="#millers-magic-number-7" id="toc-millers-magic-number-7" class="nav-link" data-scroll-target="#millers-magic-number-7"><span class="toc-section-number">8.4.1</span>  Miller’s Magic Number 7</a></li>
+  <li><a href="#millers-magic-number-7" id="toc-millers-magic-number-7" class="nav-link" data-scroll-target="#millers-magic-number-7"><span class="header-section-number">8.4.1</span> Miller’s Magic Number 7</a></li>
   </ul></li>
-  <li><a href="#on-tasks-abilities-and-processes" id="toc-on-tasks-abilities-and-processes" class="nav-link" data-scroll-target="#on-tasks-abilities-and-processes"><span class="toc-section-number">8.5</span>  On tasks, abilities, and processes</a>
+  <li><a href="#on-tasks-abilities-and-processes" id="toc-on-tasks-abilities-and-processes" class="nav-link" data-scroll-target="#on-tasks-abilities-and-processes"><span class="header-section-number">8.5</span> On tasks, abilities, and processes</a>
   <ul>
-  <li><a href="#tasks" id="toc-tasks" class="nav-link" data-scroll-target="#tasks"><span class="toc-section-number">8.5.1</span>  Tasks</a></li>
-  <li><a href="#abilities" id="toc-abilities" class="nav-link" data-scroll-target="#abilities"><span class="toc-section-number">8.5.2</span>  Abilities</a></li>
-  <li><a href="#processes" id="toc-processes" class="nav-link" data-scroll-target="#processes"><span class="toc-section-number">8.5.3</span>  Processes</a></li>
+  <li><a href="#tasks" id="toc-tasks" class="nav-link" data-scroll-target="#tasks"><span class="header-section-number">8.5.1</span> Tasks</a></li>
+  <li><a href="#abilities" id="toc-abilities" class="nav-link" data-scroll-target="#abilities"><span class="header-section-number">8.5.2</span> Abilities</a></li>
+  <li><a href="#processes" id="toc-processes" class="nav-link" data-scroll-target="#processes"><span class="header-section-number">8.5.3</span> Processes</a></li>
   </ul></li>
-  <li><a href="#short-and-long-term-memory" id="toc-short-and-long-term-memory" class="nav-link" data-scroll-target="#short-and-long-term-memory"><span class="toc-section-number">8.6</span>  Short and long term memory</a>
+  <li><a href="#short-and-long-term-memory" id="toc-short-and-long-term-memory" class="nav-link" data-scroll-target="#short-and-long-term-memory"><span class="header-section-number">8.6</span> Short and long term memory</a>
   <ul>
-  <li><a href="#multi-store-model" id="toc-multi-store-model" class="nav-link" data-scroll-target="#multi-store-model"><span class="toc-section-number">8.6.1</span>  Multi-store model</a></li>
-  <li><a href="#serial-position-recency-and-long-term-recency" id="toc-serial-position-recency-and-long-term-recency" class="nav-link" data-scroll-target="#serial-position-recency-and-long-term-recency"><span class="toc-section-number">8.6.2</span>  Serial Position, Recency, and long-term recency</a></li>
-  <li><a href="#systems-or-strategies" id="toc-systems-or-strategies" class="nav-link" data-scroll-target="#systems-or-strategies"><span class="toc-section-number">8.6.3</span>  Systems or strategies?</a></li>
+  <li><a href="#multi-store-model" id="toc-multi-store-model" class="nav-link" data-scroll-target="#multi-store-model"><span class="header-section-number">8.6.1</span> Multi-store model</a></li>
+  <li><a href="#serial-position-recency-and-long-term-recency" id="toc-serial-position-recency-and-long-term-recency" class="nav-link" data-scroll-target="#serial-position-recency-and-long-term-recency"><span class="header-section-number">8.6.2</span> Serial Position, Recency, and long-term recency</a></li>
+  <li><a href="#systems-or-strategies" id="toc-systems-or-strategies" class="nav-link" data-scroll-target="#systems-or-strategies"><span class="header-section-number">8.6.3</span> Systems or strategies?</a></li>
   </ul></li>
-  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="toc-section-number">8.7</span>  Summary</a></li>
-  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix"><span class="toc-section-number">8.8</span>  Appendix</a>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">8.7</span> Summary</a></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix"><span class="header-section-number">8.8</span> Appendix</a>
   <ul>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="toc-section-number">8.8.1</span>  References</a></li>
+  
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/CrumpLab/cognition/edit/main/textbook/C8_Memory_I.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/CrumpLab/cognition/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -361,7 +379,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">8 Memory I</h1>
+<h1 class="title">8 Memory I</h1>
 </div>
 
 
@@ -385,7 +403,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">October 24, 2022</p>
+      <p class="date-modified">March 20, 2023</p>
     </div>
   </div>
     
@@ -400,9 +418,6 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 </header>
 
-<div class="cell">
-
-</div>
 <section id="some-questions-about-memory" class="level3" data-number="8.1">
 <h3 data-number="8.1" class="anchored" data-anchor-id="some-questions-about-memory"><span class="header-section-number">8.1</span> Some questions about memory</h3>
 <p>What is it like to remember something from your past? How many events can you remember? Why can you remember something from years ago, but forget new information from seconds ago? How do you preserve your experiences so they can be remembered later on? Why is it sometimes hard to remember something, but later the answer pops into mind? How can you improve your memory? How can you forget things you don’t want to think about? What other animals besides humans have memories? How are memories encoded, stored, and retrieved in the brain? How do people use their environment to help them remember things?</p>
@@ -428,159 +443,160 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 <div class="cell tbl-cap-location-bottom">
 <div class="cell-output-display">
 <div id="tbl-c8-CVC" class="anchored">
-
-<table class="table" style="font-size: 9px; margin-left: auto; margin-right: auto;"><caption>Table&nbsp;1:  Example nonsense syllables. Each row contains 13 syllables. The task is to practice reciting each row until the whole list can be recited perfectly by memory. </caption>
- <thead>
-  <tr>
-   <th style="text-align:right;">  </th>
-   <th style="text-align:left;"> 1 </th>
-   <th style="text-align:left;"> 2 </th>
-   <th style="text-align:left;"> 3 </th>
-   <th style="text-align:left;"> 4 </th>
-   <th style="text-align:left;"> 5 </th>
-   <th style="text-align:left;"> 6 </th>
-   <th style="text-align:left;"> 7 </th>
-   <th style="text-align:left;"> 8 </th>
-   <th style="text-align:left;"> 9 </th>
-   <th style="text-align:left;"> 10 </th>
-   <th style="text-align:left;"> 11 </th>
-   <th style="text-align:left;"> 12 </th>
-   <th style="text-align:left;"> 13 </th>
-  </tr>
- </thead>
+<table class="table table-sm table-striped" data-quarto-postprocess="true">
+<caption>Table&nbsp;1: Example nonsense syllables. Each row contains 13 syllables. The task is to practice reciting each row until the whole list can be recited perfectly by memory.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: right;" data-quarto-table-cell-role="th"></th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">1</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">2</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">3</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">4</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">5</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">6</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">7</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">8</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">9</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">10</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">11</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">12</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">13</th>
+</tr>
+</thead>
 <tbody>
-  <tr>
-   <td style="text-align:right;"> 1 </td>
-   <td style="text-align:left;"> JUF </td>
-   <td style="text-align:left;"> BEK </td>
-   <td style="text-align:left;"> LEP </td>
-   <td style="text-align:left;"> NUV </td>
-   <td style="text-align:left;"> KOQ </td>
-   <td style="text-align:left;"> YIV </td>
-   <td style="text-align:left;"> RUP </td>
-   <td style="text-align:left;"> XIT </td>
-   <td style="text-align:left;"> HIH </td>
-   <td style="text-align:left;"> KIW </td>
-   <td style="text-align:left;"> VUC </td>
-   <td style="text-align:left;"> KUC </td>
-   <td style="text-align:left;"> ZAV </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 2 </td>
-   <td style="text-align:left;"> QAK </td>
-   <td style="text-align:left;"> BOR </td>
-   <td style="text-align:left;"> LUK </td>
-   <td style="text-align:left;"> WIY </td>
-   <td style="text-align:left;"> BER </td>
-   <td style="text-align:left;"> WEX </td>
-   <td style="text-align:left;"> NIW </td>
-   <td style="text-align:left;"> KIB </td>
-   <td style="text-align:left;"> LIY </td>
-   <td style="text-align:left;"> CIP </td>
-   <td style="text-align:left;"> DUC </td>
-   <td style="text-align:left;"> DEK </td>
-   <td style="text-align:left;"> LUY </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 3 </td>
-   <td style="text-align:left;"> BAV </td>
-   <td style="text-align:left;"> FUZ </td>
-   <td style="text-align:left;"> YOF </td>
-   <td style="text-align:left;"> VIK </td>
-   <td style="text-align:left;"> TIK </td>
-   <td style="text-align:left;"> QOL </td>
-   <td style="text-align:left;"> MUZ </td>
-   <td style="text-align:left;"> ZIL </td>
-   <td style="text-align:left;"> DOK </td>
-   <td style="text-align:left;"> VOK </td>
-   <td style="text-align:left;"> ROG </td>
-   <td style="text-align:left;"> LUN </td>
-   <td style="text-align:left;"> HUX </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 4 </td>
-   <td style="text-align:left;"> RUK </td>
-   <td style="text-align:left;"> BEM </td>
-   <td style="text-align:left;"> XIQ </td>
-   <td style="text-align:left;"> SAF </td>
-   <td style="text-align:left;"> SES </td>
-   <td style="text-align:left;"> ROK </td>
-   <td style="text-align:left;"> SUF </td>
-   <td style="text-align:left;"> KAW </td>
-   <td style="text-align:left;"> WUC </td>
-   <td style="text-align:left;"> CUW </td>
-   <td style="text-align:left;"> KUJ </td>
-   <td style="text-align:left;"> QUB </td>
-   <td style="text-align:left;"> RUJ </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 5 </td>
-   <td style="text-align:left;"> WIQ </td>
-   <td style="text-align:left;"> NEC </td>
-   <td style="text-align:left;"> MEH </td>
-   <td style="text-align:left;"> TIW </td>
-   <td style="text-align:left;"> TEH </td>
-   <td style="text-align:left;"> VIL </td>
-   <td style="text-align:left;"> TAZ </td>
-   <td style="text-align:left;"> NAQ </td>
-   <td style="text-align:left;"> BIJ </td>
-   <td style="text-align:left;"> TUM </td>
-   <td style="text-align:left;"> GIC </td>
-   <td style="text-align:left;"> HAQ </td>
-   <td style="text-align:left;"> JEL </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 6 </td>
-   <td style="text-align:left;"> BEC </td>
-   <td style="text-align:left;"> NAR </td>
-   <td style="text-align:left;"> VOV </td>
-   <td style="text-align:left;"> HIW </td>
-   <td style="text-align:left;"> HOF </td>
-   <td style="text-align:left;"> SUC </td>
-   <td style="text-align:left;"> XUM </td>
-   <td style="text-align:left;"> DUF </td>
-   <td style="text-align:left;"> LIX </td>
-   <td style="text-align:left;"> CUF </td>
-   <td style="text-align:left;"> KIG </td>
-   <td style="text-align:left;"> WIP </td>
-   <td style="text-align:left;"> BIP </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 7 </td>
-   <td style="text-align:left;"> MOK </td>
-   <td style="text-align:left;"> ZOY </td>
-   <td style="text-align:left;"> XAS </td>
-   <td style="text-align:left;"> TIK </td>
-   <td style="text-align:left;"> YAX </td>
-   <td style="text-align:left;"> RAZ </td>
-   <td style="text-align:left;"> NOJ </td>
-   <td style="text-align:left;"> QIV </td>
-   <td style="text-align:left;"> XOG </td>
-   <td style="text-align:left;"> JAN </td>
-   <td style="text-align:left;"> TID </td>
-   <td style="text-align:left;"> QOB </td>
-   <td style="text-align:left;"> HEQ </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 8 </td>
-   <td style="text-align:left;"> PUF </td>
-   <td style="text-align:left;"> DUF </td>
-   <td style="text-align:left;"> YIS </td>
-   <td style="text-align:left;"> VER </td>
-   <td style="text-align:left;"> JIY </td>
-   <td style="text-align:left;"> CES </td>
-   <td style="text-align:left;"> FUS </td>
-   <td style="text-align:left;"> GUW </td>
-   <td style="text-align:left;"> SAZ </td>
-   <td style="text-align:left;"> QEV </td>
-   <td style="text-align:left;"> JAD </td>
-   <td style="text-align:left;"> QUZ </td>
-   <td style="text-align:left;"> HOF </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">ZEC</td>
+<td style="text-align: left;">MUB</td>
+<td style="text-align: left;">BIR</td>
+<td style="text-align: left;">REW</td>
+<td style="text-align: left;">BAX</td>
+<td style="text-align: left;">XEY</td>
+<td style="text-align: left;">XEL</td>
+<td style="text-align: left;">KEW</td>
+<td style="text-align: left;">DUK</td>
+<td style="text-align: left;">HAF</td>
+<td style="text-align: left;">ZEG</td>
+<td style="text-align: left;">QID</td>
+<td style="text-align: left;">RUK</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">XIM</td>
+<td style="text-align: left;">VIV</td>
+<td style="text-align: left;">ZEC</td>
+<td style="text-align: left;">CIV</td>
+<td style="text-align: left;">SEY</td>
+<td style="text-align: left;">XUS</td>
+<td style="text-align: left;">JIZ</td>
+<td style="text-align: left;">GIV</td>
+<td style="text-align: left;">FUY</td>
+<td style="text-align: left;">JIY</td>
+<td style="text-align: left;">XIV</td>
+<td style="text-align: left;">FAW</td>
+<td style="text-align: left;">VIJ</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">DUM</td>
+<td style="text-align: left;">MIK</td>
+<td style="text-align: left;">GOL</td>
+<td style="text-align: left;">MIV</td>
+<td style="text-align: left;">POY</td>
+<td style="text-align: left;">DER</td>
+<td style="text-align: left;">TIJ</td>
+<td style="text-align: left;">RUH</td>
+<td style="text-align: left;">YOG</td>
+<td style="text-align: left;">QOK</td>
+<td style="text-align: left;">NOJ</td>
+<td style="text-align: left;">DUX</td>
+<td style="text-align: left;">QEH</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">SUR</td>
+<td style="text-align: left;">WUL</td>
+<td style="text-align: left;">VIB</td>
+<td style="text-align: left;">MUC</td>
+<td style="text-align: left;">QAV</td>
+<td style="text-align: left;">NEK</td>
+<td style="text-align: left;">QAX</td>
+<td style="text-align: left;">RUS</td>
+<td style="text-align: left;">COQ</td>
+<td style="text-align: left;">NEK</td>
+<td style="text-align: left;">QOK</td>
+<td style="text-align: left;">ZID</td>
+<td style="text-align: left;">KOW</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">NID</td>
+<td style="text-align: left;">TOQ</td>
+<td style="text-align: left;">HOL</td>
+<td style="text-align: left;">MAJ</td>
+<td style="text-align: left;">BIL</td>
+<td style="text-align: left;">XOL</td>
+<td style="text-align: left;">TIZ</td>
+<td style="text-align: left;">NIR</td>
+<td style="text-align: left;">XIK</td>
+<td style="text-align: left;">DAJ</td>
+<td style="text-align: left;">VIV</td>
+<td style="text-align: left;">GEW</td>
+<td style="text-align: left;">DIK</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">PEL</td>
+<td style="text-align: left;">NAK</td>
+<td style="text-align: left;">CIF</td>
+<td style="text-align: left;">QUH</td>
+<td style="text-align: left;">DUF</td>
+<td style="text-align: left;">JOH</td>
+<td style="text-align: left;">DUX</td>
+<td style="text-align: left;">HOS</td>
+<td style="text-align: left;">KUL</td>
+<td style="text-align: left;">LIF</td>
+<td style="text-align: left;">ZEJ</td>
+<td style="text-align: left;">QEV</td>
+<td style="text-align: left;">JEQ</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">CEK</td>
+<td style="text-align: left;">QAG</td>
+<td style="text-align: left;">WEZ</td>
+<td style="text-align: left;">JER</td>
+<td style="text-align: left;">QID</td>
+<td style="text-align: left;">LUS</td>
+<td style="text-align: left;">LEC</td>
+<td style="text-align: left;">QIY</td>
+<td style="text-align: left;">ZUR</td>
+<td style="text-align: left;">POV</td>
+<td style="text-align: left;">SAS</td>
+<td style="text-align: left;">BEZ</td>
+<td style="text-align: left;">QIQ</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">8</td>
+<td style="text-align: left;">GEF</td>
+<td style="text-align: left;">WOC</td>
+<td style="text-align: left;">VEF</td>
+<td style="text-align: left;">KAC</td>
+<td style="text-align: left;">HIX</td>
+<td style="text-align: left;">TOZ</td>
+<td style="text-align: left;">RIY</td>
+<td style="text-align: left;">FIJ</td>
+<td style="text-align: left;">VIK</td>
+<td style="text-align: left;">FOV</td>
+<td style="text-align: left;">ZEM</td>
+<td style="text-align: left;">NEJ</td>
+<td style="text-align: left;">HOS</td>
+</tr>
 </tbody>
 </table>
-
 </div>
+
+
 </div>
 </div>
 <p>In the first phase, lists containing 8 rows of 13 nonsense syllables were learned to a criterion called “one-time perfect”. One-time perfect meant to recite a whole row, in correct order, without aid and from memory, one time perfectly. To get to “one-time perfect”, the syllables were practiced by reading a row out loud in order, one at a time. Practice attempts were repeated as many times as necessary. After one perfect recitation, the next row was learned and so on. There was a rigorous learning schedule spread over many days so that a total of 70 lists could be learned. For each list, the number of practice attempts necessary to achieve the first “one-time perfect” recitation were measured.</p>
@@ -594,7 +610,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 <div class="no-row-height column-margin column-container"><div class="cell-output-display">
 <div id="fig-8Ebbinghaus_OL" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="imgs/Ebbinghaus_OL.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><img src="imgs/Ebbinghaus_OL.png" class="quarto-discovered-preview-image img-fluid figure-img" style="width:100.0%"></p>
 <p></p><figcaption class="figure-caption">Figure&nbsp;1: Reproduced results from phase one of <span class="citation" data-cites="murreReplicationAnalysisEbbinghaus2015">Murre &amp; Dros (<a href="#ref-murreReplicationAnalysisEbbinghaus2015" role="doc-biblioref">2015</a>)</span>.</figcaption><p></p>
 </figure>
 </div>
@@ -1032,56 +1048,56 @@ According to the model, the primacy effect
 
 
 
-</div></section><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">8.8.1 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
-<div id="ref-atkinsonHumanMemoryProposed1968" class="csl-entry" role="doc-biblioentry">
+</div></section><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">8.8.1 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-atkinsonHumanMemoryProposed1968" class="csl-entry" role="listitem">
 Atkinson, R. C., &amp; Shiffrin, R. M. (1968). Human memory: <span>A</span> proposed system and its control processes. In <em>Psychology of learning and motivation</em> (Vol. 2, pp. 89–195). <span>Elsevier</span>.
 </div>
-<div id="ref-baddeleyRecencyReexamined1977" class="csl-entry" role="doc-biblioentry">
+<div id="ref-baddeleyRecencyReexamined1977" class="csl-entry" role="listitem">
 Baddeley, A. D., &amp; Hitch, G. J. (1977). Recency re-examined. <em>Attention and Performance VI</em>, 647–667.
 </div>
-<div id="ref-bartlettRemembering1932" class="csl-entry" role="doc-biblioentry">
+<div id="ref-bartlettRemembering1932" class="csl-entry" role="listitem">
 Bartlett, F. C. (1932). <em>Remembering</em>. <span>Cambridge Univ. Press.[LRS]</span>.
 </div>
-<div id="ref-bergmanCanBartlettRepeated1999" class="csl-entry" role="doc-biblioentry">
+<div id="ref-bergmanCanBartlettRepeated1999" class="csl-entry" role="listitem">
 Bergman, E. T., &amp; Roediger, H. L. (1999). <em>Can <span>Bartlett</span>’s repeated reproduction experiments be replicated?</em> 11. <a href="https://doi.org/b8mx6z">https://doi.org/b8mx6z</a>
 </div>
-<div id="ref-carbonBartlettSchemaTheory2012" class="csl-entry" role="doc-biblioentry">
+<div id="ref-carbonBartlettSchemaTheory2012" class="csl-entry" role="listitem">
 Carbon, C.-C., &amp; Albrecht, S. (2012). Bartlett’s schema theory: <span>The</span> unreplicated <span>“portrait d’homme”</span> series from 1932. <em>Quarterly Journal of Experimental Psychology</em>, <em>65</em>(11), 2258–2270. <a href="https://doi.org/gjs5bh">https://doi.org/gjs5bh</a>
 </div>
-<div id="ref-deeseSerialEffectsRecall1957a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-deeseSerialEffectsRecall1957a" class="csl-entry" role="listitem">
 Deese, J., &amp; Kaufman, R. A. (1957). Serial effects in recall of unorganized and sequentially organized verbal material. <em>Journal of Experimental Psychology</em>, <em>54</em>(3), 180. <a href="https://doi.org/drc265">https://doi.org/drc265</a>
 </div>
-<div id="ref-donovanMetaanalyticReviewDistribution1999" class="csl-entry" role="doc-biblioentry">
+<div id="ref-donovanMetaanalyticReviewDistribution1999" class="csl-entry" role="listitem">
 Donovan, J. J., &amp; Radosevich, D. J. (1999). A meta-analytic review of the distribution of practice effect: <span>Now</span> you see it, now you don’t. <em>Journal of Applied Psychology</em>, <em>84</em>(5), 795. <a href="https://doi.org/bq4f8b">https://doi.org/bq4f8b</a>
 </div>
-<div id="ref-ebbinghausUberGedachtnisUntersuchungen1885" class="csl-entry" role="doc-biblioentry">
+<div id="ref-ebbinghausUberGedachtnisUntersuchungen1885" class="csl-entry" role="listitem">
 Ebbinghaus, H. (1885). <em>Über das gedächtnis: Untersuchungen zur experimentellen psychologie (<span>On Memory</span>)</em>. <span>Duncker &amp; Humblot</span>.
 </div>
-<div id="ref-macleodZeigarnikRestorffMemory2020" class="csl-entry" role="doc-biblioentry">
+<div id="ref-macleodZeigarnikRestorffMemory2020" class="csl-entry" role="listitem">
 MacLeod, C. M. (2020). Zeigarnik and von <span>Restorff</span>: <span>The</span> memory effects and the stories behind them. <em>Memory &amp; Cognition</em>, <em>48</em>(6), 1073–1088. <a href="https://doi.org/gkg77z">https://doi.org/gkg77z</a>
 </div>
-<div id="ref-millerMagicalNumberSeven1956" class="csl-entry" role="doc-biblioentry">
+<div id="ref-millerMagicalNumberSeven1956" class="csl-entry" role="listitem">
 Miller, G. A. (1956). The magical number seven, plus or minus two: <span>Some</span> limits on our capacity for processing information. <em>Psychological Review</em>, <em>63</em>(2), 81.
 </div>
-<div id="ref-murdockjrSerialPositionEffect1962" class="csl-entry" role="doc-biblioentry">
+<div id="ref-murdockjrSerialPositionEffect1962" class="csl-entry" role="listitem">
 Murdock Jr, B. B. (1962). The serial position effect of free recall. <em>Journal of Experimental Psychology</em>, <em>64</em>(5), 482. <a href="https://doi.org/d3jxkh">https://doi.org/d3jxkh</a>
 </div>
-<div id="ref-murreReplicationAnalysisEbbinghaus2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-murreReplicationAnalysisEbbinghaus2015" class="csl-entry" role="listitem">
 Murre, J. M. J., &amp; Dros, J. (2015). Replication and <span>Analysis</span> of <span>Ebbinghaus</span>’ <span>Forgetting Curve</span>. <em>PLOS ONE</em>, <em>10</em>(7), e0120644. <a href="https://doi.org/f7vfcn">https://doi.org/f7vfcn</a>
 </div>
-<div id="ref-pollackInformationElementaryAuditory1952a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-pollackInformationElementaryAuditory1952a" class="csl-entry" role="listitem">
 Pollack, I. (1952). The <span>Information</span> of <span>Elementary Auditory Displays</span>. <em>The Journal of the Acoustical Society of America</em>, <em>24</em>, 745–749.
 </div>
-<div id="ref-postmanShorttermTemporalChanges1965" class="csl-entry" role="doc-biblioentry">
+<div id="ref-postmanShorttermTemporalChanges1965" class="csl-entry" role="listitem">
 Postman, L., &amp; Phillips, L. W. (1965). Short-term temporal changes in free recall. <em>Quarterly Journal of Experimental Psychology</em>, <em>17</em>(2), 132–138. <a href="https://doi.org/csjdm5">https://doi.org/csjdm5</a>
 </div>
-<div id="ref-tzengPositiveRecencyEffect1973" class="csl-entry" role="doc-biblioentry">
+<div id="ref-tzengPositiveRecencyEffect1973" class="csl-entry" role="listitem">
 Tzeng, O. J. (1973). Positive recency effect in a delayed free recall. <em>Journal of Verbal Learning and Verbal Behavior</em>, <em>12</em>(4), 436–439. <a href="https://doi.org/cm8xnx">https://doi.org/cm8xnx</a>
 </div>
-<div id="ref-vonrestorffUberWirkungBereichsbildungen1933" class="csl-entry" role="doc-biblioentry">
+<div id="ref-vonrestorffUberWirkungBereichsbildungen1933" class="csl-entry" role="listitem">
 Von Restorff, H. (1933). Über die wirkung von bereichsbildungen im spurenfeld. <em>Psychologische Forschung</em>, <em>18</em>(1), 299–342. <a href="https://doi.org/bnvwnb">https://doi.org/bnvwnb</a>
 </div>
-<div id="ref-zeigarnikFinishedUnfinishedTasks1968" class="csl-entry" role="doc-biblioentry">
+<div id="ref-zeigarnikFinishedUnfinishedTasks1968" class="csl-entry" role="listitem">
 Zeigarnik, B. W. (1968). On finished and unfinished tasks (<span>WD Ellis</span>, <span>Trans</span>.). <em>History of Psychology: A Source Book in Systematic Psychology</em>, 441–444.
 </div>
 </div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
@@ -1092,9 +1108,9 @@ Zeigarnik, B. W. (1968). On finished and unfinished tasks (<span>WD Ellis</span>
 <li id="fn3"><p>Each dot represents practice attempts for sets of rows that would be paired with delays to test forgetting and relearning<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn4"><p>an expression referring to skills that are supposedly learned once and not forgotten<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@incollection{j.c.crump2021,
-  author = {Matthew J. C. Crump},
-  editor = {Matthew J. C. Crump},
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@incollection{j.c.crump2021,
+  author = {J.C.Crump, Matthew},
+  editor = {J.C.Crump, Matthew},
   title = {Memory {I}},
   booktitle = {Instances of Cognition: Questions, Methods, Findings,
     Explanations, Applications, and Implications},
@@ -1106,10 +1122,10 @@ Zeigarnik, B. W. (1968). On finished and unfinished tasks (<span>WD Ellis</span>
     different research traditions in the study of memory, and the
     information-processing approach to memory.}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-j.c.crump2021" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-Matthew J. C. Crump. (2021). Memory I. In Matthew J. C. Crump (Ed.),
-<em>Instances of Cognition: Questions, Methods, Findings, Explanations,
-Applications, and Implications</em>. <a href="https://crumplab.com/cognition/textbook">https://crumplab.com/cognition/textbook</a>
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-j.c.crump2021" class="csl-entry quarto-appendix-citeas" role="listitem">
+J.C.Crump, M. (2021). Memory I. In M. J.C.Crump (Ed.), <em>Instances of
+Cognition: Questions, Methods, Findings, Explanations, Applications, and
+Implications</em>. <a href="https://crumplab.com/cognition/textbook">https://crumplab.com/cognition/textbook</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -1138,9 +1154,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1205,6 +1235,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -1248,6 +1364,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">This page is built with <a href="https://quarto.org/">Quarto</a>.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

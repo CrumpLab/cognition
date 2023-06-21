@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.210">
+<meta name="generator" content="quarto-1.3.258">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,14 +19,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -40,8 +41,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -89,6 +89,7 @@ gtag('js', new Date());
 gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../styles.css">
@@ -115,137 +116,141 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <img src="../images/logo.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">
+    <a class="nav-link active" href="../index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/course_docs/Fall_2022_Psyc_2530_syllabus.html">
+    <a class="nav-link" href="../articles/course_docs/Fall_2022_Psyc_2530_syllabus.html" rel="" target="">
  <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../textbook/index.html" aria-current="page">
+    <a class="nav-link" href="../textbook/index.html" rel="" target="">
  <span class="menu-text">Textbook</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/modules.html">
+    <a class="nav-link" href="../articles/modules.html" rel="" target="">
  <span class="menu-text">Learning Modules</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Slides</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-slides">    
         <li>
-    <a class="dropdown-item" href="../slides/L0_Getting_started/L0_Getting_Started.html">
+    <a class="dropdown-item" href="../slides/L0_Getting_started/L0_Getting_Started.html" rel="" target="">
  <span class="dropdown-text">Lecture 0 - Getting Started</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L1_Instances/L1_Instances.html">
+    <a class="dropdown-item" href="../slides/L1_Instances/L1_Instances.html" rel="" target="">
  <span class="dropdown-text">Lecture 1 - What is Cognition?</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L2_QALMRI/L2_QALMRI.html">
+    <a class="dropdown-item" href="../slides/L2_QALMRI/L2_QALMRI.html" rel="" target="">
  <span class="dropdown-text">Lecture 2 - Reading Research</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L3_Imagery/L3_Imagery.html">
+    <a class="dropdown-item" href="../slides/L3_Imagery/L3_Imagery.html" rel="" target="">
  <span class="dropdown-text">Lecture 3 - Mental Imagery</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L4_Eugenics/L4_Eugenics.html">
+    <a class="dropdown-item" href="../slides/L4_Eugenics/L4_Eugenics.html" rel="" target="">
  <span class="dropdown-text">Lecture 4 - Psychology and Eugenics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L5_IQ/L5_IQ.html">
+    <a class="dropdown-item" href="../slides/L5_IQ/L5_IQ.html" rel="" target="">
  <span class="dropdown-text">Lecture 5 - Intelligence Testing</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L6_Associations/L6_Associations.html">
+    <a class="dropdown-item" href="../slides/L6_Associations/L6_Associations.html" rel="" target="">
  <span class="dropdown-text">Lecture 6 - Associations</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L8_Behaviorism/L8_Behaviorism.html">
+    <a class="dropdown-item" href="../slides/L8_Behaviorism/L8_Behaviorism.html" rel="" target="">
  <span class="dropdown-text">Lecture 8 - Behaviorism</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L9_Information/L9_Information.html">
+    <a class="dropdown-item" href="../slides/L9_Information/L9_Information.html" rel="" target="">
  <span class="dropdown-text">Lecture 9 - Information Processing</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L10_Memory_1/L10_Memory_1.html">
+    <a class="dropdown-item" href="../slides/L10_Memory_1/L10_Memory_1.html" rel="" target="">
  <span class="dropdown-text">Lecture 10 - Memory I</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L11_Memory_2/L11_Memory_2.html">
+    <a class="dropdown-item" href="../slides/L11_Memory_2/L11_Memory_2.html" rel="" target="">
  <span class="dropdown-text">Lecture 11 - Memory II</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L12_Implicit/L12_Implicit.html">
+    <a class="dropdown-item" href="../slides/L12_Implicit/L12_Implicit.html" rel="" target="">
  <span class="dropdown-text">Lecture 12 - Implicit Influences</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L13_Attention/L13_Attention.html">
+    <a class="dropdown-item" href="../slides/L13_Attention/L13_Attention.html" rel="" target="">
  <span class="dropdown-text">Lecture 13 - Attention</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/Extra_Minerva/Extra_Minerva.html">
+    <a class="dropdown-item" href="../slides/Extra_Minerva/Extra_Minerva.html" rel="" target="">
  <span class="dropdown-text">Lecture 13.5 - Instance Theory</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L14_Language/L14_Language.html">
+    <a class="dropdown-item" href="../slides/L14_Language/L14_Language.html" rel="" target="">
  <span class="dropdown-text">Lecture 14 - Language</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../slides/L15_JDM/L15_JDM.html">
+    <a class="dropdown-item" href="../slides/L15_JDM/L15_JDM.html" rel="" target="">
  <span class="dropdown-text">Lecture 15 - Judgment and Decision-making</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../articles/honors/honors.html">
+    <a class="nav-link" href="../articles/honors/honors.html" rel="" target="">
  <span class="menu-text">Honors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../articles/course_docs/resources.html">
+    <a class="nav-link" href="../articles/course_docs/resources.html" rel="" target="">
  <span class="menu-text">Additional Resources</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../articles/oer/OER.html">
+    <a class="nav-link" href="../articles/oer/oer.html" rel="" target="">
  <span class="menu-text">OER</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/CrumpLab/cognition"><i class="bi bi-github" role="img" aria-label="GitHub">
+    <a class="nav-link" href="https://github.com/CrumpLab/cognition" rel="" target=""><i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">6 Behaviorism</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../textbook/C6_Behaviorism.html">6 Behaviorism</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../" class="sidebar-logo-link">
+      <a href="../index.html" class="sidebar-logo-link">
       <img src="../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
@@ -253,109 +258,122 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/index.html" class="sidebar-item-text sidebar-link">Instances of Cognition</a>
+  <a href="../textbook/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Instances of Cognition</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/Preface.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="../textbook/Preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/Reading_Formats.html" class="sidebar-item-text sidebar-link">Reading Formats</a>
+  <a href="../textbook/Reading_Formats.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reading Formats</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C1_What_is_Cognition.html" class="sidebar-item-text sidebar-link">1 What is Cognition?</a>
+  <a href="../textbook/C1_What_is_Cognition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1 What is Cognition?</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C2_Mental_Imagery.html" class="sidebar-item-text sidebar-link">2 Mental Imagery</a>
+  <a href="../textbook/C2_Mental_Imagery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2 Mental Imagery</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C3_Eugenics.html" class="sidebar-item-text sidebar-link">3 Eugenics and Psychology</a>
+  <a href="../textbook/C3_Eugenics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3 Eugenics and Psychology</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C4_Intelligence_testing.html" class="sidebar-item-text sidebar-link">4 Intelligence Testing</a>
+  <a href="../textbook/C4_Intelligence_testing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4 Intelligence Testing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C5_Associations.html" class="sidebar-item-text sidebar-link">5 Associations</a>
+  <a href="../textbook/C5_Associations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5 Associations</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C6_Behaviorism.html" class="sidebar-item-text sidebar-link active">6 Behaviorism</a>
+  <a href="../textbook/C6_Behaviorism.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">6 Behaviorism</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C7_Information_Processing.html" class="sidebar-item-text sidebar-link">7 Information Processing</a>
+  <a href="../textbook/C7_Information_Processing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7 Information Processing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C8_Memory_I.html" class="sidebar-item-text sidebar-link">8 Memory I</a>
+  <a href="../textbook/C8_Memory_I.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8 Memory I</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../textbook/C9_Memory_II.html" class="sidebar-item-text sidebar-link">9 Memory II</a>
+  <a href="../textbook/C9_Memory_II.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9 Memory II</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-rabbit-hole-to-explain-or-not-to-explain" id="toc-the-rabbit-hole-to-explain-or-not-to-explain" class="nav-link active" data-scroll-target="#the-rabbit-hole-to-explain-or-not-to-explain"><span class="toc-section-number">6.1</span>  The Rabbit Hole: To explain or not to explain?</a>
+  <li><a href="#the-rabbit-hole-to-explain-or-not-to-explain" id="toc-the-rabbit-hole-to-explain-or-not-to-explain" class="nav-link active" data-scroll-target="#the-rabbit-hole-to-explain-or-not-to-explain"><span class="header-section-number">6.1</span> The Rabbit Hole: To explain or not to explain?</a>
   <ul>
-  <li><a href="#youtube-machine-learning-and-internet-behaviorism" id="toc-youtube-machine-learning-and-internet-behaviorism" class="nav-link" data-scroll-target="#youtube-machine-learning-and-internet-behaviorism"><span class="toc-section-number">6.1.1</span>  Youtube, machine-learning, and internet behaviorism</a></li>
+  <li><a href="#youtube-machine-learning-and-internet-behaviorism" id="toc-youtube-machine-learning-and-internet-behaviorism" class="nav-link" data-scroll-target="#youtube-machine-learning-and-internet-behaviorism"><span class="header-section-number">6.1.1</span> Youtube, machine-learning, and internet behaviorism</a></li>
   </ul></li>
-  <li><a href="#enter-behaviorism" id="toc-enter-behaviorism" class="nav-link" data-scroll-target="#enter-behaviorism"><span class="toc-section-number">6.2</span>  Enter Behaviorism</a>
+  <li><a href="#enter-behaviorism" id="toc-enter-behaviorism" class="nav-link" data-scroll-target="#enter-behaviorism"><span class="header-section-number">6.2</span> Enter Behaviorism</a>
   <ul>
-  <li><a href="#positivism" id="toc-positivism" class="nav-link" data-scroll-target="#positivism"><span class="toc-section-number">6.2.1</span>  Positivism</a></li>
-  <li><a href="#scientific-utopianism" id="toc-scientific-utopianism" class="nav-link" data-scroll-target="#scientific-utopianism"><span class="toc-section-number">6.2.2</span>  Scientific Utopianism</a></li>
+  <li><a href="#positivism" id="toc-positivism" class="nav-link" data-scroll-target="#positivism"><span class="header-section-number">6.2.1</span> Positivism</a></li>
+  <li><a href="#scientific-utopianism" id="toc-scientific-utopianism" class="nav-link" data-scroll-target="#scientific-utopianism"><span class="header-section-number">6.2.2</span> Scientific Utopianism</a></li>
   </ul></li>
-  <li><a href="#associationism-conditioning-and-behaviorism" id="toc-associationism-conditioning-and-behaviorism" class="nav-link" data-scroll-target="#associationism-conditioning-and-behaviorism"><span class="toc-section-number">6.3</span>  Associationism, Conditioning and Behaviorism</a></li>
-  <li><a href="#watsons-salesman-behaviorism" id="toc-watsons-salesman-behaviorism" class="nav-link" data-scroll-target="#watsons-salesman-behaviorism"><span class="toc-section-number">6.4</span>  Watson’s “Salesman” Behaviorism</a>
+  <li><a href="#associationism-conditioning-and-behaviorism" id="toc-associationism-conditioning-and-behaviorism" class="nav-link" data-scroll-target="#associationism-conditioning-and-behaviorism"><span class="header-section-number">6.3</span> Associationism, Conditioning and Behaviorism</a></li>
+  <li><a href="#watsons-salesman-behaviorism" id="toc-watsons-salesman-behaviorism" class="nav-link" data-scroll-target="#watsons-salesman-behaviorism"><span class="header-section-number">6.4</span> Watson’s “Salesman” Behaviorism</a>
   <ul>
-  <li><a href="#elements-of-watsons-behaviorism" id="toc-elements-of-watsons-behaviorism" class="nav-link" data-scroll-target="#elements-of-watsons-behaviorism"><span class="toc-section-number">6.4.1</span>  Elements of Watson’s Behaviorism</a></li>
-  <li><a href="#watsons-stimulus-response-positivism" id="toc-watsons-stimulus-response-positivism" class="nav-link" data-scroll-target="#watsons-stimulus-response-positivism"><span class="toc-section-number">6.4.2</span>  Watson’s stimulus-response positivism</a></li>
-  <li><a href="#watsons-s-r-system" id="toc-watsons-s-r-system" class="nav-link" data-scroll-target="#watsons-s-r-system"><span class="toc-section-number">6.4.3</span>  Watson’s S-R System</a></li>
+  <li><a href="#elements-of-watsons-behaviorism" id="toc-elements-of-watsons-behaviorism" class="nav-link" data-scroll-target="#elements-of-watsons-behaviorism"><span class="header-section-number">6.4.1</span> Elements of Watson’s Behaviorism</a></li>
+  <li><a href="#watsons-stimulus-response-positivism" id="toc-watsons-stimulus-response-positivism" class="nav-link" data-scroll-target="#watsons-stimulus-response-positivism"><span class="header-section-number">6.4.2</span> Watson’s stimulus-response positivism</a></li>
+  <li><a href="#watsons-s-r-system" id="toc-watsons-s-r-system" class="nav-link" data-scroll-target="#watsons-s-r-system"><span class="header-section-number">6.4.3</span> Watson’s S-R System</a></li>
   </ul></li>
-  <li><a href="#tolmans-purposive-behaviorism" id="toc-tolmans-purposive-behaviorism" class="nav-link" data-scroll-target="#tolmans-purposive-behaviorism"><span class="toc-section-number">6.5</span>  Tolman’s “Purposive” behaviorism</a>
+  <li><a href="#tolmans-purposive-behaviorism" id="toc-tolmans-purposive-behaviorism" class="nav-link" data-scroll-target="#tolmans-purposive-behaviorism"><span class="header-section-number">6.5</span> Tolman’s “Purposive” behaviorism</a>
   <ul>
-  <li><a href="#molar-definition-of-behavior" id="toc-molar-definition-of-behavior" class="nav-link" data-scroll-target="#molar-definition-of-behavior"><span class="toc-section-number">6.5.1</span>  Molar definition of behavior</a></li>
-  <li><a href="#purposive-and-cognitive-determinants" id="toc-purposive-and-cognitive-determinants" class="nav-link" data-scroll-target="#purposive-and-cognitive-determinants"><span class="toc-section-number">6.5.2</span>  Purposive and cognitive determinants</a></li>
-  <li><a href="#the-rat-in-the-maze" id="toc-the-rat-in-the-maze" class="nav-link" data-scroll-target="#the-rat-in-the-maze"><span class="toc-section-number">6.5.3</span>  The rat in the maze</a></li>
-  <li><a href="#tolmans-inheritance-project-a-rat-model-of-eugenics" id="toc-tolmans-inheritance-project-a-rat-model-of-eugenics" class="nav-link" data-scroll-target="#tolmans-inheritance-project-a-rat-model-of-eugenics"><span class="toc-section-number">6.5.4</span>  Tolman’s inheritance project: A rat model of eugenics</a></li>
-  <li><a href="#cognitive-maps-in-rats-and-men" id="toc-cognitive-maps-in-rats-and-men" class="nav-link" data-scroll-target="#cognitive-maps-in-rats-and-men"><span class="toc-section-number">6.5.5</span>  Cognitive maps in rats and men</a></li>
+  <li><a href="#molar-definition-of-behavior" id="toc-molar-definition-of-behavior" class="nav-link" data-scroll-target="#molar-definition-of-behavior"><span class="header-section-number">6.5.1</span> Molar definition of behavior</a></li>
+  <li><a href="#purposive-and-cognitive-determinants" id="toc-purposive-and-cognitive-determinants" class="nav-link" data-scroll-target="#purposive-and-cognitive-determinants"><span class="header-section-number">6.5.2</span> Purposive and cognitive determinants</a></li>
+  <li><a href="#the-rat-in-the-maze" id="toc-the-rat-in-the-maze" class="nav-link" data-scroll-target="#the-rat-in-the-maze"><span class="header-section-number">6.5.3</span> The rat in the maze</a></li>
+  <li><a href="#tolmans-inheritance-project-a-rat-model-of-eugenics" id="toc-tolmans-inheritance-project-a-rat-model-of-eugenics" class="nav-link" data-scroll-target="#tolmans-inheritance-project-a-rat-model-of-eugenics"><span class="header-section-number">6.5.4</span> Tolman’s inheritance project: A rat model of eugenics</a></li>
+  <li><a href="#cognitive-maps-in-rats-and-men" id="toc-cognitive-maps-in-rats-and-men" class="nav-link" data-scroll-target="#cognitive-maps-in-rats-and-men"><span class="header-section-number">6.5.5</span> Cognitive maps in rats and men</a></li>
   </ul></li>
-  <li><a href="#hulls-mathematical-behaviorism" id="toc-hulls-mathematical-behaviorism" class="nav-link" data-scroll-target="#hulls-mathematical-behaviorism"><span class="toc-section-number">6.6</span>  Hull’s mathematical behaviorism</a></li>
-  <li><a href="#skinners-radical-behaviorism" id="toc-skinners-radical-behaviorism" class="nav-link" data-scroll-target="#skinners-radical-behaviorism"><span class="toc-section-number">6.7</span>  Skinner’s “Radical” Behaviorism</a>
+  <li><a href="#hulls-mathematical-behaviorism" id="toc-hulls-mathematical-behaviorism" class="nav-link" data-scroll-target="#hulls-mathematical-behaviorism"><span class="header-section-number">6.6</span> Hull’s mathematical behaviorism</a></li>
+  <li><a href="#skinners-radical-behaviorism" id="toc-skinners-radical-behaviorism" class="nav-link" data-scroll-target="#skinners-radical-behaviorism"><span class="header-section-number">6.7</span> Skinner’s “Radical” Behaviorism</a>
   <ul>
-  <li><a href="#operant-conditioning" id="toc-operant-conditioning" class="nav-link" data-scroll-target="#operant-conditioning"><span class="toc-section-number">6.7.1</span>  Operant Conditioning</a></li>
-  <li><a href="#reflex-strength-a-descriptive-system" id="toc-reflex-strength-a-descriptive-system" class="nav-link" data-scroll-target="#reflex-strength-a-descriptive-system"><span class="toc-section-number">6.7.2</span>  Reflex strength: A descriptive system</a></li>
-  <li><a href="#applications-of-operant-conditioning" id="toc-applications-of-operant-conditioning" class="nav-link" data-scroll-target="#applications-of-operant-conditioning"><span class="toc-section-number">6.7.3</span>  Applications of operant conditioning</a></li>
-  <li><a href="#implications-skinners-utopia" id="toc-implications-skinners-utopia" class="nav-link" data-scroll-target="#implications-skinners-utopia"><span class="toc-section-number">6.7.4</span>  Implications: Skinner’s Utopia</a></li>
+  <li><a href="#operant-conditioning" id="toc-operant-conditioning" class="nav-link" data-scroll-target="#operant-conditioning"><span class="header-section-number">6.7.1</span> Operant Conditioning</a></li>
+  <li><a href="#reflex-strength-a-descriptive-system" id="toc-reflex-strength-a-descriptive-system" class="nav-link" data-scroll-target="#reflex-strength-a-descriptive-system"><span class="header-section-number">6.7.2</span> Reflex strength: A descriptive system</a></li>
+  <li><a href="#applications-of-operant-conditioning" id="toc-applications-of-operant-conditioning" class="nav-link" data-scroll-target="#applications-of-operant-conditioning"><span class="header-section-number">6.7.3</span> Applications of operant conditioning</a></li>
+  <li><a href="#implications-skinners-utopia" id="toc-implications-skinners-utopia" class="nav-link" data-scroll-target="#implications-skinners-utopia"><span class="header-section-number">6.7.4</span> Implications: Skinner’s Utopia</a></li>
   </ul></li>
-  <li><a href="#exit-behaviorism" id="toc-exit-behaviorism" class="nav-link" data-scroll-target="#exit-behaviorism"><span class="toc-section-number">6.8</span>  Exit Behaviorism?</a></li>
-  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix"><span class="toc-section-number">6.9</span>  Appendix</a>
+  <li><a href="#exit-behaviorism" id="toc-exit-behaviorism" class="nav-link" data-scroll-target="#exit-behaviorism"><span class="header-section-number">6.8</span> Exit Behaviorism?</a></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix"><span class="header-section-number">6.9</span> Appendix</a>
   <ul>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="toc-section-number">6.9.1</span>  References</a></li>
+  
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/CrumpLab/cognition/edit/main/textbook/C6_Behaviorism.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/CrumpLab/cognition/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -365,7 +383,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">6 Behaviorism</h1>
+<h1 class="title">6 Behaviorism</h1>
 </div>
 
 
@@ -389,7 +407,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">November 24, 2022</p>
+      <p class="date-modified">March 20, 2023</p>
     </div>
   </div>
     
@@ -404,9 +422,6 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 </header>
 
-<div class="cell">
-
-</div>
 <p>This chapter covers the following attributes of the school of behaviorism, which rose to prominence in American psychology in the early 20th century. First, an achievement of behaviorism was to legitimize human and animal behavior as a topic of scientific inquiry in its own right. In this way, behaviorism carved out space between psychologies focused on intangible mental processes and physical brain-based processes. Second, behaviorism was constructed as a scientific system in the positivist tradition, which adds context to how I will present the goals and background ideas of the movement. Third, there were many versions of behaviorism because there were many researchers who developed and popularized their own brands. Fourth, perhaps because behaviorism was very large (occupying the time of many researchers), it is populated by controversial figures credited with creating and expanding the movement. The core claims and goals of behaviorism continue to have implications for the cognitive sciences and society in general today.</p>
 <section id="the-rabbit-hole-to-explain-or-not-to-explain" class="level3" data-number="6.1">
 <h3 data-number="6.1" class="anchored" data-anchor-id="the-rabbit-hole-to-explain-or-not-to-explain"><span class="header-section-number">6.1</span> The Rabbit Hole: To explain or not to explain?</h3>
@@ -435,7 +450,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 <div class="no-row-height column-margin column-container"><div class="cell-output-display">
 <div id="fig-6Comte" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="imgs/Auguste_Comte.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><img src="imgs/Auguste_Comte.jpg" class="quarto-discovered-preview-image img-fluid figure-img" style="width:100.0%"></p>
 <p></p><figcaption class="figure-caption">Figure&nbsp;1: August Comte (1798-1857)</figcaption><p></p>
 </figure>
 </div>
@@ -1019,98 +1034,98 @@ Skinner's utopianism
 
 
 
-</div></section><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">6.9.1 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
-<div id="ref-benjaminJohnWatsonAlleged2007" class="csl-entry" role="doc-biblioentry">
+</div></section><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">6.9.1 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-benjaminJohnWatsonAlleged2007" class="csl-entry" role="listitem">
 Benjamin, L. T., Whitaker, J. L., Ramsey, R. M., &amp; Zeve, D. R. (2007). John <span>B</span>. <span>Watson</span>’s <span>Alleged Sex Research</span>: <span>An Appraisal</span> of the <span>Evidence</span>. <em>American Psychologist</em>, <em>62</em>(2), 131–139. <a href="https://doi.org/b95f2v">https://doi.org/b95f2v</a>
 </div>
-<div id="ref-blodgettEffectIntroductionReward1929" class="csl-entry" role="doc-biblioentry">
+<div id="ref-blodgettEffectIntroductionReward1929" class="csl-entry" role="listitem">
 Blodgett, H. C. (1929). The effect of the introduction of reward upon the maze performance of rats. <em>University of California Publications in Psychology</em>.
 </div>
-<div id="ref-decampRelativeDistanceFactor1920" class="csl-entry" role="doc-biblioentry">
+<div id="ref-decampRelativeDistanceFactor1920" class="csl-entry" role="listitem">
 De Camp, J. E. (1920). Relative distance as a factor in the white rat’s selection of a path. <em>Psychobiology</em>, <em>2</em>(3), 245. <a href="https://doi.org/bcx2m3">https://doi.org/bcx2m3</a>
 </div>
-<div id="ref-doyleMeasuringProblemsHuman2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-doyleMeasuringProblemsHuman2014" class="csl-entry" role="listitem">
 Doyle, J. (2014). <em>Measuring "<span>Problems</span> of <span>Human Behavior</span>": <span>The Eugenic Origins</span> of <span>Yale</span>’s <span>Institute</span> of <span>Psychology</span>, 1921-1929</em>. 70.
 </div>
-<div id="ref-galtonHereditaryTalentCharacter1865" class="csl-entry" role="doc-biblioentry">
+<div id="ref-galtonHereditaryTalentCharacter1865" class="csl-entry" role="listitem">
 Galton, F. (1865). Hereditary talent and character. <em>Macmillan’s Magazine</em>, <em>12</em>(157-166), 318–327.
 </div>
-<div id="ref-gengerelliPrincipleMaximaMinima1930" class="csl-entry" role="doc-biblioentry">
+<div id="ref-gengerelliPrincipleMaximaMinima1930" class="csl-entry" role="listitem">
 Gengerelli, J. A. (1930). The principle of maxima and minima in animal learning. <em>Journal of Comparative Psychology</em>, <em>11</em>(2), 193. <a href="https://doi.org/cfbrfs">https://doi.org/cfbrfs</a>
 </div>
-<div id="ref-hullPrinciplesBehaviorIntroduction1943" class="csl-entry" role="doc-biblioentry">
+<div id="ref-hullPrinciplesBehaviorIntroduction1943" class="csl-entry" role="listitem">
 Hull, C. L. (1943). <em>Principles of behavior: <span>An</span> introduction to behavior theory.</em>
 </div>
-<div id="ref-innisTolmanTryonEarly1992" class="csl-entry" role="doc-biblioentry">
+<div id="ref-innisTolmanTryonEarly1992" class="csl-entry" role="listitem">
 Innis, N. K. (1992). Tolman and <span>Tryon</span>: <span>Early</span> research on the inheritance of the ability to learn. <em>American Psychologist</em>, <em>47</em>(2), 190. <a href="https://doi.org/cmbsqr">https://doi.org/cmbsqr</a>
 </div>
-<div id="ref-jenningsSuggestionsModernScience1918" class="csl-entry" role="doc-biblioentry">
+<div id="ref-jenningsSuggestionsModernScience1918" class="csl-entry" role="listitem">
 Jennings, H. S., Watson, J. B., Meyer, A., &amp; Thomas, W. I. (1918). <em>Suggestions of modern science concerning education</em>. <span>Macmillan</span>.
 </div>
-<div id="ref-morawskiOrganizingKnowledgeBehavior1986" class="csl-entry" role="doc-biblioentry">
+<div id="ref-morawskiOrganizingKnowledgeBehavior1986" class="csl-entry" role="listitem">
 Morawski, J. G. (1986). Organizing <span>Knowledge</span> and <span>Behavior</span> at <span>Yale</span>’s <span>Institute</span> of <span>Human Relations</span>. <em>Isis</em>, <em>77</em>(2), 219–242. <a href="https://doi.org/bh5f9m">https://doi.org/bh5f9m</a>
 </div>
-<div id="ref-pryorModernAnimalTraining2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-pryorModernAnimalTraining2014" class="csl-entry" role="listitem">
 Pryor, K., &amp; Ramirez, K. (2014). Modern animal training. <em>The Wiley Blackwell Handbook of Operant and Classical Conditioning</em>, 455. <a href="https://doi.org/gmb9rj">https://doi.org/gmb9rj</a>
 </div>
-<div id="ref-rossiianovIvanPavlovMoral2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-rossiianovIvanPavlovMoral2017" class="csl-entry" role="listitem">
 Rossiianov, K., &amp; Seay, N. (2017). Ivan <span>Pavlov</span> and the <span>Moral Physiology</span> of <span>Self</span>. <em>Kritika: Explorations in Russian and Eurasian History</em>, <em>18</em>(1), 203–209. <a href="https://doi.org/gk92h3">https://doi.org/gk92h3</a>
 </div>
-<div id="ref-samsTimeDiscriminationWhite1925" class="csl-entry" role="doc-biblioentry">
+<div id="ref-samsTimeDiscriminationWhite1925" class="csl-entry" role="listitem">
 Sams, C. F., &amp; Tolman, E. C. (1925). Time discrimination in white rats. <em>Journal of Comparative Psychology</em>, <em>5</em>(3), 255. <a href="https://doi.org/bzfxwr">https://doi.org/bzfxwr</a>
 </div>
-<div id="ref-schneiderHistoryTermRadical1987" class="csl-entry" role="doc-biblioentry">
+<div id="ref-schneiderHistoryTermRadical1987" class="csl-entry" role="listitem">
 Schneider, S. M., &amp; Morris, E. K. (1987). A <span>History</span> of the <span>Term Radical Behaviorism</span>: <span>From Watson</span> to <span>Skinner</span>. <em>The Behavior Analyst</em>, <em>10</em>(1), 27–39. <a href="https://doi.org/c9wz">https://doi.org/c9wz</a>
 </div>
-<div id="ref-skinnerBehaviorOrganismsExperimental1938" class="csl-entry" role="doc-biblioentry">
+<div id="ref-skinnerBehaviorOrganismsExperimental1938" class="csl-entry" role="listitem">
 Skinner, B. F. (1938). <em>The behavior of organisms: <span>An</span> experimental analysis</em>. <span>D Appleton-Century Company</span>.
 </div>
-<div id="ref-skinnerWaldenTwo1948" class="csl-entry" role="doc-biblioentry">
+<div id="ref-skinnerWaldenTwo1948" class="csl-entry" role="listitem">
 Skinner, B. F. (1948). <em>Walden two</em>. <span>Hackett Publishing</span>.
 </div>
-<div id="ref-skinnerHowTeachAnimals1951" class="csl-entry" role="doc-biblioentry">
+<div id="ref-skinnerHowTeachAnimals1951" class="csl-entry" role="listitem">
 Skinner, B. F. (1951). How to teach animals. <em>Scientific American</em>, <em>185</em>(6), 26–29. <a href="https://doi.org/gmb9rg">https://doi.org/gmb9rg</a>
 </div>
-<div id="ref-toddWhatPsychologyHas1994" class="csl-entry" role="doc-biblioentry">
+<div id="ref-toddWhatPsychologyHas1994" class="csl-entry" role="listitem">
 Todd, J. T. (1994). What <span>Psychology Has</span> to <span>Say About John B</span>. <span>Watson</span>: <span>Classical Behaviorism</span> in <span>Psychology Textbooks</span>, 1920-1989. In J. T. Todd &amp; E. K. Morris (Eds.), <em>Modern perspectives on <span>John B</span>. <span>Watson</span> and classical behaviorism</em> (pp. 75–107). <span>Greenwood Press</span>.
 </div>
-<div id="ref-tolmanInheritanceMazelearningAbility1924" class="csl-entry" role="doc-biblioentry">
+<div id="ref-tolmanInheritanceMazelearningAbility1924" class="csl-entry" role="listitem">
 Tolman, E. C. (1924). The inheritance of maze-learning ability in rats. <em>Journal of Comparative Psychology</em>, <em>4</em>(1), 1. <a href="https://doi.org/d737hx">https://doi.org/d737hx</a>
 </div>
-<div id="ref-tolmanPurposiveBehaviorAnimal1932" class="csl-entry" role="doc-biblioentry">
+<div id="ref-tolmanPurposiveBehaviorAnimal1932" class="csl-entry" role="listitem">
 Tolman, E. C. (1932). <em>Purposive behavior in animal and men</em>. <span>The Century Co.</span>
 </div>
-<div id="ref-tolmanCognitiveMapsRats1948" class="csl-entry" role="doc-biblioentry">
+<div id="ref-tolmanCognitiveMapsRats1948" class="csl-entry" role="listitem">
 Tolman, E. C. (1948). Cognitive maps in rats and men. <em>Psychological Review</em>, <em>55</em>(4), 189–208. <a href="https://doi.org/10.1037/h0061626">https://doi.org/10.1037/h0061626</a>
 </div>
-<div id="ref-tolmanDegreesHungerReward1930" class="csl-entry" role="doc-biblioentry">
+<div id="ref-tolmanDegreesHungerReward1930" class="csl-entry" role="listitem">
 Tolman, E. C., &amp; Honzik, C. H. (1930). Degrees of hunger, reward and non-reward, and maze learning in rats. <em>University of California Publications in Psychology</em>.
 </div>
-<div id="ref-tryonGeneticDifferencesMaze1940" class="csl-entry" role="doc-biblioentry">
+<div id="ref-tryonGeneticDifferencesMaze1940" class="csl-entry" role="listitem">
 Tryon, R. C. (1940). Genetic differences in maze learning ability in rats. <em>Yearbook of the National Society for the Study of Education</em>.
 </div>
-<div id="ref-tryonIndividualDifferences1942" class="csl-entry" role="doc-biblioentry">
+<div id="ref-tryonIndividualDifferences1942" class="csl-entry" role="listitem">
 Tryon, R. C. (1942). <em>Individual differences.</em> <a href="https://doi.org/bs44gx">https://doi.org/bs44gx</a>
 </div>
-<div id="ref-watsonPsychologyBehavioristViews1913" class="csl-entry" role="doc-biblioentry">
+<div id="ref-watsonPsychologyBehavioristViews1913" class="csl-entry" role="listitem">
 Watson, J. B. (1913). Psychology as the behaviorist views it. <em>Psychological Review</em>, <em>20</em>, 158–177.
 </div>
-<div id="ref-watsonPlaceConditionedreflexPsychology1916" class="csl-entry" role="doc-biblioentry">
+<div id="ref-watsonPlaceConditionedreflexPsychology1916" class="csl-entry" role="listitem">
 Watson, J. B. (1916). The place of the conditioned-reflex in psychology. <em>Psychological Review</em>, <em>23</em>(2), 89. <a href="https://doi.org/bdw5ns">https://doi.org/bdw5ns</a>
 </div>
-<div id="ref-watsonBehaviorism1924" class="csl-entry" role="doc-biblioentry">
+<div id="ref-watsonBehaviorism1924" class="csl-entry" role="listitem">
 Watson, J. B. (1924). <em>Behaviorism</em>. <span>W. W. Norton &amp; Company</span>.
 </div>
-<div id="ref-watsonPsychologicalCareInfant1928" class="csl-entry" role="doc-biblioentry">
+<div id="ref-watsonPsychologicalCareInfant1928" class="csl-entry" role="listitem">
 Watson, J. B. (1928). <em>Psychological care of infant and child.</em>
 </div>
-<div id="ref-watsonConditionedEmotionalReactions1920" class="csl-entry" role="doc-biblioentry">
+<div id="ref-watsonConditionedEmotionalReactions1920" class="csl-entry" role="listitem">
 Watson, J. B., &amp; Rayner, R. (1920). Conditioned emotional reactions. <em>Journal of Experimental Psychology</em>, <em>3</em>(1), 1. <a href="https://doi.org/b9k9ng">https://doi.org/b9k9ng</a>
 </div>
-<div id="ref-yakushkoScientificPollyannaismInquisition2019" class="csl-entry" role="doc-biblioentry">
+<div id="ref-yakushkoScientificPollyannaismInquisition2019" class="csl-entry" role="listitem">
 Yakushko, O. (2019). <em>Scientific <span>Pollyannaism</span>: <span>From Inquisition</span> to <span>Positive Psychology</span></em>. <span>Springer International Publishing</span>. <a href="https://doi.org/10.1007/978-3-030-15982-5">https://doi.org/10.1007/978-3-030-15982-5</a>
 </div>
-<div id="ref-yerkesMethodPawlowAnimal1909" class="csl-entry" role="doc-biblioentry">
+<div id="ref-yerkesMethodPawlowAnimal1909" class="csl-entry" role="listitem">
 Yerkes, R. M., &amp; Morgulis, S. (1909). The method of <span>Pawlow</span> in animal psychology. <em>Psychological Bulletin</em>, <em>6</em>(8), 257. <a href="https://doi.org/fkvq8h">https://doi.org/fkvq8h</a>
 </div>
 </div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
@@ -1124,9 +1139,9 @@ Yerkes, R. M., &amp; Morgulis, S. (1909). The method of <span>Pawlow</span> in a
 <li id="fn6"><p>and others, Holt, de Laguna, Weiss<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn7"><p>taken from wikipedia<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@incollection{j.c.crump2021,
-  author = {Matthew J. C. Crump},
-  editor = {Matthew J. C. Crump},
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@incollection{j.c.crump2021,
+  author = {J.C.Crump, Matthew},
+  editor = {J.C.Crump, Matthew},
   title = {Behaviorism},
   booktitle = {Instances of Cognition: Questions, Methods, Findings,
     Explanations, Applications, and Implications},
@@ -1136,10 +1151,10 @@ Yerkes, R. M., &amp; Morgulis, S. (1909). The method of <span>Pawlow</span> in a
   abstract = {This chapter covers the school of behaviorism, which rose
     to prominence in American psychology in the early 20th century.}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-j.c.crump2021" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-Matthew J. C. Crump. (2021). Behaviorism. In Matthew J. C. Crump (Ed.),
-<em>Instances of Cognition: Questions, Methods, Findings, Explanations,
-Applications, and Implications</em>. <a href="https://crumplab.com/cognition/textbook">https://crumplab.com/cognition/textbook</a>
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-j.c.crump2021" class="csl-entry quarto-appendix-citeas" role="listitem">
+J.C.Crump, M. (2021). Behaviorism. In M. J.C.Crump (Ed.), <em>Instances
+of Cognition: Questions, Methods, Findings, Explanations, Applications,
+and Implications</em>. <a href="https://crumplab.com/cognition/textbook">https://crumplab.com/cognition/textbook</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -1168,9 +1183,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1235,6 +1264,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -1278,6 +1393,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">This page is built with <a href="https://quarto.org/">Quarto</a>.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

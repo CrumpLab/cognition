@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700&family=Work+Sans:wght@300;400&family=EB+Garamond&family=Cormorant+Garamond:wght@400;500&family=Baskervville&family=Lora&family=Merriweather:wght@300&family=PT+Serif&display=swap');
+
+:root{
+  --primary: #079fe0;
+  --first: #b3f2ff;
+  --secondary: #b3ffb3;
+  --third: #ffddab;
+  --fourth: #ba65a0;
+  --textbox: #f06cc8;
+}
+
+
+p {
+ /* font-family: 'Work Sans' !important;*/
+ /* font-family: 'EB Garamond', serif; */
+  /* font-family: 'Baskervville';*/
+ /*  font-weight: 500;*/
+ /*  font-size: 1.15em !important;*/
+ /*  max-width: 62ch !important;*/
+ /*  letter-spacing: 0em;*/
+ /*  line-height: 1.425em;*/
+ /*  word-spacing: 0.05em;*/
+}
+
+
+ h1 {
+  font-size: 400;
+  font-family: 'Montserrat Alternates' !important;
+  color: var(--primary);
+}
+
+.section h2 {
+  font-family: 'Montserrat Alternates' !important;
+  /*background-color: #fef5ff !important; */
+  /*background-color: var(--secondary) !important;*/
+  background-image: linear-gradient(to left, #fff, var(--first));
+  border-radius: 5px;
+}
+
+.section h3 {
+  /*background-color: #fef5ff !important; */
+  font-family: 'Montserrat Alternates' !important;
+  /*background-color: var(--secondary) !important;*/
+  background-image: linear-gradient(to left, #fff, var(--secondary));
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+.section h4 {
+  font-weight: 300 !important;
+  font-family: 'Montserrat Alternates' !important;
+  /*background-color: #faece3 !important;*/
+  /*background-color: var(--third) !important;*/
+  background-image: linear-gradient(to left, #fff, var(--third));
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+.figure {
+     border-top: 0px !important;
+     border-bottom: 0px !important;
+   }
+
+.inline-figure {
+     border: 0px !important;
+}
+
+.section .header-section-number {
+ padding-left: 5px;
+}
+
+.blockquote p {
+  font-weight: 200 !important;
+  font-size: 1em !important;
+  font-family: 'Work Sans', sans-serif !important;
+  /*font-style: italic !important; */
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*
+.csl-entry {
+  padding-left: 20px!important;
+  text-indent: -20px!important;
+  padding-bottom: 10px;
+}
+*/
+
+@media (max-width: 767.98px) {
+  .floatright50 {
+    width: 80%;
+  }
+
+.floatrightbox {
+    float: none;
+    width: 80%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid #713a8a;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  }
+}
+
+.floatright25 {
+  float: right;
+  width: 25%;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+
+
+.centerfigureshadow {
+  text-align: center;
+  width: 80%;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.floatleft25 {
+  float: left;
+  width: 25%;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.floatright50 {
+  float: right;
+  width: 50%;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.floatrightbox50 {
+  float: right;
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  border: 2px solid var(--textbox);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  background-color: white;
+}
+
+.floatrightbox25 {
+  float: right;
+  width: 25%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  border: 2px solid var(--textbox);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  background-color: white;
+}
+
+
+.readingtime {
+  margin-left: 50%;
+  height: 100px;
+  width: 50%;
+  border-radius: 15px;
+  border: 2px solid var(--textbox);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.blockquote {
+  font-weight: 200 !important;
+  font-size: 1em !important;
+  font-family: 'Work Sans', sans-serif !important;
+  /*font-style: italic !important;*/
+  border-left: 0.5rem solid #eee;
+  padding-left: 0.5rem;
+  margin-left: -0.5rem;
+}
+
+.blockquote ol {
+  padding-left: 45px;
+}
