@@ -1,6 +1,6 @@
 ---
 title: "4 Intelligence Testing"
-author: "Matthew J. C. Crump"
+author: Matthew J. C. Crump
 date: 09/01/2021
 abstract: "This chapter covers the development of intelligence tests, delving into early examples how the tests work. There is some discussion of the concept of intelligence in relation to these tests, along with historical examples of how the tests were deployed by the eugenics movement."
 license: 'CC BY-SA'
@@ -14,6 +14,9 @@ bibliography: 'CogPsyTextbook.bib'
 image: "imgs/cover.jpg"
 csl: apa.csl
 toc-depth: 4
+format: 
+  html: default
+  pdf: default
 citation:
   type: chapter
   title: "Intelligence testing"

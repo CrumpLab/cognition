@@ -14,6 +14,9 @@ image: "imgs/cover.jpg"
 css: custom.css
 csl: apa.csl
 toc-depth: 4
+format: 
+  html: default
+  pdf: default
 citation:
   type: chapter
   title: "What is Cognition?"
