@@ -1,6 +1,9 @@
 ---
 title: "9 Memory II"
-author: "Matthew J. C. Crump"
+author: 
+  name:
+    given: Matthew J. C.
+    family: Crump
 date: 09/01/2021
 abstract: "This chapter continues to discuss memory research in cognition. In the last chapter we reviewed some early memory research that led into an information processing approach to memory in the 1960s. In this chapter we will pick up our discussion from this time period onward. I will also focus less on models of memory, and more on tasks, phenomena, and principles of memory."
 license: 'CC BY-SA'
@@ -19,7 +22,10 @@ citation:
   title: "Memory II"
   container-title: "Instances of Cognition: Questions, Methods, Findings, Explanations, Applications, and Implications"
   chapter-number: 9
-  editor: "Matthew J. C. Crump"
+  editor:
+    name:
+      given: Matthew J. C.
+      family: Crump
   url: "https://crumplab.com/cognition/textbook"
 ---
 

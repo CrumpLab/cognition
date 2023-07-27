@@ -1,6 +1,9 @@
 ---
 title: "1 What is Cognition?"
-author: "Matthew J. C. Crump"
+author: 
+  name:
+    given: Matthew J. C.
+    family: Crump
 date: 09/01/2021
 abstract: "This chapter presents an overview of the structure of cognition research, including questions, methods, findings, explanations, applications, and real-world implications. The second half of the chapter describes components of research articles in the form of a tutorial to develop skill and familiarity with reading and comprehending primary research in cognition."
 license: 'CC BY-SA'
@@ -22,7 +25,10 @@ citation:
   title: "What is Cognition?"
   container-title: "Instances of Cognition: Questions, Methods, Findings, Explanations, Applications, and Implications"
   chapter-number: 1
-  editor: "Matthew J. C. Crump"
+  editor:
+    name:
+      given: Matthew J. C.
+      family: Crump
   url: "https://crumplab.com/cognition/textbook"
 ---
 

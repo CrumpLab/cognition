@@ -1,6 +1,9 @@
 ---
 title: "2 Mental Imagery"
-author: "Matthew J. C. Crump"
+author: 
+  name:
+    given: Matthew J. C.
+    family: Crump
 date: 09/01/2021
 abstract: "This chapter discusses historical and current research on mental imagery. Overarching questions include: What is mental imagery and how does it work? What kind of explanation would answer this question? How did prior researchers tackle these questions, and what has been learned about mental imagery? And, how has society been influenced by research into mental imagery? Two major topics include individual differences in mental imagery and the mental imagery debate."
 license: 'CC BY-SA'
@@ -22,7 +25,10 @@ citation:
   title: "Mental Imagery"
   container-title: "Instances of Cognition: Questions, Methods, Findings, Explanations, Applications, and Implications"
   chapter-number: 2
-  editor: "Matthew J. C. Crump"
+  editor:
+    name:
+      given: Matthew J. C.
+      family: Crump
   url: "https://crumplab.com/cognition/textbook"
 ---
 

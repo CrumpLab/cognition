@@ -1,6 +1,9 @@
 ---
 title: "4 Intelligence Testing"
-author: Matthew J. C. Crump
+author: 
+  name:
+    given: Matthew J. C.
+    family: Crump
 date: 09/01/2021
 abstract: "This chapter covers the development of intelligence tests, delving into early examples how the tests work. There is some discussion of the concept of intelligence in relation to these tests, along with historical examples of how the tests were deployed by the eugenics movement."
 license: 'CC BY-SA'
@@ -22,7 +25,10 @@ citation:
   title: "Intelligence testing"
   container-title: "Instances of Cognition: Questions, Methods, Findings, Explanations, Applications, and Implications"
   chapter-number: 4
-  editor: "Matthew J. C. Crump"
+  editor:
+    name:
+      given: Matthew J. C.
+      family: Crump
   url: "https://crumplab.com/cognition/textbook"
 ---
 

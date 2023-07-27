@@ -1,6 +1,9 @@
 ---
 title: "5 Associations"
-author: "Matthew J. C. Crump"
+author: 
+  name:
+    given: Matthew J. C.
+    family: Crump
 date: 09/01/2021
 abstract: "This chapter covers associationism and early empirical work on associative learning processes in humans and  non-human animals."
 license: 'CC BY-SA'
@@ -19,7 +22,10 @@ citation:
   title: "Associations"
   container-title: "Instances of Cognition: Questions, Methods, Findings, Explanations, Applications, and Implications"
   chapter-number: 5
-  editor: "Matthew J. C. Crump"
+  editor:
+    name:
+      given: Matthew J. C.
+      family: Crump
   url: "https://crumplab.com/cognition/textbook"
 ---
 

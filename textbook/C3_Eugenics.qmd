@@ -1,6 +1,9 @@
 ---
 title: "3 Eugenics and Psychology"
-author: "Matthew J. C. Crump"
+author: 
+  name:
+    given: Matthew J. C.
+    family: Crump
 date: 09/01/2021
 abstract: "This chapter describes the eugenics movement and some connections to the larger discipline of psychology and research into cognition. Some of these connections are expanded upon in later chapters, including the next chapter on mental testing."
 license: 'CC BY-SA'
@@ -22,7 +25,10 @@ citation:
   title: "Eugenics and Psychology"
   container-title: "Instances of Cognition: Questions, Methods, Findings, Explanations, Applications, and Implications"
   chapter-number: 3
-  editor: "Matthew J. C. Crump"
+  editor:
+    name:
+      given: Matthew J. C.
+      family: Crump
   url: "https://crumplab.com/cognition/textbook"
 ---
 

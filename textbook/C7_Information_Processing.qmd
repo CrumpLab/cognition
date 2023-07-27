@@ -1,6 +1,9 @@
 ---
 title: "7 Information Processing"
-author: "Matthew J. C. Crump"
+author: 
+  name:
+    given: Matthew J. C.
+    family: Crump
 date: 09/01/2021
 abstract: "This chapter covers notions of *processing stages*, *information*, and *capacity limitations*, which became popular research topics around the 1950s and 60s."
 license: 'CC BY-SA'
@@ -19,7 +22,10 @@ citation:
   title: "Information Processing"
   container-title: "Instances of Cognition: Questions, Methods, Findings, Explanations, Applications, and Implications"
   chapter-number: 7
-  editor: "Matthew J. C. Crump"
+  editor:
+    name:
+      given: Matthew J. C.
+      family: Crump
   url: "https://crumplab.com/cognition/textbook"
 ---
 
