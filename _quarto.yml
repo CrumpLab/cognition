@@ -115,7 +115,6 @@ format:
   html:
     theme: 
       - cosmo
-      - custom.scss
     css: styles.css
     toc: true
 

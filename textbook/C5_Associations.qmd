@@ -47,7 +47,7 @@ colnames(info) <- c("Word Count","Reading Time","Last Compiled")
 knitr::kable(info)
 ```
 
-The previous chapter covered research on cognitive abilities spanning roughly from the 1860s to the 1960s from the perspective of individual differences psychology. For example, in addition to developing mental tests, Alfred Binet wrote more broadly about his school of "Individual Psychology" [@nicolasProgramIndividualPsychology2014] that was aimed at using measurements of variation in human attributes to make society more efficient. However, the Individual Differences school of psychology was not the only approach to studying cognitive abilities. Instead, the methods of experimental psychology were also used to ask and answer questions about cognitive abilities. Experimental psychologists also developed tests, but they more often took the form of experimental manipulations. And, the results of the experiments were used to evaluate theories about how cognitive processes work. This chapter will focus on associationism and early empirical work on associative learning processes in humans and  non-human animals.
+The previous chapter covered research on cognitive abilities spanning the 1860s to the 1960s, from the perspective of individual differences psychology. For example, in addition to developing mental tests, Alfred Binet wrote more broadly about his school of "Individual Psychology" [@nicolasProgramIndividualPsychology2014] that was aimed at using measurements of variation in human attributes to make society more efficient. However, the individual differences school of psychology was not the only approach to studying cognitive abilities. Instead, methods of experimental psychology were also used to ask and answer questions about cognitive abilities during the same time period. Experimental psychologists used similar tests and procedures, but they focused on how task performance varied across experimental manipulations rather than across different individuals. The results of the experiments were used to evaluate theories about how cognitive processes work. This chapter will focus on associationism and early empirical work on associative learning processes in humans and  non-human animals that were part of the experimental psychology tradition.
 
 
 ```{=html}
@@ -58,85 +58,122 @@ As a sidenote, this chapter will proceed with a greater focus on individual find
 
 ## Evolving ideas on cognition
 
-There is a long history of ideas about cognition that predate and feed into psychological approaches to cognition, and covering all of them is beyond the scope of this chapter. However, if we zoom in on early experimental research between the 1890s to 1920s, we can refer to some of the intellectual history and see how it informed and guided cognition research at the time. Some of the really big claims and themes about cognition that appear in the introductions of early research manuscripts remain relevant today.
+There is a long history of ideas about cognition that predates and informs later psychological approaches to cognition. By focusing on the early experimental research conducted from the 1890s to 1920s, it is possible to refer to elements of this intellectual history and discuss how it shaped and guided cognitive research. Some of the really big claims and themes about cognition that appear in the introductions of early research manuscripts remain relevant today.
 
-We are about to visit the laboratories of [Edward Thorndike](https://en.wikipedia.org/wiki/Edward_Thorndike) (1874-1949) and [Ivan Pavlov](https://en.wikipedia.org/wiki/Ivan_Pavlov) (1849-1936). Thorndike was in America and Pavlov was in Russia, and both were independently conducting novel experiments to test theories and claims about cognition in animals. Before we review their experiments and findings, let's first consider the background claims and ideas they intended to put to the test.
+We are about to visit the laboratories of early researchers studying associative learning in humans and animals. First, we will go back to James McKeen Cattell's lab. In addition to developing the mental tests discusses in the last chapter, Cattell was also asking questions about how people used and developed association. Then, we turn to the labs of [Edward Thorndike](https://en.wikipedia.org/wiki/Edward_Thorndike) (1874-1949) and [Ivan Pavlov](https://en.wikipedia.org/wiki/Ivan_Pavlov) (1849-1936). Thorndike was in America and Pavlov was in Russia. They were both independently using different experimental approaches to test theories and claims about animal cognition. Before visiting each lab the next sections provide philosophical and historical context that motivated the research questions.
 
 ### Humans and animals
 
-So far we have discussed cognition in terms of human animals. But, there are so many other animals of all shapes and sizes, what about them? Prior to Thorndike and Pavlov, there wasn't too much experimental research on cognition in the animal kingdom, but since then whole fields of animal and comparative cognition have been developed. Although this textbook will focus more on human cognition, I will attempt to integrate animal cognition as much as possible. And, rather than using "human-animal", and "non-human animal", I will refer to human and/or animal cognition throughout the book as a shorter way to identify the subjects of the research. Last, discussions about which words to use to refer to humans and animals point to background ideas motivating Thorndike and Pavlov's work.
+So far we have discussed cognition in terms of human animals. What about cognition in other animals? Before Thorndike and Pavlov there wasn't much experimental research on animal cognition. Since then, whole fields of animal and comparative cognition have been developed. Although this textbook focuses on human cognition, I will attempt to integrate animal cognition as much as possible. And, rather than using "human-animal", and "non-human animal", I will refer to human and/or animal cognition throughout the book as a shorter way to identify the subjects of the research. Last, discussions about which words to use to refer to humans and animals point to background ideas motivating Thorndike and Pavlov's work.
 
-Just like there is a long human history of ideas about the mind, there is long history of ideas about animals, animal minds, and the human-animal relationship. [Anthropocentrism](https://en.wikipedia.org/wiki/Anthropocentrism) is a variety of beliefs and traditions that center on humans as the most important species. For example, in early Judaic and Christian writings, a supreme supernatural being created humans in their image and set humans on a higher level than other animals. These ideas both distinguish humans from animals (as being different kinds of entities), and place humans in a hierarchy of quality above other animals. Judeo-Christian concepts predate psychology by thousands of years, and even though psychology as a natural science proceeded to construct different views on humans and animals, related hierarchical notions remain deeply ingrained. For example, "higher-order" cognition is often reserved for cognitive abilities argued to be special to humans, like inferential reasoning. And, "lower-order" cognition is often reserved for basic cognitive abilities that are common among animals. It's not clear to me that these hierarchies are very useful.
+Just like the long human history of ideas about the mind, there is a long history of ideas about animals, animal minds, and the human-animal relationship. [Anthropocentrism](https://en.wikipedia.org/wiki/Anthropocentrism) is a collection of beliefs and traditions that center humans as the most important species. For example, in early Judaic and Christian writings, a supreme supernatural being created humans in their image and set humans on a higher level than other animals. These ideas both distinguish humans from animals (as being different kinds of entities), and place humans in a hierarchy of quality above other animals. Judeo-Christian concepts predate psychology by thousands of years, and even though psychology as a natural science proceeded to construct different views on humans and animals, related hierarchical notions remain deeply ingrained. For example, "higher-order" cognition is often reserved for cognitive abilities argued to be special to humans, like inferential reasoning. And, "lower-order" cognition is often reserved for basic cognitive abilities that are common among animals.
 
-[Animism](https://en.wikipedia.org/wiki/Animism) is another varied set of beliefs ascribing spiritual essences to things, including animals. Many fables, folklore, and religious texts have animal characters imbued with cognitive abilities and other powers. Relatedly, the idea that animals can be understood as if they were humans is also criticized as an inaccurate form of anthropomorphism.
+[Animism](https://en.wikipedia.org/wiki/Animism) is a set of beliefs ascribing spiritual essences to things, including animals. Many fables, folklore, and religious texts have animal characters imbued with cognitive abilities and other powers. Relatedly, the idea that animals can be understood as if they were humans is also criticized as an inaccurate form of anthropomorphism.
 
-Mystic ideas about humans and animals can be viewed as claims about cognition. One claim is about whether or not human cognition can be explained at all. The idea that people were created in the image of a fundamentally unexplainable supernatural being, suggests that the supernatural parts of people are inherently unexplainable. Another claim is about kinds of cognitive abilities. For example, the idea that animals possess vital spiritual essences like humans, could suggest that mental abilities of some animals are similar to people. Experimental Psychology arose out of the scientific tradition to put claims to the test by collecting evidence bearing on the claims.
+Mystic ideas about humans and animals can be viewed as claims about cognition. One claim is about whether or not human cognition can be explained at all. For example, the idea that people were created in the image of a fundamentally unexplainable supernatural being suggests that the supernatural parts of people are inherently unexplainable. Another claim is about types and qualities of cognitive abilities. For example, the idea that animals possess vital spiritual essences like humans, could suggest that the mental abilities of some animals are similar to people. Experimental Psychology arose out of the scientific tradition to put claims to the test by collecting evidence bearing on the claims, including claims about human and animal cognition.
 
 ### Philosophy
 
-The experiments of Thorndike and Pavlov are also set in a background of philosophy, especially debates in [epistemology](https://en.wikipedia.org/wiki/Epistemology) between [rationalist and empiricist views of knowledge](https://plato.stanford.edu/entries/rationalism-empiricism/).
+The experiments of Cattell, Thorndike, and Pavlov inspired by philosophical debates in [epistemology](https://en.wikipedia.org/wiki/Epistemology) between [rationalist and empiricist views of knowledge](https://plato.stanford.edu/entries/rationalism-empiricism/).
 
-[Rationalism](https://en.wikipedia.org/wiki/Rationalism) involved views that some knowledge was innate and could exist separately from experience and information gained through sense organs. Furthermore, ultimate truths about reality were argued to depend on logic and reason. If the universe was a fundamentally logical place, then the process of accurate reasoning alone would be enough to deduce the ultimate truths.
+[Rationalism](https://en.wikipedia.org/wiki/Rationalism) involved views that some knowledge was innate and existed separately from experience and information gained through sense organs. Furthermore, ultimate truths about reality were argued to depend on logic and reason. If the universe was a fundamentally logical place, then the process of accurate reasoning alone would be enough to deduce the ultimate truths.
 
-[Empiricism](https://en.wikipedia.org/wiki/Empiricism) additionally emphasized a role for observation and evidence collection in knowledge creation. For example, human's were argued to acquire knowledge over the course of their experience of the world through their sense organs. Empiricism invited further questions about how people created knowledge from their sensory experience, which clearly connected to questions of interest for early experimental psychologists.
+[Empiricism](https://en.wikipedia.org/wiki/Empiricism) additionally emphasized a role for observation and evidence collection in knowledge creation. For example, humans were argued to acquire knowledge through their sensory experience of the world. Empiricism invited further questions about how people created knowledge from their sensory experience. These "how" questions inspired early experimental psychologists.
 
-The [Associationist School](https://en.wikipedia.org/wiki/Associationism#Associationist_School) included empiricist philosophers who speculated further on the nature of mental processes that produced knowledge from experience. In 1689, John Locke wrote, "An essay concerning human understanding", and argued against the rationalist/nativist idea that people were born only with innate knowledge about the world. Instead, Locke advocated that people acquired knowledge by learning about the world through their experiences. In 1739, David Hume elaborated on the nature of the learning process and suggested a role for associations in, "Treatise on Human Nature", that "when the mind, therefore, passes from the idea or impression of one object to the idea or belief of another, it is not determined by reason, but by certain principles, which associate together the ideas of these objects, and unite them in the imagination.". Hume suggests broadly that acts of cognition involve a process of association that works according to "certain principles". What the principles are, and how they work, is still a primary focus of the modern cognitive sciences.
+::: {.column-margin}
 
-Principles of association included roles for contiguity, similarity, frequency, and recency to shape the formation of new associations. *The principle of contiguity* states that strength of association depends on the proximity of events in space and time. Events that are closer to each other are associated more strongly. *The principle of similarity* states that more similar events will develop stronger associations than less similar events. *The principle of frequency* is that events that co-occur more frequently will be associated more strongly than less frequent events. *The recency principle* suggests stronger associations for recent events than more remote events. In general, these philosophical principles of association have held up quite well and are often components of modern theories.
+Locke's [An Essay Concerning Human Understanding](https://archive.org/details/in.ernet.dli.2015.223061/page/n3/mode/2up) is available to read on the internet archive
+
+:::
+
+The [Associationist School](https://en.wikipedia.org/wiki/Associationism#Associationist_School) included empiricist philosophers who speculated further on the nature of mental processes that were responsible for producing knowledge from experience. In 1689, John Locke wrote "An Essay Concerning Human Understanding" and argued against the rationalist/nativist idea that people were born only with innate knowledge about the world [@lockeEssayConcerningHuman1847]. 
+Locke advocated that people acquired knowledge by learning about the world through their experiences. 
+
+::: {.column-margin}
+
+Hume's [A Treatise of Human Nature](https://archive.org/details/in.ernet.dli.2015.187695) is available to read on the internet archive
+
+:::
+
+In 1739, David Hume wrote "A Treatise of Human Nature" and put forward a role for associations in the learning process [@humeTreatiseHumanNature1896]. For example, he wrote that "when the mind, therefore, passes from the idea or impression of one object to the idea or belief of another, it is not determined by reason, but by certain principles, which associate together the ideas of these objects, and unite them in the imagination." Hume suggested that acts of cognition involve a process of association that works according to "certain principles". What the principles are, and how they work, is still a primary focus of the modern cognitive sciences.
+
+Philosophers also made proposals about the principles guiding the process of association. *The principle of contiguity* states that strength of association depends on the proximity of events in space and time. Events that are closer to each other are associated more strongly. *The principle of similarity* states that more similar events will develop stronger associations than less similar events. *The principle of frequency* is that events that co-occur more frequently will be associated more strongly than events that co-occur less frequently. *The recency principle* suggests stronger associations for recent events than more remote events. In general, these philosophical principles of association have held up quite well and are often components of modern theories.
 
 ### Natural Science
 
-There is also lesser known work from Robert Hooke (1635-1703), a natural scientist, that went much further than Hume's "certain principles". Robert Hooke, coined the word cell, and was the first person to observe a micro-organism under a microscope. In 1705, Hooke's posthumous works were published, and they contained his model of how human memory could operate as a physical system [@hookePosthumousWorksRobert1705]. The model was not entirely physical, because it allowed some role for "immaterial" forces; and, it was largely forgotten until fairly recently [@hintzmanRobertHookeModel2003]. However, despite not having a major historical impact, Hooke's model was a clear attempt to move toward well-specified mechanistic explanations of cognition [^c5_associations-1].
+Lesser known work from Robert Hooke (1635-1703), a natural scientist, went much further than Hume's "certain principles". Robert Hooke, coined the word "cell" and was the first person to observe a micro-organism under a microscope. In 1705, Hooke's posthumous works were published and they contained his model of how human memory could operate as a physical system [@hookePosthumousWorksRobert1705]. The model was not entirely physical, because it allowed some role for "immaterial" forces, and it was largely forgotten until fairly recently [@hintzmanRobertHookeModel2003]. However, despite not having a major historical impact, Hooke's model was a clear attempt to develop a well-specified mechanistic explanation of cognition [^c5_associations-1]. The aim of generating a clear explanation of how cognition works, especially in the form of a mechanistic model, remains a current goal of the cognitive sciences.
 
-[^c5_associations-1]: we will examine several models of human memory in greater detail in the upcoming chapters on memory
+[^c5_associations-1]: We will examine models of human memory in greater detail in the upcoming chapters on memory
 
 ### Evolution
 
-A last backdrop to the upcoming works of Thorndike and Pavlov was Darwin's theory of evolution. Darwin's theory connected all life on earth and explained the origins of species in terms of natural selection processes. The critical ingredients for organisms to evolve over generations include 1) the ability to reproduce, 2) random mutations that produce heritable variations in the traits and behavior of the organism, and 3) environmental selection pressures. Organisms with advantages for survival in their particular environments would tend to pass on those traits to their offspring. Other organisms that were more likely to succumb to their environments, would be less likely to have offspring and pass on their heritable traits. In this way, organisms would slowly drift and change across generations based on whichever random mutations tended to facilitate those organisms reproducing and mutating over generations in their given environments.
+::: {.column-margin}
 
-Different from anthropocentric views, the theory of evolution clearly sets humans and animals in the very same explanatory ballpark. People are a species of animals with an evolutionary family tree, where every person is descended from their parents. Other animals have their own evolutionary family trees and lineages of descendants. Furthermore, if one went far enough back in the family tree, all animals could be descended from common ancestors.
+[On the origin of species](https://archive.org/details/onoriginspecies00unkngoog/page/n6/mode/2up) is available to read on the internet archive
 
-Considering evolutionary theory, there is every good reason to consider cognition as a topic for humans and animals. First, humans are animals; so by definition human cognition is a specific case of animal cognition. Second, there are a wide variety of animals that range in their physical size and capabilities, and it seems implausible that an evolutionary process would only bestow cognitive processes onto humans and no other animals. Instead, evolutionary theory implies that cognitive processes among animals also evolved over time. This could imply that the field of cognition is as large and diverse as all the ways that cognitive processes might have evolved differently across species. At the same time, evolution is known to produce similar solutions across species (e.g., eyes), and it is plausible that animals share cognitive processes that work on the basis of similar principles.
+:::
 
-So, the backdrop to Thorndike and Pavlov was western European cultural beliefs about humans and animals, western philosophical debates centering around psychological constructs like human knowledge, a desire to apply the rigors of natural science methodology to problems in psychology, a convincing theory of evolution suggesting that animals could be used as subjects to gain knowledge about evolutionary basic cognitive processes, and a wide open playing field where there was very little existing empirical work.
+A final historical backdrop was Darwin's theory of evolution, published in 1859 in a book titled "On the origin of species" [@darwinOriginSpeciesMeans1859]. Darwin's theory connected all life on Earth and explained the origins of species in terms of natural selection processes. The critical ingredients for organisms to evolve over generations included:
+
+1. The ability to reproduce
+2. Random mutations that produce heritable variations in the traits and behavior of the organism, and
+3. Environmental selection pressures. 
+
+Organisms that survived in their environment would tend to pass on heritable traits to their offspring. Organisms that perished would be less likely to have offspring and pass on heritable traits. Random mutations also occur in a generation that may or may not convey a survival advantage. And, an organisms environment can change, which can change whether or not an existing trait remains useful for survival. In this way, the traits of organisms slowly drift and change as some traits are more likely to persist or fade across generations.
+
+Different from anthropocentric views described earlier, the theory of evolution clearly places humans and animals in the same explanatory ballpark. People are a species of animals with an evolutionary family tree, where every person is descended from their parents. Other animals also have their own evolutionary family trees and lineages of descendants. Furthermore, if one goes far enough back in the family tree all animals could be descended from common ancestors.
+
+Evolutionary theory motivates cognition as an inclusive topic for humans and animals. First, humans are animals; so, by definition human cognition is a specific case of animal cognition. There are a wide variety of animals that range in their physical size and capabilities, and it is implausible that a natural evolutionary process would only bestow cognitive processes onto humans and not other animals. Instead, evolutionary theory implies that cognitive processes among animals also evolved over time. In this sense, the field of cognition is as large and diverse as all the ways that cognitive processes have evolved differently across species. At the same time, evolution is known to produce similar solutions across species (e.g., eyes), and it is possible that animals share related cognitive processes that work on the basis of similar principles.
+
+In summary, the backdrop to labs we visit next was western European cultural beliefs about humans and animals, western philosophical debates about psychological constructs like human knowledge, a desire to apply the rigors of natural science methodology to problems in psychology, a convincing theory of evolution suggesting that animals could be used as subjects to gain knowledge about evolutionary basic cognitive processes, and a wide open playing field where there was very little existing empirical work.
 
 ### Associative Claims
 
-If you took the position that cognition was a special ability that operated according to special rules that can never be known, it would not be possible to evaluate those claims with evidence. First, its not clear what ought to happen in any given situation if cognition is special and unexplained. Second, if any particular thing happened, it could be accounted for by saying that cognition is special like that.
-
-Associationist claims are specific enough that they can be evaluated with evidence. As a result, it becomes possible to use the scientific method to assess claims about cognition. Let's identify a few really basic claims that could be evaluated.
+Associationism is the topic of this chapter and the philosophical theme motivating the research we will discuss from the labs of Cattell, Thorndike, and Pavlov. Associationist claims about cognition are specific enough that they can be evaluated with evidence. As a result, it becomes possible to use the scientific method to assess claims being made about how cognition works. Let's identify a few really basic claims that could be evaluated.
 
 1.  People have associations between concepts
 2.  New associations can be learned
 3.  Some associations are stronger than others
 
-First, could you think of examples from your experience that would provide evidence for these claims? Have you ever learned a new association between one thing and another? Are some ideas more strongly associated with others in your experience? I've learned many things that could involve associations. For example, I didn't know how to type on a computer keyboard when I was born, I learned how to do it. Now, I barely think about what my fingers are doing when I type because the words I'm thinking are strongly associated with the finger movements I need to make to type the sentence I want to write. It's easy to demonstrate for yourself that some associations are stronger than others. For example, think of a fruit that begins with the letter "A". How long did that take? Think of any word that has a letter A in the 5th position of the word? Did that take longer? The letter A seems to be more strongly associated with some words than others.
+First, could you think of examples from your experience that would provide evidence for these claims? Have you ever learned a new association between one thing and another? Are some ideas more strongly associated with others in your experience? 
 
-Although, you could come up with additional examples from your experience that would be consistent with the claims, consider the problem of creating a laboratory-based demonstration. One goal of a laboratory-based demonstration is to describe a method and controlled set of circumstances that other people could use to reproduce your demonstration and verify your results. The following are early laboratory demonstrations that were used to evaluate the associationist claims.
+Personally, I've learned many things that could involve associations. For example, I didn't know how to type on a computer keyboard when I was born, I learned how to do it. Today, I barely think about what my fingers are doing when I type because the words I'm thinking are strongly associated with the finger movements I need to make to type the sentence I want to write.
+
+Using everyday experiences it is easy to demonstrate for yourself that some associations are stronger than others. For example, think of a fruit that begins with the letter "A". How long did that take? 
+
+Think of any word that has a letter A in the 5th position of the word? Did that take longer? 
+
+If you thought word "apple" straight away, but took much longer to think of a word with letter "A" in the fifth position, then it seems that the letter A is more strongly associated with some words than others.
+
+Although, you could come up with additional examples from your experience that would be consistent with the claims, consider the challenge of creating a laboratory-based demonstration capable of generating credible evidence relevant to evaluating a claim. 
+
+One goal of a laboratory-based demonstration is to communicate a method and controlled set of circumstances that other people could also use. This would others to reproduce the demonstration and verify the results.
+
+The following examples are early laboratory demonstrations that were used to evaluate associationist claims.
 
 ## Cattell's Associative Reaction times
 
-We met James McKeen Cattell in the last chapter, as he was an early proponent of mental ability testing before Binet. Cattell also used experimental psychology methods to ask gather evidence about associative processes in people.
+In the previous chapter, James McKeen Cattell was introduced as psychologist conducting mental ability testing, even before Binet. Cattell also used experimental psychology methods to gather evidence about associative processes in people.
 
 ### Naming times
 
-In one set of studies he measured how long it took people to see and name objects [@cattellTimeItTakes1886; @cattellTIMETAKENCEREBRAL1886]. The ability to identify an object by naming it out loud was presumed to involve an association between perceiving the object and the action needed to utter the object's name. One of Cattell's findings was that people take twice as long to read words that "have no connexion", compared to words that are in a sentence; and, twice as long to read letters that are not in order, compared to letters that are in words.
+In one set of studies he measured how long it took people to see and name objects [@cattellTimeItTakes1886; @cattellTIMETAKENCEREBRAL1886]. The ability to identify an object by naming it out loud was presumed to involve an association between perceiving the object and the action needed to utter the object's name. One of Cattell's findings was that people took twice as long to read words that "have no connexion" compared to words that were composed in a sentence.
 
-For example, Cattell's subjects were twice as fast to read a regular versus scrambled sentence [^c5_associations-2]
+For example, Cattell's subjects were twice as fast to read a regular sentence versus a scrambled sentence [^c5_associations-2]
 
 [^c5_associations-2]: These are not original stimuli used by Cattell
 
 ::: {.callout-note icon=false}
 #### Read each of the WORDS below as fast as you can
 
-1.*Regular Sentence*: The candy at the store was red and very tasty
+1. *Regular Sentence*: The candy at the store was red and very tasty
 
-2.*Scrambled Sentence*: very at red and The tasty the was store candy
+2. *Scrambled Sentence*: very at red and The tasty the was store candy
 
 *Were you slower to read the words in the scrambled sentence?*
 :::
 
-Similarly, if the task was to read individual letters one a time, Cattell's subjects were twice as fast to read letters when they occurred in words compared to when they did not. This general finding was later re-discovered, and termed the word-superiority effect in 1969 [@reicherPerceptualRecognitionFunction1969].
+Similarly, when the task was to read individual letters one a time, Cattell's subjects were twice as fast to read letters when they occurred in words compared to when they did not. This general finding was later re-discovered and termed the word-superiority effect in 1969 [@reicherPerceptualRecognitionFunction1969].
 
 ::: {.callout-note icon=false}
 #### Read each of the LETTERS as fast as you can
@@ -148,17 +185,29 @@ Similarly, if the task was to read individual letters one a time, Cattell's subj
 *Was it harder to read the scrambled letters?*
 :::
 
-Let's relate Cattell's general findings to the associative claims that people have associations between concepts, they can learn new associations, and that some associations are stronger than others. The first two claims are consistent with reading ability in general, which involves learning connections between an arbitrary symbol system (e.g., alphabetic letters) and vocal outputs. Cattell's results are also consistent with the claim that some associations are stronger than others. For example, it appears that reading time does not just involve the time it takes to recognize and say a word or letter. If this was strictly the case, then people would take the same amount of time to read words and letter no matter if they occurred in sentences or words. Instead, people were faster to read words and letters when they appeared in familiar contexts, like sentences and words. This suggests that information from the surrounding context facilitates reading, possibly through some kind of association.
+Let's relate Cattell's general findings to the associative claims from earlier:
+
+1.  People have associations between concepts
+2.  New associations can be learned
+3.  Some associations are stronger than others
+
+The fact that people can read words or letters at all provides some evidence for the first claim. For example, letters on a page are an arbitrary symbol system with culturally accepted rules for pronunciation. When people read aloud, they are interpreting the visual format of words and letters on a page and transforming them into vocal speech act. This is consistent with the very general claim that people have associations between visual and auditory formats for words and letters. 
+
+The fact that participants could read Cattell's words and letters is consistent with the second claim too. People are not born knowing how to read. Reading skill is acquired with practice. The fact that people can learn to read provides evidence that people can learn new associations. Of course, these general observations about people's ability to read could already be made without Cattell's experiments.
+
+Cattell's results were also consistent with the claim that some associations are stronger than others. For example, it appears that reading time does not just involve the time it takes to recognize and say a word or letter. If this was strictly the case, then people would take the same amount of time to read words and letter no matter if they occurred in sentences or words. Instead, people were faster to read words and letters when they appeared in familiar contexts, like sentences and words. This suggests that information from the surrounding context facilitates reading, possibly through some kind of association.
 
 ### Association reaction times
 
-In the following year, Cattell turned his reaction time methods more directly toward the problem of measuring associations, along with the amount of time taken by intervening cognitive processes involved in the associative process [@cattellExperimentsAssociationIdeas1887]. In the introduction to this paper he wrote:
+In the following year, Cattell applied reaction time methods to the problem of measuring component processes that may be involved in associative processes [@cattellExperimentsAssociationIdeas1887]. He wrote:
 
 > "[In previous work..] 0.4 seconds was needed to see and name a word. When the physiological factors and the time taken up in seeing the word were eliminated, it was found that about 0.1 seconds was spent in finding the name belonging to the printed symbol. The time was longer for letters, which we do not read as often as words, and still longer (about .25 sec) for colours and pictures. I called the time passing, while the motor expression was being found, a 'Will-time'."
 
-We will elaborate on reaction time methods in the next chapter. For now, it is worth pointing out two aspects of this measurement tool for understanding how cognitive processes might work. First, it is possible to measure reliable differences in reaction times when people complete particular tasks. For example, Cattell estimated that 400 milliseconds were needed to see and read a word, and that pictures took a little bit longer. Second, it is possible to speculate about the individual components of processing that account for the total reaction time. For example, Cattell divides up the reaction time for a word into physiological factors and time taken up be seeing the word, followed by the time taken to search and recall the name of the word, and finally the time taken to form the action to say the word.
+Reaction time methods are elaborated upon in the next chapter. For now, it is worth pointing out two ways that reaction time measurements can help us understand how cognitive processes might work. First, it is possible to measure reliable differences in reaction times when people complete particular tasks. For example, Cattell estimated that people need about 400 milliseconds to see and read a word, and that pictures took a little bit longer. Second, it is possible to speculate about the individual components of processing that account for the total reaction time. For example, Cattell divides up the reaction time for a word into physiological factors and time taken up be seeing the word, followed by the time taken to search and recall the name of the word, and finally the time taken to form the action to say the word. In other words, Cattell is proposing that the inner-workings of cognitive processes used to accomplish a whole task like reading a word may be separated and indirectly measured in terms of their temporal processing times.
 
-In the remainder of the paper, Cattell gave subjects an association task that involved 1) receiving a cue/prompt, and 2) responding with a known association to the cue. For example, participants were shown a picture and asked to name in their first or second language. Cattell found faster picture naming in a first than second language, and argued that people had more practice naming objects in their first than second language. Another study simply measured the times associated remembering different kinds of facts given a cue. For example, the cue was a city, and subjects had to remember the country it was in. Or, the cue was a month, and subjects recalled what season it was in, or the preceding, or following month. Cattell reported average reaction times and showed consistent differences depending on the cue and associative response. Cattell speculated that different reaction times reflected corresponding differences in the mental operations needed to carry out each task.
+In the remainder of his paper, Cattell gave subjects an association task that involved 1) receiving a cue/prompt, and 2) responding with a known association to the cue. For example, participants were shown a picture and asked to name it in their first or second language. Cattell found that people were faster at picture naming in their first language than second language. He explained this finding in terms of practice: people had more practice naming objects in their first than second language. However, this raises more questions about why practice changes how fast an object can be named.
+
+Another study in the paper simply measured the times associated with remembering different kinds of facts given a cue. For example, one cue was a city name and subjects were asked to remember the country it was in. Another cue was a month name, and subjects had recall what season it was in, or the preceding month, or the following month. Cattell reported average reaction times and showed consistent differences depending on the conditions of the cue and associative response. Cattell speculated that the pattern of different reaction times reflected corresponding differences in the mental operations needed to carry out each task. Tasks that required more mental operations to complete were assumed to take longer than tasks requiring fewer mental operations to complete.
 
 ## Thorndike's puzzle boxes
 
@@ -170,11 +219,11 @@ In the remainder of the paper, Cattell gave subjects an association task that in
 knitr::include_graphics("imgs/Edward_thorndike.png")
 ```
 
-[Edward Thorndike](https://en.wikipedia.org/wiki/Edward_Thorndike) (1874-1949) was a student of Cattell who took some of the first experimental approaches to investigating associative processes in non-human animals [^c5_associations-3].
+[Edward Thorndike](https://en.wikipedia.org/wiki/Edward_Thorndike) (1874-1949) was a student of Cattell's who took some of the first experimental approaches to investigating associative processes in non-human animals [^c5_associations-3].
 
-[^c5_associations-3]: Thorndike also followed Cattell in becoming a strong proponent and public figure in the American eugenics movement
+[^c5_associations-3]: Thorndike also followed Cattell in becoming a strong proponent and public figure in the American eugenics movement.
 
-Thorndike viewed previous claims about animal cognition as belonging to two wildly different camps, with almost no middle ground, or evidence to interrogate the claims. In one camp, animals might be near human, potentially being able to reason and form associations on par with people. In the other camp, animals might be simple reflex machines and nothing more.
+Thorndike viewed previous claims about animal cognition as belonging to two wildly different camps, with almost no middle ground. In one camp, some animals might be very nearly human, potentially being able to reason and form associations on par with people. In the other camp, animals might be simple reflex machines and nothing more. Thorndike was interested in producing evidence using laboratory methods that could be used to assess claims about animal cognition.
 
 Here are a few choice quotes from Thorndike's doctoral thesis [@thorndikeAnimalIntelligenceExperimental1898] that illustrate his thinking and approach to the study of animal intelligence.
 
@@ -184,11 +233,11 @@ Here are a few choice quotes from Thorndike's doctoral thesis [@thorndikeAnimalI
 
 > "Surely every one must agree that no man now has a right to advance theories about what is in animals' minds or to deny previous theories unless he supports his thesis by systematic and extended experiments. My own theories... will doubtless be opposed by many. I sincerely hope they will, provided the denial is accompanied by actual experimental work. In fact I shall be tempted again and again in the course of this book to defend some theory, dubious enough to my own mind, in the hope of thereby inducing some one to oppose me and in opposing me to make the experiments I have myself had no opportunity to make yet."
 
-To summarize these quotes, Thorndike was interested in settling debate and ideas about animal intelligence using laboratory techniques and the scientific method. This would involve creating reproducible situations in lab where animal behavior could be manipulated and observed under different experimental conditions. Thorndike argued that his methods would be produce evidence about claims of animal intelligence, and that his methods could be used by other researchers both to verify his findings and to test his theories and claims even further. Thorndike's method of assessing associations in animals involved puzzle boxes, or the modern equivalent of an [escape rooms](https://en.wikipedia.org/wiki/Escape_room) for animals.
+To summarize these quotes, Thorndike was interested in settling debates about animal intelligence using laboratory techniques and the scientific method. This would involve creating reproducible situations in the lab where animal behavior could be manipulated and observed between conditions of an experiment. Thorndike argued that his methods would produce evidence relevant to evaluating claims of animal intelligence. He suggested his methods could be used by other researchers to verify his findings. And, that his methods could be improved upon by others to provide more stringent tests of his theories and claims. Thorndike's method of assessing associations in animals involved puzzle boxes, or the modern equivalent of an [escape rooms](https://en.wikipedia.org/wiki/Escape_room) for animals.
 
 ### Thornike's basic methodology
 
-Thorndike conducted multiple experiments on cats, dogs, and chicks. His experimental apparatus was in the form of a puzzle box, like the one depicted in @fig-5pbox.
+Thorndike conducted experiments on cats, dogs, and chicks. His experimental apparatus was a puzzle box, like the one depicted in @fig-5pbox.
 
 ```{r}
 #| label: fig-5pbox
@@ -199,13 +248,15 @@ knitr::include_graphics("imgs/Thorndike_puzzle_box_1898.png")
 ```
 
 
-Thorndike made several variations on his puzzle boxes, but they all had the same basic features in common. First, animals could be placed inside the box. Second, animals could escape from the box if they figure out the trick. For example, pulling a latch, or a hoop on a string would unlock a door allowing the animal to escape. Animals were typically deprived of food and made hungry before they were placed in the box. And, they were given a food reward after they escaped from the box. Animals were given many practice attempts to get out of the box, and Thorndike measured the amount of time to get out of the box for each attempt.
+Thorndike made different puzzle boxes with similar fundamental features. First, animals could be placed inside the box. Second, animals could escape from the box by solving the puzzle. For example, pulling a latch or a hoop on a string would unlock a door allowing the animal to escape. Animals were typically deprived of food and they were hungry before they were placed in the box. When they escaped they were given food as a reward. Animals were given practice attempts to get out of the box and Thorndike measured the amount of time needed to get out of the box for each attempt.
 
 ### Putative Mental Components of Association
 
-Thorndike's methods produced clear findings. His first main finding was that his animals could figure out the tricks, and they were able to escape from the box. His second main finding was that the animals got faster at escaping with practice. After making these demonstrations, Thorndike then considered possible explanations. How were the animals solving the problem? How were they getting faster? What kinds of associations were involved?
+Thorndike's methods produced clear findings. His first main finding was that the animals could figure out the tricks and escape from the box. His second main finding was that the animals became faster at escaping with practice. 
 
-Thorndike's aim was to gain clarity on the kinds of associations that might be involved, and he speculated on logical stages and types of associations that his animals might have been learned. For example, he wrote:
+After making these demonstrations, Thorndike then considered questions such as: How were the animals solving each problem? How were they getting faster? What kinds of associations were involved?
+
+Thorndike sought to achieve clarity regarding the types of associations that might be involved. He speculated on the logical stages and types of associations that his animals might have learned. As an example, he wrote:
 
 > There might be in an association, such as is formed after experience with one of our boxes, the following elements:
 
@@ -222,7 +273,7 @@ Thorndike's aim was to gain clarity on the kinds of associations that might be i
 10. Of the taste of the food, etc.
 :::
 
-This list details a number of experiences and impulses that presumably occur from the time when an animal enters the box, to the time after it has escaped and is eating the food reward. The general associationist explanation would be that each of these components are associated with one another, possibly in a chain, such that triggering one of the elements would cause a chain reaction, and successively trigger the next associated element, thereby allowing the animal to proceed through the puzzle box and get the food reward.
+This list details experiences and impulses that presumably occur from the time when an animal enters the box, to the time after it has escaped and is eating the food reward. The general associationist explanation would be these components are associated with one another, possibly in a chain, such that triggering one of the elements would cause a chain reaction, and successively trigger the next associated element, thereby allowing the animal to proceed through the puzzle box and get the food reward.
 
 ### Experimental questions about associative processes
 
@@ -230,11 +281,13 @@ Thorndike also went on to conduct experiments with his puzzle boxes to test idea
 
 #### Imitation Learning
 
-Thorndike found that cats, dogs, and chicks did not benefit from watching other animals solve the puzzle box. This didn't definitely rule out imitation as a possible source of knowledge, and it suggested to Thorndike that some elements of the associations needed to be experienced directly to be learned. Thorndike had plans to test whether an ape could learn to escape a box through imitation learning, but was unable to conduct the experiment because the monkey was not tame-able.
+One question was whether or not an animal could learn how to escape from a puzzle box just by watching another animal escape first. This question could be answered with an experiment. One group was allowed to watch another animal escape first, the other group was not allowed to watch. The empirical question was whether the group that was allowed to watch would solve the puzzle box faster than the other group.
+
+Thorndike found that cats, dogs, and chicks did not benefit from watching other animals solve the puzzle box. This didn't definitely rule out imitation as a possible source of knowledge. But, it suggested to Thorndike that some elements of the associations needed to be experienced directly to be learned. Thorndike mentioned plans to test whether an ape would benefit from imitation learning, but he was unable to conduct the experiment because the ape was too hard to handle.
 
 #### Mental Representation
 
-As we will see throughout this textbook, theories of cognition often invoke the concept of mental representation. The previous chapter on mental imagery was an example of debates about the format of mental representations and whether they have analog-image like qualities (e.g., like sensory experiences), or are fundamentally very different, perhaps like abstract propositional knowledge. Thorndike was optimistic his methods could help settle questions of mental representation in animals. For example, do animals have internal images that are used in a network of associations? Thorndike proposed the following experiment:
+Thorndike was optimistic his methods could help settle questions of mental representation in animals. For example, do animals have internal images that are used in a network of associations? Thorndike proposed the following experiment:
 
 > "The only logical way to go at this question and settle it is, I think, to find some association the formation of which requires the presence of images, of ideas. You have to give an animal a chance to associate sense-impression A with sense-impression B and then to associate B with some act C so that the presence of B in the mind will lead to the performance of C. Presumably the representation of B, if present, will lead to C just as the sense-impression B did. Now, if the chance to associate B with A has been improved, you ought, when the animal is confronted with the sense-impression A, to get a revival of B and so the act C. Such a result would, if all chance to associate C with A had been eliminated, demonstrate the presence of representations and their associations."
 
@@ -243,11 +296,19 @@ As we will see throughout this textbook, theories of cognition often invoke the 
 Ran experiments (pg 75): Found evidence for  A>B>C, but considered a direct A-C association...which suggested some kind of memory for A which occurred at least 10 seconds before C. still a role for representation.
 -->
 ```
+
 #### General concept formation
 
-Another topic in cognition that we devote a whole chapter to is categorization and concept formation. Thorndike attempted experiments to determine the ability of his animals to form general concepts about the puzzle boxes. Consider a kitten who has learned to escape from a puzzle box by pulling a loop on a string. Is the learning very specific or very general? It's possible that learning could be very, very specific (and we will see many examples in this textbook where learning very often is very specific). For example, the kitten may only escape from the specific puzzle box it had been trained on, and it would fail to easily learn other similar boxes, even those that contained loops in other locations about the box. Alternately, maybe the kitten learned general concept, something like, "to escape the box, go around and find the loopy thing, and then tug it". In this case, if the kitten learned a general concept, it might easily escape from similar boxes that involved pulling loops, even the loops were in novel locations in the box.
+Thorndike attempted experiments to determine the ability of his animals to form general concepts about the puzzle boxes. Consider a kitten who has learned to escape from a puzzle box by pulling a loop on a string. What kind of knowledge has the kitten acquired that mediates this newfound ability. Has the kitten developed general concepts about how to escape, or is the learning more specific?
 
-Thorndike tested these ideas in **transfer** experiments. Here, animals first learned to escape from a particular box, and then learned to escape from new boxes. The empirical question was whether learning to escape from the first box would help animals learn to escape from the next box. For example, if a kitten learned to pull a loop on the left side of the box to get out, would they quickly learn to escape out of a box with the loop on the right side? Thorndike found evidence of **positive transfer**, which means that the training experience conveyed a benefit on the transfer test. His animals learned to escape from a new puzzle box faster when it was similar to a puzzle box they had learned previously. Although the evidence of positive transfer could be consistent with a claim that his animals were learning a general concept about the puzzle box, Thorndike favored the view that animals were not learning general concepts, and instead were learning about specific details of the puzzle box that happened to transfer well to similar boxes. In other words, he attempted to example the phenomena of transfer without appealing to a complex explanation, like imbuing kittens with human-like general reasoning abilities.
+It is possible that the kitten has learned something very, very specific. For example, the learning could involve the specific spatial layout of the box, along with the specific location of the loop, and the specific actions that need to happen to pull the loop in that location in that box.  Alternatively, maybe the kitten learned a more general concept, something like "to escape the box, go around and find the loopy thing, and then tug it". 
+
+Thorndike tested the specificity of learning in **transfer** experiments. He had animals learn to escape from a first box and then tested their ability to escape from  new boxes. The empirical question was whether learning to escape from the first box would help animals escape from the next box. For example, if a kitten learned to pull a loop on the left side of the box to get out, would they then quickly escape out of a box with the loop on the right side?
+
+Thorndike found evidence of **positive transfer**, which means that the training experience conveyed a benefit on the transfer test. His animals learned to escape from a new puzzle box faster when it was similar to a puzzle box they had learned previously. 
+
+Although evidence of positive transfer is consistent with a claim that the animals were learning general concepts about the puzzle box, Thorndike favored the view that animals were not learning general concepts, and instead were learning about specific details of the puzzle box that happened to transfer well to similar boxes. In other words, he attempted to explain the phenomena of transfer without assuming that kittens had human-like general reasoning abilities.
+
 
 ```{=html}
 <!--

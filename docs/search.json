@@ -697,7 +697,7 @@
     "href": "index.html",
     "title": "PSYC 2530 Introductory Cognitive Psychology",
     "section": "",
-    "text": "Updated for Fall 2022. Prior versions of this courses are archived in the branches of this repository.\nThis is the course website for Psyc 2530: Introductory Cognitive Psychology (Fall 2022), taught by Dr. Matthew Crump, at the Department of Psychology, Brooklyn College of CUNY.\nInstructor: Matthew Crump Email: mcrump@brooklyn.cuny.edu (students please put PSYC 2530 in the subject line)\n\nFor students in my class\nWe will use the resources on this website along with blackboard throughout the semester. This website will always contain the most up-to-date syllabus. The syllabus, textbook, and learning modules, slides, and other resources can all be accessed using the tabs at the top of the page.\nLooking forward to meeting you in class!\nIf you have questions please email me. If you think other students have the same question, then please ask your question on the blackboard discussion board for this course.\n\n\nOpen-educational resource\nThis is an open-educational resource that is free to use, share, copy, edit, and remix, with attribution and following the CC BY-SA 4.0 creative-commons license.\nThe suite is developed using open-source software (R, RStudio, Bookdown). The source code for this project is available at https://github.com/CrumpLab/cognition. These materials are being actively developed. See the OER development page"
+    "text": "Updated for Fall 2023. Prior versions of this courses are archived in the branches of this repository.\nThis is the course website for Psyc 2530: Introductory Cognitive Psychology (Fall 2023), taught by Dr. Matthew Crump, at the Department of Psychology, Brooklyn College of CUNY.\nInstructor: Matthew Crump Email: mcrump@brooklyn.cuny.edu (students please put PSYC 2530 in the subject line)\n\nFor students in my class\nWe will use the resources on this website along with blackboard throughout the semester. This website will always contain the most up-to-date syllabus. The syllabus, textbook, and learning modules, slides, and other resources can all be accessed using the tabs at the top of the page.\nLooking forward to meeting you in class!\nIf you have questions please email me. If you think other students have the same question, then please ask your question on the blackboard discussion board for this course.\n\n\nOpen-educational resource\nThis is an open-educational resource that is free to use, share, copy, edit, and remix, with attribution and following the CC BY-SA 4.0 creative-commons license.\nThe suite is developed using open-source software (R, RStudio, Bookdown). The source code for this project is available at https://github.com/CrumpLab/cognition. These materials are being actively developed. See the OER development page"
   },
   {
     "objectID": "textbook/C1_What_is_Cognition.html",
@@ -746,14 +746,14 @@
     "href": "textbook/C5_Associations.html",
     "title": "5 Associations",
     "section": "",
-    "text": "The previous chapter covered research on cognitive abilities spanning roughly from the 1860s to the 1960s from the perspective of individual differences psychology. For example, in addition to developing mental tests, Alfred Binet wrote more broadly about his school of “Individual Psychology” (Nicolas et al., 2014) that was aimed at using measurements of variation in human attributes to make society more efficient. However, the Individual Differences school of psychology was not the only approach to studying cognitive abilities. Instead, the methods of experimental psychology were also used to ask and answer questions about cognitive abilities. Experimental psychologists also developed tests, but they more often took the form of experimental manipulations. And, the results of the experiments were used to evaluate theories about how cognitive processes work. This chapter will focus on associationism and early empirical work on associative learning processes in humans and non-human animals."
+    "text": "The previous chapter covered research on cognitive abilities spanning the 1860s to the 1960s, from the perspective of individual differences psychology. For example, in addition to developing mental tests, Alfred Binet wrote more broadly about his school of “Individual Psychology” (Nicolas et al., 2014) that was aimed at using measurements of variation in human attributes to make society more efficient. However, the individual differences school of psychology was not the only approach to studying cognitive abilities. Instead, methods of experimental psychology were also used to ask and answer questions about cognitive abilities during the same time period. Experimental psychologists used similar tests and procedures, but they focused on how task performance varied across experimental manipulations rather than across different individuals. The results of the experiments were used to evaluate theories about how cognitive processes work. This chapter will focus on associationism and early empirical work on associative learning processes in humans and non-human animals that were part of the experimental psychology tradition."
   },
   {
     "objectID": "textbook/C5_Associations.html#footnotes",
     "href": "textbook/C5_Associations.html#footnotes",
     "title": "5 Associations",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nwe will examine several models of human memory in greater detail in the upcoming chapters on memory↩︎\nThese are not original stimuli used by Cattell↩︎\nThorndike also followed Cattell in becoming a strong proponent and public figure in the American eugenics movement↩︎"
+    "text": "Footnotes\n\n\nWe will examine models of human memory in greater detail in the upcoming chapters on memory↩︎\nThese are not original stimuli used by Cattell↩︎\nThorndike also followed Cattell in becoming a strong proponent and public figure in the American eugenics movement.↩︎"
   },
   {
     "objectID": "textbook/C6_Behaviorism.html",
@@ -865,7 +865,7 @@
     "href": "textbook/Preface.html#citation",
     "title": "Preface",
     "section": "Citation",
-    "text": "Citation\nNote, the date reflects the latest compilation of this book. CITATION IS TBD WHILE THE PROJECT IS UNDER DEVELOPMENT.\nCrump, M. J. C. (2023, July 26). Instances of Cognition: Questions, Methods, Findings, Explanations, Applications, and Implications."
+    "text": "Citation\nNote, the date reflects the latest compilation of this book. CITATION IS TBD WHILE THE PROJECT IS UNDER DEVELOPMENT.\nCrump, M. J. C. (2023, August 04). Instances of Cognition: Questions, Methods, Findings, Explanations, Applications, and Implications."
   },
   {
     "objectID": "textbook/Reading_Formats.html",

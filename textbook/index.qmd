@@ -1,7 +1,10 @@
 ---
 title: 'Instances of Cognition'
 subtitle: "Questions, Methods, Findings, Explanations, Applications, and Implications"
-author: "Matthew J. C. Crump"
+author: 
+  name:
+    given: Matthew J. C.
+    family: Crump
 date: 09/01/2021
 license: 'CC BY-SA'
 date-modified: last-modified
@@ -14,7 +17,10 @@ css: custom.css
 citation:
   type: book
   title: "Instances of Cognition: Questions, Methods, Findings, Explanations, Applications, and Implications"
-  author: "Matthew J. C. Crump"
+  editor:
+    name:
+      given: Matthew J. C.
+      family: Crump
   url: "https://crumplab.com/cognition/textbook"
 ---
 
