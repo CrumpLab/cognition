@@ -155,11 +155,11 @@ All assigned work is individual work unless otherwise stated. **Therefore, you s
 
 ChatGPT and other similar tools have been trained on large amount of text from the internet. These tools are capable of generating text that is similar in style to the text the models have been trained on. They are also capable of fabricating complete nonsense. This section describes allowable use cases for this course. This course does not require use of this software, and does not particularly encourage it.
 
-1.  It is okay to explore the technology: how it works, how you might use it as a tool, and the very real issues surrounding this technology for society.
+1. **If you use ChatGPT as an aid in one of your your assignments, then you are required to explain how you used the tool at the end of your assignment.**
 
-2.  Do not rely on this technology being there for free. It is new and it could easily be pulled off the internet at anytime. It costs a lot of money to run the models, and businesses are looking for ways to monetize their product. 
+2.  It is okay to explore the technology: how it works, how you might use it as a tool, and the very real issues surrounding this technology for society.
 
-3.  **If you use ChatGPT as an aid in one of your your assignments, then you are required to explain how you used the tool at the end of your assignment.**
+3.  Do not rely on this technology being there for free. It is new and it could easily be pulled off the internet at anytime. It costs a lot of money to run the models, and businesses are looking for ways to monetize their product. 
 
 4.  Passing off work from ChatGPT as your own is a violation of academic integrity that will be taken very seriously (see the notes on academic integrity in the following sectdion). 
 
