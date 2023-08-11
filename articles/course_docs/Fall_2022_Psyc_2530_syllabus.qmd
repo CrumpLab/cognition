@@ -5,17 +5,17 @@ author: 'Matthew Crump'
 
 ### PSYC 2530 -- Introduction to Cognitive Psychology
 
-Fall 2022
+** This syllabus is currently under construction for Fall 2023. It will take effect at the beginning of the Fall semester, and may be revised across the semester to address course needs. **
 
-Section: MW3 7066
+Fall 2023
 
-Time: 3:40pm - 4:55pm, Monday and Wednesday
+Section: NET 3285
 
-Location: 1127 IH (Ingersoll Hall)
+Time/Location: Asynchronous Online
 
 Office Hours: TBA (zoom link posted on Blackboard)
 
-Instructor: Dr. Matthew Crump
+Instructor: [Dr. Matthew Crump](https://www.crumplab.com)
 
 Email: mcrump\@brooklyn.cuny.edu (please put PSYC 2530 in subject line)
 
@@ -43,19 +43,27 @@ All of the course materials will be available in a timely fashion on this course
 
 Link to the course website: <https://www.crumplab.com/cognition/>
 
+## Blackboard
+
+In addition to the course website, Blackboard be will be used heavily throughout the semester.
+
+Blackboard will be used for course announcements, discussion boards, and for students to submit their assignments.
+
+**It is essential that students make sure their email address is correctly registered with Blackboard. Blackboard announcements will be sent to students at their registered email address.**
+
 ## Course Structure
 
-There are 15 total weeks. Weekly learning modules cover different topics in cognitive psychology. Assessment weeks are interspersed across the semester. Students are expected to complete the learning modules and assessments which provide opportunities to earn up to 100 points toward a final grade.
+This is an asynchronous online course consisting of weekly learning modules and assessments. There are 15 total weeks involving learning modules and/or general assessments. Learning modules and assessments provide opportunities for students to earn up to 100 points toward their final grade. 
 
-This is an **in-person** class, and students are expected to attend class sessions on a routine basis.
+There are many different assignments and most of them are optional. As a result, students have many ways to accrue points toward their grade. Students are encouraged to choose assignments that they find most interesting and engaging. 
 
 ### Learning module structure
 
 Weekly learning modules include three components to encourage engagement with the domain of cognitive psychology in different ways.
 
-**READ**: Modules have assigned readings from textbook chapters or primary research articles. Readings are freely available and posted on blackboard or the course website. Student are strongly encouraged to read assigned material before classes where the material is discussed.
+**READ**: Modules have assigned readings from textbook chapters or primary research articles. Readings are freely available and posted on blackboard or the course website. 
 
-**CLASS and WATCH/LISTEN**: Modules usually involve two class meetings. Classes will involve a mixture of lectures and other activities. *Note: a previous version of this course was taught asynchronously online which involved the creation of mini-lecture videos for each module. These videos will remain on the course website for students to use as supplemental resource. Slide decks used in the lecture will be posted on the course website.*
+**WATCH/LISTEN**:  Modules will have mini-lecture videos with overviews of the readings. The videos and slides will be posted on the course website. 
 
 **ENGAGE**: Modules include assignments for students to engage with course material. Assignments vary and there is flexibility for students to choose which assignments they complete.
 
@@ -64,7 +72,7 @@ Weekly learning modules include three components to encourage engagement with th
 ```{r, message=FALSE, warning=FALSE, echo=FALSE, eval=TRUE}
 #library(data.table)
 library(readxl)
-Lectures <- read_excel("Fall_2022_schedule.xlsx", sheet = 1, col_names = TRUE, col_types = NULL, na = "", skip = 0)
+Lectures <- read_excel("Fall_2023_schedule.xlsx", sheet = 1, col_names = TRUE, col_types = NULL, na = "", skip = 0)
 Lectures$Week <- as.character(Lectures$Week)
 Lectures[is.na(Lectures)] <- " "
 #Lectures <- fread("Lectures.csv")
@@ -78,11 +86,13 @@ There are multiple ways for students to engage with course materials and achieve
 
 ### Assignments
 
-Each weekly module will contain two or more assignment opportunities. In general, quizzes are worth 2.5 points and other assignments are worth 5 points. **Students are strongly encouraged to complete at least one assignment per module**. Students can complete as many quizzes or assignments as they want, for a maximum of 75 points toward their final grade.
+Each weekly module contains two or more assignment opportunities. In general, quizzes are worth 2.5 points and other assignments are worth 5 points. Some assignments are required even though they are not worth any points, such as those in the getting started module.
+
+Unless otherwise noted, students can choose which quizzes or assignments to complete for a given module. Across the semester, students can complete as many quizzes or assignments as they want, for a maximum of 85 points toward their final grade. 
+
+In addition to the weekly assignments, which focus on the details of module content, there are opportunities to complete other more general assignments. These general assignments are listed on the website, and have their own tab on blackboard.
 
 In collaboration with the instructor, students follow a process of self-assessment to recommend how many points should be awarded for their own assignments (not including quizzes). The self-assessment process is used as a guide toward goal setting and achievement in the course.
-
-In addition to the weekly assignments, which focus on the details of module content, there are opportunities to complete more general assignments. These are listed on their own tab within blackboard.
 
 ### Discussion Boards
 
@@ -96,10 +106,10 @@ There are three major assessments throughout the semester culminating in a final
 
 | Assignment        | Points |    Total |
 |:------------------|-------:|---------:|
-| 12 Weekly Modules |     5+ | up to 75 |
+| 12 Weekly Modules |     5+ | up to 85 |
 | Assessment 1      |      5 |        5 |
-| Assessment 2      |     10 |       10 |
-| Final Assessment  |     10 |       10 |
+| Assessment 2      |      5 |        5 |
+| Final Assessment  |      5 |        5 |
 |                   |        |      100 |
 
 Percentage grades are converted to letter grades according to the following rubric.
@@ -120,9 +130,12 @@ Percentage grades are converted to letter grades according to the following rubr
 | D-           | 60-63.32    |
 | F            | 0-59.99     |
 
-## Attendance
+### Lateness and due dates
 
-Students are expected to attend and participate in each class. An attendance record will be taken each class. Although there are no specific points for attendance, students will use their attendance and participation record to justify their self-assessments and final grade in the course.
+This is an asynchronous course that allows you some flexibility to work on the material according to your own schedule. However, there are also due dates, and expectations that you will be completing coursework on a weekly basis. You may be able to work ahead, but you are not encouraged to fall behind.
+
+Each of the assignments, quizzes, and assessments will be posted with a due date. A quiz or assignment will be open for a week-long period, and the work is expected to be completed within the assigned time frame. Late assignments may not be graded.
+
 
 ## Honors Projects
 
@@ -130,19 +143,48 @@ It is possible to complete an honors project and receive honors credit for this 
 
 ## Course Policies
 
-### Due dates
-
-Due dates are suggestions for completing coursework on a weekly basis. You may be able to work ahead, but you are not encouraged to fall behind.
-
-You should email me if you have an exceptional circumstance preventing you from taking an assessment during an assessment week.
-
 ### Changes to the syllabus
 
 The syllabus may be updated for clarity or to make adjustments for pedagogical purposes. The most current version of the syllabus is always available from the course website.
 
 ### Individual versus group work
 
-**The default assumption is that all assigned work is individual work. Therefore, you should complete all coursework by yourself.** Make sure you understand the University's policy on Academic Integrity, described below. Any assignment that is not an individual assignment will be clearly labeled.
+All assigned work is individual work unless otherwise stated. **Therefore, you should complete all coursework by yourself.** Make sure you understand the University's policy on Academic Integrity, described below. Any assignment that is not an individual assignment will be clearly labeled.
+
+### Using ChatGPT or similar tools in this course
+
+ChatGPT and other similar tools have been trained on large amount of text from the internet. These tools are capable of generating text that is similar in style to the text the models have been trained on. They are also capable of fabricating complete nonsense. This section describes allowable use cases for this course. This course does not require use of this software, and does not particularly encourage it.
+
+1.  It is okay to explore the technology: how it works, how you might use it as a tool, and the very real issues surrounding this technology for society.
+
+2.  Do not rely on this technology being there for free. It is new and it could easily be pulled off the internet at anytime. It costs a lot of money to run the models, and businesses are looking for ways to monetize their product. 
+
+3.  **If you use ChatGPT as an aid in one of your your assignments, then you are required to explain how you used the tool at the end of your assignment.**
+
+4.  Passing off work from ChatGPT as your own is a violation of academic integrity that will be taken very seriously (see the notes on academic integrity in the following sectdion). 
+
+**I care about what you have to say, not what ChatGPT has to say.**
+
+#### Acceptable use cases
+
+This is not an exhaustive list. If you think the way you used the tool was appropriate, then all you have to do is explain why when you submit the assignment.
+
+It is best to treat ChatGPT like a chaotic assistant that sometimes completes a task up to your standard. Don't trust the results. ChatGPT does not produce accurate text, it produces text that "looks" like it is in right style. Sometimes the results are accurate, many times they are not.
+
+1. Asking ChatGPT to spell and grammar check your own writing. I've done this myself and it sometimes helps. It regularly produces suggestions that I don't accept, so be careful. Say what you want to say.
+
+2. Help turn notes into a paragraph. Give ChatGPT some notes in point form and ask it to turn the points into a paragraph. Then, use the paragraph as a starting point for your own writing process
+
+3. Summarize something. Ask ChatGPT to summarize text into point form. 
+
+#### Unacceptable use cases
+
+This is not an exhaustive list of unacceptable use cases that violate academic integrity principles.
+
+1. Submitting an assignment prompt to ChatGPT and handing in ChatGPT's response as your own writing. 
+
+2. Copying another source that you are plagiarizing, having ChatGPT rewrite it to appear different, and then handing the response in as your own writing.
+
 
 ### Missing an Exam
 
@@ -179,15 +221,19 @@ It is the responsibility of each student to understand and act in accordance wit
 
 The faculty and administration of Brooklyn College support an environment free from cheating and plagiarism. Each student is responsible for being aware of what constitutes cheating and plagiarism and for avoiding both. The complete text of the CUNY Academic Integrity Policy and the Brooklyn College procedure for implementing that policy can be found at [this site](http://www.brooklyn.cuny.edu/web/about/initiatives.php). If a faculty member suspects a violation of academic integrity and, upon investigation, confirms that violation, or if the student admits the violation, the faculty member MUST report the violation.
 
-### FYI on cheating etc.
+### Commitment to uphold standards of academic integrity
 
-Remember, you are responsible for not cheating or violating CUNY's [Academic Integrity Policy](http://www.cuny.edu/about/administration/offices/legal-affairs/policies-resources/academic-integrity-policy/). You are responsible for understanding that policy, and for conducting yourself in a manner such that you do not violate the policy.
+The most important thing you can do in this course is complete the work with integrity. This means engaging with the course content and doing the work yourself. The more that you do this, the more you will get out of the course. 
 
-The above link lists many examples of cheating and plagiarism that are not allowed. There are many more specific acts that you should NOT do. Here is an additional list of activities that will be sufficient cause for immediate failure in the course.
+You are responsible for reading and understanding the CUNY's [Academic Integrity Policy](http://www.cuny.edu/about/administration/offices/legal-affairs/policies-resources/academic-integrity-policy/). You are responsible maintaining your own academic integrity in this course. By enrolling in this course, and by participating in it, you are committed to upholding these standards. 
 
--   Do not take pictures of exam or quiz questions and share them with other students
+### Examples of academic integrity violations
+
+The above link lists many examples of behavior like cheating and plagiarism that are violations of the academic integrit policy. The following is a non-exhaustive list of specific acts that you should NOT do because they would violate the academic integrity policy. Any of these are sufficient cause for immediate failure in the course.
+
+-   Do not take pictures or copy exam or quiz questions and share them with other students, or share them on the internet
 -   Do not give other students answers during an exam or quiz, or any other assignment that is an individual assignment
--   Do not copy work from another source and submit it as your own
+-   Do not copy work from another source and submit it as your own, this includes using tools like ChatGPT to generate text. Copying text from ChatGPT or another similar tool and submitting it as your own work violates academic integrity policies in this course.
 -   Do not copy and paste text from the internet and submit it as your own words
 -   Do not copy and paste text and slightly alter wording to pass the work off as your own
 -   Do not hire someone else to do the coursework for you
