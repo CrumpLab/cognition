@@ -1,8 +1,8 @@
 ---
 title: "PSYC 2530 Introductory Cognitive Psychology"
-description: "A free course and open-educational resourse for introductory cognitive psychology"
+description: "A free course and open-educational resource for introductory cognitive psychology"
 image: 'images/cognition_social.jpg'
-image-alt: "A free course and open-educational resourse for introductory cognitive psychology"
+image-alt: "A free course and open-educational resource for introductory cognitive psychology"
 opengraph:
   twitter:
     card: summary_large_image
