@@ -1,6 +1,9 @@
 ---
 title: "Syllabus"
 author: 'Matthew Crump'
+format: 
+  html: default
+  pdf: default
 ---
 
 ### PSYC 2530 -- Introduction to Cognitive Psychology

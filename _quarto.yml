@@ -37,7 +37,7 @@ website:
       - text: "Home"
         file: index.qmd
       - text: "Syllabus"
-        file: articles/course_docs/Fall_2022_Psyc_2530_syllabus.qmd
+        file: articles/course_docs/Fall_2023_Psyc_2530_syllabus.qmd
       - text: "Textbook"
         file: textbook/index.qmd
       - text: "Learning Modules"
