@@ -2,7 +2,7 @@
 title: 'PSYC 2530: Introduction to Cognitive Psychology'
 author: "Matthew J. C. Crump"
 date: "Last compiled `r format(Sys.time(), '%m/%d/%y')`"
-subtitle: Fall 2022, Welcome!
+subtitle: Fall 2023, Welcome!
 output:
   revealjs::revealjs_presentation:
     includes:
@@ -141,7 +141,7 @@ Any additional material will be made available for free through blackboard or th
 
 # Course Syllabus
 
-[Please read the syllabus](https://www.crumplab.com/cognition/articles/course_docs/Fall_2022_Psyc_2530_syllabus.html).
+[Please read the syllabus](https://www.crumplab.com/cognition/articles/course_docs/Fall_2023_Psyc_2530_syllabus.html).
 
 The most current version of the syllabus is located on the course website.
 
@@ -150,11 +150,11 @@ The most current version of the syllabus is located on the course website.
 
 15 weeks in the semester
 
-12 Learning module weeks
+13 Learning module weeks
 
-3 assessments (including final)
+2 assessments (including final)
 
-[Schedule is posted on the syllabus](https://www.crumplab.com/cognition/articles/course_docs/Fall_2022_Psyc_2530_syllabus.html#course-schedule)
+[Schedule is posted on the syllabus](https://www.crumplab.com/cognition/articles/course_docs/Fall_2023_Psyc_2530_syllabus.html#course-schedule)
 
 # Assessments and grading
 
@@ -162,17 +162,17 @@ There are 12 learning modules, and three exams. The grading rubric is below:
 
 | Assignment |  Points| Total|
 |:----------|--------:|-------:|
-| 12 Weekly Modules | 5+ | up to 75|
+| Weekly Coursework | 2.5-5+ | up to 85|
 | Assessment 1 | 5 | 5 |
-| Assessment 2 | 10 | 10 |
-| Final Assessment | 10  | 10|
+| Assessment 2 | 5 | 5 |
+| Final Assessment | 5  | 5|
 |||100|
 
 # Weekly learning modules
 
 1. Posted weekly (or earlier) on Blackboard and Course Website
 2. Include readings, quizzes/assignments, supplementary lectures
-3. Complete the work within the week (submit by suggested due date)
+3. Complete the work within the week (submit by due date)
 4. Lots of assignment choice (see next slide)
 
 # Assignment choice
@@ -181,25 +181,24 @@ There are 12 learning modules, and three exams. The grading rubric is below:
 
 - you choose which assignments to complete.
 
-- Complete as many as you want, max 75 points toward final grade
+- Complete as many as you want, max 85 points toward final grade
 
 - If you miss an assignment that is OK, you can do an extra one in a future module
 
 # Assessments
 
-- There are three major assessments, worth, 5, 10, and 10 points each.
-
-- Assessments are conducted in-person during regular class time
+- There are three major assessments worth 5 points each.
 
 - Assessments are self-reflective and used to collaboratively set and achieve goals for engaging with the course material.
 
 # Grading/Ungrading
 
 - Except for the optional weekly quizzes, all assignments and major assessments are self-assessed. 
-
 - Students submit their assignment and recommend their own grades/points for the assignment
 
 - Upon submission of the final assessment, students give a recommendation for their final course grade
+
+- The instructor makes final grading decisions
 
 # Academic Integrity
 
