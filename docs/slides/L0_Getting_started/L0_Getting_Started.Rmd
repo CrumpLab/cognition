@@ -158,7 +158,7 @@ The most current version of the syllabus is located on the course website.
 
 # Assessments and grading
 
-There are 12 learning modules, and three exams. The grading rubric is below:
+There are 13 learning modules, and three assessments. The grading rubric is below:
 
 | Assignment |  Points| Total|
 |:----------|--------:|-------:|
@@ -173,7 +173,8 @@ There are 12 learning modules, and three exams. The grading rubric is below:
 1. Posted weekly (or earlier) on Blackboard and Course Website
 2. Include readings, quizzes/assignments, supplementary lectures
 3. Complete the work within the week (submit by due date)
-4. Lots of assignment choice (see next slide)
+4. Late work may not be graded
+5. Lots of assignment choice (see next slide)
 
 # Assignment choice
 
@@ -191,6 +192,8 @@ There are 12 learning modules, and three exams. The grading rubric is below:
 
 - Assessments are self-reflective and used to collaboratively set and achieve goals for engaging with the course material.
 
+- These are low pressure, and more info about them will be released on Blackboard.
+
 # Grading/Ungrading
 
 - Except for the optional weekly quizzes, all assignments and major assessments are self-assessed. 
@@ -198,7 +201,7 @@ There are 12 learning modules, and three exams. The grading rubric is below:
 
 - Upon submission of the final assessment, students give a recommendation for their final course grade
 
-- The instructor makes final grading decisions
+- The instructor makes final grading decisions and considers the self-assessments.
 
 # Academic Integrity
 
@@ -232,7 +235,7 @@ If you are running into issues, email me:
 
 # Next Steps
 
-Finish the getting started module by taking the quiz on blackboard and completing the writing assignment.
+Finish the getting started module by taking the quiz on blackboard and completing the introductory post.
 
 Then, you can begin the first official learning module:
 
