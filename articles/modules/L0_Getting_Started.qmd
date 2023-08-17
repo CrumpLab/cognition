@@ -70,7 +70,7 @@ If you have questions about the syllabus, then please ask them on the blackboard
 ::: {.g-col-9}
 
 
-View the slides.
+Orientation video
 
 :::
 ::::
@@ -94,6 +94,8 @@ knitr::include_graphics("imgs/slides.png")
 <a class="btn btn-outline-info" href="https://www.crumplab.com/cognition/slides/L0_Getting_started/L0_Getting_Started.html#/" role="button">
 Web slide deck
 </a>
+
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Cmr67wdZ9mM" style="width:100%; height: 100%;" allowfullscreen></iframe>
 
 ::::
 :::
