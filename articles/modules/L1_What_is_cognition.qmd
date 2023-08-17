@@ -10,6 +10,7 @@ opengraph:
     card: summary_large_image
     creator: "@MattCrumpLab"
 order: 1
+week: "Week 1"
 ---
 
 ```{r, include = FALSE}
@@ -119,12 +120,14 @@ knitr::include_graphics("imgs/engage.png")
 ::: {.g-col-9}
 :::: {.card-body}
 
-When you are ready complete the assignments posted on Blackboard for this module. Each quiz or assignment is worth points. Remember that you can do as many quizzes and or assignments as you want throughout the semester, up to 60 points. After 60 points, your work will count for up to 10 points in extra credit (see syllabus).
+When you are ready complete the assignments posted on Blackboard for this module. Each quiz or assignment is worth points. Remember that you can do as many quizzes and or assignments as you want throughout the semester, up to 85 points (see syllabus).
 
-1. QUIZ: Complete the L1: What is Cognition quiz (5 points, on blackboard)
-2. React to a very short article about what Cognitive Science can do for people (5 points, see instructions below, submit on blackboard)
+1. QUIZ: Complete the L1: What is Cognition quiz (2.5 points, on blackboard)
+2. Writing: See the options below (5 points, submit on blackboard)
 
 Submit your work on blackboard. Then, move on to the next learning module.
+
+**For all writing assignments provide a suggested grade with an explanation.** For example, if you think your assignment should get 5 points, just say so, and then briefly explain why. Self-assessed grades will be taken into consideration during grading by the professor. 
 ::::
 :::
 ::::
@@ -132,17 +135,32 @@ Submit your work on blackboard. Then, move on to the next learning module.
 
 <br>
 
+## Questions about cognition
+
+This is an introductory course about human and animal cognition. What questions do you have about cognition? What kinds of questions would you want to know the answers to about how your mind works?
+
+Brainstorm a list of questions about cognition that you think are interesting. Tell me why you are interested in these questions.
+
+Length: You assignment does not need to be longer than 1 page double-spaced. But, feel free to brainstorm as much as you want.
+
+Points: 5
+
+Self-assessment instructions:
+
+At the end of your assignment indicate how many points you should receive for your work, along with a brief explanation or justification of your decision.
+
+
 ## What can cognitive science do for people?
 
-Your assignment is to read a short article, and then write down your thoughts and reactions to the ideas expressed in the paper. Your written reaction should be at least 250 words. 
+This assigned reading is a short piece by many authors who are cognitive psychologists and people of color. As we will learn in other modules, psychology and cognitive psychology has historically been applied in ways that advantage or disadvantage different groups of people. This article expresses some of these concerns as well as discusses ways in which the discipline could change to produce knowledge that is relevant to people across globe.
+
+Your assignment is to read the article, and then write down your thoughts and reactions to the ideas expressed in the paper. Your written reaction should be at least 250 words. 
 
 Your assigned reading is:
 
 Prather, R. W. et al. (2022). What can Cognitive Science do for people?. Cognitive Science, 46(6), e13167.
 
-[Link to paper](https://onlinelibrary.wiley.com/doi/pdf/10.1111/cogs.13167?casa_token=XC48zQK9oPcAAAAA:472tZE-VaUrvXaLOWDOEhGSwgHozh9ny9mPNldn5wvtNTFYYeba4vwHtIJx7s1AtbKWTmjcTzFP6Gqo)
-
-This paper is also available on blackboard. You can find it in the assignment for learning module 1.
+This paper is available on blackboard in the assignment section of learning module 1.
 
 **Instructions:**
 
@@ -152,6 +170,10 @@ This paper is also available on blackboard. You can find it in the assignment fo
 4. Submit your written work to this assignment posted on Blackboard.
 
 This assignment is worth up to 5 points. 
+
+Self-assessment instructions:
+
+At the end of your assignment indicate how many points you should receive for your work, along with a brief explanation or justification of your decision.
 
 
 

@@ -4,6 +4,7 @@ description: "A learning module on attention for Psyc 2530."
 author: "Matt Crump"
 date-modified: last-modified
 order: 10
+week: "Week 11"
 ---
 
 ```{r, include = FALSE}
@@ -119,7 +120,7 @@ Part 2
 
 When you are ready complete any or all of the following assignments.
 
-1. QUIZ: Complete the L10: Attention quiz (5 points, on blackboard)
+1. QUIZ: Complete the L10: Attention quiz (2.5 points, on blackboard)
 2. Experiment participation and writing: (5 points, instructions below, submit on blackboard)
 
 Submit your work before the due date posted on blackboard. Then, move on to the next learning module.

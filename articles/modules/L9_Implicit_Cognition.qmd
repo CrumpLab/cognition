@@ -4,6 +4,7 @@ description: "A learning module on implicit cognition for Psyc 2530."
 author: "Matt Crump"
 date-modified: last-modified
 order: 9
+week: "Week 10"
 ---
 
 ```{r, include = FALSE}
@@ -144,7 +145,7 @@ knitr::include_graphics("imgs/engage.png")
 
 When you are ready complete any or all of the following assignments.
 
-1. QUIZ: Complete the L9: Implicit Cognition quiz (5 points, on blackboard)
+1. QUIZ: Complete the L9: Implicit Cognition quiz (2.5 points, on blackboard)
 2. Writing: (5 points, instructions below, submit on blackboard)
 
 Submit your work before the due date posted on blackboard. Then, move on to the next learning module.

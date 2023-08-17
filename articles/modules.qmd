@@ -6,5 +6,6 @@ listing:
   categories: false
   sort-ui: false
   filter-ui: false
+  fields: [week,title,author]
 ---
 

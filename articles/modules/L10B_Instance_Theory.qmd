@@ -4,6 +4,7 @@ description: "A learning module on attention for Psyc 2530."
 author: "Matt Crump"
 date-modified: last-modified
 order: 10
+week: "Week 12"
 ---
 
 ```{r, include = FALSE}

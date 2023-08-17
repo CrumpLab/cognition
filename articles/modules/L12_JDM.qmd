@@ -4,6 +4,7 @@ description: "A learning module on judgment and decision-making for Psyc 2530."
 author: "Matt Crump"
 date-modified: last-modified
 order: 12
+week: "Week 14"
 ---
 
 ```{r, include = FALSE}
@@ -86,7 +87,7 @@ Lecture 1
 
 When you are ready complete any or all of the following assignments.
 
-1. QUIZ: Complete the L12: Judgment and Decision-making quiz (5 points, on blackboard)
+1. QUIZ: Complete the L12: Judgment and Decision-making quiz (2.5 points, on blackboard)
 2. Writing: (5 points, instructions below, submit on blackboard)
 
 Submit your work before the due date posted on blackboard. Then, move on to the next learning module.

@@ -10,6 +10,7 @@ opengraph:
     card: summary_large_image
     creator: "@MattCrumpLab"
 order: 3
+week: "Week 3"
 ---
 
 ```{r, include = FALSE}
@@ -179,7 +180,7 @@ knitr::include_graphics("imgs/engage.png")
 
 When you are ready complete any or all of the following assignments.
 
-1. QUIZ: Complete the L3: Eugenics, Psychology, and intelligence testing quiz (5 points, on blackboard)
+1. QUIZ: Complete the L3: Eugenics, Psychology, and intelligence testing quiz (2.5 points, on blackboard)
 2. Writing: There are two reading/writing assignments to choose from (5 points, instructions below, submit on blackboard). You can choose to do both or neither.
 
 Submit your work before the due date posted on blackboard. Then, move on to the next learning module.

@@ -10,6 +10,7 @@ opengraph:
     card: summary_large_image
     creator: "@MattCrumpLab"
 order: 7
+week: "Week 8"
 ---
 
 ```{r, include = FALSE}
@@ -181,7 +182,7 @@ knitr::include_graphics("imgs/engage.png")
 
 When you are ready complete any or all of the following assignments.
 
-1. QUIZ: Complete the L7: Memory I quiz (5 points, on blackboard)
+1. QUIZ: Complete the L7: Memory I quiz (2.5 points, on blackboard)
 2. Writing: (5 points, instructions below, submit on blackboard)
 
 Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
