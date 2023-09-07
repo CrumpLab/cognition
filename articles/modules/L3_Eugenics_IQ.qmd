@@ -181,7 +181,8 @@ knitr::include_graphics("imgs/engage.png")
 When you are ready complete any or all of the following assignments.
 
 1. QUIZ: Complete the L3: Eugenics, Psychology, and intelligence testing quiz (2.5 points, on blackboard)
-2. Writing: There are two reading/writing assignments to choose from (5 points, instructions below, submit on blackboard). You can choose to do both or neither.
+
+2. Writing: There are three reading/writing assignments to choose from (5 points, instructions below, submit on blackboard). **Due to limitations in the instructors ability to grade multiple assignments per student on a weekly basis, no more than two submissions will be graded.** Remember these assignments are all optional, pick ones you find most relevant, engaging, and challenging.
 
 Submit your work before the due date posted on blackboard. Then, move on to the next learning module.
 ::::
@@ -195,17 +196,19 @@ Submit your work before the due date posted on blackboard. Then, move on to the 
 
 ### L3 Writing 1: The formation of ABPSi
 
-This assignment involves reading a paper about the formation of the Association of Black Psychologists, and then completing a writing activity. The citation for the paper is:
+This assignment involves reading a paper about the formation of the Association of Black Psychologists and a writing activity. The citation for the paper is:
 
-Williams, R. (1974). A History of the Association of Black Psychologists: Early Formation and Development. Journal of Black Psychology, 1(1), 9–24. https://doi.org/10/gg3hq4
+Williams, R. (1974). A History of the Association of Black Psychologists: Early Formation and Development. Journal of Black Psychology, 1(1), 9–24.
 
 You can obtain the paper through the library, or download it from this assignment on blackboard.
 
-This is a fairly open-ended writing assignment. Your task is to read the paper, and then describe what you learned from the paper in at least 200 words using full sentences (feel free to write more if you want). Submit your writing to this assignment posted on blackboard.
+This is a fairly open-ended writing assignment. Your task is to read the paper, and then describe what you learned from the paper in at least 250 words using full sentences (feel free to write more if you want).
+
+Submit your writing to this assignment posted on blackboard.
 
 5 points
 
-This assignment will be graded pass/fail, with a possibility of partial points. I am looking for evidence that you engaged in the reading and writing process.
+This assignment will be graded pass/fail, with a possibility of partial points. I am looking for evidence that you engaged in the reading and writing process with your own voice.
 
 
 ### L3 Writing 2: APA's apology
@@ -221,6 +224,19 @@ This is a fairly open-ended writing assignment. Your task is to visit and read t
 5 points
 
 This assignment will be graded pass/fail, with a possibility of partial points. I am looking for evidence that you engaged in the reading and writing process. I am not expecting you to read and memorize the entire website. Use your own discretion on how much time you put into reviewing the material, and direct your own reading towards points of interest that you may want to write about.
+
+### L3 Writing 3: Contributions of ABPSi to psychology
+
+This is review paper from 2018 discussing contributions of the field of Black/African psychology from the last 50 years. If you are unfamiliar with this field of psychology it is an excellent review. Note, the first assignment focuses on the formation of the ABPsi in the 1970s. This paper reviews contributions since then.
+
+The citation for the paper is:
+
+Cokley, K., & Garba, R. (2018). Speaking Truth to Power: How Black/African Psychology Changed the Discipline of Psychology. Journal of Black Psychology, 44(8), 695–721.
+
+The paper is available as a download from this assignment on Blackboard.
+
+Your task is to read the paper and pick out one or two (or more) issues that you found informative. Explain what the issues are AND explain why you personally found them informative. Your assignment should be at least 250 words using full sentences (feel free to write more if you want).
+
 
 
 
