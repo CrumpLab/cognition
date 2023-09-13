@@ -157,6 +157,25 @@ The important point is to engage with the content and get something out of it. I
 
 Any student may complete an honors project and receive honors credit for this course. Please see the [honors project page](https://crumplab.com/cognition/articles/honors/honors.html) for more information.
 
+## Exam-based syllabus
+
+Updated 9/13/23
+
+This syllabus update is in response to academic integrity violations. For example, some students are suspected of using ChatGPT or a similar tool to generate text for many of their written assignments. Some sanctioned students may be eligible to continue in the course under this exam-based syllabus. 
+
+Under this syllabus, students may only accrue points toward their final grade through weekly quizzes, a midterm, and a cumulative final exam.
+
+| Assignment        | Points |    Total |
+|:------------------|-------:|---------:|
+| Weekly quizzes    |  2.5 each| up to 25 |
+| Midterm  1        |      25 |       25 |
+| Cumulative Final  |      50 |        50 |
+|                   |        |      100 |
+
+The midterm will take place during week 6 (October 2-6th). The final exam will take place during the final exam period. Both exams will involve a mixture of question types about course content. The quizzes give examples of content that will be tested. The exam will be timed. The exam will not allow back-tracking. The exam questions will be randomly drawn from a pool of questions.
+
+This alternative syllabus is potentially open to any student. If you are a student who is interested in completing the course according to the exam-based syllabus, then please let me know by email.
+
 ## Course Policies
 
 ### Changes to the syllabus
@@ -209,7 +228,7 @@ This is not an exhaustive list of unacceptable use cases that violate academic i
 
 2. Copying another source, having ChatGPT rewrite it to appear different, and then handing the response in as your own writing.
 
-ChatGPT is a new and rapidly changing technology. This syllabus may be updated throughout the semester to respond to unacceptable uses of ChatGPT that violate the acacdemic integrity policy. Changes may include altered modes of assessment.
+ChatGPT is a new and rapidly changing technology. This syllabus may be updated throughout the semester to respond to unacceptable uses of ChatGPT that violate the academic integrity policy. Changes may include altered modes of assessment.
 
 ### Missing an Exam
 
