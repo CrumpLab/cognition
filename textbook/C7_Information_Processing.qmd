@@ -174,7 +174,7 @@ Donders used the subtraction of reaction times between tasks to estimate the spe
 #| fig-cap: "A cartoon depiction of a cognitive assembly line. A stimulus enters the assembly line as raw ingredients for cognition. The stimulus is transformed across cognitive processing stages to produce a response."
 #| out.width: "75%"
 
-knitr::include_graphics("imgs/Donders_Assembly.png")
+knitr::include_graphics("imgs/Donders_assembly.png")
 ```
 
 According to Donders, the amount of time taken to respond to a stimulus should depend on how many processing stages are required for the task at hand. Simpler tasks have fewer processing stages and can be performed more quickly than more complicated tasks that require additional processing stages. These ideas are illustrated in @fig-7Donders_task_stages.
