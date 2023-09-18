@@ -141,7 +141,11 @@ This assignment is worth 10 points.
 
 Write your own short answer question (appropriate for a midterm or final exam) that would test a concept from any aspect of Cognitive Psychology covered in this course. Then, provide an answer to the question in at least 100 words that could be used as an example of a high-quality answer that should receive full marks.
 
-Submit the wording for your question and your answer. This assignment is worth 5 points.
+I will evaluate your submission in terms of whether I would add the question to one of my own exams, and whether I would give the answer full points. Again make sure the question is about our course content. Consider also whether ChatGPT could easily spoof the answer (I would not likely include that kind of question in my exam). Consider questions that involve reasoning about specific theoretical ideas or specific patterns of data that relate to claims about cognition.
+
+Submit the wording for your question and your answer. This assignment is worth 5 points. It will be graded pass/fail.
+
+Provide a self-assessment and suggest a grade. More importantly, explain why you think your short answer question should be included on an exam. Explain what makes it a good question to test content in this course.
 
 
 Example:
