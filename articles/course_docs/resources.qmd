@@ -18,6 +18,41 @@ knitr::opts_chunk$set(
 )
 ```
 
+## Zotero
+
+Zotero is a free reference/citation manager program, it is awesome, I use it all the time, and it will be a great benefit to you in this course, and throughout your undergraduate (and even beyond).
+
+{{< video https://www.youtube.com/embed/t8rOfQ1drqk >}}
+
+Link to download:
+
+<https://www.zotero.org>
+
+You can download a desktop version of the app, they also have mobile versions.
+
+### Getting started with Zotero
+
+1.  Create a free zotero account. You can also access your zotero in the cloud, and you can join shared libraries.
+
+We will have a shared zotero library for this class, and it will allow us to easily share papers and other sources that we find and use in our research.
+
+2.  Download the desktop app on your computer. The app itself functions like a database on your computer. You can easily import, or drag-and-drop papers and other media into zotero, along with associated meta-data used for citing the material later on.
+
+3.  Zotero has plugins for your web-browser. Go and find the zotero plugin for your web-browser and install it. The plugin is great, because it is super easy to save material to zotero while you are researching on the web.
+
+### Zotero tips
+
+-   When you visit a page with links to an academic article, like on google scholar, if you have the Zotero plugin installed, you can click it and select which papers to download into your current zotero folder. Zotero will automatically download all the individual citation data, and the pdf if they are available. You can edit the citation data later
+
+-   You can make folder and subfolders in your zotero library, which can help you organize the papers you are collecting in your research
+
+-   You can create group folders and share them between collaborators
+
+-   You can select a bunch of papers and automatically generate a whole bibliography!
+
+-   You can use Zotero to "cite-while-you-write", and this allows you to seamless incorporate citations into your writing, and makes academic writing much easier. This works for Microsoft word and other tools, like quarto (a blogging option).
+
+
 ## List of Cognitive Psychology Journals
 
 Primary research articles about cognition are published in many psychology journals. Here is a short list of journals.
