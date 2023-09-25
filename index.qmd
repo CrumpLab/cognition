@@ -13,7 +13,7 @@ title-block-style: none
 
 Instructor: [Matthew Crump](https://www.crumplab.com) 
 
-Term: Fall 2023, Asynchrononous online, Brooklyn College of CUNY
+Term: Fall 2023, Asynchronous online, Brooklyn College of CUNY
 
 Email: [mcrump\@brooklyn.cuny.edu](mcrump@brooklyn.cuny.edu) (students please put PSYC 2530 in the subject line)
 
