@@ -40,12 +40,7 @@ knitr::include_graphics("imgs/read.png")
 
 There are no textbook readings for this learning module. This paper is recommended background reading. It is available on blackboard.
 
-- Klinger, M. R., & Greenwald, A. G. (1994). Preferences Need No Inferences?: The Cognitive Basis of Unconscious Mere Exposure Effects. In The Heart’s Eye (pp. 67–85). Elsevier. https://doi.org/10.1016/B978-0-12-410560-7.50010-7
-
-The second midterm will contain questions about the following paper. You will be expected to read this paper before the midterm. One of the writing assignments is about this paper, so you could complete the writing assignment and study for this part of the midterm at the same time.
-
-- Goldinger, S. D., & Hansen, W. A. (2005). Remembering by the seat of your pants. Psychological Science, 16(7), 525–529. https://doi.org/10/dnnzx5
-
+- Klinger, M. R., & Greenwald, A. G. (1994). Preferences Need No Inferences?: The Cognitive Basis of Unconscious Mere Exposure Effects. In The Heart’s Eye (pp. 67–85). Elsevier. 
 
 ::::
 :::
@@ -163,7 +158,7 @@ Submit your work before the due date posted on blackboard. Then, move on to the 
 
 5 points
 
-- Goldinger, S. D., & Hansen, W. A. (2005). Remembering by the seat of your pants. Psychological Science, 16(7), 525–529. https://doi.org/10/dnnzx5
+- Goldinger, S. D., & Hansen, W. A. (2005). Remembering by the seat of your pants. Psychological Science, 16(7), 525–529.
 
 Your assignment is to read the above paper. It is posted on blackboard, it is under 5 pages, and it is really interesting. This writing assignment is optional, but everyone will be tested on concepts from this paper on the midterm. If you choose to do this assignment, then you will be helping yourself study for the midterm.
 
