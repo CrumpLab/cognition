@@ -47,7 +47,9 @@ Jamieson, R. K., Johns, B. T., Vokey, J. R., & Jones, M. N. (2022). Instance the
 
 ## Watch/Listen {.mt-5}
 
-There are no recorded lectures for this module.
+## Watch/Listen {.mt-5}
+
+There are two mini-lectures for this module. 
 
 :::::{.card .border .border-2 .border-info .mb-3}
 :::: {.grid .g-0}
@@ -58,13 +60,50 @@ There are no recorded lectures for this module.
 knitr::include_graphics("imgs/watch.png")
 ```
 
+Part I
+
+49 min
+
+[slides](https://www.crumplab.com/cognition/slides/Extra_Minerva/Extra_Minerva.html#/)
+
 ::::
 :::
 
 ::: {.g-col-9}
 :::: {.card-body}
 
-[slides](https://www.crumplab.com/cognition/slides/Extra_Minerva/Extra_Minerva.html#/)
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/g_ICY0U5W6Q" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
+
+::::
+:::
+::::
+:::::
+
+
+:::::{.card .border .border-2 .border-info}
+:::: {.grid .g-0}
+::: {.g-col-3}
+:::: {.card-body}
+
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics("imgs/watch.png")
+```
+
+Part II
+
+20 min
+
+::::
+:::
+
+::: {.g-col-9}
+:::: {.card-body}
+
+::: {.ratio .ratio-16x9}
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oTS-3pCRAGU" style="width:100%; height: 100%;" allowfullscreen></iframe>
+:::
 
 ::::
 :::
@@ -76,6 +115,14 @@ knitr::include_graphics("imgs/watch.png")
 ## Engage {.mt-5}
 
 When you are ready complete any or all of the following assignments. Note, there is no quiz for this module.
+
+### Make a MINERVA Model in Excel
+
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hznxWvZh4GE" style="width:100%; height: 100%;" allowfullscreen></iframe>
+
+5 points
+
+This assignment involves following a video tutorial showing you how to build a basic MINERVA II simulator in Excel. The tutorial is about 20 minutes long. It should be possible to use google sheets, but the tutorial does not cover this. By following the tutorial you will create a spreadsheet. Submit your finished spreadsheet on blackboard. 
 
 ### Read and React to an instance theory classic paper
 

@@ -401,7 +401,7 @@
     "href": "articles/modules/L11_Instance_Theory.html#watchlisten",
     "title": "L11: Instance theory",
     "section": "Watch/Listen",
-    "text": "Watch/Listen\nThere are no recorded lectures for this module.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nslides",
+    "text": "Watch/Listen",
     "crumbs": [
       "L11: Instance theory"
     ]
@@ -411,7 +411,7 @@
     "href": "articles/modules/L11_Instance_Theory.html#engage",
     "title": "L11: Instance theory",
     "section": "Engage",
-    "text": "Engage\nWhen you are ready complete any or all of the following assignments. Note, there is no quiz for this module.\n\nRead and React to an instance theory classic paper\n5 points\nYour assignment is to read and react to any of the following four papers. Your reaction statement could take the form of notes that you make as you read the paper, ideas you thought about, questions for clarification, new concepts about memory and cognition that you hadn’t thought about before, and/or a summary or critical analysis of the ideas presented in the papers. (These are available for download in the Instance theory module on Blackboard).\nJacoby, L. L., & Brooks, L. R. (1984). Nonanalytic cognition: Memory, perception, and concept learning. The Psychology of Learning and Motivation, 18, 1–47.\nKolers, P. A., & Roediger, H. L. (1984). Procedures of mind. Journal of Verbal Learning and Verbal Behavior, 23(4), 425–449.\nSchacter, D. L., Eich, J. E., & Tulving, E. (1978). Richard Semon’s theory of memory. Journal of Verbal Learning and Verbal Behavior, 17(6), 721–743.\nHintzman, D. L. (1986). “Schema Abstraction” in a Multiple-Trace Memory Model. Psychological Review, 93, 411–428.",
+    "text": "Engage\nWhen you are ready complete any or all of the following assignments. Note, there is no quiz for this module.\n\nMake a MINERVA Model in Excel\n\n\n5 points\nThis assignment involves following a video tutorial showing you how to build a basic MINERVA II simulator in Excel. The tutorial is about 20 minutes long. It should be possible to use google sheets, but the tutorial does not cover this. By following the tutorial you will create a spreadsheet. Submit your finished spreadsheet on blackboard.\n\n\nRead and React to an instance theory classic paper\n5 points\nYour assignment is to read and react to any of the following four papers. Your reaction statement could take the form of notes that you make as you read the paper, ideas you thought about, questions for clarification, new concepts about memory and cognition that you hadn’t thought about before, and/or a summary or critical analysis of the ideas presented in the papers. (These are available for download in the Instance theory module on Blackboard).\nJacoby, L. L., & Brooks, L. R. (1984). Nonanalytic cognition: Memory, perception, and concept learning. The Psychology of Learning and Motivation, 18, 1–47.\nKolers, P. A., & Roediger, H. L. (1984). Procedures of mind. Journal of Verbal Learning and Verbal Behavior, 23(4), 425–449.\nSchacter, D. L., Eich, J. E., & Tulving, E. (1978). Richard Semon’s theory of memory. Journal of Verbal Learning and Verbal Behavior, 17(6), 721–743.\nHintzman, D. L. (1986). “Schema Abstraction” in a Multiple-Trace Memory Model. Psychological Review, 93, 411–428.",
     "crumbs": [
       "L11: Instance theory"
     ]
@@ -1194,6 +1194,16 @@
     "text": "EPUB version\nThe epub version of this book is available, but may be missing some features not available in hard copy (e.g., videos, audio, animations etc.). The epub version may also have unexpected formatting issues. Nevertheless, it is available here:\nhttps://github.com/CrumpLab/cognition/raw/main/docs/textbook/book/Instances-of-Cognition.epub",
     "crumbs": [
       "Reading Formats"
+    ]
+  },
+  {
+    "objectID": "articles/modules/L11_Instance_Theory.html#watchlisten-1",
+    "href": "articles/modules/L11_Instance_Theory.html#watchlisten-1",
+    "title": "L11: Instance theory",
+    "section": "Watch/Listen",
+    "text": "Watch/Listen\nThere are two mini-lectures for this module.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart I\n49 min\nslides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart II\n20 min",
+    "crumbs": [
+      "L11: Instance theory"
     ]
   }
 ]
