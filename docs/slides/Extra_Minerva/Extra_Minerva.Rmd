@@ -1,6 +1,5 @@
 ---
-title: 'PSYC 2530: Instance theory and Minerva'
-subtitle: "An example of computational modelling in cognition"
+title: 'PSYC 2530: Instance theory and Minerva II'
 author: "Matthew J. C. Crump"
 date: "Last compiled `r format(Sys.time(), '%m/%d/%y')`"
 output:
@@ -29,125 +28,92 @@ library(fontawesome)
 3.  Implementing the principles computationally
 4.  Examining the model
 
+# Jamieson et al. (2022)
+  
+:::: {.row}
+::: {.col-md-6}
+
+The reading for this module is:
+
+Jamieson, R. K., Johns, B. T., Vokey, J. R., & Jones, M. N. (2022). Instance theory as a domain-general framework for cognitive psychology. Nature Reviews Psychology. https://doi.org/10/gpd7zt
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("imgs/Jamiesonetal.png")
+```
+
+:::
+::::
+
+# Intuition pump
+
+:::: {.row}
+::: {.col-md-6}
+
+Intuition pumps allow thinkers to use their intuition to develop an answer to a problem. - Wikipedia, Dennett
+
+- Instance theory is a productive intuition pump for cognition
+- Need ways to develop and formalize the intuitions
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("images/DALL·E 2022-12-09 09.25.00.png")
+```
+
+:::
+::::
+
+# How does some cognitive ability work?
+
+::: row
+::: col-md-6
+**Domain general explanations**
+
+- emergence from general-purpose perception, attention, learning, and memory processes
+- Externally informed through experience with a structured environment
+:::
+
+::: col-md-6
+**Special system explanations**
+
+- special module with unique processing algorithms
+- Internally pre-structured to sense and use signals
+:::
+:::
+
+# What is instance theory?
+
+1.  A collection of domain-general processing assumptions about how memory functions
+2.  Can be formalized computationally
+3.  Provides a theoretical basis to evaluate potential functional abilities (and limitations) of episodic memory systems
+4.  Can be explanatory and exploratory
+
 # Mnemic Psychology
 
 **Historical Sidenote**
 
 -   Modern instance theory is broadly consistent with Richard Semon's theory of memory developed in Mnemic Psychology (1923)
 -   Semon was a German theorist whose ideas were largely forgotten until they were translated to English (mid-century)
--   See Schacter, D. L., Eich, J. E., & Tulving, E. (1978). Richard Semon's theory of memory. Journal of Verbal Learning and Verbal Behavior, 17(6), 721-743.
+-   See Schacter, D. L., Eich, J. E., & Tulving, E. (1978). Richard Semon's theory of memory. *Journal of Verbal Learning and Verbal Behavior, 17(6)*, 721-743.
 -   Semon's ideas inspired Hintzman's MINERVA 2
 
-# Instance theory primers
+# Poetic Psychology
 
--   A collection of related process theories of memory and cognition
--   Different researchers have different versions (broadly similar)
--   Instance theories range in specificity from verbal theories to computational models
+```{r}
+knitr::include_graphics("images/Screen Shot 2022-12-06 at 10.41.49 AM.png")
+```
 
-# Example verbal instance theories
 
--   Jacoby, L. L., & Brooks, L. R. (1984). Nonanalytic cognition: Memory, perception, and concept learning. The Psychology of Learning and Motivation, 18, 1--47. https://doi.org/10/d7z8js
+# Engram-complex
 
--   Kolers, P. A., & Roediger, H. L. (1984). Procedures of mind. Journal of Verbal Learning and Verbal Behavior, 23(4), 425--449. https://doi.org/10/b7gfkh
-
-# Big ideas from Instance theory
-
-1.  Offers testable processing explanations for how memory works:
-
--   not a simple stage model
--   does not invoke special processing
--   representations are defined
--   encoding and retrieval operations are defined
-
-2.  Shows how memory processes can do more than just remember, and may be responsible for many other cognitive abilities.
-
-# Minerva 2
-
--   MINERVA 2 is a global-matching model of memory (Hintzman, 1984,86,88)
-
--   applied across numerous domains
-
-    -   Frequency judgments (Hintzman, 1988)
-    -   False Memory (Arndt, 1998)
-    -   Selective memory deficits (Curtis & Jamieson, 2019)
-    -   Age-related memory decline (DRYAD, Benjamin, 2012)
-    -   Prototype abstraction (Hintzman, 1986)
-    -   Artificial Grammar Learning (Jamieson & Mewhort, 2009)
-
-# Minerva 2 continued
-
--   Implicit Sequence Learning (Jamieson & Mewhort, 2009b)
--   Judgments of Likelihoods (Doughert, 1999)
--   Eyewitness identification (Clark, 2003)
--   lexical access (Goldinger, 1998)
--   Associative Learning (MINERVA-AL, Jamieson et al., 2010)
--   Semantic memory (ITS, Jamieson et al, 2018)
-
-# General Encoding Assumption
-
-People encode the details of their experiences in memory traces
-
--   Instance theory assumes very high/limitless capacity for traces
--   Every experience is potentially encoded as a trace
--   lifetime of experiences potentially available from memory, although maybe not accessible.
-
-# Individual experiences are full of features
-
--   What properties are in a slice of experience?
-
-    -   Sensory details of the environment (visual, audio, haptic, smell, etc.)
-    -   Sense of space, time
-    -   Co-occurring thoughts and feelings
-    -   Co-occurring cognitive processes
-    -   Co-occurring physiological processes
-
--   A single memory trace could theoretically contain all of the features inherent to a single experience
-
-# General Retrieval Assumption
-
--   Similarity between present and past drives memory retrieval
-
--   The present moment is a pattern of current experience
-
--   Memory contains many traces of experiences
-
-    -   each trace is the pattern of a past experience
-
--   Similar experiences have similar patterns
-
--   The pattern of current experience causes retrieval of past experiences that have similar patterns.
-
-# Recap
-
-1.  People encode the details of all their individual experiences
-2.  Single experience are full of co-occuring features
-3.  Retrieval is similarity driven.
-
--   the pattern in the present moment retrieves experiences with similar patterns from the past
-
--   These assumptions could have interesting and testable implications for cognition.
-
-# Theoretical strategy
-
-The instance theory approach is to:
-
-1.  Clarify the meaning of the assumptions
-2.  Postulate algorithms about how representations (traces) and processes (retrieval by similarity) may work together
-3.  Determine whether a cognitive ability or phenomenon of interest could emerge from the working assumptions of instance theory
-4.  When instance theory works, it offers a candidate explanation of the cognitive phenomena in question.
-
-# MINERVA
-
--   MINERVA is a computational model
--   It implements some assumptions of instance theory
--   The model stores and retrieves patterns
--   The model can be trained on patterns that people respond to in cognitive psychology experiments
--   The model can produce measurable responses
--   Model performance can be compared to human/animal performance
-
-# Explaining MINERVA
-
-We will use the rest of class to explain MINERVA in various ways.
+```{r}
+knitr::include_graphics("images/Screen Shot 2022-12-06 at 10.46.15 AM.png")
+```
 
 # Physical Resonance
 
@@ -161,26 +127,85 @@ knitr::include_graphics("images/Screen Shot 2022-11-22 at 4.12.03 PM.png")
 knitr::include_graphics("images/Screen Shot 2022-11-22 at 5.00.20 PM.png")
 ```
 
+# Basic instance theory assumptions
+
+1.  People encode the details of individual experiences
+2.  Retrieval is similarity driven.
+
+-   the pattern in the present moment retrieves experiences with similar patterns from the past
+
+# Instance theory primers
+
+-   A collection of related process theories of memory and cognition
+-   Different researchers have different versions (broadly similar)
+-   Instance theories range in specificity from verbal theories to computational models
+
+# Example verbal instance theories
+
+-   Jacoby, L. L., & Brooks, L. R. (1984). Nonanalytic cognition: Memory, perception, and concept learning. *The Psychology of Learning and Motivation, 18*, 1--47.
+
+-   Kolers, P. A., & Roediger, H. L. (1984). Procedures of mind. *Journal of Verbal Learning and Verbal Behavior, 23(4)*, 425--449.
+
+# Big picture idea
+
+1. Lots of cognitive abilities may be understood in terms of processes involved in **cued-recall**.
+
+# Minerva 2
+
+MINERVA 2 is a global-matching model of memory (Hintzman, 1984,86,88) that can be formally evaluated as a computer algorithm
+
+-   applied across numerous domains
+
+-   Frequency judgments (Hintzman, 1988)
+-   False Memory (Arndt, 1998)
+-   Selective memory deficits (Curtis & Jamieson, 2019)
+-   Age-related memory decline (DRYAD, Benjamin, 2012)
+-   Prototype abstraction (Hintzman, 1986)
+    
+
+# Minerva 2 continued
+
+-   Artificial Grammar Learning (Jamieson & Mewhort, 2009)
+-   Implicit Sequence Learning (Jamieson & Mewhort, 2009b)
+-   Judgments of Likelihoods (Dougherty, 1999)
+-   Eyewitness identification (Clark, 2003)
+-   lexical access (Goldinger, 1998)
+-   Associative Learning (MINERVA-AL, Jamieson et al., 2010)
+-   Semantic memory (ITS, Jamieson et al, 2018)
+
+
 # Hintzman (1986)
 
 ```{r, out.width="75%"}
 knitr::include_graphics("images/Screen Shot 2022-11-22 at 3.41.21 PM.png")
 ```
 
-# Hintzman (1988)
+# MINERVA in Excel
+  
+Let's look at how the model works
 
-```{r, out.width="75%"}
-knitr::include_graphics("images/Screen Shot 2022-11-22 at 3.51.45 PM.png")
+:::: {.row}
+::: {.col-md-6}
+
+- Feature vectors
+- Encoding
+- Retrieval
+- Recognition judgments
+- Frequency judgments
+- Schema abstraction
+
+:::
+
+::: {.col-md-6}
+
+```{r}
+knitr::include_graphics("imgs/MINERVA2.png")
 ```
 
-# Jamieson et al. (2022)
+:::
+::::
 
-```{r, out.width="75%"}
-knitr::include_graphics("images/Screen Shot 2022-11-22 at 3.53.26 PM.png")
-```
 
-## Jamieson et al. (2022)
 
-```{r, out.width="75%"}
-knitr::include_graphics("images/Screen Shot 2022-11-22 at 3.54.13 PM.png")
-```
+
+

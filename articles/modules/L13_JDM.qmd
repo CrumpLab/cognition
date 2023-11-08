@@ -1,5 +1,5 @@
 ---
-title: "L12: Judgment and Decision-making"
+title: "L13: Judgment and Decision-making"
 description: "A learning module on judgment and decision-making for Psyc 2530."
 author: "Matt Crump"
 date-modified: last-modified

@@ -1,6 +1,6 @@
 ---
-title: "L10B: Instance theory"
-description: "A learning module on attention for Psyc 2530."
+title: "L11: Instance theory"
+description: "A learning module on computational modelling for Psyc 2530."
 author: "Matt Crump"
 date-modified: last-modified
 order: 10
@@ -16,8 +16,6 @@ knitr::opts_chunk$set(
 
 
 ## Instructions 
-
-This module is under development. It currently contains suggested readings and the beginnings of a slide deck.
 
 ## Read 
 
@@ -77,7 +75,7 @@ knitr::include_graphics("imgs/watch.png")
 
 ## Engage {.mt-5}
 
-When you are ready complete any or all of the following assignments.
+When you are ready complete any or all of the following assignments. Note, there is no quiz for this module.
 
 ### Read and React to an instance theory classic paper
 

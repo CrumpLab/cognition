@@ -1,5 +1,5 @@
 ---
-title: "L11: Language"
+title: "L12: Language"
 description: "A learning module on language for Psyc 2530."
 author: "Matt Crump"
 date-modified: last-modified
