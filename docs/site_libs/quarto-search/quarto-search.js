@@ -98,6 +98,7 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
     classNames: {
       form: "d-flex",
     },
+    placeholder: language["search-text-placeholder"],
     translations: {
       clearButtonTitle: language["search-clear-button-title"],
       detachedCancelButtonText: language["search-detached-cancel-button-title"],
@@ -188,8 +189,8 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
                     title: isExpanded
                       ? language["search-hide-matches-text"]
                       : remainingCount === 1
-                        ? `${remainingCount} ${language["search-more-match-text"]}`
-                        : `${remainingCount} ${language["search-more-matches-text"]}`,
+                      ? `${remainingCount} ${language["search-more-match-text"]}`
+                      : `${remainingCount} ${language["search-more-matches-text"]}`,
                     type: kItemTypeMore,
                     href: kItemTypeMoreHref,
                   });
@@ -307,8 +308,9 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
               return createElement(
                 "div",
                 {
-                  class: `quarto-search-no-results${hasQuery ? "" : " no-query"
-                    }`,
+                  class: `quarto-search-no-results${
+                    hasQuery ? "" : " no-query"
+                  }`,
                 },
                 language["search-no-results-text"]
               );
@@ -379,7 +381,24 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
   document.addEventListener("keyup", (event) => {
     const { key } = event;
     const kbds = quartoSearchOptions["keyboard-shortcut"];
-    if (kbds && kbds.includes(key)) {
+    const focusedEl = document.activeElement;
+
+    const isFormElFocused = [
+      "input",
+      "select",
+      "textarea",
+      "button",
+      "option",
+    ].find((tag) => {
+      return focusedEl.tagName.toLowerCase() === tag;
+    });
+
+    if (
+      kbds &&
+      kbds.includes(key) &&
+      !isFormElFocused &&
+      !document.activeElement.isContentEditable
+    ) {
       event.preventDefault();
       window.quartoOpenSearch();
     }
@@ -396,11 +415,30 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
     }
   }
 
+  function throttle(func, wait) {
+    let waiting = false;
+    return function () {
+      if (!waiting) {
+        func.apply(this, arguments);
+        waiting = true;
+        setTimeout(function () {
+          waiting = false;
+        }, wait);
+      }
+    };
+  }
+
   // If the main document scrolls dismiss the search results
   // (otherwise, since they're floating in the document they can scroll with the document)
-  window.document.body.onscroll = () => {
-    setIsOpen(false);
-  };
+  window.document.body.onscroll = throttle(() => {
+    // Only do this if we're not detached
+    // Bug #7117
+    // This will happen when the keyboard is shown on ios (resulting in a scroll)
+    // which then closed the search UI
+    if (!window.matchMedia(detachedMediaQuery).matches) {
+      setIsOpen(false);
+    }
+  }, 50);
 
   if (showSearchResults) {
     setIsOpen(true);
@@ -440,15 +478,27 @@ function configurePlugins(quartoSearchOptions) {
         const algoliaInsightsPlugin = createAlgoliaInsightsPlugin({
           insightsClient: window.aa,
           onItemsChange({ insights, insightsEvents }) {
-            const events = insightsEvents.map((event) => {
-              const maxEvents = event.objectIDs.slice(0, 20);
-              return {
-                ...event,
-                objectIDs: maxEvents,
-              };
+            const events = insightsEvents.flatMap((event) => {
+              // This API limits the number of items per event to 20
+              const chunkSize = 20;
+              const itemChunks = [];
+              const eventItems = event.items;
+              for (let i = 0; i < eventItems.length; i += chunkSize) {
+                itemChunks.push(eventItems.slice(i, i + chunkSize));
+              }
+              // Split the items into multiple events that can be sent
+              const events = itemChunks.map((items) => {
+                return {
+                  ...event,
+                  items,
+                };
+              });
+              return events;
             });
 
-            insights.viewedObjectIDs(...events);
+            for (const event of events) {
+              insights.viewedObjectIDs(event);
+            }
           },
         });
         return algoliaInsightsPlugin;

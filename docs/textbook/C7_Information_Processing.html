@@ -2,10 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.386">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Matthew J. C. Crump">
 <meta name="dcterms.date" content="2021-09-01">
 
 <title>cognition - 7 Information Processing</title>
@@ -66,7 +67,7 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -81,6 +82,7 @@ div.csl-indent {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -99,6 +101,33 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="custom.css">
 <meta property="og:title" content="cognition - 7 Information Processing">
@@ -116,7 +145,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
@@ -243,11 +272,11 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../textbook/C7_Information_Processing.html">7 Information Processing</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
@@ -255,7 +284,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="../index.html" class="sidebar-logo-link">
       <img src="../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
@@ -338,7 +367,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -391,7 +420,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
   
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/CrumpLab/cognition/edit/main/textbook/C7_Information_Processing.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CrumpLab/cognition/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/CrumpLab/cognition/edit/main/textbook/C7_Information_Processing.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CrumpLab/cognition/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="C7_Information_Processing.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
@@ -422,7 +451,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">September 14, 2023</p>
+      <p class="date-modified">June 25, 2024</p>
     </div>
   </div>
     
@@ -503,92 +532,92 @@ The behaviorists we just finished reading about successfully squeezed in the stu
 <p>Donders conducted human reaction time experiments with tactile, visual and auditory stimuli using a similar method. A subject was presented with a stimulus and they responded to the stimulus as quickly and accurately as possible. Donders measured reaction time, which was defined as the amount of time between the onset of the stimulus and a subsequent response.</p>
 <p>One question was whether different sense organs had different physiological reaction times. Additionally, Donders was interested in the amount of “mental” time it might take to perform increasingly complex tasks before making a response to a stimulus. Donders measured reaction times across three similar tasks that varied in complexity.</p>
 <div class="cell page-columns page-full">
-<div class="cell-output-display page-columns page-full">
 
-<div class="no-row-height column-margin column-container"><div id="fig-7Donders_simple" class="quarto-figure quarto-figure-center anchored" width="75%">
+<div class="no-row-height column-margin column-container"><div class="cell-output-display">
+<div id="fig-7DondersSimple" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-7Donders_simple-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-7DondersSimple-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Donders_simple.png" class="img-fluid figure-img" style="width:75.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-7Donders_simple-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-7DondersSimple-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: A simple reaction time task involves detecting any stimulus as fast as possible.
 </figcaption>
 </figure>
-</div></div></div>
 </div>
-<p><a href="#fig-7Donders_simple" class="quarto-xref">Figure&nbsp;1</a> the <em>simple reaction time task</em>. This task measures the duration a person takes to recognize that a stimulus, such as a light, has been presented. Participants are instructed to wait for the stimulus and respond as swiftly as possible, immediately upon detection. Donders considered performance in this task to measure “physiological reaction time”.</p>
+</div></div></div>
+<p><a href="#fig-7DondersSimple" class="quarto-xref">Figure&nbsp;1</a> the <em>simple reaction time task</em>. This task measures the duration a person takes to recognize that a stimulus, such as a light, has been presented. Participants are instructed to wait for the stimulus and respond as swiftly as possible, immediately upon detection. Donders considered performance in this task to measure “physiological reaction time”.</p>
 <div class="cell page-columns page-full">
-<div class="cell-output-display page-columns page-full">
 
-<div class="no-row-height column-margin column-container"><div id="fig-7Donders_GONoGo" class="quarto-figure quarto-figure-center anchored" width="75%">
+<div class="no-row-height column-margin column-container"><div class="cell-output-display">
+<div id="fig-7DondersGONoGo" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-7Donders_GONoGo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-7DondersGONoGo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Donders_GoNoGo.png" class="img-fluid figure-img" style="width:75.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-7Donders_GONoGo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-7DondersGONoGo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2: A Go-NoGo task involves detecting a specific ‘go’ stimulus (aqua light) as fast as possible, and witholding responses to ‘no-go’ stimuli (red light).
 </figcaption>
 </figure>
-</div></div></div>
 </div>
-<p>Donders had subjects perform a slightly more complicated task shown in <a href="#fig-7Donders_GONoGo" class="quarto-xref">Figure&nbsp;2</a>, now referred to as the <em>GO-NO GO</em> task. In this task, participants are shown a stimulus but are told to respond only when they are presented with the targeted ‘go’ stimulus. For instance, the stimulus could be either blue or red; participants would be required to respond only when the stimulus is blue, a response known as a ‘Go’ response. If the stimulus is red, participants should not respond, classified as a ‘No Go’ trial.</p>
+</div></div></div>
+<p>Donders had subjects perform a slightly more complicated task shown in <a href="#fig-7DondersGONoGo" class="quarto-xref">Figure&nbsp;2</a>, now referred to as the <em>GO-NO GO</em> task. In this task, participants are shown a stimulus but are told to respond only when they are presented with the targeted ‘go’ stimulus. For instance, the stimulus could be either blue or red; participants would be required to respond only when the stimulus is blue, a response known as a ‘Go’ response. If the stimulus is red, participants should not respond, classified as a ‘No Go’ trial.</p>
 <div class="cell page-columns page-full">
-<div class="cell-output-display page-columns page-full">
 
-<div class="no-row-height column-margin column-container"><div id="fig-7Donders_Choice" class="quarto-figure quarto-figure-center anchored" width="75%">
+<div class="no-row-height column-margin column-container"><div class="cell-output-display">
+<div id="fig-7DondersChoice" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-7Donders_Choice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-7DondersChoice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Donders_Choice.png" class="img-fluid figure-img" style="width:75.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-7Donders_Choice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-7DondersChoice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3: A choice reaction time task presents one of many stimuli, each requiring their own specific response.
 </figcaption>
 </figure>
-</div></div></div>
 </div>
-<p>Last, <a href="#fig-7Donders_Choice" class="quarto-xref">Figure&nbsp;3</a> depicts a more complicated <em>alternative forced-choice task</em>. Here, participants are shown one of many stimuli and are required to respond to each with a specific response. For example, a subject could be asked to respond to a blue stimulus by pressing a left button, and to respond to a red stimulus by pressing a right button. This would be called a 2-AFC (two-alternative forced choice) task.</p>
+</div></div></div>
+<p>Last, <a href="#fig-7DondersChoice" class="quarto-xref">Figure&nbsp;3</a> depicts a more complicated <em>alternative forced-choice task</em>. Here, participants are shown one of many stimuli and are required to respond to each with a specific response. For example, a subject could be asked to respond to a blue stimulus by pressing a left button, and to respond to a red stimulus by pressing a right button. This would be called a 2-AFC (two-alternative forced choice) task.</p>
 </section>
 <section id="donders-subtractive-stage-logic" class="level4" data-number="7.3.4">
 <h4 data-number="7.3.4" class="anchored" data-anchor-id="donders-subtractive-stage-logic"><span class="header-section-number">7.3.4</span> Donders subtractive stage logic</h4>
-<p>Donders used the subtraction of reaction times between tasks to estimate the speed of specific mental operations. He assumed that mental operations occurred in successive stages, just like an assembly line (shown in <a href="#fig-7Donders_Assembly" class="quarto-xref">Figure&nbsp;4</a>), and that each stage took an average amount time.</p>
+<p>Donders used the subtraction of reaction times between tasks to estimate the speed of specific mental operations. He assumed that mental operations occurred in successive stages, just like an assembly line (shown in <a href="#fig-7DondersAssembly" class="quarto-xref">Figure&nbsp;4</a>), and that each stage took an average amount time.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fig-7Donders_Assembly" class="quarto-figure quarto-figure-center anchored" width="75%">
+<div id="fig-7DondersAssembly" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-7Donders_Assembly-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-7DondersAssembly-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Donders_assembly.png" class="img-fluid figure-img" style="width:75.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-7Donders_Assembly-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-7DondersAssembly-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;4: A cartoon depiction of a cognitive assembly line. A stimulus enters the assembly line as raw ingredients for cognition. The stimulus is transformed across cognitive processing stages to produce a response.
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>According to Donders, the amount of time taken to respond to a stimulus should depend on how many processing stages are required for the task at hand. Simpler tasks have fewer processing stages and can be performed more quickly than more complicated tasks that require additional processing stages. These ideas are illustrated in <a href="#fig-7Donders_task_stages" class="quarto-xref">Figure&nbsp;5</a>.</p>
+<p>According to Donders, the amount of time taken to respond to a stimulus should depend on how many processing stages are required for the task at hand. Simpler tasks have fewer processing stages and can be performed more quickly than more complicated tasks that require additional processing stages. These ideas are illustrated in <a href="#fig-7DondersTaskStages" class="quarto-xref">Figure&nbsp;5</a>.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fig-7Donders_task_stages" class="quarto-figure quarto-figure-center anchored" width="75%">
+<div id="fig-7DondersTaskStages" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-7Donders_task_stages-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-7DondersTaskStages-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Donders_task_stages.jpg" class="img-fluid figure-img" style="width:75.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-7Donders_task_stages-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-7DondersTaskStages-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;5: Illustration showing how reaction times should increase as a function of task complexity.
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>The fastest reaction time should be the physiological time found in the simple reaction time task. Reaction times should increase in length when additional mental processing is required before a response. For example, the GO-NO GO task should produce a longer reaction time than the simple reaction time task. This is because the task requires an additional mental operation of stimulus identification. In the GO-NO GO task, the stimulus must be identified as the target stimulus before a response is made. <a href="#fig-7Donders_id_time" class="quarto-xref">Figure&nbsp;6</a> shows how Donders used subtractive logic to infer the time taken to complete mental operations like stimulus identification.</p>
+<p>The fastest reaction time should be the physiological time found in the simple reaction time task. Reaction times should increase in length when additional mental processing is required before a response. For example, the GO-NO GO task should produce a longer reaction time than the simple reaction time task. This is because the task requires an additional mental operation of stimulus identification. In the GO-NO GO task, the stimulus must be identified as the target stimulus before a response is made. <a href="#fig-7DondersIdTime" class="quarto-xref">Figure&nbsp;6</a> shows how Donders used subtractive logic to infer the time taken to complete mental operations like stimulus identification.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fig-7Donders_id_time" class="quarto-figure quarto-figure-center anchored" width="75%">
+<div id="fig-7DondersIdTime" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-7Donders_id_time-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-7DondersIdTime-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Donders_id_time.jpg" class="img-fluid figure-img" style="width:75.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-7Donders_id_time-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-7DondersIdTime-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;6: Employing subtractive logic to estimate stimulus identification time.
 </figcaption>
 </figure>
@@ -599,19 +628,19 @@ Figure&nbsp;6: Employing subtractive logic to estimate stimulus identification t
 <p>This subtraction logic can be applied to infer the times of subsequent stages of processing. For example, reaction times in the choice task (2AFC) are longer than in a GO-NO GO task. Following Donders logic, a 2AFC task involves yet another mental operation: <em>response selection</em>. For example, in a choice task a stimulus must be identified, and then the correct response (e.g., right or left) must be selected before the final response is made.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fig-7Donders_RT_time" class="quarto-figure quarto-figure-center anchored" width="75%">
+<div id="fig-7DondersRTTime" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-7Donders_RT_time-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-7DondersRTTime-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Donders_RT_time.png" class="img-fluid figure-img" style="width:75.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-7Donders_RT_time-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-7DondersRTTime-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;7: Employing subtractive logic to estimate response selection time.
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p><a href="#fig-7Donders_RT_time" class="quarto-xref">Figure&nbsp;7</a> shows that response selection time could be measured by subtracting the reaction time in the 2AFC task, from the reaction time in the GO-NO GO task.</p>
+<p><strong>?@fig-7DondersRTtime</strong> shows that response selection time could be measured by subtracting the reaction time in the 2AFC task, from the reaction time in the GO-NO GO task.</p>
 </section>
 </section>
 <section id="beyond-donders" class="level3 page-columns page-full" data-number="7.4">
@@ -636,20 +665,20 @@ Figure&nbsp;7: Employing subtractive logic to estimate response selection time.
 <p>British psychologist A. T. Welford drew attention to the “Psychological Refractory Period” in a 1952 paper <span class="citation" data-cites="welfordPsychologicalRefractoryPeriod1952 welfordEvidenceSinglechannelDecision1959">(<a href="#ref-welfordPsychologicalRefractoryPeriod1952" role="doc-biblioref">Welford, 1952</a>; see also <a href="#ref-welfordEvidenceSinglechannelDecision1959" role="doc-biblioref">Welford, 1959</a>)</span>. In the preceding war years, basic research on human reaction times was conducted for the war effort. For example, the ability to make a quick reaction could be important for a pilot. As a result, empirical studies were conducted to identify useful information about human reaction times. Useful information could include how to make reactions more efficient, or to discover limitations in reaction times that could be addressed. For example, if people are pressing buttons or flicking switches in a cockpit, how should the cockpit be designed to improve the speed and accuracy of the responses?</p>
 <p>Welford observed the psychological refractory period from existing reaction time research and discussed possible explanations for the finding in terms of processing stages. The basic PRP effect was that responding to one stimulus can sometimes delay a response to a second stimulus, especially if they are presented quickly, one after the other.</p>
 <div class="cell page-columns page-full">
-<div class="cell-output-display page-columns page-full">
 
-<div class="no-row-height column-margin column-container"><div id="fig-7PRP_effect" class="quarto-figure quarto-figure-center anchored" width="100%">
+<div class="no-row-height column-margin column-container"><div class="cell-output-display">
+<div id="fig-7PRPEffect" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-7PRP_effect-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-7PRPEffect-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/PRP_effect.jpg" class="img-fluid figure-img" style="width:100.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-7PRP_effect-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-7PRPEffect-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;8: Illustration of the psychological refractory period. A response to a second stimulus is slowed when the second stimulus is presented quickly after the first.
 </figcaption>
 </figure>
-</div></div></div>
 </div>
-<p>The conditions to observe the PRP effect are depicted in <a href="#fig-7PRP_effect" class="quarto-xref">Figure&nbsp;8</a>. In the task, participants are presented with stimuli (S) one after the other, and asked to respond (R) as fast as possible to each of them, for example, by pressing a button.</p>
+</div></div></div>
+<p>The conditions to observe the PRP effect are depicted in <a href="#fig-7PRPEffect" class="quarto-xref">Figure&nbsp;8</a>. In the task, participants are presented with stimuli (S) one after the other, and asked to respond (R) as fast as possible to each of them, for example, by pressing a button.</p>
 <p>The long-delay condition highlights an important difference between two successive stimuli. In this case, the second stimulus (<span class="math inline">\(S_2\)</span>) appears after a long temporal delay following the response (<span class="math inline">\(R_1\)</span>) to the first stimulus <span class="math inline">\(S_1\)</span>. When this delay is long enough, the average reaction time to the first and second stimulus are generally the same (<span class="math inline">\(RT_1 = RT_2\)</span>). However, when the delay is shortened, the PRP effect is observed: the average reaction time to the second stimulus becomes longer than the average reaction time to the first stimulus (<span class="math inline">\(RT_1 &lt; RT_2\)</span>). This lengthening of the second response time is an example of the so-called “psychological refractory period”.</p>
 <p>The PRP effect is a reliable finding in reaction time research, and since Welford, hundreds of papers have been published on the phenomenon. Note that as we move forward, we will discuss many findings like the PRP effect that have inspired a large number of research papers. The term “paradigm” is commonly used to refer to collections of research activity that are relatively focused on specific phenomena or tasks. For example, we could refer to the maze-running research discussed last chapter as a paradigm using the task of maze-running. The PRP paradigm is full of papers testing explanations of the PRP phenomenon. My purpose in bringing up the PRP literature is not for us to become experts in this one phenomenon; instead, the PRP effect provides a clear example of the metaphorical use of processing stages to provide a quasi-mechanical explanation of the phenomena.</p>
 <p>So, why does the PRP effect occur? Why is the second response time lengthened if the second stimulus is presented shortly after a previous response? In 1959, Welford described five different theoretical accounts. One possibility was a physical explanation in terms of limitations of signaling among nerve fibers. Another theory had to do with preparedness or expectancy, perhaps the shorter duration caused people to be more surprised, and it was the surprise that lengthened the second response. The fifth hypothesis involved a <em>central mechanism with a single channel of limited capacity</em>, and was summarized as follows <span class="citation" data-cites="welfordEvidenceSinglechannelDecision1959">(<a href="#ref-welfordEvidenceSinglechannelDecision1959" role="doc-biblioref">Welford, 1959</a>)</span>:</p>
@@ -686,19 +715,19 @@ Figure&nbsp;8: Illustration of the psychological refractory period. A response t
 <p>An information channel has three major parts– a sender, a channel, and a receiver–and two big questions: how much information was sent? And, how much was received?</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fig-7Shannon_info_channel" class="quarto-figure quarto-figure-center anchored" width="75%">
+<div id="fig-7ShannonInfoChannel" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-7Shannon_info_channel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-7ShannonInfoChannel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Shannon_info_channel.jpg" class="img-fluid figure-img" style="width:75.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-7Shannon_info_channel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-7ShannonInfoChannel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;9: Illustration of a toy telephone as a metaphor for an information channel.
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>The toy telephone system made out of tin cans and string in <a href="#fig-7Shannon_info_channel" class="quarto-xref">Figure&nbsp;9</a> is a simple information channel. In this system, one person speaks into a tin can on one end. There is a hole in the bottom of the can, and a knot is securely blocking the hole so that the remaining length of string can be unrolled for a distance and connected to another tin can. The person on the other end is holding the second can up to their ears and listening to the message from the sender.</p>
+<p>The toy telephone system made out of tin cans and string in <a href="#fig-7ShannonInfoChannel" class="quarto-xref">Figure&nbsp;9</a> is a simple information channel. In this system, one person speaks into a tin can on one end. There is a hole in the bottom of the can, and a knot is securely blocking the hole so that the remaining length of string can be unrolled for a distance and connected to another tin can. The person on the other end is holding the second can up to their ears and listening to the message from the sender.</p>
 <p>The speaker’s vocal cords push air through their mouth, creating airwaves in the range of audible frequencies. These waves project into the can and, through a process of physical resonance, transfer the wave pattern in the air to the can. As a result, the can begins to wave with similar frequencies. The can is connected to a string, which also starts waving in the same way, carrying the wave across to the other can. Now, the other can starts to wave too, shaping the air inside it and causing new airwaves to be emitted. These airwaves then travel through the air and into the ear canal of the person listening on the other end. The outer, middle, and inner ear then begin vibrating as well, transducing the mechanical waves into nerve impulses. Eventually, the receiver listens to the message and maybe says something back, repeating the process.</p>
 <p>Acts of cognition are important bookends to this story. From the beginning, we can ask how it is that someone can speak a message at all (or pick up a can or make a toy telephone), and at the end, we can ask how someone hears and understands a message and decides to respond to it or not. However, for our immediate purposes, we will not focus on those psychological aspects but instead return to some of the questions about the information channel, which is the medium through which the message passes.</p>
 <p>An information channel is a general concept with an important property called capacity. An information channel could be a tin-can telephone with a real string connecting two devices, or it could be a wireless cell phone connected through more advanced technology involving very high frequency waves. Both kinds of phones have a limited ability to send signals; this is called the channel capacity. For example, you can hook up one can to another and hear someone speak on the other end. In loose terms, we could say a string has the capacity to support one message. However, if you hook up more cans to the same string and allow many people to talk at once, the quality of the signal at the receiving end will become increasingly worse. In this sense, the string has a limited amount of capacity to transmit a signal.</p>
@@ -783,15 +812,15 @@ Figure&nbsp;9: Illustration of a toy telephone as a metaphor for an information 
 <p>Shannon’s formula uses a base two logarithm that outputs a number in the unit of <a href="https://en.wikipedia.org/wiki/Bit">bits</a>. Bits are also the building blocks of modern digital computers. One bit represents a single binary operator that can be in one of two possible states. For example, a coin could represent a bit. If we stipulated that a coin could only land heads or tails, then it would function the same as a binary operator with two possible states. Another binary operator is a logic statement that can either be TRUE or FALSE. It is also possible to express numbers using binary symbols.</p>
 <p>Bits also provide a measure the total number of discrete events in a system of messages. Let’s see how.</p>
 <p>A single bit has two states, 0 or 1. So, a single bit can represent two unique states, like heads or tails.</p>
-<p>How many states can two bits represent? This would involve counting all of the unique ways of combining the states from two bits. All of the four possibilities are: 00, 01, 10, and 11. <a href="#fig-7Shannon_bits" class="quarto-xref">Figure&nbsp;10</a> shows the relationship between number of bits, and the number of unique events that can be represented by combining bits together.</p>
+<p>How many states can two bits represent? This would involve counting all of the unique ways of combining the states from two bits. All of the four possibilities are: 00, 01, 10, and 11. <strong>?@fig-7Shannon_bits</strong> shows the relationship between number of bits, and the number of unique events that can be represented by combining bits together.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fig-7Shannon_bits" class="quarto-figure quarto-figure-center anchored" width="75%">
+<div id="fig-7ShannonBits" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-7Shannon_bits-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-7ShannonBits-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Shannon_bits.jpg" class="img-fluid figure-img" style="width:75.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-7Shannon_bits-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-7ShannonBits-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;10: Illustration of how bits translate to representing indvidudal events.
 </figcaption>
 </figure>
@@ -1090,15 +1119,15 @@ Figure&nbsp;10: Illustration of how bits translate to representing indvidudal ev
 </section>
 <section id="experiment-ii-hyman-1953" class="level5" data-number="7.7.5.2">
 <h5 data-number="7.7.5.2" class="anchored" data-anchor-id="experiment-ii-hyman-1953"><span class="header-section-number">7.7.5.2</span> Experiment II (Hyman 1953)</h5>
-<p>The second experiment varied the amount information in bits and the number of alternatives separately across 8 conditions. <a href="#fig-7Hyman_e2" class="quarto-xref">Figure&nbsp;11</a> shows the design.</p>
+<p>The second experiment varied the amount information in bits and the number of alternatives separately across 8 conditions. <a href="#fig-7HymanE2" class="quarto-xref">Figure&nbsp;11</a> shows the design.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fig-7Hyman_e2" class="quarto-figure quarto-figure-center anchored" width="100%">
+<div id="fig-7HymanE2" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-7Hyman_e2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-7HymanE2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Hyman_e2.jpg" class="img-fluid figure-img" style="width:100.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-7Hyman_e2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-7HymanE2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;11: The design of the second experiment from <span class="citation" data-cites="hymanStimulusInformationDeterminant1953">Hyman (<a href="#ref-hymanStimulusInformationDeterminant1953" role="doc-biblioref">1953</a>)</span>.
 </figcaption>
 </figure>
@@ -1110,15 +1139,15 @@ Figure&nbsp;11: The design of the second experiment from <span class="citation" 
 </section>
 <section id="the-results" class="level5" data-number="7.7.5.3">
 <h5 data-number="7.7.5.3" class="anchored" data-anchor-id="the-results"><span class="header-section-number">7.7.5.3</span> The results</h5>
-<p><a href="#fig-7Hick_hyman_law" class="quarto-xref">Figure&nbsp;12</a> shows the results for two (of four) subjects. Hyman conducted a third experiment and these results are also included in the plot. Each experiment had sets with different numbers of alternatives and amounts of information measured in bits.</p>
+<p><a href="#fig-7HickHymanLaw" class="quarto-xref">Figure&nbsp;12</a> shows the results for two (of four) subjects. Hyman conducted a third experiment and these results are also included in the plot. Each experiment had sets with different numbers of alternatives and amounts of information measured in bits.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fig-7Hick_hyman_law" class="quarto-figure quarto-figure-center anchored" width="75%">
+<div id="fig-7HickHymanLaw" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-7Hick_hyman_law-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-7HickHymanLaw-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Hick_hyman_law.png" class="img-fluid figure-img" style="width:75.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-7Hick_hyman_law-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-7HickHymanLaw-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;12: The design of the second experiment from <span class="citation" data-cites="hymanStimulusInformationDeterminant1953">Hyman (<a href="#ref-hymanStimulusInformationDeterminant1953" role="doc-biblioref">1953</a>)</span>.
 </figcaption>
 </figure>
@@ -1198,7 +1227,7 @@ At the end of the chapter I introduce the *four Ms*: Metaphor, Mechanism, Method
 
 
 
-</div></section><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">7.9.1 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+</div></section><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">7.9.1 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-alexanderDondersDeadCortical2015" class="csl-entry" role="listitem">
 Alexander, D. M., Trengove, C., &amp; van Leeuwen, C. (2015). Donders is dead: Cortical traveling waves and the limits of mental chronometry in cognitive neuroscience. <em>Cognitive Processing</em>, <em>16</em>(4), 365–375. <a href="https://doi.org/f7zgts">https://doi.org/f7zgts</a>
 </div>
@@ -1298,7 +1327,7 @@ Welford, A. T. (1959). Evidence of a single-channel decision mechanism limiting 
 <div id="ref-wienerCyberneticsControlCommunication1948" class="csl-entry" role="listitem">
 Wiener, N. (1948). <em>Cybernetics or <span>Control</span> and <span>Communication</span> in the <span>Animal</span> and the <span>Machine</span></em>. <span>MIT press</span>.
 </div>
-</div></section><aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
 <li id="fn1"><p>hmmm…<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
@@ -1306,13 +1335,12 @@ Wiener, N. (1948). <em>Cybernetics or <span>Control</span> and <span>Communicati
 <li id="fn3"><p>as in Borges <a href="https://en.wikipedia.org/wiki/The_Library_of_Babel">Library of Babel</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn4"><p>the choice-RT task is also called an N-AFC task, where N specifies the number of alternatives (A) in the forced choice (FC) task.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</aside><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@incollection{crump2021,
+</section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@incollection{crump2021,
   author = {Crump, Matthew J. C.},
   editor = {Crump, Matthew J. C.},
   title = {Information {Processing}},
   booktitle = {Instances of Cognition: Questions, Methods, Findings,
     Explanations, Applications, and Implications},
-  pages = {undefined},
   date = {2021-09-01},
   url = {https://crumplab.com/cognition/textbook},
   langid = {en},
@@ -1323,7 +1351,7 @@ Wiener, N. (1948). <em>Cybernetics or <span>Control</span> and <span>Communicati
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-crump2021" class="csl-entry quarto-appendix-citeas" role="listitem">
 Crump, M. J. C. (2021). Information Processing. In M. J. C. Crump (Ed.),
 <em>Instances of Cognition: Questions, Methods, Findings, Explanations,
-Applications, and Implications</em> (p. undefined). <a href="https://crumplab.com/cognition/textbook">https://crumplab.com/cognition/textbook</a>
+Applications, and Implications</em>. <a href="https://crumplab.com/cognition/textbook">https://crumplab.com/cognition/textbook</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -1453,38 +1481,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -1493,8 +1511,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
-      return note.innerHTML;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {
@@ -1723,7 +1748,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/CrumpLab/cognition/edit/main/textbook/C7_Information_Processing.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CrumpLab/cognition/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

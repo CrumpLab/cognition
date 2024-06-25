@@ -2,10 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.386">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Matthew J. C. Crump">
 <meta name="dcterms.date" content="2021-09-01">
 
 <title>cognition - 8 Memory I</title>
@@ -66,7 +67,7 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -81,6 +82,7 @@ div.csl-indent {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -101,6 +103,33 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="custom.css">
 <meta property="og:title" content="cognition - 8 Memory I">
@@ -118,7 +147,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
@@ -245,11 +274,11 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../textbook/C8_Memory_I.html">8 Memory I</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
@@ -257,7 +286,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="../index.html" class="sidebar-logo-link">
       <img src="../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
@@ -340,7 +369,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -378,7 +407,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
   
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/CrumpLab/cognition/edit/main/textbook/C8_Memory_I.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CrumpLab/cognition/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/CrumpLab/cognition/edit/main/textbook/C8_Memory_I.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CrumpLab/cognition/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="C8_Memory_I.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
@@ -409,7 +438,7 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">July 26, 2023</p>
+      <p class="date-modified">June 25, 2024</p>
     </div>
   </div>
     
@@ -448,15 +477,12 @@ gtag('config', 'G-0PT8LKEC0K', { 'anonymize_ip': true});
 <p>In 2015, a pair of researchers from Amsterdam attempted to replicate Ebbinghaus’ procedure and results <span class="citation" data-cites="murreReplicationAnalysisEbbinghaus2015">(<a href="#ref-murreReplicationAnalysisEbbinghaus2015" role="doc-biblioref">Murre &amp; Dros, 2015</a>)</span>. They followed the original procedure closely and found similar results, so let’s use their results to take a closer look at Ebbinghaus’s forgetting work.</p>
 <p>First, the task is very laborious. It involves a single person learning many long lists of nonsense syllables. If you have ever suffered to memorize something like a long poem, or piece of music, the Ebbinghaus procedure could be your worst nightmare.</p>
 <p><a href="#tbl-c8-CVC" class="quarto-xref">Table&nbsp;1</a> shows a single list of nonsense syllables similar to the ones used by Ebbinghaus, and in the replication study. Each nonsense syllable was created by randomly choosing triplets of consonants, vowels, and consonants <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Ebbinghaus, and one of the authors from the replication, learned to recite whole lists, just like this, one row at a time, perfectly from memory.</p>
-<div class="cell tbl-cap-location-bottom">
-<div id="tbl-c8-CVC" class="cell tbl-cap-location-bottom anchored">
+<div class="cell" data-tbl-cap-location="bottom">
+<div id="tbl-c8-CVC" class="cell quarto-float anchored" data-tbl-cap-location="bottom">
 <figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="table quarto-float-caption quarto-float-tbl" id="tbl-c8-CVC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;1: Example nonsense syllables. Each row contains 13 syllables. The task is to practice reciting each row until the whole list can be recited perfectly by memory.
-</figcaption>
 <div aria-describedby="tbl-c8-CVC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<table class="table table-sm table-striped small" data-quarto-postprocess="true">
+<table class="table do-not-create-environment cell table-sm table-striped small" data-quarto-postprocess="true">
 <thead>
 <tr class="header">
 <th style="text-align: right;" data-quarto-table-cell-role="th"></th>
@@ -478,131 +504,131 @@ Table&nbsp;1: Example nonsense syllables. Each row contains 13 syllables. The ta
 <tbody>
 <tr class="odd">
 <td style="text-align: right;">1</td>
-<td style="text-align: left;">FIV</td>
-<td style="text-align: left;">LUR</td>
-<td style="text-align: left;">GUP</td>
-<td style="text-align: left;">GUB</td>
-<td style="text-align: left;">DIR</td>
-<td style="text-align: left;">VOG</td>
-<td style="text-align: left;">DIR</td>
+<td style="text-align: left;">NAK</td>
+<td style="text-align: left;">DEP</td>
+<td style="text-align: left;">KUQ</td>
+<td style="text-align: left;">ZAF</td>
+<td style="text-align: left;">SEK</td>
+<td style="text-align: left;">JIJ</td>
+<td style="text-align: left;">NUG</td>
+<td style="text-align: left;">KEB</td>
 <td style="text-align: left;">XUG</td>
-<td style="text-align: left;">VED</td>
-<td style="text-align: left;">KIB</td>
-<td style="text-align: left;">XIR</td>
-<td style="text-align: left;">QOQ</td>
-<td style="text-align: left;">ZUQ</td>
+<td style="text-align: left;">ROJ</td>
+<td style="text-align: left;">RUL</td>
+<td style="text-align: left;">VUH</td>
+<td style="text-align: left;">DUX</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">2</td>
-<td style="text-align: left;">XAY</td>
-<td style="text-align: left;">CIT</td>
-<td style="text-align: left;">QOK</td>
-<td style="text-align: left;">GEG</td>
-<td style="text-align: left;">JEF</td>
-<td style="text-align: left;">LUL</td>
-<td style="text-align: left;">MOH</td>
-<td style="text-align: left;">LEM</td>
-<td style="text-align: left;">QIQ</td>
-<td style="text-align: left;">QAP</td>
-<td style="text-align: left;">DAC</td>
-<td style="text-align: left;">VEF</td>
-<td style="text-align: left;">TAQ</td>
+<td style="text-align: left;">KUL</td>
+<td style="text-align: left;">NEK</td>
+<td style="text-align: left;">POG</td>
+<td style="text-align: left;">XOQ</td>
+<td style="text-align: left;">XOC</td>
+<td style="text-align: left;">HEV</td>
+<td style="text-align: left;">TAZ</td>
+<td style="text-align: left;">HIF</td>
+<td style="text-align: left;">FUK</td>
+<td style="text-align: left;">QID</td>
+<td style="text-align: left;">ZAL</td>
+<td style="text-align: left;">XAD</td>
+<td style="text-align: left;">LUP</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">3</td>
-<td style="text-align: left;">QOF</td>
-<td style="text-align: left;">NEV</td>
-<td style="text-align: left;">LOS</td>
-<td style="text-align: left;">DUC</td>
-<td style="text-align: left;">KER</td>
-<td style="text-align: left;">YOQ</td>
-<td style="text-align: left;">LIX</td>
-<td style="text-align: left;">CIB</td>
-<td style="text-align: left;">BUJ</td>
-<td style="text-align: left;">JUY</td>
-<td style="text-align: left;">JUW</td>
-<td style="text-align: left;">KAP</td>
-<td style="text-align: left;">BIH</td>
+<td style="text-align: left;">RIX</td>
+<td style="text-align: left;">WUN</td>
+<td style="text-align: left;">LOC</td>
+<td style="text-align: left;">YEF</td>
+<td style="text-align: left;">CAG</td>
+<td style="text-align: left;">KUS</td>
+<td style="text-align: left;">QUK</td>
+<td style="text-align: left;">HIZ</td>
+<td style="text-align: left;">TOJ</td>
+<td style="text-align: left;">MUJ</td>
+<td style="text-align: left;">VEL</td>
+<td style="text-align: left;">XAJ</td>
+<td style="text-align: left;">GIM</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">4</td>
-<td style="text-align: left;">KIJ</td>
-<td style="text-align: left;">YAD</td>
-<td style="text-align: left;">DUQ</td>
-<td style="text-align: left;">WIW</td>
-<td style="text-align: left;">YUS</td>
-<td style="text-align: left;">XOD</td>
-<td style="text-align: left;">COC</td>
-<td style="text-align: left;">QEC</td>
-<td style="text-align: left;">VIP</td>
-<td style="text-align: left;">XAW</td>
-<td style="text-align: left;">ZET</td>
-<td style="text-align: left;">WIJ</td>
-<td style="text-align: left;">SUJ</td>
+<td style="text-align: left;">QOJ</td>
+<td style="text-align: left;">LUJ</td>
+<td style="text-align: left;">KER</td>
+<td style="text-align: left;">BIW</td>
+<td style="text-align: left;">TAZ</td>
+<td style="text-align: left;">KIQ</td>
+<td style="text-align: left;">NUY</td>
+<td style="text-align: left;">YEQ</td>
+<td style="text-align: left;">GIL</td>
+<td style="text-align: left;">FEQ</td>
+<td style="text-align: left;">KIH</td>
+<td style="text-align: left;">TAL</td>
+<td style="text-align: left;">XIB</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">5</td>
-<td style="text-align: left;">JEL</td>
-<td style="text-align: left;">FOS</td>
-<td style="text-align: left;">BAK</td>
-<td style="text-align: left;">HIL</td>
-<td style="text-align: left;">WUJ</td>
-<td style="text-align: left;">DUW</td>
-<td style="text-align: left;">VEQ</td>
-<td style="text-align: left;">JIQ</td>
-<td style="text-align: left;">VOV</td>
-<td style="text-align: left;">GIF</td>
-<td style="text-align: left;">KAW</td>
-<td style="text-align: left;">JIM</td>
-<td style="text-align: left;">JIY</td>
+<td style="text-align: left;">XEQ</td>
+<td style="text-align: left;">HOS</td>
+<td style="text-align: left;">NEX</td>
+<td style="text-align: left;">SUD</td>
+<td style="text-align: left;">XOP</td>
+<td style="text-align: left;">YIR</td>
+<td style="text-align: left;">TIF</td>
+<td style="text-align: left;">MIT</td>
+<td style="text-align: left;">NUD</td>
+<td style="text-align: left;">QEH</td>
+<td style="text-align: left;">KUQ</td>
+<td style="text-align: left;">TID</td>
+<td style="text-align: left;">QUP</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">6</td>
-<td style="text-align: left;">NEL</td>
-<td style="text-align: left;">BUL</td>
-<td style="text-align: left;">CIV</td>
-<td style="text-align: left;">NOL</td>
-<td style="text-align: left;">GEF</td>
-<td style="text-align: left;">LOH</td>
-<td style="text-align: left;">POV</td>
-<td style="text-align: left;">WUK</td>
-<td style="text-align: left;">QIN</td>
-<td style="text-align: left;">MAJ</td>
-<td style="text-align: left;">RUW</td>
-<td style="text-align: left;">GOF</td>
-<td style="text-align: left;">QUW</td>
+<td style="text-align: left;">KUK</td>
+<td style="text-align: left;">QIB</td>
+<td style="text-align: left;">DOV</td>
+<td style="text-align: left;">ZAL</td>
+<td style="text-align: left;">YAN</td>
+<td style="text-align: left;">MIW</td>
+<td style="text-align: left;">MAL</td>
+<td style="text-align: left;">CIZ</td>
+<td style="text-align: left;">NOC</td>
+<td style="text-align: left;">KEV</td>
+<td style="text-align: left;">JAF</td>
+<td style="text-align: left;">QIL</td>
+<td style="text-align: left;">NUY</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">7</td>
-<td style="text-align: left;">TUL</td>
-<td style="text-align: left;">KEC</td>
-<td style="text-align: left;">POZ</td>
-<td style="text-align: left;">KAV</td>
-<td style="text-align: left;">LIK</td>
-<td style="text-align: left;">ROH</td>
-<td style="text-align: left;">KOD</td>
-<td style="text-align: left;">ZOL</td>
-<td style="text-align: left;">ZEM</td>
-<td style="text-align: left;">YIY</td>
-<td style="text-align: left;">ZUW</td>
-<td style="text-align: left;">KAL</td>
-<td style="text-align: left;">XOX</td>
+<td style="text-align: left;">HUZ</td>
+<td style="text-align: left;">WIX</td>
+<td style="text-align: left;">FAL</td>
+<td style="text-align: left;">WIX</td>
+<td style="text-align: left;">ZEJ</td>
+<td style="text-align: left;">KET</td>
+<td style="text-align: left;">DED</td>
+<td style="text-align: left;">ZOS</td>
+<td style="text-align: left;">WEL</td>
+<td style="text-align: left;">YAX</td>
+<td style="text-align: left;">KOG</td>
+<td style="text-align: left;">JES</td>
+<td style="text-align: left;">BIK</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">8</td>
-<td style="text-align: left;">BOZ</td>
-<td style="text-align: left;">TEY</td>
-<td style="text-align: left;">QAX</td>
-<td style="text-align: left;">GAF</td>
-<td style="text-align: left;">YAJ</td>
-<td style="text-align: left;">LEC</td>
-<td style="text-align: left;">LOY</td>
-<td style="text-align: left;">JIS</td>
-<td style="text-align: left;">ZOM</td>
-<td style="text-align: left;">HIW</td>
-<td style="text-align: left;">VIQ</td>
-<td style="text-align: left;">FOJ</td>
-<td style="text-align: left;">ZAY</td>
+<td style="text-align: left;">TOJ</td>
+<td style="text-align: left;">JUM</td>
+<td style="text-align: left;">YEX</td>
+<td style="text-align: left;">RUH</td>
+<td style="text-align: left;">ZUG</td>
+<td style="text-align: left;">HAK</td>
+<td style="text-align: left;">JIV</td>
+<td style="text-align: left;">POV</td>
+<td style="text-align: left;">JAS</td>
+<td style="text-align: left;">QUD</td>
+<td style="text-align: left;">BIQ</td>
+<td style="text-align: left;">YUJ</td>
+<td style="text-align: left;">XUS</td>
 </tr>
 </tbody>
 </table>
@@ -610,6 +636,9 @@ Table&nbsp;1: Example nonsense syllables. Each row contains 13 syllables. The ta
 
 </div>
 </div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-tbl" id="tbl-c8-CVC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Example nonsense syllables. Each row contains 13 syllables. The task is to practice reciting each row until the whole list can be recited perfectly by memory.
+</figcaption>
 </figure>
 </div>
 </div>
@@ -620,34 +649,34 @@ Table&nbsp;1: Example nonsense syllables. Each row contains 13 syllables. The ta
 <h5 data-number="8.2.1.3" class="anchored" data-anchor-id="original-learning"><span class="header-section-number">8.2.1.3</span> Original Learning</h5>
 <p>Ebbinghaus assumed that a process of learning new associations was necessary for him to accomplish the feat of reciting a single row of nonsense syllables by memory. Prior to establishing new associations he was unable to recite all of the syllables from memory. However, practicing was assumed to establish associative connections between syllables. After enough practice attempts it became possible to recite a row of 13 nonsense syllables, at least one time from memory. Some kind of new learning must have happened to enable the recitation.</p>
 <div class="cell page-columns page-full">
-<div class="cell-output-display page-columns page-full">
 
-<div class="no-row-height column-margin column-container"><div id="fig-8Ebbinghaus_OL" class="quarto-figure quarto-figure-center anchored" width="100%">
+<div class="no-row-height column-margin column-container"><div class="cell-output-display">
+<div id="fig-8EbbinghausOL" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-8Ebbinghaus_OL-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-8EbbinghausOL-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Ebbinghaus_OL.png" class="img-fluid figure-img" style="width:100.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-8Ebbinghaus_OL-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-8EbbinghausOL-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: Reproduced results from phase one of <span class="citation" data-cites="murreReplicationAnalysisEbbinghaus2015">Murre &amp; Dros (<a href="#ref-murreReplicationAnalysisEbbinghaus2015" role="doc-biblioref">2015</a>)</span>.
 </figcaption>
 </figure>
-</div></div></div>
 </div>
-<p>The first phase of the experiment measured the number of practice attempts needed to learn a row of 13 nonsense syllables. Reproduced results from phase one of <span class="citation" data-cites="murreReplicationAnalysisEbbinghaus2015">Murre &amp; Dros (<a href="#ref-murreReplicationAnalysisEbbinghaus2015" role="doc-biblioref">2015</a>)</span> are shown in <a href="#fig-8Ebbinghaus_OL" class="quarto-xref">Figure&nbsp;1</a>. The blue line indicates that an average of 30-32 practice attempts were needed to memorize each row of nonsense syllables. <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+</div></div></div>
+<p>The first phase of the experiment measured the number of practice attempts needed to learn a row of 13 nonsense syllables. Reproduced results from phase one of <span class="citation" data-cites="murreReplicationAnalysisEbbinghaus2015">Murre &amp; Dros (<a href="#ref-murreReplicationAnalysisEbbinghaus2015" role="doc-biblioref">2015</a>)</span> are shown in <a href="#fig-8EbbinghausOL" class="quarto-xref">Figure&nbsp;1</a>. The blue line indicates that an average of 30-32 practice attempts were needed to memorize each row of nonsense syllables. <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
 </section>
 <section id="savings-in-relearning" class="level5" data-number="8.2.1.4">
 <h5 data-number="8.2.1.4" class="anchored" data-anchor-id="savings-in-relearning"><span class="header-section-number">8.2.1.4</span> Savings in Relearning</h5>
 <p>Ebbinghaus was more interested in results from the second phase that would provide a measure of forgetting. For example, what would happen to his ability to recite a row of nonsense syllables if he waited 20 minutes, 1 hour, 9 hours, or up to 1, 2, 6, and 31 days before trying to recite the list over again? He measured savings in re-learning to find out.</p>
-<p>If memory for a learned row was not perfect after a delay, then it would have to be relearned. The question was how many relearning attempts would be needed to reach the same criterion as before (one-time perfect). If it took 30 practice attempts in the original learning phase, would there be any savings in relearning? That is, would the number of relearning attempts be less than 30? The data from the original and re-learning phases are shown in <a href="#fig-8Ebbinghaus_Allresults" class="quarto-xref">Figure&nbsp;2</a>.</p>
+<p>If memory for a learned row was not perfect after a delay, then it would have to be relearned. The question was how many relearning attempts would be needed to reach the same criterion as before (one-time perfect). If it took 30 practice attempts in the original learning phase, would there be any savings in relearning? That is, would the number of relearning attempts be less than 30? The data from the original and re-learning phases are shown in <a href="#fig-8EbbinghausAllresults" class="quarto-xref">Figure&nbsp;2</a>.</p>
 <p>The blue line shows the number of attempts needed during original learning. The black line shows the number of attempts needed during re-learning. The y-axis shows the number of attempts, and the x-axis shows the temporal delay between original learning and re-learning.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fig-8Ebbinghaus_Allresults" class="quarto-figure quarto-figure-center anchored" width="100%">
+<div id="fig-8EbbinghausAllresults" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-8Ebbinghaus_Allresults-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="C8_Memory_I_files/figure-html/fig-8Ebbinghaus_Allresults-1.png" class="img-fluid figure-img" style="width:100.0%">
+<div aria-describedby="fig-8EbbinghausAllresults-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="C8_Memory_I_files/figure-html/fig-8EbbinghausAllresults-1.png" class="img-fluid figure-img" style="width:100.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-8Ebbinghaus_Allresults-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-8EbbinghausAllresults-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2: Reproduced results from <span class="citation" data-cites="murreReplicationAnalysisEbbinghaus2015">Murre &amp; Dros (<a href="#ref-murreReplicationAnalysisEbbinghaus2015" role="doc-biblioref">2015</a>)</span>.
 </figcaption>
 </figure>
@@ -662,20 +691,20 @@ Figure&nbsp;2: Reproduced results from <span class="citation" data-cites="murreR
 <section id="exponential-forgetting" class="level5 page-columns page-full" data-number="8.2.1.5">
 <h5 data-number="8.2.1.5" class="anchored" data-anchor-id="exponential-forgetting"><span class="header-section-number">8.2.1.5</span> Exponential Forgetting</h5>
 <div class="cell page-columns page-full">
-<div class="cell-output-display page-columns page-full">
 
-<div class="no-row-height column-margin column-container"><div id="fig-8Ebbinghaus_exp" class="quarto-figure quarto-figure-center anchored" width="100%">
+<div class="no-row-height column-margin column-container"><div class="cell-output-display">
+<div id="fig-8EbbinghausExp" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-8Ebbinghaus_exp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-8EbbinghausExp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Ebbinghaus_exp.jpg" class="img-fluid figure-img" style="width:100.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-8Ebbinghaus_exp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-8EbbinghausExp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3: Depiction of an exponential forgetting curve.
 </figcaption>
 </figure>
-</div></div></div>
 </div>
-<p>In other words, Ebbinghaus found an exponential forgetting curve. Exponential forgetting is like going to Las Vegas and spending most of your money on the first day, and then losing the rest of it slowly over a week. <a href="#fig-8Ebbinghaus_exp" class="quarto-xref">Figure&nbsp;3</a> depicts an exponential forgetting curve. The rate of forgetting is not constant across time. Instead, the rate of forgetting is very high after initial learning but then slows down across time.</p>
+</div></div></div>
+<p>In other words, Ebbinghaus found an exponential forgetting curve. Exponential forgetting is like going to Las Vegas and spending most of your money on the first day, and then losing the rest of it slowly over a week. <a href="#fig-8EbbinghausExp" class="quarto-xref">Figure&nbsp;3</a> depicts an exponential forgetting curve. The rate of forgetting is not constant across time. Instead, the rate of forgetting is very high after initial learning but then slows down across time.</p>
 </section>
 <section id="spacing-effects" class="level5" data-number="8.2.1.6">
 <h5 data-number="8.2.1.6" class="anchored" data-anchor-id="spacing-effects"><span class="header-section-number">8.2.1.6</span> Spacing effects</h5>
@@ -726,15 +755,15 @@ Figure&nbsp;3: Depiction of an exponential forgetting curve.
 </section>
 <section id="lportraite-dhomme" class="level5" data-number="8.2.2.8">
 <h5 data-number="8.2.2.8" class="anchored" data-anchor-id="lportraite-dhomme"><span class="header-section-number">8.2.2.8</span> L’Portraite D’homme</h5>
-<p>Another example of serial reproduction involved drawing faces. He gave people a picture of a mask. Then he took the picture away, and asked his participants to draw the it from memory. Over days and months, he had the same people attempt to draw the picture from memory many more times. The astonishing finding shown in <a href="#fig-8Bartlett_homme" class="quarto-xref">Figure&nbsp;4</a> was that as people re-drew the picture, it became less and less mask-like, and more and more face-like.</p>
+<p>Another example of serial reproduction involved drawing faces. He gave people a picture of a mask. Then he took the picture away, and asked his participants to draw the it from memory. Over days and months, he had the same people attempt to draw the picture from memory many more times. The astonishing finding shown in <a href="#fig-8BartlettHomme" class="quarto-xref">Figure&nbsp;4</a> was that as people re-drew the picture, it became less and less mask-like, and more and more face-like.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fig-8Bartlett_homme" class="quarto-figure quarto-figure-center anchored" width="100%">
+<div id="fig-8BartlettHomme" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-8Bartlett_homme-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-8BartlettHomme-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Bartlett_homme.png" class="img-fluid figure-img" style="width:100.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-8Bartlett_homme-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-8BartlettHomme-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;4: Example of serial reproductions becoming less mask-like, and more face-like.
 </figcaption>
 </figure>
@@ -766,38 +795,38 @@ Figure&nbsp;4: Example of serial reproductions becoming less mask-like, and more
 <h4 data-number="8.2.4" class="anchored" data-anchor-id="the-von-restorff-effect"><span class="header-section-number">8.2.4</span> The von Restorff effect</h4>
 <p>A historical review of Hedwig von Restorff and her now famous demonstrations that distinctiveness influences memory <span class="citation" data-cites="vonrestorffUberWirkungBereichsbildungen1933">(<a href="#ref-vonrestorffUberWirkungBereichsbildungen1933" role="doc-biblioref">Von Restorff, 1933</a>)</span> is also provided by Macleod <span class="citation" data-cites="macleodZeigarnikRestorffMemory2020">(<a href="#ref-macleodZeigarnikRestorffMemory2020" role="doc-biblioref">MacLeod, 2020</a>)</span>. Von Restorff applied the figure/ground concept from Gestalt theory to memory domain. A basic idea from Gestalt theory was that representations of individual experiences are holistic, involving objects (figure) and their surrounding context (ground). Von Restorff took this idea and asked how memory might depend on factors that isolate figure from ground. In perception a chameleon can be camouflaged and difficult to isolate from its surrounding. Or, a bright and conspicuous flower can stand out in a distinctive way, against dull colorless backgrounds. Would the same principles of distinctiveness apply to memory? It turns out, they do, and unlike the Zeigarnik effect, Von Restorff’s findings have been reproduced many times, and in different ways. Here is what she did.</p>
 <div class="cell page-columns page-full">
-<div class="cell-output-display page-columns page-full">
 
-<div class="no-row-height column-margin column-container"><div id="fig-8Von_restorff_Stimuli" class="quarto-figure quarto-figure-center anchored" width="100%">
+<div class="no-row-height column-margin column-container"><div class="cell-output-display">
+<div id="fig-8VonRestorffStimuli" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-8Von_restorff_Stimuli-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-8VonRestorffStimuli-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Von_restorff_Stimuli.png" class="img-fluid figure-img" style="width:100.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-8Von_restorff_Stimuli-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-8VonRestorffStimuli-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;5: Example pairs used by Von Restorff.
 </figcaption>
 </figure>
-</div></div></div>
 </div>
-<p>Participants were tested on their memory for 5 lists. Each list had 8 pairs of items. An example of a list is presented in <a href="#fig-8Von_restorff_Stimuli" class="quarto-xref">Figure&nbsp;5</a>. Each list had four pairs that were similar. These were called “massed” pairs. Think of them as providing a dull grey background. The other four pairs were all different. These were called “isolates”. They are like a colorful flower, in that they stand out from the massed pairs. The “massed” pairs in the list below were the four pairs of nonsense-syllables. The “isolates” were the remaining four pairs.</p>
+</div></div></div>
+<p>Participants were tested on their memory for 5 lists. Each list had 8 pairs of items. An example of a list is presented in <a href="#fig-8VonRestorffStimuli" class="quarto-xref">Figure&nbsp;5</a>. Each list had four pairs that were similar. These were called “massed” pairs. Think of them as providing a dull grey background. The other four pairs were all different. These were called “isolates”. They are like a colorful flower, in that they stand out from the massed pairs. The “massed” pairs in the list below were the four pairs of nonsense-syllables. The “isolates” were the remaining four pairs.</p>
 <section id="counterbalancing" class="level5" data-number="8.2.4.1">
 <h5 data-number="8.2.4.1" class="anchored" data-anchor-id="counterbalancing"><span class="header-section-number">8.2.4.1</span> Counterbalancing</h5>
 <p>Von Restorff used a technique called <em>counter-balancing</em> in her experiment. Counter-balancing can be used to reduce the concern that the outcome of the experiment was due to a stimulus confound. For example, Von Restorff would show participants her lists, have a conversation brief conversation with them, and then ask the participants to recall each pair from the list. Her question was whether the “isolated” pairs would be recalled with greater accuracy than the “massed” pairs. In the list above, this would mean better recall for “# – +, 89 – 46, red square – green square, and S – B”, compared to the other four pairs that were all nonsense-syllables. This is what Von Restorff found, but you might be concerned that there was a stimulus confound. For example, maybe nonsense syllables are hard to remember compared to these other pairs.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fig-8Von_Restorff_counterbalance" class="quarto-figure quarto-figure-center anchored" width="75%">
+<div id="fig-8VonRestorffCounterbalance" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-8Von_Restorff_counterbalance-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-8VonRestorffCounterbalance-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Von_Restorff_counterbalance.jpg" class="img-fluid figure-img" style="width:75.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-8Von_Restorff_counterbalance-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-8VonRestorffCounterbalance-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;6: An example of how Von Restorff counterbalanced lists to control for possible stimulus confounds.
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>Von Restorff guarded against the stimulus confound interpretation by <em>counter-balancing</em>. This is why there were 5 lists in total. In the first list, the massed pairs were nonsense syllables, but the “isolated” pairs were used for the massed pairs in the other four lists. For example, the second list could have four massed symbol pairs (like # – +), and the remaining four pairs would be “isolates” from the kinds of pairs. The third list could have four massed number pairs, and so on. The counterbalancing scheme is illustrated in <a href="#fig-8Von_Restorff_counterbalance" class="quarto-xref">Figure&nbsp;6</a>.</p>
+<p>Von Restorff guarded against the stimulus confound interpretation by <em>counter-balancing</em>. This is why there were 5 lists in total. In the first list, the massed pairs were nonsense syllables, but the “isolated” pairs were used for the massed pairs in the other four lists. For example, the second list could have four massed symbol pairs (like # – +), and the remaining four pairs would be “isolates” from the kinds of pairs. The third list could have four massed number pairs, and so on. The counterbalancing scheme is illustrated in <a href="#fig-8VonRestorffCounterbalance" class="quarto-xref">Figure&nbsp;6</a>.</p>
 </section>
 <section id="memory-and-distinctiveness" class="level5" data-number="8.2.4.2">
 <h5 data-number="8.2.4.2" class="anchored" data-anchor-id="memory-and-distinctiveness"><span class="header-section-number">8.2.4.2</span> Memory and Distinctiveness</h5>
@@ -862,39 +891,39 @@ Ebbinghaus measured the first forgetting curves by waiting different amounts of 
 <h5 data-number="8.4.1.2" class="anchored" data-anchor-id="pollacks-pitch-judgment-results"><span class="header-section-number">8.4.1.2</span> Pollack’s pitch judgment results</h5>
 <p>Miller cited work by Pollack<span class="citation" data-cites="pollackInformationElementaryAuditory1952a">(<a href="#ref-pollackInformationElementaryAuditory1952a" role="doc-biblioref">Pollack, 1952</a>)</span>, who had applied information theory measurements to absolute pitch judgment. Pollack ran an experiment very similar to the thought-experiment described above. He gave people a tone judgment task, and varied the number of tones in the set. He had sets of 2, 3, 4, 5, 6, 7, 8, 10 and 14 tones. Subjects were given tones from one set. On each trial they heard a tone, then they had to identify with a number, (e.g., “this is tone number 7”). This general task is also called the “method of absolute judgment” in <a href="https://en.wikipedia.org/wiki/Psychophysics">psychophysics</a>.</p>
 <div class="cell page-columns page-full">
-<div class="cell-output-display page-columns page-full">
 
-<div class="no-row-height column-margin column-container"><div id="fig-8Pollack_tone" class="quarto-figure quarto-figure-center anchored" width="100%">
+<div class="no-row-height column-margin column-container"><div class="cell-output-display">
+<div id="fig-8PollackTone" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-8Pollack_tone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-8PollackTone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Pollack_tone.png" class="img-fluid figure-img" style="width:100.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-8Pollack_tone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-8PollackTone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;7: Data from <span class="citation" data-cites="pollackInformationElementaryAuditory1952a">Pollack (<a href="#ref-pollackInformationElementaryAuditory1952a" role="doc-biblioref">1952</a>)</span>.
 </figcaption>
 </figure>
-</div></div></div>
 </div>
-<p><a href="#fig-8Pollack_tone" class="quarto-xref">Figure&nbsp;7</a> shows the data from Pollack’s task in a conventional way, plotting accuracy against set-size. The three dots in green show examples of perfect performance in the task. People are able to absolutely identify a tone with perfect accuracy when there were 2, 3, or 4 tones in the set (this is like a toy piano with 2, 3, or 4 total keys). However, the dots in red show what happens as the number of tones increases past 5. Accuracy gets worse and worse. The percentage of correct responses goes down and down. The experiment only went up to set-size 14, and the rest of line is a statistical estimate of what would happen to accuracy if the set-size was increased further.</p>
+</div></div></div>
+<p><a href="#fig-8PollackTone" class="quarto-xref">Figure&nbsp;7</a> shows the data from Pollack’s task in a conventional way, plotting accuracy against set-size. The three dots in green show examples of perfect performance in the task. People are able to absolutely identify a tone with perfect accuracy when there were 2, 3, or 4 tones in the set (this is like a toy piano with 2, 3, or 4 total keys). However, the dots in red show what happens as the number of tones increases past 5. Accuracy gets worse and worse. The percentage of correct responses goes down and down. The experiment only went up to set-size 14, and the rest of line is a statistical estimate of what would happen to accuracy if the set-size was increased further.</p>
 </section>
 <section id="translation-to-channel-capacity" class="level5 page-columns page-full" data-number="8.4.1.3">
 <h5 data-number="8.4.1.3" class="anchored" data-anchor-id="translation-to-channel-capacity"><span class="header-section-number">8.4.1.3</span> Translation to Channel capacity</h5>
 <p>Miller was reviewing work by Pollack and others who had the insight to interpret their findings from the point of view of information theory. This involved applying Shannon’s mathematical formulas to the data and re-plotting it. Instead of plotting how accuracy changed as set-size increased. It was possible to plot the very same data in terms of the amount of information in the stimulus set, and the amount of information transmitted across a channel. Remember, we can convert the number of unique elements in set into the number of bits necessary to represent all the unique elements. 2 elements require bit, four elements require 2 bits, 8 elements require 3 bits, and so on.</p>
 <div class="cell page-columns page-full">
-<div class="cell-output-display page-columns page-full">
 
-<div class="no-row-height column-margin column-container"><div id="fig-8Miller_tone" class="quarto-figure quarto-figure-center anchored" width="100%">
+<div class="no-row-height column-margin column-container"><div class="cell-output-display">
+<div id="fig-8MillerTone" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-8Miller_tone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-8MillerTone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Miller_tone.png" class="img-fluid figure-img" style="width:100.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-8Miller_tone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-8MillerTone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;8: Data from <span class="citation" data-cites="pollackInformationElementaryAuditory1952a">Pollack (<a href="#ref-pollackInformationElementaryAuditory1952a" role="doc-biblioref">1952</a>)</span> replotted in <span class="citation" data-cites="millerMagicalNumberSeven1956">Miller (<a href="#ref-millerMagicalNumberSeven1956" role="doc-biblioref">1956</a>)</span>.
 </figcaption>
 </figure>
-</div></div></div>
 </div>
-<p><a href="#fig-8Miller_tone" class="quarto-xref">Figure&nbsp;8</a> shows same data from the task above replotted using information theory. Notice, the first three dots fall exactly on the line, this is the same as perfect performance for set-sizes 2, 3, and 4. However, set-size is now called “input information” and expressed in bits (2 = 1 bit, 3 = 1.58 bits, 4 = 2 bits). The y-axis converts accuracy into a measure of bits called “transmitted information”. Although the data is exactly the same as before, the metaphor is different. Looking at the graph in terms of information theory, it looks like performance hits a plateau. As the amount of information in the input (e.g., set-size) increases, the amount of transmitted inforamtion levels off. The set-size can be increased to any number of options, but it seems that people are hitting an upper bound of around 2.5 bits in this task. This upper bound is called the channel capacity in information theory.</p>
+</div></div></div>
+<p><a href="#fig-8MillerTone" class="quarto-xref">Figure&nbsp;8</a> shows same data from the task above replotted using information theory. Notice, the first three dots fall exactly on the line, this is the same as perfect performance for set-sizes 2, 3, and 4. However, set-size is now called “input information” and expressed in bits (2 = 1 bit, 3 = 1.58 bits, 4 = 2 bits). The y-axis converts accuracy into a measure of bits called “transmitted information”. Although the data is exactly the same as before, the metaphor is different. Looking at the graph in terms of information theory, it looks like performance hits a plateau. As the amount of information in the input (e.g., set-size) increases, the amount of transmitted inforamtion levels off. The set-size can be increased to any number of options, but it seems that people are hitting an upper bound of around 2.5 bits in this task. This upper bound is called the channel capacity in information theory.</p>
 </section>
 <section id="generalization-across-perceptual-tasks" class="level5" data-number="8.4.1.4">
 <h5 data-number="8.4.1.4" class="anchored" data-anchor-id="generalization-across-perceptual-tasks"><span class="header-section-number">8.4.1.4</span> Generalization across perceptual tasks</h5>
@@ -925,20 +954,20 @@ Figure&nbsp;8: Data from <span class="citation" data-cites="pollackInformationEl
 <p>Here is the first take-home message of Miller’s information theory analysis of the different stimulus sets: <strong>some stimuli carry more information per item than other stimuli</strong>. For example, binary digits carry less information than decimal digits, because binary digits have few possible symbols than decimal digits. Decimal digits carry less information than letters. Letters carry less information words. By information theory definition, stimuli with more possible symbols carry more information than stimuli with fewer possible symbols.</p>
 <p>So, what happened in Hayes immediate memory span experiment? Remember, he measured immediate memory span for lists from the different stimulus sets I just described. Does immediate memory span depend on the amount of information in the stimuli? The answer is, not really, no, not so much.</p>
 <div class="cell page-columns page-full">
-<div class="cell-output-display page-columns page-full">
 
-<div class="no-row-height column-margin column-container"><div id="fig-8Miller_im_span" class="quarto-figure quarto-figure-center anchored" width="100%">
+<div class="no-row-height column-margin column-container"><div class="cell-output-display">
+<div id="fig-8MillerImSpan" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-8Miller_im_span-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-8MillerImSpan-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Miller_im_span.jpg" class="img-fluid figure-img" style="width:100.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-8Miller_im_span-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-8MillerImSpan-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;9: Immediate memory span for sets of symbols with different amounts of information.
 </figcaption>
 </figure>
-</div></div></div>
 </div>
-<p>The immediate memory span data is shown in <a href="#fig-8Miller_im_span" class="quarto-xref">Figure&nbsp;9</a>. The y-axis shows the average immediate memory span, and the x-axis is the amount of bits needed for each kind symbol. The take-home message that immediate memory span was about 7 items for all of the stimulus sets. It was a little bit higher for binary digits, compared to words, but nowhere near as high as it should be. If people could handle 7 words just fine, then they should have an immediate memory span closer to 40 for binary digits (which required fewer bits than words). Instead, the spans were pretty similar across stimuli.</p>
+</div></div></div>
+<p>The immediate memory span data is shown in <a href="#fig-8MillerImSpan" class="quarto-xref">Figure&nbsp;9</a>. The y-axis shows the average immediate memory span, and the x-axis is the amount of bits needed for each kind symbol. The take-home message that immediate memory span was about 7 items for all of the stimulus sets. It was a little bit higher for binary digits, compared to words, but nowhere near as high as it should be. If people could handle 7 words just fine, then they should have an immediate memory span closer to 40 for binary digits (which required fewer bits than words). Instead, the spans were pretty similar across stimuli.</p>
 <p>Miller suggested that immediate memory escapes capacity limitations imposed by information at the level of stimulus sets through a recoding process. He called this process chunking.</p>
 <p>At the level of stimulus information, seven bits would be required to code seven binary digits. However, as discussed earlier 69.7 bits would be required to code seven words (from a set of 1000 words). It seemed that people were totally capable of remembering 7 words, even though the amount of stimulus information required was way higher. How could this be? Miller proposed that immediate memory was recoding the stimulus into chunks, or individual units. This allowed immediate memory to treat any kind of stimulus as a single chunk. As a result, the capacity of immediate memory was not limited by the amount of information in each stimulus (e.g., binary symbol vs word symbol), it was limited by the number of chunks.</p>
 </section>
@@ -975,34 +1004,34 @@ Several memory models distinguish between short and long-term memory systems. Th
 <p>Atkinson and Shiffrin’s multi-store model (also called the modal model) from 1968 <span class="citation" data-cites="atkinsonHumanMemoryProposed1968">(<a href="#ref-atkinsonHumanMemoryProposed1968" role="doc-biblioref">Atkinson &amp; Shiffrin, 1968</a>)</span> is an excellent example of an early cognitive process explanation. I will describe the model in general terms; however, the original model was also more formally presented in mathematical terms as well. This allowed the theory to generate quantitative predictions that closely matched data patterns in a variety of memory tasks. The next two figures depict how the model envisions encoding, storage and retrieval in memory.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fig-8Multi_store_1" class="quarto-figure quarto-figure-center anchored" width="50%">
+<div id="fig-8MultiStore1" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-8Multi_store_1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-8MultiStore1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Multi_store_1.jpg" class="img-fluid figure-img" style="width:50.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-8Multi_store_1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-8MultiStore1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;10: Storage locations in <span class="citation" data-cites="atkinsonHumanMemoryProposed1968">Atkinson &amp; Shiffrin (<a href="#ref-atkinsonHumanMemoryProposed1968" role="doc-biblioref">1968</a>)</span>’s multi-store model.
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p><a href="#fig-8Multi_store_1" class="quarto-xref">Figure&nbsp;10</a> shows an information flow diagram between storage locations in the multi-store model. First, environmental stimuli (external inputs to the model) are converted into representations and briefly stored in sensory registrars. The sensory register is assumed to hold onto perceptual information for a very limited time. The information in the sensory register will be lost, unless it gets transferred to the short-term or long-term store. Notice, that information from the sensory register could go either to the short-term store or directly to the long-term store. As implied by the name, the short-term store is limited in capacity and can only store a small number of items. The long-term store has a much larger capacity, and can store many items over a very long time. Finally, the model describes control operations for passing information between the short and long-term stores. These operations are described next.</p>
+<p><a href="#fig-8MultiStore1" class="quarto-xref">Figure&nbsp;10</a> shows an information flow diagram between storage locations in the multi-store model. First, environmental stimuli (external inputs to the model) are converted into representations and briefly stored in sensory registrars. The sensory register is assumed to hold onto perceptual information for a very limited time. The information in the sensory register will be lost, unless it gets transferred to the short-term or long-term store. Notice, that information from the sensory register could go either to the short-term store or directly to the long-term store. As implied by the name, the short-term store is limited in capacity and can only store a small number of items. The long-term store has a much larger capacity, and can store many items over a very long time. Finally, the model describes control operations for passing information between the short and long-term stores. These operations are described next.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fig-8Multi_store_2" class="quarto-figure quarto-figure-center anchored" width="50%">
+<div id="fig-8MultiStore2" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-8Multi_store_2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-8MultiStore2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Multi_store_2.jpg" class="img-fluid figure-img" style="width:50.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-8Multi_store_2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-8MultiStore2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;11: Illustration of properties of the short-term store, such as a limited number of slots to rehearse items.
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p><a href="#fig-8Multi_store_2" class="quarto-xref">Figure&nbsp;11</a> shows the short-term store in more detail. In general, the short-term store is a temporary buffer where memory representations are kept “alive”, and subsequently transferred to the long-term store for more permanent storage. The model likens the short-term store to a rehearsal buffer. For example, have you ever tried to remember something, like a phone number, by saying it over and over to yourself? This is called a rehearsal strategy. The model suggests that the short-term store is where rehearsal takes place, and further suggests that the buffer has a limited number of slots, which means that only a few items may be in the rehearsal loop at any given time. The model also suggests that items in the short-term store are gradually transferred to the long-terms store. So, items that stay longer in the rehearsal are more likely to be fully preserved in long-term memory, because they had more time to be transferred to the long-term store. The long-term store was still vulnerable to information loss, and memory traces could decay over time, or interfere with one another during memory retrieval.</p>
+<p><a href="#fig-8MultiStore2" class="quarto-xref">Figure&nbsp;11</a> shows the short-term store in more detail. In general, the short-term store is a temporary buffer where memory representations are kept “alive”, and subsequently transferred to the long-term store for more permanent storage. The model likens the short-term store to a rehearsal buffer. For example, have you ever tried to remember something, like a phone number, by saying it over and over to yourself? This is called a rehearsal strategy. The model suggests that the short-term store is where rehearsal takes place, and further suggests that the buffer has a limited number of slots, which means that only a few items may be in the rehearsal loop at any given time. The model also suggests that items in the short-term store are gradually transferred to the long-terms store. So, items that stay longer in the rehearsal are more likely to be fully preserved in long-term memory, because they had more time to be transferred to the long-term store. The long-term store was still vulnerable to information loss, and memory traces could decay over time, or interfere with one another during memory retrieval.</p>
 <p>Although less clear from the figures, the model also described potential rules for retrieving information from long-term memory. For example, retrieving a representation from memory could involve a search process where a person “looks” through things in their memory until they find what they are looking for. Additionally, the search process relies on cues to aid the search. For example, if you were searching your memory for names of American presidents, at some point you might run out names, even if you felt you could name few more. In this case, you might use a cuing strategy. For example, the letters of the alphabet could help focus your memory search. Thinking about the letter “A”, could help you remember “Abraham Lincoln”; or, the letter “B” might help you remember “Lyndon B. Johnson”. Finally, the short-term system was involved in remembering information from the long-term system. For example, the short-term system could be rehearsing the cue “B”, while the search of long-term memory is conducted.</p>
 </section>
 <section id="serial-position-recency-and-long-term-recency" class="level4" data-number="8.6.2">
@@ -1011,19 +1040,19 @@ Figure&nbsp;11: Illustration of properties of the short-term store, such as a li
 <p>I mentioned earlier that Ebbinghaus had shown examples of the serial position effect. Since Ebbinghaus, many researchers noticed serial-position effects in experiments where participants tried to learn a list of items.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fig-8Serial_position_1" class="quarto-figure quarto-figure-center anchored" width="50%">
+<div id="fig-8SerialPosition1" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-8Serial_position_1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-8SerialPosition1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Serial_position_1.jpg" class="img-fluid figure-img" style="width:50.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-8Serial_position_1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-8SerialPosition1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;12: A graph showing the serial position effect, where memory is better for items presented at the beginning and end of a list compared to items in the middle.
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p><a href="#fig-8Serial_position_1" class="quarto-xref">Figure&nbsp;12</a> shows the serial position effect from Deese &amp; Kaufman <span class="citation" data-cites="deeseSerialEffectsRecall1957a">(<a href="#ref-deeseSerialEffectsRecall1957a" role="doc-biblioref"><strong>deeseSerialEffectsRecall1957a?</strong></a>)</span>, obtained from a free recall memory task <span class="citation" data-cites="murdockjrSerialPositionEffect1962">(see also, <a href="#ref-murdockjrSerialPositionEffect1962" role="doc-biblioref">Murdock Jr, 1962</a>)</span>. In this task, subjects heard a list of unrelated words (either 10 words or 32 words), and then they had to recall as many words as they could. In a free recall task, a subject can write any word they want in any order. After the subjects wrote down the words they recalled, the researchers analyzed which words were most likely to be recalled as a function of original position in the list. The graph shows primacy and recency effects. Subjects were more likely to recall words from the beginning (primacy) and ending (recency) of the list, compared to the words from the middle.</p>
+<p><a href="#fig-8SerialPosition1" class="quarto-xref">Figure&nbsp;12</a> shows the serial position effect from Deese &amp; Kaufman <span class="citation" data-cites="deeseSerialEffectsRecall1957a">(<a href="#ref-deeseSerialEffectsRecall1957a" role="doc-biblioref"><strong>deeseSerialEffectsRecall1957a?</strong></a>)</span>, obtained from a free recall memory task <span class="citation" data-cites="murdockjrSerialPositionEffect1962">(see also, <a href="#ref-murdockjrSerialPositionEffect1962" role="doc-biblioref">Murdock Jr, 1962</a>)</span>. In this task, subjects heard a list of unrelated words (either 10 words or 32 words), and then they had to recall as many words as they could. In a free recall task, a subject can write any word they want in any order. After the subjects wrote down the words they recalled, the researchers analyzed which words were most likely to be recalled as a function of original position in the list. The graph shows primacy and recency effects. Subjects were more likely to recall words from the beginning (primacy) and ending (recency) of the list, compared to the words from the middle.</p>
 <section id="explaining-the-serial-position-effect" class="level5" data-number="8.6.2.1">
 <h5 data-number="8.6.2.1" class="anchored" data-anchor-id="explaining-the-serial-position-effect"><span class="header-section-number">8.6.2.1</span> Explaining the serial position effect</h5>
 <p>The multi-store model provided explanations of both primacy and recency effects. The short-term rehearsal buffer had a prominent role in explaining both effects. To appreciate this influence, consider how a person might use a rehearsal strategy to memorize as many words as possible in a free recall task.</p>
@@ -1041,19 +1070,19 @@ Figure&nbsp;12: A graph showing the serial position effect, where memory is bett
 <p>The above describes how a rehearsal strategy could lead someone to preferentially recall words at the end of a list. What would happen to the recent effect if people were prevented from rehearsing words at the end of the experiment? According to the multi-store model, the recency effect should be eliminated.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fig-8Serial_position_2" class="quarto-figure quarto-figure-center anchored" width="75%">
+<div id="fig-8SerialPosition2" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-8Serial_position_2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-8SerialPosition2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Serial_position_2.png" class="img-fluid figure-img" style="width:75.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-8Serial_position_2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-8SerialPosition2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;13: Results from <span class="citation" data-cites="postmanShorttermTemporalChanges1965">Postman &amp; Phillips (<a href="#ref-postmanShorttermTemporalChanges1965" role="doc-biblioref">1965</a>)</span> showing the recency effect is eliminated when participants perform arithmetic problems immediately after encoding a list.
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>Postman &amp; Philips already had data consistent with multi-store model explanation <span class="citation" data-cites="postmanShorttermTemporalChanges1965">(<a href="#ref-postmanShorttermTemporalChanges1965" role="doc-biblioref">Postman &amp; Phillips, 1965</a>)</span>. They manipulated whether or not subjects completed arithmetic problems before recalling words from a list. <a href="#fig-8Serial_position_2" class="quarto-xref">Figure&nbsp;13</a> shows the results from their experiment. In the 0 second condition, subjects heard a list of words and tried to recall all of the words right away. That group shows clear primacy and recency effects, for all three list lengths. In the 30 second condition, subjects heard a list of words and then had to perform arithmetic for 30 seconds before recalling the items. The recency effect portion of the curve disappeared for all of the lists. The multi-store model explains that the arithmetic task disrupted the rehearsal process. Subjects were solving arithmetic problems rather than rehearsing the last few words from the list. According to the model, the short-term rehearsal buffer would no longer have any words in it. Therefore, only long-term memory could be used to recall words; and, recall from long-term memory would produce a primacy effect, but not a recency effect.</p>
+<p>Postman &amp; Philips already had data consistent with multi-store model explanation <span class="citation" data-cites="postmanShorttermTemporalChanges1965">(<a href="#ref-postmanShorttermTemporalChanges1965" role="doc-biblioref">Postman &amp; Phillips, 1965</a>)</span>. They manipulated whether or not subjects completed arithmetic problems before recalling words from a list. <a href="#fig-8SerialPosition2" class="quarto-xref">Figure&nbsp;13</a> shows the results from their experiment. In the 0 second condition, subjects heard a list of words and tried to recall all of the words right away. That group shows clear primacy and recency effects, for all three list lengths. In the 30 second condition, subjects heard a list of words and then had to perform arithmetic for 30 seconds before recalling the items. The recency effect portion of the curve disappeared for all of the lists. The multi-store model explains that the arithmetic task disrupted the rehearsal process. Subjects were solving arithmetic problems rather than rehearsing the last few words from the list. According to the model, the short-term rehearsal buffer would no longer have any words in it. Therefore, only long-term memory could be used to recall words; and, recall from long-term memory would produce a primacy effect, but not a recency effect.</p>
 </section>
 <section id="long-term-recency" class="level5" data-number="8.6.2.3">
 <h5 data-number="8.6.2.3" class="anchored" data-anchor-id="long-term-recency"><span class="header-section-number">8.6.2.3</span> Long-term recency</h5>
@@ -1062,19 +1091,19 @@ Figure&nbsp;13: Results from <span class="citation" data-cites="postmanShortterm
 <p>In 1973, Tzeng reported a standard free-recall experiment with a twist <span class="citation" data-cites="tzengPositiveRecencyEffect1973">(<a href="#ref-tzengPositiveRecencyEffect1973" role="doc-biblioref">Tzeng, 1973</a>)</span>. His subjects were given four lists of 10 words each. The twist was that after hearing each word, subjects spent 20 seconds counting backwards by 3s from a random starting digit. This was similar to the Postman &amp; Philips manipulation, but the arithmetic was performed after every word, and not just at the end of the list. Counting backwards by 3s was a very demanding task that should occupy and replace the contents of any short-term rehearsal buffer. According to the multi-store model, Tzeng should not have found recency effects in this experiment, but he did.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fig-8Tzeng_1973" class="quarto-figure quarto-figure-center anchored" width="50%">
+<div id="fig-8Tzeng1973" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-8Tzeng_1973-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-8Tzeng1973-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="imgs/Tzeng_1973.jpg" class="img-fluid figure-img" style="width:50.0%">
 </div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-8Tzeng_1973-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-8Tzeng1973-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;14: Results from <span class="citation" data-cites="tzengPositiveRecencyEffect1973">Tzeng (<a href="#ref-tzengPositiveRecencyEffect1973" role="doc-biblioref">1973</a>)</span> showing evidence of long-term recency effects.
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p><a href="#fig-8Tzeng_1973" class="quarto-xref">Figure&nbsp;14</a> shows Tzeng’s results for initial and final recall. Initial recall is the solid line, and refers to the results of free recall tests performed right after encoding each list of 10 words (with 20 seconds of backwards counting for each word). There were four initial recall tests, one after each list. At the end of all four tests, there was a surprise final recall test, where subjects were asked to recall as many words as they could from all the lists. Final recall is the dashed line. Recency effects were obtained in both initial and final recall tests.</p>
+<p><a href="#fig-8Tzeng1973" class="quarto-xref">Figure&nbsp;14</a> shows Tzeng’s results for initial and final recall. Initial recall is the solid line, and refers to the results of free recall tests performed right after encoding each list of 10 words (with 20 seconds of backwards counting for each word). There were four initial recall tests, one after each list. At the end of all four tests, there was a surprise final recall test, where subjects were asked to recall as many words as they could from all the lists. Final recall is the dashed line. Recency effects were obtained in both initial and final recall tests.</p>
 <p>In 1977, Baddeley and Hitch <span class="citation" data-cites="baddeleyRecencyReexamined1977">(<a href="#ref-baddeleyRecencyReexamined1977" role="doc-biblioref">Baddeley &amp; Hitch, 1977</a>)</span> reviewed several additional examples of recency effects that were not easily explained by a short-term rehearsal buffer. One example was from naturalistic data they collected from rugby players. Near the end of a season, rugby players were asked to recall the names of teams they had played in previous games. The data showed a prominent recency effect, roughly as a function of number of intervening games. The players were more likely to recall teams from more recent games than more remote games. These kinds of findings suggested a role for long-term memory to produce recency effects, and that short-term rehearsal was not the sole explanation for recency effects.</p>
 </section>
 </section>
@@ -1118,7 +1147,7 @@ According to the model, the primacy effect
 
 
 
-</div></section><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">8.8.1 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+</div></section><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">8.8.1 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-atkinsonHumanMemoryProposed1968" class="csl-entry" role="listitem">
 Atkinson, R. C., &amp; Shiffrin, R. M. (1968). Human memory: <span>A</span> proposed system and its control processes. In <em>Psychology of learning and motivation</em> (Vol. 2, pp. 89–195). <span>Elsevier</span>.
 </div>
@@ -1167,7 +1196,7 @@ Von Restorff, H. (1933). Über die wirkung von bereichsbildungen im spurenfeld. 
 <div id="ref-zeigarnikFinishedUnfinishedTasks1968" class="csl-entry" role="listitem">
 Zeigarnik, B. W. (1968). On finished and unfinished tasks (<span>WD Ellis</span>, <span>Trans</span>.). <em>History of Psychology: A Source Book in Systematic Psychology</em>, 441–444.
 </div>
-</div></section><aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
 <li id="fn1"><p>sometimes still used today<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
@@ -1175,13 +1204,12 @@ Zeigarnik, B. W. (1968). On finished and unfinished tasks (<span>WD Ellis</span>
 <li id="fn3"><p>Each dot represents practice attempts for sets of rows that would be paired with delays to test forgetting and relearning<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn4"><p>an expression referring to skills that are supposedly learned once and not forgotten<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</aside><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@incollection{crump2021,
+</section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@incollection{crump2021,
   author = {Crump, Matthew J. C.},
   editor = {Crump, Matthew J. C.},
   title = {Memory {I}},
   booktitle = {Instances of Cognition: Questions, Methods, Findings,
     Explanations, Applications, and Implications},
-  pages = {undefined},
   date = {2021-09-01},
   url = {https://crumplab.com/cognition/textbook},
   langid = {en},
@@ -1193,7 +1221,7 @@ Zeigarnik, B. W. (1968). On finished and unfinished tasks (<span>WD Ellis</span>
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-crump2021" class="csl-entry quarto-appendix-citeas" role="listitem">
 Crump, M. J. C. (2021). Memory I. In M. J. C. Crump (Ed.), <em>Instances
 of Cognition: Questions, Methods, Findings, Explanations, Applications,
-and Implications</em> (p. undefined). <a href="https://crumplab.com/cognition/textbook">https://crumplab.com/cognition/textbook</a>
+and Implications</em>. <a href="https://crumplab.com/cognition/textbook">https://crumplab.com/cognition/textbook</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -1323,38 +1351,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -1363,8 +1381,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
-      return note.innerHTML;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {
@@ -1593,7 +1618,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/CrumpLab/cognition/edit/main/textbook/C8_Memory_I.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CrumpLab/cognition/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

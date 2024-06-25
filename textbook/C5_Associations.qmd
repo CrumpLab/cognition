@@ -17,6 +17,9 @@ bibliography: 'CogPsyTextbook.bib'
 image: "imgs/cover.jpg"
 csl: apa.csl
 toc-depth: 4
+format: 
+  html: default
+  pdf: default
 citation:
   type: chapter
   title: "Associations"

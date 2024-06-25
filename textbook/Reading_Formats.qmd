@@ -4,7 +4,7 @@ author: "Matthew J. C. Crump"
 image: "imgs/cover.jpg"
 ---
 
-This book is currently readable on the web and as a downloadable .pdf. The web version has better formatting and additional content.
+This book is currently readable on the web and the chapters are available as individual downloadable pdfs. The web version has better formatting and additional content.
 
 ## Web-version
 
@@ -14,14 +14,5 @@ This book was written with the web in mind, and may contain additional features 
 
 ## PDF version
 
-The pdf version of this book is available, but may be missing some features not available in hard copy (e.g., videos, audio, animations etc.). Also, the pdf has some remaining formatting issues. Nevertheless, it is available here:
+The pdf versions of each chapter are available as individual downloads from each chapter page in the online book (see the right-side navigation). The pdfs may be missing some features (e.g., videos, audio, animations etc.). Also, the pdfs may have some formatting issues.
 
-<https://github.com/CrumpLab/cognition/raw/main/docs/textbook/book/Instances-of-Cognition.pdf>
-
-Instances-of-Cognition--Questions,-Methods,-Findings,-Explanations,-Applications,-and-Implications.pdf
-
-## EPUB version
-
-The epub version of this book is available, but may be missing some features not available in hard copy (e.g., videos, audio, animations etc.). The epub version may also have unexpected formatting issues. Nevertheless, it is available here:
-
-<https://github.com/CrumpLab/cognition/raw/main/docs/textbook/book/Instances-of-Cognition.epub>
